@@ -216,3 +216,80 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+d a t a / r e a l _ r e s u m e s / o r i g i n a l / * 
+ 
+ ! d a t a / r e a l _ r e s u m e s / o r i g i n a l / . g i t k e e p 
+ 
+ d a t a / r e a l _ r e s u m e s / e x t r a c t e d _ t e x t / * 
+ 
+ ! d a t a / r e a l _ r e s u m e s / e x t r a c t e d _ t e x t / . g i t k e e p 
+ 
+ d a t a / r e a l _ r e s u m e s / m e t a d a t a / * 
+ 
+ ! d a t a / r e a l _ r e s u m e s / m e t a d a t a / . g i t k e e p 
+ 
+ o u t p u t / e x t r a c t i o n / * 
+ 
+ ! o u t p u t / e x t r a c t i o n / . g i t k e e p 
+ 
+ o u t p u t / s e c t i o n _ d i s c o v e r y / * 
+ 
+ ! o u t p u t / s e c t i o n _ d i s c o v e r y / . g i t k e e p 
+ 
+ o u t p u t / s e c t i o n s / * 
+ 
+ ! o u t p u t / s e c t i o n s / . g i t k e e p 
+ 
+ o u t p u t / q u a l i t y _ c h e c k s / * 
+ 
+ ! o u t p u t / q u a l i t y _ c h e c k s / . g i t k e e p 
+ 
+ o u t p u t / p r o f i l e s / * 
+ 
+ ! o u t p u t / p r o f i l e s / . g i t k e e p 
+ 
+ o u t p u t / e v a l u a t i o n / * 
+ 
+ ! o u t p u t / e v a l u a t i o n / . g i t k e e p 
+
+# -------------------------------
+# Project private resume data
+# -------------------------------
+
+# Original resumes contain personal data
+data/real_resumes/original/*
+!data/real_resumes/original/.gitkeep
+
+# Extracted resume text contains personal data
+data/real_resumes/extracted_text/*
+!data/real_resumes/extracted_text/.gitkeep
+
+# Metadata may contain file paths and candidate-related info
+data/real_resumes/metadata/*
+!data/real_resumes/metadata/.gitkeep
+
+# Generated outputs may contain candidate data
+output/extraction/*
+!output/extraction/.gitkeep
+
+output/section_discovery/*
+!output/section_discovery/.gitkeep
+
+output/sections/*
+!output/sections/.gitkeep
+
+output/quality_checks/*
+!output/quality_checks/.gitkeep
+
+output/profiles/*
+!output/profiles/.gitkeep
+
+output/evaluation/*
+!output/evaluation/.gitkeep
+
+# Old generated real-resume outputs
+output/real_canonical_candidate_profiles.csv
+output/real_canonical_candidate_profiles.json
+output/real_resume_line_predictions.csv
+ 
+ 
