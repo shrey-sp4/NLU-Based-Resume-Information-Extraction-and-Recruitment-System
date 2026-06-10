@@ -284,8 +284,11 @@ output/quality_checks/*
 output/profiles/*
 !output/profiles/.gitkeep
 
-output/evaluation/*
+# Evaluation outputs are safe to push if they contain only aggregate/anonymized metrics
+!output/evaluation/
 !output/evaluation/.gitkeep
+!output/evaluation/*.csv
+!output/evaluation/*.md
 
 # Old generated real-resume outputs
 output/real_canonical_candidate_profiles.csv

@@ -1,0 +1,4 @@
+stage,total_items,pass_count,review_count,pass_rate
+PDF text extraction,40,36,4,0.9
+Section segmentation quality,40,29,11,0.725
+Candidate profile quality,40,31,9,0.775

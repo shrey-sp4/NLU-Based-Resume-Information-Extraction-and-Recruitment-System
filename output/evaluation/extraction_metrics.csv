@@ -1,0 +1,2 @@
+metric,total_resumes,pass_count,review_count,other_count,pass_rate,review_rate
+pdf_text_extraction,40,36,4,0,0.9,0.1

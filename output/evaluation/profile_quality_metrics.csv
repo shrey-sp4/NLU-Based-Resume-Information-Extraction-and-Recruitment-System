@@ -1,0 +1,2 @@
+metric,total_profiles,pass_count,review_count,other_count,pass_rate,review_rate,suspicious_name_count,suspicious_or_missing_email_count,suspicious_or_missing_phone_count,missing_education_count,missing_experience_and_publications_count
+candidate_profile_quality,40,31,9,0,0.775,0.225,3,1,4,0,2
