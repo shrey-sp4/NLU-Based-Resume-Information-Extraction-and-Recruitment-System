@@ -1,0 +1,497 @@
+{
+  "personal_details": {
+    "name": "Dr. Chandan Patra",
+    "email": "Rchandanpatra9696@gmail.com, chandanpatra9696@gmail.com",
+    "phone": "(+91)9609513143",
+    "address": "",
+    "linkedin": "",
+    "website": "http://home.iiserb.ac.in/~rpsingh/index.html",
+    "orcid": "",
+    "google_scholar": "https://scholar.google.com/citations?user=zyOIDpIAAAAJ&hl=en",
+    "researchgate": "https://www.researchgate.net/profile/Chandan-Patra"
+  },
+
+  "summary": [
+    "Research Scholar, Department of Physics. S. N. Bose National Centre for Basic Sciences, Kolkata"
+  ],
+
+  "education": [
+    {
+      "degree": "Post Doctoral Research Associate",
+      "field": "",
+      "institution": "S. N. Bose National Centre for Basic Sciences",
+      "duration": "21st February, 2024.",
+      "grade": "",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Ph.D.",
+      "field": "",
+      "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+      "duration": "28th December 2023.",
+      "grade": "",
+      "thesis": "Unconventional Superconducting Properties of Layered Chalcogenides",
+      "advisor": ""
+    },
+    {
+      "degree": "M.Sc.",
+      "field": "Physics",
+      "institution": "Indian Institute of Science Education and Research Bhopal (IISER Bhopal)",
+      "duration": "2016-2019",
+      "grade": "8.61 out of 10 CPI",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "B.Sc.",
+      "field": "Physics",
+      "institution": "Vidyasagar University (Midnapore College)",
+      "duration": "2013-2016",
+      "grade": "70.60%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Higher Secondary (10+2)",
+      "field": "",
+      "institution": "West Bengal Council of Higher Secondary Education",
+      "duration": "2011-2013",
+      "grade": "82.00%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Secondary (10)",
+      "field": "",
+      "institution": "West Bengal Council of Secondary Education",
+      "duration": "2009-2011",
+      "grade": "81.70%",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+
+  "experience": [],
+
+  "research_interests": [
+    "Low dimensional superconducting materials.",
+    "Topological superconductor.",
+    "Strongly correlated electron system.",
+    "Magnetism and magnetotransport in 2D van der Waals (vdW) materials."
+  ],
+
+  "skills": [
+    "Physical Property Measurement System (PPMS)",
+    "Quantum Design SQUID Magnetometer",
+    "X’pert Pro PANalytical diffractometer",
+    "Laue Diffractometer",
+    "High temperature box and tubular furnaces",
+    "Vacuum pumps and cryogenic Operating Systems",
+    "TEM",
+    "SEM",
+    "EDAX",
+    "Glove Box",
+    "Single-arc furnace",
+    "Optical Floating zone",
+    "Tetra-arc furnace",
+    "Flux method",
+    "Chemical vapour transport method",
+    "Glassblowing and Vacuum sealing",
+    "C",
+    "Fortran",
+    "Mathematica",
+    "Matlab",
+    "Origin",
+    "Igor",
+    "Full Prof",
+    "High Score Plus",
+    "Wimda",
+    "Mantid for μSR data analysis",
+    "Crystal Maker",
+    "Jana 2006",
+    "Windows",
+    "Linux",
+    "MS Office",
+    "LATEX"
+  ],
+
+  "projects": [],
+
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Two-dimensional multigap superconductivity in bulk 2H-TaSeS",
+        "authors": [
+          "C. Patra",
+          "T. Agarwal",
+          "Rajeshwari R. Chaudhari",
+          "R. P. Singh"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "106",
+        "issue": "",
+        "pages": "134515",
+        "doi": ""
+      },
+      {
+        "title": "Planar Hall effect and quasi-2D anisotropic superconductivity in topological candidate 1T-NbSeTe",
+        "authors": [
+          "C. Patra",
+          "T. Agarwal",
+          "S. Srivastava",
+          "R. R. Chowdhury",
+          "M. P. Saravanan",
+          "R. P. Singh"
+        ],
+        "journal": "Adv. Quantum Technol.",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "2300448",
+        "doi": ""
+      },
+      {
+        "title": "Skyrmion lattice structures and modification of emergent magnetic field with Co-doping in uniaxial van der Waals Fe3GeTe2",
+        "authors": [
+          "Rajeswari Roy Chowdhury",
+          "Samik DuttaGupta",
+          "Chandan Patra",
+          "Oleg A. Tretiakov",
+          "Sudarshan Sharma",
+          "Shunsuke Fukami",
+          "Hideo Ohno",
+          "Ravi Prakash Singh"
+        ],
+        "journal": "Scientific reports",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "11",
+        "issue": "",
+        "pages": "1",
+        "doi": ""
+      },
+      {
+        "title": "Modification of unconventional Hall effect with doping at the nonmagnetic site in a 2D van der Waals ferromagnet",
+        "authors": [
+          "Rajeswari Roy Chowdhury",
+          "Chandan Patra",
+          "Samik DuttaGupta",
+          "Sayooj Satheesh",
+          "Shovan Dan",
+          "Shunsuke Fukami",
+          "Ravi Prakash Singh"
+        ],
+        "journal": "Phys. Rev. Materials",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "6",
+        "issue": "",
+        "pages": "014002",
+        "doi": ""
+      },
+      {
+        "title": "Anisotropic magnetotransport in the layered antiferromagnet TaFe1.25Te3",
+        "authors": [
+          "Rajeswari Roy Chowdhury",
+          "Samik DuttaGupta",
+          "Chandan Patra",
+          "Anshu Kataria",
+          "Shunsuke Fukami",
+          "Ravi Prakash Singh"
+        ],
+        "journal": "Phys. Rev. Materials",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "6",
+        "issue": "",
+        "pages": "084408",
+        "doi": ""
+      },
+      {
+        "title": "Quasi-two-dimensional anisotropic superconductivity in Li-intercalated 2H-TaS2",
+        "authors": [
+          "T. Agarwal",
+          "C. Patra",
+          "A. Kataria",
+          "Rajeswari R. Chowdhury",
+          "R. P. Singh"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "107",
+        "issue": "",
+        "pages": "174509",
+        "doi": ""
+      },
+      {
+        "title": "Superconducting ground state of nonsymmorphic superconducting compound Zr2Ir",
+        "authors": [
+          "Manasi Mandal",
+          "Chandan Patra",
+          "Anshu Kataria",
+          "D. Singh",
+          "P. K. Biswas",
+          "J. S. Lord",
+          "A. D. Hillier",
+          "R. P. Singh"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "104",
+        "issue": "",
+        "pages": "054509",
+        "doi": ""
+      },
+      {
+        "title": "Spin-polarized supercurrent through the van der Waals Kondo-lattice ferromagnet Fe3GeTe2",
+        "authors": [
+          "Deepti Rana",
+          "Aswini R",
+          "Basavaraja G",
+          "Chandan Patra",
+          "Sandeep Howlader",
+          "Rajeswari Roy Chowdhury",
+          "Mukul Kabir",
+          "Ravi P. Singh",
+          "Goutam Sheet"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "106",
+        "issue": "",
+        "pages": "085120",
+        "doi": ""
+      },
+      {
+        "title": "Superconductivity in doped Weyl semimetal Mo0.9Ir0.1Te2 with broken inversion symmetry",
+        "authors": [
+          "Manasi Mandal",
+          "Chandan Patra",
+          "Anshu Kataria",
+          "Suvodeep Paul",
+          "Surajit Saha",
+          "R P Singh"
+        ],
+        "journal": "Supercond. Sci. Technol.",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "35",
+        "issue": "",
+        "pages": "025011",
+        "doi": ""
+      },
+      {
+        "title": "Superconductivity in noncentrosymmetric NbReSi investigated by muon spin rotation and relaxation",
+        "authors": [
+          "Sajilesh K. P.",
+          "K. Motla",
+          "P. K. Meena",
+          "A. Kataria",
+          "C. Patra",
+          "Somesh K.",
+          "A. D. Hillier",
+          "R. P. Singh"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "105",
+        "issue": "",
+        "pages": "094523",
+        "doi": ""
+      },
+      {
+        "title": "Time-reversal symmetry breaking in frustrated superconductor Re2Hf",
+        "authors": [
+          "Manasi Mandal",
+          "Anshu Kataria",
+          "Chandan Patra",
+          "D. Singh",
+          "P. K. Biswas",
+          "A. D. Hillier",
+          "Tanmoy Das",
+          "R. P. Singh"
+        ],
+        "journal": "Phys. Rev. B",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "105",
+        "issue": "",
+        "pages": "094513",
+        "doi": ""
+      }
+    ],
+
+    "conference_papers": [],
+    "conference_proceedings": [],
+    "communications": [],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": [
+      {
+        "title": "Superconducting Properties of Topological Semimetal 1T-RhSeTe",
+        "authors": [
+          "C. Patra",
+          "T. Agarwal",
+          "Arushi",
+          "P. Manna",
+          "N. Bhatt",
+          "R. S. Singh",
+          "R. P. Singh"
+        ],
+        "journal": "arXiv:2311.01019v1",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      }
+    ]
+  },
+
+  "patents": [],
+
+  "grants": [],
+
+  "awards": [
+    {
+      "title": "Institute Fellowship (MS Course)",
+      "organization": "IISER Bhopal, India",
+      "year": "2016-2019"
+    },
+    {
+      "title": "Inspire Scholarship",
+      "organization": "India",
+      "year": "2013-2016"
+    },
+    {
+      "title": "Junior Research Fellowship",
+      "organization": "IISER Bhopal, India",
+      "year": "2019-2021"
+    },
+    {
+      "title": "Senior Research Fellowship",
+      "organization": "IISER Bhopal, India",
+      "year": "2021-2023"
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "Joint Entrance Screening Test (JEST)",
+      "issuer": "",
+      "year": "2016"
+    },
+    {
+      "title": "Joint Admission Test for M.Sc. (JAM)",
+      "issuer": "",
+      "year": "2016"
+    },
+    {
+      "title": "Graduate Aptitude Test in Engineering",
+      "issuer": "",
+      "year": "2020"
+    }
+  ],
+
+  "memberships": [],
+
+  "professional_services": [],
+
+  "responsibilities": [],
+
+  "teaching_experience": [
+  {
+    "position": "",
+    "organization": "",
+    "department": "",
+    "location": "",
+    "duration": "2019-2020",
+    "description": "PHY-103 : General Physics Laboratory- I"
+  },
+  {
+    "position": "",
+    "organization": "",
+    "department": "",
+    "location": "",
+    "duration": "2020-2021",
+    "description": "PHY-406 : Nuclear Physics Laboratory"
+  },
+  {
+    "position": "",
+    "organization": "",
+    "department": "",
+    "location": "",
+    "duration": "2021-2022",
+    "description": "PHY-402 : Atomic and Molecular Physics"
+  },
+  {
+    "position": "",
+    "organization": "",
+    "department": "",
+    "location": "",
+    "duration": "2020-2021",
+    "description": "PHY-101 : Mechanics"
+  }
+],
+
+  "students_supervised": [],
+
+  "references": [
+  {
+    "name": "Dr. Makhanlal Nanda Goswami",
+    "position": "Associate Professor",
+    "department": "Department of Physics",
+    "organization": "Midnapore College (Autonomous)",
+    "address": "West Bengal, India",
+    "phone": "",
+    "email": "makhanlal-nanda.goswami@midnaporecollege.ac.in",
+    "website": ""
+  },
+  {
+    "name": "Dr. Tanusri Pal",
+    "position": "Associate Professor",
+    "department": "Department of Physics",
+    "organization": "Midnapore College (Autonomous)",
+    "address": "West Bengal, India",
+    "phone": "",
+    "email": "tanusripal@midnaporecollege.ac.in",
+    "website": ""
+  }
+],
+
+  "other_sections": [
+    {
+      "title": "Conferences and School",
+      "items": [
+        "UKRI Science and Technology Facilities Council (STFC) Neutron and Muon Source at the Rutherford Appleton Laboratory, Harwell Campus, Didcot, Oxfordshire, UK. For Muon study on 2H-TaSeS single crystal on December 9-18th, 2023.",
+        "KEK-IINAS School / The 5th Neutron and Muon School, J-PARC, Ibaraki, Japan. (December 6-9th, 2021).",
+        "Spectroscopies in Novel Superconductors (SNS), Indian Institute of Science Bangalore, India. (12-16th December 2022).",
+        "Pacific Rim International Conference on Superconducting Materials: Fundamentals and Applications - PRISM, ACCMS-Global Research Center SRMIST, Chennai India and New Industry Creation Hatchery Center, Tohoku University, Japan. September 22-23th (2022).",
+        "In-house Symposium 2019 Department of Physics, IISER Bhopal, 24-25th January 2020.",
+        "National Assembly of Researchers In Physics (NARIPHY), IISER Bhopal, 2022."
+      ]
+    }
+  ]
+}

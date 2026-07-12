@@ -1,0 +1,754 @@
+{
+  "personal_details": {
+    "name": "Dr. Anurag Choudhary",
+    "email": "anurag@hku.hk, anurag.choudhary087@gmail.com",
+    "phone": "+852-44651646(Hong Kong), +91-8534066345(India)",
+    "address": "",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "summary": [
+    "Recognized as a top 2% scientist in 2023 and 2024 by Stanford University and Elsevier"
+  ],
+  "education": [
+    {
+      "degree": "Doctor of Philosophy",
+      "field": "",
+      "institution": "Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India.",
+      "duration": "2020–2024",
+      "grade": "",
+      "thesis": "Development of Fault Diagnostic Strategies for Electric Vehicle Motor.",
+      "advisor": ""
+    },
+    {
+      "degree": "Master of Engineering",
+      "field": "Instrumentation and Control",
+      "institution": "National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India",
+      "duration": "2016–2018",
+      "grade": "7.4 CGPA",
+      "thesis": "Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging.",
+      "advisor": ""
+    },
+    {
+      "degree": "Bachelor of Technology",
+      "field": "Electrical and Electronics Engineering",
+      "institution": "Uttarakhand Technical University (UTU), Dehradun, India",
+      "duration": "2012–2015",
+      "grade": "66.67%",
+      "thesis": "Impedance and Mho Relay Characteristics for Transmission Line Protection using PACSD.",
+      "advisor": ""
+    }
+  ],
+  "experience": [
+    {
+      "position": "Post-doctoral Fellow",
+      "organization": "University of Hong Kong",
+      "department": "Department of Data and Systems Engineering",
+      "location": "Hong Kong",
+      "duration": "Sep’24- Present",
+      "description": ""
+    },
+    {
+      "position": "Junior Research Fellow",
+      "organization": "Indian Institute of Technology Delhi",
+      "department": "Centre for Automotive Research and Tribology",
+      "location": "Hauz Khas, New Delhi, India",
+      "duration": "March’21- Dec’22",
+      "description": ""
+    },
+    {
+      "position": "Project Assistant III",
+      "organization": "CSIR-Central Scientific Instruments Organisation",
+      "department": "Department of Computational Instrumentation",
+      "location": "Chandigarh, India",
+      "duration": "Sep’18- Feb’20",
+      "description": ""
+    },
+    {
+      "position": "Lecturer",
+      "organization": "College of Engineering Roorkee (COER)",
+      "department": "Department of Electrical Engineering",
+      "location": "Roorkee, India",
+      "duration": "Jun’15-Jul’16",
+      "description": ""
+    }
+  ],
+  "research_interests": [
+    "Computational and predictive modeling, for electric vehicle motors",
+    "Model and data-driven-based diagnosis and prognosis",
+    "On-board diagnosis of rotating machines",
+    "Algorithm development using machine learning methods"
+  ],
+  "skills": [
+    {"category": "Programming skills", "description": "Familiar with open source and Generative AI models: ChatGPT, GAN, deep learning and machine learning skills frameworks: PyTorch, Scikit-learn, Pandas, NumPy, Numba, Tkinter etc."},
+    {"category": "Boards", "description": "Arduino, 8051, Raspberry Pi, NVIDIA Jetson Nano, LattePanda, Intel NUC Board"},
+    {"category": "Engineering Tools", "description": "MATLAB, LabVIEW, PSCAD, NODE-RED, ANSYS Maxwell Tools"}
+  ],
+  "projects": [
+    {
+      "title": "IIT Delhi-Adani Green Energy Limited Project Collaboration",
+      "duration": "",
+      "description": "This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine",
+      "advisor": "",
+      "funding": ""
+    },
+    {
+      "title": "IIT Delhi-Tata Steel Project Collaboration",
+      "duration": "",
+      "description": "This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors",
+      "advisor": "",
+      "funding": ""
+    },
+    {
+      "title": "IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration",
+      "duration": "",
+      "description": "Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles",
+      "advisor": "",
+      "funding": ""
+    }
+  ],
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Multi-modal Fusion Based Fault Diagnosis of Electric Vehicle Motor for Sustainable Transportation",
+        "authors": ["Anurag Choudhary", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "IEEE Transactions on Transportation Electrification",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "2024",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "State of the Art Technologies in Fault Diagnosis of Electric Vehicles: A Component-Based Review",
+        "authors": ["Anurag Choudhary", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "IEEE Transactions on Transportation Electrification",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "2023",
+        "volume": "9",
+        "issue": "2",
+        "pages": "2324-2347",
+        "doi": ""
+      },
+      {
+        "title": "Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection using Machine Learning",
+        "authors": ["T. Mian", "A. Choudhary", "S. Fatima"],
+        "journal": "IEEE Transactions on Industry Applications",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1109/TIA.2023.3286833"
+      },
+      {
+        "title": "Fault Diagnosis of Electric Two-Wheeler under Pragmatic Operating Conditions using Wavelet Synchrosqueezing Transform and CNN",
+        "authors": ["Anurag Choudhary", "Tauheed Mian", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "IEEE Sensors Journal",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1109/JSEN.2023.3239383"
+      },
+      {
+        "title": "Passive Thermography Based Bearing Fault Diagnosis using Transfer Learning with Varying Working Conditions",
+        "authors": ["Anurag Choudhary", "Tauheed Mian", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "IEEE Sensors Journal",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1109/JSEN.2022.3164430"
+      },
+      {
+        "title": "Infrared Thermography Based Fault Diagnosis of Bearings using Machine Learning",
+        "authors": ["Anurag Choudhary", "Deepam Goyal", "Sudha Letha Shimi"],
+        "journal": "IEEE Sensors Journal",
+        "conference": "",
+        "publisher": "IEEE",
+        "year": "2020",
+        "volume": "21",
+        "issue": "2",
+        "pages": "1727-1734",
+        "doi": ""
+      },
+      {
+        "title": "Review of Recent Trends of Advancements in Multilevel Inverter Topologies with Reduced Power Switches and Control Techniques",
+        "authors": ["Choudhary, A.", "Kumar, R.", "Letha, S. S.", "Bakhsh, F. I.", "Singh, A.", "Khan, M. J."],
+        "journal": "IET Power Electronics",
+        "conference": "",
+        "publisher": "",
+        "year": "2024",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Nature-inspired Artificial Bee Colony-based Hyperparameter Optimization of CNN for Anomaly Detection in Induction Motor",
+        "authors": ["Anurag Choudhary", "Tauheed Mian", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "Expert Systems",
+        "conference": "",
+        "publisher": "Wiley",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1111/exsy.13407"
+      },
+      {
+        "title": "Artificial Intelligence of Things based Approach for Anomaly Detection in Rotating Machines",
+        "authors": ["Tauheed Mian", "Anurag Choudhary", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "Computers & Electrical Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "109",
+        "issue": "Part A",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Multifault Diagnosis of Rotating Machine Under Uncertain Speed Conditions",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "S. Fatima", "A.R. Mohanty", "B.K. Panigrahi"],
+        "journal": "Journal of Vibration Engineering & Technologies",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1007/s42417-023-01141-x"
+      },
+      {
+        "title": "A Generalized Method for Diagnosing Multi-Faults in Rotating Machines Using Imbalance Datasets of Different Sensor Modalities",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "S. Fatima", "B.K. Panigrahi"],
+        "journal": "Engineering Applications of Artificial Intelligence",
+        "conference": "",
+        "publisher": "",
+        "year": "2024",
+        "volume": "132",
+        "issue": "",
+        "pages": "107973",
+        "doi": ""
+      },
+      {
+        "title": "A Fault Diagnosis Approach Based On 2D Vibration Imaging for Bearing Faults",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "S. Fatima", "A.R. Mohanty", "B.K. Panigrahi"],
+        "journal": "Journal of Vibration Engineering & Technologies",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1007/s42417-022-00735-1"
+      },
+      {
+        "title": "An Efficient Diagnosis Approach for Bearing Faults Using Sound Quality Metrics",
+        "authors": ["Anurag Choudhary", "Shahab Fatima"],
+        "journal": "Applied Acoustics",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "195",
+        "issue": "",
+        "pages": "108839",
+        "doi": ""
+      },
+      {
+        "title": "Vibration and Infrared Thermography Based Multiple Fault Diagnosis of Bearing Using Deep Learning",
+        "authors": ["Tauheed Mian", "Anurag Choudhary", "S. Fatima"],
+        "journal": "Non-destructive Testing and Evaluation",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "1-22",
+        "doi": ""
+      },
+      {
+        "title": "A Self-adaptive Multiple Fault Diagnosis System for Rolling Element Bearing",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "S. Fatima", "A.R. Mohanty", "B.K. Panigrahi"],
+        "journal": "Measurement Science and Technology",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1088/1361-6501/ac8ca8"
+      },
+      {
+        "title": "An Intelligent Bearing Fault Diagnosis Based on Hybrid Signal Processing and Henry Gas Solubility Optimization",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "A.R. Mohanty", "S. Fatima"],
+        "journal": "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "1-14",
+        "doi": "10.1177/09544062221101737"
+      },
+      {
+        "title": "A Sensor Fusion Based Approach for Bearing Fault Diagnosis of Rotating Machine",
+        "authors": ["Tauheed Mian", "Anurag Choudhary", "S. Fatima"],
+        "journal": "Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "",
+        "issue": "",
+        "pages": "1748006X211044843",
+        "doi": ""
+      },
+      {
+        "title": "Convolutional Neural Network Based Bearing Fault Diagnosis of Rotating Machine Using Thermal Images",
+        "authors": ["Anurag Choudhary", "Tauheed Mian", "S. Fatima"],
+        "journal": "Measurement",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "",
+        "issue": "",
+        "pages": "109196",
+        "doi": ""
+      },
+      {
+        "title": "Machine Learning-Based Fault Diagnosis of Self-Aligning Bearings for Rotating Machinery Using Infrared Thermography",
+        "authors": ["Ankush Mehta", "Deepam Goyal", "Anurag Choudhary", "B. S. Pabla", "Safya Belghith"],
+        "journal": "Mathematical Problems in Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "",
+        "issue": "",
+        "pages": "Article ID 9947300",
+        "doi": "10.1155/2021/9947300"
+      },
+      {
+        "title": "PV-Grid based Electric Vehicle Charging Station with Modified Interleaved Boost Converter",
+        "authors": ["Renu Verma", "Arshdeep Singh", "Anurag Choudhary", "Shimi Sudha Letha"],
+        "journal": "Australian Journal of Electrical and Electronics Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "18",
+        "issue": "4",
+        "pages": "277-287",
+        "doi": "10.1080/1448837X.2021.1977451"
+      },
+      {
+        "title": "Support Vector Machines Based Non-Contact Fault Diagnosis System for Bearings",
+        "authors": ["Deepam Goyal", "Anurag Choudhary", "S. Pabla", "S. S. Dhami"],
+        "journal": "Journal of Intelligent Manufacturing",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1007/s10845-019-01511-x"
+      },
+      {
+        "title": "Condition Monitoring and Fault Diagnosis of Induction Motors: A Review",
+        "authors": ["Anurag Choudhary", "Deepam Goyal", "Sudha Letha Shimi", "Aparna Akula"],
+        "journal": "Archives of Computational Methods in Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2018",
+        "volume": "26",
+        "issue": "4",
+        "pages": "1221-1238",
+        "doi": ""
+      }
+    ],
+    "conference_papers": [],
+    "conference_proceedings": [
+      {
+        "title": "Fault Diagnosis of Ball Bearing Using Low-Cost Edge Device and Deep",
+        "authors": ["Mian, T.", "Choudhary, A.", "Fatima, S."],
+        "journal": "",
+        "conference": "Recent Advances in Machines, Mechanisms, Materials and Design: Select Proceedings of iNaCoMM 2023",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "435",
+        "doi": ""
+      },
+      {
+        "title": "Thermography-based Fault Identification in Induction Motor across Dynamic Speed Conditions",
+        "authors": ["Anurag Choudhary", "T. Mian", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "",
+        "conference": "2023 IEEE 49th Annual Conference of the IEEE Industrial Electronics Society (IES)",
+        "publisher": "IEEE",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Realistic Condition-based Anomaly Detection of Multi-faults in Rotating Machines",
+        "authors": ["R. K. Mishra", "Anurag Choudhary", "A. R. Mohanty", "S. Fatima", "B. K. Panigrahi"],
+        "journal": "",
+        "conference": "2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT)",
+        "publisher": "IEEE",
+        "year": "2024",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      [
+    {
+      "title": "Multi Sensor based Bearing Fault Diagnosis of Switched Reluctance Motor for Electric Vehicle",
+      "authors": [
+        "Anurag Choudhary",
+        "Tauheed Mian",
+        "S. Fatima",
+        "B. K. Panigrahi"
+      ],
+      "journal": "",
+      "conference": "6th International Conference on Electronics, Communications and Control Engineering (ICECC 2023)",
+      "publisher": "",
+      "year": "2023",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Mel-spectrogram Based Approach for Fault Detection in Ball Bearing using Convolutional Neural Network",
+      "authors": [
+        "Tauheed Mian",
+        "Anurag Choudhary",
+        "S. Fatima",
+        "B. K. Panigrahi"
+      ],
+      "journal": "",
+      "conference": "The 6th International Conference on Electronics, Communications and Control Engineering (ICECC 2023)",
+      "publisher": "",
+      "year": "2023",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Deep Transfer Learning Based Fault Diagnosis of Electric Vehicle Motor",
+      "authors": [
+        "A. Choudhary",
+        "T. Mian",
+        "S. Fatima",
+        "B. K. Panigrahi"
+      ],
+      "journal": "",
+      "conference": "2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES)",
+      "publisher": "IEEE",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "1-6",
+      "doi": "10.1109/PEDES56012.2022.10080274"
+    },
+    {
+      "title": "Passive Thermal Imaging-based Fault Detection in Induction Motor Under Varying Speed Conditions",
+      "authors": [
+        "Anurag Choudhary",
+        "S. Fatima",
+        "B. K. Panigrahi"
+      ],
+      "journal": "",
+      "conference": "2022 IEEE 2nd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT)",
+      "publisher": "IEEE",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "1-6",
+      "doi": "10.1109/SeFeT55524.2022.9909221"
+    },
+    {
+      "title": "Sound Signal Based Gear Fault Diagnosis Under Varying Working Conditions",
+      "authors": [
+        "T. Mian",
+        "Anurag Choudhary",
+        "S. Fatima"
+      ],
+      "journal": "",
+      "conference": "28th International Congress on Sound and Vibration (ICSV28)",
+      "publisher": "",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "A Comparative Study of Time-Frequency Analysis for The Application of Fault Diagnosis System",
+      "authors": [
+        "R. K. Mishra",
+        "Anurag Choudhary",
+        "A. R. Mohanty",
+        "S. Fatima"
+      ],
+      "journal": "",
+      "conference": "28th International Congress on Sound and Vibration (ICSV28)",
+      "publisher": "",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Fault Diagnosis of Induction Motor Under Varying Operating Condition for Electric Vehicle",
+      "authors": [
+        "Anurag Choudhary",
+        "R.K. Mishra",
+        "S. Fatima",
+        "B.K. Panigrahi"
+      ],
+      "journal": "",
+      "conference": "2022 IEEE IAS Global Conference on Emerging Technologies (GlobConET)",
+      "publisher": "IEEE",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Performance Evaluation of Support Vector Machine for System Level Multi-fault Diagnosis",
+      "authors": [
+        "R.K. Mishra",
+        "Anurag Choudhary",
+        "A.R. Mohanty",
+        "S. Fatima"
+      ],
+      "journal": "",
+      "conference": "2022 Prognostics and Health Management Conference (PHM-2022)",
+      "publisher": "",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "113-118",
+      "doi": ""
+    },
+    {
+      "title": "Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection Using Machine Learning",
+      "authors": [
+        "Tauheed Mian",
+        "Anurag Choudhary",
+        "S. Fatima"
+      ],
+      "journal": "",
+      "conference": "IEEE International Conference on Power Electronics, Smart Grid, and Renewable Energy (PESGRE22)",
+      "publisher": "IEEE",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "1-6",
+      "doi": ""
+    },
+    {
+      "title": "Multi-domain Bearing Fault Diagnosis using Support Vector Machine",
+      "authors": [
+        "R.K. Mishra",
+        "Anurag Choudhary",
+        "A.R. Mohanty",
+        "S. Fatima"
+      ],
+      "journal": "",
+      "conference": "IEEE 4th International Conference on Computing, Power and Communication Technologies (GUCON)",
+      "publisher": "IEEE",
+      "year": "2021",
+      "volume": "",
+      "issue": "",
+      "pages": "1-6",
+      "doi": ""
+    },
+    {
+      "title": "Application of Wavelet Analysis in Condition Monitoring of Induction Motors",
+      "authors": [
+        "Amandeep Sharma",
+        "Anurag Choudhary",
+        "Pankaj Verma",
+        "Lini Mathew",
+        "S. Chatterji"
+      ],
+      "journal": "Lecture Notes in Mechanical Engineering",
+      "conference": "International Conference on Emerging Trends in Electro-Mechanical Technologies and Management",
+      "publisher": "",
+      "year": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Condition Monitoring of Induction Motor using Internet of Things",
+      "authors": [
+        "Anurag Choudhary",
+        "Shefali Jamwal",
+        "Deepam Goyal",
+        "Rajeev Kumar Dang",
+        "Shankar Sehgal"
+      ],
+      "journal": "Recent Advances in Mechanical Engineering. Lecture Notes in Mechanical Engineering",
+      "conference": "",
+      "publisher": "Springer, Singapore",
+      "year": "2020",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1007/978-981-15-1071-730"
+    }
+]
+    ],
+    "communications": [],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": []
+  },
+  "patents": [
+    {
+      "title": "Two-Wheeler Electric Vehicle Fault Simulator",
+      "patent_number": "202311064917",
+      "year": "2023",
+      "status": ""
+    },
+    {
+      "title": "On-Board Fault Diagnosis of Electric vehicle Motor",
+      "patent_number": "",
+      "year": "",
+      "status": "Communicated"
+    }
+  ],
+  "grants": [],
+  "awards": [
+    {
+      "title": "Research Scholar Travel Award of Rs.1, 50,000",
+      "organization": "IIT Delhi",
+      "year": ""
+    },
+    {
+      "title": "Research Excellence Travel Award of Rs.1, 50,000",
+      "organization": "IIT Delhi",
+      "year": ""
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Artificial Neural Network and Convolutional Neural Network",
+      "issuer": "NITTTR",
+      "year": ""
+    },
+    {
+      "title": "Artificial Intelligence and Machine Learning",
+      "issuer": "IEEE-ACSIR-CSIO",
+      "year": ""
+    },
+    {
+      "title": "Machine Intelligence and Deep Learning: An Interdisciplinary Perspective",
+      "issuer": "CSIR-CSIO",
+      "year": ""
+    },
+    {
+      "title": "Design and Analysis of Electric Motors using ANSYS Maxwell",
+      "issuer": "NITTTR",
+      "year": ""
+    }
+  ],
+  "memberships": [
+    "Institute of Electrical and Electronics Engineers",
+    "IEEE Industrial Electronics Society",
+    "IEEE Industry Applications Society",
+    "International Engineers’ Association, Hong Kong"
+  ],
+  "professional_services": [
+    "Reviewer to Peer Reviewed Journals: IEEE Transactions on Industrial Electronics, IEEE Transactions on Cybernetics, IEEE Transactions on Instrumentation & Measurement, and many more than 50+."
+  ],
+  "responsibilities": [
+    {
+      "title": "Teaching Assistant",
+      "organization": "Center for Automotive Research and Tribology, IIT Delhi",
+      "duration": "",
+      "description": "Maintenance Planning and Control, Automotive Noise and Condition Monitoring"
+    }
+    
+  ],
+  "teaching_experience": [
+    {
+      "position": "Lecturer",
+      "organization": "College of Engineering Roorkee (COER)",
+      "department": "Department of Electrical Engineering",
+      "location": "Roorkee, India",
+      "duration": "",
+      "description": ""
+    }
+  ],
+  "students_supervised": [],
+  "references": [
+  {
+    "name": "Prof. B. K. Panigrahi",
+    "position": "Professor HAG",
+    "department": "Department of Electrical Engineering",
+    "organization": "IIT Delhi",
+    "address": "",
+    "phone": "+91-9582782220",
+    "email": "bkpanigrahi@iitd.ac.in",
+    "website": ""
+  },
+  {
+    "name": "Dr. S. Fatima",
+    "position": "Associate Professor",
+    "department": "Centre for Automotive Research and Tribology (CART)",
+    "organization": "IIT Delhi",
+    "address": "",
+    "phone": "+91-9811045694",
+    "email": "fatima@iitd.ac.in",
+    "website": ""
+  },
+  {
+    "name": "Prof. Deepak Kumar",
+    "position": "Professor, Head",
+    "department": "Centre for Automotive Research and Tribology (CART)",
+    "organization": "IIT Delhi",
+    "address": "",
+    "phone": "+91-7503444659",
+    "email": "dkumar@iitd.ac.in",
+    "website": ""
+  }
+],
+  "other_sections": [
+    {
+      "title": "Publication Metrics",
+      "content": "Total Publications: 35+, Citations: 1835+, h-index: 22, i10-index: 29"
+    },
+    {
+      "title": "Visited Countries",
+      "content": [
+        "Japan (March, 2023), To participate in the ICECC-2023, 6th international conference",
+        "Singapore (October, 2023), To participate in the IECON-2023, 49th international conference",
+        "Hong Kong (Sep, 20224 to till date), Post-doctoral Fellow, at the University of Hong Kong"
+      ]
+    }
+  ]
+}

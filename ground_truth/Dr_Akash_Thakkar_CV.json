@@ -1,0 +1,429 @@
+{
+  "personal_details": {
+    "name": "Dr. Akash Thakkar",
+    "email": "akashthakkar.61098@gmail.com",
+    "phone": "+91 8511389202",
+    "address": "A/3, Siddhi Setu Appartment, New Vikashgruh Road, Paldi Ahmedabad-380007",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+  "summary": [
+    "Looking for opportunities where I can obtain new experience and develop my abilities while utilize my knowledge in contributing to the organization's growth."
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "field": "Applied Mathematical Science",
+      "institution": "Department of Applied Mathematical Science, Actuarial Science and Analytics, School of Emerging Science and Technology, Gujarat University",
+      "duration": "May 2024",
+      "grade": "",
+      "thesis": "A study on Cryptographic Algorithms and Mathematical Transformations to improve security of communication",
+      "advisor": ""
+    },
+    {
+      "degree": "M.Sc.",
+      "field": "Mathematics",
+      "institution": "Department of Mathematics, Gujarat University",
+      "duration": "2018-2020",
+      "grade": "8.23 CGPA",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "B.Sc.",
+      "field": "Mathematics",
+      "institution": "Bhavan's Sheth R. A. College of Science, Gujarat University",
+      "duration": "2015-2018",
+      "grade": "8.27 CGPA",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "HSC",
+      "field": "",
+      "institution": "Prakash High School",
+      "duration": "2015",
+      "grade": "61%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "SSC",
+      "field": "",
+      "institution": "Prakash High School",
+      "duration": "2013",
+      "grade": "68%",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+  "experience": [
+    {
+      "position": "Assistant Professor",
+      "organization": "Silver Oak College of Computer Application; Silver Oak University",
+      "department": "",
+      "location": "Ahmedabad",
+      "duration": "April 2024 - Present",
+      "description": ""
+    },
+    {
+      "position": "Visiting Faculty",
+      "organization": "School of Emerging Science and Technology, Gujarat University",
+      "department": "",
+      "location": "Ahmedabad",
+      "duration": "Jan 2020 - March 2024",
+      "description": "Subject taught in the domain of AI&ML, Data Science and Applied Mathematical Science: Cryptography, Python Programming, Machine Learning Algorithms, Data Visualization, Operations Research, Applied Algebra, Mathematical Methods, Discrete Mathematics, Differential Equations, Basics of Statistics"
+    }
+  ],
+  "research_interests": [
+    "Applied Mathematics",
+    "Cryptography",
+    "Blockchain Technology"
+  ],
+  "skills": [
+    "Python Programming",
+    "R Programming",
+    "MS Office",
+    "Management Scientist",
+    "LaTeX"
+  ],
+  "projects": [
+    {
+      "title": "Study on Donchian Channel and RSI indicators",
+      "duration": "",
+      "description": "Using these indicators with Fundamental factors determine appropriate stocks with their buying and selling signals.",
+      "advisor": "",
+      "funding": ""
+    }
+  ],
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Cryptographic method to enhance the Data Security using RSA algorithm and Kamal Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "IOSR Journal of Computer Engineering (IOSR-JCE)",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "24",
+        "issue": "3",
+        "pages": "01-07",
+        "doi": ""
+      },
+      {
+        "title": "Cryptographic method to enhance the Data Security using ElGamal algorithm and Kamal Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "IOSR Journal of Computer Engineering (IOSR-JCE)",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "24",
+        "issue": "3",
+        "pages": "08-14",
+        "doi": ""
+      },
+      {
+        "title": "Cryptographic method to enhance Data Security using ElGamal algorithm and Mellin Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "IOSR Journal of Mathematics (IOSR-JM)",
+        "conference": "",
+        "publisher": "",
+        "year": "2022",
+        "volume": "18",
+        "issue": "6",
+        "pages": "12-18",
+        "doi": ""
+      },
+      {
+        "title": "Cryptographic method to enhance Data Security Using RSA algorithm and Mellin Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "International Journal of Engineering Science Technologies (IJOEST)",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "7",
+        "issue": "2",
+        "pages": "63-72",
+        "doi": ""
+      },
+      {
+        "title": "Cryptographic method to enhance the Data Security using RSA algorithm and Sumudu Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "Quest Journal of Research in Applied Mathematics",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "9",
+        "issue": "4",
+        "pages": "48-54",
+        "doi": ""
+      },
+      {
+        "title": "Cryptographic Method to Enhance the Data Security using ElGamal Algorithm and Sumudu Transform",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "International Journal for Research in Applied Science and Engineering Technology (IJRASET)",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "11",
+        "issue": "7",
+        "pages": "853-861",
+        "doi": ""
+      }
+    ],
+    "conference_papers": [
+      {
+        "title": "A Review paper on Cryptographic Algorithms and Mathematical Transformations",
+        "authors": [
+          "Thakkar A.",
+          "Gor R."
+        ],
+        "journal": "",
+        "conference": "International Conference on Mathematical Modelling and Simulation in Physical Sciences (MMSPS-2021)",
+        "publisher": "Excellent Publishers",
+        "year": "2021",
+        "volume": "",
+        "issue": "",
+        "pages": "324-331",
+        "doi": ""
+      }
+    ],
+    "conference_proceedings": [],
+    "communications": [],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": []
+  },
+  "patents": [
+    {
+      "title": "",
+      "patent_number": "",
+      "year": "",
+      "status": ""
+    }
+  ],
+  "grants": [],
+  "awards": [
+    {
+      "title": "Gujarat State Eligibility Test (GSET-2021) (Mathematical Science) Qualified",
+      "organization": "",
+      "year": ""
+    },
+    {
+      "title": "University Gold Medalist (B.Sc. Mathematics)",
+      "organization": "",
+      "year": ""
+    },
+    {
+      "title": "University 3rd Ranker (M.Sc. Mathematics)",
+      "organization": "",
+      "year": ""
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Programming for everybody (Getting Started with Python)",
+      "issuer": "University of Michigan",
+      "year": "2020"
+    },
+    {
+      "title": "Introduction to Python",
+      "issuer": "Coursera Project Network",
+      "year": "2020"
+    },
+    {
+      "title": "Data Science Math Skills",
+      "issuer": "Duke University",
+      "year": "2020"
+    },
+    {
+      "title": "Introduction to Data Science in Python",
+      "issuer": "University of Michigan",
+      "year": "2020"
+    },
+    {
+      "title": "Python Data Structures",
+      "issuer": "University of Michigan",
+      "year": "2020"
+    },
+    {
+      "title": "Mathematics for Machine Learning: Linear Algebra",
+      "issuer": "University of Michigan",
+      "year": "2020"
+    }
+  ],
+  "memberships": [],
+  "professional_services": [],
+  "responsibilities": [],
+  "teaching_experience": [],
+  "students_supervised": [],
+  "references": [
+  {
+  "name": "Prof. (Dr.) Ravi M. Gor",
+  "position": "Professor and Head",
+  "department": "Department of Mathematics",
+  "organization": "Gujarat University",
+  "address": "",
+  "phone": "9825323243",
+  "email": "ravigor@hotmail.com",
+  "website": ""
+}
+],
+  "other_sections": [
+    {
+  "conferences_attended": [
+    {
+      "title": "Mathematics behind Donchian Channel",
+      "event": "National Conference on Mathematical Sciences",
+      "type": "National Conference",
+      "date": "2019-12-28 to 2019-12-29",
+      "year": 2019
+    },
+    {
+      "title": "A Study on Technical Analysis by Donchian Channel - Relative Strength Index Indicators",
+      "event": "34th Gujarat Science Congress",
+      "type": "Science Congress",
+      "date": "2020-02-08 to 2020-02-09",
+      "year": 2020
+    },
+    {
+      "title": "Valuation of Stock Using Fundamental and Technical Analysis",
+      "event": "Mathematics Excellence",
+      "type": "Conference",
+      "date": "2020-02-15",
+      "year": 2020
+    },
+    {
+      "title": "A Review Paper on Cryptographic Algorithms and Mathematical Transformations",
+      "event": "International Conference on Mathematical Modelling and Simulation in Physical Sciences",
+      "type": "International Conference",
+      "date": "2021-04-17 to 2021-04-18",
+      "year": 2021
+    },
+    {
+      "title": "Cryptographic Method Using ElGamal Algorithm and Kamal Transform",
+      "event": "Virtual International Conference on Emerging Trends in Applied Sciences",
+      "type": "International Conference",
+      "date": "2021-10-28 to 2021-10-29",
+      "year": 2021
+    },
+    {
+      "title": "A New Method for Cryptography Using RSA Algorithm and Kamal Transform",
+      "event": "National Conference on Mathematical and Statistical Techniques in Engineering Research",
+      "type": "National Conference",
+      "date": "2021-11-08 to 2021-11-09",
+      "year": 2021
+    },
+    {
+      "title": "Cryptographic Method Using RSA Algorithm and Mellin Transform",
+      "event": "9th International Conference and 25th Annual Conference of Gwalior Academy of Mathematical Sciences",
+      "type": "International Conference",
+      "date": "2022-09-29 to 2022-10-01",
+      "year": 2022
+    },
+    {
+      "title": "Cryptographic Methods: Some Algorithms and Transformations",
+      "event": "International Conference on Research Trends in Mathematical Sciences",
+      "type": "International Conference",
+      "date": "2023-02-10 to 2023-02-11",
+      "year": 2023
+    },
+    {
+      "title": "Cryptographic Method Using RSA Algorithm and Sumudu Transform",
+      "event": "National Conference on Applied Mathematical Sciences - ARYA",
+      "type": "National Conference",
+      "date": "2023-03-25 to 2023-03-26",
+      "year": 2023
+    }
+  ],
+  "workshops_attended": [
+    {
+      "title": "R Programming and LaTeX Typesetting",
+      "year": 2021
+    },
+    {
+      "title": "Hands-on Workshop on Machine Learning Methods for Image and Video Processing",
+      "year": 2021
+    },
+    {
+      "title": "One Week STTP on Emerging Trends in Data Analysis in MS Excel",
+      "year": 2021
+    },
+    {
+      "title": "Basic Cryptography",
+      "year": 2021
+    },
+    {
+      "title": "Steganography - An Art of Hidden Communication",
+      "year": 2021
+    },
+    {
+      "title": "Mathematical Modeling and Analysis",
+      "year": 2021
+    },
+    {
+      "title": "Supply Chain Management & Systems",
+      "year": 2022
+    },
+    {
+      "title": "Mathematical Methods in Science and Engineering",
+      "year": 2022
+    },
+    {
+      "title": "Machine Learning & Deep Learning",
+      "year": 2022
+    },
+    {
+      "title": "Data Analysis in R using STATCRAFT",
+      "year": 2022
+    },
+    {
+      "title": "A Journey from Linear Algebra to Machine Learning",
+      "year": 2022
+    },
+    {
+      "title": "Industry Applications of Machine Learning and Challenges",
+      "year": 2022
+    },
+    {
+      "title": "Online Research FDP on SPSS - Discriminant Analysis",
+      "year": 2022
+    },
+    {
+      "title": "Online Research FDP on SPSS - Cluster Analysis",
+      "year": 2022
+    },
+    {
+      "title": "One Week STTP on Emerging Trends in Research Methodology",
+      "year": 2022
+    },
+    {
+      "title": "From Mathmania to Cryptomania: How Math Is Helping Secure Our Digital Future",
+      "year": 2023
+    }
+  ]
+}
+  ]
+}
