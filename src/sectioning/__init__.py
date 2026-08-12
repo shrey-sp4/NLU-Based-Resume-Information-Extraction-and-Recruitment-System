@@ -1,4 +1,5 @@
 from .detector import SectionBoundaryDetector
+from .dataset import SectionDatasetBuilder, SectionDatasetSplit, SectionDatasetItem
 from .evaluation import boundary_metrics, classification_metrics
 from .features import SectionFeatureExtractor, extract_line_features
 from .models import (
@@ -13,3 +14,4 @@ from .models import (
 )
 from .normalization import SectionNormalizer
 from .segmenter import SectionSegmenter
+
