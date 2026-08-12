@@ -1,0 +1,50 @@
+{
+  "dataset": "section_line_annotations",
+  "source_run": "output\\extraction\\run_20260811T100030Z",
+  "record_count": 14321,
+  "fields": [
+    "resume_id",
+    "document_id",
+    "source_document",
+    "source_run_id",
+    "page_number",
+    "line_number",
+    "line_index",
+    "text",
+    "is_blank",
+    "preceded_by_blank",
+    "followed_by_blank",
+    "machine_suggested_heading",
+    "machine_suggested_section",
+    "machine_confidence",
+    "machine_suggestion_method",
+    "machine_review_required",
+    "is_heading",
+    "section_label",
+    "annotator_notes",
+    "review_state"
+  ],
+  "canonical_labels": [
+    "education",
+    "experience",
+    "skills",
+    "projects",
+    "publications",
+    "certifications",
+    "research_interests",
+    "achievements",
+    "personal_details",
+    "summary",
+    "references",
+    "responsibilities",
+    "memberships",
+    "patents",
+    "declaration",
+    "other"
+  ],
+  "annotation_rules": {
+    "machine_suggestion_is_ground_truth": false,
+    "human_annotation_required": true,
+    "section_label_optional_before_review": true
+  }
+}
