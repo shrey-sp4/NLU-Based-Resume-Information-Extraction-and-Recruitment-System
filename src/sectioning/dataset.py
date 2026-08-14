@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 import random
 from collections import Counter, defaultdict
@@ -5,15 +7,18 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Set
 
-DEFAULT_MACHINE_PATH = Path("data/section_annotations/section_line_annotations.jsonl")
-DEFAULT_HUMAN_PATH = Path("data/section_annotations/human_annotations.jsonl")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+FINAL_DATASET_PATH = PROJECT_ROOT / "data" / "section_annotations" / "final_section_annotations.jsonl"
+DEFAULT_MACHINE_PATH = PROJECT_ROOT / "data" / "section_annotations" / "section_line_annotations.jsonl"
+DEFAULT_HUMAN_PATH = PROJECT_ROOT / "data" / "section_annotations" / "human_annotations.jsonl"
+DEFAULT_QC_PATH = PROJECT_ROOT / "data" / "section_annotations" / "qc_decisions.jsonl"
 
 
 def make_line_key(record: Dict) -> str:
-    return f"{record['resume_id']}|p{record['page_number']}|l{record['line_number']}|i{record['line_index']}"
+    return record.get("_key") or f"{record.get('resume_id')}|p{record.get('page_number')}|l{record.get('line_number')}|i{record.get('line_index')}"
 
 
-@dataclass
+@dataclass(slots=True)
 class SectionDatasetItem:
     key: str
     resume_id: str
@@ -23,15 +28,16 @@ class SectionDatasetItem:
     text: str
     is_heading: bool
     section_label: str
+    custom_section_label: Optional[str]
+    is_custom_section: bool
     preceded_by_blank: bool
     followed_by_blank: bool
-    is_candidate: bool
-    human_reviewed: bool
-    machine_suggested_heading: Optional[str] = None
-    machine_suggested_section: Optional[str] = None
-    machine_confidence: float = 0.0
+    decision_source: str
+    annotator_notes: str = ""
+    is_multiline_component: bool = False
+    multiline_text: Optional[str] = None
 
-    def to_dict(self) -> Dict:
+    def to_dict(self) -> Dict[str, Any]:
         return {
             "_key": self.key,
             "resume_id": self.resume_id,
@@ -41,26 +47,26 @@ class SectionDatasetItem:
             "text": self.text,
             "is_heading": self.is_heading,
             "section_label": self.section_label,
+            "custom_section_label": self.custom_section_label,
+            "is_custom_section": self.is_custom_section,
             "preceded_by_blank": self.preceded_by_blank,
             "followed_by_blank": self.followed_by_blank,
-            "is_candidate": self.is_candidate,
-            "human_reviewed": self.human_reviewed,
-            "machine_suggested_heading": self.machine_suggested_heading,
-            "machine_suggested_section": self.machine_suggested_section,
-            "machine_confidence": self.machine_confidence,
+            "decision_source": self.decision_source,
+            "annotator_notes": self.annotator_notes,
+            "is_multiline_component": self.is_multiline_component,
+            "multiline_text": self.multiline_text,
         }
 
 
-@dataclass
-class SectionDatasetSplit:
-    train: List[SectionDatasetItem] = field(default_factory=list)
-    val: List[SectionDatasetItem] = field(default_factory=list)
-    test: List[SectionDatasetItem] = field(default_factory=list)
-    train_resumes: Set[str] = field(default_factory=set)
-    val_resumes: Set[str] = field(default_factory=set)
-    test_resumes: Set[str] = field(default_factory=set)
+@dataclass(slots=True)
+class FoldSplit:
+    fold_index: int
+    train_items: List[SectionDatasetItem]
+    test_items: List[SectionDatasetItem]
+    train_resumes: Set[str]
+    test_resumes: Set[str]
 
-    def summary(self) -> Dict:
+    def summary(self) -> Dict[str, Any]:
         def split_stats(items: List[SectionDatasetItem], resume_set: Set[str]):
             headings = sum(1 for item in items if item.is_heading)
             section_dist = Counter(item.section_label for item in items if item.is_heading)
@@ -73,53 +79,31 @@ class SectionDatasetSplit:
             }
 
         return {
-            "train": split_stats(self.train, self.train_resumes),
-            "val": split_stats(self.val, self.val_resumes),
-            "test": split_stats(self.test, self.test_resumes),
+            "fold_index": self.fold_index,
+            "train": split_stats(self.train_items, self.train_resumes),
+            "test": split_stats(self.test_items, self.test_resumes),
         }
 
 
-class SectionDatasetBuilder:
-    def __init__(
-        self,
-        machine_path: Path = DEFAULT_MACHINE_PATH,
-        human_path: Path = DEFAULT_HUMAN_PATH,
-    ):
-        self.machine_path = Path(machine_path)
-        self.human_path = Path(human_path)
+class SectionDatasetLoader:
+    def __init__(self, dataset_path: Path = FINAL_DATASET_PATH):
+        self.dataset_path = Path(dataset_path)
 
-    def load_merged_dataset(self) -> List[SectionDatasetItem]:
-        # Load human annotations mapping
-        human_map = {}
-        if self.human_path.exists():
-            with self.human_path.open("r", encoding="utf-8") as fh:
-                for line in fh:
-                    if not line.strip():
-                        continue
-                    rec = json.loads(line)
-                    if "_key" in rec:
-                        human_map[rec["_key"]] = rec
+    def load_final_dataset(self) -> List[SectionDatasetItem]:
+        items: List[SectionDatasetItem] = []
+        if not self.dataset_path.exists():
+            raise FileNotFoundError(f"Final dataset not found at {self.dataset_path}. Run build_final_section_dataset.py first.")
 
-        # Load machine records and merge
-        items = []
-        with self.machine_path.open("r", encoding="utf-8") as fh:
+        with self.dataset_path.open("r", encoding="utf-8") as fh:
             for line in fh:
-                if not line.strip():
+                line = line.strip()
+                if not line:
                     continue
                 rec = json.loads(line)
                 key = make_line_key(rec)
-                
-                is_cand = rec.get("machine_suggested_heading") is not None
-                human_rec = human_map.get(key)
-                human_reviewed = human_rec is not None
 
-                if human_reviewed:
-                    is_heading = bool(human_rec.get("is_heading", False))
-                    section_label = str(human_rec.get("section_label") or "other") if is_heading else "other"
-                else:
-                    # Non-reviewed background content lines default to non-headings
-                    is_heading = False
-                    section_label = "other"
+                is_heading = bool(rec.get("final_is_heading", False))
+                section_label = str(rec.get("final_section_label") or "other") if is_heading else "other"
 
                 item = SectionDatasetItem(
                     key=key,
@@ -130,30 +114,25 @@ class SectionDatasetBuilder:
                     text=rec.get("text", ""),
                     is_heading=is_heading,
                     section_label=section_label,
+                    custom_section_label=rec.get("custom_section_label"),
+                    is_custom_section=bool(rec.get("is_custom_section", False)),
                     preceded_by_blank=bool(rec.get("preceded_by_blank", False)),
                     followed_by_blank=bool(rec.get("followed_by_blank", False)),
-                    is_candidate=is_cand,
-                    human_reviewed=human_reviewed,
-                    machine_suggested_heading=rec.get("machine_suggested_heading"),
-                    machine_suggested_section=rec.get("machine_suggested_section"),
-                    machine_confidence=float(rec.get("machine_confidence", 0.0)),
+                    decision_source=rec.get("final_decision_source", "accepted_initial_human"),
+                    annotator_notes=rec.get("annotator_notes", ""),
+                    is_multiline_component=bool(rec.get("is_multiline_heading_component", False)),
+                    multiline_text=rec.get("multiline_heading_text"),
                 )
                 items.append(item)
 
         return items
 
-    def create_grouped_splits(
-        self,
-        train_ratio: float = 0.70,
-        val_ratio: float = 0.15,
-        test_ratio: float = 0.15,
-        seed: int = 42,
-    ) -> SectionDatasetSplit:
-        """Create train/val/test splits strictly grouped by resume_id."""
-        items = self.load_merged_dataset()
-        
+    def create_grouped_5fold_splits(self, seed: int = 42) -> List[FoldSplit]:
+        """Create 5-fold cross validation splits grouped strictly by resume_id."""
+        items = self.load_final_dataset()
+
         # Group items by resume_id
-        resume_items = defaultdict(list)
+        resume_items: Dict[str, List[SectionDatasetItem]] = defaultdict(list)
         for item in items:
             resume_items[item.resume_id].append(item)
 
@@ -161,37 +140,49 @@ class SectionDatasetBuilder:
         rng = random.Random(seed)
         rng.shuffle(resumes)
 
-        num_resumes = len(resumes)
-        num_train = max(1, int(num_resumes * train_ratio))
-        num_val = max(1, int(num_resumes * val_ratio))
+        # Distribute 40 resumes evenly across 5 folds (8 resumes per fold)
+        n_folds = 5
+        folds: List[FoldSplit] = []
 
-        train_resumes = set(resumes[:num_train])
-        val_resumes = set(resumes[num_train:num_train + num_val])
-        test_resumes = set(resumes[num_train + num_val:])
+        for fold_idx in range(n_folds):
+            test_resumes = set(resumes[fold_idx::n_folds])
+            train_resumes = set(resumes) - test_resumes
 
-        split = SectionDatasetSplit(
-            train_resumes=train_resumes,
-            val_resumes=val_resumes,
-            test_resumes=test_resumes,
-        )
+            train_items: List[SectionDatasetItem] = []
+            test_items: List[SectionDatasetItem] = []
 
-        for res_id, res_lines in resume_items.items():
-            # Sort lines in order within resume
-            res_lines.sort(key=lambda r: (r.page_number, r.line_index))
-            if res_id in train_resumes:
-                split.train.extend(res_lines)
-            elif res_id in val_resumes:
-                split.val.extend(res_lines)
-            else:
-                split.test.extend(res_lines)
+            for res_id in sorted(resume_items.keys()):
+                res_lines = list(resume_items[res_id])
+                res_lines.sort(key=lambda r: (r.page_number, r.line_index))
 
-        return split
+                if res_id in train_resumes:
+                    train_items.extend(res_lines)
+                else:
+                    test_items.extend(res_lines)
+
+            folds.append(
+                FoldSplit(
+                    fold_index=fold_idx + 1,
+                    train_items=train_items,
+                    test_items=test_items,
+                    train_resumes=train_resumes,
+                    test_resumes=test_resumes,
+                )
+            )
+
+        return folds
+
+
+# Backwards compatibility alias
+SectionDatasetBuilder = SectionDatasetLoader
+SectionDatasetSplit = FoldSplit
 
 
 if __name__ == "__main__":
-    builder = SectionDatasetBuilder()
-    split = builder.create_grouped_splits()
-    print("=" * 60)
-    print("  SECTION DETECTION DATASET SPLIT SUMMARY (GROUPED BY RESUME)")
-    print("=" * 60)
-    print(json.dumps(split.summary(), indent=2))
+    loader = SectionDatasetLoader()
+    folds = loader.create_grouped_5fold_splits()
+    print(f"Loaded {len(folds)} Grouped Folds from final dataset.")
+    for f in folds:
+        s = f.summary()
+        print(f"Fold {f.fold_index}: Train lines={s['train']['total_lines']} (resumes={s['train']['total_resumes']}), Test lines={s['test']['total_lines']} (resumes={s['test']['total_resumes']})")
+

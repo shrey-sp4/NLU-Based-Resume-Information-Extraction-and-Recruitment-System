@@ -21,10 +21,17 @@ def softmax(scores: Mapping[str, float]) -> Dict[str, float]:
 
 
 class SparseLinearOVRClassifier:
-    def __init__(self, learning_rate: float = 0.08, epochs: int = 20, l2: float = 0.0005) -> None:
+    def __init__(
+        self,
+        learning_rate: float = 0.08,
+        epochs: int = 20,
+        l2: float = 0.0005,
+        class_weight: Optional[str] = None,
+    ) -> None:
         self.learning_rate = learning_rate
         self.epochs = epochs
         self.l2 = l2
+        self.class_weight = class_weight
         self.classes_: List[str] = []
         self.weights: Dict[str, Dict[str, float]] = {}
         self.bias: Dict[str, float] = {}
@@ -35,6 +42,16 @@ class SparseLinearOVRClassifier:
         self.weights = {label: defaultdict(float) for label in self.classes_}
         self.bias = {label: 0.0 for label in self.classes_}
 
+        sample_weights = {label: 1.0 for label in self.classes_}
+        if self.class_weight == "balanced" and y:
+            total_n = len(y)
+            counts = Counter(y)
+            num_classes = len(self.classes_)
+            sample_weights = {
+                cls: total_n / (num_classes * count) if count > 0 else 1.0
+                for cls, count in counts.items()
+            }
+
         for _ in range(self.epochs):
             for features, target in zip(X, y):
                 for label in self.classes_:
@@ -42,16 +59,18 @@ class SparseLinearOVRClassifier:
                     prob = 1.0 / (1.0 + math.exp(-max(min(score, 20.0), -20.0)))
                     desired = 1.0 if label == target else 0.0
                     error = desired - prob
-                    self.bias[label] += self.learning_rate * error
+                    sw = sample_weights.get(label, 1.0)
+                    self.bias[label] += self.learning_rate * (error * sw)
                     weights = self.weights[label]
                     for feature, value in features.items():
                         if feature == "bias":
                             continue
-                        update = self.learning_rate * (error * value - self.l2 * weights.get(feature, 0.0))
+                        update = self.learning_rate * (error * value * sw - self.l2 * weights.get(feature, 0.0))
                         weights[feature] = weights.get(feature, 0.0) + update
 
         self.fitted = True
         return self
+
 
     def _score(self, label: str, features: Mapping[str, float]) -> float:
         score = self.bias.get(label, 0.0)
