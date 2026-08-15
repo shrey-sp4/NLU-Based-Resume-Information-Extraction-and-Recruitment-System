@@ -38,16 +38,43 @@ def get_section_text(sections, section_name):
         return section.get("content", "").strip()
     return section.strip()
 
+
+# ---------- 1. PHONE FIX ----------
+PHONE_REGEX = re.compile(
+    r"(?:\+?\d{1,3}[-.\s]?)?(?:\(?\d{3,5}\)?[-.\s]?)?\d{3,5}[-.\s]?\d{4,6}"
+)
+
+def extract_phone(text):
+    candidates = PHONE_REGEX.findall(text) if False else PHONE_REGEX.finditer(text)
+    for m in candidates:
+        digits = re.sub(r"\D", "", m.group(0))
+        # Indian mobile numbers are 10 digits, optionally prefixed with country code 91
+        if len(digits) == 10 and digits[0] in "6789":
+            return digits
+        if len(digits) == 12 and digits.startswith("91") and digits[2] in "6789":
+            return digits[2:]  # normalize to bare 10-digit form
+    return ""
+
+def normalize_phone_for_compare(p):
+    """Use this on BOTH prediction and ground truth before comparing in the evaluator."""
+    digits = re.sub(r"\D", "", p or "")
+    if len(digits) == 12 and digits.startswith("91"):
+        digits = digits[2:]
+    return digits
+
+
 def extract_personal_details(sections):
-    text = get_section_text(sections, "personal_details")
+    preamble = get_section_text(sections, "preamble")
+    details = get_section_text(sections, "personal_details")
+    text = f"{preamble}\n{details}".strip()
     email_match = re.search(r"[\w\.-]+@[\w\.-]+\.\w+", text)
     email = email_match.group(0).strip() if email_match else ""
-    phone_match = re.search(r"(?:\+91|0)?[ -]*[6-9](?:[ -]*\d){9}", text)
-    phone = re.sub(r"[^\d+]", "", phone_match.group(0)) if phone_match else ""
+    phone = extract_phone(text)
     name = ""
     lines = [line.strip() for line in text.splitlines() if len(line.strip()) > 3]
     for line in lines:
         if "@" in line or re.search(r"\d", line): continue
+        if re.search(r"\b(curricu?lam|curriculum|vitae|resume|biodata|profile)\b", line, re.IGNORECASE): continue
         clean_line = re.sub(r"^(name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
         clean_line = clean_line.strip(":-–—|•●■□*➢ ")
         if len(clean_line.split()) >= 2:
@@ -59,6 +86,117 @@ def split_into_list(text):
     if not text: return []
     items = re.split(r'\n\s*(?:[-•*➢|o\+]|\d+[\.\)])\s*|\n{2,}', text)
     return [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
+
+
+# ---------- 2. ENTRY-LEVEL EDUCATION SUB-FIELD EXTRACTION ----------
+DEGREE_PATTERNS = [
+    r"Doctor of Philosophy(?:\s*\(PhD\))?", r"Ph\.?D\.?",
+    r"Master of Science(?:\s*\(M\.?\s?Sc\.?\))?", r"M\.?Sc\.?",
+    r"Master of Technology(?:\s*\(M\.?\s?Tech\.?\))?", r"M\.?Tech\.?",
+    r"Master of Engineering(?:\s*\(M\.?\s?E\.?\))?", r"M\.?E\.?",
+    r"Master of Computer (?:Science|Application)s?", r"MCA", r"MSW",
+    r"Bachelor of Science(?:\s*\(B\.?\s?Sc\.?\))?", r"B\.?Sc\.?",
+    r"Bachelor of Technology(?:\s*\(B\.?\s?Tech\.?\))?", r"B\.?Tech\.?",
+    r"Bachelor of (?:Computer Application|Engineering)s?", r"BCA", r"B\.?E\.?",
+    r"Higher Secondary(?:\s*\(10\+2\))?", r"12th(?:\s*\(10\+2\))?",
+    r"Metric(?:\s*\(10th\))?", r"10th",
+]
+DEGREE_REGEX = re.compile("|".join(f"(?:{p})" for p in DEGREE_PATTERNS), re.IGNORECASE)
+
+YEAR_RANGE_REGEX = re.compile(r"\b(19|20)\d{2}\s*[-–]\s*(19|20)\d{2}\b|\b(19|20)\d{2}\b")
+
+CGPA_REGEX = re.compile(
+    r"\b\d{1,2}\.\d{1,2}\s*/\s*10(?:\.0)?\b"       # 8.5/10
+    r"|\b\d{1,2}(?:\.\d{1,2})?\s*%"                 # 84.30%
+    r"|First Class(?:\s*\(\s*\d{1,2}(?:\.\d{1,2})?\s*%\s*\))?"
+    r"|Second Class(?:\s*\(\s*\d{1,2}(?:\.\d{1,2})?\s*%\s*\))?"
+    r"|Distinction",
+    re.IGNORECASE
+)
+
+INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center)"
+INSTITUTION_REGEX = re.compile(
+    r"((?:[A-Z][\w&\.\-]*\s+){0,6}" + INSTITUTION_KEYWORDS + r"(?:\s+(?:of|for|and|&)\s+[A-Z][\w&\.\-]*(?:\s+[A-Z][\w&\.\-]*){0,5})*)",
+)
+
+HEADER_NOISE = {"degree university", "board/university", "school examination",
+                "degree", "university", "board", "passed all india secondary school",
+                "passed all india senior secondary school"}
+
+PREFIX_NOISE = re.compile(
+    r"^(?:working as|appeared from|passed(?: with)?|from|at|in year|since|present|"
+    r"doctor of philosophy|master of \w+|bachelor of \w+|ph\.?d\.?|m\.?tech\.?|"
+    r"b\.?tech\.?|m\.?sc\.?|b\.?sc\.?)\s*",
+    re.IGNORECASE
+)
+
+def clean_institution_span(raw_match):
+    text = raw_match.strip(" ,.-–")
+    if text.lower() in HEADER_NOISE:
+        return None
+    if len(text) < 4:
+        return None
+    return text
+
+def extract_institution(line):
+    matches = INSTITUTION_REGEX.findall(line)
+    for m in matches:
+        cleaned = clean_institution_span(m)
+        if cleaned:
+            return cleaned
+    return ""
+
+def extract_education_entries(section_text, split_into_list_fn):
+    """Replaces raw blob-per-entry with parsed sub-fields per entry line."""
+    entries = []
+    for entry_text in split_into_list_fn(section_text):
+        stripped = PREFIX_NOISE.sub("", entry_text).strip()
+        degree_m = DEGREE_REGEX.search(entry_text)
+        year_m = YEAR_RANGE_REGEX.search(entry_text)
+        cgpa_m = CGPA_REGEX.search(entry_text)
+        institution = extract_institution(entry_text)
+        entries.append({
+            "degree": degree_m.group(0).strip() if degree_m else "",
+            "graduation_year": year_m.group(0).strip() if year_m else "",
+            "cgpa": cgpa_m.group(0).strip() if cgpa_m else "",
+            "institution": institution,
+            "raw_text": entry_text,
+        })
+    return entries
+
+
+# ---------- 3. ENTRY-LEVEL EXPERIENCE SUB-FIELD EXTRACTION ----------
+TITLE_PATTERNS = [
+    r"Assistant Professor", r"Associate Professor", r"Professor",
+    r"Visiting Assistant Professor", r"Post-?doctoral Fellow",
+    r"Senior Research Scholar", r"Research Associate", r"Research Scholar",
+    r"Project Associate", r"Visiting Researcher", r"Senior Survey Scientist",
+    r"Teaching Assistant", r"Research Assistant", r"Senior \w+",
+]
+TITLE_REGEX = re.compile("|".join(f"(?:{p})" for p in TITLE_PATTERNS), re.IGNORECASE)
+
+DATE_RANGE_REGEX = re.compile(
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\s*[-–—]\s*"
+    r"(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}|"
+    r"Present|Current|till date)"
+    r"|" + YEAR_RANGE_REGEX.pattern,
+    re.IGNORECASE
+)
+
+def extract_experience_entries(section_text, split_into_list_fn):
+    entries = []
+    for entry_text in split_into_list_fn(section_text):
+        title_m = TITLE_REGEX.search(entry_text)
+        date_m = DATE_RANGE_REGEX.search(entry_text)
+        institution = extract_institution(entry_text)
+        entries.append({
+            "job_title": title_m.group(0).strip() if title_m else "",
+            "dates": date_m.group(0).strip() if date_m else "",
+            "institution": institution,
+            "raw_text": entry_text,
+        })
+    return entries
+
 
 # Ordered keyword rules for classifying a publication citation
 PUBLICATION_TYPE_RULES = [
@@ -98,7 +236,10 @@ def process_resume(section_file):
     summary_text = get_section_text(sections, "summary")
     prediction["summary"] = [summary_text] if summary_text else []
     
-    list_fields = ["education", "experience", "research_interests", "skills", "projects", "certifications", "responsibilities", "references"]
+    prediction["education"] = extract_education_entries(get_section_text(sections, "education"), split_into_list)
+    prediction["experience"] = extract_experience_entries(get_section_text(sections, "experience"), split_into_list)
+
+    list_fields = ["research_interests", "skills", "projects", "certifications", "responsibilities", "references"]
     for field in list_fields:
         prediction[field] = split_into_list(get_section_text(sections, field))
         

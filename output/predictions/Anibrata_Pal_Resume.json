@@ -1,0 +1,100 @@
+{
+    "personal_details": {
+        "name": "Anibrata Pal",
+        "email": "palanibrata@gmail.com",
+        "phone": "",
+        "address": ""
+    },
+    "summary": [],
+    "education": [
+        {
+            "degree": "PhD",
+            "graduation_year": "2021",
+            "cgpa": "84.30%",
+            "institution": "Kalinga Institute of Industrial Technology",
+            "raw_text": "Degree University in which year PhD Department of Civil Engineering, Kalinga Institute of Industrial Technology, (Pursuing) Bhubaneswar, January 2021. (Functionally Graded Concrete) [Submission August 2025] M.Tech Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar, 2016. (Structural Engineering, 84.30%) B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%) 10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board. 10th Krishnath College School, Berhampore, 2008, 78.00 %, WBBSE Board."
+        }
+    ],
+    "experience": [
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2023",
+            "institution": "Siliguri Institute of Technology",
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Siliguri Institute of Technology, Techno India Group. (17th August 2023 -- Present)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2022",
+            "institution": "MAKAUT University",
+            "raw_text": "Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August 1"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "March 2021 – January 2022",
+            "institution": "College of Engineering Bhubaneswar",
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, College of Engineering Bhubaneswar, BPUT University, Bhubaneswar-751024 (March 2021 – January 2022)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "April 2017 – March 2021",
+            "institution": "Bengal College of Engineering & Technology Durgapur",
+            "raw_text": "Assistant Professor, Department of Civil Engineering, Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B. (April 2017 – March 2021)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "January 2017 – April 2017",
+            "institution": "Bharti College of Engineering & Technology Durg",
+            "raw_text": "Assistant Professor, Department of Civil Engineering, Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh (January 2017 – April 2017)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "June 2016 – January 2017",
+            "institution": "GD Rungta College of Engineering & Technology",
+            "raw_text": "Assistant Professor, Department of Civil Engineering, GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh (June 2016 – January 2017) Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021. Member of Professional / Technical Committees Research Committee Member at COEB in the Department of Civil Engineering."
+        }
+    ],
+    "research_interests": [
+        "• Functionally graded concrete. based seismic Design.",
+        "Earthquake-proof building by using • Ground Motion characterization. dampers. • Application of intelligent materials",
+        "Seismic hazard assessment. and structures in Civil Engineering.",
+        "Base isolation for earthquake- • Non-destructive testing in Civil resistant design. Engineering.",
+        "Vibration Control. Performance-"
+    ],
+    "skills": [
+        "1. Origin 2024 B",
+        "Stadd Pro (Ver-VIII)",
+        "MS Office (Word, Excel, PowerPoint)",
+        "SAP 90",
+        "Programming Languages",
+        "Mat-Lab 2013 α 2 Publication of Research Journal in Progress",
+        "“Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete” _",
+        "“Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder”",
+        "‘‘Strength, Elasticity and Water Absorption of Functionally Graded Concrete’’_ Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+        "\"Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades",
+        "f normal concrete with blended cement\"_ Materials and Structure (Springer)",
+        "“A critical review on the advancement of Layered concrete” _ Indian Concrete",
+        "Excellent critical thinking skills to identify alternative approaches and solutions to complex problems. Strong ability to manage material resources to determine appropriate use of facilities and equipment.",
+        "Skilled in coordinating projects and keeping all parties on the same path to stay on schedule. Good negotiation skills when coordinating between clients and management. Strong communication ability by listening, asking the right questions, and writing effective reports.",
+        "Experience with analytical and scientific software, such as Minitab and MathWorks MATLAB. Ability to identify system performance indicators and the appropriate actions necessary to correct performance to keep project goals on track."
+    ],
+    "projects": [],
+    "publications": {
+        "journal_articles": [
+            "1. SMET-2024 Scopus Publication, “Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete”. International Conference.",
+            "ICMSMT-2024 Scopus Publication “Strength parameters of graded concrete made in combination with traditional and blended concrete of different grades in different layers”. Sixth International Conference.",
+            "ICRDSI-2022 Springer Publication, “Assessment of Functionally Graded Concrete with Graded Beam”.",
+            "“Innovative vibration control devices used in buildings”, International Journal of Civil Engineering (IJCE). ISSN(P): 2278-9987; ISSN(E): 2278-9995Vol. 5, Issue 1, Dec - Jan 2016, 83-98.",
+            "“Dynamic Analysis of a G+3 Building Using Indian Standard Code Method and Time History Method” (Paper ID: IJRETDEC 201601) entitled Is hereby awarding the certificate to Published in IMPACT: IJRET Journal, Volume 4, Issue 12, Dec 2016. 3"
+        ],
+        "conference_papers": [],
+        "conference_proceedings": [],
+        "communications": [],
+        "book_chapters": [],
+        "books": [],
+        "technical_reports": [],
+        "preprints": []
+    },
+    "certifications": [],
+    "responsibilities": [],
+    "references": []
+}

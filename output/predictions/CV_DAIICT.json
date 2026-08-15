@@ -1,0 +1,51 @@
+{
+    "personal_details": {
+        "name": "",
+        "email": "ishasharmaphy@iitkgp.ac.in",
+        "phone": "8130349452",
+        "address": ""
+    },
+    "summary": [],
+    "education": [
+        "• 2018-2024: PhD,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India.",
+        "2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89.",
+        "2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96",
+        "2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%",
+        "2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS",
+        "Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications",
+        "M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
+    ],
+    "experience": [],
+    "research_interests": [
+        "• Fiberandintegratedoptics,photonics,andopticalfibersensorsanddevices.",
+        "Designing,fabricating,andoptimizingopticalsetups,withaspecificemphasisonopticalfiberdevices.",
+        "Multiferroicmaterialsforthedevelopmentofall-fiberelectricandmagneticfieldsensors. LISTOFPUBLICATIONS(7)",
+        "I. Sharma, P. Roy Chaudhuri, \"Demonstration of Mode-Switching in a Few-Mode Fiber using Electric FieldControlledDynamicOff-SetCoupling,\"JournalofLightwaveTechnology,doi: 10.1109/JLT.2024.3370846 (2024).",
+        "I.Sharma,P.RoyChaudhuri,\"Electricfieldsensingandpolarisationmeasurementusingadvancedmulti- pass interrogation type fiber-optic beam deflection probe,\" Optical Fiber Technology, vol. 81, p. 103484, doi:10.1016/j.yofte.2023.103484(2023).",
+        "I. Sharma , P. Roy Chaudhuri , \"A new approach to sensing low electric field using optical fibers beam- deflectionconfigurationwithBiFe Co O nanoparticlesasprobeanddeterminationofpolarisation,\",",
+        "9 0.1 3 OpticalFiberTechnology,vol. 62,pp. 1-8,doi:10.1016/j.yofte.2021.102472(2021).",
+        "P. Roy Chaudhuri , I. Sharma , \"Determination of polarization properties of piezoelectric nanocomposite particlesBiFe Co O usingfiber-opticcantileverbeamdeflectionapproach,\"JournalofOptics,vol.50(4),",
+        "9 0.1 3 pp. 611-620,doi:10.1007/s12596-021-00741-8(2021).",
+        "I. Sharma , P. Roy Chaudhuri , \"Design, experimental demonstration and modeling fiber ring resonator device with fiber cantilever-deflection probe for sensing surrounding electric field,\" A. Journal of Physics, vol. 31(3-6),pp.A27-A32,doi: 10.54955/AJP.31.3-6.2022.A27-A32(2022). MANUSCRIPTFORSUBMISSION",
+        "Acomprehensivereviewoffiber-opticcantileverbeamdeflectiondevicesforelectricandmagneticsensing applications. CONFERENCESPROCEEDINGS/BOOKCHAPTERS(10)",
+        "I.Sharma,P.RoyChaudhuri,\"Demonstrationofprecisemodeswitchinginfourmodefiberusingelectric field induced launching offset control\" In Frontiers in Optics, Optica Publishing Group, pp. JTu4A-66, doi:",
+        "1364/FIO.2023.JTu4A.66(2023).",
+        "I.Sharma,P.RoyChaudhuri,\"ExperimentalDemonstrationofAll-FiberElectricFieldSensingDevice\"In- ternationalSymposiumonDevices,CircuitsandSystems(ISDCS),vol. 1,pp. 1-3,IEEE(2023).",
+        "I. Sharma, P. Roy Chaudhuri, \"Experimental Demonstration of Electric Field Sensing Using Sagnac Loop BasedFiberCantileverConfiguration\"5thInternationalSymposiumonDevices,CircuitsandSystems(IS- DCS).IEEE,doi: 10.1007/978-981-99-0055-826(2022)."
+    ],
+    "skills": [],
+    "projects": [],
+    "publications": {
+        "journal_articles": [],
+        "conference_papers": [],
+        "conference_proceedings": [],
+        "communications": [],
+        "book_chapters": [],
+        "books": [],
+        "technical_reports": [],
+        "preprints": []
+    },
+    "certifications": [],
+    "responsibilities": [],
+    "references": []
+}

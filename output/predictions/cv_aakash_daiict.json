@@ -1,0 +1,70 @@
+{
+    "personal_details": {
+        "name": "Aakash Choudhary",
+        "email": "achoudhary1396@gmail.com",
+        "phone": "7838270379",
+        "address": ""
+    },
+    "summary": [],
+    "education": [
+        {
+            "degree": "Master of Science",
+            "graduation_year": "2016",
+            "cgpa": "",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "Indian Institute of Technology (IIT) Guwahati Assam, India Master of Science, Mathematics and Computing. July 2016 - June 2018 Deshbandhu College, University of Delhi New Delhi, India Bachelor of Science (Honours), Mathematics. July 2013 - May 2016 S.B.N Public School, CBSE Board Ghaziabad, India Senior Secondary 2013 Aum Sun Public School, CBSE Board Ghaziabad, India Secondary School Examination 2011"
+        }
+    ],
+    "experience": [
+        {
+            "job_title": "",
+            "dates": "2020",
+            "institution": "",
+            "raw_text": "◦ Representations of Finite Groups: Fall 2020, IIT Delhi. ◦ Calculus: Fall 2019 & Fall 2023, IIT Delhi. ◦ Cryptography: Spring 2020, IIT Delhi. ◦ Linear Algebra and Differential Equations: Spring 2021 - 2022, IIT Delhi. ◦ Abstract Algebra: Spring 2022, IIT Delhi. ◦ Linear Algebra: Fall 2021, IIT Delhi."
+        }
+    ],
+    "research_interests": [
+        "My broader area of research is to work on the existence of primitive pair, the existence of r-primitive k-normal pair and the existence of a finite arithmetic progression of r-primitive elements with first term being k-normal, with prescribed traces and norms over finite fields. Further, numerical calculations are carried in SageMath to provide some illustrations."
+    ],
+    "skills": [
+        "Languages & Frameworks: Proficient in Matlab, LATEX, SageMath."
+    ],
+    "projects": [
+        "Title of the Thesis: Existence of Primitive Normal Elements with some Properties in Finite Fields",
+        "Supervisor: Prof. R.K. Sharma",
+        "Institute: Indian Institute of Technology (IIT) Delhi, New Delhi, India Work History Research Scholar (January 2021 - March 2024) : Senior Research Scholar, Department of Mathematics, IIT Delhi.",
+        "Research Scholar (January 2019 - December 2020) : Junior Research Scholar, Department of Mathematics, IIT Delhi.",
+        "Assistant Professor (August 2018 -November 2018): Department of Mathematics, Krishna Institute",
+        "f Engineering and Technology. Hardy Hilbert Spaces & Toeplitz Operators : I have made a Project titled as above, enlightening Elementary introduction to Hardy-Hilbert Space and Spectral Properties of Toeplitz Operators under guidance of Dr. Jitendriya Swain Sir, Assistant Professor, Department of Mathematics, IIT Guwahati.",
+        "Abelian Forcing Set: I have given a Seminar on Abelian Forcing Set. i.e if (ab)n = anbn for all a,b belonging to a group G then which property of these n’s would imply that G is abelian at IIT Guwahati."
+    ],
+    "publications": {
+        "journal_articles": [
+            "Aakash Choudhary and R.K. Sharma: Existence of primitive pairs with two prescribed traces over finite fields, Journal of Algebra and Applications (2023). doi.org/10.1142/S0219498824502451",
+            "Aakash Choudhary and R.K. Sharma: On pairs of r-primitive and k-normal elements with prescribed traces over finite fields. (Communicated)",
+            "Aakash Choudhary and R.K. Sharma: Fields having arithmetic progression of r-primitive and k-normal elements with prescribed traces. (Communicated)",
+            "Aakash Choudhary and R.K. Sharma: Fields having primitive pairs with prescribed norms. (Communicated)"
+        ],
+        "conference_papers": [],
+        "conference_proceedings": [],
+        "communications": [],
+        "book_chapters": [],
+        "books": [],
+        "technical_reports": [],
+        "preprints": []
+    },
+    "certifications": [
+        "Journ´ees Arithm´etiques 2023: Presented my paper entitled “Existence of primitive pairs with two prescribed traces over finite fields” at the Conference Journ´ees Arithm´etiques 2023 held at the University",
+        "f Lorraine, Campus Aiguillettes, Nancy, France from 3 July 2023 to 7 July 2023.",
+        "38rd Annual Conference of the Ramanujan Mathematical Society: I have presented a paper titled “Fields having primitive pairs with prescribed norms” at the Department of Mathematics, IIT Guwahati, during 22nd December - 24th December, 2023.",
+        "International Meet on Number Theory: Participated in the International Meet on Number Theory to commemorate the 135th birth anniversary of Srinivas Ramanujan held at IIT Kanpur during 27th February 2023 to 1st March 2023.",
+        "Analytic number theory: Attended a workshop on ‘Analytic number theory’ organized by Kerela School",
+        "f Mathematics (KSOM) from 15th Jan to 24th Jan 2023."
+    ],
+    "responsibilities": [],
+    "references": [
+        "• Prof. R.K. Sharma Professor Department of Mathematics Indian Institute of Technology Delhi New Delhi, India, 110016 E-mail: rksharma@maths.iitd.ac.in, rksharmaiitd@gmail.com",
+        "Prof. Ritumoni Sarma Associate Professor Department of Mathematics Indian Institute of Technology Delhi New Delhi, India, 110016 E-mail: ritumoni@maths.iitd.ac.in, ritumoni407@gmail.com",
+        "Prof. Amit Priyadarshi Associate Professor Department of Mathematics Indian Institute of Technology Delhi New Delhi, India, 110016 E-mail: priyadarshi@maths.iitd.ac.in"
+    ]
+}

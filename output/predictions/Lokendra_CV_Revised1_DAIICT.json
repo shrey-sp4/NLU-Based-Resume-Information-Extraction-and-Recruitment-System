@@ -1,0 +1,77 @@
+{
+    "personal_details": {
+        "name": "Dr. Lokendra Chouhan, SMIEEE",
+        "email": "lokendrachouhan22@gmail.com",
+        "phone": "+918889345941",
+        "address": ""
+    },
+    "summary": [],
+    "education": [
+        "PhD Visvesvaraya National Institute of Technology, Nagpur, India. Doctor of Philosophy, Electronics and Communication Engineering Specialization: Molecular Communication Advisor: Dr. Prabhat K. Sharma Thesis Title: Diffusive Molecular Communication for Nano-Networks: Performance Analysis and Optimization. (2020) Masters Institute of Engineering, DAVV, Indore, India. Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008) 12th Govt Higher Secondary School, MP Board, Satwas, Dewas, India. Higher Secondary, Physics, Chemistry and Maths. Grade: 73.4% (2003) 10th New Diamond Higher Secondary School, MP Board, Satwas, Dewas, India. High Secondary, Grade: 71.2% (2001)"
+    ],
+    "experience": [
+        "Assistant Professor, Indian Institute of Information Technology, Sri City, AP. Key Subjects: Signals and systems, Information Theory and Coding, EMTL, Digital Electronics, Wireless communication systems lab etc. (November 2022-Present) Postdoctoral Research Fellow, King Abdullah University of Science and Technol-",
+        "gy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur. Key Subjects: Signalsandsystems,AnalogCommunication,DigitalElectronics,Wireless communication systems lab etc. (July 2017 - September 2020) PhD Research, Visvesvaraya National Institute of Technology, Nagpur. Research Topic: Performance Analysis and Optimizations in Diffusive Molecular Com- munication. Mentor: Prof. Prabhat K Sharma. (July 2017 - September 2020) Assistant Professor, Medi-Caps University, Indore. Key Subjects: Electromagnetic, Communication System, Signals and systems, Ana- log Communication, Digital Electronics, Wireless communication systems lab etc. Key Responsibilities: Mentored several B.tech and M.tech students in their final year projects. Involved in supervision of extracurricular activities such as sports and cultural events. (September 2010- July 2017) Assistant Professor, Oriental University, Indore. Key Subjects: Electromagnetic, Control System, VHDL lab etc. (2009-10) Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 1/7 Mentored,"
+    ],
+    "research_interests": [
+        "(cid:123) 5G/6G wireless communications. (cid:123) Semantic Communications (cid:123) Molecular communication (cid:123) Nano-scale communications/nano-networking (cid:123) Internet of bio-nano things (IoBNT) and body-area-networks (BAN) for communi- cations. (cid:123) Synaptic and neuro-spike communications. (cid:123) Tera-Hertz communications. Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 4/7 Key Coursework",
+        "Communication Systems • Signals and Systems",
+        "Linear Algebra • Information Theory and Coding",
+        "Random Variable Theory • Electromagnetic Theory",
+        "Digital Logic Design • Circuit Analysis"
+    ],
+    "skills": [
+        "OS Unix, Linux, Windows (10 years). Languages C (10 years), C++ (8 years). Tools MATLAB (8 years), Mathematica (5 years), LATEX (6 years) etc. Platforms Hands-onexperienceinNIUSRPplatform,WiCOMM-Tuniversalcommunication platform,GSM/GPRSbasedcommunicationplatform,ScientechSDRplatform."
+    ],
+    "projects": [
+        "1. Sunil Kumar (2019-20) 1. Himanshu Dhasmana.",
+        "Saket Thool (2019-20) 2. Shivani (2019-20)",
+        "PhD Ongoing as a Co-Guide-2 Mahesh N., IIIT, Sri City, Naveen, DTU Delhi ."
+    ],
+    "publications": {
+        "journal_articles": [
+            "1 Lokendra Chouhan and Mohamed-Slim Alouini, “Interfacing of Molecular Communication System with Various Communication Systems over Internet",
+            "f Every Nano Things”, IEEE Internet of Things Journal, 2023, DOI:",
+            "1109/JIOT.2023.3273030 . 2 Lokendra Chouhan, M. -S. Alouini, “Rescaled Brownian Motion of Molecules and Devices in Three-Dimensional Multiuser Mobile Molecular Communication Systems”, IEEE Transactions on Wireless Communications, vol. 21, no. 12, pp. 10472-10488, Dec. 2022, doi: 10.1109/TWC.2022.3184068. Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 2/7 3 Lokendra Chouhan, Prabhat Kumar Sharma and Neeraj Varhsney, “Optimal Transmitted Molecules and Decision Threshold for Drift-Induced Diffusive Molecular Channel With Mobile Nanomachines”, IEEE Transactions on NanoBioscience, vol. 18, no. 4, pp. 651-660, doi: 10.1109/TNB.2019.2935241, Oct. 2019 . 4 Lokendra Chouhan, Prabhat Kumar Sharma, and Neeraj Varhsney, “On Gradient Descent Optimization in Diffusion-Advection based 3-D Molecular Cooperative Communication”, IEEE Transactions on NanoBioscienc, doi:",
+            "1109/TNB.2020.2996243 . 5 Lokendra Chouhan, Prabhat Kumar Sharma, Prabhat Kumar Upadhyay, and Parul Garg, “Impacts of Unintended Nanomachine in Diffusion-based Molecular Communication System”, IEEE Transactions on Molecular Biology and Multi- scale Communications Systems, Vol. 6, Issue: 3, Dec. 2020,pp. 210 - 219. doi: 10.1109/TMBMC.2020.3025501 6 Lokendra Chouhan, Prabhat Kumar Sharma, and Adam Noel, “Molecular Com- munication in Fractional Diffusive Channel”, IEEE Communications Letters, doi:10.1109/LCOMM.2020.2999577. 7 Shivani Dhok, Lokendra Chouhan, Adam Noel, and Prabhat Kumar Sharma, “Co-",
+            "perative Molecular Communication in Drift-Induced Diffusive Cylindrical Channel”, IEEE Transactions on Molecular Biology and Multi-scale Communications Systems, doi: 10.1109/TMBMC.2021.3089939. 8 Lokendra Chouhan, Prabhat Kumar Sharma, “Molecular Communication in Three-Dimensional Diffusive Channel with Mobile Nanomachines”, El- sevier Nano Communication Networks, Vol. 24, ISSN 1878-7789, doi:https://doi.org/10.1016/j.nancom.2020.100296, March 2020 . 9 Lokendra Chouhan, Prabhat Kumar Upadhyay, “Effect of Time-Dependent Drift and Diffusion in Molecular Communication Systems ”, IEEE Communications Letters, doi: 10.1109/LCOMM.2022.3142753, January 2022 . 10 Lokendra Chouhan, Prabhat Kumar Upadhyay, “Time-Scaled Brownian Mo- tion of Transmitter and Receiver in Anomalous-Diffusive Molecular Communi- cation Channel”, IEEE Transactions on Molecular Biology and Multi-scale Communications Systems, vol 8, issue 3, June 2022,pp-207-211, doi:"
+        ],
+        "conference_papers": [],
+        "conference_proceedings": [],
+        "communications": [],
+        "book_chapters": [
+            "f the 10th ACM International Conference on Nanoscale Computing and Com- munication (NANOCOM ’23). Association for Computing Machinery, New York, NY, USA, Article 152-153. https://dl.acm.org/doi/pdf/10.1145/3576781.3608743, Published. 2 Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Evanescence reaction in subdiffusion molecular communication channel”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published. 3 Lokendra Chouhan and Mohamed-Slim Alouini, , “On the transport of molecular information in sub-diffusion media with reflecting boundary”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published. 4 Prabhat Kumar Sharma, Lokendra Chouhan, “Performance Analysis of Diffusive Molecular Communication in Three Dimensional Channel”, Asia Pacific Radio Science Conference, URSI, New Delhi, India, March 2019. doi: https://www.ursi.org/proceedings/procAP19/papers2019/URSILoke.pdf, Published . Book Chapter 1 Abhinav, Lokendra Chouhan, P. Sharma, “Range Expansion in Neuro-spike Synap- tic Communication: Error Performance Analysis”, Bio-inspired Information and Communications Technologies. BICT 2023, Okinawa, Japan, Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 512. Springer. Published."
+        ],
+        "books": [],
+        "technical_reports": [],
+        "preprints": [
+            "1109/TMBMC.2022.3181506. 11 Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Impact of Evanescence Process on Three-Dimensional Sub-Diffusion based Molecular Communication Channel”, in IEEE Transactions on NanoBioscience, March 2023, doi: 10.1109/TNB.2023.3260107 . 12 Lokendra Chouhan, “Impact of Anomalous Diffusion Phenomenon on Molecu- lar Information Delivery in Bounded Environment”, in IEEE Transactions on NanoBioscience, 2024, doi: 10.1109/TNB.2024.3467695 . 13 Preprint: Lokendra Chouhan, “Molecular Communication in Bounded Spherical Region with Anomalous Diffusion Phenomenon”, submitted in IEEE Transactions",
+            "n Molecular Biology and Multi-scale Communications, 2024 . Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 3/7 14 Preprint: Lokendra Chouhan, “Localization of Nanomachines in Anomalous Dif- fusion Based Molecular Communication”, a major revision submitted in IEEE Communications Letters, 2024 . 1 Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Mobile Sub-diffusion Molecular Communication Channel”, In Proceedings"
+        ]
+    },
+    "certifications": [],
+    "responsibilities": [
+        "• IEEE Senior member Reviewer for",
+        "IEEE Communications Letters",
+        "IEEE Internet of Things Journal",
+        "IEEE Wireless Communications Letters",
+        "IEEE Access",
+        "Elsevier AEU Journal",
+        "Frontier Communications",
+        "IEEE TMBMC",
+        "Served/Serving as a TPC member for ACM Nanocom 2022, Barcelona/ACM Nanocom 2023, Coventry, UK .",
+        "Chairmen Placement, IIIT Sri City (start date-30th Sept 2024-till date).",
+        "UG Coordinator-cum-SDC Advisor (1 Jan 2024-20th Sept 2024), IIIT Sri City.",
+        "IT Committee member and Co-in charge for IT Procurement at the IIIT Sri City.",
+        "ECE Placement Coordinator, IIIT Sri City.",
+        "Nodal officer, e-Samarth Portal, IIIT Sri City.",
+        "Workshop session titled Internet of Bio Nano-things (IoBNT) organized as work- shop coordinator in DCOSS IoT conf. held in TII Abudhabi, UAE, 2024.",
+        "Workshop Conducted: “Next Generation Wireless and Biological (Wi-Bi) Commu- nications Workshop” in December 2023 sponsored by SERB and IIIT Sri City, and endorsed by committee of MBMC TC IEEE. Role: Coordinator Duration: 18-22 Dec. 2023 Place: IIIT, Sri City, India.",
+        "Global Initiative of Academic Networks (GIAN) workshops on “Fundamentals of Optical Wireless Communication”. Role: Student coordinator Duration: 14-19 Jan. 2018 Place: VNIT, Nagpur, India Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 5/7"
+    ],
+    "references": [
+        "1. Prof. Mohmed Slim Alouini (Postdoc Mentor) Professor slim.alouini@kaust.edu.sa KAUST Thuwal, KSA. +966 54 470 0038",
+        "Dr. Prabhat Kumar Sharma (PhD Mentor) Assistant Professor, prabhatmadhavec1@gmail.com Department of ECE, prabhatsharma@ece.vnit.ac.in Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 6/7 VNIT Nagpur, India. +91 712 280 1912",
+        "Dr. Prabhat K Upadhyay (Research Fellow Mentor and Collaborator) Associate Professor, pkupadhyay@iiti.ac.in Department of EE, pkupadhyay@iiti.ac.in IIT Indore, India. +91 846 196 4593"
+    ]
+}

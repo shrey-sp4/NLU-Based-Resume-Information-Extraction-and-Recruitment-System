@@ -1,0 +1,79 @@
+{
+    "personal_details": {
+        "name": "BHUMIKA SHAH",
+        "email": "drbhumikashah@gmail.com",
+        "phone": "+919727797105",
+        "address": ""
+    },
+    "summary": [
+        "Highly accomplished computer science professor with over 20 years of experience teaching at the\nuniversity level, seeking a full time position which is research and industry oriented to enable improve\ntechnological standards in overall learning community. Demonstrated excellence in teaching and\nresearch, and a strong commitment to student success."
+    ],
+    "education": [
+        "PhD Gujarat University, Department of Computer Science April 2020 Title: “An Innovative Framework for Remote Database Experimentation” MCA IGNOU (Indira Gandhi National Open University), Computer Science May 2007 (Masters in Computer Applications)"
+    ],
+    "experience": [
+        " Department of Computer Science, Gujarat University, Ahmedabad, Gujarat August 2011 – Present",
+        "Provided comprehensive academic support to the head of the Department of Computer Science.",
+        "Taught MCA(Masters of Computer Application students) – masters course averaging 40 students per semester covering following topics: Database Management Systems, Java Programming and Full stack Development Bhumika Shah - 1",
+        "Taught M.Sc(Masters in Science-Computer Science) students) – undergraduate course averaging 120 students per semester covering following topics: HTML, CSS, JavaScript, Database management system and Front end web development.",
+        "Developed quizzes, exams, and homework",
+        "Revised the syllabus to meet accreditation standards",
+        "Designed the new syllabus as per the new education policy (NEP 2020)",
+        "Served as a student counselor (mentor) for incoming freshman students.",
+        "Designed syllabi for the M.Sc. course, specializing in subjects like Database Management Systems, Java Programming, HTML, CSS, JavaScript, and more.",
+        "Represented the department at international conferences and academic events, fostering networking and collaboration opportunities.",
+        "Organized state and national-level workshops, seminars, and events to enhance the learning experience of students.",
+        "Deliver engaging lectures and tutorials for both undergraduate and graduate students, employing effective teaching methodologies.",
+        "Actively involved in writing research funding proposals, contributing to the department's research initiatives.",
+        "Provide guidance and mentorship to project students, assisting them with their dissertations and project work.",
+        "Oversee the entire placement process for graduating batches, ensuring successful career opportunities for students.",
+        "Design pedagogy for all STEM courses, promoting innovative and effective teaching practices.  Department of Computer Science, IBMR College, Pune, Maharashtra January 2006 - March 2011",
+        "Conducted lectures and tutorials for undergraduate and graduate students, delivering comprehensive and engaging educational content.",
+        "Represented the department at international conferences and academic events, fostering professional growth and knowledge exchange.",
+        "Organized state and national-level workshops, seminars, and events to enhance students' learning experience.",
+        "Managed the entire placement process for graduating batches, facilitating successful career transitions for students.",
+        "Provided mentorship and guidance to project students, supporting them in their dissertations and project work.  Developed GU_DB, a Database system Prototype, integrated with Virtual laboratory as a front end. Published a paper in the International Journal of Advanced Computer Research.  Integrated GU_DB with Automated Assessment of SQL Queries and published the work in FICTA-2021, NIT Mizoram.  Conducted research on Image processing for training image pixels, resulting in the publication of the work on ImageGPT with Super resolution in February 2022.  Extensive work on Query Optimization in various contexts.  Created an Innovative Framework for Remote Database Experimentation, integrating it with Learning Management Systems hosted at IIT-B portal. Bhumika Shah - 2  Proposed efficient retrieval in Multi-lingual systems for E-Governance resources, published in IEEE, ICTBIG'16.  Developed an innovative approach for sub-query optimization, published in a Springer Conference, UK,"
+    ],
+    "research_interests": [],
+    "skills": [
+        " Proficient in Database Management Systems (DBMS), Java Programming, HTML, CSS, JavaScript, and",
+        "ther relevant programming languages.  Strong expertise in Query Optimization, Image Processing, and Virtual Labs.  Excellent research and publication track record, with experience presenting papers at conferences.  Effective communication and interpersonal skills, demonstrated through mentoring, counseling, and academic support roles.  Proven ability to design syllabi and develop pedagogical strategies for STEM courses.  Project management skills, including proposal writing, resource coordination, and event organization.  Knowledge of industry practices and trends in the IT sector. LANGUAGES English, Hindi , Gujarati, Marathi"
+    ],
+    "projects": [],
+    "publications": {
+        "journal_articles": [
+            "Book Shah Bhumika, Pareek Jyoti, “Automated Evaluation of SQL Queries: Eval_SQL” , Evolution in Computational Intelligence, 2022, pp. 89-104, Springer. a. Shah Bhumika, Pareek Jyoti, “GU_DB: a database management system prototype for academia,” International Journal of Advanced Computer Research, vol. 11, Issue 55, 2021, pp. 67. b. Shah Bhumika, Pareek Jyoti, Patel Vivek and Patel Sandip, “Database Virtual Laboratory for Guided Learning” International Journal of Recent Technology and Engineering (IJRTE) “ vol. 8, Issue 2, 2019, pp. 5418-5425 (Peer-Reviewed)",
+            "Shah Bhumika et al, “Smart Laboratories : Learning Data Structures through Games”, T4E 2023, IIT Bombay",
+            "28/02/2022, pp. 99-107, Springer Nature Singapore"
+        ],
+        "conference_papers": [],
+        "conference_proceedings": [
+            "Shah Bhumika, Sinha Ankita, Saxena Prashant, “Image GPT with Super Resolution” , Intelligent Data Engineering and Analytics: Proceedings of the 9th International Conference on Frontiers in Intelligent Computing: Theory and Applications (FICTA",
+            "Shah Bhumika, Pareek Jyoti and Kanziya Darshit, “A Novel Approach to Optimize Subqueries for Open Source Databases” , Smart Trends in Systems, Security and Sustainability: Proceedings of WS4 2017, 2018, pp. 331-346, Springer Singapore",
+            "Shah Bhumika and Pareek Jyoti, “Query Optimization for Information Retrieval in Multilingual Environment for e-Governance Resources” Proceedings of International Conference on ICT in Business Industry & Government (ICTBIG), 18/11/2016, IEEE, pp. 1-4 PRESENTATIONS AND INVITED LECTURES & REVIEWER Keynote Address, “Teaching Challenge Winner for “Query Optimization” ACM- Compute - 2021, Keynote Address, “Teaching Challenge Winner for : Teaching Database Design ” ACM- Compute - 2022, Manipal University, Jaipur. PC Member for ACM Compute, 2023 PC Member for SIGCSE TS , 2024 to be held in March in Portland, Oregon PC Member for ITiCSE 2024 to be held in July in Milan, Italy"
+        ],
+        "communications": [],
+        "book_chapters": [],
+        "books": [],
+        "technical_reports": [],
+        "preprints": []
+    },
+    "certifications": [
+        " Attended CRiCKET 2024, workshop on Computing Research in Curricula: Knowledge, Education & Training (CRiCKET), held at IIT Gandhinagar, 3rd to 5th February, 2024.  T4E 2023(Technology for Education), IIT Bombay, November 24-26,2023 Bhumika Shah - 3  Short term training program on “Machine Learning” during 9th-12th February, 2022 at GLS University  ACM Compute, November 9th-11th ,2022, Manipal University, Jaipur  Attended the Training program on High Performance Computing and Deep Learning jointly",
+        "rganized by C-DAC and GUJCOST during 6th to 9th September, 2021.  Attended the Training program on Big Data Analytics organized by Department of Computer Science, SVNIT, Surat during 6th to 7th December, 2021.  ACM Compute, November 18-20, 2021  Attended FDP on the topic “Gamification” during 16-11-2020 to 20-11-2020 organized by ATAL Academy at Dr. B.R. Ambedkar National Institute of Technology.  Attended FDP on the topic “Emerging Technologies for Education and Research at Industry",
+        "0”at BVICAM.  Attended FDP program on various sessions of “Digital Technologies“ on 2nd June,2017 by at TCS , Garima Park , Gandhinagar.  ADSE (H) (Advanced Diploma in Software Engineering (Honors)) (3 ½ Yrs), APTECH Computer Education, Ahmedabad.  Microsoft Certified Solution Developer (MCP ID: 1921094 | http://www.microsoft.com/mcp)  Brain bench Certified Professional (Transcript ID: 633399 | http://www.brainbench.com)"
+    ],
+    "responsibilities": [
+        "Symposium Co-Organizer",
+        "Organized a Virtual Lab Boot Camp(6 Days) in association with IIT-Bombay, 2019",
+        "Served as the Technical Session Chair at ICTIS, 2017 (2nd International Conference on Information and Communication Technology for Intelligent Systems).",
+        "Active involvement in the IIT-Mumbai Virtual Labs Project initiated by MHRD since 2018. Served as a mentor, provided services at various Bootathons, and held a core committee position for national-level reviewers and mentors.",
+        "Technical Session Chair at ICTIS, 2017(2nd International Conference on Information and Communication Technology for Intelligent Systems) – March 25-26, 2017 at Hotel Pride Plaza, Ahmedabad, Springer, ACM.",
+        "Had a Pleasure to Judge National Abilympics Skill Evaluation Event Hosted By Blind People’s Association on 1-2 May,2015.",
+        "Recording of various modules for E-pgpathshala on PHP, MySQL and Open Source Databases",
+        "Played a pivotal role(Solution Design and Technical Delivery) in implementation of Police station Project undertaken by Department of Computer Science, Gujarat University Peer-Reviewed Articles for:  ACM Compute, 2023  SIGCSE TS ,20-23 March, 2024, Portland Oregon, United States Bhumika Shah - 4  ITiCSE 2024, Milan , Italy , Europe  ACM Compute, 2024  IJCDS (International Journal of Computing and Digital Systems), University of Bahrain Scientific"
+    ],
+    "references": [
+        "Available upon request Bhumika Shah - 5"
+    ]
+}

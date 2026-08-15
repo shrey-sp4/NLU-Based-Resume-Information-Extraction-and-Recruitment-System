@@ -1,0 +1,50 @@
+{
+    "personal_details": {
+        "name": "Sourabh Pal",
+        "email": "sourabhpal1998@gmail.com",
+        "phone": "",
+        "address": ""
+    },
+    "summary": [],
+    "education": [
+        "Academic College/School University/Board Yearof Percentage Passing M.Tech Galgotias University Galgotias 2024 76% (CSE) University B.Tech Bhagwati Institute A.K.T.U 2022 67% (CSE) of Technology & Science Diploma Guru TeghBahadur B.T.E 2018 68% (CSE) Polytechnic of Institute 12th RamJasSr SecSchool C.B.S.E 2015 62% 10th Babu RamSrSec C.B.S.E 2013 64% School"
+    ],
+    "experience": [],
+    "research_interests": [
+        "➢ Database ManagementSystem",
+        "Cloud Computing"
+    ],
+    "skills": [
+        "FRONTENDDEVELOPMENT| HTML,CSS & TAILWIND BACK ENDDEVELOPMENT| Java Spring MISCELLANEOUS |My-Sql &Bootstrap",
+        "Team Player.",
+        "Deliver Results.",
+        "Excellent ProblemSolving.",
+        "Work Management.",
+        "Ability tolearn newthings."
+    ],
+    "projects": [
+        "❖ Movie Project: It’samovie based website,thereareseparatesectionslike Homepage, Popular MovieSection,TopRated &UpcomingMovie. Note :API Fetchfromthird parties. Tools: ReactJs&Tailwind CSS. ❖ CRUDOperation : It’sabackend based projectwhere wecanperform crud functions like CreateData,Update Data,Delete& Find. Tools: Spring Boot&Mysql. Testing: Postman"
+    ],
+    "publications": {
+        "journal_articles": [
+            "❖ AcceptanceReceivedfrom 1stIEEE ICAC2N-2024& RegistrationPaper Id -196@ ITS Engineering College, Greater Noida Title :EvolvingTowards OptimalCloud ResourceAllocationandCost. ❖ AcknowledgementReceived fromInternational Journalof AdvancedTechnology and Engineering Exploration PaperId -IJATEE.2024.111100853. Title :Human Emotion Deciphering: SentimentAnalysisusingCNN's FacialExpression Recognition"
+        ],
+        "conference_papers": [],
+        "conference_proceedings": [],
+        "communications": [],
+        "book_chapters": [],
+        "books": [],
+        "technical_reports": [],
+        "preprints": []
+    },
+    "certifications": [
+        "➢ Core JavaCertification fromUdemy.",
+        "CISCOOnlineCertificatewithCloud Securityin 2023.",
+        "CISCOOnlineCertificatewithInternetof Things(IOT)in2023. INTERESTS -",
+        "Cycling",
+        "Movies",
+        "Wandering SOURABHPAL ."
+    ],
+    "responsibilities": [],
+    "references": []
+}
