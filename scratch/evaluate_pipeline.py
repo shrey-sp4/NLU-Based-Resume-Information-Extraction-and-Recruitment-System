@@ -28,6 +28,9 @@ GT_PDF_MAP = [
     ("Resume_final_Amit_CMA_IIM_A.json", "Resume_final_Amit_CMA_IIM_A_sections.json", "Resume_final_Amit_CMA_IIM_A_5b066fd0"),
 ]
 
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.extract_structured_information import process_resume, extract_all_phones, phone_matches, normalize_phone_for_compare
 
 # Regex engines for parsing fine-grained subfields from extracted sections
