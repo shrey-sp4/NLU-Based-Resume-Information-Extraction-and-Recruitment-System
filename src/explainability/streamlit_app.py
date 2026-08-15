@@ -118,8 +118,12 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
     # --- STAGE 2: Section Detection ---
     sections = live_section_text(raw_text) if raw_text else {}
     sections_detected = list(sections.keys())
-    expected_canonical = ["education", "experience", "skills", "personal_details"]
-    sections_expected_but_missing = [s for s in expected_canonical if s not in sections_detected]
+    
+    # Core required sections: education (contact info is verified via extracted name & email)
+    expected_canonical = ["education"]
+    sections_expected_but_missing = []
+    if "education" not in sections_detected:
+        sections_expected_but_missing.append("education")
 
     if not sections_detected:
         stage2_status = {
@@ -168,6 +172,10 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
     preamble_text = sections.get("preamble", "")
     details_text = sections.get("personal_details", "")
     combined_contact = f"{preamble_text}\n{details_text}".strip()
+
+    has_contact_info = bool(p_details.get("name") and p_details.get("email"))
+    if not has_contact_info:
+        sections_expected_but_missing.append("contact_details (name & email)")
 
     name_val = p_details.get("name", "")
     name_source = find_source_line(combined_contact, name_val) if name_val else ""
@@ -257,12 +265,18 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
             "reason": "Sectioning failed to detect any canonical headings in extracted text.",
             "raw_text_snippet": raw_text[:300]
         }
-    elif sections_expected_but_missing:
+    elif not has_contact_info:
         fully_parsed = False
-        missing_str = ", ".join(f"'{s}'" for s in sections_expected_but_missing)
+        first_stage_loss = {
+            "stage": "Stage 3: Entity Extraction (Contact Details)",
+            "reason": "Failed to extract both candidate name and email address from document contact text.",
+            "raw_text_snippet": (sections.get("preamble", "") + "\n" + sections.get("personal_details", ""))[:300]
+        }
+    elif "education" in sections_expected_but_missing:
+        fully_parsed = False
         first_stage_loss = {
             "stage": "Stage 2: Section Detection",
-            "reason": f"Expected core resume sections were missing from document sectioning: {missing_str}.",
+            "reason": "Required core section 'education' was missing from document sectioning.",
             "raw_text_snippet": raw_text[:300]
         }
     else:
@@ -275,19 +289,13 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
             if sec == "education" and not prediction.get("education"):
                 section_failures.append({
                     "section": "education",
-                    "reason": f"Sectioning detected an 'education' section ({len(sec_text_content)} chars), but Entity Extraction pulled 0 entries from it — likely cause: no degree/date keyword matched anywhere in that section's text.",
+                    "reason": f"Sectioning detected an 'education' section ({len(sec_text_content)} chars), but Entity Extraction pulled 0 entries from it.",
                     "snippet": sec_text_content[:300]
                 })
             elif sec in ("experience", "academic_experience") and not prediction.get("experience"):
                 section_failures.append({
                     "section": "experience",
-                    "reason": f"Sectioning detected an 'experience' section ({len(sec_text_content)} chars), but Entity Extraction pulled 0 entries from it — likely cause: no job title/organization keyword matched in that section's text.",
-                    "snippet": sec_text_content[:300]
-                })
-            elif sec in ("skills", "projects", "certifications", "research_interests") and not prediction.get(sec):
-                section_failures.append({
-                    "section": sec,
-                    "reason": f"Sectioning detected a '{sec}' section ({len(sec_text_content)} chars), but Entity Extraction parsed 0 list items from it.",
+                    "reason": f"Sectioning detected an 'experience' section ({len(sec_text_content)} chars), but Entity Extraction pulled 0 entries from it.",
                     "snippet": sec_text_content[:300]
                 })
 

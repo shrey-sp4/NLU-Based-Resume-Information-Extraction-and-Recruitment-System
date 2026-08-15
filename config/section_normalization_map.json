@@ -145,7 +145,13 @@
     "research paperspresentedinconferences(27)",
     "publications overview",
     "research paper published",
-    "published / accepted research articles"
+    "published / accepted research articles",
+    "papers published",
+    "paper published",
+    "publications in progress",
+    "publication of research journal in progress",
+    "papers published in journals",
+    "research papers published"
   ],
   "certifications": [
     "certifications",
@@ -175,7 +181,11 @@
     "training (v.b tech automation)",
     "refresher course/s/ trainingattended",
     "fdps/ workshops/ conferences organized",
-    "fdps/ workshops/ conferences attended"
+    "fdps/ workshops/ conferences attended",
+    "online course",
+    "online courses",
+    "online course - duke university | 2020",
+    "online courses & certifications"
   ],
   "achievements": [
     "achievement",
@@ -305,6 +315,9 @@
     "ibm, coursera",
     "journal (springer)",
     "_ structure journal (springer)",
-    "uttarakhand technical university (utu), dehradun, india"
+    "uttarakhand technical university (utu), dehradun, india",
+    "hobbies",
+    "hobbies & interests",
+    "personal hobbies"
   ]
 }

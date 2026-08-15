@@ -1,9 +1,14 @@
 {
     "personal_details": {
         "name": "Arghya Maity",
-        "email": "",
-        "phone": "",
-        "phones": [],
+        "email": "arghyamaity@hri.res.in",
+        "phone": "7732899577",
+        "phones": [
+            "7732899577",
+            "9033342022",
+            "7843712023",
+            "6133402017"
+        ],
         "address": ""
     },
     "summary": [],

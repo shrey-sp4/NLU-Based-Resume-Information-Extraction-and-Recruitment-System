@@ -45,7 +45,7 @@ def get_section_text(sections, section_name):
 
 # ---------- 1. PHONE FIX ----------
 PHONE_CANDIDATE_REGEX = re.compile(
-    r"(?:\+?91|0091|0)?[\s\-\(\)]*(?:[6-9][\s\-\(\)\.]*){1}(?:\d[\s\-\(\)\.]*){9,11}"
+    r"(?:\(?\+?91\)?|0091|0)?[\s\-\(\)]*(?:[6-9][\s\-\(\)\.]*){1}(?:\d[\s\-\(\)\.]*){9,11}"
 )
 
 def extract_all_phones(text):
@@ -84,34 +84,55 @@ def normalize_phone_for_compare(p):
 def extract_personal_details(sections):
     preamble = get_section_text(sections, "preamble")
     details = get_section_text(sections, "personal_details")
-    text = f"{preamble}\n{details}".strip()
-    email_match = re.search(r"[\w\.-]+@[\w\.-]+\.\w+", text)
-    email = email_match.group(0).strip() if email_match else ""
+    summary = get_section_text(sections, "summary")
+    
+    text_blocks = [b for b in [preamble, details, summary] if b]
+    text = "\n".join(text_blocks).strip()
+    
+    full_doc_text = "\n".join(str(v) for v in sections.values() if isinstance(v, str))
+
+    emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", text)
+    if not emails:
+        emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", full_doc_text)
+    email = emails[0].strip() if emails else ""
+
     phones = extract_all_phones(text)
+    if not phones:
+        phones = extract_all_phones(full_doc_text)
     phone = phones[0] if phones else ""
+
     name = ""
-    lines = [line.strip() for line in text.splitlines() if len(line.strip()) > 3]
+    search_text = text if (text and len(text) > 20) else full_doc_text
+    lines = [line.strip() for line in search_text.splitlines() if len(line.strip()) > 2]
+    
+    NOISE_PATTERNS = re.compile(
+        r"\b(?:curricu?lam|curriculum|vitae|resume|biodata|profile|page\s+\d+|page|recognized|top\s+\d+%|scientist|stanford|elsevier|webpage|google scholar|looking for|achievements|opportunities|qualified|gold medalist)\b",
+        re.IGNORECASE
+    )
+
     for line in lines:
-        if "@" in line: continue
-        if re.search(r"\b(curricu?lam|curriculum|vitae|resume|biodata|profile)\b", line, re.IGNORECASE): continue
-        clean_line = re.sub(r"^(name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
+        if "@" in line:
+            continue
+        if NOISE_PATTERNS.search(line):
+            continue
+
+        clean_line = re.sub(r"^(?:name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
         clean_line = clean_line.strip(":-–—|•●■□*➢ ")
         
-        # Stop condition 1: Cut at field labels like 'Address', 'Email', 'Phone', 'Mobile', 'Contact', 'Location'
-        clean_line = re.split(r"\b(?:Address|Email|E-mail|Phone|Mobile|Contact|Location)\b", clean_line, flags=re.IGNORECASE)[0].strip()
-        
-        # Stop condition 2: Cut at first digit
+        clean_line = re.split(r"\b(?:Address|Email|E-mail|Phone|Mobile|Contact|Location|Webpage|CV page|Page)\b", clean_line, flags=re.IGNORECASE)[0].strip()
         clean_line = re.split(r"\d", clean_line)[0].strip()
+        clean_line = re.sub(r"[^\w\s\.\-']", "", clean_line).strip()
         
-        # Stop condition 3: Cut at line-internal capital-after-lowercase word boundary (e.g. KumarCurriculum)
         boundary_match = re.search(r"([a-z])([A-Z])", clean_line)
         if boundary_match:
             clean_line = clean_line[:boundary_match.start(1)+1].strip()
 
         clean_line = clean_line.strip(":-–—|•●■□*➢ ")
-        if len(clean_line.split()) >= 2:
+        words = clean_line.split()
+        if 2 <= len(words) <= 5 and re.match(r"^[A-Za-z\.\s\-']+$", clean_line):
             name = clean_line
             break
+
     return {"name": name, "email": email, "phone": phone, "phones": phones, "address": ""}
 
 def split_into_list(text):
@@ -326,7 +347,6 @@ def process_resume(section_file):
     prediction["education"] = extract_education_entries(get_section_text(sections, "education"))
     prediction["experience"] = extract_experience_entries(get_section_text(sections, "experience"))
 
-    # Populate all standard list sections including awards, achievements, memberships, societies
     list_fields = [
         "research_interests", "skills", "projects", "certifications",
         "awards", "achievements", "memberships", "societies",
