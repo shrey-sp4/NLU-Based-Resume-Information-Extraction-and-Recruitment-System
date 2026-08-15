@@ -11,11 +11,39 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "Ph.D",
             "graduation_year": "2018",
             "cgpa": "7.56/10",
             "institution": "Indian Institute of Technology",
-            "raw_text": "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India Thesis Advisor: Prof. P. Vellaisamy Thesis Title: Adomian Polynomials and some Fractional Stochastic Processes CPI: 7.56/10 (≡ 75.6%) July 2011 - May 2013 M.Sc. in Applied Statistics and Informatics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India CPI: 6.36/10 (≡ 63.6%) July 2006 - May 2009 B.Sc. in Statistics and Mathematics | Department of Statistics, PPN Degree College, CSJM University, Kanpur Uttar Pradesh, India Percentage: 66.74% July 2004 - May 2005 Intermediate | UP Board | Science | Percentage: 75.80% July 2002 - May 2003 High school | UP Board | Science | Percentage: 75.33%"
+            "raw_text": "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India Thesis Advisor: Prof. P. Vellaisamy Thesis Title: Adomian Polynomials and some Fractional Stochastic Processes CPI: 7.56/10 (≡ 75.6%)"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2011",
+            "cgpa": "6.36/10",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "July 2011 - May 2013 M.Sc. in Applied Statistics and Informatics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India CPI: 6.36/10 (≡ 63.6%)"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2006",
+            "cgpa": "66.74%",
+            "institution": "PPN Degree College",
+            "raw_text": "July 2006 - May 2009 B.Sc. in Statistics and Mathematics | Department of Statistics, PPN Degree College, CSJM University, Kanpur Uttar Pradesh, India Percentage: 66.74%"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2004",
+            "cgpa": "75.80%",
+            "institution": "",
+            "raw_text": "July 2004 - May 2005 Intermediate | UP Board | Science | Percentage: 75.80%"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2002",
+            "cgpa": "75.33%",
+            "institution": "",
+            "raw_text": "July 2002 - May 2003 High school | UP Board | Science | Percentage: 75.33%"
         }
     ],
     "experience": [
@@ -23,13 +51,19 @@
             "job_title": "Assistant Professor",
             "dates": "January 2024 - Present",
             "institution": "School of Computer Science",
-            "raw_text": "January 2024 - Present Assistant Professor | School of Computer Science (Data Science Cluster) University of Petroleum and Energy Studies Dehradun, Uttarakhand, India. July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at IITBombay,Igottheopportunitytoteacharangeofcourses,includingIntroductiontoProbabilityand Statistics, Regression Analysis using R, Multivariate Analysis, Applied Stochastic Process, Parametric and Nonparametric Statistics. These courses have allowed me to work with students at different levels"
+            "raw_text": "January 2024 - Present Assistant Professor | School of Computer Science (Data Science Cluster) University of Petroleum and Energy Studies Dehradun, Uttarakhand, India."
+        },
+        {
+            "job_title": "Research Associate",
+            "dates": "July 2023 - Nov 2023",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at IITBombay,Igottheopportunitytoteacharangeofcourses,includingIntroductiontoProbabilityand Statistics, Regression Analysis using R, Multivariate Analysis, Applied Stochastic Process, Parametric and Nonparametric Statistics. These courses have allowed me to work with students at different levels"
         },
         {
             "job_title": "TEACHING ASSISTANT",
             "dates": "2024",
             "institution": "",
-            "raw_text": "f statistical expertise and have shaped my approach to teaching. Moreover, I am engaged in freelance teaching, where I share my expertise in statistics with bachelors’ and masters’ students. TEACHING AND TEACHING ASSISTANTSHIP FOR STATISTICS COURSES Spring 2024 Fundamentals of Biostatistics using IBM SPSS (UPES Dehradun) Spring 2024 Biostatistical Methods in Clinical Research using IBM SPSS (UPES Dehradun) Spring 2021 SI 534 Nonparametric statistics (Teaching Assistant, IIT Bombay) Autumn 2021 SI 505 Multivariate analysis (Teaching Assistant, IIT Bombay) Spring 2020 SI 422 Regression Analysis (Teaching Assistant, IIT Bombay) Autumn 2020 SI 417 Introduction to Probability Theory (Teaching Assistant, IIT Bombay) Spring 2019 SI 404 Applied Stochastic Process (Teaching Assistant, IIT Bombay)"
+            "raw_text": "of statistical expertise and have shaped my approach to teaching. Moreover, I am engaged in freelance teaching, where I share my expertise in statistics with bachelors’ and masters’ students. TEACHING AND TEACHING ASSISTANTSHIP FOR STATISTICS COURSES Spring 2024 Fundamentals of Biostatistics using IBM SPSS (UPES Dehradun) Spring 2024 Biostatistical Methods in Clinical Research using IBM SPSS (UPES Dehradun) Spring 2021 SI 534 Nonparametric statistics (Teaching Assistant, IIT Bombay) Autumn 2021 SI 505 Multivariate analysis (Teaching Assistant, IIT Bombay) Spring 2020 SI 422 Regression Analysis (Teaching Assistant, IIT Bombay) Autumn 2020 SI 417 Introduction to Probability Theory (Teaching Assistant, IIT Bombay) Spring 2019 SI 404 Applied Stochastic Process (Teaching Assistant, IIT Bombay)"
         }
     ],
     "research_interests": [
@@ -63,6 +97,21 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "1. GotselectedforNationalBoardforHigherMathematics(NBHM)PostdoctoralFellowship,2023(II).",
+        "Achieved All India Rank 72 in GATE (Statistics) 2020.",
+        "Achieved All India Rank 67 in GATE (Statistics) 2019.",
+        "Participated in the Workshop on Quantile Regression organized by IISA at IIT Bombay,2019.",
+        "Participated in the R-Conference organized by IISA at IIT Bombay, 2019.",
+        "Achieved All India Rank 325 in GATE (Mathematics) 2017.",
+        "Qualified Indian Statistical Service (ISS) Examination - 2016, 2017 conducted by Union Public Service Commission (UPSC).",
+        "QualifiedRBIGradeBoﬀicerExamination-2018, 2019, 2021conductedbyReserveBankofIndia Selection Board (RBISB).",
+        "Got selected for summer intenship from Ministry of Statistics and Programme Implementation (MoS&PI) in 2012-13.",
+        "Achieved All India Rank (AIR) 85 in IIT JAM Statistics 2011.",
+        "Achieved All India Rank (AIR) 90 in IIT JAM Statistics 2009."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         "1. ParticipatedintheWorkshoponQuantileRegressionorganizedbyInternationalIndianStatistical Association (IISA) at IIT Bombay, 2019.",
         "Participated in the R-Conference organized by International Indian Statistical Association (IISA) at IIT Bombay, 2019.",
@@ -73,5 +122,18 @@
     ],
     "references": [
         "Prof. P. Vellaisamy Prof. Siuli Mukhopadhyay Department of Mathematics Department of Mathematics Indian Institute of Technology, Bombay Indian Institute of Technology, Bombay Mumbai, Maharashtra - 400076 Mumbai, Maharashtra - 400076 Email: pv@math.iitb.ac.in Email: siuli@math.iitb.ac.in Prof. Mohd. Arshad Department of Mathematics Indian Institute of Technology, Indore Simrol, Khandwa Road, Indore 453552 Email: arshad@iiti.ac.in"
+    ],
+    "achievements": [
+        "1. GotselectedforNationalBoardforHigherMathematics(NBHM)PostdoctoralFellowship,2023(II).",
+        "Achieved All India Rank 72 in GATE (Statistics) 2020.",
+        "Achieved All India Rank 67 in GATE (Statistics) 2019.",
+        "Participated in the Workshop on Quantile Regression organized by IISA at IIT Bombay,2019.",
+        "Participated in the R-Conference organized by IISA at IIT Bombay, 2019.",
+        "Achieved All India Rank 325 in GATE (Mathematics) 2017.",
+        "Qualified Indian Statistical Service (ISS) Examination - 2016, 2017 conducted by Union Public Service Commission (UPSC).",
+        "QualifiedRBIGradeBoﬀicerExamination-2018, 2019, 2021conductedbyReserveBankofIndia Selection Board (RBISB).",
+        "Got selected for summer intenship from Ministry of Statistics and Programme Implementation (MoS&PI) in 2012-13.",
+        "Achieved All India Rank (AIR) 85 in IIT JAM Statistics 2011.",
+        "Achieved All India Rank (AIR) 90 in IIT JAM Statistics 2009."
     ]
 }

@@ -11,39 +11,60 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "Ph.D",
             "graduation_year": "2019",
             "cgpa": "",
             "institution": "School of Humanities and Social Sciences",
             "raw_text": "2019 – Present: Pursuing a Ph.D. in the School of Humanities and Social Sciences (SHSS), Indian Institute of Technology Mandi, Himachal Pradesh, India."
         },
         {
-            "degree": "me",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Tentative Thesis Title: “Forest Dependence, Management and Ecological Identity: Exploring Interlinkages in Western Indian Himalayan Region”. Thesis Supervisor: Dr Shyamasree Dasgupta"
+            "raw_text": "• Tentative Thesis Title: “Forest Dependence, Management and Ecological Identity: Exploring Interlinkages in Western Indian Himalayan Region”. Thesis Supervisor: Dr Shyamasree Dasgupta"
         },
         {
-            "degree": "be",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Outline of the work: My work explores the interlinkages between forest dependence, forest management, and ecological identity in the Western Indian Himalayan Region (WIHR). In this context, I am trying to understand the reasons and effects of the differences in stakeholders' perceptions. Alongside, the work aims to examine the issue of community participation in Indian forest management."
+            "raw_text": "• Outline of the work: My work explores the interlinkages between forest dependence, forest management, and ecological identity in the Western Indian Himalayan Region (WIHR). In this context, I am trying to understand the reasons and effects of the differences in stakeholders' perceptions. Alongside, the work aims to examine the issue of community participation in Indian forest management."
         },
         {
-            "degree": "Me",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Completed Coursework in 1) Research Methodology for Social Sciences, 2) History of Development Thoughts, 3) Human Geography: A Western Himalayan Perspective, 4) Statistical Methods and"
+            "raw_text": "• Completed Coursework in 1) Research Methodology for Social Sciences, 2) History of Development Thoughts, 3) Human Geography: A Western Himalayan Perspective, 4) Statistical Methods and"
         },
         {
-            "degree": "Me",
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "5)Research Methodology with a CGPA of 8.69."
+        },
+        {
+            "degree": "",
             "graduation_year": "2008",
             "cgpa": "First Class",
             "institution": "Jadavpur University",
-            "raw_text": "Research Methodology with a CGPA of 8.69. 2008-10: M.A. in Economics from Jadavpur University, West Bengal (First Class) (63%). 2005-08: B.Sc. (Economics honours, Mathematics and Statistics general) from the University of Calcutta, West Bengal (Second Class) (55.625%). 2003-2005: Higher Secondary Examination from West Bengal Council of Higher Secondary Education (WBCHSE) with first division (72.3%). 2003: Madhyamik Examination from West Bengal Board of Secondary Education (WBBSE) with first division (80.75%)."
+            "raw_text": "2008-10: M.A. in Economics from Jadavpur University, West Bengal (First Class) (63%)."
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2005",
+            "cgpa": "Second Class",
+            "institution": "University of Calcutta",
+            "raw_text": "2005-08: B.Sc. (Economics honours, Mathematics and Statistics general) from the University of Calcutta, West Bengal (Second Class) (55.625%)."
+        },
+        {
+            "degree": "Higher Secondary",
+            "graduation_year": "2003-2005",
+            "cgpa": "72.3%",
+            "institution": "",
+            "raw_text": "2003-2005: Higher Secondary Examination from West Bengal Council of Higher Secondary Education (WBCHSE) with first division (72.3%). 2003: Madhyamik Examination from West Bengal Board of Secondary Education (WBBSE) with first division (80.75%)."
         }
     ],
     "experience": [
@@ -88,10 +109,14 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
     "references": [
         "1. Dr Shyamasree Dasgupta, Associate Professor, Indian Institute of Technology Mandi. Email: shyamasree@iitmandi.ac.in",
         "Dr Ramna Thakur, Associate Professor, Indian Institute of Technology Mandi. Email: ramna@iitmandi.ac.in",
         "Dr Devika Sethi, Associate Professor, Indian Institute of Technology Mandi. Email: devika@iitmandi.ac.in"
-    ]
+    ],
+    "achievements": []
 }

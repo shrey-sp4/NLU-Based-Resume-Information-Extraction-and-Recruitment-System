@@ -11,11 +11,32 @@
     "summary": [],
     "education": [
         {
-            "degree": "Doctor of Philosophy (PhD)",
+            "degree": "Doctor of Philosophy",
             "graduation_year": "2013-2021",
-            "cgpa": "First Class (62.00 %)",
+            "cgpa": "",
             "institution": "DFT Pandit Deendayal Energy University",
-            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT Pandit Deendayal Energy University Gandhinagar, INDIA Thesis title: Experimental and Theoretical Study of Nonlinear Optical Material Single Crystals PhD. Advisor: Prof. Bharat B. Parekh and Co-Advisor, Dr Satyam Shinde 2010-2012 Master of Science (M. Sc.) in Physics Saurashtra University Rajkot, INDIA Passed with First Class (62.00 %) 2003-2006 Bachelor of Science (B. Sc.) in Physics Saurashtra University Rajkot, INDIA. Passed with First Class (60.85 %)"
+            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT Pandit Deendayal Energy University Gandhinagar, INDIA Thesis title: Experimental and Theoretical Study of Nonlinear Optical Material Single Crystals"
+        },
+        {
+            "degree": "PhD",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "PhD. Advisor: Prof. Bharat B. Parekh and Co-Advisor, Dr Satyam Shinde"
+        },
+        {
+            "degree": "Master of Science",
+            "graduation_year": "2010-2012",
+            "cgpa": "First Class (62.00 %)",
+            "institution": "Physics Saurashtra University",
+            "raw_text": "2010-2012 Master of Science (M. Sc.) in Physics Saurashtra University Rajkot, INDIA Passed with First Class (62.00 %)"
+        },
+        {
+            "degree": "Bachelor of Science",
+            "graduation_year": "2003-2006",
+            "cgpa": "First Class (60.85 %)",
+            "institution": "Physics Saurashtra University",
+            "raw_text": "2003-2006 Bachelor of Science (B. Sc.) in Physics Saurashtra University Rajkot, INDIA. Passed with First Class (60.85 %)"
         }
     ],
     "experience": [
@@ -23,7 +44,49 @@
             "job_title": "Assistant Professor",
             "dates": "July. 2023 – till date",
             "institution": "Parul Institute of Applied Sciences Parul University",
-            "raw_text": "July. 2023 – till date Assistant Professor Department of Physics, Parul Institute of Applied Sciences Parul University, Vadodara, INDIA. Jan. 2021 - Oct. 2021 Post-doctoral Fellow School of Engineering and Applied Sciences, Ahmedabad University, Ahmedabad, INDIA. July. 2022 – Jan. 2023 Visiting Assistant Professor Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA. Feb. 2020 – Jan. 2022 Assistant Professor Department of Physics, Khyati Institute of Science, Ahmedabad, INDIA. Sept. 2022 – March. 2023 Visiting Assistant Professor Department of Physics, Indian Institute of Information Technology, Vadodara (Gandhinagar- Campus), INDIA. Aug. 2021 – Dec. 2021 Step-Up Jewels (CVD-Dimond Growth) Khatodara Road Udhana Darwaja Surat, INDIA. Feb. 2019 – Aug. 2019 Visiting Assistant Professor Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA. June. 2017 – April. 2019 Assistant Professor Department of Physics, Kadi Sarva Vishwavidyalaya University, Gandhinagar, INDIA. 1"
+            "raw_text": "July. 2023 – till date Assistant Professor Department of Physics, Parul Institute of Applied Sciences Parul University, Vadodara, INDIA."
+        },
+        {
+            "job_title": "Post-doctoral Fellow",
+            "dates": "Jan. 2021 - Oct. 2021",
+            "institution": "Post-doctoral Fellow School of Engineering and Applied Sciences",
+            "raw_text": "Jan. 2021 - Oct. 2021 Post-doctoral Fellow School of Engineering and Applied Sciences, Ahmedabad University, Ahmedabad, INDIA."
+        },
+        {
+            "job_title": "Visiting Assistant Professor",
+            "dates": "July. 2022 – Jan. 2023",
+            "institution": "Pandit Deendayal Energy University",
+            "raw_text": "July. 2022 – Jan. 2023 Visiting Assistant Professor Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA."
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "Feb. 2020 – Jan. 2022",
+            "institution": "Khyati Institute of Science",
+            "raw_text": "Feb. 2020 – Jan. 2022 Assistant Professor Department of Physics, Khyati Institute of Science, Ahmedabad, INDIA."
+        },
+        {
+            "job_title": "Visiting Assistant Professor",
+            "dates": "Sept. 2022 – March. 2023",
+            "institution": "Indian Institute of Information Technology",
+            "raw_text": "Sept. 2022 – March. 2023 Visiting Assistant Professor Department of Physics, Indian Institute of Information Technology, Vadodara (Gandhinagar- Campus), INDIA."
+        },
+        {
+            "job_title": "",
+            "dates": "Aug. 2021 – Dec. 2021",
+            "institution": "",
+            "raw_text": "Aug. 2021 – Dec. 2021 Step-Up Jewels (CVD-Dimond Growth) Khatodara Road Udhana Darwaja Surat, INDIA."
+        },
+        {
+            "job_title": "Visiting Assistant Professor",
+            "dates": "Feb. 2019 – Aug. 2019",
+            "institution": "Pandit Deendayal Energy University",
+            "raw_text": "Feb. 2019 – Aug. 2019 Visiting Assistant Professor Department of Physics, Pandit Deendayal Energy University, Gandhinagar, INDIA."
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "June. 2017 – April. 2019",
+            "institution": "Kadi Sarva Vishwavidyalaya University",
+            "raw_text": "June. 2017 – April. 2019 Assistant Professor Department of Physics, Kadi Sarva Vishwavidyalaya University, Gandhinagar, INDIA."
         }
     ],
     "research_interests": [
@@ -94,8 +157,12 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         "Conferences/Workshops Organized: – Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Xray Diffraction Techniques and Applications, March 1719, 2010, Saurashtra University, Rajkot. – Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Functional Oxides, Nanomaterials and Devices 2012, March 0103, 2012, Saurashtra University, Rajkot. Journals Refereed – Journal of Physics: Condensed Matter. – Applied Physics Letter. – Indian Journal of Physics. – Materials Physics and Chemistry of Solids. – AIP Proceedings for DAE-SSPS Symposiums for 2019-21, Beamtime Experience January 2014 Neutron Powder Diffraction Measurement Beam Time Project on Evolution of Nonlinear structure in KX 2 PO 4 (X = H and D): A Neutron Diffraction Study at Raja Ramana Institute of Advance Research Indor. (Role: Principal Investigator) January 2015 X-ray Photoemission Spectroscopy and Resonant Photoemission Spectroscopy measurements to study electronic structure modifications in CuS, CuSe and CuTe Topological superconductor using angle-integrated photoemission spectroscopy (AIPES) beamline on the INDUS-1 synchrotron radiation source. Indor June 2016 High energy Swift heavy ion irradiation using Material Science (Topological Insulator) 3 beamline at IUAC, New Delhi. September 2023 (Slot Book) High energy Swift heavy ion irradiation using “ Experimental and Theoretical Comparatively study of alkali metal doped Nonlinear Optical single crystals Material with Swifting heavy ion irradiation using charge particle beamline at IUAC, New Delhi. Invited Talks / Oral presentations / Discussions Delivered: – Invited Talk (Online)on “Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium Dihydrogen Phosphate Single Crystals” – Oral Presentation at International Conference on Advanced Material in Innovative Technology (AMITY-2022), April. 2022. – Invited Talk on A first-principles study of the electronic structure and optical properties of ZnSnN2 nitrogen base stable perovskite semi-conducting material. International Materials Science Conference – 2021 (IMSC-2021), organized by the School of Physical Sciences, KBCNMU, Jalgaon, India on the digital platform from 18- 20th March 2021. – Invited Talk on “Experimental and Theoretical Study of Non-linear Optical Material Crystals” – Oral Presentation at PhD Review Symposium at Pandit Deendayal Energy University Gandhinagar held on 18th June – Invited Talk on “First Principle Calculation on KDP Single Crystals” – Oral Presentation at International Science Symposium 26th to 27th 2017at Christ College Rajkot – Experimental Lab Sessions on Instrumental Method of Chemical Analysis a Skill development for chemical and Pharmaceuticals held in May 2017 at Pandit Deendayal Energy University, Gandhinagar – Experimental Lab Sessions for Refresher Course for Science College Teachers on Nano and Applied Sciences, Dec. 10, 2013, Academic Staff College, Saurashtra University, Rajkot. 4"
     ],
-    "references": []
+    "references": [],
+    "achievements": []
 }

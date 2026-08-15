@@ -14,7 +14,7 @@
     ],
     "education": [
         {
-            "degree": "PH.D.",
+            "degree": "PH.D",
             "graduation_year": "2024",
             "cgpa": "",
             "institution": "Sarveapalli RadhaKrishnan University",
@@ -25,77 +25,84 @@
             "graduation_year": "2014",
             "cgpa": "70%",
             "institution": "Vishwavidhyalay",
-            "raw_text": "Master of Computer Science (Msc cs) appeared From MakhanLal Chaturvedi Rastriya Patrakarita Avam sanchar Vishwavidhyalay (MCURPV) Bhopal with total agg. 70% in year 2014."
+            "raw_text": "➢ Master of Computer Science (Msc cs) appeared From MakhanLal Chaturvedi Rastriya Patrakarita Avam sanchar Vishwavidhyalay (MCURPV) Bhopal with total agg. 70% in year 2014."
         },
         {
             "degree": "MSW",
             "graduation_year": "2020",
             "cgpa": "70%",
             "institution": "From Maharishi Mahesh Yogi Vedic Vishwavidhyalay",
-            "raw_text": "Master of Social Work (MSW) appeared From Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur with total agg. 70% in year 2020."
+            "raw_text": "➢ Master of Social Work (MSW) appeared From Maharishi Mahesh Yogi Vedic Vishwavidhyalay Jabalpur with total agg. 70% in year 2020."
         },
         {
             "degree": "Bachelor of computer application",
             "graduation_year": "2010",
             "cgpa": "58%",
             "institution": "Awadhesh Pratap Singh University",
-            "raw_text": "Bachelor of computer application (B.C.A) from Awadhesh Pratap Singh University (APSU), Rewa (M.P) with total agg. 58% in year 2010."
+            "raw_text": "➢ Bachelor of computer application (B.C.A) from Awadhesh Pratap Singh University (APSU), Rewa (M.P) with total agg. 58% in year 2010."
         },
         {
-            "degree": "12th (10+2)",
+            "degree": "12th",
             "graduation_year": "2007",
             "cgpa": "74%",
             "institution": "",
-            "raw_text": "12th (10+2) from BSEMP Bhopal (MP Board) with total Agg 74% in year 2007."
+            "raw_text": "➢ 12th (10+2) from BSEMP Bhopal (MP Board) with total Agg 74% in year 2007."
         },
         {
-            "degree": "Me",
+            "degree": "Metric",
             "graduation_year": "2005",
             "cgpa": "72%",
             "institution": "",
-            "raw_text": "Metric (10th) from BSEMP Bhopal (MP Board) with total Agg. 72% in year 2005. Other Certificate’s"
+            "raw_text": "➢ Metric (10th) from BSEMP Bhopal (MP Board) with total Agg. 72% in year 2005."
         },
         {
-            "degree": "Be",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "Great Learning Academy",
-            "raw_text": "AWS Course for Beginners Online Certificate completion from Great Learning Academy."
+            "institution": "",
+            "raw_text": "Other Certificate’s"
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Great Learning Academy",
-            "raw_text": "AWS Computer Services Online Certificate completion from Great Learning Academy."
+            "raw_text": "➢ AWS Course for Beginners Online Certificate completion from Great Learning Academy."
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Great Learning Academy",
-            "raw_text": "AWS Elastic Stack Online Certificate completion from Great Learning Academy."
+            "raw_text": "➢ AWS Computer Services Online Certificate completion from Great Learning Academy."
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Great Learning Academy",
-            "raw_text": "AWS S3 Online Certificate completion from Great Learning Academy."
+            "raw_text": "➢ AWS Elastic Stack Online Certificate completion from Great Learning Academy."
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Great Learning Academy",
-            "raw_text": "AWS Domain Services Online Certificate completion from Great Learning Academy."
+            "raw_text": "➢ AWS S3 Online Certificate completion from Great Learning Academy."
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Great Learning Academy",
-            "raw_text": "AWS Lambda Online Certificate completion from Great Learning Academy."
+            "raw_text": "➢ AWS Domain Services Online Certificate completion from Great Learning Academy."
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Great Learning Academy",
+            "raw_text": "➢ AWS Lambda Online Certificate completion from Great Learning Academy."
         }
     ],
     "experience": [
@@ -109,19 +116,19 @@
             "job_title": "Assistant Professor",
             "dates": "March 2023 – Dec 2023",
             "institution": "Vindhya Institute of Technology and Science",
-            "raw_text": "Assistant Professor March 2023 – Dec 2023 Vindhya Institute of Technology and Science, Satna (M.P.)"
+            "raw_text": "➢ Assistant Professor March 2023 – Dec 2023 Vindhya Institute of Technology and Science, Satna (M.P.)"
         },
         {
             "job_title": "Assistant Professor",
             "dates": "July 2016 – March 2023",
             "institution": "Shri Rama Krishna College of Commerce & Science",
-            "raw_text": "Assistant Professor July 2016 – March 2023 Shri Rama Krishna College of Commerce & Science, Satna (M.P.)"
+            "raw_text": "➢ Assistant Professor July 2016 – March 2023 Shri Rama Krishna College of Commerce & Science, Satna (M.P.)"
         },
         {
             "job_title": "Assistant Professor",
             "dates": "July 2012– Dec 2015",
             "institution": "SSICAIT College",
-            "raw_text": "Assistant Professor July 2012– Dec 2015 SSICAIT College Maihar, Distt-Satna (M.P.)"
+            "raw_text": "➢ Assistant Professor July 2012– Dec 2015 SSICAIT College Maihar, Distt-Satna (M.P.)"
         }
     ],
     "research_interests": [],
@@ -155,6 +162,9 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         "• Handled classes dealing with basic computer, keyboard and internet etc.",
         "Planned a program of study to meet the individual’s needs, interests and abilities.",
@@ -167,5 +177,6 @@
         "Strive to maintain and improve professional competence.",
         "I have done different college project to many software languages like vb.net, c language etc."
     ],
-    "references": []
+    "references": [],
+    "achievements": []
 }

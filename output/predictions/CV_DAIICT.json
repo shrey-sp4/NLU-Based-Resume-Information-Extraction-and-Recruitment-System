@@ -18,46 +18,46 @@
             "raw_text": "• 2018-2024: PhD,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India."
         },
         {
-            "degree": "Be",
+            "degree": "",
             "graduation_year": "2016-2018",
             "cgpa": "",
             "institution": "Institute",
-            "raw_text": "2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89."
+            "raw_text": "• 2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89."
         },
         {
             "degree": "",
             "graduation_year": "2013-2016",
             "cgpa": "",
             "institution": "",
-            "raw_text": "2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96"
+            "raw_text": "• 2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96"
         },
         {
             "degree": "",
             "graduation_year": "2013",
             "cgpa": "92%",
             "institution": "School",
-            "raw_text": "2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%"
+            "raw_text": "• 2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%"
         },
         {
             "degree": "",
             "graduation_year": "2011",
             "cgpa": "",
             "institution": "School",
-            "raw_text": "2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS"
+            "raw_text": "• 2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS"
         },
         {
-            "degree": "Ph.D",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications"
+            "raw_text": "• Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications"
         },
         {
-            "degree": "M.Sc.",
+            "degree": "M.Sc",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
+            "raw_text": "• M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
         }
     ],
     "experience": [],
@@ -91,6 +91,46 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "• NationalEligibilityTest-JuniorResearchFellow(NET-JRF)(CSIR)-June2018",
+        "GraduateAptitudeTestinEngineering(GATE)inPhysics-2018",
+        "IndianInstituteofTechnology-JointAdmissionTest(IIT-JAM)inPhysics-2016",
+        "Awarded’CSSSScholarship’offeredbyMHRD,Govt. ofIndia2013-2018",
+        "ClearedOlympiadsinMathematics(ClassXI)organisedbyScienceOlympiadFoundation-2012",
+        "SelectedasGuestfacultyatShivajiCollege,DelhiUniversity COMPUTERANALYSISANDSIMULATION",
+        "C++,Matlab,COMSOLMultiphysics. TEACHINGEXPERIENCE",
+        "Electromagnetism",
+        "MathematicalPhysics",
+        "PhysicsofSemiconductor",
+        "FiberopticsandOptoelectronics",
+        "QuantumMechanics",
+        "PhysicsofWaves",
+        "BtechIstyearLab DETAILSOFREFEREES",
+        "Prof. ParthaRoyChaudhuri DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: roycp@phy.iitkgp.ac.in",
+        "Prof. MaruthiManojBrundavanam DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: bmmanoj@phy.iitkgp.ac.in",
+        "Prof. AbhaDevHabib DepartmentofPhysics MirandaHouse,UniveristyofDelhi NewDelhi,India-1100007 Email: abhadev.habib@mirandahouse.ac.in"
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": [
+        "• NationalEligibilityTest-JuniorResearchFellow(NET-JRF)(CSIR)-June2018",
+        "GraduateAptitudeTestinEngineering(GATE)inPhysics-2018",
+        "IndianInstituteofTechnology-JointAdmissionTest(IIT-JAM)inPhysics-2016",
+        "Awarded’CSSSScholarship’offeredbyMHRD,Govt. ofIndia2013-2018",
+        "ClearedOlympiadsinMathematics(ClassXI)organisedbyScienceOlympiadFoundation-2012",
+        "SelectedasGuestfacultyatShivajiCollege,DelhiUniversity COMPUTERANALYSISANDSIMULATION",
+        "C++,Matlab,COMSOLMultiphysics. TEACHINGEXPERIENCE",
+        "Electromagnetism",
+        "MathematicalPhysics",
+        "PhysicsofSemiconductor",
+        "FiberopticsandOptoelectronics",
+        "QuantumMechanics",
+        "PhysicsofWaves",
+        "BtechIstyearLab DETAILSOFREFEREES",
+        "Prof. ParthaRoyChaudhuri DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: roycp@phy.iitkgp.ac.in",
+        "Prof. MaruthiManojBrundavanam DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: bmmanoj@phy.iitkgp.ac.in",
+        "Prof. AbhaDevHabib DepartmentofPhysics MirandaHouse,UniveristyofDelhi NewDelhi,India-1100007 Email: abhadev.habib@mirandahouse.ac.in"
+    ]
 }

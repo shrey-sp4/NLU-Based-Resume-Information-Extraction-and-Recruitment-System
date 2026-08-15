@@ -13,10 +13,45 @@
     "education": [
         {
             "degree": "PhD",
-            "graduation_year": "2020",
-            "cgpa": "76%",
+            "graduation_year": "",
+            "cgpa": "",
             "institution": "PhD Visvesvaraya National Institute of Technology",
-            "raw_text": "PhD Visvesvaraya National Institute of Technology, Nagpur, India. Doctor of Philosophy, Electronics and Communication Engineering Specialization: Molecular Communication Advisor: Dr. Prabhat K. Sharma Thesis Title: Diffusive Molecular Communication for Nano-Networks: Performance Analysis and Optimization. (2020) Masters Institute of Engineering, DAVV, Indore, India. Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008) 12th Govt Higher Secondary School, MP Board, Satwas, Dewas, India. Higher Secondary, Physics, Chemistry and Maths. Grade: 73.4% (2003) 10th New Diamond Higher Secondary School, MP Board, Satwas, Dewas, India. High Secondary, Grade: 71.2% (2001)"
+            "raw_text": "PhD Visvesvaraya National Institute of Technology, Nagpur, India."
+        },
+        {
+            "degree": "Doctor of Philosophy",
+            "graduation_year": "2020",
+            "cgpa": "",
+            "institution": "Masters Institute of Engineering",
+            "raw_text": "Doctor of Philosophy, Electronics and Communication Engineering Specialization: Molecular Communication Advisor: Dr. Prabhat K. Sharma Thesis Title: Diffusive Molecular Communication for Nano-Networks: Performance Analysis and Optimization. (2020) Masters Institute of Engineering, DAVV, Indore, India."
+        },
+        {
+            "degree": "Master of Engineering",
+            "graduation_year": "2015",
+            "cgpa": "76%",
+            "institution": "Graduation Medicaps Institute of Technology and Management",
+            "raw_text": "Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008)"
+        },
+        {
+            "degree": "12th",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Govt Higher Secondary School",
+            "raw_text": "12th Govt Higher Secondary School, MP Board, Satwas, Dewas, India."
+        },
+        {
+            "degree": "Higher Secondary",
+            "graduation_year": "2003",
+            "cgpa": "73.4%",
+            "institution": "",
+            "raw_text": "Higher Secondary, Physics, Chemistry and Maths. Grade: 73.4% (2003)"
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2001",
+            "cgpa": "71.2%",
+            "institution": "New Diamond Higher Secondary School",
+            "raw_text": "10th New Diamond Higher Secondary School, MP Board, Satwas, Dewas, India. High Secondary, Grade: 71.2% (2001)"
         }
     ],
     "experience": [
@@ -30,7 +65,7 @@
             "job_title": "Senior Research",
             "dates": "July 2021-November 2022",
             "institution": "Indian Institute of Technology",
-            "raw_text": "gy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur. Key Subjects: Signalsandsystems,AnalogCommunication,DigitalElectronics,Wireless communication systems lab etc. (July 2017 - September 2020) PhD Research, Visvesvaraya National Institute of Technology, Nagpur. Research Topic: Performance Analysis and Optimizations in Diffusive Molecular Com- munication. Mentor: Prof. Prabhat K Sharma. (July 2017 - September 2020) Assistant Professor, Medi-Caps University, Indore. Key Subjects: Electromagnetic, Communication System, Signals and systems, Ana- log Communication, Digital Electronics, Wireless communication systems lab etc. Key Responsibilities: Mentored several B.tech and M.tech students in their final year projects. Involved in supervision of extracurricular activities such as sports and cultural events. (September 2010- July 2017) Assistant Professor, Oriental University, Indore. Key Subjects: Electromagnetic, Control System, VHDL lab etc. (2009-10) Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 1/7 Mentored,"
+            "raw_text": "ogy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur. Key Subjects: Signalsandsystems,AnalogCommunication,DigitalElectronics,Wireless communication systems lab etc. (July 2017 - September 2020) PhD Research, Visvesvaraya National Institute of Technology, Nagpur. Research Topic: Performance Analysis and Optimizations in Diffusive Molecular Com- munication. Mentor: Prof. Prabhat K Sharma. (July 2017 - September 2020) Assistant Professor, Medi-Caps University, Indore. Key Subjects: Electromagnetic, Communication System, Signals and systems, Ana- log Communication, Digital Electronics, Wireless communication systems lab etc. Key Responsibilities: Mentored several B.tech and M.tech students in their final year projects. Involved in supervision of extracurricular activities such as sports and cultural events. (September 2010- July 2017) Assistant Professor, Oriental University, Indore. Key Subjects: Electromagnetic, Control System, VHDL lab etc. (2009-10) Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 1/7 Mentored,"
         }
     ],
     "research_interests": [
@@ -70,6 +105,11 @@
         ]
     },
     "certifications": [],
+    "awards": [
+        "October 2023 Elevated to IEEE Senior member. July 2020 Nominated from Visvesvaraya National Institute of Technology, Nagpur as a best researcher award for the Ph.D from Ministry of Electronics and Information Society (Meity), Govt. of India. July 2017 Received teaching assistant scholarship for Ph.D from Ministry of Electronics and Information Society (Meity), Govt. of India. 2013-2015 Successively three times GATE exam qualified from 2013 to 2015. Work Style (cid:123) Well-organized and passionate (cid:123) Willing to perform basic tasks and move on to solve complex problems (cid:123) Able to learn new knowledge and adapt to new environments quickly (cid:123) Strong independent work style and excellent teamwork skills (cid:123) Highly committed and strong critical thinking skills"
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         "• IEEE Senior member Reviewer for",
         "IEEE Communications Letters",
@@ -93,5 +133,8 @@
         "1. Prof. Mohmed Slim Alouini (Postdoc Mentor) Professor slim.alouini@kaust.edu.sa KAUST Thuwal, KSA. +966 54 470 0038",
         "Dr. Prabhat Kumar Sharma (PhD Mentor) Assistant Professor, prabhatmadhavec1@gmail.com Department of ECE, prabhatsharma@ece.vnit.ac.in Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 6/7 VNIT Nagpur, India. +91 712 280 1912",
         "Dr. Prabhat K Upadhyay (Research Fellow Mentor and Collaborator) Associate Professor, pkupadhyay@iiti.ac.in Department of EE, pkupadhyay@iiti.ac.in IIT Indore, India. +91 846 196 4593"
+    ],
+    "achievements": [
+        "October 2023 Elevated to IEEE Senior member. July 2020 Nominated from Visvesvaraya National Institute of Technology, Nagpur as a best researcher award for the Ph.D from Ministry of Electronics and Information Society (Meity), Govt. of India. July 2017 Received teaching assistant scholarship for Ph.D from Ministry of Electronics and Information Society (Meity), Govt. of India. 2013-2015 Successively three times GATE exam qualified from 2013 to 2015. Work Style (cid:123) Well-organized and passionate (cid:123) Willing to perform basic tasks and move on to solve complex problems (cid:123) Able to learn new knowledge and adapt to new environments quickly (cid:123) Strong independent work style and excellent teamwork skills (cid:123) Highly committed and strong critical thinking skills"
     ]
 }

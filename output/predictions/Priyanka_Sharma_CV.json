@@ -13,11 +13,32 @@
     ],
     "education": [
         {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Level Board/University Year of Percentage Division Completion"
+        },
+        {
             "degree": "PhD",
             "graduation_year": "2024",
             "cgpa": "96.0%",
             "institution": "Jaypee University of April",
-            "raw_text": "Level Board/University Year of Percentage Division Completion PhD (Physics and Jaypee University of April 2024 96.0% First Materials Science) Information Technology, Solan, H.P. M.Sc. (Physics) Guru Nanak Girls college, May 2018 78.9% First Ludhiana, Punjab University, Chandigarh B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana Board, Mohali (PSEB), Punjab Matric (10th) Indian Public Sen. Sec. School, March 2011 88.08% First Ludhiana Board, Mohali (PSEB), Punjab"
+            "raw_text": "PhD (Physics and Jaypee University of April 2024 96.0% First Materials Science) Information Technology, Solan, H.P."
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2018",
+            "cgpa": "78.9%",
+            "institution": "Punjab University",
+            "raw_text": "M.Sc. (Physics) Guru Nanak Girls college, May 2018 78.9% First Ludhiana, Punjab University, Chandigarh"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2016",
+            "cgpa": "77.3%",
+            "institution": "Govt. College for Girls",
+            "raw_text": "B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana Board, Mohali (PSEB), Punjab Matric (10th) Indian Public Sen. Sec. School, March 2011 88.08% First Ludhiana Board, Mohali (PSEB), Punjab"
         }
     ],
     "experience": [
@@ -69,8 +90,16 @@
         "Attended online workshop on “Rietveld Refinement Method” organized by UGC-DAE Consortium for Scientific Research Mumbai Centre in association with Indore Centre from 20- 22, September 2020.",
         "Workshop attended at NIT Jalandhar on “Short term course on material characterization techniques” at NIT Jalandhar, Punjab, India from June 17-21, 2019."
     ],
+    "awards": [
+        " Secured fifth rank in the Punjab University merit list in M.Sc (Physics). THESIS STATUS  PhD completed on the topic entitled “Study on Temporal Growth and Luminescence properties of ZnO nanostructure”."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
     "references": [
         "Prof. Partha Bir Barman Dr. Sanjiv Kumar Tiwari Department of Physics and Material Science Department of Physics and Material Science Jaypee University of Information Technology, Jaypee University of Information Technology, Waknaghat, Solan, Himachal Pradesh–173234 Waknaghat, Solan, Himachal Pradesh–173234 Mobile No.: +91-9418228268 Mobile No.: +91-9805465189 Email: pb.barman@juit.ac.in Email: sanjivkumar.tiwari@juit.ac.in Prof. Pankaj Sharma Applied Science Department, NITTTR Chandigarh-160019 Mobile No.: +91-9816852533 Email: pankaj@nitttrchd.ac.in. I do hereby solemnly affirm that all the statement and information furnished above are true, complete and correct to be the best of my knowledge and belief. Date: May 17, 2024 Place: Ludhiana, Punjab Priyanka Sharma"
+    ],
+    "achievements": [
+        " Secured fifth rank in the Punjab University merit list in M.Sc (Physics). THESIS STATUS  PhD completed on the topic entitled “Study on Temporal Growth and Luminescence properties of ZnO nanostructure”."
     ]
 }

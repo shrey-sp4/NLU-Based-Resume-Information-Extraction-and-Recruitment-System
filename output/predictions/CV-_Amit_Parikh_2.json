@@ -11,39 +11,67 @@
     "summary": [],
     "education": [
         {
-            "degree": "B.Sc.",
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Degree University Month &Year Percentage"
+        },
+        {
+            "degree": "B.Sc",
             "graduation_year": "1992",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Degree University Month &Year Percentage B.Sc. (Mathematics) GujaratUniversity May, 1992 78 M.Sc. (Mathematics) GujaratUniversity May, 1994 68 M.Phil. (Mathematics) GujaratUniversity July, 1998 77 Ph.D. SVNIT, Surat April, 2014 M.Phil. Dissertation:"
+            "raw_text": "B.Sc. (Mathematics) GujaratUniversity May, 1992 78"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "1994",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "M.Sc. (Mathematics) GujaratUniversity May, 1994 68 M.Phil. (Mathematics) GujaratUniversity July, 1998 77"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2014",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Ph.D. SVNIT, Surat April, 2014 M.Phil. Dissertation:"
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Title: Study of Continuous Functions"
+            "raw_text": "• Title: Study of Continuous Functions"
         },
         {
-            "degree": "me",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "Gujarat University",
-            "raw_text": "Guide: Prof. I. H. Sheth, Department of Mathematics, Gujarat University, Ahmedabad. Ph.D. Thesis:"
+            "raw_text": "• Guide: Prof. I. H. Sheth, Department of Mathematics, Gujarat University, Ahmedabad."
         },
         {
-            "degree": "me",
+            "degree": "Ph.D",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Title: Analytical solution of nonlinear partial differential equations of some phenomena arising in fluid flow through porous media"
+            "raw_text": "Ph.D. Thesis:"
         },
         {
-            "degree": "Me",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Guide: Prof. M.N.Mehta & Dr.V.H.Pradhan, SVNIT, Surat. Page 1 of 30"
+            "raw_text": "• Title: Analytical solution of nonlinear partial differential equations of some phenomena arising in fluid flow through porous media"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "• Guide: Prof. M.N.Mehta & Dr.V.H.Pradhan, SVNIT, Surat. Page 1 of 30"
         }
     ],
     "experience": [],
@@ -242,9 +270,109 @@
         "Attended one day workshop on “Revised Accreditation Framework of NAAC” on 13th February, 2019 organized by Knowledge Consortium of Gujarat & NAAC, Bangalore.",
         "Attended 2nd International conference on Mathematical Modelling and Simulation in Physical Sciences (MMSPS - 2022) organized by SVNIT Surat during 5 -6 February, 2022 (online mode). Page 24 of 30"
     ],
+    "awards": [
+        "• Achieved 2nd rank in Srinivasa Ramanujan Mathematics Award Examination – 2012 at State level conducted by ISTE and got the cash prize of Rs. 2000/-",
+        "Consolation prize at national level in Srinivasa Ramanujan Mathematics Competition for engineering teachers – 2012 conducted by ISTE and got the cash prize of Rs. 5000/-",
+        "Achieved 2nd rank in Srinivasa Ramanujan Mathematics Award Examination – 2013 at State level conducted by ISTE and got the cash prize of Rs. 2000/-",
+        "Working as a reviewer in World Journal of Social Science, ISSN 2329-9347(Print), ISSN 2329-9355 (online), Sciedu Press, USA.",
+        "PhD RDC/DPC expert for GTU, Rai University, Carolx Teacher’s University, C.U.Shah University",
+        "Received certificate of appreciation from “International Forum for Excellence in Higher Education” for successfully conducting “National Creativity Aptitude Test 2015” at C.U.Shah College of Engineering & Technology, Wadhwancity.",
+        "Received certificate of appreciation from “International Forum for Excellence in Higher Education” for successfully conducting “National Creativity Aptitude Test 2016” at Mehsana Urban Institute of Sciences, Ganpat University",
+        "Obtained Certificates of Honour for publishing and presenting research papers in the year 2010-11, 2011-12 and 2012-13 on occasion of Foundation day celebration of Institute of Technology, Nirma University, Ahmedabad.",
+        "Worked as an editor for Souvenir of 53rd Gujarat Ganit Mandal Adhivation “Smarnika”",
+        "rganised by Mehsana Urban Institute of Sciences during 23-25 December 2016.",
+        "Received national level award for ‘Excellence in Education’ from Confederation of Education Excellence (CEE), New Delhi on 22nd April 2017. Page 25 of 30",
+        "Received “Education Leadership Award” from Dewang Mehta national education awards (Regional round) & 25th Business School Affairs as a celebration of 25th Silver Jubilee year in October 2017.",
+        "The Executive council of Gwalior Academy of Mathematical Sciences nominated me as Vice President of GAMS for three years from 1st April 2018.",
+        "Elected as an Associate Fellow by “Gujarat Science Academy (GSA)” w.e.f January 2018.",
+        "Worked as a Managing editor for Special Issue of Mathematics Today, Volume: 34A, April 2018, [ISSN: 0976-3228, e-ISSN: 2455 – 9601]",
+        "Received Best Paper Award for research paper titled “Mathematical modeling of physical phenomena arising during oil recovery process”, at 68th International Conference on New Trends in Engineering, Science and Management during 20-21 July 2018, organized by IOSRD at Visakhapatnam.",
+        "Received “Life Time Achievement Award” in International Conference “IOSRD Research Awards” during 20-21 July 2018 at Visakhapatnam organised by International Organisation of Scientific Research and Development (IOSRD).",
+        "Invited as Judge in “Science Excellence 2018” to evaluate Poster & Oral presentations for the mathematics subject on 20th September 2018 organised by Gujarat University.",
+        "Invited as Judge in “Mathematics Excellence 2019 (MathXL-2019)” on 5th January 2019",
+        "rganised by Department of Mathematics, Gujarat University.",
+        "Received I2OR National Eminent Researcher Award 2020 from International Institute of Organized Research in November 2020.",
+        "Received Ganpat University President Award for Manager of the Year for the year 2019 with cash prize of INR 2,00,000/-. This award was presented on Vidyaya Samajotkarsh Divas 12th January 2021 to recognize the extraordinary performance in the area of Institutional Capacity building, excellency in teaching & learning, creating enabling culture, Page 26 of 30 excellent admission & placement, sustainable growth and innovative initiatives which does place the institute in premium category of Education.",
+        "Received Outstanding Scientist Award at International Scientist Awards on Engineering, Science and Medicine during 06-07 March 2021, Goa, India organised by VDGOOD Professional Association.",
+        "Received Research Excellence Award 2021 from InSc (Institute of Scholars) for the publication Mathematical Solution of Fingering Phenomenon In Vertical Downward Direction Through Heterogeneous Porous Medium, Advances in Mathematics: Scientific Journal 10 (2021), no.1, 483–496 ISSN: 1857-8365 (printed); 1857-8438 (electronic), Spec. Issue on ICIRPS-2020 [SCOPUS Indexed] in April 2021.",
+        "Received Excellence Research Award INSO – 2023 at International Conference for Award Winners in Engineering, Science and Medicine held on 15-Apr- 2023 in Pondicherry, India.",
+        "Received Best PG Science Teacher Award 2022 in Mathematical Sciences (for age category < 55 years) from Gujarat Science Academy (GSA)"
+    ],
+    "memberships": [
+        "1. Executive Committee member of Gujarat Ganit Mandal",
+        "Academic Council member of Ganpat University",
+        "Member of Board of Governors of Ganpat University",
+        "Life Member of Indian Society for Technical Education (ISTE), New Delhi. [LM 33017]",
+        "Life Member of Indian Society of Theoretical and Applied Mechanics (ISTAM) [L 676]",
+        "Life Member of Gujarat Ganit Mandal, Ahmedabad.",
+        "Life member of GAMS (Gwalior Academy of Mathematical Sciences)",
+        "Life Member of FATER (Forum for advanced training education and research academy of India)",
+        "Editorial Board member of International Journals IJIRMF & IJRCS run by \"RESEARCH CULTURE SOCIETY\".",
+        "Associate fellow member and Executive Council Member of “Gujarat Science Academy”",
+        "General Associate Member of The Mathematics Consortium Experience: 25 years (Teaching, Research & Administration) Sr.No. Organization Designation Duration 1 C.U. Shah College of Engineering & Lecturer 16/09/1999 to 19/09/2001 Technology, Wadhwan city. (i.e. 2 Years) 2 K.B. Shah Science College, Wadhwan. Visiting 16/09/1999 to 15/09/2001 Lecturer (i.e. 2 Years) 3 Nirma Institute of Diploma Studies, Lecturer 20/09/2001 to 20/06/2007 Ahmedabad. (Sr. Scale) (i.e 5 years & 9 months) 4 Nirma University, Institute of Assistant 21/06/2007 to 21/05/2014 Technology, , Ahmedabad. Professor (i.e. 6 years &11 months) 5 C U Shah University, Faculty of Engg. & Professor 22/05/2014 to 21/12/2015 Tech., Wadhwan city (i.e 1 year & 7 months) 6 Mehsana Urban Institute of Sciences, Professor & 22/12/2015 onwards Ganpat University, Kherva Principal Page 2 of 30 As a Ph.D Supervisor",
+        "Ms.Sweta H. Shah (14SC702003) completed her Ph.D thesis titled “Structured Group of Matrices of different classes and Cocentroidal Matrices in JS Metric Space” from C.U.Shah University, Wadhwan in December 2017.",
+        "Mr.Himesh Arvindbhai Patel (PHD1308001) completed his Ph.D thesis titled “Performance Analysis of Rough bearing system under Newtonian fluid / Non Newtonian fluid” from C.U.Shah University, Wadhwan in October 2018.",
+        "Ms.Vaishali Achesariya (14SC702001) completed her Ph.D thesis titled “Study on some classes of square matrices along with operator matrices and their properties” from C.U.Shah University, Wadhwan in May 2019.",
+        "Mr.Pragnesh Makwana (15SC702003) completed his Ph.D thesis titled “Mathematical Modeling of some phenomena arising in Fluid Flow through porous media ” from C.U.Shah University, Wadhwan in October 2021.",
+        "Mr.Jishan Shaikh (16146061002) completed his Ph.D thesis titled “Numerical Solution of Non-Linear Partial Differential Equation Arising In Fluid Flow through Porous Medium” from Ganpat University, Kherva in December 2021.",
+        "Ms.Disha Shah (17146061002) completed her Ph.D thesis titled “Classical Solution of some non-linear partial differential equations” from Ganpat University, Kherva in December 2021.",
+        "Ms.Dhara Patel (17146061001) completed her Ph.D thesis titled “Asymptotic Behaviour",
+        "f Nonlinear Fluid Flow Problems in Porous Media” from Ganpat University, Kherva in March 2023.",
+        "Currently five students are pursuing Ph.D at Ganpat University, out of them one student have completed Pre-Synopsis. Page 3 of 30"
+    ],
+    "societies": [
+        "1. Executive Committee member of Gujarat Ganit Mandal",
+        "Academic Council member of Ganpat University",
+        "Member of Board of Governors of Ganpat University",
+        "Life Member of Indian Society for Technical Education (ISTE), New Delhi. [LM 33017]",
+        "Life Member of Indian Society of Theoretical and Applied Mechanics (ISTAM) [L 676]",
+        "Life Member of Gujarat Ganit Mandal, Ahmedabad.",
+        "Life member of GAMS (Gwalior Academy of Mathematical Sciences)",
+        "Life Member of FATER (Forum for advanced training education and research academy of India)",
+        "Editorial Board member of International Journals IJIRMF & IJRCS run by \"RESEARCH CULTURE SOCIETY\".",
+        "Associate fellow member and Executive Council Member of “Gujarat Science Academy”",
+        "General Associate Member of The Mathematics Consortium Experience: 25 years (Teaching, Research & Administration) Sr.No. Organization Designation Duration 1 C.U. Shah College of Engineering & Lecturer 16/09/1999 to 19/09/2001 Technology, Wadhwan city. (i.e. 2 Years) 2 K.B. Shah Science College, Wadhwan. Visiting 16/09/1999 to 15/09/2001 Lecturer (i.e. 2 Years) 3 Nirma Institute of Diploma Studies, Lecturer 20/09/2001 to 20/06/2007 Ahmedabad. (Sr. Scale) (i.e 5 years & 9 months) 4 Nirma University, Institute of Assistant 21/06/2007 to 21/05/2014 Technology, , Ahmedabad. Professor (i.e. 6 years &11 months) 5 C U Shah University, Faculty of Engg. & Professor 22/05/2014 to 21/12/2015 Tech., Wadhwan city (i.e 1 year & 7 months) 6 Mehsana Urban Institute of Sciences, Professor & 22/12/2015 onwards Ganpat University, Kherva Principal Page 2 of 30 As a Ph.D Supervisor",
+        "Ms.Sweta H. Shah (14SC702003) completed her Ph.D thesis titled “Structured Group of Matrices of different classes and Cocentroidal Matrices in JS Metric Space” from C.U.Shah University, Wadhwan in December 2017.",
+        "Mr.Himesh Arvindbhai Patel (PHD1308001) completed his Ph.D thesis titled “Performance Analysis of Rough bearing system under Newtonian fluid / Non Newtonian fluid” from C.U.Shah University, Wadhwan in October 2018.",
+        "Ms.Vaishali Achesariya (14SC702001) completed her Ph.D thesis titled “Study on some classes of square matrices along with operator matrices and their properties” from C.U.Shah University, Wadhwan in May 2019.",
+        "Mr.Pragnesh Makwana (15SC702003) completed his Ph.D thesis titled “Mathematical Modeling of some phenomena arising in Fluid Flow through porous media ” from C.U.Shah University, Wadhwan in October 2021.",
+        "Mr.Jishan Shaikh (16146061002) completed his Ph.D thesis titled “Numerical Solution of Non-Linear Partial Differential Equation Arising In Fluid Flow through Porous Medium” from Ganpat University, Kherva in December 2021.",
+        "Ms.Disha Shah (17146061002) completed her Ph.D thesis titled “Classical Solution of some non-linear partial differential equations” from Ganpat University, Kherva in December 2021.",
+        "Ms.Dhara Patel (17146061001) completed her Ph.D thesis titled “Asymptotic Behaviour",
+        "f Nonlinear Fluid Flow Problems in Porous Media” from Ganpat University, Kherva in March 2023.",
+        "Currently five students are pursuing Ph.D at Ganpat University, out of them one student have completed Pre-Synopsis. Page 3 of 30"
+    ],
     "responsibilities": [],
     "references": [
         "1. Prof. Nita H.Shah 2. Prof. B.K.Jain Professor and Head, Principal, Department of Mathematics M.G.Science College, School of Science, Gujarat Ahmedabad. University, Ahmedabad. Ph: +91 9426024656 Ph: +91 9825261816 Email: bkjain_mgsc@yahoo.com Email: nitahshah@gmail.com",
         "Prof. M.N.Mehta 4. Dr.V.P.Saxena Professor and Head, Former Vice Chancellor, Jiwaji University, Applied Mathematics and Gwalior Huminities department, SVNIT, Ph: +91-9425109044 (M) Surat. Email: vinodpsaxena@gmail.com Ph: +91 9825478307 Email: mnmehta_2001@yahoo.com Page 30 of 30"
+    ],
+    "achievements": [
+        "• Achieved 2nd rank in Srinivasa Ramanujan Mathematics Award Examination – 2012 at State level conducted by ISTE and got the cash prize of Rs. 2000/-",
+        "Consolation prize at national level in Srinivasa Ramanujan Mathematics Competition for engineering teachers – 2012 conducted by ISTE and got the cash prize of Rs. 5000/-",
+        "Achieved 2nd rank in Srinivasa Ramanujan Mathematics Award Examination – 2013 at State level conducted by ISTE and got the cash prize of Rs. 2000/-",
+        "Working as a reviewer in World Journal of Social Science, ISSN 2329-9347(Print), ISSN 2329-9355 (online), Sciedu Press, USA.",
+        "PhD RDC/DPC expert for GTU, Rai University, Carolx Teacher’s University, C.U.Shah University",
+        "Received certificate of appreciation from “International Forum for Excellence in Higher Education” for successfully conducting “National Creativity Aptitude Test 2015” at C.U.Shah College of Engineering & Technology, Wadhwancity.",
+        "Received certificate of appreciation from “International Forum for Excellence in Higher Education” for successfully conducting “National Creativity Aptitude Test 2016” at Mehsana Urban Institute of Sciences, Ganpat University",
+        "Obtained Certificates of Honour for publishing and presenting research papers in the year 2010-11, 2011-12 and 2012-13 on occasion of Foundation day celebration of Institute of Technology, Nirma University, Ahmedabad.",
+        "Worked as an editor for Souvenir of 53rd Gujarat Ganit Mandal Adhivation “Smarnika”",
+        "rganised by Mehsana Urban Institute of Sciences during 23-25 December 2016.",
+        "Received national level award for ‘Excellence in Education’ from Confederation of Education Excellence (CEE), New Delhi on 22nd April 2017. Page 25 of 30",
+        "Received “Education Leadership Award” from Dewang Mehta national education awards (Regional round) & 25th Business School Affairs as a celebration of 25th Silver Jubilee year in October 2017.",
+        "The Executive council of Gwalior Academy of Mathematical Sciences nominated me as Vice President of GAMS for three years from 1st April 2018.",
+        "Elected as an Associate Fellow by “Gujarat Science Academy (GSA)” w.e.f January 2018.",
+        "Worked as a Managing editor for Special Issue of Mathematics Today, Volume: 34A, April 2018, [ISSN: 0976-3228, e-ISSN: 2455 – 9601]",
+        "Received Best Paper Award for research paper titled “Mathematical modeling of physical phenomena arising during oil recovery process”, at 68th International Conference on New Trends in Engineering, Science and Management during 20-21 July 2018, organized by IOSRD at Visakhapatnam.",
+        "Received “Life Time Achievement Award” in International Conference “IOSRD Research Awards” during 20-21 July 2018 at Visakhapatnam organised by International Organisation of Scientific Research and Development (IOSRD).",
+        "Invited as Judge in “Science Excellence 2018” to evaluate Poster & Oral presentations for the mathematics subject on 20th September 2018 organised by Gujarat University.",
+        "Invited as Judge in “Mathematics Excellence 2019 (MathXL-2019)” on 5th January 2019",
+        "rganised by Department of Mathematics, Gujarat University.",
+        "Received I2OR National Eminent Researcher Award 2020 from International Institute of Organized Research in November 2020.",
+        "Received Ganpat University President Award for Manager of the Year for the year 2019 with cash prize of INR 2,00,000/-. This award was presented on Vidyaya Samajotkarsh Divas 12th January 2021 to recognize the extraordinary performance in the area of Institutional Capacity building, excellency in teaching & learning, creating enabling culture, Page 26 of 30 excellent admission & placement, sustainable growth and innovative initiatives which does place the institute in premium category of Education.",
+        "Received Outstanding Scientist Award at International Scientist Awards on Engineering, Science and Medicine during 06-07 March 2021, Goa, India organised by VDGOOD Professional Association.",
+        "Received Research Excellence Award 2021 from InSc (Institute of Scholars) for the publication Mathematical Solution of Fingering Phenomenon In Vertical Downward Direction Through Heterogeneous Porous Medium, Advances in Mathematics: Scientific Journal 10 (2021), no.1, 483–496 ISSN: 1857-8365 (printed); 1857-8438 (electronic), Spec. Issue on ICIRPS-2020 [SCOPUS Indexed] in April 2021.",
+        "Received Excellence Research Award INSO – 2023 at International Conference for Award Winners in Engineering, Science and Medicine held on 15-Apr- 2023 in Pondicherry, India.",
+        "Received Best PG Science Teacher Award 2022 in Mathematical Sciences (for age category < 55 years) from Gujarat Science Academy (GSA)"
     ]
 }

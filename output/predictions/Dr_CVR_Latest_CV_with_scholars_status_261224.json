@@ -20,25 +20,46 @@
             "raw_text": "Examination Sp D e i c s i c a i l p iz li a n t e io / n Un B i"
         },
         {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "o ve a r rd si / t y Percentage"
+        },
+        {
             "degree": "Ph.D",
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "ve a r rd si / t y Percentage Ph.D Wireless Communication VIT M.Tech Co D m ig m it u a n l i E ca le ti c"
+            "raw_text": "Ph.D Wireless Communication VIT"
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "M.Tech Co D m ig m it u a n l i E ca le ti c"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "71%",
+            "institution": "",
+            "raw_text": "o t n ro n S i y c s s t e & m s An J a N nt T h U ap , ur 71%"
         },
         {
             "degree": "B.Tech",
             "graduation_year": "",
-            "cgpa": "71%",
+            "cgpa": "",
             "institution": "",
-            "raw_text": "t n ro n S i y c s s t e & m s An J a N nt T h U ap , ur 71% B.Tech Electronics E a n n g d in C ee"
+            "raw_text": "B.Tech Electronics E a n n g d in C ee"
         },
         {
-            "degree": "me",
+            "degree": "",
             "graduation_year": "",
             "cgpa": "67%",
             "institution": "Anna University",
-            "raw_text": "r m in m g unications Anna University 67% Intermediate Science + Maths Stream B.I.E 83% SSC SSC SSC 59 Subjects handled Computer Communication Digital Communication Data Communication systems Telecommunication switching systems and networks Analog Communication Microwave Engineering Network Security Antennas and Wave Propagation Wireless Communication M2M Communication Principles of computer communication Principles of communication"
+            "raw_text": "o r m in m g unications Anna University 67% Intermediate Science + Maths Stream B.I.E 83% SSC SSC SSC 59 Subjects handled Computer Communication Digital Communication Data Communication systems Telecommunication switching systems and networks Analog Communication Microwave Engineering Network Security Antennas and Wave Propagation Wireless Communication M2M Communication Principles of computer communication Principles of communication"
         }
     ],
     "experience": [],
@@ -71,6 +92,10 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": []
 }

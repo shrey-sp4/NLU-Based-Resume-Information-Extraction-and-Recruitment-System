@@ -13,11 +13,32 @@
     ],
     "education": [
         {
-            "degree": "Ph.D.",
-            "graduation_year": "2018",
+            "degree": "",
+            "graduation_year": "",
             "cgpa": "",
             "institution": "Indian Institute of Information Technology Allahabad",
-            "raw_text": "Indian Institute of Information Technology Allahabad, India Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India CGPA: 9.2 Supervisor: Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela, India M. Tech. in Computer Science 2014 to 2016 Specialization: Information security Rourkela, Odisha, India Thesis Title: Certificateless Nominative Signature based upon DLP CGPA: 8.05 Biju Patnaik University of Technology Rourkela, India B. Tech. in Information Technology 2008 to 2012 CGPA: 7.05 Rourkela, Odisha, India Council of Higher Secondary Education Odisha, India 12th in science Year: 2006 to 2008 Board of Secondary Education Odisha, India 10th in Mathematics, Science and English Year: 2006"
+            "raw_text": "Indian Institute of Information Technology Allahabad, India"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2018",
+            "cgpa": "",
+            "institution": "Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela",
+            "raw_text": "Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India CGPA: 9.2 Supervisor: Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela, India M. Tech. in Computer Science 2014 to 2016 Specialization: Information security Rourkela, Odisha, India Thesis Title: Certificateless Nominative Signature based upon DLP CGPA: 8.05 Biju Patnaik University of Technology Rourkela, India B. Tech. in Information Technology 2008 to 2012 CGPA: 7.05 Rourkela, Odisha, India Council of Higher Secondary Education Odisha, India"
+        },
+        {
+            "degree": "12th",
+            "graduation_year": "2006",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "12th in science Year: 2006 to 2008 Board of Secondary Education Odisha, India"
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2006",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "10th in Mathematics, Science and English Year: 2006"
         }
     ],
     "experience": [
@@ -89,6 +110,26 @@
         "Certified from National Workshop on “Recent Trends in Software Testing”, National Institute of Technology Rourkela, India.",
         "Certified from National Workshop on “Software Quality Assurance”, National Institute of Technology Rourkela, India."
     ],
+    "awards": [
+        "• MHRD Fellowship for Ph.D., IIIT Allahabad.",
+        "MHRD Fellowship for M. Tech., NIT Rourkela.",
+        "Gate Qualified.",
+        "Best Boarder Award for “Dhirubhai Ambani Hall” NIT Rourkela.",
+        "Working as “General Secretary” in “Dhirubhai Ambani Hall” NIT Rourkela 2015 to 2016.",
+        "I got First prize in Slogan Competition in Vigilance Awareness Program IIIT Allahabad.",
+        "I got state merit Scholarship 2008 to 2012."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": [
+        "• MHRD Fellowship for Ph.D., IIIT Allahabad.",
+        "MHRD Fellowship for M. Tech., NIT Rourkela.",
+        "Gate Qualified.",
+        "Best Boarder Award for “Dhirubhai Ambani Hall” NIT Rourkela.",
+        "Working as “General Secretary” in “Dhirubhai Ambani Hall” NIT Rourkela 2015 to 2016.",
+        "I got First prize in Slogan Competition in Vigilance Awareness Program IIIT Allahabad.",
+        "I got state merit Scholarship 2008 to 2012."
+    ]
 }

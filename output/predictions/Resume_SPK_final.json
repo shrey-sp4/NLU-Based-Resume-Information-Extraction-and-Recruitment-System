@@ -11,32 +11,53 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "TOOLS/LANGUAGES:"
+        },
+        {
+            "degree": "Ph.D",
             "graduation_year": "2021",
             "cgpa": "",
             "institution": "University of Jammu Present",
-            "raw_text": "TOOLS/LANGUAGES: 2021- Ph.D., Statistics (Pursuing) – University of Jammu Present 2019-2021 M.Phil. Statistics − University of Jammu (A-Grade) o SPSS"
+            "raw_text": "2021- Ph.D., Statistics (Pursuing) – University of Jammu Present"
         },
         {
-            "degree": "M.Sc.",
+            "degree": "M.Phil",
+            "graduation_year": "2019-2021",
+            "cgpa": "",
+            "institution": "University of Jammu",
+            "raw_text": "2019-2021 M.Phil. Statistics − University of Jammu (A-Grade) o SPSS"
+        },
+        {
+            "degree": "M.Sc",
             "graduation_year": "2017-2019",
             "cgpa": "",
             "institution": "University of Jammu",
-            "raw_text": "R 2017-2019 M.Sc. Statistics − University of Jammu o MS Excel, Word, Powerpoint. (8.58 CGPA) o LaTex"
+            "raw_text": "2017-2019 M.Sc. Statistics − University of Jammu o MS Excel, Word, Powerpoint. (8.58 CGPA) o LaTex"
         },
         {
-            "degree": "B.Sc.",
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "o Statistics"
+        },
+        {
+            "degree": "B.Sc",
             "graduation_year": "2014-2017",
             "cgpa": "67.56%",
             "institution": "",
-            "raw_text": "Statistics 2014-2017 B.Sc. with Statistics – GCW Gandhi Nagar, Jammu o Sample Survey (67.56%) o Estimation Theory"
+            "raw_text": "2014-2017 B.Sc. with Statistics – GCW Gandhi Nagar, Jammu o Sample Survey (67.56%) o Estimation Theory"
         },
         {
             "degree": "",
             "graduation_year": "2014",
             "cgpa": "71.4%",
             "institution": "",
-            "raw_text": "Data Analytics 2014 Senior Secondary – JK Board (71.4%) 2012 Secondary – JK Board (80%)"
+            "raw_text": "o Data Analytics 2014 Senior Secondary – JK Board (71.4%) 2012 Secondary – JK Board (80%)"
         }
     ],
     "experience": [
@@ -92,6 +113,10 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": []
 }

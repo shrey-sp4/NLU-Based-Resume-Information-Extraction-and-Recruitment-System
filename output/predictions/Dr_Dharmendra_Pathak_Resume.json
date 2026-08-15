@@ -13,11 +13,25 @@
     ],
     "education": [
         {
-            "degree": "Ph.D.",
-            "graduation_year": "2024",
-            "cgpa": "76.38%",
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
             "institution": "GGPA School",
-            "raw_text": "Degree/ Year of Institution Board / University Percentage/GGPA Schooling Passing Thesis: EEG based Brain-Computer Ph.D. in Amity School of Interface (BCI) Deep Computer Engineering & Amity University Learning Model for 2024 Science Technology, Chhattisgarh E-Learning Engineering Raipur Knowledge Tracing and Recommendations Devi Ahilya M.Tech. School of University (Information 9.51 GGPA Computer (D.A.V.V.), Indore, 2012 Architecture & 9.45 CGPA Science and I.T. M.P. Software (DAVV TOPPER) (SCSIT), Indore Engineering) Swami B.E. Rajiv Gandhi Vivekananda (Computer Technical University 76.38% (Hons.) College of 2009 Science & (R.G.T.U.), Bhopal, Engineering, Engineering) M.P. Indore New Pink Higher Flower H.S. M.P. Board 2005 86.22% Secondary School, Indore New Pink High School Flower H.S. M.P. Board 2003 86.40% School, Indore Work Experience: 12 years 11 months S.No. Designation Institute/Organization Duration 1 Associate Chameli Devi Group of Institutions, 7th July 2012 to till date Professor Indore, M.P. 2 Lecturer Sanghvi Institute of Management and 17th Aug 2009 to 1st July, Science, Indore, M.P. 2010"
+            "raw_text": "Degree/ Year of Institution Board / University Percentage/GGPA Schooling Passing Thesis: EEG based Brain-Computer"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Amity School of Interface",
+            "raw_text": "Ph.D. in Amity School of Interface (BCI) Deep Computer Engineering & Amity University Learning Model for Science Technology, Chhattisgarh E-Learning Engineering Raipur Knowledge Tracing and Recommendations Devi Ahilya"
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2012",
+            "cgpa": "76.38%",
+            "institution": "M.Tech. School of University",
+            "raw_text": "M.Tech. School of University (Information 9.51 GGPA Computer (D.A.V.V.), Indore, 2012 Architecture & 9.45 CGPA Science and I.T. M.P. Software (DAVV TOPPER) (SCSIT), Indore Engineering) Swami B.E. Rajiv Gandhi Vivekananda (Computer Technical University 76.38% (Hons.) College of 2009 Science & (R.G.T.U.), Bhopal, Engineering, Engineering) M.P. Indore New Pink Higher Flower H.S. M.P. Board 2005 86.22% Secondary School, Indore New Pink High School Flower H.S. M.P. Board 2003 86.40% School, Indore Work Experience: 12 years 11 months S.No. Designation Institute/Organization Duration 1 Associate Chameli Devi Group of Institutions, 7th July 2012 to till date Professor Indore, M.P. 2 Lecturer Sanghvi Institute of Management and 17th Aug 2009 to 1st July, Science, Indore, M.P. 2010"
         }
     ],
     "experience": [],
@@ -141,6 +155,49 @@
         "Participated and won 1st Prize in Carom, Chess and Computer Gaming Competitions at School & College Level.",
         "Responsibilities taken as a Class Representative at School & Coordinator at College Level."
     ],
+    "awards": [
+        "• Qualified UGC-NET 2019 with Percentile Score 99.67",
+        "Qualified GATE-2015 with GATE Score-356",
+        "Qualified GATE-2014 with GATE Score-407 and Percentile Score 94.50",
+        "Qualified GATE-2010 with GATE Score-388 and Percentile Score 90.33",
+        "Qualified GATE-2009 with GATE Score-406 and Percentile Score 91.62",
+        "Secured First Position at Innovation Day 2021 Paper Presentation organized by Amity School of Engineering and Technology on 28 September 2021.",
+        "Patent published for “SYSTEM AND METHOD FOR IMPLEMENTING AN INTELLIGENT SURVEILLANCE DRONE FOR RESCUE OPERATIONS DURING A DISASTER”. (Patent filed on February 11, 2023, Application number 202321009098).",
+        "Patent published for “AN EEG SYSTEM BASED ON BRAIN COMPUTER INTERFACE (BCI) DEEP LEARNING MODEL”. (Patent filed on March 26, 2021, Application number 202111013389).",
+        "Patent published for “AN ASSEMBLY WITH WEARABLE ITEMS & IoT CONNECTIVITY FOR VISUALLY IMPAIRED”. (Patent filed on September 10, 2020, Application number 202011039042).",
+        "Copyright registered for work title “Using GeoTagging for the detection of Covid-19 Fake News from Twitter Data of Hotspots states using Deep Learning Framework” on 10 June 2020 (Diary No: 7655/2020-CO/S.W.)",
+        "Winner of Hack for Good Covid-19 Hackathon organized by Amity Innovation Incubator on 11 May 2020.",
+        "Secured 3rd Position in Innovative Idea Presentation on the occasion of Innovation Day, organized by Amity University Chhattisgarh on 28 September 2022.",
+        "Secured 1st Position in Innovative Idea Presentation on the occasion of Innovation Day, organized by Amity University Chhattisgarh on 28 September 2021.",
+        "Awarded with “Excellence in Teaching” at Srijan-2019, organized by Rajiv Gandhi Technical University, Bhopal.",
+        "Awarded with “Best Mentor Award” for the mentoring IEDC Project “Helios” in the year 2017 at CDGI Indore.",
+        "Awarded for Excellence in Teaching by HDFC Bank Year 2013 at CDGI Indore.",
+        "Qualified C-DAC Mumbai, CST-G Level 2011 Examination Research Work: Total Publications-17 (SCI-1, SCOPUS-2) International Journal Publications: 04",
+        "Research Paper Titled: “Neural Correlate-Based E-Learning Validation and Classification Using Convolutional and Long Short-Term Memory Networks”, SCI-E INDEXED IIETA Journal \"Traitement du Signal\", Volume 40, No. 4, August 2023, pp 1457-1467, ISSN: 0765-0019, Journal Impact Factor: 1.9",
+        "Research Paper Titled: “Electroencephalogram-based deep learning framework for the proposed solution of e-learning challenges and limitations”, SCOPUS INDEXED Inderscience Journal \"International Journal of Intelligent Information and Database Systems (IJIIDS)\", Volume 15, No. 3, April 2022, pp 295-310, ISSN: 1751-5858, Journal Impact Factor: 0.9",
+        "Book chapter titled \"A study of deep learning approach for the classification",
+        "f Electroencephalogram (EEG) brain signals\" published in the Book titled “Artificial Intelligence and Machine Learning for Edge Computing” by Elsevier and indexed in SCOPUS, April 2022.",
+        "Research Paper Titled: “Reducing efforts in Refactoring process using Design Patterns”, International Journal of Advance Research in Computer Science (IJARCS), Volume 2, No. 1, Jan-Feb 2011, pp 240-245, ISSN: 0976- 5697, Journal Impact Factor: 3.74 Research Papers Presented in International/National Conference: 13",
+        "Research Paper Titled: “Evaluating E-learning Engagement through EEG Signal Analysis with Convolutional Neural Networks”, 2023 5th International Springer Conference on Computer and Communication Technologies (IC3T), KITSW Institute, Warangal, Oct 2023.",
+        "Research Paper Titled: “A review of the classification of neuroscience problems with the help of deep learning framework”, 2021 5th International IEEE Conference on Information Systems and Computer Networks (ISCON), GLA University, Mathura, Oct 2021.",
+        "Research Paper Titled: “NOVA: Hybrid Book Recommendation Engine”, IEEE Sponsored 2013 International Advance Computing Conference (IACC-2013), Ajay Kumar Garg Engineering College Ghaziabad (AKGEC), Delhi, Feb 2013.",
+        "Research Paper Titled: “ORBIT: Hybrid Movie Recommendation Engine”, IEEE Sponsored 2013 International Conference on Emerging Trends in Computing, Communication and Nanotechnology (ICECCN-13), Infant Jesus college of Engineering and Technology, Tamilnadu, March 2013.",
+        "Research Paper Titled: “Data Mining on WHO Data Warehouse using PASW Modeler”, IEEE Co-Sponsored 2011 International Conference on Networks and Computer Science (ICNCS), IACSIT, Kanyakumari, April",
+        "• Research Paper Titled: “Measurement and Decision Criteria in Software Reliability Engineering and Dependability”, 2009 International Level Conference on Global Issues in Business and Technology, University of Maryland Eastern Shore, Indore, August 2009.",
+        "Research Paper Titled: “Technical Trends and Concepts of Software Testing”, 2009 International Level Conference on Global Issues in Business and Technology, University of Maryland Eastern Shore, Indore, August 2009.",
+        "Research Paper Titled: “Practical Implementation of Data Cube and Data Mining Algorithms”, National Conference on Intelligent Systems (NCIS), Chameli Devi Group of Institutions, Indore, Oct 2012.",
+        "Research Paper Titled: “Dynamic Offloading for Mobile Computation Using Cloud”, National Conference on Future Trends in Information and Communication Technology, Medicaps Institute of Science and Technology, Indore, Oct-2012.",
+        "Research Paper Titled: “Cloud Security a Big Challenge”, National Conference on Recent Trends in Cloud Computing, Oriental University, Indore, Nov 2012.",
+        "Research Paper Titled: “Teacher’s Diary: Academic activities made easy”, 2012 National Conference on Advances in E-Learning, Institution of Communication Engineers & Information Technologists (ICEIT), New Delhi, Feb 2012.",
+        "Research Paper Titled: “DNA Computing: Applications and Challenges”, Second International Conference on Inter-Disciplinary Research in Engineering Management, Pharmacy and Science (ICIREMPS 2K15), Sagar Institute of Research and Technology, Bhopal, Feb 2015.",
+        "Research Paper Titled: “Role of Hybrid Recommendation Engine in Forestalling Networking Attacks”, Second International Conference on Inter-Disciplinary Research in Engineering Management, Pharmacy and Science (ICIREMPS 2K15), Sagar Institute of Research and Technology, Bhopal, Feb 2015."
+    ],
+    "memberships": [
+        "• Associate member (Membership No: AM3131648) of The Institution of Engineers (IEI)"
+    ],
+    "societies": [
+        "• Associate member (Membership No: AM3131648) of The Institution of Engineers (IEI)"
+    ],
     "responsibilities": [
         "• Department NAAC and NBA Coordinator",
         "Head IT Infra and Technical Advisor",
@@ -151,5 +208,42 @@
         "1) Name: Dr. Ramgopal Kashyap Institution: Amity University Chhattisgarh Designation: Deputy Director Innovation and Research Mobile: 09826421549 Email ID: rkashyap@rpr.amity.edu",
         "Name: Prof. Shailendra Kumar Mishra Institution: Chameli Devi Group of Institutions, Indore Designation: Head, Computer Science & Engineering Department Mobile: 09601492380 Email ID: hod.cs@cdgi.edu.in",
         "Name: Dr. Surendra Kumar Shukla Institution: SVKM's NMIMS, Indore Designation: Assistant Professor Mobile: 07987748990 Email ID: surendrakumar.shukla@nmims.edu"
+    ],
+    "achievements": [
+        "• Qualified UGC-NET 2019 with Percentile Score 99.67",
+        "Qualified GATE-2015 with GATE Score-356",
+        "Qualified GATE-2014 with GATE Score-407 and Percentile Score 94.50",
+        "Qualified GATE-2010 with GATE Score-388 and Percentile Score 90.33",
+        "Qualified GATE-2009 with GATE Score-406 and Percentile Score 91.62",
+        "Secured First Position at Innovation Day 2021 Paper Presentation organized by Amity School of Engineering and Technology on 28 September 2021.",
+        "Patent published for “SYSTEM AND METHOD FOR IMPLEMENTING AN INTELLIGENT SURVEILLANCE DRONE FOR RESCUE OPERATIONS DURING A DISASTER”. (Patent filed on February 11, 2023, Application number 202321009098).",
+        "Patent published for “AN EEG SYSTEM BASED ON BRAIN COMPUTER INTERFACE (BCI) DEEP LEARNING MODEL”. (Patent filed on March 26, 2021, Application number 202111013389).",
+        "Patent published for “AN ASSEMBLY WITH WEARABLE ITEMS & IoT CONNECTIVITY FOR VISUALLY IMPAIRED”. (Patent filed on September 10, 2020, Application number 202011039042).",
+        "Copyright registered for work title “Using GeoTagging for the detection of Covid-19 Fake News from Twitter Data of Hotspots states using Deep Learning Framework” on 10 June 2020 (Diary No: 7655/2020-CO/S.W.)",
+        "Winner of Hack for Good Covid-19 Hackathon organized by Amity Innovation Incubator on 11 May 2020.",
+        "Secured 3rd Position in Innovative Idea Presentation on the occasion of Innovation Day, organized by Amity University Chhattisgarh on 28 September 2022.",
+        "Secured 1st Position in Innovative Idea Presentation on the occasion of Innovation Day, organized by Amity University Chhattisgarh on 28 September 2021.",
+        "Awarded with “Excellence in Teaching” at Srijan-2019, organized by Rajiv Gandhi Technical University, Bhopal.",
+        "Awarded with “Best Mentor Award” for the mentoring IEDC Project “Helios” in the year 2017 at CDGI Indore.",
+        "Awarded for Excellence in Teaching by HDFC Bank Year 2013 at CDGI Indore.",
+        "Qualified C-DAC Mumbai, CST-G Level 2011 Examination Research Work: Total Publications-17 (SCI-1, SCOPUS-2) International Journal Publications: 04",
+        "Research Paper Titled: “Neural Correlate-Based E-Learning Validation and Classification Using Convolutional and Long Short-Term Memory Networks”, SCI-E INDEXED IIETA Journal \"Traitement du Signal\", Volume 40, No. 4, August 2023, pp 1457-1467, ISSN: 0765-0019, Journal Impact Factor: 1.9",
+        "Research Paper Titled: “Electroencephalogram-based deep learning framework for the proposed solution of e-learning challenges and limitations”, SCOPUS INDEXED Inderscience Journal \"International Journal of Intelligent Information and Database Systems (IJIIDS)\", Volume 15, No. 3, April 2022, pp 295-310, ISSN: 1751-5858, Journal Impact Factor: 0.9",
+        "Book chapter titled \"A study of deep learning approach for the classification",
+        "f Electroencephalogram (EEG) brain signals\" published in the Book titled “Artificial Intelligence and Machine Learning for Edge Computing” by Elsevier and indexed in SCOPUS, April 2022.",
+        "Research Paper Titled: “Reducing efforts in Refactoring process using Design Patterns”, International Journal of Advance Research in Computer Science (IJARCS), Volume 2, No. 1, Jan-Feb 2011, pp 240-245, ISSN: 0976- 5697, Journal Impact Factor: 3.74 Research Papers Presented in International/National Conference: 13",
+        "Research Paper Titled: “Evaluating E-learning Engagement through EEG Signal Analysis with Convolutional Neural Networks”, 2023 5th International Springer Conference on Computer and Communication Technologies (IC3T), KITSW Institute, Warangal, Oct 2023.",
+        "Research Paper Titled: “A review of the classification of neuroscience problems with the help of deep learning framework”, 2021 5th International IEEE Conference on Information Systems and Computer Networks (ISCON), GLA University, Mathura, Oct 2021.",
+        "Research Paper Titled: “NOVA: Hybrid Book Recommendation Engine”, IEEE Sponsored 2013 International Advance Computing Conference (IACC-2013), Ajay Kumar Garg Engineering College Ghaziabad (AKGEC), Delhi, Feb 2013.",
+        "Research Paper Titled: “ORBIT: Hybrid Movie Recommendation Engine”, IEEE Sponsored 2013 International Conference on Emerging Trends in Computing, Communication and Nanotechnology (ICECCN-13), Infant Jesus college of Engineering and Technology, Tamilnadu, March 2013.",
+        "Research Paper Titled: “Data Mining on WHO Data Warehouse using PASW Modeler”, IEEE Co-Sponsored 2011 International Conference on Networks and Computer Science (ICNCS), IACSIT, Kanyakumari, April",
+        "• Research Paper Titled: “Measurement and Decision Criteria in Software Reliability Engineering and Dependability”, 2009 International Level Conference on Global Issues in Business and Technology, University of Maryland Eastern Shore, Indore, August 2009.",
+        "Research Paper Titled: “Technical Trends and Concepts of Software Testing”, 2009 International Level Conference on Global Issues in Business and Technology, University of Maryland Eastern Shore, Indore, August 2009.",
+        "Research Paper Titled: “Practical Implementation of Data Cube and Data Mining Algorithms”, National Conference on Intelligent Systems (NCIS), Chameli Devi Group of Institutions, Indore, Oct 2012.",
+        "Research Paper Titled: “Dynamic Offloading for Mobile Computation Using Cloud”, National Conference on Future Trends in Information and Communication Technology, Medicaps Institute of Science and Technology, Indore, Oct-2012.",
+        "Research Paper Titled: “Cloud Security a Big Challenge”, National Conference on Recent Trends in Cloud Computing, Oriental University, Indore, Nov 2012.",
+        "Research Paper Titled: “Teacher’s Diary: Academic activities made easy”, 2012 National Conference on Advances in E-Learning, Institution of Communication Engineers & Information Technologists (ICEIT), New Delhi, Feb 2012.",
+        "Research Paper Titled: “DNA Computing: Applications and Challenges”, Second International Conference on Inter-Disciplinary Research in Engineering Management, Pharmacy and Science (ICIREMPS 2K15), Sagar Institute of Research and Technology, Bhopal, Feb 2015.",
+        "Research Paper Titled: “Role of Hybrid Recommendation Engine in Forestalling Networking Attacks”, Second International Conference on Inter-Disciplinary Research in Engineering Management, Pharmacy and Science (ICIREMPS 2K15), Sagar Institute of Research and Technology, Bhopal, Feb 2015."
     ]
 }

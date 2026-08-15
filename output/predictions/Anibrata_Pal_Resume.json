@@ -9,11 +9,46 @@
     "summary": [],
     "education": [
         {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Degree University in which year"
+        },
+        {
             "degree": "PhD",
             "graduation_year": "2021",
+            "cgpa": "",
+            "institution": "Kalinga Institute of Industrial Technology",
+            "raw_text": "PhD Department of Civil Engineering, Kalinga Institute of Industrial Technology, (Pursuing) Bhubaneswar, January 2021. (Functionally Graded Concrete) [Submission"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2025",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "August 2025]"
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2016",
             "cgpa": "84.30%",
             "institution": "Kalinga Institute of Industrial Technology",
-            "raw_text": "Degree University in which year PhD Department of Civil Engineering, Kalinga Institute of Industrial Technology, (Pursuing) Bhubaneswar, January 2021. (Functionally Graded Concrete) [Submission August 2025] M.Tech Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar, 2016. (Structural Engineering, 84.30%) B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%) 10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board. 10th Krishnath College School, Berhampore, 2008, 78.00 %, WBBSE Board."
+            "raw_text": "M.Tech Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar, 2016. (Structural Engineering, 84.30%)"
+        },
+        {
+            "degree": "B.Tech",
+            "graduation_year": "2014",
+            "cgpa": "70.00%",
+            "institution": "Camellia School of Engineering Technology",
+            "raw_text": "B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%) 10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board."
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2008",
+            "cgpa": "78.00 %",
+            "institution": "Krishnath College School",
+            "raw_text": "10th Krishnath College School, Berhampore, 2008, 78.00 %, WBBSE Board."
         }
     ],
     "experience": [
@@ -27,7 +62,7 @@
             "job_title": "Assistant Professor",
             "dates": "2022",
             "institution": "MAKAUT University",
-            "raw_text": "Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August 1"
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August"
         },
         {
             "job_title": "Assistant Professor",
@@ -39,19 +74,25 @@
             "job_title": "Assistant Professor",
             "dates": "April 2017 – March 2021",
             "institution": "Bengal College of Engineering & Technology Durgapur",
-            "raw_text": "Assistant Professor, Department of Civil Engineering, Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B. (April 2017 – March 2021)"
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Bengal College of Engineering & Technology Durgapur, MAKAUT University, W.B. (April 2017 – March 2021)"
         },
         {
             "job_title": "Assistant Professor",
             "dates": "January 2017 – April 2017",
             "institution": "Bharti College of Engineering & Technology Durg",
-            "raw_text": "Assistant Professor, Department of Civil Engineering, Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh (January 2017 – April 2017)"
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Bharti College of Engineering & Technology Durg, CSVT University, Chattishgarh (January 2017 – April 2017)"
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "June 2016 – January 2017",
+            "dates": "2016",
             "institution": "GD Rungta College of Engineering & Technology",
-            "raw_text": "Assistant Professor, Department of Civil Engineering, GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh (June 2016 – January 2017) Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021. Member of Professional / Technical Committees Research Committee Member at COEB in the Department of Civil Engineering."
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh (June 2016 –"
+        },
+        {
+            "job_title": "",
+            "dates": "2017",
+            "institution": "School of Civil Engineering",
+            "raw_text": "January 2017) Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021. Member of Professional / Technical Committees Research Committee Member at COEB in the Department of Civil Engineering."
         }
     ],
     "research_interests": [
@@ -96,6 +137,38 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "✓ Awarded Best Paper Certificate in recognition of the research paper's quality,",
+        "riginality and significance in modelling and technical flow for the publication of “INNOVATIVE VIBRATION CONTROL DEVICES USED IN BUILDINGS.” ✓ Attended Ten numbers FDP program in offline as well as online mode. ✓ Attended a high-end workshop at VNIT NAGPUR in 2022 on “Design of experiments: A statistical tool for systematic data collection, analysis, and",
+        "ptimization ✓ Organised Five Seminars and Two workshops at different levels. ✓ Awarded as Employee of the Year at BCET Durgapur in 2018. 4 Subjects Specialized and Taught",
+        "Structural Dynamics",
+        "Earthquake Engineering",
+        "Concrete Technology",
+        "Design of Steel Structure",
+        "Design of Reinforced Cement Concrete",
+        "Railway Engineering",
+        "Transportation Engineering Thesis Guided",
+        "M.Tech thesis “Vibration Control Analysis”. (2016)",
+        "B.Tech project “Different optimization control technique in layered concrete”. (2024)",
+        "B.Tech project “Devices used to control earthquake hazards.” (2022) Language Known: English, Bengali and Hindi."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": [
+        "✓ Awarded Best Paper Certificate in recognition of the research paper's quality,",
+        "riginality and significance in modelling and technical flow for the publication of “INNOVATIVE VIBRATION CONTROL DEVICES USED IN BUILDINGS.” ✓ Attended Ten numbers FDP program in offline as well as online mode. ✓ Attended a high-end workshop at VNIT NAGPUR in 2022 on “Design of experiments: A statistical tool for systematic data collection, analysis, and",
+        "ptimization ✓ Organised Five Seminars and Two workshops at different levels. ✓ Awarded as Employee of the Year at BCET Durgapur in 2018. 4 Subjects Specialized and Taught",
+        "Structural Dynamics",
+        "Earthquake Engineering",
+        "Concrete Technology",
+        "Design of Steel Structure",
+        "Design of Reinforced Cement Concrete",
+        "Railway Engineering",
+        "Transportation Engineering Thesis Guided",
+        "M.Tech thesis “Vibration Control Analysis”. (2016)",
+        "B.Tech project “Different optimization control technique in layered concrete”. (2024)",
+        "B.Tech project “Devices used to control earthquake hazards.” (2022) Language Known: English, Bengali and Hindi."
+    ]
 }

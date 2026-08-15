@@ -12,7 +12,7 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "Ph.D",
             "graduation_year": "2017",
             "cgpa": "First Class",
             "institution": "Hemchandracharya North Gujarat University",
@@ -45,6 +45,15 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "AS A FACULTY",
+        "Under my guidance, one student secured first position in IBM Developer Superstar Contest 2012 conducted nationally. AS A STUDENT",
+        "Secured 89 % marks in ALL INDIA GENERAL KNOWLEDGE TEST conducted in 1995.",
+        "Received Gold Medal on Securing First position in B.Sc. in the college.",
+        "Secured Fifth position in the University in Electronics stream in Graduation."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         " Coordination of Exams (Internal and External)  Teaching subjects like Artificial Intelligence, Cloud Infrastructure & Services & Wireless Sensor Networks to students",
         "Duration : July 12, 2008 to Dec 31, 2020 Designation : Assistant Professor & Coordinator Institute : S. K. Patel Institute of Computer Studies, Gandhinagar  Coordination of the MCA Department  Facilitator to the students  Teaching subjects like Cloud Infrastructure & Services, Wireless Sensor Networks, etc. to students  Organized and managed Youth Festival of KSV University (two times).  Organized and managed state level annual event (Five times). Page 7 Curriculum Vitae of Dr. Rakesh Bhatnagar Page 8 of 9",
@@ -58,5 +67,12 @@
         "1. Dr. Sanjay M. Shah, Director, Narsinhbhai Institute of Computer Studies, Kadi Address: S. V. Campus, Behind Railway Station, Kadi (Gujarat - India) – 382715 M: 9427377077, Email: prof_smshah@yahoo.co.in",
         "Dr. Harshal Arolkar, HoD MScIT, GLS University, Ahmedabad Address: GLS Campus, above Auditorium, opp. Law Garden, Ellisbridge, Ahmedabad, Gujarat 380006 M: 9898240919, E: harsharolkar@gmail.com",
         "Dr. Digvijaysinh Rathod, Associate Professor and Head, CoE Cyber Security, Address: School of Cyber Security and Digital Forensics at National Forensic Sciences University, Sector 9, Gandhinagar, Gujarat 382007 M: 9723619183, E: digvijay.rathod@nfsu.ac.in DATE: July 28, 2024 Dr. RAKESH BHATNAGAR Page 9"
+    ],
+    "achievements": [
+        "AS A FACULTY",
+        "Under my guidance, one student secured first position in IBM Developer Superstar Contest 2012 conducted nationally. AS A STUDENT",
+        "Secured 89 % marks in ALL INDIA GENERAL KNOWLEDGE TEST conducted in 1995.",
+        "Received Gold Medal on Securing First position in B.Sc. in the college.",
+        "Secured Fifth position in the University in Electronics stream in Graduation."
     ]
 }

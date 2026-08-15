@@ -9,11 +9,46 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "",
             "graduation_year": "2021",
-            "cgpa": "71%",
+            "cgpa": "",
             "institution": "Quantum Thermodynamics IIT",
-            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics Postdoc. Mumbai, India to Soft Condensed Matter 7th May,2021 BITS-Pilani, 2014 Theoretical Physics Ph.D. Department of Physics, to Soft Condensed Matter Pilani, India 2020 Sambalpur University, 2013 Physics M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics Odisha, India 1st class Vidyasagar University, Physics (Hons.) B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal, India 52 % (2nd class) Bengali, English (compulsory) H.S. W.B.C.H.S.E. 2006 Pure Science, (12th) West Bengal, India 60 % (1st class) Bengali, English (compulsory) 10th W.B.B.S.E. 2004 Bengali-I,Bengali-II, English, West Bengal, India 71 % (1st class) Math, PSC, LSC, History, Geo 2 List of Publications/Preprints: Webpage: Google Scholar Not listing the papers in preparation. All papers are not available in arXiv."
+            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics Postdoc. Mumbai, India to Soft Condensed Matter 7th May,2021 BITS-Pilani, 2014 Theoretical Physics"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2020",
+            "cgpa": "",
+            "institution": "Sambalpur University",
+            "raw_text": "Ph.D. Department of Physics, to Soft Condensed Matter Pilani, India 2020 Sambalpur University, 2013 Physics"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "",
+            "cgpa": "71%",
+            "institution": "",
+            "raw_text": "M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Vidyasagar University",
+            "raw_text": "Odisha, India 1st class Vidyasagar University, Physics (Hons.)"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2010",
+            "cgpa": "52 %",
+            "institution": "",
+            "raw_text": "B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal, India 52 % (2nd class) Bengali, English (compulsory) H.S. W.B.C.H.S.E. 2006 Pure Science, (12th) West Bengal, India 60 % (1st class) Bengali, English (compulsory)"
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2004",
+            "cgpa": "71 %",
+            "institution": "",
+            "raw_text": "10th W.B.B.S.E. 2004 Bengali-I,Bengali-II, English, West Bengal, India 71 % (1st class) Math, PSC, LSC, History, Geo List of Publications/Preprints: Webpage: Google Scholar Not listing the papers in preparation. All papers are not available in arXiv."
         }
     ],
     "experience": [
@@ -27,55 +62,55 @@
             "job_title": "Research Associate",
             "dates": "",
             "institution": "",
-            "raw_text": "Working as Research Associate in ”QuEST” - Quantum-Enabled Science & Technol-"
+            "raw_text": "1. Working as Research Associate in ”QuEST” - Quantum-Enabled Science & Technol-"
         },
         {
             "job_title": "",
             "dates": "2021",
             "institution": "",
-            "raw_text": "gy, project, (8th May, 2021 to 4th Oct, 2023), sponsored by “The Department of Science & Technology (DST)”, INDIA."
+            "raw_text": "ogy, project, (8th May, 2021 to 4th Oct, 2023), sponsored by “The Department of Science & Technology (DST)”, INDIA."
         },
         {
             "job_title": "",
             "dates": "",
             "institution": "Free University of Berlin",
-            "raw_text": "Guest Researcher in Department of Physics at Free University of Berlin, Berlin, Germany,(4th Year of Ph.D.)."
+            "raw_text": "2. Guest Researcher in Department of Physics at Free University of Berlin, Berlin, Germany,(4th Year of Ph.D.)."
         },
         {
             "job_title": "Senior Research",
             "dates": "",
             "institution": "",
-            "raw_text": "Project Fellow ( JRF(Junior Research Fellow) and SRF (Senior Research Fellow) ) of “The Department of Science & Technology (DST)”, INDIA, at BITS-Pilani."
+            "raw_text": "3. Project Fellow ( JRF(Junior Research Fellow) and SRF (Senior Research Fellow) ) of “The Department of Science & Technology (DST)”, INDIA, at BITS-Pilani."
         },
         {
             "job_title": "",
             "dates": "2012",
             "institution": "",
-            "raw_text": "Short term Project : “Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.” at UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH,Kolkata, INDIA (M.Sc Project- April 2012)."
+            "raw_text": "4. Short term Project : “Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.” at UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH,Kolkata, INDIA (M.Sc Project- April 2012)."
         },
         {
             "job_title": "Teaching Assistant",
             "dates": "2021",
             "institution": "",
-            "raw_text": "Teaching Assistant(TA): NPTEL(National Programme on Technology Enhanced Learning) (Initiated by IITs and IISC), (2021)."
+            "raw_text": "• Teaching Assistant(TA): NPTEL(National Programme on Technology Enhanced Learning) (Initiated by IITs and IISC), (2021)."
         },
         {
             "job_title": "Teaching Assistant",
             "dates": "2021",
             "institution": "",
-            "raw_text": "Teaching Assistant(TA) with Prof.Ranjith Padinhateeri at IIT-Bombay,(2021)."
+            "raw_text": "• Teaching Assistant(TA) with Prof.Ranjith Padinhateeri at IIT-Bombay,(2021)."
         },
         {
             "job_title": "Teaching Assistant",
             "dates": "2014-2019",
             "institution": "",
-            "raw_text": "Teaching Assistant (TA) in Physics Lab Course for 1st year B.Tech Student at BITS-Pilani, Pilani Campus, Department of Physics, (2014-2019, 5 years)."
+            "raw_text": "• Teaching Assistant (TA) in Physics Lab Course for 1st year B.Tech Student at BITS-Pilani, Pilani Campus, Department of Physics, (2014-2019, 5 years)."
         },
         {
             "job_title": "",
             "dates": "July 2013 - Nov 2013",
             "institution": "Government Engineering College",
-            "raw_text": "Guest Lecturer for a Government Engineering College ,“VSSUT (Veer Surendra Sai Uni- versity of Technology)”, Sambalpur, Burla, Odisha, INDIA,(July 2013 - Nov 2013). 4"
+            "raw_text": "• Guest Lecturer for a Government Engineering College ,“VSSUT (Veer Surendra Sai Uni- versity of Technology)”, Sambalpur, Burla, Odisha, INDIA,(July 2013 - Nov 2013)."
         }
     ],
     "research_interests": [
@@ -131,10 +166,28 @@
         ]
     },
     "certifications": [],
+    "awards": [
+        "1. Sandwich Research Scholarship: Freie Universitat Berlin, Germany, (2018) (During Ph.D).",
+        "MexicanCouncilofScience(CONACyT)PhDScholarship,(2015)(FulltimePh.D.Scholarship)."
+    ],
+    "memberships": [
+        "Member of the organizing committees: QIPA-2023 (International Conference), held at the Harish-Chandra Research Institute, India.",
+        "Member of the organizing committees: Young Quantum 2023 (International Meeting), held at the Harish-Chandra Research Institute, India.",
+        "Member of the organizing committees: DNA Physics-2017 (International Conference), held at the BITS-Pilani, Pilani Campus, India."
+    ],
+    "societies": [
+        "Member of the organizing committees: QIPA-2023 (International Conference), held at the Harish-Chandra Research Institute, India.",
+        "Member of the organizing committees: Young Quantum 2023 (International Meeting), held at the Harish-Chandra Research Institute, India.",
+        "Member of the organizing committees: DNA Physics-2017 (International Conference), held at the BITS-Pilani, Pilani Campus, India."
+    ],
     "responsibilities": [],
     "references": [
         "1. Prof. Navin Singh Professor BITS-Pilani, Pilani Campus, Pilani Rajasthan-333031, India Phone: 01596 5255257, 01596 525270 (Office) Email: navin@pilani.bits-pilani.ac.in",
         "Prof. Aditi Sen De Professor H, Physics Quantum Information and Computation (QIC) Group Prayagraj(Allahabad)-211019, India Email: aditi@hri.res.in Home: https://sites.google.com/view/aditisende",
         "Prof. Ujjwal Sen Professor H, Physics Quantum Information and Computation (QIC) Group Prayagraj(Allahabad)-211019, India Email: ujjwal@hri.res.in Home: https://www.hri.res.in/ ujjwal/"
+    ],
+    "achievements": [
+        "1. Sandwich Research Scholarship: Freie Universitat Berlin, Germany, (2018) (During Ph.D).",
+        "MexicanCouncilofScience(CONACyT)PhDScholarship,(2015)(FulltimePh.D.Scholarship)."
     ]
 }

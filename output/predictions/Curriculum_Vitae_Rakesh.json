@@ -15,7 +15,21 @@
             "graduation_year": "2019–2024",
             "cgpa": "",
             "institution": "Institute",
-            "raw_text": "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. CurrentStatus:ThesisSubmittedon1stOctober2024. ResearchArea:Beyond5G/6GWirelessCommunicationTechnologysuchasIntelligentRe- flectingSurface(IRS)-aidedCommunicationSystems,IntegratedSensingandCommunication (ISAC). ThesisTitle:EfficientPhaseShiftOptimizationFrameworkforIntelligentReflectingSurface (IRS)-AidedWirelessSystems. Supervisor:Dr.HimanshuBhusanMishra,AssociateProfessor. Co-supervisor:Dr.SamratMukhopadhyay,AssistantProfessor. 2017–2019 ] MasterofTechnology(M.Tech.)inCommunicationandSignalProcessing. ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. ThesisTitle: AdaptiveWidebandBeamformingWithSensorsDelayLines. 2009–2013 ] BachelorofTechnologyinElectronicsandCommunicationEngineering. TheUniversityofBurdwan-Burdwan,WestBengal,India,713104."
+            "raw_text": "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. CurrentStatus:ThesisSubmittedon1stOctober2024. ResearchArea:Beyond5G/6GWirelessCommunicationTechnologysuchasIntelligentRe- flectingSurface(IRS)-aidedCommunicationSystems,IntegratedSensingandCommunication (ISAC). ThesisTitle:EfficientPhaseShiftOptimizationFrameworkforIntelligentReflectingSurface (IRS)-AidedWirelessSystems. Supervisor:Dr.HimanshuBhusanMishra,AssociateProfessor. Co-supervisor:Dr.SamratMukhopadhyay,AssistantProfessor."
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2017–2019",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2017–2019 ] MasterofTechnology(M.Tech.)inCommunicationandSignalProcessing. ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. ThesisTitle: AdaptiveWidebandBeamformingWithSensorsDelayLines."
+        },
+        {
+            "degree": "",
+            "graduation_year": "2009–2013",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "2009–2013 ] BachelorofTechnologyinElectronicsandCommunicationEngineering. TheUniversityofBurdwan-Burdwan,WestBengal,India,713104."
         }
     ],
     "experience": [],
@@ -44,8 +58,18 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "2021 ] Two-year Senior Research Fellowship (SRF) at IIT Dhanbad from Ministry of Education, Govt.ofIndia. 2019 ] Two-yearJuniorResearchfellowship(JRF)atIITDhanbadfromMinistryofEducation,Govt.",
+        "fIndia. ] InstitutefellowshipgrantfromMHRD,Govt.ofIndia. 2018 ] GraduateAptitudeTestinEngineering(GATE)2018qualified. 2017 ] GraduateAptitudeTestinEngineering(GATE)2017qualified. 2016 ] GraduateAptitudeTestinEngineering(GATE)2016qualified. 2015 ] GraduateAptitudeTestinEngineering(GATE)2015qualified. 2013 ] ReceivedBachelorofEngineeringDegreewithFirstClassHonours."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
     "references": [
         "1 Dr.HimanshuBhusanMishra AssociateProfessor,DepartmentofElectronicsEngineering IndianInstituteofTechnology(IIT),Dhanbad,Jharkhand-826004,India. I +91-8765951227 # himanshu@iitism.ac.in 2 Dr.SamratMukhopadhyay AssistantProfessor,DepartmentofElectronicsEngineering IndianInstituteofTechnology(IIT),Dhanbad,Jharkhand-826004,India. I +91-7044004253 # samrat@iitism.ac.in 3 Dr.SurajSuman AssistantProfessor,DepartmentofElectricalEngineering IndianInstituteofTechnology(IIT),Patna,Bihar-801103,India I +91-9472457665 # ssu@iitp.ac.in"
+    ],
+    "achievements": [
+        "2021 ] Two-year Senior Research Fellowship (SRF) at IIT Dhanbad from Ministry of Education, Govt.ofIndia. 2019 ] Two-yearJuniorResearchfellowship(JRF)atIITDhanbadfromMinistryofEducation,Govt.",
+        "fIndia. ] InstitutefellowshipgrantfromMHRD,Govt.ofIndia. 2018 ] GraduateAptitudeTestinEngineering(GATE)2018qualified. 2017 ] GraduateAptitudeTestinEngineering(GATE)2017qualified. 2016 ] GraduateAptitudeTestinEngineering(GATE)2016qualified. 2015 ] GraduateAptitudeTestinEngineering(GATE)2015qualified. 2013 ] ReceivedBachelorofEngineeringDegreewithFirstClassHonours."
     ]
 }

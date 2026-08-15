@@ -13,11 +13,25 @@
     ],
     "education": [
         {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Course Year of Institution Board/University Percentage Passing"
+        },
+        {
             "degree": "PhD",
-            "graduation_year": "2023",
+            "graduation_year": "2015-2018",
             "cgpa": "94%",
             "institution": "Shree Institute of RGTU",
-            "raw_text": "Course Year of Institution Board/University Percentage Passing PhD-CSE(P) Reg- VNIT,NAGPUR VNIT,NAGPUR Pursuing 2023 M.E 2015-2018 IET,DAVV,INDORE DAVV, INDORE 94%(CGPA 9.4) (Software Engineering) Bachelor of 2006-2010 Shree Institute of RGTU, Bhopal 76.12%(HON.) Engineering(CSE) science & technology, Bhopal Higher Secondary 2006 School for excellence M.P. Educational 73.3% Seoni(M.P) Board, Bhopal High School 2004 School for excellence M.P. Educational 77.1% Seoni(M.P) Board, Bhopal"
+            "raw_text": "PhD-CSE(P) Reg- VNIT,NAGPUR VNIT,NAGPUR Pursuing M.E 2015-2018 IET,DAVV,INDORE DAVV, INDORE 94%(CGPA 9.4) (Software Engineering) Bachelor of 2006-2010 Shree Institute of RGTU, Bhopal 76.12%(HON.) Engineering(CSE) science & technology, Bhopal"
+        },
+        {
+            "degree": "Higher Secondary",
+            "graduation_year": "2006",
+            "cgpa": "73.3%",
+            "institution": "School",
+            "raw_text": "Higher Secondary 2006 School for excellence M.P. Educational 73.3% Seoni(M.P) Board, Bhopal High School 2004 School for excellence M.P. Educational 77.1% Seoni(M.P) Board, Bhopal"
         }
     ],
     "experience": [
@@ -50,6 +64,14 @@
     "certifications": [
         " Training Title : “Computer Network”  Duration: 45 Days  Adobe academic essential Professional development workshop on digital creativity skills by Adobe Express.  Received a certificate of NAAC Sponsored Two Days National Level Workshop on\"NAAC Accreditation System with Effective DVV process\" conducted on 13th – 14th May, 2022 in Hybrid Mode Organized by Internal Quality Assurance Cell (IQAC),GHRCE, NAGPUR.  Designing and Modeling of IoT,AI&ML Systems Organized by AICTE,ATAL,  ARM Education and STMicroelectronics Workshop from 1 to 5 August 2022.  NATIONAL INTELLECTUAL PROPERTY AWARENESS MISSION on January 24,2023 under has successfully participated in IP Awareness/Training program. FDP’s  FDP on \"AI and Data Science-based Emerging Trends in Earth Science\" from 2022-11-07-2022-11-12 to 2022-11-14-2022-11-18 at NIT Raipur.  FDP on Blockchain, Artificial Intelligence and IoT\" from 2022-12-05-2022-12-10 to 2022-12-12-2022-12- 16 at IIIT, Gwalior.  Microsoft, SAP & AICTE ATAL led Faculty Development Program on “Cloud Computing\" under TechSaksham Program from 30th January to 03rd February 2023.  FDP on SMART MANUFACTURING Conducted by SEC, Washim, from 11 to 13 May2023. Copyright  MUSIC STREAMING USING BLOCKCHAIN Diary No-L-130194/2023  Lumpy skin disease detection using classical SVM and VQC Diary No- L-142685/2024  Earthquake prediction using QSVM Diary No- L-142165/2024"
     ],
+    "awards": [
+        " Received N.C.C. “A‟ Certificate  Sports and Games Achievements at Regional level."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": [
+        " Received N.C.C. “A‟ Certificate  Sports and Games Achievements at Regional level."
+    ]
 }

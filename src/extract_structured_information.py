@@ -26,6 +26,9 @@ def get_empty_gt_schema():
             "preprints": []
         },
         "certifications": [],
+        "awards": [],
+        "memberships": [],
+        "societies": [],
         "responsibilities": [],
         "references": []
     }
@@ -116,7 +119,59 @@ def split_into_list(text):
     return [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
 
 
-# ---------- 2. ENTRY-LEVEL EDUCATION SUB-FIELD EXTRACTION ----------
+# ---------- 2. ENTRY-LEVEL SPLITTING & SUB-FIELD EXTRACTION ----------
+DATE_LINE_START_REGEX = re.compile(
+    r"^\s*(?:"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|July|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}"
+    r"|\b(?:19|20)\d{2}\s*[-–—]"
+    r"|[-•*➢|o\+]|\d+[\.\)]"
+    r")",
+    re.IGNORECASE
+)
+
+DEGREE_LINE_START_REGEX = re.compile(
+    r"^\s*(?:"
+    r"Doctor of Philosophy|Ph\.?D\.?|Master of Science|M\.?Sc\.?|Master of Technology|M\.?Tech\.?|"
+    r"Master of Engineering|M\.E\.|B\.?Tech\.?|B\.?Sc\.?|Higher Secondary|12th|10th"
+    r")",
+    re.IGNORECASE
+)
+
+def split_section_into_entries(text: str, is_education: bool = False) -> list[str]:
+    """
+    Splits section text into discrete entry blocks based on date ranges, bullets,
+    degree patterns, or newlines. Handles dense CVs without blank line separators.
+    """
+    if not text:
+        return []
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    entries = []
+    current_entry = []
+
+    for line in lines:
+        if re.match(r"^(?:page\s+\d+|\d+)$", line, re.IGNORECASE):
+            continue
+
+        is_new_entry_start = bool(DATE_LINE_START_REGEX.search(line))
+        if is_education and DEGREE_LINE_START_REGEX.search(line):
+            is_new_entry_start = True
+
+        if current_entry and is_new_entry_start:
+            entries.append(" ".join(current_entry))
+            current_entry = [line]
+        else:
+            current_entry.append(line)
+
+    if current_entry:
+        entries.append(" ".join(current_entry))
+
+    if len(entries) <= 1:
+        items = re.split(r'\n\s*(?:[-•*➢|o\+]|\d+[\.\)])\s*|\n{2,}', text)
+        entries = [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
+
+    return [e for e in entries if len(e) > 5]
+
+
 DEGREE_PATTERNS = [
     r"\bDoctor of Philosophy(?:\s*\(PhD\))?\b", r"\bPh\.?D\.?\b",
     r"\bMaster of Science(?:\s*\(M\.?\s?Sc\.?\))?\b", r"\bM\.?\s?Sc\.?\b",
@@ -175,10 +230,11 @@ def extract_institution(line):
             return cleaned
     return ""
 
-def extract_education_entries(section_text, split_into_list_fn):
-    """Replaces raw blob-per-entry with parsed sub-fields per entry line."""
+def extract_education_entries(section_text, split_fn=None):
+    """Replaces raw blob-per-entry with parsed sub-fields per entry block."""
     entries = []
-    for entry_text in split_into_list_fn(section_text):
+    blocks = split_section_into_entries(section_text, is_education=True)
+    for entry_text in blocks:
         stripped = PREFIX_NOISE.sub("", entry_text).strip()
         degree_m = DEGREE_REGEX.search(entry_text)
         year_m = YEAR_RANGE_REGEX.search(entry_text)
@@ -212,9 +268,10 @@ DATE_RANGE_REGEX = re.compile(
     re.IGNORECASE
 )
 
-def extract_experience_entries(section_text, split_into_list_fn):
+def extract_experience_entries(section_text, split_fn=None):
     entries = []
-    for entry_text in split_into_list_fn(section_text):
+    blocks = split_section_into_entries(section_text, is_education=False)
+    for entry_text in blocks:
         title_m = TITLE_REGEX.search(entry_text)
         date_m = DATE_RANGE_REGEX.search(entry_text)
         institution = extract_institution(entry_text)
@@ -265,12 +322,27 @@ def process_resume(section_file):
     summary_text = get_section_text(sections, "summary")
     prediction["summary"] = [summary_text] if summary_text else []
     
-    prediction["education"] = extract_education_entries(get_section_text(sections, "education"), split_into_list)
-    prediction["experience"] = extract_experience_entries(get_section_text(sections, "experience"), split_into_list)
+    prediction["education"] = extract_education_entries(get_section_text(sections, "education"))
+    prediction["experience"] = extract_experience_entries(get_section_text(sections, "experience"))
 
-    list_fields = ["research_interests", "skills", "projects", "certifications", "responsibilities", "references"]
+    # Populate all standard list sections including awards, achievements, memberships, societies
+    list_fields = [
+        "research_interests", "skills", "projects", "certifications",
+        "awards", "achievements", "memberships", "societies",
+        "responsibilities", "references"
+    ]
     for field in list_fields:
-        prediction[field] = split_into_list(get_section_text(sections, field))
+        content = get_section_text(sections, field)
+        if not content and field == "awards":
+            content = get_section_text(sections, "achievements")
+        elif not content and field == "achievements":
+            content = get_section_text(sections, "awards")
+        elif not content and field == "memberships":
+            content = get_section_text(sections, "societies")
+        elif not content and field == "societies":
+            content = get_section_text(sections, "memberships")
+
+        prediction[field] = split_into_list(content)
         
     pub_text = get_section_text(sections, "publications")
     if pub_text:

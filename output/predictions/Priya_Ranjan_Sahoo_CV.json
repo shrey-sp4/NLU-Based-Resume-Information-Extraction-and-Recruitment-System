@@ -11,11 +11,25 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "Ph.D",
             "graduation_year": "2018",
             "cgpa": "",
             "institution": "University of Delhi Delhi",
-            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
+            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2013",
+            "cgpa": "",
+            "institution": "University of Delhi Delhi",
+            "raw_text": "M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2011",
+            "cgpa": "",
+            "institution": "Utkal University",
+            "raw_text": "B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
         }
     ],
     "experience": [
@@ -99,8 +113,16 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
     "references": [
         "Prof. Satish Kumar Prof. Hélène C. Bertrand Prof. Rachana Sahney Associate Professor Associate Professor Associate professor Department of Chemistry (Sorbonne Université) Amity Institute of St. Stephen’s College Laboratoire des Biomolécules Biotechnology, University of Delhi, UMR7203, Département Chimie de l’ENS Amity University, Delhi, India, 110007 24 rue Lhomond, 75231 Paris Cedex 05 Uttarpradesh, India Email ID: Email ID: Email ID: satish@ststephens.edu helene.bertrand@ens.psl.eu rsahney@amity.edu 5"
+    ],
+    "achievements": [
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
     ]
 }

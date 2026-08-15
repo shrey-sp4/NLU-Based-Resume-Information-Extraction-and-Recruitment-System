@@ -11,9 +11,23 @@
         {
             "degree": "Ph.D",
             "graduation_year": "2024",
-            "cgpa": "67%",
+            "cgpa": "",
             "institution": "University of Engineering & Management",
-            "raw_text": "Pursuing Ph.D in Management (Research Scholar) University of Engineering & Management 04/2024 – present | Kolkata, India MBA (Marketing, Finance) Heritage Business School 2016 | Kolkata, India CGPA:8.22 B-Tech (Computer Science) WBUT 2012 | Kolkata, India CGPA:8.55 Higher Secondary in Science with 67% marks Nava Nalanda High School, WBCHSE 2008 | Kolkata, India Madhyamik with 83% marks Nava Nalanda High School, WBBSE 2006 end-to-end knowledge and experience in various accreditation processes, including NBA and AICTE. Industry and Academic Collaboration: Conducted corporate connects by liaising with national and international resource persons, bridging the gap between industry and academia. The Neotia University Assistant Manager, Student Affairs 02/2022 – 10/2022 | Kolkata, India Organizing various university events, seminars and"
+            "raw_text": "Pursuing Ph.D in Management (Research Scholar) University of Engineering & Management 04/2024 – present | Kolkata, India MBA (Marketing, Finance) Heritage Business School 2016 | Kolkata, India CGPA:8.22 B-Tech (Computer Science) WBUT 2012 | Kolkata, India CGPA:8.55"
+        },
+        {
+            "degree": "Higher Secondary",
+            "graduation_year": "2008",
+            "cgpa": "67%",
+            "institution": "Nava Nalanda High School",
+            "raw_text": "Higher Secondary in Science with 67% marks Nava Nalanda High School, WBCHSE 2008 | Kolkata, India Madhyamik with 83% marks Nava Nalanda High School, WBBSE end-to-end knowledge and experience in various accreditation processes, including NBA and AICTE. Industry and Academic Collaboration: Conducted corporate connects by liaising with national and international resource persons, bridging the gap between industry and academia. The Neotia University Assistant Manager, Student Affairs 02/2022 – 10/2022 | Kolkata, India"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Organizing various university events, seminars and"
         }
     ],
     "experience": [
@@ -49,8 +63,12 @@
         "Conducting various student training Programs. Comprehensive event coordination encompassing budget oversight and the management of suppliers and vendors. Oversee the activities of different student Clubs and handling student grievances Overseeing the complete admission procedure from initiation to conclusion. Aakash educational Services Ltd.",
         "n “Research Practices in Media and Social Sciences” Kolkata, India Conducted by University Institute of Media Studies FIVE DAY FACULTY DEVELOPMENT PROGRAM on “CONVERGENCE OF MEDIA: CHALLENGES & OPPORTUNITIES IN THE DIGITAL ERA” Kolkata, India Conducted by University Institute of Media Studies"
     ],
+    "awards": [],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [
         "03/2020 – 02/2022 | Kolkata, India Counselling students for regarding the admission procedure Taking responsibilities of batches as batch coordinators Maintaining batch specific files. Organising and coordinating National Level Scholarship exams Providing support and guidance to students experiencing academic and personal issues. Providing recurring academic advisement services to ensure continuous educational advancement for students"
     ],
-    "references": []
+    "references": [],
+    "achievements": []
 }

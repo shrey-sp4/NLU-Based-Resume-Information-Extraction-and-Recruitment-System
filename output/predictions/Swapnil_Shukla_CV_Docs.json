@@ -11,7 +11,7 @@
     "summary": [],
     "education": [
         {
-            "degree": "Ph.D.",
+            "degree": "Ph.D",
             "graduation_year": "",
             "cgpa": "68.9%",
             "institution": "Chemistry Shiv Nadar University",
@@ -29,7 +29,7 @@
             "job_title": "Teaching Assistant",
             "dates": "",
             "institution": "Central University of Gujarat",
-            "raw_text": "f Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
+            "raw_text": "of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
         }
     ],
     "research_interests": [],
@@ -102,6 +102,32 @@
         "preprints": []
     },
     "certifications": [],
+    "awards": [
+        "1. Young Scientist Award (Dr. B. N. Mankad Award) for oral presentation in 53rd Annual Convention of Chemists, GITAM University, India (2016).",
+        "Travel Grant from Centre of International Co-operation in science (CICS) (promoted by India national Science Academy), India (2016).",
+        "First runner up prize for poster presentation in the One day Symposium “Emerging Research Trends in Sciences & Grantsmanship”, SNU, India (2016).",
+        "First runner up prize for poster presentation in the One day Symposium, \"Current trends in Drug Discoveries Research in India\", SNU, India (2015).",
+        "Best Oral Paper Award in the Green Materials section of the International Conference on Green Initiatives in Science and Technology (GIST-2015) sponsored by the Royal Society of Chemistry (RSC) North India Section and Indian Oil, MRCE, India (2015).",
+        "Qualified All India Graduate Aptitude Test in Engineering (Chemistry), GATE (2012).",
+        "Certificate of participation in 4th Indo-Italian seminar and 7th Indo-Italian workshop on “Green Chemistry and Natural Products”, University of Delhi, India (2010).",
+        "Certificate of Merit and Medal for securing first position in South Delhi campus in Undergraduate [BSc (H) Chemistry] University Examination (2008).",
+        "Certificate of Merit for excellence in academics at school level (2006).",
+        "Certificate of Merit for excellence in academics from Central Board of Senior Secondary Education, Delhi, India (2004)."
+    ],
+    "memberships": [],
+    "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [],
+    "achievements": [
+        "1. Young Scientist Award (Dr. B. N. Mankad Award) for oral presentation in 53rd Annual Convention of Chemists, GITAM University, India (2016).",
+        "Travel Grant from Centre of International Co-operation in science (CICS) (promoted by India national Science Academy), India (2016).",
+        "First runner up prize for poster presentation in the One day Symposium “Emerging Research Trends in Sciences & Grantsmanship”, SNU, India (2016).",
+        "First runner up prize for poster presentation in the One day Symposium, \"Current trends in Drug Discoveries Research in India\", SNU, India (2015).",
+        "Best Oral Paper Award in the Green Materials section of the International Conference on Green Initiatives in Science and Technology (GIST-2015) sponsored by the Royal Society of Chemistry (RSC) North India Section and Indian Oil, MRCE, India (2015).",
+        "Qualified All India Graduate Aptitude Test in Engineering (Chemistry), GATE (2012).",
+        "Certificate of participation in 4th Indo-Italian seminar and 7th Indo-Italian workshop on “Green Chemistry and Natural Products”, University of Delhi, India (2010).",
+        "Certificate of Merit and Medal for securing first position in South Delhi campus in Undergraduate [BSc (H) Chemistry] University Examination (2008).",
+        "Certificate of Merit for excellence in academics at school level (2006).",
+        "Certificate of Merit for excellence in academics from Central Board of Senior Secondary Education, Delhi, India (2004)."
+    ]
 }
