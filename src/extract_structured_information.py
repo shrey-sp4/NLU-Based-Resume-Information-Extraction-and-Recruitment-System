@@ -27,6 +27,7 @@ def get_empty_gt_schema():
         },
         "certifications": [],
         "awards": [],
+        "achievements": [],
         "memberships": [],
         "societies": [],
         "responsibilities": [],
@@ -333,14 +334,10 @@ def process_resume(section_file):
     ]
     for field in list_fields:
         content = get_section_text(sections, field)
-        if not content and field == "awards":
-            content = get_section_text(sections, "achievements")
-        elif not content and field == "achievements":
-            content = get_section_text(sections, "awards")
-        elif not content and field == "memberships":
-            content = get_section_text(sections, "societies")
-        elif not content and field == "societies":
-            content = get_section_text(sections, "memberships")
+        if not content and field in ("awards", "achievements"):
+            content = get_section_text(sections, "achievements") or get_section_text(sections, "awards")
+        elif not content and field in ("memberships", "societies"):
+            content = get_section_text(sections, "memberships") or get_section_text(sections, "societies")
 
         prediction[field] = split_into_list(content)
         

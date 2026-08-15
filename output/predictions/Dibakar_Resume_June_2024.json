@@ -723,31 +723,6 @@
         "PhD Thesis Reviewer, Nanyang Technological University, Singapore, University",
         "f Hyderabad (UoH), Hyderabad, RMIT Melbourne, IIST Trivandrum, IIT Guwahati, IIT Roorkee etc."
     ],
-    "memberships": [
-        "• Fellow Institute of Physics, (FInstP, UK)",
-        "Fellow Telangana Academy of Sciences (FTAS)",
-        "Fellow Institute of Electronics and Telecommunication Engineers (IETE)",
-        "Senior Member Optical Society of America (OSA)",
-        "Fellow Optical Society of India (OSI)"
-    ],
-    "societies": [
-        "• Fellow Institute of Physics, (FInstP, UK)",
-        "Fellow Telangana Academy of Sciences (FTAS)",
-        "Fellow Institute of Electronics and Telecommunication Engineers (IETE)",
-        "Senior Member Optical Society of America (OSA)",
-        "Fellow Optical Society of India (OSI)"
-    ],
-    "responsibilities": [],
-    "references": [
-        "• Dr. Antoinette J Taylor Associate Director, Los Alamos National Laboratory, Los Alamos, NM, USA, 87545 Email: ttaylor@lanl.gov Phone No: 001-505-665-0030",
-        "Dr. Michael Feiginov (PhD supervisor) Professor, Institute of Electrodynamics, Technical University Vienna, 1040, Austria, Email: michael.feiginov@tuwien.ac.at Phone No: 0043-1-58801-354700",
-        "Prof. Chennupati Jagadish, AC Distinguished Professor, Research School of Physics, Australian National University, Canberra, ACT, 2601, Australia, Email: Chennupati.Jagadish@anu.edu.au Phone No: 0061-2-612-51363",
-        "Prof. Weili Zhang Professor, Department of Electrical Engineering, Oklahoma State University, Stillwater, Oklahoma 74078, USA Email: weili.zhang@okstate.edu Phone No: 001-405-744-7297",
-        "Dr. Abul K. Azad Technical Stuff Member, Center for Integrated NanoTechnologies (CINT) MS-K771, Los Alamos National Laboratory, Los Alamos, NM, USA Email: aazad@lanl.gov Phone No: 001-505-667-0212",
-        "Dr. John F. O’Hara Associate Professor, Department of Electrical Engineering, Oklahoma State University, Stillwater, Oklahoma, USA, 74078 Email: oharaj@okstate.edu Phone No: 001-405-744-1825",
-        "Prof. Didier Clouteau Professor, Head Department of Mechanics, Ecole Centrale Paris, Paris, Email: didier.clouteau@ecp.fr Phone No: 0033-1-4113-1376",
-        "Prof. Achanta Venu Gopal Director, National Physical Laboratory, Delhi (currently) Professor, Tata Institute of Fundamental Research, Mumbai, India Email: director@nplindia.org , achanta@tifr.res.in Phone No: 0091 22 2278 2447"
-    ],
     "achievements": [
         "• Cleared CSIR (Council for Scientific and Industrial Research) - NET (National Eligibility Test) examination for junior research fellowship and for eligibility of lecturership in India (2000)",
         "Graduate Aptitude Test in Engineering (GATE) [jointly organized by “Indian Institute of Technology” and “Indian Institute of Science”]: All India rank – 19 (2001)",
@@ -862,5 +837,30 @@
         "Proposal reviewer for DST, India, Nanyang Technological University, Singapore, Tier-I & Tier II proposals, National Science Center, Poland, Distinguished Proposal Review Committee, CINT, Sandia National Laboratory, USA",
         "PhD Thesis Reviewer, Nanyang Technological University, Singapore, University",
         "f Hyderabad (UoH), Hyderabad, RMIT Melbourne, IIST Trivandrum, IIT Guwahati, IIT Roorkee etc."
+    ],
+    "memberships": [
+        "• Fellow Institute of Physics, (FInstP, UK)",
+        "Fellow Telangana Academy of Sciences (FTAS)",
+        "Fellow Institute of Electronics and Telecommunication Engineers (IETE)",
+        "Senior Member Optical Society of America (OSA)",
+        "Fellow Optical Society of India (OSI)"
+    ],
+    "societies": [
+        "• Fellow Institute of Physics, (FInstP, UK)",
+        "Fellow Telangana Academy of Sciences (FTAS)",
+        "Fellow Institute of Electronics and Telecommunication Engineers (IETE)",
+        "Senior Member Optical Society of America (OSA)",
+        "Fellow Optical Society of India (OSI)"
+    ],
+    "responsibilities": [],
+    "references": [
+        "• Dr. Antoinette J Taylor Associate Director, Los Alamos National Laboratory, Los Alamos, NM, USA, 87545 Email: ttaylor@lanl.gov Phone No: 001-505-665-0030",
+        "Dr. Michael Feiginov (PhD supervisor) Professor, Institute of Electrodynamics, Technical University Vienna, 1040, Austria, Email: michael.feiginov@tuwien.ac.at Phone No: 0043-1-58801-354700",
+        "Prof. Chennupati Jagadish, AC Distinguished Professor, Research School of Physics, Australian National University, Canberra, ACT, 2601, Australia, Email: Chennupati.Jagadish@anu.edu.au Phone No: 0061-2-612-51363",
+        "Prof. Weili Zhang Professor, Department of Electrical Engineering, Oklahoma State University, Stillwater, Oklahoma 74078, USA Email: weili.zhang@okstate.edu Phone No: 001-405-744-7297",
+        "Dr. Abul K. Azad Technical Stuff Member, Center for Integrated NanoTechnologies (CINT) MS-K771, Los Alamos National Laboratory, Los Alamos, NM, USA Email: aazad@lanl.gov Phone No: 001-505-667-0212",
+        "Dr. John F. O’Hara Associate Professor, Department of Electrical Engineering, Oklahoma State University, Stillwater, Oklahoma, USA, 74078 Email: oharaj@okstate.edu Phone No: 001-405-744-1825",
+        "Prof. Didier Clouteau Professor, Head Department of Mechanics, Ecole Centrale Paris, Paris, Email: didier.clouteau@ecp.fr Phone No: 0033-1-4113-1376",
+        "Prof. Achanta Venu Gopal Director, National Physical Laboratory, Delhi (currently) Professor, Tata Institute of Fundamental Research, Mumbai, India Email: director@nplindia.org , achanta@tifr.res.in Phone No: 0091 22 2278 2447"
     ]
 }

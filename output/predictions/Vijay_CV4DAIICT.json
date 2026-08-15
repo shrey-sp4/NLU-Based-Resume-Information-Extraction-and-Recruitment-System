@@ -110,19 +110,6 @@
         "Achieved All India Rank (AIR) 85 in IIT JAM Statistics 2011.",
         "Achieved All India Rank (AIR) 90 in IIT JAM Statistics 2009."
     ],
-    "memberships": [],
-    "societies": [],
-    "responsibilities": [
-        "1. ParticipatedintheWorkshoponQuantileRegressionorganizedbyInternationalIndianStatistical Association (IISA) at IIT Bombay, 2019.",
-        "Participated in the R-Conference organized by International Indian Statistical Association (IISA) at IIT Bombay, 2019.",
-        "Participated in the “IFCAM Summer School Workshop on Mathematics For Data Science” orga- nized by IISc Bangalore, 2019.",
-        "Participatedinthe“ScientificwritingusingLATEX”organizedbyDr. ShakuntalaMisraNational Rehabilitation University, Lucknow, 2017.",
-        "Completed certification course “Introduction to Data Analytics”, IIT Madras through NPTEL.",
-        "Completed certification course “Introduction to Software R”, IIT Kanpur through NPTEL 2012 - 2013 Leaded the Registration team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay. 2012 - 2013 Member, Design and Logistic team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay."
-    ],
-    "references": [
-        "Prof. P. Vellaisamy Prof. Siuli Mukhopadhyay Department of Mathematics Department of Mathematics Indian Institute of Technology, Bombay Indian Institute of Technology, Bombay Mumbai, Maharashtra - 400076 Mumbai, Maharashtra - 400076 Email: pv@math.iitb.ac.in Email: siuli@math.iitb.ac.in Prof. Mohd. Arshad Department of Mathematics Indian Institute of Technology, Indore Simrol, Khandwa Road, Indore 453552 Email: arshad@iiti.ac.in"
-    ],
     "achievements": [
         "1. GotselectedforNationalBoardforHigherMathematics(NBHM)PostdoctoralFellowship,2023(II).",
         "Achieved All India Rank 72 in GATE (Statistics) 2020.",
@@ -135,5 +122,18 @@
         "Got selected for summer intenship from Ministry of Statistics and Programme Implementation (MoS&PI) in 2012-13.",
         "Achieved All India Rank (AIR) 85 in IIT JAM Statistics 2011.",
         "Achieved All India Rank (AIR) 90 in IIT JAM Statistics 2009."
+    ],
+    "memberships": [],
+    "societies": [],
+    "responsibilities": [
+        "1. ParticipatedintheWorkshoponQuantileRegressionorganizedbyInternationalIndianStatistical Association (IISA) at IIT Bombay, 2019.",
+        "Participated in the R-Conference organized by International Indian Statistical Association (IISA) at IIT Bombay, 2019.",
+        "Participated in the “IFCAM Summer School Workshop on Mathematics For Data Science” orga- nized by IISc Bangalore, 2019.",
+        "Participatedinthe“ScientificwritingusingLATEX”organizedbyDr. ShakuntalaMisraNational Rehabilitation University, Lucknow, 2017.",
+        "Completed certification course “Introduction to Data Analytics”, IIT Madras through NPTEL.",
+        "Completed certification course “Introduction to Software R”, IIT Kanpur through NPTEL 2012 - 2013 Leaded the Registration team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay. 2012 - 2013 Member, Design and Logistic team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay."
+    ],
+    "references": [
+        "Prof. P. Vellaisamy Prof. Siuli Mukhopadhyay Department of Mathematics Department of Mathematics Indian Institute of Technology, Bombay Indian Institute of Technology, Bombay Mumbai, Maharashtra - 400076 Mumbai, Maharashtra - 400076 Email: pv@math.iitb.ac.in Email: siuli@math.iitb.ac.in Prof. Mohd. Arshad Department of Mathematics Indian Institute of Technology, Indore Simrol, Khandwa Road, Indore 453552 Email: arshad@iiti.ac.in"
     ]
 }
