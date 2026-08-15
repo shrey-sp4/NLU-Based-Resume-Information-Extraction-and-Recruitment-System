@@ -23,64 +23,29 @@
             "degree": "Ph.D",
             "graduation_year": "2018",
             "cgpa": "",
-            "institution": "Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela",
-            "raw_text": "Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India CGPA: 9.2 Supervisor: Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela, India M. Tech. in Computer Science 2014 to 2016 Specialization: Information security Rourkela, Odisha, India Thesis Title: Certificateless Nominative Signature based upon DLP CGPA: 8.05 Biju Patnaik University of Technology Rourkela, India B. Tech. in Information Technology 2008 to 2012 CGPA: 7.05 Rourkela, Odisha, India Council of Higher Secondary Education Odisha, India"
-        },
-        {
-            "degree": "12th",
-            "graduation_year": "2006",
-            "cgpa": "",
             "institution": "",
-            "raw_text": "12th in science Year: 2006 to 2008 Board of Secondary Education Odisha, India"
-        },
-        {
-            "degree": "10th",
-            "graduation_year": "2006",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "10th in Mathematics, Science and English Year: 2006"
+            "raw_text": "Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India"
         }
     ],
     "experience": [
         {
             "job_title": "",
-            "dates": "2023",
+            "dates": "",
             "institution": "Siksha O Anusandhan University",
-            "raw_text": "Siksha O Anusandhan University Bhubaneswar, Odisha, India 1.3 Year Department: Computer Science and Information Technology Duration: Mar 2023 to Present Motilal Nehru National Institute of Technology Allahabad, India 1.5 Years Department: Computer Science and Engineering Duration: Aug 2016 to Jan 2018 DharaniDhara Autonomous College Keonjhar Odisha, India 1 Year Department: Self-financing Department Duration: July 2013 to Aug 2014 Total: 3.8 years"
+            "raw_text": "Siksha O Anusandhan University Bhubaneswar, Odisha, India 1.3 Year Department: Computer Science and Information Technology Department: Computer Science and Engineering"
         }
     ],
-    "research_interests": [
-        "Blockchain Technology",
-        "Scalability Issue in Blockchain.",
-        "Layer-2 Blockchain to make the Consensus free and time management.",
-        "Virtual Payment Model.",
-        "Channel Rebalancing in Bitcoin and Ethereum Network.",
-        "Node Dispute Handling in Virtual State Channels.",
-        "Channel Splitting for Node Idleness in Ledger State Channels. Cryptography and Security",
-        "Digital Signature Scheme and their modification for Decentralized Networks.",
-        "Certificateless Cryptography for Small Power Device Communication.",
-        "Flood and Loot Attack in Bitcoin Lightning Network.",
-        "Bilinear Pairing Free Cryptography."
-    ],
+    "research_interests": [],
     "skills": [],
     "projects": [],
     "publications": {
         "journal_articles": [
-            "Summary of Thesis: One of the fundamental challenges that hinder the further adaption of decentralized cryptocurrencies is scalability. Because current cryptocurrencies require that all transactions are processed and stored",
-            "n a distributed ledger – the so-called Blockchain – transaction throughput is inherently limited. An important proposal to significantly improve scalability is off-chain protocols, where many transactions are executed without requiring costly interaction with the Blockchain. Examples of off-chain protocols include payment channels and networks currently deployed by popular cryptocurrencies such as Bitcoin and Ethereum. A further extension of payment networks envisioned for cryptocurrencies are so-called state channel networks. Payment channels are an efficient method for performing cheap micropayments in cryptocurrencies. In contrast to traditional on-chain transactions, payment channels have the advantage that they allow for a nearly unlimited number of transactions between parties without involving the Blockchain. But payment networks that only support off-chain payments between users and state channel networks allow the execution of arbitrary complex smart contracts. We introduce an",
-            "ff-chain channel system that offers a new method for connecting channels that is more efficient than the existing “routing transactions” technique over multiple channels. To this end, the method avoids the involvement of the intermediary for each payment. We also consider channel disputes and payment splitting. Moreover, we provide formal security definitions and prove the security of our construction against powerful adversaries. An additional benefit of our structure is channel virtualization, which further reduces latency and costs in complex channel networks. M. Tech. Thesis National Institute of Technology Certificateless Nominative Signature Scheme based upon DLP Rourkela, India 2014 to 2016",
-            "Summary of Thesis: The certificateless nominative signature is a concept devoid of the key escrow problem and certificate renewal. In a conventional digital signature scheme, if the digital signature goes unverified by the public key, the receiver marks it invalid without knowing the message was corrupted, or the private key was false. The sender",
-            "wns both the public key and the private key. The receiver must pay additional costs to obtain the digital signature certificate. The nominee has a signature with him in the case of a nominative signature. In contrast with the nominative signature, we focus on certificateless public key cryptography, avoiding the use of additional escrow, unlike the identity-based system. Moreover, it does not require any certificate to ensure the keys' authenticity. Our scheme presents a certificateless nominative signature scheme based upon computational hard problems, namely, Discrete Logarithmic Problems and Computational Diffie-Hellman problems. In the proposed method, the partial key is used by a user with the random secret of the user to generate the private and public keys. The nominative signature is publicly verifiable and convertible, and only the nominee can verify the validity of the signature. Moreover, the scheme can withstand key replacement attacks. Also, the proposed scheme is proven to be secure against unforgeability. TEACHING SKILLS ▪ Course Subjects: Operating System, Cryptography, Data Structures and Blockchain. ▪ Programming Languages: C, C++, Solidity. ▪ Operating Systems: Windows, Linux. INVITED TALKS AND PRESENTATIONS Expert Talk: Blockchain on Information Security Smt. S. R. Patel Engineering College, Gujrat Sep 2022 IEEE INDICON 2022 IEEE 19th India Council International Conference Paper Title: Ethereum Compatible Faster Atomic Payment Splitting Network 24th to 26th November 2022 IEEE INDISCON 2022 IEEE 3rd India Council International Flagship Conference Paper Title: Secure Blockchain Model for Vehicles Toll Collection by GPS tracking: A case study of India 15th to 17th July 2022 IEEE TRANSACTIONS",
-            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \"Secure Virtual Non-Atomic Payment Splitting Network on Blockchain.\" In IEEE Transaction. (Under Review)",
-            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \"Prevention of Flood and Loot attack with secure computing.\" In ACM Transactions on Internet Technology. (Under Review)",
-            "Sahoo, Sujit Sangram, Mahesh Mohan Hosmane, and Vijay Kumar Chaurasiya. \"A secure payment channel rebalancing model for layer-2 blockchain.\" Internet of Things 22 (2023): 100822.",
+            "• Sahoo, Sujit Sangram, Mahesh Mohan Hosmane, and Vijay Kumar Chaurasiya. \"A secure payment channel rebalancing model for layer-2 blockchain.\" Internet of Things 22 (2023): 100822.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"EASB: ECC based aggregate signature without bilinear pairing for blockchain.\" Multimedia Tools and Applications (2023): 1-20.",
             "Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay Kumar Chaurasiya. \"Blockchain Based n-party Virtual Payment Model with Concurrent Execution.\" Arabian Journal for Science and Engineering (2023): 1-28.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"VIBE: blockchain-based virtual payment in IoT ecosystem: a secure decentralized marketplace.\" Multimedia Tools and Applications (2023): 1-26.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"Proof of location-based delivery system using multi- party virtual state channel: a blockchain model.\" The Journal of Supercomputing (2023): 1-31.",
-            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \" Deterministic Nonce Generation to Prevent Key Exfiltration Attack.\" In Wireless Personal Communication. (Under Review) BOOK CHAPTERS",
-            "Kumar, Akash, Sujit Sangram Sahoo, and Vijay Kumar Chaurasiya et al. \"Secure Certificateless Maximum Achievable Throughput in Successive IoT Relay Networks.\" In Information Technology Security: Modern Trends and Challenges, pp. 189-208. Singapore: Springer Nature Singapore, 2024.",
-            "Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay K. Chaurasiya. \" Secure and Authenticate Decentralize Model for Vehicle on Blockchain Off-Chain Payment System.\" In Blockchain in Smart Networks. (Communicated)",
+            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \" Deterministic Nonce Generation to Prevent Key Exfiltration Attack.\" In Wireless Personal Communication. (Under Review)",
             "Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay K. Chaurasiya. \"Secure Blockchain Model for Vehicles Toll Collection by GPS tracking: A case study of India.\" In 2022 IEEE India Council International Subsections Conference (INDISCON), pp. 1-6. IEEE, 2022.",
             "Sahoo, Sujit Sangram, Mahesh M Hosmane, Aravind R. Menon, and Vijay K. Chaurasiya. \" Ethereum Compatible Faster Atomic Payment Splitting Network.\" In 2022 IEEE India Council International Subsections Conference (INDICON). IEEE, 2022."
         ],
@@ -89,12 +54,10 @@
             "Mohanty, Sujata, Sujit Sangram Sahoo, and Banshidhar Majhi. \"Certificateless nominative signature scheme based upon DLP.\" In 2016 International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT), pp. 1241-1245. IEEE, 2016."
         ],
         "conference_proceedings": [
-            "Aditia, Mayank and Sujit S. Sahoo et.al. \"Optimized CL-PKE with lightweight encryption for resource constrained devices.\" In Proceedings of the 20th International Conference on Distributed Computing and Networking, pp. 427-432. 2019. DATE: PLACE: SUJIT SANGRAM SAHOO"
+            "Aditia, Mayank and Sujit S. Sahoo et.al. \"Optimized CL-PKE with lightweight encryption for resource constrained devices.\" In Proceedings of the 20th International Conference on Distributed Computing and Networking, pp. 427-432. 2019."
         ],
         "communications": [],
-        "book_chapters": [
-            "IEEE/ACM TRANSACTION: Under Review (2) SCI / SCIE Journal (Unpaid) Papers: Published (5), Under Review (1) BOOK CHAPTER: 1 (Published) THESIS WORK Ph. D. Thesis Indian Institute of Information Technology Allahabad, India Instant Payment Systems for Layer-2 Blockchain 2018 to Present"
-        ],
+        "book_chapters": [],
         "books": [],
         "technical_reports": [],
         "preprints": []
@@ -103,12 +66,7 @@
         "• IEEE Young Professional Member Since 2020.",
         "Organizing Four Days Self-Financed Short-term course on “IoT-Machine Learning-Blockchain” Indian Institute of Information Technology Allahabad, India.",
         "Certified from AICTE Training and Learning (ATAL) Academy FDP on “BLOCKCHAIN” organized by Indian Institute of Information Technology Allahabad, India.",
-        "Certified from AICTE Training and Learning (ATAL) Academy FDP on “Internet of Things” organized by LBS College of Engineering, Kasaragod",
-        "Organizing Five Days Self-Financed Short-term course on “Wireless Network and IoT” Indian Institute of Information Technology Allahabad, India.",
-        "Organizing Eight Days Self-Financed Short-term course on “Network Programming in C/C++” Indian Institute of Information Technology Allahabad, India.",
-        "Certified from AICTE Training and Learning (ATAL) Academy FDP on “BLOCKCHAIN” organized by Excel Engineering College.",
-        "Certified from National Workshop on “Recent Trends in Software Testing”, National Institute of Technology Rourkela, India.",
-        "Certified from National Workshop on “Software Quality Assurance”, National Institute of Technology Rourkela, India."
+        "Certified from AICTE Training and Learning (ATAL) Academy FDP on “Internet of Things” organized by LBS"
     ],
     "awards": [
         "• MHRD Fellowship for Ph.D., IIIT Allahabad.",

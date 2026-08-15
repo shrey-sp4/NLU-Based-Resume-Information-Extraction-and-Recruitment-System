@@ -2,22 +2,12 @@
     "personal_details": {
         "name": "Dr. Swapnil Shukla",
         "email": "swapnilshukla025@gmail.com",
-        "phone": "9999044865",
-        "phones": [
-            "9999044865"
-        ],
+        "phone": "",
+        "phones": [],
         "address": ""
     },
     "summary": [],
-    "education": [
-        {
-            "degree": "Ph.D",
-            "graduation_year": "",
-            "cgpa": "68.9%",
-            "institution": "Chemistry Shiv Nadar University",
-            "raw_text": "08/12 - 12/16 Ph.D. in Chemistry Shiv Nadar University, Uttar Pradesh, India Sustainable Benzoxazines – Sources, Synthesis and Applications Supervisor: Dr. Bimlesh Lochab 07/09 - 05/11 1st Class M. Sc. in Chemistry, 68.9% Hindu college, University of Delhi, Delhi, India Importance of Kinases as potential drug targets 07/06 - 05/09 1st Class B. Sc. (Hons.) in Chemistry, 81.2% Sri Venkateswara College, University of Delhi, Delhi, India 04/05 - 05/06 12th Class (Equivalent to A levels), 82% Central Board of Senior Secondary Education, Delhi, India 04/03 - 05/04 10th Class, 88.6% Central Board of Senior Secondary Education, Delhi, India"
-        }
-    ],
+    "education": [],
     "experience": [
         {
             "job_title": "",
@@ -29,7 +19,7 @@
             "job_title": "Teaching Assistant",
             "dates": "",
             "institution": "Central University of Gujarat",
-            "raw_text": "of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
+            "raw_text": "of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University,"
         }
     ],
     "research_interests": [],
@@ -40,60 +30,9 @@
     "publications": {
         "journal_articles": [
             "1. Naveen Kumar, Nisha Yadav, Nagarjuna Amarnath, Vijeta Sharma, Swapnil Shukla, Akriti Srivastava, Peeyush Prasad, Anil Kumar, Swati Garg, Shailja Singh, Seema Sehrawat and Bimlesh Lochab, Integrative natural medicine inspired graphene nanovehicle-benzoxazine derivatives as potent therapy for cancer, Mol. Cell. Biochem., 2018, 1-16. (Impact Factor: 3.84)",
-            "Nagarjuna Amarnath, Swapnil Shukla and Bimlesh Lochab, Harvesting the benefits of inherent reactive functionalities in fully bio-sourced isomeric benzoxazines, ACS Sus. Chem. Eng., 2018, 11, 15151-15161. (Impact Factor: 9.22)",
-            "Vijeta Sharma, Nagarjuna Amarnath, Swapnil Shukla, R. Ayana, Naveen Kumar, Nisha Yadav, Deepika Kannan, Seema Sehrawat, Soumya Pati, Bimlesh Lochab and Shailja Singh, Benzoxazine derivatives of phytophenols show anti-plasmodial activity via sodium homeostasis disruption, Bioorg. Med. Chem. Lett., 2018, 28, 1629-1637. (Impact Factor: 2.94)",
-            "Arnab Ghosh#, Swapnil Shukla#, Monisha, Ajit Kumar, Bimlesh Lochab and Sagar Mitra, Sulfur Copolymer: A New Cathode Structure for Room-Temperature Sodium–Sulfur Batteries, ACS Ener. Lett., 2017, 2, 2478-2485. (Impact Factor: 23.99) (#equal contribution)",
-            "Monisha, Swapnil Shukla and Bimlesh Lochab, Nanoparticles as curing and adhesive aid for biobased and petrobased benzoxazines, Green mater., 2017, 5, 94-102. (Impact Factor: 4.07)",
-            "Nisha Yadav, Amrita Dubey, Swapnil Shukla, Chetan Prakash Saini, Govind Gupta, Richa Priyadarshini and Bimlesh Lochab, Graphene Oxide-Coated Surface: Inhibition of Bacterial Biofilm Formation due to Specific Surface–Interface Interactions, ACS Omega, 2017, 2, 3070-",
-            "(Impact Factor: 4.13)",
-            "Swapnil Shukla and Bimlesh Lochab, Role of higher aromatic content in modulating properties of cardanol based benzoxazines, Polymer, 2016, 99, 684-694. (Impact Factor: 4.43)",
-            "Swapnil Shukla, Arnab Ghosh, Prasun Kumar Roy, Sagar Mitra and Bimlesh Lochab, Cardanol benzoxazines-A sustainable linker for elemental sulphur based copolymers via inverse vulcanisation, Polymer, 2016, 99, 349-357. (Impact Factor: 4.43)",
-            "Arnab Ghosh#, Swapnil Shukla#, Gaganpreet Singh Khosla, Bimlesh Lochab and Sagar Mitra, Sustainable Sulfur-rich Copolymer/Graphene Composite as Lithium-Sulfur Battery Cathode with Excellent Electrochemical Performance, Sci. Rep., 2016, 6, 25207. (Impact Factor: 4.6) (#equal contribution)",
-            "Swapnil Shukla, Manorama Tripathi, Arup Mahata, Biswarup Pathak and Bimlesh Lochab, Kinetics behind a New Strategy for Modulation of Sustainable Benzoxazines: Experimental Study and its Theoretical Verification, Macromol. Chem. Phys., 2016, 217, 1342-1353. (Impact Factor:",
-            "99) (Highlighted as the cover page of Macromolecular Chemistry and Physics)",
-            "Swapnil Shukla#, Arnab Ghosh#, Apoorv Shaligram, Uttam Kumar Sen, Prasun Kumar Roy, Sagar Mitra and Bimlesh Lochab, Cardanol benzoxazine-Sulfur Copolymers for Li-S batteries: Symbiosis",
-            "f Sustainability and Performance, ChemistrySelect, 2016, 1, 594-600. (Impact Factor: 2.30) (#equal contribution)",
-            "Swapnil Shukla, Arup Mahata, Biswarup Pathak and Bimlesh Lochab, Cardanol benzoxazines – interplay of oxazine functionality (mono to tetra) and properties, RSC Adv., 2015, 5, 78071–78080. (Impact Factor: 4.03)",
-            "Pratibha Sharma, Swapnil Shukla, Bimlesh Lochab, Devendra Kumar, Prasun Kumar Roy, Microencapsulated cardanol derived benzoxazines for self-healing applications, Mater. Lett., 2014, 133, 266-268. (Impact Factor: 3.57)",
-            "Bimlesh Lochab, Swapnil Shukla and Indra K. Varma, Naturally occurring phenolic sources: Monomers and Polymers, RSC Adv., 2014, 4, 21712-21752. (Impact Factor: 4.03) BOOK CHAPTERS",
-            "Swapnil Shukla, Nisha Yadav, and Bimlesh Lochab, Cardanol based benzoxazines and their applications, Advanced and Emerging Polybenzoxazine Science and Technology, Ishida, H. Ed., Elsevier, Amsterdam (2016).",
-            "Swapnil Shukla and Bimlesh Lochab, Lignin based phenols: Potential feedstock for renewable benzoxazines, Advanced and Emerging Polybenzoxazine Science and Technology, Ishida, H. Ed., Elsevier, Amsterdam (2016). PRESENTATIONS",
-            "Oral Presentation, Swapnil Shukla, Arnab Ghosh, Sagar Mitra and Bimlesh Lochab, Copolymers",
-            "f waste raw materials: Sulphur and Phenols for Lithium Sulphur Battery, MACRO 2017-Advances in Polymer Science and New Generation Technologies”, Thiruvananthpuram, India, Jan, 2017.",
-            "Oral Presentation, Swapnil Shukla and Bimlesh Lochab, Cardanol Benzoxazines: Sustainable",
-            "rigin high performance thermosets with a wide spectrum of applications, 53rd Annual Convention",
-            "f Chemists, GITAM University, India, Dec, 2016.",
-            "Poster Presentation, Swapnil Shukla, Divambal Appavoo Gupta and Bimlesh Lochab, Sustainable benzoxazines-Alternatives to phenolic resins, “Biopolymers and Green Composites” (BPGC - 2016 ), Centre for Biopolymer Science and Technology, India, Sep, 2016.",
-            "Poster Presentation, Swapnil Shukla, Monisha and Bimlesh Lochab, Agro and Industrial waste utilization for generating Li-S battery cathodic materials, “Combating Industrial Pollution For Sustainable Environment – A Fusion Of Industrial and Scientific Efforts” (CIPSE - 2016 ), Gargi College, India, Sep, 2016.",
-            "8. Poster Presentation, Swapnil Shukla and Bimlesh Lochab, Sustainable Nanoconjugates - A therapeutic approach for treatment of Breast Cancer, Current trends in Drug Discoveries Research in India, SNU, India, April, 2015.",
-            "12. Poster Presentation, Swapnil Shukla and Bimlesh Lochab, Environment Friendly Green Polymers, SNU Open House, SNU, India, Nov 2013.",
-            "Oral Presentation, Bimlesh Lochab, Swapnil Shukla, and Indra K. Varma, Cardanol based benzoxazine polymers: Structure property correlation, 246th American Chemical Society Conference (ACS), Indianapolis, USA, Sep 2013.",
-            "The engagement is for the above externally funded Project only, and is not transferable to any other Project.",
-            "The Contract is for the duration of the said project and co-terminus with it, or for a period not exceeding One Year, whichever is earlier. However, the initial engagement will be for a period of six months, extendable from time to time depending upon your performance.",
-            "It is not an appointment in CUG, temporary or otherwise. It is purely a job contract for the period as stipulated in clause 2 above. It does not, therefore, confer any right, claim, implicit or explicit, for your continuation/regularization/absorption in CUG against any post/position.",
-            "The Contract may be terminated at any time without assigning any reason, therefore.",
-            "No traveling allowances will be paid to you either for undertaking the contract, or on termination of the same.",
-            "Your engagement on contract will be subject to the production of the following documents at your expense at the time of your reporting for duty: i. Medical certificate of health and physical fitness for the contract issued by the Medical Superintendent, S.S. Hospital, CUG; and ii. Documentary evidence in support of your date of birth, qualification and caste. Centre for Studies in Science, Technology and Innovation Policy विज्ञान, प्रौद्योविकी और निाचार नीवि अध्ययन कें द्र School of Social Sciences सामाविक विज्ञान संस्थान Central University of Gujarat िुिराि कें द्रीय विश्वविद्यालय Email: csstipcpr@gmail.com",
-            "In case it is detected at any stage that you have committed any fraud or forgery in seeking this contract, your contract shall be immediately dispensed with, without any notice.",
-            "Your contract shall be subject to the terms and conditions that may be framed from time to time as per the requirement of the research work.",
-            "You are required to give an undertaking to the affect that the above-mentioned conditions are acceptable to you and you shall abide by them. Any violation shall attract termination",
-            "f contract without any notice.",
-            "In the event of any dispute arising out this contract, the decision of the Vice- Chancellor, CUG shall be final and binding on you. If you are willing to accept the above offer of contract on the terms and conditions stipulated, you may please commence the work immediately and in any case, within a fortnight from the date of receipt of this letter failing which the offer will automatically stand cancelled. This provisional engagement is subject to approval by the competent authority. Yours faithfully, Dr. Hemant Kumar (Principal Investigator/Coordinator) Ref. No. Ref. No.: Ref. No.: CSSTIP/CPR-DST/2023-24/04 DATED: 11-09-2023 Copy to the following for information and necessary action",
-            "The Head of the Department (CSSTIP, SSS)",
-            "The Director/Dean (SSS)",
-            "The Registrar, CUG",
-            "The Finance Officer, CUG",
-            "The Deputy Registrar (Establishment), CUG Dr. Hemant Kumar (Principal Investigator/Coordinator)"
+            "Nagarjuna Amarnath, Swapnil Shukla and Bimlesh Lochab, Harvesting the benefits of inherent reactive functionalities in fully bio-sourced isomeric benzoxazines, ACS Sus. Chem. Eng., 2018,"
         ],
-        "conference_papers": [
-            "Poster Presentation, Swapnil Shukla, Arnab Ghosh, Sagar Mitra and Bimlesh Lochab, Waste Utilization for new generation cathode materials for Li-S Battery, One day Symposium on Emerging Research Trends in Sciences & Grantsmanship, SNU, India, Apr, 2016.",
-            "Oral Presentation, Swapnil Shukla and Bimlesh Lochab, Inverse vulcanization polymer composites via sustainable route for Li-S battery, 5th International Conference on Advances in Energy Research-2015, IIT-B, India, Dec 2015.",
-            "Poster Presentation, Swapnil Shukla and Bimlesh Lochab, Role of Higher Functionalities in Cardanol based Benzoxazines, RSC Workshop on ‘Chemistry for Tomorrow’s World, India, Dec",
-            "Poster Presentation, Swapnil Shukla, Prasun Kumar Roy and Bimlesh Lochab, Inverse vulcanization of Elemental Sulfur using Cardanol monomer, MACRO 2015-International symposium on polymer science and technology, IACS, India, Jan 2015",
-            "Oral Presentation, Swapnil Shukla and Bimlesh Lochab, Sustainable Benzoxazines: Alternatives to Phenolic Resins, International Conference on Green Initiatives in Science and Technology (GIST-2015) sponsored by the Royal Society of Chemistry (RSC) North India Section and Indian Oil, MRCE, India, Jan 2015.",
-            "Poster Presentation, Swapnil Shukla and Bimlesh Lochab, Bio-based Benzoxazine Polymers, One day Symposium on Emerging Research Trends in Sciences & Grantsmanship, SNU, India, April,",
-            "Poster Presentation, Swapnil Shukla, Kalpesh Shelke, Shameek Ghosh, Bimlesh Lochab, N. Sukumar, and V. K. Jayaraman, Modeling the curing characteristics of monomers, First National Conference on Mapping the \"Material Genome\", SNU, India, March 2013. Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Scanned by CamScanner Centre for Studies in Science, Technology and Innovation Policy विज्ञान, प्रौद्योविकी और निाचार नीवि अध्ययन कें द्र School of Social Sciences सामाविक विज्ञान संस्थान Central University of Gujarat िुिराि कें द्रीय विश्वविद्यालय Email: csstipcpr@gmail.com Ref. No.: CSSTIP/CPR-DST/2023-24/04 To Dr Swapnil Shukla A-301, Shanti Botanica BAS Road Raysan, Gandhinagar, Gujarat-382421 Subject: Engagement of Project Scientist II under the sponsored Project Centre for Policy Research- Department of Science and Technology (CPR-DST), New Delhi funded project (DST/PRC/CPR/Central University of Gujarat (G)) at Centre for Studies in Science, Technology and Innovation Policy, School of Social Sciences on the theme “Developing Indicators to Assess and Develop Equity and Inclusion in Science, Technology and Innovation Sectors in Western India.” Reference: Your Application dated 29-08-2023 Dear Sir/Madam, On the recommendation of the Selection Committee which met on 11-09-2023, you are provisionally engaged on a Job Contract basis, as Project Scientist II on a monthly emoluments of Rs. 67,000 + HRA (27%) = Rs 85,090/- (Rupees Eighty-Five Thousand and Ninety only) per mensum, on the following terms and conditions: -"
-        ],
+        "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],

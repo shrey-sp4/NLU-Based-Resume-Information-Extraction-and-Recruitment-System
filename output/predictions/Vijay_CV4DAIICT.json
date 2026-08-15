@@ -13,37 +13,9 @@
         {
             "degree": "Ph.D",
             "graduation_year": "2018",
-            "cgpa": "7.56/10",
-            "institution": "Indian Institute of Technology",
-            "raw_text": "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India Thesis Advisor: Prof. P. Vellaisamy Thesis Title: Adomian Polynomials and some Fractional Stochastic Processes CPI: 7.56/10 (≡ 75.6%)"
-        },
-        {
-            "degree": "M.Sc",
-            "graduation_year": "2011",
-            "cgpa": "6.36/10",
-            "institution": "Indian Institute of Technology",
-            "raw_text": "July 2011 - May 2013 M.Sc. in Applied Statistics and Informatics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India CPI: 6.36/10 (≡ 63.6%)"
-        },
-        {
-            "degree": "B.Sc",
-            "graduation_year": "2006",
-            "cgpa": "66.74%",
-            "institution": "PPN Degree College",
-            "raw_text": "July 2006 - May 2009 B.Sc. in Statistics and Mathematics | Department of Statistics, PPN Degree College, CSJM University, Kanpur Uttar Pradesh, India Percentage: 66.74%"
-        },
-        {
-            "degree": "",
-            "graduation_year": "2004",
-            "cgpa": "75.80%",
-            "institution": "",
-            "raw_text": "July 2004 - May 2005 Intermediate | UP Board | Science | Percentage: 75.80%"
-        },
-        {
-            "degree": "",
-            "graduation_year": "2002",
-            "cgpa": "75.33%",
-            "institution": "",
-            "raw_text": "July 2002 - May 2003 High school | UP Board | Science | Percentage: 75.33%"
+            "cgpa": "",
+            "institution": "Indian Institute",
+            "raw_text": "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of"
         }
     ],
     "experience": [
@@ -57,30 +29,11 @@
             "job_title": "Research Associate",
             "dates": "July 2023 - Nov 2023",
             "institution": "Indian Institute of Technology",
-            "raw_text": "July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at IITBombay,Igottheopportunitytoteacharangeofcourses,includingIntroductiontoProbabilityand Statistics, Regression Analysis using R, Multivariate Analysis, Applied Stochastic Process, Parametric and Nonparametric Statistics. These courses have allowed me to work with students at different levels"
-        },
-        {
-            "job_title": "TEACHING ASSISTANT",
-            "dates": "2024",
-            "institution": "",
-            "raw_text": "of statistical expertise and have shaped my approach to teaching. Moreover, I am engaged in freelance teaching, where I share my expertise in statistics with bachelors’ and masters’ students. TEACHING AND TEACHING ASSISTANTSHIP FOR STATISTICS COURSES Spring 2024 Fundamentals of Biostatistics using IBM SPSS (UPES Dehradun) Spring 2024 Biostatistical Methods in Clinical Research using IBM SPSS (UPES Dehradun) Spring 2021 SI 534 Nonparametric statistics (Teaching Assistant, IIT Bombay) Autumn 2021 SI 505 Multivariate analysis (Teaching Assistant, IIT Bombay) Spring 2020 SI 422 Regression Analysis (Teaching Assistant, IIT Bombay) Autumn 2020 SI 417 Introduction to Probability Theory (Teaching Assistant, IIT Bombay) Spring 2019 SI 404 Applied Stochastic Process (Teaching Assistant, IIT Bombay)"
+            "raw_text": "July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at"
         }
     ],
     "research_interests": [
-        "Statistics, Probability, Stochastic process, Data Science, Distribution theory. PUBLISHED PAPERS",
-        "KKKataria, PVellaisamy, VKumar. A probabilistic interpretation of the Bell polynomials(2022). Stochastic Analysis and Applications, Taylor & Francis, 40(4), 610-622.",
-        "P Vellaisamy, V Kumar. Probabilistic interpretations of nonclassic Adomian polynomials (2022). Stochastic Analysis and Applications, Taylor & Francis, 40(5), 931-950.",
-        "M Arshad, M Khetan, V Kumar, AK Pathak. Record-based transmuted generalized linear expo- nential distribution with increasing, decreasing and bathtub shaped failure rates (2022). Commu- nications in Statistics-Simulation and Computation, Taylor & Francis.",
-        "C Chesneau, V Kumar, M Khetan, M Arshad. On a Modified Weighted Exponential Distribution with Applications (2022). Mathematical and Computational Applications, 27(1), 17.",
-        "V Kumar, P Vellaisamy. Three different derivations of the Poisson process (2018). Mathematics Newsletter, 29(1), 24-28. SUBMITTED PAPERS",
-        "V Kumar, A Chakraborty, M Arshad, A Tiwari. A new Nadarajah-Haghighi distribution with applications (2024). (under review).",
-        "M Khandakar, V Kumar, P Vellaisamy. Extension of fractional Poisson process, birth process and death process (2024). (under review).",
-        "M Arshad, KR Meena, V Kumar, M Khetan. E-Bayesian estimation and its E-posterior risk for the exponentiated family of distributions based on generalized order statistics (2024). (under review). CHAPTERS IN EDITED BOOKS Book: Distribution Theory: Principles and Applications. ISBN: 9781774912140, (Edited Book) Apple Academic Press, co-publishing with CRC Press, Taylor & Francis. Editors: Fozia Homa, Mukti Khetan, Mohd. Arshad, Pradeep Mishra.",
-        "Random Variables and Their Properties (2023). Vijay Kumar, Mukti Khetan, Mohd. Arshad, and Shweta Dixit.",
-        "Discrete Distributions (2023). Mukti Khetan, Vijay Kumar, Mohd. Arshad, and Prashant Verma.",
-        "Family of Weibull Distributions (2023). Mohd. Arshad, Vijay Kumar, Mukti Khetan, and Fozia Homa.",
-        "Descriptive Statistics: Principles and Applications (2023). Fozia Homa, Mohd. Arshad, Vijay Kumar, Shubham Thakur, and Pradeep Mishra.",
-        "Life Distributions (2023). Mohd Arshad, Mukti Khetan, Vijay Kumar, and Fozia Homa."
+        "Statistics, Probability, Stochastic process, Data Science, Distribution theory."
     ],
     "skills": [
         "Computer Languages R, IBM SPSS, MATLAB, Mathematica, Python (Basic Level) Software & Tools LaTeX, MS Oﬀice, Excel"
@@ -133,7 +86,5 @@
         "Completed certification course “Introduction to Data Analytics”, IIT Madras through NPTEL.",
         "Completed certification course “Introduction to Software R”, IIT Kanpur through NPTEL 2012 - 2013 Leaded the Registration team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay. 2012 - 2013 Member, Design and Logistic team of 32th Mathematics Olympiad 2013, Department of Mathematics, Indian Institute of Technology, Bombay."
     ],
-    "references": [
-        "Prof. P. Vellaisamy Prof. Siuli Mukhopadhyay Department of Mathematics Department of Mathematics Indian Institute of Technology, Bombay Indian Institute of Technology, Bombay Mumbai, Maharashtra - 400076 Mumbai, Maharashtra - 400076 Email: pv@math.iitb.ac.in Email: siuli@math.iitb.ac.in Prof. Mohd. Arshad Department of Mathematics Indian Institute of Technology, Indore Simrol, Khandwa Road, Indore 453552 Email: arshad@iiti.ac.in"
-    ]
+    "references": []
 }

@@ -6,62 +6,18 @@
         "phones": [
             "7732899577",
             "9033342022",
-            "7843712023",
             "6133402017"
         ],
         "address": ""
     },
     "summary": [],
-    "education": [
-        {
-            "degree": "",
-            "graduation_year": "2021",
-            "cgpa": "",
-            "institution": "Quantum Thermodynamics IIT",
-            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics Postdoc. Mumbai, India to Soft Condensed Matter 7th May,2021 BITS-Pilani, 2014 Theoretical Physics"
-        },
-        {
-            "degree": "Ph.D",
-            "graduation_year": "2020",
-            "cgpa": "",
-            "institution": "Sambalpur University",
-            "raw_text": "Ph.D. Department of Physics, to Soft Condensed Matter Pilani, India 2020 Sambalpur University, 2013 Physics"
-        },
-        {
-            "degree": "M.Sc",
-            "graduation_year": "",
-            "cgpa": "71%",
-            "institution": "",
-            "raw_text": "M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "Vidyasagar University",
-            "raw_text": "Odisha, India 1st class Vidyasagar University, Physics (Hons.)"
-        },
-        {
-            "degree": "B.Sc",
-            "graduation_year": "2010",
-            "cgpa": "52 %",
-            "institution": "",
-            "raw_text": "B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal, India 52 % (2nd class) Bengali, English (compulsory) H.S. W.B.C.H.S.E. 2006 Pure Science, (12th) West Bengal, India 60 % (1st class) Bengali, English (compulsory)"
-        },
-        {
-            "degree": "10th",
-            "graduation_year": "2004",
-            "cgpa": "71 %",
-            "institution": "",
-            "raw_text": "10th W.B.B.S.E. 2004 Bengali-I,Bengali-II, English, West Bengal, India 71 % (1st class) Math, PSC, LSC, History, Geo List of Publications/Preprints: Webpage: Google Scholar Not listing the papers in preparation. All papers are not available in arXiv."
-        }
-    ],
+    "education": [],
     "experience": [
         {
             "job_title": "",
             "dates": "",
             "institution": "Harish-Chandra Research Institute",
-            "raw_text": "Address: Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group, Allahabad 211 019, India Telephone (Mobile): 0091 7732899577 / Office : 0532 227 4421 Email: arghyamaity@hri.res.in / arghyamaityphysics@gmail.com Gender: Male Marital Status: Married Language: Bengali, Hindi, English"
+            "raw_text": "Address: Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group,"
         },
         {
             "job_title": "Research Associate",
@@ -122,14 +78,7 @@
         "My areas of interest have expanded over time. I started my research journey with Statistical Thermodynamics, Soft Condensed Matter, Molecular Dynamics (MD), and then I moved toward Quantum Thermodynamics, Open Quantum systems, and Quantum Information Theory. Listed below are a few sub-areas in which I have spent my time till now:",
         "Quantum Thermodynamics.",
         "Open Quantum System : Markovian & non-Markovian Dynamics, Collision models",
-        "Quantum Thermal Devices : Quantum Engine, Quantum Refrigerator, Quantum Battery, Quantum Transistor",
-        "Resource Theory : Catalytic Resource theory.",
-        "Different Quantum and Classical Correlations with Decoherence.",
-        "Quantum Metrology : Quantum Thermometry.",
-        "Quantum Jarzynski Equality in Open Quantum Systems.",
-        "Quantum Biology : Quantum Coherence and Entanglement in the Avian Compass: Avian Magnetoreception through ”radical pair” Model, Biological Heat Engines.",
-        "Simulation : Molecular Dynamics (Simulation).",
-        "Soft Condensed Matter : Thermodynamics of bio-molecules. 5"
+        "Quantum Thermal Devices : Quantum Engine, Quantum Refrigerator, Quantum Battery,"
     ],
     "skills": [
         "Programming Languages: Efficient in C, C++ and Python",
@@ -142,15 +91,7 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "Arghya Maity, Ahana Ghoshal; \"Using non-Markovian dynamics in effective negative temperature based transient quantum Otto engines\", Physical Review A 109, 022207 (2024), (Editors’ Suggestion), Link",
-            "A. Patra, Arghya Maity, Aditi Sen De; \"Resource Theory of Non-absolute Separability\", Physical Review A 108, 042402 (2023), Link",
-            "R. Gupta, Arghya Maity, S. Mal, Aditi Sen De ;\"Statistics of Entanglement Transformation with Hierarchies among Catalysts\", Physical Review A 106, 052402 (2022), Link",
-            "Arghya Maity, N. Mathur, Petra Imhof, Navin Singh ; \"Structural Analysis of DNA molecule in a confined shell\", Physica A: Statistical Mechanics and its Applications 609(128382), 0378-4371 (2023) Link",
-            "Arghya Maity, Navin Singh, \"Melting of DNA in confined geometries\", European Bio- physics Journal, 49 (7) 561-569 (2020) , Link",
-            "Arghya Maity, A. Singh, Navin Singh, \"Stability of DNA passing through different geometrical pores\", EPL(Europhysics Letters), 127 (2) 28001 (2019) , Link",
-            "Arghya Maity, A Singh, Navin Singh, \"Differential stability of DNA based on salt concentration\", European Biophysics Journal; 46 (1) 33-40 (2017) , Link",
-            "Arghya Maity, A Singh, Navin Singh, \"DNA denaturation in ionic solution\", American Institute of Physics (AIP) Conference Proceedings; 1728, 020415 (2016), Link Review Article:",
-            "A. Singh, Arghya Maity, N. Singh ; \"Review: Structure and dynamics of dsDNA in cell mimicking environments”, Entropy, 24(11),1587 (2022) Link Book Chapters:",
+            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\",",
             "Young Quantum - 2023 (YouQu-2023), organized by the Quantum Information and Compu- tation group(QIP) of Harish-Chandra Research Institute (HRI), Prayagraj (Allahabad), 15-18 Feb, 2023. Presented a talk on “Resource Theory of Non-absolute Separability” (in person).",
             "Puri Polymer Conference 2018, organized by the Institute of Physics, Bhubaneswar, 12-14 Dec, 2018. Presented a talk on “Stability of DNA within the matrix of different geometric confinement” (in person)."
         ],
@@ -160,15 +101,9 @@
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
-        "books": [
-            "N. Mathur, Arghya Maity, N. Singh, Booktitle : ”Advances in Computational Modeling and Simulation”, Publisher : ”Springer Nature Singapore”, Chapter Title : ”DNA Molecule Confined in a Cylindrical Shell: Effect of Partial Confinement”, isbn=”978-981-16-7857-8” (2022), Link 3"
-        ],
+        "books": [],
         "technical_reports": [],
-        "preprints": [
-            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\", arXiv:2404.00584 (2024), Link",
-            "Arghya Maity, Aditi Sen De; \"Enhanced efficiency in quantum Otto engine via additional magnetic field and effective negative temperature\", arXiv:2304.10420 (2023), Link",
-            "T. K. Konar, Arghya Maity, Aditi Sen De; \"Classical correlations for Generic States are Fragile under Decoherence\", arXiv:2209.03334 (2022), Link"
-        ]
+        "preprints": []
     },
     "certifications": [],
     "awards": [
@@ -191,8 +126,6 @@
     ],
     "responsibilities": [],
     "references": [
-        "1. Prof. Navin Singh Professor BITS-Pilani, Pilani Campus, Pilani Rajasthan-333031, India Phone: 01596 5255257, 01596 525270 (Office) Email: navin@pilani.bits-pilani.ac.in",
-        "Prof. Aditi Sen De Professor H, Physics Quantum Information and Computation (QIC) Group Prayagraj(Allahabad)-211019, India Email: aditi@hri.res.in Home: https://sites.google.com/view/aditisende",
-        "Prof. Ujjwal Sen Professor H, Physics Quantum Information and Computation (QIC) Group Prayagraj(Allahabad)-211019, India Email: ujjwal@hri.res.in Home: https://www.hri.res.in/ ujjwal/"
+        "1. Prof. Navin Singh"
     ]
 }

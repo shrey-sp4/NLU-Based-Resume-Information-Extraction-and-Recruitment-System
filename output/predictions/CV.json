@@ -1,69 +1,33 @@
 {
     "personal_details": {
-        "name": "Master’s Thesis: “Study of Binary Gravitational",
+        "name": "Subjects Taught Probability and Statistics",
         "email": "sampurna2492@gmail.com",
         "phone": "9540734746",
         "phones": [
-            "9540734746",
-            "9101900465"
+            "9540734746"
         ],
         "address": ""
     },
     "summary": [],
     "education": [
         {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "Srivilliputhur, Tamil Nadu Designation: Assistant Professor, Full Time Subjects Taught: Numerical Methods, Differential Equations."
-        },
-        {
             "degree": "Ph.D",
             "graduation_year": "2016-2020",
             "cgpa": "",
-            "institution": "Mathematics Indian Institute of Engineering Science and Technology",
-            "raw_text": "2016-2020 Ph.D. in Mathematics Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India"
+            "institution": "Mathematics Indian Institute of Engineering Science",
+            "raw_text": "2016-2020 Ph.D. in Mathematics Indian Institute of Engineering Science and"
         }
     ],
-    "experience": [
-        {
-            "job_title": "",
-            "dates": "",
-            "institution": "",
-            "raw_text": "Hindi Bengali January Department of Mathematics"
-        },
-        {
-            "job_title": "Assistant Professor",
-            "dates": "2023",
-            "institution": "Bharati Vidyapeeth Deemed University",
-            "raw_text": "2023 - Bharati Vidyapeeth Deemed University Programming Languages Present Department of Engineering and Technology MATLAB Navi Mumbai, Mumbai Python Designation: Assistant Professor, Full Time Subjects Taught: Probability and Statistics, Linear Algebra."
-        },
-        {
-            "job_title": "",
-            "dates": "2021",
-            "institution": "",
-            "raw_text": "July 2021 - Department of Mathematics"
-        },
-        {
-            "job_title": "",
-            "dates": "2021",
-            "institution": "Kalasalingam Academy of Research and Grade A",
-            "raw_text": "December 2021 Kalasalingam Academy of Research and Grade A+"
-        }
-    ],
-    "research_interests": [
-        "Thesis: ”Impact of Environmental Variability on Multi-Species Ecological Systems with Type-III Functional Response” (Thesis defended successfully on 10th February",
-        "Supervisor: Prof. Pritha Das Co-Supervisor: Dr. Debasis Mukherjee 2013-2015 Master of Science in Applied Mathematics South Asian University, New Delhi, India"
-    ],
+    "experience": [],
+    "research_interests": [],
     "skills": [
-        "SAMPURNA SENGUPTA Languages English"
+        "SAMPURNA SENGUPTA Languages"
     ],
     "projects": [],
     "publications": {
         "journal_articles": [],
         "conference_papers": [
-            "October 2021 DYNAMICAL BEHAVIOR OF CANADA LYNX AND SNOWSHOE HARE POPULATION IN FLUCTUATING ENVIRONMENT Journal of Innovation Sciences and Sustainable Technologies, Sampurna Sengupta Volume 1, Issue 4, Page 273-296 July 2020 SUSTAINABILITY OF ORANGE ROUGHY December 2018 INTERNATIONAL CONFERENCE ON MATHEMATICAL MODELLING AND COMPUTATIONS(ICMMC-2018) Oral Paper Presentation: SUSTAINABILITY OF O RANGE ROUGHY POPULATION Organized by Department of Mathematics, South Asian University New Delhi, India (Under the Aegis of IAMMS, IIT Kanpur)"
+            "October 2021 DYNAMICAL BEHAVIOR OF CANADA LYNX AND December 2018 INTERNATIONAL CONFERENCE ON"
         ],
         "conference_proceedings": [],
         "communications": [],
@@ -73,16 +37,12 @@
         "preprints": []
     },
     "certifications": [
-        "May 2023 - IBM DATA SCIENCE PROFESSIONAL November 2023 CERTIFICATE Data Science, Python, Machine Learning, SQL",
-        "08.2021 - REFRESHER COURSE IN MATHEMATICS",
-        "09.2021 Organised by the Department of Mathematics, R amanujan College, University of Delhi, Delhi Under the aegis of the Ministry of Education, Government of India, Pandit Madan Mohan Malaviya National Mission on Teachers and July 2020 EXPLOSIVE TRITROPHIC FOOD CHAIN MODELS WITH INTERFERENCE: A COMPARATIVE STUDY Guest Lecture organized by Department of Mathematics, ICFAI Science School, ICFAI University, Tripura November 2017 RECENT ADVANCES IN MODELLING AND COMPUTATIONAL TECHNIQUES IN APPLIED MATHEMATICS Organized by Department of Mathematics, Indian Institute of Engineering Science and Technology, Shibpur, WestBengal, India June 2017 INTERNATIONAL CONFERENCE ON RECENT ADVANCES IN PDE : THEORY, COMPUTATIONS AND APPLICATIONS Organized by Department of Mathematics, Indian Institute of Technology, Bombay, Mumbai, India February 2017 SCIENCE ACADEMIES’ LECTURE WORKSHOP ON HYPERBOLIC PARTIAL DIFFERENTIAL EQUATION AND CONSERVATION LAWS Organized jointly by Department of Basic Sciences and Social Sciences and Department of Mathematics, North-Eastern Hill University, Shillong, Meghalaya, India June 2014 POSTGRADUATE LEVEL TRAINING PROGRAMME ON NATIONAL PROGRAM ON DIFFERENTIAL EQUATIONS : THEORY, COMPUTATION AND APPLICATIONS Organized jointly by Department of Mathematics, Indian Institute of Technology, Bombay, Mumbai, India and Indian Institute of Technology, Guwahati, Assam, India, Sponsored by Department of Science and Technology, Government of India"
+        "May 2023 - IBM DATA SCIENCE PROFESSIONAL November 2023 CERTIFICATE July 2020 EXPLOSIVE TRITROPHIC FOOD CHAIN MODELS WITH"
     ],
     "awards": [],
     "achievements": [],
     "memberships": [],
     "societies": [],
-    "responsibilities": [
-        "Manuscripts Reviewed For Journals:  Stochastic Analysis and Applications (Taylor & Francis), Discrete and Continuous Dynamical Systems Series S (AIMS) ADDITIONAL ACTIVITIES World Teachers Day Quiz 2021 Organized by PG and Research Department of Commerce,  Vivekananda College of Arts and Sciences for Women (Autonomous) Score 80%"
-    ],
+    "responsibilities": [],
     "references": []
 }

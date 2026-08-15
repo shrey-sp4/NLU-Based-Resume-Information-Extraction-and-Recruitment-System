@@ -81,57 +81,82 @@ def normalize_phone_for_compare(p):
     return digits
 
 
+# ---------- 2. REDESIGNED PERSONAL DETAILS EXTRACTION ----------
+JOB_TITLE_WORDS = re.compile(
+    r"\b(?:Professor|Scientist|Scholar|Engineer|Manager|Director|Postdoctoral|Lecturer|Researcher|Fellow|Experienced|Graduate|Student|Assistant|Associate|Executive|Consultant|Developer|Analyst|Lead|Head|Officer|Member)\b",
+    re.IGNORECASE
+)
+
+ADDRESS_WORDS = re.compile(
+    r"\b(?:Road|Street|Avenue|Boulevard|Lane|Drive|Kolkata|Hyderabad|Delhi|Mumbai|Chennai|Bangalore|Gujarat|India|Campus|Building|Floor|Suite|Block|Sector|Apartment|Society|Pincode|School)\b",
+    re.IGNORECASE
+)
+
+PREAMBLE_HEADER_NOISE = re.compile(
+    r"\b(?:curricu?lam|curriculum|vitae|resume|biodata|profile|page\s+\d+|page|recognized|top\s+\d+%|stanford|elsevier|webpage|google scholar|looking for|achievements|opportunities|qualified|gold medalist)\b",
+    re.IGNORECASE
+)
+
 def extract_personal_details(sections):
     preamble = get_section_text(sections, "preamble")
     details = get_section_text(sections, "personal_details")
     summary = get_section_text(sections, "summary")
+    other = get_section_text(sections, "other_sections")
     
-    text_blocks = [b for b in [preamble, details, summary] if b]
+    text_blocks = [b for b in [preamble, details, summary, other] if b]
     text = "\n".join(text_blocks).strip()
-    
     full_doc_text = "\n".join(str(v) for v in sections.values() if isinstance(v, str))
 
-    emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", text)
-    if not emails:
-        emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", full_doc_text)
+    search_text = text if (text and len(text) > 20) else full_doc_text
+
+    emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", search_text)
     email = emails[0].strip() if emails else ""
 
-    phones = extract_all_phones(text)
-    if not phones:
-        phones = extract_all_phones(full_doc_text)
+    phones = extract_all_phones(search_text)
     phone = phones[0] if phones else ""
 
+    raw_lines = [l.strip() for l in search_text.splitlines() if len(l.strip()) > 1]
     name = ""
-    search_text = text if (text and len(text) > 20) else full_doc_text
-    lines = [line.strip() for line in search_text.splitlines() if len(line.strip()) > 2]
-    
-    NOISE_PATTERNS = re.compile(
-        r"\b(?:curricu?lam|curriculum|vitae|resume|biodata|profile|page\s+\d+|page|recognized|top\s+\d+%|scientist|stanford|elsevier|webpage|google scholar|looking for|achievements|opportunities|qualified|gold medalist)\b",
-        re.IGNORECASE
-    )
 
-    for line in lines:
-        if "@" in line:
-            continue
-        if NOISE_PATTERNS.search(line):
-            continue
+    # 1. First check if top 2 lines are single-word parts of a name (e.g. "Doyel" \n "Mukherjee")
+    if len(raw_lines) >= 2:
+        l1, l2 = raw_lines[0], raw_lines[1]
+        if (len(l1.split()) == 1 and len(l2.split()) == 1 and 
+            re.match(r"^[A-Z][a-z]+$", l1) and re.match(r"^[A-Z][a-z]+$", l2)):
+            name = f"{l1} {l2}"
 
-        clean_line = re.sub(r"^(?:name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
-        clean_line = clean_line.strip(":-–—|•●■□*➢ ")
-        
-        clean_line = re.split(r"\b(?:Address|Email|E-mail|Phone|Mobile|Contact|Location|Webpage|CV page|Page)\b", clean_line, flags=re.IGNORECASE)[0].strip()
-        clean_line = re.split(r"\d", clean_line)[0].strip()
-        clean_line = re.sub(r"[^\w\s\.\-']", "", clean_line).strip()
-        
-        boundary_match = re.search(r"([a-z])([A-Z])", clean_line)
-        if boundary_match:
-            clean_line = clean_line[:boundary_match.start(1)+1].strip()
+    # 2. Check candidate lines from top of document
+    if not name:
+        for raw_l in raw_lines[:12]:
+            if "@" in raw_l or "http" in raw_l or "www." in raw_l:
+                continue
+            if PREAMBLE_HEADER_NOISE.search(raw_l):
+                continue
+            
+            sub_lines = re.split(r"\s{3,}", raw_l)
+            for line in sub_lines:
+                line = line.strip()
+                if not line or "@" in line or "http" in line:
+                    continue
+                if PREAMBLE_HEADER_NOISE.search(line):
+                    continue
+                if JOB_TITLE_WORDS.search(line):
+                    continue
+                if ADDRESS_WORDS.search(line):
+                    continue
 
-        clean_line = clean_line.strip(":-–—|•●■□*➢ ")
-        words = clean_line.split()
-        if 2 <= len(words) <= 5 and re.match(r"^[A-Za-z\.\s\-']+$", clean_line):
-            name = clean_line
-            break
+                clean_line = re.sub(r"^(?:name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
+                clean_line = clean_line.strip(":-–—|•●■□*➢+ ")
+                clean_line = re.split(r"\b(?:Address|Email|E-mail|Phone|Mobile|Contact|Location|Webpage|CV page|Page)\b", clean_line, flags=re.IGNORECASE)[0].strip()
+                clean_line = re.split(r"\d", clean_line)[0].strip()
+                clean_line = re.sub(r"[^\w\s\.\-']", "", clean_line).strip()
+
+                words = clean_line.split()
+                if 2 <= len(words) <= 5 and re.match(r"^[A-Za-z\.\s\-']+$", clean_line):
+                    name = clean_line
+                    break
+            if name:
+                break
 
     return {"name": name, "email": email, "phone": phone, "phones": phones, "address": ""}
 
@@ -141,7 +166,7 @@ def split_into_list(text):
     return [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
 
 
-# ---------- 2. ENTRY-LEVEL SPLITTING & SUB-FIELD EXTRACTION ----------
+# ---------- 3. ENTRY-LEVEL SPLITTING & SUB-FIELD EXTRACTION ----------
 DATE_LINE_START_REGEX = re.compile(
     r"^\s*(?:"
     r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|July|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}"
@@ -160,10 +185,6 @@ DEGREE_LINE_START_REGEX = re.compile(
 )
 
 def split_section_into_entries(text: str, is_education: bool = False) -> list[str]:
-    """
-    Splits section text into discrete entry blocks based on date ranges, bullets,
-    degree patterns, or newlines. Handles dense CVs without blank line separators.
-    """
     if not text:
         return []
     lines = [l.strip() for l in text.splitlines() if l.strip()]
@@ -253,7 +274,6 @@ def extract_institution(line):
     return ""
 
 def extract_education_entries(section_text, split_fn=None):
-    """Replaces raw blob-per-entry with parsed sub-fields per entry block."""
     entries = []
     blocks = split_section_into_entries(section_text, is_education=True)
     for entry_text in blocks:
@@ -272,7 +292,7 @@ def extract_education_entries(section_text, split_fn=None):
     return entries
 
 
-# ---------- 3. ENTRY-LEVEL EXPERIENCE SUB-FIELD EXTRACTION ----------
+# ---------- 4. ENTRY-LEVEL EXPERIENCE SUB-FIELD EXTRACTION ----------
 TITLE_PATTERNS = [
     r"Assistant Professor", r"Associate Professor", r"Professor",
     r"Visiting Assistant Professor", r"Post-?doctoral Fellow",
@@ -306,7 +326,6 @@ def extract_experience_entries(section_text, split_fn=None):
     return entries
 
 
-# Ordered keyword rules for classifying a publication citation
 PUBLICATION_TYPE_RULES = [
     ("preprints", [r"\barxiv\b", r"\bpreprint\b", r"\bbiorxiv\b", r"\bssrn\b"]),
     ("technical_reports", [r"\btech(?:nical)?\.?\s*report\b", r"\bwhite\s*paper\b", r"\btr[-\s]?\d{2,}\b"]),

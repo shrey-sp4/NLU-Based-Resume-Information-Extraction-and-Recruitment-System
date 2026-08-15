@@ -1,6 +1,6 @@
 {
     "personal_details": {
-        "name": "Priya Ranjan Sahoo, Ph.D.",
+        "name": "Priya Ranjan Sahoo Ph.D.",
         "email": "prsahoo.chem@gmail.com",
         "phone": "7167481586",
         "phones": [
@@ -15,29 +15,15 @@
             "graduation_year": "2018",
             "cgpa": "",
             "institution": "University of Delhi Delhi",
-            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A"
-        },
-        {
-            "degree": "M.Sc",
-            "graduation_year": "2013",
-            "cgpa": "",
-            "institution": "University of Delhi Delhi",
-            "raw_text": "M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class"
-        },
-        {
-            "degree": "B.Sc",
-            "graduation_year": "2011",
-            "cgpa": "",
-            "institution": "Utkal University",
-            "raw_text": "B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
+            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018"
         }
     ],
     "experience": [
         {
-            "job_title": "Postdoctoral Fellow",
+            "job_title": "",
             "dates": "Dec. 2021-Present",
-            "institution": "Tohoku University",
-            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
+            "institution": "",
+            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present"
         }
     ],
     "research_interests": [],
@@ -45,84 +31,29 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "(Total Number of Citations: 590, h-index: 15) From Postdoctoral Research:",
-            "Sahoo P.R., Turowski S., Spernyak J., Morrow J. Self-assembled Iron (III) Coordination Cage as an MRI- Active Carrier for a Gold(I) Drug. Bioconjug. Chem. (Under review) (2024).",
-            "Sahoo P.R., Siriwardana B., Velarde L., Morrow J. Tetrahedral Cages for Formation of Gold(I) Drugs and Protection Against Serum Protein Binding. Inorg. Chem. (Submitted) (2024).",
-            "Matsui Y., Kowada T., Ding Y., Sahoo P.R., Kikuchi K., Mizukami S. Long-term Imaging of Intranuclear Mg2+ Dynamics during Mitosis Using a Localized Fluorescent Probe. Chem. Commun. 7048-7051, 59, (2023).",
-            "Morrow J., Raymond J.J., Chowdhury M.S.I., Sahoo P.R. Redox-Responsive MRI Probes Based on First-Row Transition-Metal Complexes. Inorg. Chem. 61, 37, 14487–14499 (2022).",
-            "Prieux-Klotz C., Chedotal H., Zoumpoulaki M., Chouzenoux S., Chêne C., Lopez-Sanchez A., Thomas M., Sahoo P.R., Policar C., Batteux F., Bertrand H. C., Nicco C., Coriat R. A New Manganese Superoxide Dismutase Mimetic Improves Oxaliplatin-Induced Neuropathy and Global Tolerance in Mice. Int. J. Mol. Sci. 23 (21), 12938, (2022). From Doctoral Research:",
-            "Sahoo P.R., Sairam K., Kumar R., Rana K.P., Kumar S. Synthesis and experimental investigations of a photoactive naphthopyran for sensing nanomolar concentration of ammonia. J. Photochem. Photobiol. A: Chem. 115749, (2024).",
-            "Sahoo P.R., Kumar N., Sairam K., Gulati L.K., Gulati G.K., Datta A., Kumar S. Tuning fork shaped bisbenzothiazole derivative as a pH responsive digital fluorescent probe and its ex-vivo haemolysis analysis. Anal. Methods. 15, 6722-6726 (2023).",
-            "Nikam A., Sahoo P.R., Musale S., Pagar R., Paiva-Santos A., Giram P. S. A Systematic Overview of Eudragit® Based Copolymer for Smart Healthcare. Pharmaceutics. 15(2), 587, (2023).",
-            "Kumar, A.; Sahoo, P.R.; Kathuria, I.; Prakash, K.; Kumar, S. Oxazine as an efficient precursor for the development of photochromic spiropyrans. J. Photochem. Photobiol. A: Chem. 438, 114541, (2023).",
-            "Sahoo, P.R.; Kathuria, I.; Kumar, S. Structural arrangement of ligand-metal complex with centered zinc and nickel atoms and their optical features. J. Mol. Struct., 1262, (2022).",
-            "Kumar, A.; Sahoo, P.R.; Prakash, K.; Arya, Y.; Kumar, S. Light controlled dimerization of spiropyran as a tool to achieve dual responsive capture and release system in aqueous media. J. Electroanal. Chem., 903, 115845, (2021).",
-            "Kumar, A; Kumar, A; Sahoo, P. R; Kumar, S. A MC-spiropyran for smartphone assisted reversible, selective and nanomolar level detection of formic acid in water and gas phase. J. Mol. Struct., 1223, (2021). 2 Priya Ranjan Sahoo Curriculum Vitae",
-            "Kumar, A; Sardhalia, V; Sahoo, P. R; Kumar, S. Structure analysis and evaluation of two probes for the colorimetric detection of Hg2+ and turn-on fluorescence-based detection of Cd2+ ions in an aqueous solution. J. Mol. Struct. (2021).",
-            "Sahoo, P. R., Kumar, A; Kumar, A; Kumar, S. Experimental and computational investigation of polymorphism in methyl 3-hydroxy-4-(piperidin-1-ylmethyl)-2-naphthoate. J. Mol. Struct. 1219, (2020).",
-            "Kumar, A; Kumar, A; Sahoo, P. R; Kumar, S. A light controlled, reversible, sensitive and highly selective colorimetric sensor for mercuric ions in water. J. Mol. Struct., 1206, (2020).",
-            "Sahoo, P. R., Kumar, A; Chaudhary, S; Hitaish, Chikkara, R; Malik, K; Sonam; Seth, C; Duggal, G; Kumar, S. Tweezers shaped hydrazone derivatives for the selective detection of cyanide ion. J. Incl. Phenom. Macrocycl. Chem., (2020).",
-            "Sahoo, P. R., Kumar, A; Kumar, A; Kumar, S. Synthesis and optical properties of Copper (II) and Nickel (II) complexes of a highly fluorescent morpholine-derivative. Polyhedron, 171, 559-570, (2019).",
-            "Kumar, A; Sahoo, P. R, Arora, P; Kumar, S. A light controlled, sensitive, selective and portable spiropyran based receptor for mercury ions in aqueous solution. J. Photochem. Photobiol. A: Chem. 384, 112061, (2019).",
-            "Kumar, A; Kumar, A; Sahoo, P. R; Kumar, S. Colorimetric and fluorescence-based detection of mercuric ion using a benzothiazolinic spiropyran. Chemosensor, 7, 35, 1-19 (2019).",
-            "Arora, H; Sahoo, P. R.; Kumar, A; Kumar, R; Kumar, S. The direct synthesis of a substituted napthopentathiepin as selective Co2+ ion recognition in aqueous solution. J. Incl. Phenom. Macrocycl. Chem., 1-11, (2019).",
-            "Sahoo, P.R.; Prakash, K.; Kumar, S. Light controlled receptors for heavy metal ions. Coord. Chem. Rev. 357, 18-49, (2018).",
-            "Sahoo, P.R.; Kumar, S. The experimental and theoretical studies of a merocyanine form based turn off fluorescent sensor for Fe3+ ions with nanomolar level sensitivity in aqueous solution. J. Luminiscence, 201, 203-210, (2018).",
-            "Sahoo, P.R.; Prakash, K.; Kumar Ajeet, Kumar, S. Efficient reversible optical sensing of water achieved through the conversion of H-aggregates of a merocyanine salt to J-aggregates. Chemistry Select, 2, 5924- 5932, (2017).",
-            "Sahoo, P.R.; Prakash, K.; Kumar, S. Experimental and theoretical investigations of cyanide detection using a photochromic naphthopyran. Supramol. Chem., 29, 183-192, (2017).",
-            "Prakash, K.; Sahoo, P.R.; Kumar, S. A fast, highly selective and sensitive anion probe stemmed from anthracene-oxazine conjugation with CN- induced FRET. Dyes Pigm., 143, 393-400, (2017).",
-            "Kumar, A.; Prakash, K.; Sahoo, P.R.; Kumar, S. Visible light controlled aggregation of a spiropyran-HSO - 4 complex as a strategy for reversible detection in water. Chemistry Select, 2, 8247-8252, (2017). 3 Priya Ranjan Sahoo Curriculum Vitae",
-            "Sahoo, P.R.; Prakash, K.; Kumar, S. Synthesis of an Oxadiazole through an indole mediated single step procedure for selective optical recognition of Cu2+ ions. Sens. Actuator B-Chem., 242, 299-304, (2017).",
-            "Sahoo, P.R.; Kumar, S. Synthesis of an optically switchable salicylaldimine substituted naphthopyran for selective and reversible Cu2+ recognition in aqueous solution. RSC Adv., 6, 20145-20154, (2016).",
-            "Sahoo, P.R.; Kumar, S. Photochromic spirooxazine as highly sensitive and selective probe for optical detection of Fe3+ in aqueous solution. Sens. Actuator B-Chem., 226, 548-552, (2016).",
-            "Sahoo, P.R.; Mishra, P.; Agarwal, P.; Gupta, N.; Kumar, S. Synthesis of tweezer type receptors for colorimetric detection of cyanide ions. J. Incl. Phenom. Macrocycl. Chem., 84, 163-171, (2016).",
-            "Prakash, K.; Sahoo, P.R.; Kumar, S. A substituted spiropyran for highly sensitive and selective colorimetric detection of cyanide ions. Sens. Actuator B-Chem., 237, 856-864, (2016).",
-            "Sahoo, P.R.; Prakash, K.; Mishra, P.; Agarwal, P.; Gupta, N.; Kumar, S. Synthesis, X-ray, 1H-NMR and DFT analysis of the phthalimide-hydrazone probes as selective anion sensor. Supramol. Chem., 29, 417-429, (2016).",
-            "Kumar, S; Mathew, K.M.; Neelam; Sahoo, P. R.; Kumar, A. Influence of hydrogen bonding on the conformational stability of calix [4] crown-4-ether. Indian J. Chem. A, 54, 52-57, (2015).",
-            "Agarwal, P.; Mishra, P.; Gupta, N.; Sahoo, P.R.; Kumar, S. (Z)-3-[2-(2, 4-Dinitrophenyl) hydrazin-1-ylidene] isobenzofuran-1(3H)-one dichloromethane hemi solvate. Acta Crystallogr. E 70, o418, (2014). BOOKS & BOOK CHAPTERS",
-            "Sahoo, P. R.; Saxena A.; Kumar S. Oxadiazole in Material and Medicinal Chemistry. CRC Press, Taylor and Francis Group, 2024. (Book)",
-            "Kumar, S.; Sahoo, P. R.; Macwan, V. R.; Kaur, J.; Mukesh, Sahney, R. Macrocyclic Receptors for Environmental and Biosensing Applications. CRC Press, Taylor and Francis Group, 2022. (Book)",
+            "(Total Number of Citations: 590, h-index: 15)",
             "Sahoo, P. R.; Chédotal, H.; Zoumpoulaki, M.; Nicco, C.; Coriat, R.; Policar, C.; Bertrand, H.C. Development",
-            "f Pt(IV)-SOD mimic conjugates for enhanced anticancer activity with reduced neurotoxicity. FrenchBIC annual meeting held at Obernai, Strasbourg, France 10-13 Oct 2021. (Poster) 4 Priya Ranjan Sahoo Curriculum Vitae",
-            "Sahoo, P.R.; Mizukami, S. Super-resolution imaging of Mg2+ dynamics in organelles by multifunctional fluorescent probes, TBRF annual meeting, Tokyo 1st March 2019 (Oral)",
-            "Sahoo, P.R.; Neelam, Kumar, A.; Kumar, S. Development of Cu2+ selective photoreversible chelator. Light in Chemistry, Materials and Biology (LCMB-2014), an international Conference held at IIT Kharagpur, India 24-25 Feb 2014. (Poster)",
-            "Sahoo, P.R.; Mathew, K. M.; Kumar, S. Photoreversible Chromene derivative for sensing Cu2+ ions. (ACP-",
-            "8th Asian Photochemistry Conference held at IISER, Trivandrum, Kerala, India 10-13 Nov 2014. (Poster)",
-            "rganized by Dept. of chemistry, Aligarh Muslim University, Aligarh, India. (Poster)",
-            "Kashfia Ahmed, Undergrad (2018-2019), Tohoku University",
-            "Vaskar Sardhalia, B. Sc. St. Stephen’s College (2016-2017): now pursuing Ph.D. at Sorbonne University",
-            "Ajeet Kumar, M.Sc. Delhi University (2015-2017): now serving as scientist at OLON (API manufacturing company)",
-            "Harshit Arora, B. Sc. St. Stephen’s College (2015-2016): now persuing PhD. at Purdue University",
-            "Palak Agarwal, B.Sc. St. Stephen’s College (2013-2014)"
+            "f Pt(IV)-SOD mimic conjugates for enhanced anticancer activity with reduced neurotoxicity. FrenchBIC annual meeting held at Obernai, Strasbourg, France 10-13 Oct 2021. (Poster)"
         ],
-        "conference_papers": [
-            "Sahoo, P.R.; Prakash, K; Kumar, S. Colorimetric detection of Cu2+ ion using Naphthopyran Scaffold. 10th Mid-Year CRSI Symposium in chemistry held at NIT, Trichy, Tamilnadu, India 23-25 July 2015. (Poster)",
-            "Sahoo, P.R.; Prakash, K; and Kumar, S. Spirooxazine as highly selective probe for optical detection of Fe3+ in aqueous solution. “DU-JAIST Indo-Japan Symposium on Chemistry of Functional Molecules/ Materials” February 26-27, 2016 organized by Department of Chemistry, University of Delhi, Delhi110007, India. (Poster)",
-            "Sahoo, P.R.; Prakash, K; and Kumar, S. A ‘’Turn-On’’ Optical sensor for selective detection of Fe3+ in aqueous media. International conference on Recent advances in chemical sciences March 29-30, 2016",
-            "Sahoo, P.R.; Prakash, K; and Kumar, S. A turn-on optical receptor for Fe3+. 19th CRSI National Symposium in chemistry held at University of North Bengal, West Bengal, India 14-16 July 2016. (Poster) LIST OF MENTORED STUDENTS"
-        ],
+        "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
-        "book_chapters": [
-            "Sahoo, P. R.* Light Responsive Materials: Properties, Design, and Drug Delivery. ACS Symposium Series Vol. 1436, Chapter 5, 101-127, ACS Books 2023. (Book chapter)",
-            "Sahoo, P. R.; Kowada. T.; Mizukami S. Long-term Mg2+ imaging in live cells with a targetable fluorescent probe. Methods in Molecular Biology (Springer Protocols) 2021. (Book chapter)",
-            "Kumar S.; Sahoo, P. R; Ionic liquid based membranes for water softening in Ionic liquid as green solvents (ed.) Elsevier 2019. (Book chapter)"
-        ],
+        "book_chapters": [],
         "books": [],
         "technical_reports": [],
         "preprints": []
     },
     "certifications": [],
     "awards": [
-        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006"
     ],
     "achievements": [
-        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006"
     ],
     "memberships": [],
     "societies": [],
     "responsibilities": [],
     "references": [
-        "Prof. Satish Kumar Prof. Hélène C. Bertrand Prof. Rachana Sahney Associate Professor Associate Professor Associate professor Department of Chemistry (Sorbonne Université) Amity Institute of St. Stephen’s College Laboratoire des Biomolécules Biotechnology, University of Delhi, UMR7203, Département Chimie de l’ENS Amity University, Delhi, India, 110007 24 rue Lhomond, 75231 Paris Cedex 05 Uttarpradesh, India Email ID: Email ID: Email ID: satish@ststephens.edu helene.bertrand@ens.psl.eu rsahney@amity.edu 5"
+        "Prof. Satish Kumar Prof. Hélène C. Bertrand Prof. Rachana Sahney Associate Professor Associate Professor Associate professor Department of Chemistry (Sorbonne Université) Amity Institute of St. Stephen’s College Laboratoire des Biomolécules Biotechnology, University of Delhi, UMR7203, Département Chimie de l’ENS Amity University, Delhi, India, 110007 24 rue Lhomond, 75231 Paris Cedex 05 Uttarpradesh, India"
     ]
 }

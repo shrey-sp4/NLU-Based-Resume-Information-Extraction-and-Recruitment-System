@@ -1,10 +1,13 @@
 {
     "personal_details": {
-        "name": "Dr. Anurag Choudhary",
+        "name": "RD Experience During Ph.D.",
         "email": "anurag@hku.hk",
         "phone": "8534066345",
         "phones": [
-            "8534066345"
+            "8534066345",
+            "9582782220",
+            "9811045694",
+            "7503444659"
         ],
         "address": ""
     },
@@ -43,36 +46,15 @@
             "graduation_year": "",
             "cgpa": "",
             "institution": "",
-            "raw_text": "Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging. Description: Thisthesisdevelopedanemergentinfraredthermographyforintelligentconditionmonitoring and fault diagnosis system for induction motors."
-        },
-        {
-            "degree": "Bachelor of Technology",
-            "graduation_year": "2012–2015",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "2012–2015 Bachelor of Technology in Electrical and Electronics Engineering"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "66.67%",
-            "institution": "",
-            "raw_text": "66.67%"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "Objective: Impedance and Mho Relay Characteristics for Transmission Line Protection using PACSD. Description: This project deals with the simulation of underreach in distance relay using PSCAD software. Impedance, Mho characteristics and Bergeron model type transmission line are modelled and simulated."
+            "raw_text": "Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging."
         }
     ],
     "experience": [
         {
             "job_title": "Post-doctoral Fellow",
-            "dates": "2024",
+            "dates": "",
             "institution": "University of Hong Kong",
-            "raw_text": "Sep’24- Post-doctoral Fellow, Present Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India Sep’18- Project Assistant III, Department of Computational Instrumentation Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India Jun’15-Jul’16 Lecturer, Department of Electrical Engineering College of Engineering Roorkee (COER), Roorkee, India R&D Experience During Ph.D. March’21- IIT Delhi-Adani Green Energy Limited Project Collaboration Dec’22 This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine . March’24- IIT Delhi-Tata Steel Project Collaboration Nov,2024 This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors . March’22- IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration March’2023 Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles ."
+            "raw_text": "Sep’24- Post-doctoral Fellow, Present Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India Sep’18- Project Assistant III, Department of Computational Instrumentation Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India"
         }
     ],
     "research_interests": [
@@ -82,27 +64,16 @@
         "Algorithm development using machine learning methods"
     ],
     "skills": [
-        "Programming Familiar with open source and Generative AI models: ChatGPT, GAN, deep learning and machine learning skills frameworks: PyTorch, Scikit-learn, Pandas, NumPy, Numba, Tkinter etc. Boarrds Arduino, 8051, Raspberry Pi, NVIDIA Jetson Nano, LattePanda, Intel NUC Board Engineering MATLAB, LabVIEW, PSCAD, NODE-RED, ANSYS Maxwell Tools Publication Metrics",
-        "Total Publications: 35+ Citations: 1835+ h-index: 22 i10: index: 29"
+        "Programming Familiar with open source and Generative AI models: ChatGPT, GAN, deep learning and machine learning skills frameworks: PyTorch, Scikit-learn, Pandas, NumPy, Numba, Tkinter etc. Boarrds Arduino, 8051, Raspberry Pi, NVIDIA Jetson Nano, LattePanda, Intel NUC Board Engineering MATLAB, LabVIEW, PSCAD, NODE-RED, ANSYS Maxwell"
     ],
     "projects": [],
     "publications": {
         "journal_articles": [
-            "1 Anurag Choudhary, S. Fatima and B. K. Panigrahi, Multi-modal Fusion Based Fault Diagnosis",
-            "f Electric Vehicle Motor for Sustainable Transportation, IEEE Transactions on Transportation Electrification, (2024), Early Access. 2 Anurag Choudhary, S. Fatima and B. K. Panigrahi, State of the Art Technologies in Fault Diagnosis of Electric Vehicles: A Component-Based Review, IEEE Transactions on Transportation Electrification, (2022) vol. 9, no. 2, pp. 2324-2347, June 2023. 3 T. Mian, A. Choudhary and S. Fatima,” Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection using Machine Learning,” in IEEE Transactions on Industry Applications, doi: 10.1109/TIA.2023.3286833. 4 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Fault Diagnosis of Electric Two-Wheeler under Pragmatic Operating Conditions using Wavelet Synchrosqueezing Transform and CNN” in IEEE Sensor Journal doi. 10.1109/JSEN.2023.3239383 5 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi, Passive Thermography Based Bearing Fault Diagnosis using Transfer Learning with Varying Working Conditions, IEEE Sensor Journal (2022), doi: 10.1109/JSEN.2022.3164430 6 Anurag Choudhary, Deepam Goyal, and Sudha Letha Shimi” Infrared Thermography Based Fault Diagnosis of Bearings using Machine Learning” IEEE Sensors Journal 21.2 (2020): 1727-1734. Elsevier, Springer, Sage, IOP, and other Journal Articles 7 Choudhary, A., Kumar, R., Letha, S. S., Bakhsh, F. I., Singh, A., & Khan, M. J. (2024). Review",
-            "https://doi.org/10.1155/2021/9947300. 21 Renu Verma, Arshdeep Singh, Anurag Choudhary & Shimi Sudha Letha (2021) PV-Grid based Electric Vehicle Charging Station with Modified Interleaved Boost Converter, Australian Journal",
-            "IEEE Transactions on Industrial Electronics, IEEE Transactions on Cybernetics, IEEE Transactions",
-            "n Instrumentation & Measurement, and many more than 50+."
+            "1 Anurag Choudhary, S. Fatima and B. K. Panigrahi, Multi-modal Fusion Based Fault Diagnosis"
         ],
-        "conference_papers": [
-            "n Electronics, Communications and Control Engineering (ICECC 2023), Fukuoka, Japan. 5 Tauheed Mian, Anurag Choudhary, S. Fatima and B. K. Panigrahi,” Mel-spectrogram Based Approach for Fault Detection in Ball Bearing using Convolutional Neural Network” in The 6th International Conference on Electronics, Communications and Control Engineering (ICECC 2023), Fukuoka, Japan. 6 A. Choudhary, T. Mian, S. Fatima and B. K. Panigrahi,” Deep Transfer Learning Based Fault Diagnosis of Electric Vehicle Motor,” 2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES), Jaipur, India, 2022, pp. 1-6, doi:",
-            "1109/PEDES56012.2022.10080274. 7 Anurag Choudhary, S. Fatima and B. K. Panigrahi,” Passive Thermal Imaging-based Fault Detection in Induction Motor Under Varying Speed Conditions,” 2022 IEEE 2nd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT), 2022, pp. 1-6, doi: 10.1109/SeFeT55524.2022.9909221. 8 T. Mian, Anurag Choudhary, S. Fatima, Sound Signal Based Gear Fault Diagnosis Under Varying Working Conditions, 28th International Congress on Sound and Vibration (ICSV28), Singapore, 24-28, July 2022. 9 R. K. Mishra, Anurag Choudhary, A. R. Mohanty and S. Fatima, A Comparative Study of Time-Frequency Analysis for The Application of Fault Diagnosis System, 28th International Congress on Sound and Vibration (ICSV28), Singapore, 24-28, July 2022. 10 Anurag Choudhary, R.K. Mishra, S. Fatima, and B.K. Panigrahi, “Fault Diagnosis of Induction MotorUnderVaryingOperatingConditionforElectricVehicle”in2022IEEEIASGlobalConference",
-            "n Emerging Technologies (GlobConET), Arad, Romania, 2022. 11 R.K. Mishra, Anurag Choudhary, A.R. Mohanty and S. Fatima,” Performance Evaluation of Support Vector Machine for System Level Multi-fault Diagnosis”, in 2022 Prognostics and Health Management Conference (PHM-2022), London, UK, pp. 113-118, 2022. 12 Tauheed Mian, Anurag Choudhary, and S. Fatima, Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection Using Machine Learning in IEEE International Conference on Power Electronics, Smart Grid, and Renewable Energy (PESGRE22), Trivandrum, Kerala, pp. 1-6, 2022. 13 R.K. Mishra, Anurag Choudhary, A.R. Mohanty and S. Fatima,” Multi-domain Bearing Fault Diagnosis using Support Vector Machine”, in IEEE 4th International Conference on Computing, Power and Communication Technologies (GUCON), Kuala Lumpur, Malaysia, pp 1-6, 2021. 14 Amandeep Sharma, Anurag Choudhary, Pankaj Verma, Lini Mathew and S. Chatterji” Application",
-            "f Wavelet Analysis in Condition Monitoring of Induction Motors” accepted for consideration for publication in the journal Lecture Notes in Mechanical Engineering, International Conference on Emerging Trends in Electro-Mechanical Technologies and Management on 26th-27th July, at HMR Institute of Technology and Management, New Delhi, India 15 Anurag Choudhary, Shefali Jamwal, Deepam Goyal, Rajeev Kumar Dang, Shankar Sehgal” Condition Monitoring of Induction Motor using Internet of Things” (2020) in Recent Ad- vances in Mechanical Engineering. Lecture Notes in Mechanical Engineering. Springer, Singapore,https://doi.org/10.1007/978-981-15-1071-730 Reviewer to Peer Reviewed Journals"
-        ],
+        "conference_papers": [],
         "conference_proceedings": [
-            "f recent trends of advancements in multilevel inverter topologies with reduced power switches and control techniques. IET Power Electronics. 9 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Nature-inspired artificial bee colony-based hyperparameter optimization of CNN for anomaly detection in induction motor”, Expert system, Wiley https://doi.org/10.1111/exsy.13407 10 Tauheed Mian, Anurag Choudhary, S. Fatima and B. K. Panigrahi,” Artificial Intelligence of Things based Approach for Anomaly Detection in Rotating Machines” in Computers & Electrical Engineering, Volume 109, Part A, 2023. 11 R. K. Mishra, Anurag Choudhary, S. Fatima, A.R. Mohanty, B.K. Panigrahi, 2022, Multifault Di- agnosis of Rotating Machine Under Uncertain Speed Conditions, Journal of Vibration Engineering & Technologies ( https://doi.org/10.1007/s42417-023-01141-x). 12 R. K. Mishra, Anurag Choudhary, S. Fatima, B.K. Panigrahi A Generalized Method for Diagnosing Multi-Faults in Rotating Machines Using Imbalance Datasets of Different Sensor Modalities, Engineering Applications of Artificial Intelligence, Volume 132, 2024, 107973, ISSN 0952-1976. 13 R. K. Mishra, Anurag Choudhary, S. Fatima, A.R. Mohanty, B.K. Panigrahi, 2022, A Fault Diagnosis Approach Based On 2D Vibration Imaging for Bearing Faults, Journal of Vibration Engineering & Technologies, (2022) doi: 10.1007/s42417-022-00735-1. 14 Anurag Choudhary, Shahab Fatima, An efficient diagnosis approach for bearing faults using sound quality metrics, Applied Acoustics, Volume 195, (2022), 108839, http- doi.org/10.1016/j.apacoust.2022.108839 15 Tauheed Mian, Anurag Choudhary, and S. Fatima, Vibration and infrared thermography based multiple fault diagnosis of bearing using deep learning, Non-destructive Testing and Evaluation, (2022), pp. 1-22. 16 R. K. Mishra, Anurag Choudhary, S. Fatima, A.R. Mohanty, B.K. Panigrahi, A Self-adaptive Mul- tiple Fault Diagnosis System for Rolling Element Bearing, Measurement Science and Technology, (2022), doi:10.1088/1361-6501/ac8ca8. 17 R. K. Mishra, Anurag Choudhary, A.R. Mohanty, S. Fatima, An intelligent bearing fault diagnosis based on hybrid signal processing and Henry gas solubility optimization, Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science, pp 1-14, (2022), doi:10.1177/09544062221101737 18 Tauheed Mian, Anurag Choudhary and S. Fatima, A Sensor Fusion Based Approach for Bearing Fault Diagnosis of Rotating Machine, Proceedings of the Institution of Mechanical Engineers, Part O: Journal of Risk and Reliability (2021), p.1748006X211044843 19 Anurag Choudhary, Tauheed Mian and S. Fatima” Convolutional Neural Network Based Bearing Fault Diagnosis of Rotating Machine Using Thermal Images” in Measurement (2021): 109196 20 Ankush Mehta, Deepam Goyal, Anurag Choudhary, B. S. Pabla, Safya Belghith,” Machine Learning-Based Fault Diagnosis of Self-Aligning Bearings for Rotating Machinery Using Infrared Thermography”, Mathematical Problems in Engineering, vol. 2021, Article ID 9947300, 15 pages,",
-            "f Electrical and Electronics Engineering, 18:4, 277-287, DOI: 10.1080/1448837X.2021.1977451 22 Deepam Goyal, Anurag Choudhary, S. Pabla, and S. S. Dhami” Support Vector Machines Based Non-Contact Fault Diagnosis System for Bearings” in Journal of Intelligent Manufacturing, DOI: https://doi.org/10.1007/s10845-019-01511-x. 23 Anurag Choudhary, Deepam Goyal, Sudha Letha Shimi, and Aparna Akula” Condition Monitoring and Fault Diagnosis of Induction Motors: A Review” Archives of Computational Methods in Engineering (2018), Volume 26, Issue 4, pp 1221–1238. 1 Mian, T., Choudhary, A., & Fatima, S. Fault Diagnosis of Ball Bearing Using Low-Cost Edge Device and Deep. Recent Advances in Machines, Mechanisms, Materials and Design: Select Proceedings of iNaCoMM 2023, 435. 2 Anurag Choudhary, T. Mian, S. Fatima, and B. K. Panigrahi,” Thermography-based Fault Identification in Induction Motor across Dynamic Speed Conditions,” 2023 IEEE 49th Annual Conference of the IEEE Industrial Electronics Society (IES), 2023. 3 R. K. Mishra, Anurag Choudhary, A. R. Mohanty, S. Fatima, and B. K. Panigrahi,” Realistic Condition-based Anomaly Detection of Multi-faults in Rotating Machines,” 2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT), 2024 4 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Multi Sensor based Bearing FaultDiagnosisofSwitchedReluctanceMotorforElectricVehicle”in6thInternationalConference"
+            "f Electric Vehicle Motor for Sustainable Transportation, IEEE Transactions on Transportation Electrification, (2024), Early Access. 2 Anurag Choudhary, S. Fatima and B. K. Panigrahi, State of the Art Technologies in Fault Diagnosis of Electric Vehicles: A Component-Based Review, IEEE Transactions on Transportation Electrification, (2022) vol. 9, no. 2, pp. 2324-2347, June 2023. 3 T. Mian, A. Choudhary and S. Fatima,” Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection using Machine Learning,” in IEEE Transactions on Industry Applications, doi: 10.1109/TIA.2023.3286833. 4 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Fault Diagnosis of Electric Two-Wheeler under Pragmatic Operating Conditions using Wavelet Synchrosqueezing Transform and CNN” in IEEE Sensor Journal doi. 10.1109/JSEN.2023.3239383 5 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi, Passive Thermography Based Bearing Fault Diagnosis using Transfer Learning with Varying Working Conditions, IEEE Sensor 1 Mian, T., Choudhary, A., & Fatima, S. Fault Diagnosis of Ball Bearing Using Low-Cost Edge Device and Deep. Recent Advances in Machines, Mechanisms, Materials and Design: Select Proceedings of iNaCoMM 2023, 435. 2 Anurag Choudhary, T. Mian, S. Fatima, and B. K. Panigrahi,” Thermography-based Fault Identification in Induction Motor across Dynamic Speed Conditions,” 2023 IEEE 49th Annual Conference of the IEEE Industrial Electronics Society (IES), 2023. 3 R. K. Mishra, Anurag Choudhary, A. R. Mohanty, S. Fatima, and B. K. Panigrahi,” Realistic Condition-based Anomaly Detection of Multi-faults in Rotating Machines,” 2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT), 2024 4 Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Multi Sensor based Bearing"
         ],
         "communications": [],
         "book_chapters": [],
@@ -114,8 +85,7 @@
         "* NITTTR: Artificial Neural Network and Convolutional Neural Network",
         "IEEE-ACSIR-CSIO: Artificial Intelligence and Machine Learning",
         "CSIR-CSIO: Machine Intelligence and Deep Learning: An Interdisciplinary Perspective",
-        "NITTTR: Design and Analysis of Electric Motors using ANSYS Maxwell Extra-Curricular Activities",
-        "Delivered expert lectures on different topics such as microcontroller and embedded systems, health monitoring of industrial drives, and hands-on practices on power electronics devices."
+        "NITTTR: Design and Analysis of Electric Motors using ANSYS Maxwell"
     ],
     "awards": [
         "* Research Scholar Travel Award of Rs.1, 50,000 by IIT Delhi",
@@ -133,12 +103,7 @@
     ],
     "responsibilities": [
         "* Teaching Assistant at Center for Automotive Research and Tribology, IIT Delhi",
-        "Maintenance Planning and Control, Automotive Noise and Condition Monitoring Visited Countries",
-        "Japan (March, 2023), To participate in the ICECC-2023, 6th international conference",
-        "Singapore (October, 2023), To participate in the IECON-2023, 49th international conference",
-        "Hong Kong (Sep, 20224 to till date),Post-doctoral Fellow, at the University of Hong Kong"
+        "Maintenance Planning and Control, Automotive Noise and Condition Monitoring"
     ],
-    "references": [
-        "1 Prof. B. K. Panigrahi Professor HAG, Electrical Engineering, IIT Delhi Email: bkpanigrahi@iitd.ac.in, Mobile No. +91-9582782220 2 Dr. S. Fatima Associate Professor, CART, IIT Delhi Email: fatima@iitd.ac.in, Mobile No. +91-9811045694 3 Prof. Deepak Kumar Professor, Head CART, IIT Delhi Email: dkumar@iitd.ac.in, Mobile No. +91-7503444659"
-    ]
+    "references": []
 }
