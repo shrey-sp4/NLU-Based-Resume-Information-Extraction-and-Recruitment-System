@@ -39,7 +39,7 @@ def get_section_text(sections, section_name):
     return section.strip()
 
 
-# ---------- 1. PHONE FIX (phone_fix_v2.py + robust country prefix handling) ----------
+# ---------- 1. PHONE FIX ----------
 PHONE_CANDIDATE_REGEX = re.compile(
     r"(?:\+?91|0091|0)?[\s\-\(\)]*(?:[6-9][\s\-\(\)\.]*){1}(?:\d[\s\-\(\)\.]*){9,11}"
 )
@@ -118,16 +118,17 @@ def split_into_list(text):
 
 # ---------- 2. ENTRY-LEVEL EDUCATION SUB-FIELD EXTRACTION ----------
 DEGREE_PATTERNS = [
-    r"Doctor of Philosophy(?:\s*\(PhD\))?", r"Ph\.?D\.?",
-    r"Master of Science(?:\s*\(M\.?\s?Sc\.?\))?", r"M\.?Sc\.?",
-    r"Master of Technology(?:\s*\(M\.?\s?Tech\.?\))?", r"M\.?Tech\.?",
-    r"Master of Engineering(?:\s*\(M\.?\s?E\.?\))?", r"M\.?E\.?",
-    r"Master of Computer (?:Science|Application)s?", r"MCA", r"MSW",
-    r"Bachelor of Science(?:\s*\(B\.?\s?Sc\.?\))?", r"B\.?Sc\.?",
-    r"Bachelor of Technology(?:\s*\(B\.?\s?Tech\.?\))?", r"B\.?Tech\.?",
-    r"Bachelor of (?:Computer Application|Engineering)s?", r"BCA", r"B\.?E\.?",
-    r"Higher Secondary(?:\s*\(10\+2\))?", r"12th(?:\s*\(10\+2\))?",
-    r"Metric(?:\s*\(10th\))?", r"10th",
+    r"\bDoctor of Philosophy(?:\s*\(PhD\))?\b", r"\bPh\.?D\.?\b",
+    r"\bMaster of Science(?:\s*\(M\.?\s?Sc\.?\))?\b", r"\bM\.?\s?Sc\.?\b",
+    r"\bMaster of Technology(?:\s*\(M\.?\s?Tech\.?\))?\b", r"\bM\.?\s?Tech\.?\b",
+    r"\bMaster of Engineering(?:\s*\(M\.?\s?E\.?\))?\b", r"\bM\.E\.\b", r"\bM\.E\b", r"\bM\.Eng\.?\b",
+    r"\bMaster of Philosophy(?:\s*\(M\.?\s?Phil\.?\))?\b", r"\bM\.?\s?Phil\.?\b",
+    r"\bMaster of Computer (?:Science|Application)s?\b", r"\bMCA\b", r"\bMSW\b",
+    r"\bBachelor of Science(?:\s*\(B\.?\s?Sc\.?\))?\b", r"\bB\.?\s?Sc\.?\b",
+    r"\bBachelor of Technology(?:\s*\(B\.?\s?Tech\.?\))?\b", r"\bB\.?\s?Tech\.?\b",
+    r"\bBachelor of (?:Computer Application|Engineering)s?\b", r"\bBCA\b", r"\bB\.E\.\b", r"\bB\.E\b", r"\bB\.Eng\.?\b",
+    r"\bHigher Secondary(?:\s*\(10\+2\))?\b", r"\b12th(?:\s*\(10\+2\))?\b",
+    r"\bMetric(?:\s*\(10th\))?\b", r"\b10th\b",
 ]
 DEGREE_REGEX = re.compile("|".join(f"(?:{p})" for p in DEGREE_PATTERNS), re.IGNORECASE)
 

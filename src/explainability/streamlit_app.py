@@ -257,8 +257,15 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
             "reason": "Sectioning failed to detect any canonical headings in extracted text.",
             "raw_text_snippet": raw_text[:300]
         }
+    elif sections_expected_but_missing:
+        fully_parsed = False
+        missing_str = ", ".join(f"'{s}'" for s in sections_expected_but_missing)
+        first_stage_loss = {
+            "stage": "Stage 2: Section Detection",
+            "reason": f"Expected core resume sections were missing from document sectioning: {missing_str}.",
+            "raw_text_snippet": raw_text[:300]
+        }
     else:
-        # Check every DETECTED section to see if Stage 3 yielded content from it
         section_failures = []
         for sec in sections_detected:
             sec_text_content = sections[sec].strip()
@@ -284,7 +291,15 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
                     "snippet": sec_text_content[:300]
                 })
 
-        if section_failures:
+        if flags:
+            fully_parsed = False
+            first_flag = flags[0]
+            first_stage_loss = {
+                "stage": f"Stage 3: Entity Extraction (Flag '{first_flag['flag']}')",
+                "reason": f"Entity extraction quality rule flag raised for [{first_flag['field']}]: {first_flag['description']}",
+                "raw_text_snippet": sections.get("education", "")[:300] or raw_text[:300]
+            }
+        elif section_failures:
             fully_parsed = False
             first_fail = section_failures[0]
             first_stage_loss = {
