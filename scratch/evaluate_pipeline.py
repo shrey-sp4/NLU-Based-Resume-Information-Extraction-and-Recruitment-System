@@ -28,7 +28,7 @@ GT_PDF_MAP = [
     ("Resume_final_Amit_CMA_IIM_A.json", "Resume_final_Amit_CMA_IIM_A_sections.json", "Resume_final_Amit_CMA_IIM_A_5b066fd0"),
 ]
 
-from src.extract_structured_information import process_resume, normalize_phone_for_compare
+from src.extract_structured_information import process_resume, extract_all_phones, phone_matches, normalize_phone_for_compare
 
 # Regex engines for parsing fine-grained subfields from extracted sections
 DEGREE_REGEX = re.compile(r"\b(Ph\.?D\.?|Doctor of Philosophy|M\.?Tech\.?|B\.?Tech\.?|M\.?Sc\.?|B\.?Sc\.?|B\.?E\.?|M\.?E\.?|Bachelor|Master|Diploma)\b", re.IGNORECASE)
@@ -108,12 +108,23 @@ def run_consolidated_evaluation():
         # --- Personal Details ---
         for fld in ("name", "email", "phone"):
             if fld == "phone":
-                g_v = [normalize_phone_for_compare(gt.get("personal_details", {}).get("phone", ""))] if gt.get("personal_details", {}).get("phone") else []
-                p_v = [normalize_phone_for_compare(pred.get("personal_details", {}).get("phone", ""))] if pred.get("personal_details", {}).get("phone") else []
+                gt_p_raw = str(gt.get("personal_details", {}).get("phone", "") or "")
+                g_v = extract_all_phones(gt_p_raw)
+                if not g_v and gt_p_raw:
+                    d = re.sub(r"\D", "", gt_p_raw)
+                    if d: g_v = [d]
+
+                pr_p = pred.get("personal_details", {}).get("phone", "") or pred.get("personal_details", {}).get("phones", [])
+                if isinstance(pr_p, list):
+                    p_v = [str(x) for x in pr_p if x]
+                else:
+                    p_v = extract_all_phones(str(pr_p)) if pr_p else []
+
+                res_metrics.append(("personal_phone", *score_entity_set_match(g_v, p_v)))
             else:
                 g_v = [str(gt.get("personal_details", {}).get(fld, "") or "")] if gt.get("personal_details", {}).get(fld) else []
                 p_v = [str(pred.get("personal_details", {}).get(fld, "") or "")] if pred.get("personal_details", {}).get(fld) else []
-            res_metrics.append((f"personal_{fld}", *score_entity_set_match(g_v, p_v)))
+                res_metrics.append((f"personal_{fld}", *score_entity_set_match(g_v, p_v)))
 
         # --- Education Subfields ---
         gt_edu = gt.get("education", [])

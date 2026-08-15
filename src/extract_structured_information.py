@@ -8,7 +8,7 @@ PREDICTIONS_DIR = Path("output/predictions")
 
 def get_empty_gt_schema():
     return {
-        "personal_details": {"name": "", "email": "", "phone": "", "address": ""},
+        "personal_details": {"name": "", "email": "", "phone": "", "phones": [], "address": ""},
         "summary": [""],
         "education": [],
         "experience": [],
@@ -39,21 +39,37 @@ def get_section_text(sections, section_name):
     return section.strip()
 
 
-# ---------- 1. PHONE FIX ----------
-PHONE_REGEX = re.compile(
-    r"(?:\+?\d{1,3}[-.\s]?)?(?:\(?\d{3,5}\)?[-.\s]?)?\d{3,5}[-.\s]?\d{4,6}"
+# ---------- 1. PHONE FIX (phone_fix_v2.py) ----------
+# Handles: +91, 0091, (M)/(+91) labels, space or dash separated groups, multiple numbers.
+PHONE_CANDIDATE_REGEX = re.compile(
+    r"(?:\+?91|0091|0)?[\s\-\(\)]*[6-9](?:[\s\-]?\d){9}"
 )
 
-def extract_phone(text):
-    candidates = PHONE_REGEX.findall(text) if False else PHONE_REGEX.finditer(text)
-    for m in candidates:
+def extract_all_phones(text):
+    """Returns ALL phone numbers found (list), normalized to bare 10-digit strings."""
+    results = []
+    for m in PHONE_CANDIDATE_REGEX.finditer(text or ""):
         digits = re.sub(r"\D", "", m.group(0))
-        # Indian mobile numbers are 10 digits, optionally prefixed with country code 91
-        if len(digits) == 10 and digits[0] in "6789":
-            return digits
-        if len(digits) == 12 and digits.startswith("91") and digits[2] in "6789":
-            return digits[2:]  # normalize to bare 10-digit form
-    return ""
+        # strip country/trunk prefixes to get to the 10-digit mobile number
+        if digits.startswith("0091"):
+            digits = digits[4:]
+        elif digits.startswith("91") and len(digits) == 12:
+            digits = digits[2:]
+        elif digits.startswith("0") and len(digits) == 11:
+            digits = digits[1:]
+        if len(digits) == 10 and digits[0] in "6789" and digits not in results:
+            results.append(digits)
+    return results
+
+def extract_phone(text):
+    phones = extract_all_phones(text)
+    return phones[0] if phones else ""
+
+def phone_matches(pred, gt_raw):
+    """Evaluator-side fix: normalize GT's raw labeled string the same way before comparing."""
+    pred_digits = re.sub(r"\D", "", pred or "")
+    gt_digits_all = extract_all_phones(gt_raw or "")
+    return pred_digits in gt_digits_all if pred_digits and gt_digits_all else (pred == gt_raw)
 
 def normalize_phone_for_compare(p):
     """Use this on BOTH prediction and ground truth before comparing in the evaluator."""
@@ -69,7 +85,8 @@ def extract_personal_details(sections):
     text = f"{preamble}\n{details}".strip()
     email_match = re.search(r"[\w\.-]+@[\w\.-]+\.\w+", text)
     email = email_match.group(0).strip() if email_match else ""
-    phone = extract_phone(text)
+    phones = extract_all_phones(text)
+    phone = phones[0] if phones else ""
     name = ""
     lines = [line.strip() for line in text.splitlines() if len(line.strip()) > 3]
     for line in lines:
@@ -80,7 +97,7 @@ def extract_personal_details(sections):
         if len(clean_line.split()) >= 2:
             name = clean_line
             break
-    return {"name": name, "email": email, "phone": phone, "address": ""}
+    return {"name": name, "email": email, "phone": phone, "phones": phones, "address": ""}
 
 def split_into_list(text):
     if not text: return []
