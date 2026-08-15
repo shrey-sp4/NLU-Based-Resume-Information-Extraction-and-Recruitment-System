@@ -3,15 +3,34 @@
         "name": "Anil Hirpara",
         "email": "hirparaanil7@gmail.com",
         "phone": "9427373948",
+        "phones": [
+            "9427373948"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "passing Ph.D. Sardar Patel Department of October- N.A. (Physics) University Physics, SPU, 2023 Vallabh Vidyanagar. M.Sc. Sardar Patel Shri Alpesh N Patel April - 8.2 University Post Graduate 2017 Physics Institute of Science Anand. B.Sc. Veer Narmad Navyug Science April- 6.87 Physics South Gujarat College, Surat. 2015 University H.S.C GSHSEB K. K. Parekh & March- 52 % Maheta R P 2012 Vidyalay High School, Amreli. S.S.C GSEB Shri Madhyamik March- 73.54 % shala, Nariyeli-moli. 2010 1 Other Exams passing Gujarat State The Maharaj Saiyajirao Physics December - Eligibility Test University of Baroda 2018 (MSU Baroda) CSIR - UGC The Council of Scientific Physics June - 2018 National Eligibility & Industrial Research Test (CSIR) Course on Computer National Institute of Certificate in November - Concepts (CCC) Electronics & Information Computer Concepts 2019 Technology (NIELIT)"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2023",
+            "cgpa": "52 %",
+            "institution": "Physics Institute of Science Anand. B.Sc. Veer Narmad Navyug",
+            "raw_text": "passing Ph.D. Sardar Patel Department of October- N.A. (Physics) University Physics, SPU, 2023 Vallabh Vidyanagar. M.Sc. Sardar Patel Shri Alpesh N Patel April - 8.2 University Post Graduate 2017 Physics Institute of Science Anand. B.Sc. Veer Narmad Navyug Science April- 6.87 Physics South Gujarat College, Surat. 2015 University H.S.C GSHSEB K. K. Parekh & March- 52 % Maheta R P 2012 Vidyalay High School, Amreli. S.S.C GSEB Shri Madhyamik March- 73.54 % shala, Nariyeli-moli. 2010 1 Other Exams passing Gujarat State The Maharaj Saiyajirao Physics December - Eligibility Test University of Baroda 2018 (MSU Baroda) CSIR - UGC The Council of Scientific Physics June - 2018 National Eligibility & Industrial Research Test (CSIR) Course on Computer National Institute of Certificate in November - Concepts (CCC) Electronics & Information Computer Concepts 2019 Technology (NIELIT)"
+        }
     ],
     "experience": [
-        "➢ Assisted in M.Sc. Semester (1 & 2) Laboratory courses at Department of Physics, Sardar Patel University, Vallabh Vidyanagar during the year 2019-2020.",
-        "Assistant Professor at Indian Institute of Teacher Education, Gandhinagar for academic year 2023-2024."
+        {
+            "job_title": "",
+            "dates": "2019-2020",
+            "institution": "Sardar Patel University",
+            "raw_text": "➢ Assisted in M.Sc. Semester (1 & 2) Laboratory courses at Department of Physics, Sardar Patel University, Vallabh Vidyanagar during the year 2019-2020."
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2023-2024",
+            "institution": "Indian Institute of Teacher Education",
+            "raw_text": "Assistant Professor at Indian Institute of Teacher Education, Gandhinagar for academic year 2023-2024."
+        }
     ],
     "research_interests": [],
     "skills": [],

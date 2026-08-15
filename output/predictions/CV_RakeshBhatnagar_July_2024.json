@@ -3,11 +3,21 @@
         "name": "Dr. Rakesh Bhatnagar",
         "email": "rakesh.bhatnagar@ksv.ac.in",
         "phone": "8320965296",
+        "phones": [
+            "8320965296",
+            "9898198203"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Doctorate : Doctorate in Philosophy – Ph.D. (Computer Science) from Hemchandracharya North Gujarat University in 2017. Post Graduation : Masters in Technology - M.Tech.(CS) from Rajasthan Vidyapeeth University (First Class) in 2006. Masters in Computer Application (M.C.A.) from Gujarat University (First Class) in 2002. Graduation : Bachelor in Science (B.Sc with Electronics) from Gujarat University (First Class – Gold Medalist) in"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2017",
+            "cgpa": "First Class",
+            "institution": "Hemchandracharya North Gujarat University",
+            "raw_text": "Doctorate : Doctorate in Philosophy – Ph.D. (Computer Science) from Hemchandracharya North Gujarat University in 2017. Post Graduation : Masters in Technology - M.Tech.(CS) from Rajasthan Vidyapeeth University (First Class) in 2006. Masters in Computer Application (M.C.A.) from Gujarat University (First Class) in 2002. Graduation : Bachelor in Science (B.Sc with Electronics) from Gujarat University (First Class – Gold Medalist) in"
+        }
     ],
     "experience": [],
     "research_interests": [

@@ -2,17 +2,31 @@
     "personal_details": {
         "name": "Dr. Priyanka Sharma",
         "email": "sharmaps94@yahoo.in",
-        "phone": "+917814440618",
+        "phone": "7814440618",
+        "phones": [
+            "7814440618"
+        ],
         "address": ""
     },
     "summary": [
         "My objective is to make distinctive and impactful contributions to the realms of research and\neducation through the application of my innovative scientific concepts and technical expertise."
     ],
     "education": [
-        "Level Board/University Year of Percentage Division Completion PhD (Physics and Jaypee University of April 2024 96.0% First Materials Science) Information Technology, Solan, H.P. M.Sc. (Physics) Guru Nanak Girls college, May 2018 78.9% First Ludhiana, Punjab University, Chandigarh B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana Board, Mohali (PSEB), Punjab Matric (10th) Indian Public Sen. Sec. School, March 2011 88.08% First Ludhiana Board, Mohali (PSEB), Punjab"
+        {
+            "degree": "PhD",
+            "graduation_year": "2024",
+            "cgpa": "96.0%",
+            "institution": "Jaypee University of April",
+            "raw_text": "Level Board/University Year of Percentage Division Completion PhD (Physics and Jaypee University of April 2024 96.0% First Materials Science) Information Technology, Solan, H.P. M.Sc. (Physics) Guru Nanak Girls college, May 2018 78.9% First Ludhiana, Punjab University, Chandigarh B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana Board, Mohali (PSEB), Punjab Matric (10th) Indian Public Sen. Sec. School, March 2011 88.08% First Ludhiana Board, Mohali (PSEB), Punjab"
+        }
     ],
     "experience": [
-        " Worked as Teaching Assistant at Jaypee University of Information Technology, Solan, H.P. from July 2018 - May 2023"
+        {
+            "job_title": "Teaching Assistant",
+            "dates": "July 2018 - May 2023",
+            "institution": "Jaypee University of Information Technology",
+            "raw_text": " Worked as Teaching Assistant at Jaypee University of Information Technology, Solan, H.P. from July 2018 - May 2023"
+        }
     ],
     "research_interests": [],
     "skills": [

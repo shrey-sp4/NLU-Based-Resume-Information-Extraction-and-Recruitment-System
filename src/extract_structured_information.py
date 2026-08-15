@@ -39,10 +39,9 @@ def get_section_text(sections, section_name):
     return section.strip()
 
 
-# ---------- 1. PHONE FIX (phone_fix_v2.py) ----------
-# Handles: +91, 0091, (M)/(+91) labels, space or dash separated groups, multiple numbers.
+# ---------- 1. PHONE FIX (phone_fix_v2.py + robust country prefix handling) ----------
 PHONE_CANDIDATE_REGEX = re.compile(
-    r"(?:\+?91|0091|0)?[\s\-\(\)]*[6-9](?:[\s\-]?\d){9}"
+    r"(?:\+?91|0091|0)?[\s\-\(\)]*(?:[6-9][\s\-\(\)\.]*){1}(?:\d[\s\-\(\)\.]*){9,11}"
 )
 
 def extract_all_phones(text):
@@ -50,10 +49,9 @@ def extract_all_phones(text):
     results = []
     for m in PHONE_CANDIDATE_REGEX.finditer(text or ""):
         digits = re.sub(r"\D", "", m.group(0))
-        # strip country/trunk prefixes to get to the 10-digit mobile number
         if digits.startswith("0091"):
             digits = digits[4:]
-        elif digits.startswith("91") and len(digits) == 12:
+        elif digits.startswith("91") and len(digits) >= 12:
             digits = digits[2:]
         elif digits.startswith("0") and len(digits) == 11:
             digits = digits[1:]
@@ -90,9 +88,22 @@ def extract_personal_details(sections):
     name = ""
     lines = [line.strip() for line in text.splitlines() if len(line.strip()) > 3]
     for line in lines:
-        if "@" in line or re.search(r"\d", line): continue
+        if "@" in line: continue
         if re.search(r"\b(curricu?lam|curriculum|vitae|resume|biodata|profile)\b", line, re.IGNORECASE): continue
         clean_line = re.sub(r"^(name|full name|candidate name)\s*[:\-]\s*", "", line, flags=re.IGNORECASE).strip()
+        clean_line = clean_line.strip(":-–—|•●■□*➢ ")
+        
+        # Stop condition 1: Cut at field labels like 'Address', 'Email', 'Phone', 'Mobile', 'Contact', 'Location'
+        clean_line = re.split(r"\b(?:Address|Email|E-mail|Phone|Mobile|Contact|Location)\b", clean_line, flags=re.IGNORECASE)[0].strip()
+        
+        # Stop condition 2: Cut at first digit
+        clean_line = re.split(r"\d", clean_line)[0].strip()
+        
+        # Stop condition 3: Cut at line-internal capital-after-lowercase word boundary (e.g. KumarCurriculum)
+        boundary_match = re.search(r"([a-z])([A-Z])", clean_line)
+        if boundary_match:
+            clean_line = clean_line[:boundary_match.start(1)+1].strip()
+
         clean_line = clean_line.strip(":-–—|•●■□*➢ ")
         if len(clean_line.split()) >= 2:
             name = clean_line

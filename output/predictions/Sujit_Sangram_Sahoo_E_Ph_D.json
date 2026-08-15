@@ -3,16 +3,30 @@
         "name": "SUJIT SANGRAM SAHOO",
         "email": "sssahoo@ieee.org",
         "phone": "9040132605",
+        "phones": [
+            "9040132605"
+        ],
         "address": ""
     },
     "summary": [
         "I am an Assistant Professor in Department of CS&IT Siksha O Anusandhan University Bhubaneswar, Odisha. I have submitted\nPh.D. thesis in the Department Information Technology, Indian Institute of Information Technology Allahabad, India. I\nreceived M. Tech. Computer Science from National Institute of Technology Rourkela, India. I received B. Tech. Information\nTechnology from the Biju Patnaik University of Technology Odisha. I am working in the research area of Blockchain, Layer-2\nBlockchain, Cryptography, Advance Cryptography, and Network Security. I have 3.8 years of teaching experience and from\nwhich 1.5 years of experience from Motilal Nehru National Institute of Technology Allahabad."
     ],
     "education": [
-        "Indian Institute of Information Technology Allahabad, India Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India CGPA: 9.2 Supervisor: Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela, India M. Tech. in Computer Science 2014 to 2016 Specialization: Information security Rourkela, Odisha, India Thesis Title: Certificateless Nominative Signature based upon DLP CGPA: 8.05 Biju Patnaik University of Technology Rourkela, India B. Tech. in Information Technology 2008 to 2012 CGPA: 7.05 Rourkela, Odisha, India Council of Higher Secondary Education Odisha, India 12th in science Year: 2006 to 2008 Board of Secondary Education Odisha, India 10th in Mathematics, Science and English Year: 2006"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2018",
+            "cgpa": "",
+            "institution": "Indian Institute of Information Technology Allahabad",
+            "raw_text": "Indian Institute of Information Technology Allahabad, India Ph.D. in Information Technology (Regular) (Thesis Submitted) August 2018 to Present Thesis Title: Instant Payment Systems for Layer-2 Blockchain Prayagraj, UP, India CGPA: 9.2 Supervisor: Dr. Vijay Kumar Chaurasiya National Institute of Technology Rourkela, India M. Tech. in Computer Science 2014 to 2016 Specialization: Information security Rourkela, Odisha, India Thesis Title: Certificateless Nominative Signature based upon DLP CGPA: 8.05 Biju Patnaik University of Technology Rourkela, India B. Tech. in Information Technology 2008 to 2012 CGPA: 7.05 Rourkela, Odisha, India Council of Higher Secondary Education Odisha, India 12th in science Year: 2006 to 2008 Board of Secondary Education Odisha, India 10th in Mathematics, Science and English Year: 2006"
+        }
     ],
     "experience": [
-        "Siksha O Anusandhan University Bhubaneswar, Odisha, India 1.3 Year Department: Computer Science and Information Technology Duration: Mar 2023 to Present Motilal Nehru National Institute of Technology Allahabad, India 1.5 Years Department: Computer Science and Engineering Duration: Aug 2016 to Jan 2018 DharaniDhara Autonomous College Keonjhar Odisha, India 1 Year Department: Self-financing Department Duration: July 2013 to Aug 2014 Total: 3.8 years"
+        {
+            "job_title": "",
+            "dates": "2023",
+            "institution": "Siksha O Anusandhan University",
+            "raw_text": "Siksha O Anusandhan University Bhubaneswar, Odisha, India 1.3 Year Department: Computer Science and Information Technology Duration: Mar 2023 to Present Motilal Nehru National Institute of Technology Allahabad, India 1.5 Years Department: Computer Science and Engineering Duration: Aug 2016 to Jan 2018 DharaniDhara Autonomous College Keonjhar Odisha, India 1 Year Department: Self-financing Department Duration: July 2013 to Aug 2014 Total: 3.8 years"
+        }
     ],
     "research_interests": [
         "Blockchain Technology",

@@ -3,15 +3,34 @@
         "name": "VIJAY KUMAR",
         "email": "dvijay.iitb@gmail.com",
         "phone": "7905257340",
+        "phones": [
+            "7905257340"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India Thesis Advisor: Prof. P. Vellaisamy Thesis Title: Adomian Polynomials and some Fractional Stochastic Processes CPI: 7.56/10 (≡ 75.6%) July 2011 - May 2013 M.Sc. in Applied Statistics and Informatics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India CPI: 6.36/10 (≡ 63.6%) July 2006 - May 2009 B.Sc. in Statistics and Mathematics | Department of Statistics, PPN Degree College, CSJM University, Kanpur Uttar Pradesh, India Percentage: 66.74% July 2004 - May 2005 Intermediate | UP Board | Science | Percentage: 75.80% July 2002 - May 2003 High school | UP Board | Science | Percentage: 75.33%"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2018",
+            "cgpa": "7.56/10",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "Jan 2018 - Nov 2023 Ph.D. in Statistics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India Thesis Advisor: Prof. P. Vellaisamy Thesis Title: Adomian Polynomials and some Fractional Stochastic Processes CPI: 7.56/10 (≡ 75.6%) July 2011 - May 2013 M.Sc. in Applied Statistics and Informatics | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India CPI: 6.36/10 (≡ 63.6%) July 2006 - May 2009 B.Sc. in Statistics and Mathematics | Department of Statistics, PPN Degree College, CSJM University, Kanpur Uttar Pradesh, India Percentage: 66.74% July 2004 - May 2005 Intermediate | UP Board | Science | Percentage: 75.80% July 2002 - May 2003 High school | UP Board | Science | Percentage: 75.33%"
+        }
     ],
     "experience": [
-        "January 2024 - Present Assistant Professor | School of Computer Science (Data Science Cluster) University of Petroleum and Energy Studies Dehradun, Uttarakhand, India. July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at IITBombay,Igottheopportunitytoteacharangeofcourses,includingIntroductiontoProbabilityand Statistics, Regression Analysis using R, Multivariate Analysis, Applied Stochastic Process, Parametric and Nonparametric Statistics. These courses have allowed me to work with students at different levels",
-        "f statistical expertise and have shaped my approach to teaching. Moreover, I am engaged in freelance teaching, where I share my expertise in statistics with bachelors’ and masters’ students. TEACHING AND TEACHING ASSISTANTSHIP FOR STATISTICS COURSES Spring 2024 Fundamentals of Biostatistics using IBM SPSS (UPES Dehradun) Spring 2024 Biostatistical Methods in Clinical Research using IBM SPSS (UPES Dehradun) Spring 2021 SI 534 Nonparametric statistics (Teaching Assistant, IIT Bombay) Autumn 2021 SI 505 Multivariate analysis (Teaching Assistant, IIT Bombay) Spring 2020 SI 422 Regression Analysis (Teaching Assistant, IIT Bombay) Autumn 2020 SI 417 Introduction to Probability Theory (Teaching Assistant, IIT Bombay) Spring 2019 SI 404 Applied Stochastic Process (Teaching Assistant, IIT Bombay)"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "January 2024 - Present",
+            "institution": "School of Computer Science",
+            "raw_text": "January 2024 - Present Assistant Professor | School of Computer Science (Data Science Cluster) University of Petroleum and Energy Studies Dehradun, Uttarakhand, India. July 2023 - Nov 2023 Research Associate | Department of Mathematics, Indian Institute of Technology, Bombay Maharashtra, India. I instruct diverse groups of students in various statistical courses. In my role as a teaching assistant at IITBombay,Igottheopportunitytoteacharangeofcourses,includingIntroductiontoProbabilityand Statistics, Regression Analysis using R, Multivariate Analysis, Applied Stochastic Process, Parametric and Nonparametric Statistics. These courses have allowed me to work with students at different levels"
+        },
+        {
+            "job_title": "TEACHING ASSISTANT",
+            "dates": "2024",
+            "institution": "",
+            "raw_text": "f statistical expertise and have shaped my approach to teaching. Moreover, I am engaged in freelance teaching, where I share my expertise in statistics with bachelors’ and masters’ students. TEACHING AND TEACHING ASSISTANTSHIP FOR STATISTICS COURSES Spring 2024 Fundamentals of Biostatistics using IBM SPSS (UPES Dehradun) Spring 2024 Biostatistical Methods in Clinical Research using IBM SPSS (UPES Dehradun) Spring 2021 SI 534 Nonparametric statistics (Teaching Assistant, IIT Bombay) Autumn 2021 SI 505 Multivariate analysis (Teaching Assistant, IIT Bombay) Spring 2020 SI 422 Regression Analysis (Teaching Assistant, IIT Bombay) Autumn 2020 SI 417 Introduction to Probability Theory (Teaching Assistant, IIT Bombay) Spring 2019 SI 404 Applied Stochastic Process (Teaching Assistant, IIT Bombay)"
+        }
     ],
     "research_interests": [
         "Statistics, Probability, Stochastic process, Data Science, Distribution theory. PUBLISHED PAPERS",

@@ -3,15 +3,48 @@
         "name": "Dr. Amit K Parikh",
         "email": "principal.mubiob@ganpatuniversity.ac.in",
         "phone": "9723253971",
+        "phones": [
+            "9723253971"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Degree University Month &Year Percentage B.Sc. (Mathematics) GujaratUniversity May, 1992 78 M.Sc. (Mathematics) GujaratUniversity May, 1994 68 M.Phil. (Mathematics) GujaratUniversity July, 1998 77 Ph.D. SVNIT, Surat April, 2014 M.Phil. Dissertation:",
-        "Title: Study of Continuous Functions",
-        "Guide: Prof. I. H. Sheth, Department of Mathematics, Gujarat University, Ahmedabad. Ph.D. Thesis:",
-        "Title: Analytical solution of nonlinear partial differential equations of some phenomena arising in fluid flow through porous media",
-        "Guide: Prof. M.N.Mehta & Dr.V.H.Pradhan, SVNIT, Surat. Page 1 of 30"
+        {
+            "degree": "B.Sc.",
+            "graduation_year": "1992",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Degree University Month &Year Percentage B.Sc. (Mathematics) GujaratUniversity May, 1992 78 M.Sc. (Mathematics) GujaratUniversity May, 1994 68 M.Phil. (Mathematics) GujaratUniversity July, 1998 77 Ph.D. SVNIT, Surat April, 2014 M.Phil. Dissertation:"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Title: Study of Continuous Functions"
+        },
+        {
+            "degree": "me",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Gujarat University",
+            "raw_text": "Guide: Prof. I. H. Sheth, Department of Mathematics, Gujarat University, Ahmedabad. Ph.D. Thesis:"
+        },
+        {
+            "degree": "me",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Title: Analytical solution of nonlinear partial differential equations of some phenomena arising in fluid flow through porous media"
+        },
+        {
+            "degree": "Me",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Guide: Prof. M.N.Mehta & Dr.V.H.Pradhan, SVNIT, Surat. Page 1 of 30"
+        }
     ],
     "experience": [],
     "research_interests": [

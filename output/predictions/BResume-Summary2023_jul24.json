@@ -2,37 +2,151 @@
     "personal_details": {
         "name": "BHUMIKA SHAH",
         "email": "drbhumikashah@gmail.com",
-        "phone": "+919727797105",
+        "phone": "9727797105",
+        "phones": [
+            "9727797105"
+        ],
         "address": ""
     },
     "summary": [
         "Highly accomplished computer science professor with over 20 years of experience teaching at the\nuniversity level, seeking a full time position which is research and industry oriented to enable improve\ntechnological standards in overall learning community. Demonstrated excellence in teaching and\nresearch, and a strong commitment to student success."
     ],
     "education": [
-        "PhD Gujarat University, Department of Computer Science April 2020 Title: “An Innovative Framework for Remote Database Experimentation” MCA IGNOU (Indira Gandhi National Open University), Computer Science May 2007 (Masters in Computer Applications)"
+        {
+            "degree": "PhD",
+            "graduation_year": "2020",
+            "cgpa": "",
+            "institution": "PhD Gujarat University",
+            "raw_text": "PhD Gujarat University, Department of Computer Science April 2020 Title: “An Innovative Framework for Remote Database Experimentation” MCA IGNOU (Indira Gandhi National Open University), Computer Science May 2007 (Masters in Computer Applications)"
+        }
     ],
     "experience": [
-        " Department of Computer Science, Gujarat University, Ahmedabad, Gujarat August 2011 – Present",
-        "Provided comprehensive academic support to the head of the Department of Computer Science.",
-        "Taught MCA(Masters of Computer Application students) – masters course averaging 40 students per semester covering following topics: Database Management Systems, Java Programming and Full stack Development Bhumika Shah - 1",
-        "Taught M.Sc(Masters in Science-Computer Science) students) – undergraduate course averaging 120 students per semester covering following topics: HTML, CSS, JavaScript, Database management system and Front end web development.",
-        "Developed quizzes, exams, and homework",
-        "Revised the syllabus to meet accreditation standards",
-        "Designed the new syllabus as per the new education policy (NEP 2020)",
-        "Served as a student counselor (mentor) for incoming freshman students.",
-        "Designed syllabi for the M.Sc. course, specializing in subjects like Database Management Systems, Java Programming, HTML, CSS, JavaScript, and more.",
-        "Represented the department at international conferences and academic events, fostering networking and collaboration opportunities.",
-        "Organized state and national-level workshops, seminars, and events to enhance the learning experience of students.",
-        "Deliver engaging lectures and tutorials for both undergraduate and graduate students, employing effective teaching methodologies.",
-        "Actively involved in writing research funding proposals, contributing to the department's research initiatives.",
-        "Provide guidance and mentorship to project students, assisting them with their dissertations and project work.",
-        "Oversee the entire placement process for graduating batches, ensuring successful career opportunities for students.",
-        "Design pedagogy for all STEM courses, promoting innovative and effective teaching practices.  Department of Computer Science, IBMR College, Pune, Maharashtra January 2006 - March 2011",
-        "Conducted lectures and tutorials for undergraduate and graduate students, delivering comprehensive and engaging educational content.",
-        "Represented the department at international conferences and academic events, fostering professional growth and knowledge exchange.",
-        "Organized state and national-level workshops, seminars, and events to enhance students' learning experience.",
-        "Managed the entire placement process for graduating batches, facilitating successful career transitions for students.",
-        "Provided mentorship and guidance to project students, supporting them in their dissertations and project work.  Developed GU_DB, a Database system Prototype, integrated with Virtual laboratory as a front end. Published a paper in the International Journal of Advanced Computer Research.  Integrated GU_DB with Automated Assessment of SQL Queries and published the work in FICTA-2021, NIT Mizoram.  Conducted research on Image processing for training image pixels, resulting in the publication of the work on ImageGPT with Super resolution in February 2022.  Extensive work on Query Optimization in various contexts.  Created an Innovative Framework for Remote Database Experimentation, integrating it with Learning Management Systems hosted at IIT-B portal. Bhumika Shah - 2  Proposed efficient retrieval in Multi-lingual systems for E-Governance resources, published in IEEE, ICTBIG'16.  Developed an innovative approach for sub-query optimization, published in a Springer Conference, UK,"
+        {
+            "job_title": "",
+            "dates": "August 2011 – Present",
+            "institution": "Gujarat University",
+            "raw_text": " Department of Computer Science, Gujarat University, Ahmedabad, Gujarat August 2011 – Present"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Provided comprehensive academic support to the head of the Department of Computer Science."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Taught MCA(Masters of Computer Application students) – masters course averaging 40 students per semester covering following topics: Database Management Systems, Java Programming and Full stack Development Bhumika Shah - 1"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Taught M.Sc(Masters in Science-Computer Science) students) – undergraduate course averaging 120 students per semester covering following topics: HTML, CSS, JavaScript, Database management system and Front end web development."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Developed quizzes, exams, and homework"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Revised the syllabus to meet accreditation standards"
+        },
+        {
+            "job_title": "",
+            "dates": "2020",
+            "institution": "",
+            "raw_text": "Designed the new syllabus as per the new education policy (NEP 2020)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Served as a student counselor (mentor) for incoming freshman students."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Designed syllabi for the M.Sc. course, specializing in subjects like Database Management Systems, Java Programming, HTML, CSS, JavaScript, and more."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Represented the department at international conferences and academic events, fostering networking and collaboration opportunities."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Organized state and national-level workshops, seminars, and events to enhance the learning experience of students."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Deliver engaging lectures and tutorials for both undergraduate and graduate students, employing effective teaching methodologies."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Actively involved in writing research funding proposals, contributing to the department's research initiatives."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Provide guidance and mentorship to project students, assisting them with their dissertations and project work."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Oversee the entire placement process for graduating batches, ensuring successful career opportunities for students."
+        },
+        {
+            "job_title": "",
+            "dates": "January 2006 - March 2011",
+            "institution": "IBMR College",
+            "raw_text": "Design pedagogy for all STEM courses, promoting innovative and effective teaching practices.  Department of Computer Science, IBMR College, Pune, Maharashtra January 2006 - March 2011"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Conducted lectures and tutorials for undergraduate and graduate students, delivering comprehensive and engaging educational content."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Represented the department at international conferences and academic events, fostering professional growth and knowledge exchange."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Organized state and national-level workshops, seminars, and events to enhance students' learning experience."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Managed the entire placement process for graduating batches, facilitating successful career transitions for students."
+        },
+        {
+            "job_title": "",
+            "dates": "2021",
+            "institution": "",
+            "raw_text": "Provided mentorship and guidance to project students, supporting them in their dissertations and project work.  Developed GU_DB, a Database system Prototype, integrated with Virtual laboratory as a front end. Published a paper in the International Journal of Advanced Computer Research.  Integrated GU_DB with Automated Assessment of SQL Queries and published the work in FICTA-2021, NIT Mizoram.  Conducted research on Image processing for training image pixels, resulting in the publication of the work on ImageGPT with Super resolution in February 2022.  Extensive work on Query Optimization in various contexts.  Created an Innovative Framework for Remote Database Experimentation, integrating it with Learning Management Systems hosted at IIT-B portal. Bhumika Shah - 2  Proposed efficient retrieval in Multi-lingual systems for E-Governance resources, published in IEEE, ICTBIG'16.  Developed an innovative approach for sub-query optimization, published in a Springer Conference, UK,"
+        }
     ],
     "research_interests": [],
     "skills": [

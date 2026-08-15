@@ -2,17 +2,44 @@
     "personal_details": {
         "name": "",
         "email": "cvrkvit@gmail.com",
-        "phone": "+918309450722",
+        "phone": "8309450722",
+        "phones": [
+            "8309450722"
+        ],
         "address": ""
     },
     "summary": [
         "To secure a challenging position where I can effectively contribute my skills as a Professional,\npossessing competent Technical Skills\nWork Experience : 15 +Yrs\n Working as a Associate. Professor in School of Electronics Engineering at VIT University\nVellore from Jan 2023 to till date.\nWorked as a Asst. Professor, Asst. professor senior grade in School of Electronics Engineering\nat VIT University Vellore from June 2012 to Dec 2023.\n.\n Worked as a Assistant Professor in Electronics & Communications Department at VBIT\n(Institute of Technology, Ghatkesar, Hyderabad (dist.) from July 2009 to June 2012"
     ],
     "education": [
-        "Examination Sp D e i c s i c a i l p iz li a n t e io / n Un B i",
-        "ve a r rd si / t y Percentage Ph.D Wireless Communication VIT M.Tech Co D m ig m it u a n l i E ca le ti c",
-        "t n ro n S i y c s s t e & m s An J a N nt T h U ap , ur 71% B.Tech Electronics E a n n g d in C ee",
-        "r m in m g unications Anna University 67% Intermediate Science + Maths Stream B.I.E 83% SSC SSC SSC 59 Subjects handled Computer Communication Digital Communication Data Communication systems Telecommunication switching systems and networks Analog Communication Microwave Engineering Network Security Antennas and Wave Propagation Wireless Communication M2M Communication Principles of computer communication Principles of communication"
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Examination Sp D e i c s i c a i l p iz li a n t e io / n Un B i"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "ve a r rd si / t y Percentage Ph.D Wireless Communication VIT M.Tech Co D m ig m it u a n l i E ca le ti c"
+        },
+        {
+            "degree": "B.Tech",
+            "graduation_year": "",
+            "cgpa": "71%",
+            "institution": "",
+            "raw_text": "t n ro n S i y c s s t e & m s An J a N nt T h U ap , ur 71% B.Tech Electronics E a n n g d in C ee"
+        },
+        {
+            "degree": "me",
+            "graduation_year": "",
+            "cgpa": "67%",
+            "institution": "Anna University",
+            "raw_text": "r m in m g unications Anna University 67% Intermediate Science + Maths Stream B.I.E 83% SSC SSC SSC 59 Subjects handled Computer Communication Digital Communication Data Communication systems Telecommunication switching systems and networks Analog Communication Microwave Engineering Network Security Antennas and Wave Propagation Wireless Communication M2M Communication Principles of computer communication Principles of communication"
+        }
     ],
     "experience": [],
     "research_interests": [],

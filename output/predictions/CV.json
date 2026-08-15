@@ -2,15 +2,30 @@
     "personal_details": {
         "name": "Master’s Thesis: “Study of Binary Gravitational",
         "email": "sampurna2492@gmail.com",
-        "phone": "+919540734746",
+        "phone": "9540734746",
+        "phones": [
+            "9540734746",
+            "9101900465"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Srivilliputhur, Tamil Nadu Designation: Assistant Professor, Full Time Subjects Taught: Numerical Methods, Differential Equations. 2016-2020 Ph.D. in Mathematics Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India"
+        {
+            "degree": "me",
+            "graduation_year": "2016-2020",
+            "cgpa": "",
+            "institution": "Mathematics Indian Institute of Engineering Science and Technology",
+            "raw_text": "Srivilliputhur, Tamil Nadu Designation: Assistant Professor, Full Time Subjects Taught: Numerical Methods, Differential Equations. 2016-2020 Ph.D. in Mathematics Indian Institute of Engineering Science and Technology, Shibpur, West Bengal, India"
+        }
     ],
     "experience": [
-        "Hindi Bengali January Department of Mathematics 2023 - Bharati Vidyapeeth Deemed University Programming Languages Present Department of Engineering and Technology MATLAB Navi Mumbai, Mumbai Python Designation: Assistant Professor, Full Time Subjects Taught: Probability and Statistics, Linear Algebra. July 2021 - Department of Mathematics December 2021 Kalasalingam Academy of Research and Grade A+"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2023",
+            "institution": "Bharati Vidyapeeth Deemed University",
+            "raw_text": "Hindi Bengali January Department of Mathematics 2023 - Bharati Vidyapeeth Deemed University Programming Languages Present Department of Engineering and Technology MATLAB Navi Mumbai, Mumbai Python Designation: Assistant Professor, Full Time Subjects Taught: Probability and Statistics, Linear Algebra. July 2021 - Department of Mathematics December 2021 Kalasalingam Academy of Research and Grade A+"
+        }
     ],
     "research_interests": [
         "Thesis: ”Impact of Environmental Variability on Multi-Species Ecological Systems with Type-III Functional Response” (Thesis defended successfully on 10th February",

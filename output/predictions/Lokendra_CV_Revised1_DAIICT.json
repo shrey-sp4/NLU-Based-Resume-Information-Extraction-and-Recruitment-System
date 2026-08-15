@@ -2,16 +2,36 @@
     "personal_details": {
         "name": "Dr. Lokendra Chouhan, SMIEEE",
         "email": "lokendrachouhan22@gmail.com",
-        "phone": "+918889345941",
+        "phone": "8889345941",
+        "phones": [
+            "8889345941",
+            "9154351381"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "PhD Visvesvaraya National Institute of Technology, Nagpur, India. Doctor of Philosophy, Electronics and Communication Engineering Specialization: Molecular Communication Advisor: Dr. Prabhat K. Sharma Thesis Title: Diffusive Molecular Communication for Nano-Networks: Performance Analysis and Optimization. (2020) Masters Institute of Engineering, DAVV, Indore, India. Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008) 12th Govt Higher Secondary School, MP Board, Satwas, Dewas, India. Higher Secondary, Physics, Chemistry and Maths. Grade: 73.4% (2003) 10th New Diamond Higher Secondary School, MP Board, Satwas, Dewas, India. High Secondary, Grade: 71.2% (2001)"
+        {
+            "degree": "PhD",
+            "graduation_year": "2020",
+            "cgpa": "76%",
+            "institution": "PhD Visvesvaraya National Institute of Technology",
+            "raw_text": "PhD Visvesvaraya National Institute of Technology, Nagpur, India. Doctor of Philosophy, Electronics and Communication Engineering Specialization: Molecular Communication Advisor: Dr. Prabhat K. Sharma Thesis Title: Diffusive Molecular Communication for Nano-Networks: Performance Analysis and Optimization. (2020) Masters Institute of Engineering, DAVV, Indore, India. Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008) 12th Govt Higher Secondary School, MP Board, Satwas, Dewas, India. Higher Secondary, Physics, Chemistry and Maths. Grade: 73.4% (2003) 10th New Diamond Higher Secondary School, MP Board, Satwas, Dewas, India. High Secondary, Grade: 71.2% (2001)"
+        }
     ],
     "experience": [
-        "Assistant Professor, Indian Institute of Information Technology, Sri City, AP. Key Subjects: Signals and systems, Information Theory and Coding, EMTL, Digital Electronics, Wireless communication systems lab etc. (November 2022-Present) Postdoctoral Research Fellow, King Abdullah University of Science and Technol-",
-        "gy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur. Key Subjects: Signalsandsystems,AnalogCommunication,DigitalElectronics,Wireless communication systems lab etc. (July 2017 - September 2020) PhD Research, Visvesvaraya National Institute of Technology, Nagpur. Research Topic: Performance Analysis and Optimizations in Diffusive Molecular Com- munication. Mentor: Prof. Prabhat K Sharma. (July 2017 - September 2020) Assistant Professor, Medi-Caps University, Indore. Key Subjects: Electromagnetic, Communication System, Signals and systems, Ana- log Communication, Digital Electronics, Wireless communication systems lab etc. Key Responsibilities: Mentored several B.tech and M.tech students in their final year projects. Involved in supervision of extracurricular activities such as sports and cultural events. (September 2010- July 2017) Assistant Professor, Oriental University, Indore. Key Subjects: Electromagnetic, Control System, VHDL lab etc. (2009-10) Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 1/7 Mentored,"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "November 2022-Present",
+            "institution": "Indian Institute of Information Technology",
+            "raw_text": "Assistant Professor, Indian Institute of Information Technology, Sri City, AP. Key Subjects: Signals and systems, Information Theory and Coding, EMTL, Digital Electronics, Wireless communication systems lab etc. (November 2022-Present) Postdoctoral Research Fellow, King Abdullah University of Science and Technol-"
+        },
+        {
+            "job_title": "Senior Research",
+            "dates": "July 2021-November 2022",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "gy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur. Key Subjects: Signalsandsystems,AnalogCommunication,DigitalElectronics,Wireless communication systems lab etc. (July 2017 - September 2020) PhD Research, Visvesvaraya National Institute of Technology, Nagpur. Research Topic: Performance Analysis and Optimizations in Diffusive Molecular Com- munication. Mentor: Prof. Prabhat K Sharma. (July 2017 - September 2020) Assistant Professor, Medi-Caps University, Indore. Key Subjects: Electromagnetic, Communication System, Signals and systems, Ana- log Communication, Digital Electronics, Wireless communication systems lab etc. Key Responsibilities: Mentored several B.tech and M.tech students in their final year projects. Involved in supervision of extracurricular activities such as sports and cultural events. (September 2010- July 2017) Assistant Professor, Oriental University, Indore. Key Subjects: Electromagnetic, Control System, VHDL lab etc. (2009-10) Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 1/7 Mentored,"
+        }
     ],
     "research_interests": [
         "(cid:123) 5G/6G wireless communications. (cid:123) Semantic Communications (cid:123) Molecular communication (cid:123) Nano-scale communications/nano-networking (cid:123) Internet of bio-nano things (IoBNT) and body-area-networks (BAN) for communi- cations. (cid:123) Synaptic and neuro-spike communications. (cid:123) Tera-Hertz communications. Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 4/7 Key Coursework",

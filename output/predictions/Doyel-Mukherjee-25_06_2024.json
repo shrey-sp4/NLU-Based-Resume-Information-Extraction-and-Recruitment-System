@@ -3,14 +3,26 @@
         "name": "",
         "email": "",
         "phone": "",
+        "phones": [],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Pursuing Ph.D in Management (Research Scholar) University of Engineering & Management 04/2024 – present | Kolkata, India MBA (Marketing, Finance) Heritage Business School 2016 | Kolkata, India CGPA:8.22 B-Tech (Computer Science) WBUT 2012 | Kolkata, India CGPA:8.55 Higher Secondary in Science with 67% marks Nava Nalanda High School, WBCHSE 2008 | Kolkata, India Madhyamik with 83% marks Nava Nalanda High School, WBBSE 2006 end-to-end knowledge and experience in various accreditation processes, including NBA and AICTE. Industry and Academic Collaboration: Conducted corporate connects by liaising with national and international resource persons, bridging the gap between industry and academia. The Neotia University Assistant Manager, Student Affairs 02/2022 – 10/2022 | Kolkata, India Organizing various university events, seminars and"
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2024",
+            "cgpa": "67%",
+            "institution": "University of Engineering & Management",
+            "raw_text": "Pursuing Ph.D in Management (Research Scholar) University of Engineering & Management 04/2024 – present | Kolkata, India MBA (Marketing, Finance) Heritage Business School 2016 | Kolkata, India CGPA:8.22 B-Tech (Computer Science) WBUT 2012 | Kolkata, India CGPA:8.55 Higher Secondary in Science with 67% marks Nava Nalanda High School, WBCHSE 2008 | Kolkata, India Madhyamik with 83% marks Nava Nalanda High School, WBBSE 2006 end-to-end knowledge and experience in various accreditation processes, including NBA and AICTE. Industry and Academic Collaboration: Conducted corporate connects by liaising with national and international resource persons, bridging the gap between industry and academia. The Neotia University Assistant Manager, Student Affairs 02/2022 – 10/2022 | Kolkata, India Organizing various university events, seminars and"
+        }
     ],
     "experience": [
-        "Mukherjee iLead Adjunct Faculty in Management 03/2024 – present | Kolkata, India 10/2022 – 03/2024 | Kolkata, India Doyel Mukherjee Prodhan Kolkata"
+        {
+            "job_title": "",
+            "dates": "2024",
+            "institution": "",
+            "raw_text": "Mukherjee iLead Adjunct Faculty in Management 03/2024 – present | Kolkata, India 10/2022 – 03/2024 | Kolkata, India Doyel Mukherjee Prodhan Kolkata"
+        }
     ],
     "research_interests": [],
     "skills": [

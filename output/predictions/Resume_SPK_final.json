@@ -3,17 +3,49 @@
         "name": "SANAM PREET KOUR",
         "email": "",
         "phone": "9797021657",
+        "phones": [
+            "9797021657"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "TOOLS/LANGUAGES: 2021- Ph.D., Statistics (Pursuing) – University of Jammu Present 2019-2021 M.Phil. Statistics − University of Jammu (A-Grade) o SPSS",
-        "R 2017-2019 M.Sc. Statistics − University of Jammu o MS Excel, Word, Powerpoint. (8.58 CGPA) o LaTex",
-        "Statistics 2014-2017 B.Sc. with Statistics – GCW Gandhi Nagar, Jammu o Sample Survey (67.56%) o Estimation Theory",
-        "Data Analytics 2014 Senior Secondary – JK Board (71.4%) 2012 Secondary – JK Board (80%)"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2021",
+            "cgpa": "",
+            "institution": "University of Jammu Present",
+            "raw_text": "TOOLS/LANGUAGES: 2021- Ph.D., Statistics (Pursuing) – University of Jammu Present 2019-2021 M.Phil. Statistics − University of Jammu (A-Grade) o SPSS"
+        },
+        {
+            "degree": "M.Sc.",
+            "graduation_year": "2017-2019",
+            "cgpa": "",
+            "institution": "University of Jammu",
+            "raw_text": "R 2017-2019 M.Sc. Statistics − University of Jammu o MS Excel, Word, Powerpoint. (8.58 CGPA) o LaTex"
+        },
+        {
+            "degree": "B.Sc.",
+            "graduation_year": "2014-2017",
+            "cgpa": "67.56%",
+            "institution": "",
+            "raw_text": "Statistics 2014-2017 B.Sc. with Statistics – GCW Gandhi Nagar, Jammu o Sample Survey (67.56%) o Estimation Theory"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2014",
+            "cgpa": "71.4%",
+            "institution": "",
+            "raw_text": "Data Analytics 2014 Senior Secondary – JK Board (71.4%) 2012 Secondary – JK Board (80%)"
+        }
     ],
     "experience": [
-        "• 4 years of research experience. I have attended many workshops, national and international conferences during this period. Also, work on one Research and Seed grant on the topic “Forced Scrambled Optional Randomized Response Model for Concurrent Estimation of Means of Sensitive Variable” under the Head ‘Quality Assurance Fund (DIQA)’, Dean Research Studies, University of Jammu, Jammu, J&K."
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "University of Jammu",
+            "raw_text": "• 4 years of research experience. I have attended many workshops, national and international conferences during this period. Also, work on one Research and Seed grant on the topic “Forced Scrambled Optional Randomized Response Model for Concurrent Estimation of Means of Sensitive Variable” under the Head ‘Quality Assurance Fund (DIQA)’, Dean Research Studies, University of Jammu, Jammu, J&K."
+        }
     ],
     "research_interests": [],
     "skills": [],

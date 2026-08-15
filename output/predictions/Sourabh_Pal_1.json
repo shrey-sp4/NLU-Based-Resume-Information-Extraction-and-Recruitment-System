@@ -3,11 +3,18 @@
         "name": "Sourabh Pal",
         "email": "sourabhpal1998@gmail.com",
         "phone": "",
+        "phones": [],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Academic College/School University/Board Yearof Percentage Passing M.Tech Galgotias University Galgotias 2024 76% (CSE) University B.Tech Bhagwati Institute A.K.T.U 2022 67% (CSE) of Technology & Science Diploma Guru TeghBahadur B.T.E 2018 68% (CSE) Polytechnic of Institute 12th RamJasSr SecSchool C.B.S.E 2015 62% 10th Babu RamSrSec C.B.S.E 2013 64% School"
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2024",
+            "cgpa": "76%",
+            "institution": "Academic College",
+            "raw_text": "Academic College/School University/Board Yearof Percentage Passing M.Tech Galgotias University Galgotias 2024 76% (CSE) University B.Tech Bhagwati Institute A.K.T.U 2022 67% (CSE) of Technology & Science Diploma Guru TeghBahadur B.T.E 2018 68% (CSE) Polytechnic of Institute 12th RamJasSr SecSchool C.B.S.E 2015 62% 10th Babu RamSrSec C.B.S.E 2013 64% School"
+        }
     ],
     "experience": [],
     "research_interests": [

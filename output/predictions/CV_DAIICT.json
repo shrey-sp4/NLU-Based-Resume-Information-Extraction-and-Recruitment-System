@@ -3,17 +3,62 @@
         "name": "",
         "email": "ishasharmaphy@iitkgp.ac.in",
         "phone": "8130349452",
+        "phones": [
+            "8130349452"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "• 2018-2024: PhD,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India.",
-        "2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89.",
-        "2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96",
-        "2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%",
-        "2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS",
-        "Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications",
-        "M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
+        {
+            "degree": "PhD",
+            "graduation_year": "2018-2024",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "• 2018-2024: PhD,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India."
+        },
+        {
+            "degree": "Be",
+            "graduation_year": "2016-2018",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89."
+        },
+        {
+            "degree": "",
+            "graduation_year": "2013-2016",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2013",
+            "cgpa": "92%",
+            "institution": "School",
+            "raw_text": "2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2011",
+            "cgpa": "",
+            "institution": "School",
+            "raw_text": "2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications"
+        },
+        {
+            "degree": "M.Sc.",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
+        }
     ],
     "experience": [],
     "research_interests": [

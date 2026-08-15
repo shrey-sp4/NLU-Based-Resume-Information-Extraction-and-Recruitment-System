@@ -1,18 +1,32 @@
 {
     "personal_details": {
-        "name": "Ashish Kumar Soni Address-Hingna Road ,Wadi",
+        "name": "Ashish Kumar Soni",
         "email": "ashishsn9@gmail.com",
-        "phone": "9179746309",
+        "phone": "7974630940",
+        "phones": [
+            "7974630940"
+        ],
         "address": ""
     },
     "summary": [
         "To utilize my core technical competencies and unleash my potential as solution finder for\nindividual & organizational growth."
     ],
     "education": [
-        "Course Year of Institution Board/University Percentage Passing PhD-CSE(P) Reg- VNIT,NAGPUR VNIT,NAGPUR Pursuing 2023 M.E 2015-2018 IET,DAVV,INDORE DAVV, INDORE 94%(CGPA 9.4) (Software Engineering) Bachelor of 2006-2010 Shree Institute of RGTU, Bhopal 76.12%(HON.) Engineering(CSE) science & technology, Bhopal Higher Secondary 2006 School for excellence M.P. Educational 73.3% Seoni(M.P) Board, Bhopal High School 2004 School for excellence M.P. Educational 77.1% Seoni(M.P) Board, Bhopal"
+        {
+            "degree": "PhD",
+            "graduation_year": "2023",
+            "cgpa": "94%",
+            "institution": "Shree Institute of RGTU",
+            "raw_text": "Course Year of Institution Board/University Percentage Passing PhD-CSE(P) Reg- VNIT,NAGPUR VNIT,NAGPUR Pursuing 2023 M.E 2015-2018 IET,DAVV,INDORE DAVV, INDORE 94%(CGPA 9.4) (Software Engineering) Bachelor of 2006-2010 Shree Institute of RGTU, Bhopal 76.12%(HON.) Engineering(CSE) science & technology, Bhopal Higher Secondary 2006 School for excellence M.P. Educational 73.3% Seoni(M.P) Board, Bhopal High School 2004 School for excellence M.P. Educational 77.1% Seoni(M.P) Board, Bhopal"
+        }
     ],
     "experience": [
-        " 10.8 YEAR regular experience in MIST (MALWA), Indore as a Asst.Prof. in CSE Dept.  Presently working(2.4 Yr) as a Assistant professor Dept. of CSE in GHRCE, Nagpur.(NAAC A++,NBA ACCREDATED)"
+        {
+            "job_title": "Assistant professor",
+            "dates": "",
+            "institution": "",
+            "raw_text": " 10.8 YEAR regular experience in MIST (MALWA), Indore as a Asst.Prof. in CSE Dept.  Presently working(2.4 Yr) as a Assistant professor Dept. of CSE in GHRCE, Nagpur.(NAAC A++,NBA ACCREDATED)"
+        }
     ],
     "research_interests": [],
     "skills": [

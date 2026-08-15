@@ -2,7 +2,10 @@
     "personal_details": {
         "name": "DR. MITESHKUMAR SOLANKI",
         "email": "Mitesh4physics@gmail.com",
-        "phone": "",
+        "phone": "8000117505",
+        "phones": [
+            "8000117505"
+        ],
         "address": ""
     },
     "summary": [],

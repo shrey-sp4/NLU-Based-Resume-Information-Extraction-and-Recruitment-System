@@ -2,28 +2,109 @@
     "personal_details": {
         "name": "DHWANILNATH GAUTAM",
         "email": "dhwanilnath@gmail.com",
-        "phone": "+918980888847",
+        "phone": "8980888847",
+        "phones": [
+            "8980888847"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "• Nirma University, Ahmedabad, India | Ph.D. in Geomatics 2018-2022",
-        "CEPT University, Ahmedabad, India | M.Tech. in Geomatics 2015-2017",
-        "Silver Oak University, Ahmedabad, India | B.E. in Electronics and Communication 2010-2015"
+        {
+            "degree": "me",
+            "graduation_year": "2018-2022",
+            "cgpa": "",
+            "institution": "Nirma University",
+            "raw_text": "• Nirma University, Ahmedabad, India | Ph.D. in Geomatics 2018-2022"
+        },
+        {
+            "degree": "me",
+            "graduation_year": "2015-2017",
+            "cgpa": "",
+            "institution": "CEPT University",
+            "raw_text": "CEPT University, Ahmedabad, India | M.Tech. in Geomatics 2015-2017"
+        },
+        {
+            "degree": "me",
+            "graduation_year": "2010-2015",
+            "cgpa": "",
+            "institution": "Silver Oak University",
+            "raw_text": "Silver Oak University, Ahmedabad, India | B.E. in Electronics and Communication 2010-2015"
+        }
     ],
     "experience": [
-        "Orbrick Consulting Pvt. Ltd., Ahmedabad, India | Corporate Consultant Mar 2024-Present",
-        "Providing solutions for deploying Machine Learning in employment management systems for higher education institutions. CEPT University, Ahmedabad, India | Program Chair & Assistant Professor Aug 2022-Present",
-        "Presiding Chair for the M. Tech. Geomatics program, focusing on curriculum development,",
-        "utreach, and research and academic collaborations with other organizations.",
-        "Teaching subjects including Geospatial Programming, GIS for Smart Cities, Applications of Spatial Big Data and Analytics, Geospatial Modelling and Applications, and Python for Statistics.",
-        "Managing other institutional responsibilities for Faculty of Technology, including Admissions Committee Coordinator and Computer Lab Coordinator (elaborated below). Nirma University, Ahmedabad, India | Lecturer Aug 2018-Sep 2022",
-        "Teaching subjects including Surveying, GIS, and Remote Sensing to students of B.E. (Civil Engineering) and providing guidance to students for minor projects and final thesis. ISRO, Ahmedabad, India | Graduate Student Researcher Jun 2018-Jan 2021",
-        "Conducting primary research and developing computational models in the fields of Applied Meteorology, Thermal and Multispectral Remote Sensing, and Machine Learning at the Space Applications Centre (SAC), Indian Space Research Organisation (ISRO), Ahmedabad. Gujarat University, Ahmedabad, India | Visiting Faculty Jul 2017-Jun 2018",
-        "Teaching subjects including Spatial Analysis and Statistics, Natural Resource Management, and GIS Lab to students of M.Sc. (Geoinformatics). St. Xavier’s College, Ahmedabad, India | Researcher Oct 2017-Jun 2018",
-        "Conducting primary research under the project “Quantization of Aerosol Radiative Forcing over an Urban Environment” at the Department of Physics and Electronics at St. Xavier’s College. DISSERTATIONS GUIDED AT CEPT UNIVERSITY Bachelor’s Thesis 2023-2024",
-        "Thesis Title: “Cooling the Concrete Jungle: Geospatial Insights into Urban Heat Islands and Urban Built Forms” Master’s Thesis 2022-2023",
-        "Thesis Title: “Modelling glacial retreat using Machine learning Techniques” https://portfolio.cept.ac.in/2023/S/ft/drp/ge4050-drp000804-spring-2023"
+        {
+            "job_title": "",
+            "dates": "Mar 2024-Present",
+            "institution": "",
+            "raw_text": "Orbrick Consulting Pvt. Ltd., Ahmedabad, India | Corporate Consultant Mar 2024-Present"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "Aug 2022-Present",
+            "institution": "CEPT University",
+            "raw_text": "Providing solutions for deploying Machine Learning in employment management systems for higher education institutions. CEPT University, Ahmedabad, India | Program Chair & Assistant Professor Aug 2022-Present"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Presiding Chair for the M. Tech. Geomatics program, focusing on curriculum development,"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "utreach, and research and academic collaborations with other organizations."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Teaching subjects including Geospatial Programming, GIS for Smart Cities, Applications of Spatial Big Data and Analytics, Geospatial Modelling and Applications, and Python for Statistics."
+        },
+        {
+            "job_title": "",
+            "dates": "Aug 2018-Sep 2022",
+            "institution": "Nirma University",
+            "raw_text": "Managing other institutional responsibilities for Faculty of Technology, including Admissions Committee Coordinator and Computer Lab Coordinator (elaborated below). Nirma University, Ahmedabad, India | Lecturer Aug 2018-Sep 2022"
+        },
+        {
+            "job_title": "",
+            "dates": "Jun 2018-Jan 2021",
+            "institution": "",
+            "raw_text": "Teaching subjects including Surveying, GIS, and Remote Sensing to students of B.E. (Civil Engineering) and providing guidance to students for minor projects and final thesis. ISRO, Ahmedabad, India | Graduate Student Researcher Jun 2018-Jan 2021"
+        },
+        {
+            "job_title": "",
+            "dates": "Jul 2017-Jun 2018",
+            "institution": "Space Applications Centre",
+            "raw_text": "Conducting primary research and developing computational models in the fields of Applied Meteorology, Thermal and Multispectral Remote Sensing, and Machine Learning at the Space Applications Centre (SAC), Indian Space Research Organisation (ISRO), Ahmedabad. Gujarat University, Ahmedabad, India | Visiting Faculty Jul 2017-Jun 2018"
+        },
+        {
+            "job_title": "",
+            "dates": "Oct 2017-Jun 2018",
+            "institution": "College",
+            "raw_text": "Teaching subjects including Spatial Analysis and Statistics, Natural Resource Management, and GIS Lab to students of M.Sc. (Geoinformatics). St. Xavier’s College, Ahmedabad, India | Researcher Oct 2017-Jun 2018"
+        },
+        {
+            "job_title": "",
+            "dates": "2023-2024",
+            "institution": "College",
+            "raw_text": "Conducting primary research under the project “Quantization of Aerosol Radiative Forcing over an Urban Environment” at the Department of Physics and Electronics at St. Xavier’s College. DISSERTATIONS GUIDED AT CEPT UNIVERSITY Bachelor’s Thesis 2023-2024"
+        },
+        {
+            "job_title": "",
+            "dates": "2022-2023",
+            "institution": "",
+            "raw_text": "Thesis Title: “Cooling the Concrete Jungle: Geospatial Insights into Urban Heat Islands and Urban Built Forms” Master’s Thesis 2022-2023"
+        },
+        {
+            "job_title": "",
+            "dates": "2023",
+            "institution": "",
+            "raw_text": "Thesis Title: “Modelling glacial retreat using Machine learning Techniques” https://portfolio.cept.ac.in/2023/S/ft/drp/ge4050-drp000804-spring-2023"
+        }
     ],
     "research_interests": [
         "PRESENTED",

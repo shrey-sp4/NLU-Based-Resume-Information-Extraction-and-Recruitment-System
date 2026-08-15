@@ -3,6 +3,9 @@
         "name": "Aakash Choudhary",
         "email": "achoudhary1396@gmail.com",
         "phone": "7838270379",
+        "phones": [
+            "7838270379"
+        ],
         "address": ""
     },
     "summary": [],

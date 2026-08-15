@@ -2,12 +2,21 @@
     "personal_details": {
         "name": "Rakesh Ranjan",
         "email": "rakeshranjan2911@gmail.com",
-        "phone": "+918287526006",
+        "phone": "8287526006",
+        "phones": [
+            "8287526006"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. CurrentStatus:ThesisSubmittedon1stOctober2024. ResearchArea:Beyond5G/6GWirelessCommunicationTechnologysuchasIntelligentRe- flectingSurface(IRS)-aidedCommunicationSystems,IntegratedSensingandCommunication (ISAC). ThesisTitle:EfficientPhaseShiftOptimizationFrameworkforIntelligentReflectingSurface (IRS)-AidedWirelessSystems. Supervisor:Dr.HimanshuBhusanMishra,AssociateProfessor. Co-supervisor:Dr.SamratMukhopadhyay,AssistantProfessor. 2017–2019 ] MasterofTechnology(M.Tech.)inCommunicationandSignalProcessing. ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. ThesisTitle: AdaptiveWidebandBeamformingWithSensorsDelayLines. 2009–2013 ] BachelorofTechnologyinElectronicsandCommunicationEngineering. TheUniversityofBurdwan-Burdwan,WestBengal,India,713104."
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2019–2024",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. CurrentStatus:ThesisSubmittedon1stOctober2024. ResearchArea:Beyond5G/6GWirelessCommunicationTechnologysuchasIntelligentRe- flectingSurface(IRS)-aidedCommunicationSystems,IntegratedSensingandCommunication (ISAC). ThesisTitle:EfficientPhaseShiftOptimizationFrameworkforIntelligentReflectingSurface (IRS)-AidedWirelessSystems. Supervisor:Dr.HimanshuBhusanMishra,AssociateProfessor. Co-supervisor:Dr.SamratMukhopadhyay,AssistantProfessor. 2017–2019 ] MasterofTechnology(M.Tech.)inCommunicationandSignalProcessing. ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. ThesisTitle: AdaptiveWidebandBeamformingWithSensorsDelayLines. 2009–2013 ] BachelorofTechnologyinElectronicsandCommunicationEngineering. TheUniversityofBurdwan-Burdwan,WestBengal,India,713104."
+        }
     ],
     "experience": [],
     "research_interests": [

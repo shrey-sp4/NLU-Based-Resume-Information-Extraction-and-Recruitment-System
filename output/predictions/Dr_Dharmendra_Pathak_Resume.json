@@ -2,14 +2,23 @@
     "personal_details": {
         "name": "Dr. Dharmendra Pathak",
         "email": "dharmendra.pathak281086@gmail.com",
-        "phone": "09202238453",
+        "phone": "9202238453",
+        "phones": [
+            "9202238453"
+        ],
         "address": ""
     },
     "summary": [
         "To become a member of an organization where I can utilize my technical skills and attitude\ntowards the growth of the organization and self-development"
     ],
     "education": [
-        "Degree/ Year of Institution Board / University Percentage/GGPA Schooling Passing Thesis: EEG based Brain-Computer Ph.D. in Amity School of Interface (BCI) Deep Computer Engineering & Amity University Learning Model for 2024 Science Technology, Chhattisgarh E-Learning Engineering Raipur Knowledge Tracing and Recommendations Devi Ahilya M.Tech. School of University (Information 9.51 GGPA Computer (D.A.V.V.), Indore, 2012 Architecture & 9.45 CGPA Science and I.T. M.P. Software (DAVV TOPPER) (SCSIT), Indore Engineering) Swami B.E. Rajiv Gandhi Vivekananda (Computer Technical University 76.38% (Hons.) College of 2009 Science & (R.G.T.U.), Bhopal, Engineering, Engineering) M.P. Indore New Pink Higher Flower H.S. M.P. Board 2005 86.22% Secondary School, Indore New Pink High School Flower H.S. M.P. Board 2003 86.40% School, Indore Work Experience: 12 years 11 months S.No. Designation Institute/Organization Duration 1 Associate Chameli Devi Group of Institutions, 7th July 2012 to till date Professor Indore, M.P. 2 Lecturer Sanghvi Institute of Management and 17th Aug 2009 to 1st July, Science, Indore, M.P. 2010"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2024",
+            "cgpa": "76.38%",
+            "institution": "GGPA School",
+            "raw_text": "Degree/ Year of Institution Board / University Percentage/GGPA Schooling Passing Thesis: EEG based Brain-Computer Ph.D. in Amity School of Interface (BCI) Deep Computer Engineering & Amity University Learning Model for 2024 Science Technology, Chhattisgarh E-Learning Engineering Raipur Knowledge Tracing and Recommendations Devi Ahilya M.Tech. School of University (Information 9.51 GGPA Computer (D.A.V.V.), Indore, 2012 Architecture & 9.45 CGPA Science and I.T. M.P. Software (DAVV TOPPER) (SCSIT), Indore Engineering) Swami B.E. Rajiv Gandhi Vivekananda (Computer Technical University 76.38% (Hons.) College of 2009 Science & (R.G.T.U.), Bhopal, Engineering, Engineering) M.P. Indore New Pink Higher Flower H.S. M.P. Board 2005 86.22% Secondary School, Indore New Pink High School Flower H.S. M.P. Board 2003 86.40% School, Indore Work Experience: 12 years 11 months S.No. Designation Institute/Organization Duration 1 Associate Chameli Devi Group of Institutions, 7th July 2012 to till date Professor Indore, M.P. 2 Lecturer Sanghvi Institute of Management and 17th Aug 2009 to 1st July, Science, Indore, M.P. 2010"
+        }
     ],
     "experience": [],
     "research_interests": [

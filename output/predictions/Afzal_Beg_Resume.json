@@ -3,6 +3,10 @@
         "name": "Dr. AFZAL BEG",
         "email": "afzalbeg09@gmail.com",
         "phone": "9098248646",
+        "phones": [
+            "9098248646",
+            "7415952569"
+        ],
         "address": ""
     },
     "summary": [

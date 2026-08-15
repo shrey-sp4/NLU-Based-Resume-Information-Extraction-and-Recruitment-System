@@ -3,6 +3,9 @@
         "name": "Dr. Amit kumar",
         "email": "amitmsw08@gmail.com",
         "phone": "9732092011",
+        "phones": [
+            "9732092011"
+        ],
         "address": ""
     },
     "summary": [],

@@ -2,19 +2,56 @@
     "personal_details": {
         "name": "Dr. B. S. Ratanpal",
         "email": "bharatratanpal@gmail.com",
-        "phone": "+919825185736",
+        "phone": "9825185736",
+        "phones": [
+            "9825185736",
+            "8591657700"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "1. Ph.D in Applied Mathematics from The Maharaja Sayajirao University of Baroda Title: Application of Non-Linear Differential Equations in the Study of Superdense Stars on Geometrically Significant Spacetimes. Guide: Prof. S. Ramamohan",
-        "M. Sc. (Applied Mathematics) from The Maharaja Sayajirao University of Baroda with First Class (64.75).",
-        "B. Sc. (Mathematics) from The Maharaja Sayajirao University of Baroda with Second Class (56.75%)."
+        {
+            "degree": "Ph.D",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "The Maharaja Sayajirao University of Baroda Title",
+            "raw_text": "1. Ph.D in Applied Mathematics from The Maharaja Sayajirao University of Baroda Title: Application of Non-Linear Differential Equations in the Study of Superdense Stars on Geometrically Significant Spacetimes. Guide: Prof. S. Ramamohan"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "First Class",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "raw_text": "M. Sc. (Applied Mathematics) from The Maharaja Sayajirao University of Baroda with First Class (64.75)."
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "Second Class (56.75%)",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "raw_text": "B. Sc. (Mathematics) from The Maharaja Sayajirao University of Baroda with Second Class (56.75%)."
+        }
     ],
     "experience": [
-        "1. Assistant Professor, Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda, Vadodara from 24/07/2009 to present.",
-        "Lecturer, Babaria Institute of Technology, Varnama, Vadodara from 1/8/2006 to 19/7/2009.",
-        "Temporary Teaching Assitant, Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda, Vadodara from Dec 2001 to July 2006. Invited Lectures and Chairmanships at Regional / State / National or International"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2009",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "raw_text": "1. Assistant Professor, Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda, Vadodara from 24/07/2009 to present."
+        },
+        {
+            "job_title": "",
+            "dates": "2006",
+            "institution": "Babaria Institute of Technology",
+            "raw_text": "Lecturer, Babaria Institute of Technology, Varnama, Vadodara from 1/8/2006 to 19/7/2009."
+        },
+        {
+            "job_title": "",
+            "dates": "2001",
+            "institution": "The Maharaja Sayajirao University of Baroda",
+            "raw_text": "Temporary Teaching Assitant, Department of Applied Mathematics, Faculty of Technology & Engineering, The Maharaja Sayajirao University of Baroda, Vadodara from Dec 2001 to July 2006. Invited Lectures and Chairmanships at Regional / State / National or International"
+        }
     ],
     "research_interests": [],
     "skills": [],

@@ -1,8 +1,11 @@
 {
     "personal_details": {
-        "name": "Dr. Chandan Patra",
+        "name": "Chandan Patra CV page",
         "email": "chandanpatra9696@gmail.com",
         "phone": "9609513143",
+        "phones": [
+            "9609513143"
+        ],
         "address": ""
     },
     "summary": [],

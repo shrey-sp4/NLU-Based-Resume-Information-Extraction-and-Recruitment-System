@@ -3,12 +3,21 @@
         "name": "Dr. Kaushal Purohit",
         "email": "kaushalsep1996@gmail.com",
         "phone": "9427712691",
+        "phones": [
+            "9427712691",
+            "9316234342"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [],
     "experience": [
-        "[ 2018 – 2019 ] Assistant lecturer Sir P.T Science College https://sirptsciencecollege.org Address: SCIENCE COLLEGE, College Campus, Dhansura Road, Modasa, India Email address: sirptscience127@gmail.com Physics Faculty"
+        {
+            "job_title": "",
+            "dates": "2018 – 2019",
+            "institution": "Sir P.T Science College",
+            "raw_text": "[ 2018 – 2019 ] Assistant lecturer Sir P.T Science College https://sirptsciencecollege.org Address: SCIENCE COLLEGE, College Campus, Dhansura Road, Modasa, India Email address: sirptscience127@gmail.com Physics Faculty"
+        }
     ],
     "research_interests": [],
     "skills": [

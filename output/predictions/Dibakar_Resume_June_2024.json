@@ -2,68 +2,349 @@
     "personal_details": {
         "name": "Dibakar Roy Chowdhury",
         "email": "dibakarrc@gmail.com",
-        "phone": "09176589711",
+        "phone": "7658971188",
+        "phones": [
+            "7658971188"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "• PhD (2003 - 2008): Technical University of Darmstadt, Darmstadt, Germany Thesis title: Experimental study and modeling of AC characteristics of Resonant Tunneling Diodes (RTD) Advisors: Dr. Michael Feiginov and Prof. Peter Meissner",
-        "M. Tech (Solid state technology), 2001-2003: Indian Institute of Technology, Madras, Class rank: 1 (cgpa: 8.74/10) M. Tech Project Title: Fabrication and characterization of Heterostructure Barrier Varactors and Schottky diodes for THz applications. Advisors: Prof. Hans. L. Hartnagel and Prof. Amitava Dasgupta",
-        "MSc (Physics, specialization in solid state physics), 1998-2000: Rani Durgavati Vishwavidyalaya, Jabalpur, India, University rank: 5 (75.75%)"
+        {
+            "degree": "PhD",
+            "graduation_year": "2003 - 2008",
+            "cgpa": "",
+            "institution": "Technical University of Darmstadt",
+            "raw_text": "• PhD (2003 - 2008): Technical University of Darmstadt, Darmstadt, Germany Thesis title: Experimental study and modeling of AC characteristics of Resonant Tunneling Diodes (RTD) Advisors: Dr. Michael Feiginov and Prof. Peter Meissner"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2001-2003",
+            "cgpa": "8.74/10",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "M. Tech (Solid state technology), 2001-2003: Indian Institute of Technology, Madras, Class rank: 1 (cgpa: 8.74/10) M. Tech Project Title: Fabrication and characterization of Heterostructure Barrier Varactors and Schottky diodes for THz applications. Advisors: Prof. Hans. L. Hartnagel and Prof. Amitava Dasgupta"
+        },
+        {
+            "degree": "MSc",
+            "graduation_year": "1998-2000",
+            "cgpa": "75.75%",
+            "institution": "",
+            "raw_text": "MSc (Physics, specialization in solid state physics), 1998-2000: Rani Durgavati Vishwavidyalaya, Jabalpur, India, University rank: 5 (75.75%)"
+        }
     ],
     "experience": [
-        "• Professor, Mahindra University, India October 2018 –",
-        "Metamaterials, Plasmonics",
-        "Terahertz Spectroscopy",
-        "Micro- Nano- Fabrication",
-        "Associate Professor, Mahindra Ecole Centrale, India January 2015 – October 2018",
-        "Terahertz",
-        "Metamaterials",
-        "Plasmonics,",
-        "Scientist - level B (equivalent to Senior Lecturer), Australian National University, Canberra, Australia August 2013 – January 2015",
-        "Plasmonics",
-        "Metamaterials",
-        "Research associate, National University of Singapore, Singapore March 2013 – July, 2013",
-        "Metamaterials",
-        "Postdoctoral research associate, Center of Integrated Nanotechnologies (CINT), Los Alamos National Laboratory, NM, USA June 2009 – March 2013",
-        "Active and non-linear metamaterials",
-        "Terahertz Science & Technology",
-        "Absorbers and Ultrafast phenomena",
-        "Postdoctoral research associate, Center for Nanointegration Duisburg-Essen (CeNIDE), University of Duisburg-Essen, Duisburg, Germany Apr 2008 - Apr 2009",
-        "Synthesis of nanostructures",
-        "Electrical and structural characterization",
-        "Graduate Research Assistant, Faculty of Electrical Engineering, Technical University of Darmstadt, Darmstadt, Germany Aug, 2003 – Mar, 2008",
-        "Ultrafast electronic devices RTD, Schottky diode etc. for THz frequencies",
-        "Fabrication and electrical characterizations of micro- nano- structures Courses Taught:",
-        "Modern Physics",
-        "Solid State Devices",
-        "Quantum Mechanics",
-        "Electromagnetism and Optics",
-        "Electronics",
-        "Semiconductor Devices Laboratories conducted:",
-        "Physics-II (Electromagnetism and Optics) Laboratory for B Tech (2015, 2016)",
-        "Electronics Laboratory (2015)",
-        "Graduate Laboratory course in basic Electronics in University of Duisburg-Essen, Germany (2008-2009)",
-        "Tutor for high frequency electronics, Technical University of Darmstadt, Germany (2004-2005) LABORATORY DEVELOPMENT",
-        "Developed Micro fabrication facility comprising of optical lithography, evaporation set up etc in Mahindra Ecole Centrale, India (INR 1 Crore +)",
-        "Developed High frequency electronics laboratory in collaboration with Tektronix in Mahindra Ecole Centrale, India (INR 1.2 Crore +)",
-        "Developed THz laboratory (INR 1 Crore)",
-        "Developed Physics-II Teaching Laboratory in Mahindra Ecole Centrale for B. Tech 2nd year students: Experiments in Electricity, Magnetism and Optics (INR 35 Lakh +) STUDENTS MENTORED PhD",
-        "S Jagan Mohan, PhD, Thesis Title “Exploring the Near Field Coupling and Ultrafast Switching in Terahertz Metamaterials” (2020)",
-        "Sabyasachi Banerjee, PhD, Thesis Title “Development of Metamaterial based Terahertz Sensing Devices using the approach of surface waves and resonators spanning different design styles” (2022)",
-        "Subhajit Karmakar, PhD, Thesis Title “Studies on non-radiating metamaterials for Terahertz photonics”, (2022)",
-        "Deepak Kumar, PhD, Thesis Title “Metamaterial inspired multi-functional structures for terahertz applications” (2022)",
-        "Soumya Jyothi Mallick, PhD, Thesis Title “Dynamically Reconfigurable Near- field Coupled Terahertz Metasurfaces” (2024) B.Tech",
-        "Surya Pranav, B Tech Final year Thesis,” Graphene based terahertz metamaterials”, Mahindra Ecole Centrale, Hyderabad (2020)",
-        "Ch. Amith, B Tech Final Year Thesis, “Coupling Slot Antenna with Metamaterials”, Mahindra Ecole Centrale, Hyderabad (2019)",
-        "Nakka Lok Abhishikht, B Tech Final year Thesis, Title “Controlling extra",
-        "rdinary transmission through hole arrays using sub wavelength arrays”, Mahindra Ecole Centrale, Hyderabad (2018)",
-        "Eppa Akhilesh Reddy, B Tech Final year Thesis, Title “Terahertz Metamaterials based Thin Film sensors with ground plane” Mahindra Ecole Centrale, Hyderabad (2018)",
-        "Shravan Kumar, B. Tech final year Thesis Title “Terahertz propagation through conducting and non-conducting medium” in collaboration with IIT Guwahati, Guwahati, India (2016)",
-        "Levon Altaveyon, Thesis Title “Evaluation of PMMA as gate dielectric for field effect transistors” University of Duisburg-Essen, Germany (2009) M.S.",
-        "Shreeya Rane, MS Thesis, Title “Terahertz metasurfaces for anamolous refraction”",
-        "Sowmya Purankar, Thesis Title “Metamaterials based Microwave electromagnetic absorbers” Master’s project (2016)",
-        "Vyshnavi Reddy, Thesis Title “Thin film sensing with Metamaterials” Master’s"
+        {
+            "job_title": "Professor",
+            "dates": "2018",
+            "institution": "Mahindra University",
+            "raw_text": "• Professor, Mahindra University, India October 2018 –"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Metamaterials, Plasmonics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Terahertz Spectroscopy"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Micro- Nano- Fabrication"
+        },
+        {
+            "job_title": "Associate Professor",
+            "dates": "January 2015 – October 2018",
+            "institution": "",
+            "raw_text": "Associate Professor, Mahindra Ecole Centrale, India January 2015 – October 2018"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Terahertz"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Metamaterials"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Plasmonics,"
+        },
+        {
+            "job_title": "Senior Lecturer",
+            "dates": "August 2013 – January 2015",
+            "institution": "Australian National University",
+            "raw_text": "Scientist - level B (equivalent to Senior Lecturer), Australian National University, Canberra, Australia August 2013 – January 2015"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Plasmonics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Metamaterials"
+        },
+        {
+            "job_title": "Research associate",
+            "dates": "2013",
+            "institution": "National University of Singapore",
+            "raw_text": "Research associate, National University of Singapore, Singapore March 2013 – July, 2013"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Metamaterials"
+        },
+        {
+            "job_title": "research associate",
+            "dates": "June 2009 – March 2013",
+            "institution": "Center of Integrated Nanotechnologies",
+            "raw_text": "Postdoctoral research associate, Center of Integrated Nanotechnologies (CINT), Los Alamos National Laboratory, NM, USA June 2009 – March 2013"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Active and non-linear metamaterials"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Terahertz Science & Technology"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Absorbers and Ultrafast phenomena"
+        },
+        {
+            "job_title": "research associate",
+            "dates": "Apr 2008 - Apr 2009",
+            "institution": "Center for Nanointegration Duisburg-Essen",
+            "raw_text": "Postdoctoral research associate, Center for Nanointegration Duisburg-Essen (CeNIDE), University of Duisburg-Essen, Duisburg, Germany Apr 2008 - Apr 2009"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Synthesis of nanostructures"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Electrical and structural characterization"
+        },
+        {
+            "job_title": "Research Assistant",
+            "dates": "2003",
+            "institution": "Technical University of Darmstadt",
+            "raw_text": "Graduate Research Assistant, Faculty of Electrical Engineering, Technical University of Darmstadt, Darmstadt, Germany Aug, 2003 – Mar, 2008"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Ultrafast electronic devices RTD, Schottky diode etc. for THz frequencies"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Fabrication and electrical characterizations of micro- nano- structures Courses Taught:"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Modern Physics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Solid State Devices"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Quantum Mechanics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Electromagnetism and Optics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Electronics"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Semiconductor Devices Laboratories conducted:"
+        },
+        {
+            "job_title": "",
+            "dates": "2015",
+            "institution": "",
+            "raw_text": "Physics-II (Electromagnetism and Optics) Laboratory for B Tech (2015, 2016)"
+        },
+        {
+            "job_title": "",
+            "dates": "2015",
+            "institution": "",
+            "raw_text": "Electronics Laboratory (2015)"
+        },
+        {
+            "job_title": "",
+            "dates": "2008-2009",
+            "institution": "University of Duisburg-Essen",
+            "raw_text": "Graduate Laboratory course in basic Electronics in University of Duisburg-Essen, Germany (2008-2009)"
+        },
+        {
+            "job_title": "",
+            "dates": "2004-2005",
+            "institution": "Technical University of Darmstadt",
+            "raw_text": "Tutor for high frequency electronics, Technical University of Darmstadt, Germany (2004-2005) LABORATORY DEVELOPMENT"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Developed Micro fabrication facility comprising of optical lithography, evaporation set up etc in Mahindra Ecole Centrale, India (INR 1 Crore +)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Developed High frequency electronics laboratory in collaboration with Tektronix in Mahindra Ecole Centrale, India (INR 1.2 Crore +)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Developed THz laboratory (INR 1 Crore)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Developed Physics-II Teaching Laboratory in Mahindra Ecole Centrale for B. Tech 2nd year students: Experiments in Electricity, Magnetism and Optics (INR 35 Lakh +) STUDENTS MENTORED PhD"
+        },
+        {
+            "job_title": "",
+            "dates": "2020",
+            "institution": "",
+            "raw_text": "S Jagan Mohan, PhD, Thesis Title “Exploring the Near Field Coupling and Ultrafast Switching in Terahertz Metamaterials” (2020)"
+        },
+        {
+            "job_title": "",
+            "dates": "2022",
+            "institution": "",
+            "raw_text": "Sabyasachi Banerjee, PhD, Thesis Title “Development of Metamaterial based Terahertz Sensing Devices using the approach of surface waves and resonators spanning different design styles” (2022)"
+        },
+        {
+            "job_title": "",
+            "dates": "2022",
+            "institution": "",
+            "raw_text": "Subhajit Karmakar, PhD, Thesis Title “Studies on non-radiating metamaterials for Terahertz photonics”, (2022)"
+        },
+        {
+            "job_title": "",
+            "dates": "2022",
+            "institution": "",
+            "raw_text": "Deepak Kumar, PhD, Thesis Title “Metamaterial inspired multi-functional structures for terahertz applications” (2022)"
+        },
+        {
+            "job_title": "",
+            "dates": "2024",
+            "institution": "",
+            "raw_text": "Soumya Jyothi Mallick, PhD, Thesis Title “Dynamically Reconfigurable Near- field Coupled Terahertz Metasurfaces” (2024) B.Tech"
+        },
+        {
+            "job_title": "",
+            "dates": "2020",
+            "institution": "",
+            "raw_text": "Surya Pranav, B Tech Final year Thesis,” Graphene based terahertz metamaterials”, Mahindra Ecole Centrale, Hyderabad (2020)"
+        },
+        {
+            "job_title": "",
+            "dates": "2019",
+            "institution": "",
+            "raw_text": "Ch. Amith, B Tech Final Year Thesis, “Coupling Slot Antenna with Metamaterials”, Mahindra Ecole Centrale, Hyderabad (2019)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Nakka Lok Abhishikht, B Tech Final year Thesis, Title “Controlling extra"
+        },
+        {
+            "job_title": "",
+            "dates": "2018",
+            "institution": "",
+            "raw_text": "rdinary transmission through hole arrays using sub wavelength arrays”, Mahindra Ecole Centrale, Hyderabad (2018)"
+        },
+        {
+            "job_title": "",
+            "dates": "2018",
+            "institution": "",
+            "raw_text": "Eppa Akhilesh Reddy, B Tech Final year Thesis, Title “Terahertz Metamaterials based Thin Film sensors with ground plane” Mahindra Ecole Centrale, Hyderabad (2018)"
+        },
+        {
+            "job_title": "",
+            "dates": "2016",
+            "institution": "",
+            "raw_text": "Shravan Kumar, B. Tech final year Thesis Title “Terahertz propagation through conducting and non-conducting medium” in collaboration with IIT Guwahati, Guwahati, India (2016)"
+        },
+        {
+            "job_title": "",
+            "dates": "2009",
+            "institution": "University of Duisburg-Essen",
+            "raw_text": "Levon Altaveyon, Thesis Title “Evaluation of PMMA as gate dielectric for field effect transistors” University of Duisburg-Essen, Germany (2009) M.S."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Shreeya Rane, MS Thesis, Title “Terahertz metasurfaces for anamolous refraction”"
+        },
+        {
+            "job_title": "",
+            "dates": "2016",
+            "institution": "",
+            "raw_text": "Sowmya Purankar, Thesis Title “Metamaterials based Microwave electromagnetic absorbers” Master’s project (2016)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Vyshnavi Reddy, Thesis Title “Thin film sensing with Metamaterials” Master’s"
+        }
     ],
     "research_interests": [
         "• Metamaterials, Plasmonics",

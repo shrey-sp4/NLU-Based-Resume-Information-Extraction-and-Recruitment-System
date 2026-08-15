@@ -2,15 +2,29 @@
     "personal_details": {
         "name": "Snehamoy Pramanik, Ph.D.",
         "email": "snehamoy.pramanik@gmail.com",
-        "phone": "+919262339404",
+        "phone": "9262339404",
+        "phones": [
+            "9262339404"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "2020–2021 ] PostDoctoral.,TuftsUniversity,Medford,MA,USA. Task involved: Develop guided nonlinear ultrasound techniques to characterize cladding- substratebondquality. 2015–2023 ] Ph.D.,IndianInstituteofTechnology(IndianSchoolofMines),Dhanbad. Thesistitle: AnalysisofShearandG-typeWavesUnderInfluenceofPointSourcesandReg- ulatedMaterialInterfaces. 2013–2015 ] M.Sc., Mathematics and Computing, Indian Institute of Technology (Indian SchoolofMines),Dhanbad. Dissertationtitle:StudyofLovepropagationinamultilayeredstructure. Marksobtained:88.84(O.G.P.A-8.89outof10) 2010–2013 ] B.Sc.,Mathematics,WestBengalStateUniversity. Subjects:Mathematics(Hons.),Chemistry(Pass)andPhysics(Pass). Marksobtained:57.57(467outof800) 2008–2010 ] HSC(10+2).,WestBengalCouncilofHigherSecondaryEducation(W.B.C.H.S.E) Subjects:Mathematics,Physics,Chemistry,Biology(optional),EnglishandBengali. Marksobtained:77.60(388outof500) 2008- ] SSC(10),WestBengalBoardofSecondaryEducation(W.B.B.S.E). Subjects: Mathematics, Physicalscience, Life science, History, Geography, English and Ben- gali. Marksobtained:78.87(631outof800)"
+        {
+            "degree": "Me",
+            "graduation_year": "2020–2021",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2020–2021 ] PostDoctoral.,TuftsUniversity,Medford,MA,USA. Task involved: Develop guided nonlinear ultrasound techniques to characterize cladding- substratebondquality. 2015–2023 ] Ph.D.,IndianInstituteofTechnology(IndianSchoolofMines),Dhanbad. Thesistitle: AnalysisofShearandG-typeWavesUnderInfluenceofPointSourcesandReg- ulatedMaterialInterfaces. 2013–2015 ] M.Sc., Mathematics and Computing, Indian Institute of Technology (Indian SchoolofMines),Dhanbad. Dissertationtitle:StudyofLovepropagationinamultilayeredstructure. Marksobtained:88.84(O.G.P.A-8.89outof10) 2010–2013 ] B.Sc.,Mathematics,WestBengalStateUniversity. Subjects:Mathematics(Hons.),Chemistry(Pass)andPhysics(Pass). Marksobtained:57.57(467outof800) 2008–2010 ] HSC(10+2).,WestBengalCouncilofHigherSecondaryEducation(W.B.C.H.S.E) Subjects:Mathematics,Physics,Chemistry,Biology(optional),EnglishandBengali. Marksobtained:77.60(388outof500) 2008- ] SSC(10),WestBengalBoardofSecondaryEducation(W.B.B.S.E). Subjects: Mathematics, Physicalscience, Life science, History, Geography, English and Ben- gali. Marksobtained:78.87(631outof800)"
+        }
     ],
     "experience": [
-        "2022– ] AssistantProfessor.,DepartmentofMathematics,CHRIST(Deemedtobeuniversity),Ban- galore,India. AwardsandAchievements 2017-2020 ] Senior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2015-2017 ] Junior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2013-2015 ] MeritCumMeansScholarship,IndianInstituteofTechnology(IndianSchoolofMines), Dhanbad. 2010-2013 ] MeritCumMeansScholarship,WestBengalstateUniversity,WestBengal."
+        {
+            "job_title": "Professor",
+            "dates": "2022",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "2022– ] AssistantProfessor.,DepartmentofMathematics,CHRIST(Deemedtobeuniversity),Ban- galore,India. AwardsandAchievements 2017-2020 ] Senior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2015-2017 ] Junior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2013-2015 ] MeritCumMeansScholarship,IndianInstituteofTechnology(IndianSchoolofMines), Dhanbad. 2010-2013 ] MeritCumMeansScholarship,WestBengalstateUniversity,WestBengal."
+        }
     ],
     "research_interests": [],
     "skills": [

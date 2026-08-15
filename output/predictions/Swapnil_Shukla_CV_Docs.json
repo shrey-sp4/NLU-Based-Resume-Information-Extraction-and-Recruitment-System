@@ -3,15 +3,34 @@
         "name": "Dr. Swapnil Shukla",
         "email": "swapnilshukla025@gmail.com",
         "phone": "9999044865",
+        "phones": [
+            "9999044865"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "08/12 - 12/16 Ph.D. in Chemistry Shiv Nadar University, Uttar Pradesh, India Sustainable Benzoxazines – Sources, Synthesis and Applications Supervisor: Dr. Bimlesh Lochab 07/09 - 05/11 1st Class M. Sc. in Chemistry, 68.9% Hindu college, University of Delhi, Delhi, India Importance of Kinases as potential drug targets 07/06 - 05/09 1st Class B. Sc. (Hons.) in Chemistry, 81.2% Sri Venkateswara College, University of Delhi, Delhi, India 04/05 - 05/06 12th Class (Equivalent to A levels), 82% Central Board of Senior Secondary Education, Delhi, India 04/03 - 05/04 10th Class, 88.6% Central Board of Senior Secondary Education, Delhi, India"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "",
+            "cgpa": "68.9%",
+            "institution": "Chemistry Shiv Nadar University",
+            "raw_text": "08/12 - 12/16 Ph.D. in Chemistry Shiv Nadar University, Uttar Pradesh, India Sustainable Benzoxazines – Sources, Synthesis and Applications Supervisor: Dr. Bimlesh Lochab 07/09 - 05/11 1st Class M. Sc. in Chemistry, 68.9% Hindu college, University of Delhi, Delhi, India Importance of Kinases as potential drug targets 07/06 - 05/09 1st Class B. Sc. (Hons.) in Chemistry, 81.2% Sri Venkateswara College, University of Delhi, Delhi, India 04/05 - 05/06 12th Class (Equivalent to A levels), 82% Central Board of Senior Secondary Education, Delhi, India 04/03 - 05/04 10th Class, 88.6% Central Board of Senior Secondary Education, Delhi, India"
+        }
     ],
     "experience": [
-        "Currently working as Project Scientist II under the sponsored Project Centre for Policy Research – Dept.",
-        "f Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "Project Centre for Policy Research",
+            "raw_text": "Currently working as Project Scientist II under the sponsored Project Centre for Policy Research – Dept."
+        },
+        {
+            "job_title": "Teaching Assistant",
+            "dates": "",
+            "institution": "Central University of Gujarat",
+            "raw_text": "f Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
+        }
     ],
     "research_interests": [],
     "skills": [

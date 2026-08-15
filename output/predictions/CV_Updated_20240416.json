@@ -3,19 +3,59 @@
         "name": "NITIRAJ SHETE",
         "email": "nit.shete@gmail.com",
         "phone": "8000717702",
+        "phones": [
+            "8000717702",
+            "7778005706"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        " M.Sc. in Statistics (2010) from Sardar Patel University, Anand Gujarat - 62.69%  B.Sc. in Statistics (2008) from Shivaji University Kolhapur, Maharashtra – 62%  12th STD (2005) from Maharashtra Board in Science Stream. – 63.33%  10th STD (2003) from Maharashtra Board. – 68.26%  Certificate courses: (1) Bio Statistics (2) SPSS  JIPMER Research Leadership Mentoring Programme (Two Phases of Intensive Offline Training with Hands on Exercise in Research Designs, Biostatistics, Use of statistical packages and Research Proposal Writing) – Completed in Jan-2023.  Online Post Graduate Program in Artificial Intelligence for Leaders (PGP-AIFL) 2023-24 at Great Lakes and The University of Texas at Austin, McCombs School of Business – Pursuing."
+        {
+            "degree": "M.Sc.",
+            "graduation_year": "2010",
+            "cgpa": "62.69%",
+            "institution": "Sardar Patel University",
+            "raw_text": " M.Sc. in Statistics (2010) from Sardar Patel University, Anand Gujarat - 62.69%  B.Sc. in Statistics (2008) from Shivaji University Kolhapur, Maharashtra – 62%  12th STD (2005) from Maharashtra Board in Science Stream. – 63.33%  10th STD (2003) from Maharashtra Board. – 68.26%  Certificate courses: (1) Bio Statistics (2) SPSS  JIPMER Research Leadership Mentoring Programme (Two Phases of Intensive Offline Training with Hands on Exercise in Research Designs, Biostatistics, Use of statistical packages and Research Proposal Writing) – Completed in Jan-2023.  Online Post Graduate Program in Artificial Intelligence for Leaders (PGP-AIFL) 2023-24 at Great Lakes and The University of Texas at Austin, McCombs School of Business – Pursuing."
+        }
     ],
     "experience": [
-        " Working as a Bio-statistician in Muljibhai Patel Urological Hospital (MPUH), Nadiad, Gujarat since 11 December 2019. As a Statistician, I am responsible for the following:  Writing Statistical Analysis Plan according to the objectives of study as provided by doctors for their research projects.  Preparing master file into analyzable form.  Analysis of hospital data with the help of different software like SPSS, R-Language and MEDCALC as per the Statistical Analysis Plan (SAP).  Making Graphics using software like SPSS, MS EXCEL, R-Language and MS POWERPOINT.  Reporting and interpreting the outcome of the analysis.  Writing and reviewing in statistical part of DNB projects, Company Grants, Govt. Projects  I was worked in Sardar Patel University as an Assistant Professor (Adhoc)  Since Aug-2011 to Dec-2019  Total Years of Experience in teaching 08 years 3months in teaching.  Work profile",
-        "Since 2011, I have guided 93 various projects regarding Statistics, Six Sigma, ISO, Marketing research, 5S implementation and seven quality control tools implementation in industry. (Appendix 2)",
-        "I taught the statistics subjects (Marketing Research, Design of Experiments, Statistical Quality Control and Reliability, Multivariate techniques, Business Statistics etc.)",
-        "Also taught practicals based on Excel, Minitb, SPSS and R-language.",
-        "Work as academic incharge and Project as well as job placement incharge.",
-        "I was worked in organizing committee of different International/National/State level Workshop/seminar/training program (Appendix 1)  Giving consultancy to Students (researcher) from various department of university (Bioscience, Home science, Biotechnology, Education etc.) in analyzing their statistical data.  For more detail please visit the following link of Sardar Patel University http://www.spuvvn.edu/academics/departments/statistics/CV_NB%20SHETE.pdf"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2019",
+            "institution": "Sardar Patel University",
+            "raw_text": " Working as a Bio-statistician in Muljibhai Patel Urological Hospital (MPUH), Nadiad, Gujarat since 11 December 2019. As a Statistician, I am responsible for the following:  Writing Statistical Analysis Plan according to the objectives of study as provided by doctors for their research projects.  Preparing master file into analyzable form.  Analysis of hospital data with the help of different software like SPSS, R-Language and MEDCALC as per the Statistical Analysis Plan (SAP).  Making Graphics using software like SPSS, MS EXCEL, R-Language and MS POWERPOINT.  Reporting and interpreting the outcome of the analysis.  Writing and reviewing in statistical part of DNB projects, Company Grants, Govt. Projects  I was worked in Sardar Patel University as an Assistant Professor (Adhoc)  Since Aug-2011 to Dec-2019  Total Years of Experience in teaching 08 years 3months in teaching.  Work profile"
+        },
+        {
+            "job_title": "",
+            "dates": "2011",
+            "institution": "",
+            "raw_text": "Since 2011, I have guided 93 various projects regarding Statistics, Six Sigma, ISO, Marketing research, 5S implementation and seven quality control tools implementation in industry. (Appendix 2)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "I taught the statistics subjects (Marketing Research, Design of Experiments, Statistical Quality Control and Reliability, Multivariate techniques, Business Statistics etc.)"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Also taught practicals based on Excel, Minitb, SPSS and R-language."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Work as academic incharge and Project as well as job placement incharge."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "Sardar Patel University",
+            "raw_text": "I was worked in organizing committee of different International/National/State level Workshop/seminar/training program (Appendix 1)  Giving consultancy to Students (researcher) from various department of university (Bioscience, Home science, Biotechnology, Education etc.) in analyzing their statistical data.  For more detail please visit the following link of Sardar Patel University http://www.spuvvn.edu/academics/departments/statistics/CV_NB%20SHETE.pdf"
+        }
     ],
     "research_interests": [],
     "skills": [

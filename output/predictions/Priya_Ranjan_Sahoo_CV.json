@@ -2,15 +2,29 @@
     "personal_details": {
         "name": "Priya Ranjan Sahoo, Ph.D.",
         "email": "prsahoo.chem@gmail.com",
-        "phone": "",
+        "phone": "7167481586",
+        "phones": [
+            "7167481586"
+        ],
         "address": ""
     },
     "summary": [],
     "education": [
-        "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
+        {
+            "degree": "Ph.D.",
+            "graduation_year": "2018",
+            "cgpa": "",
+            "institution": "University of Delhi Delhi",
+            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
+        }
     ],
     "experience": [
-        "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
+        {
+            "job_title": "Postdoctoral Fellow",
+            "dates": "Dec. 2021-Present",
+            "institution": "Tohoku University",
+            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
+        }
     ],
     "research_interests": [],
     "skills": [],

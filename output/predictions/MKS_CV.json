@@ -3,16 +3,28 @@
         "name": "Dr. Manoj Kumar Singh",
         "email": "",
         "phone": "",
+        "phones": [],
         "address": ""
     },
     "summary": [
         "To work in an intutive and insightful environment and enhance team spirit towards\nrealizing the group goals."
     ],
     "education": [
-        "Doctor of Philosophy: Awarded in April, 2014. ThesisTitle: EnergyDependenceStudyofProjectileFragmentationof84Kr +Emul- 36 sion Interactions. Supervisor: Prof. Ramji Pathak Veer Bahadur Singh Purvanchal University Jaunpur, UP, India. Co-Supervisor: Prof. Venktesh Singh Banaras Hindu University, Varanasi, UP, India. Master of Science: Physics; Secured 60.9 % (2007). Veer Bahadur Singh Purvanchal University Jaunpur, UP, India. Bachelor of Science: Physics, Mathmatics, Chemistry; Secured 59.6 % (2005). Veer Bahadur Singh Purvanchal University Jaunpur, UP, India."
+        {
+            "degree": "Doctor of Philosophy",
+            "graduation_year": "2014",
+            "cgpa": "60.9 %",
+            "institution": "Ramji Pathak Veer Bahadur Singh Purvanchal University",
+            "raw_text": "Doctor of Philosophy: Awarded in April, 2014. ThesisTitle: EnergyDependenceStudyofProjectileFragmentationof84Kr +Emul- 36 sion Interactions. Supervisor: Prof. Ramji Pathak Veer Bahadur Singh Purvanchal University Jaunpur, UP, India. Co-Supervisor: Prof. Venktesh Singh Banaras Hindu University, Varanasi, UP, India. Master of Science: Physics; Secured 60.9 % (2007). Veer Bahadur Singh Purvanchal University Jaunpur, UP, India. Bachelor of Science: Physics, Mathmatics, Chemistry; Secured 59.6 % (2005). Veer Bahadur Singh Purvanchal University Jaunpur, UP, India."
+        }
     ],
     "experience": [
-        "Department of Physics IAH, GLA University Mathura 281406, India Address for Present Address Permanent Address Communication Assistant Professor (Research) Village : Jamaitha Department of Physics Post : Sheopur Institute of Applied Science & Humanities District : Jaunpur GLA University Pin Code : 222180 Mathura 281406, India Uttar Pradesh, India Phone: +91-7755834535 +91-7755834535 E-mail: singhmanoj59@gmail.com singhmanoj59@gmail.com Total Teaching/Research Experience : 09 years and 11 months onward March 02, 2019 onward Department of Physics, Institute of Applied Science & Humanities, GLA University, Mathura, India. Dr. D. S. KOTHARI Post Doctoral Fellow (India) December 07, 2016 to 28 February 2019 Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, In- dia. Post Doctoral Fellow (Taiwan) June 1, 2014 to December 04, 2016 Institute of Physics, Academia Sinica, Taipei, Taiwan"
+        {
+            "job_title": "Assistant Professor",
+            "dates": "2019",
+            "institution": "GLA University",
+            "raw_text": "Department of Physics IAH, GLA University Mathura 281406, India Address for Present Address Permanent Address Communication Assistant Professor (Research) Village : Jamaitha Department of Physics Post : Sheopur Institute of Applied Science & Humanities District : Jaunpur GLA University Pin Code : 222180 Mathura 281406, India Uttar Pradesh, India Phone: +91-7755834535 +91-7755834535 E-mail: singhmanoj59@gmail.com singhmanoj59@gmail.com Total Teaching/Research Experience : 09 years and 11 months onward March 02, 2019 onward Department of Physics, Institute of Applied Science & Humanities, GLA University, Mathura, India. Dr. D. S. KOTHARI Post Doctoral Fellow (India) December 07, 2016 to 28 February 2019 Department of Physics, Institute of Science, Banaras Hindu University, Varanasi, In- dia. Post Doctoral Fellow (Taiwan) June 1, 2014 to December 04, 2016 Institute of Physics, Academia Sinica, Taipei, Taiwan"
+        }
     ],
     "research_interests": [
         "Experimental Neutrino and Dark Matter Physics. INTEREST Research and Developement of : Ge- detector, NaI(Tl) detector, Neutron detector, Plastic Scintilator detector, Nuclear Emulsion detector etc. EXPERIENCES Ph.D. Degree Awarded: 03 STUDENTS Mr. Shuvadeep Karmakar Ph.D. Completed and Degree Awarded: 2024 (PhD Supervisor) Mr. Uday Singh Ph.D. Completed and Degree Awarded: 2022 (PhD Supervisor) Mr. Sanjay Kumar Ph.D. Completerd and Degree Awarded: 2022 (PhD Co-supervisor) Research Students Supervising: 05 Mr. Vivek Kumar (Registered in January 2024) (PhD Supervisor) Ms. Pratibha Singh (Registered in January 2024) (PhD Supervisor) Ms. Kajal (Registered in July 2021) (PhD Supervisor) Ms. Babita kumari (Registered in July 2021) (PhD Supervisor) Ms. Upasna Rawat (Registered in July 2021) (PhD Co-supervisor) Master Thesis Awarded : 03 Ms. Bhavna Sorot : M.Sc.Physics Student Batch 2021-22 Ms. Manisha Sharma : M.Sc.Physics Student Batch 2022-23 Mr. Utsav Saxena : M.Sc.Physics Student Batch 2022-23 Master Thesis Supervising : 02 Ms. Priya Chaudhary : M.Sc.Physics Student Batch 2023-24 Ms. Deepshikha Sharma : M.Sc.Physics Student Batch 2023-24"

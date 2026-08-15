@@ -1,8 +1,11 @@
 {
     "personal_details": {
-        "name": "by Stanford University and Elsevier",
+        "name": "Recognized as a top",
         "email": "anurag@hku.hk",
         "phone": "8534066345",
+        "phones": [
+            "8534066345"
+        ],
         "address": ""
     },
     "summary": [],
