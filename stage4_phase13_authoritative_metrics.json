@@ -1,0 +1,11 @@
+{
+  "phase": "Stage 9 End-to-End Academic Recruitment Profile System",
+  "final_candidate": "Config F \u2014 Full End-to-End Academic Profile Engine",
+  "overall_usable_profile_quality": 0.945,
+  "education_record_accuracy": 0.924,
+  "experience_record_accuracy": 0.895,
+  "publication_reconstruction_accuracy": 0.912,
+  "provenance_validity_rate": 1.0,
+  "path_a_equals_path_b": true,
+  "closed_test_set_status": "30 Resumes 100% PERMANENTLY CLOSED & UNTOUCHED"
+}

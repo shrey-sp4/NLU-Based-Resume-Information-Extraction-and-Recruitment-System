@@ -1,0 +1,11 @@
+document_id,gold_entities,predicted_entities,tp,fp,fn,precision,recall,exact_match_f1
+A_Mitesh_CV_88e32579,6,24,5,19,1,0.2083,0.8333,0.3333
+Afzal_Beg_Resume_fa289535,9,2,2,0,7,1.0,0.2222,0.3636
+Anibrata_Pal_Resume_c35c7b6c,8,5,5,0,3,1.0,0.625,0.7692
+CV_Anurag_Choudhary_15b316ad,6,17,5,12,1,0.2941,0.8333,0.4348
+CV_Arghya_Maity_3f200851,9,4,4,0,5,1.0,0.4444,0.6154
+CV_Chandan_f5f89208,9,5,5,0,4,1.0,0.5556,0.7143
+Dr_Akash_Thakkar_CV_df681585,8,0,0,0,8,0.0,0.0,0.0
+Resume_Kritishnu_Sanyal_856a9dfa,8,0,0,0,8,0.0,0.0,0.0
+Resume_final_Amit_CMA_IIM_A_5b066fd0,9,0,0,0,9,0.0,0.0,0.0
+cv_aakash_daiict_5871bf2f,7,0,0,0,7,0.0,0.0,0.0

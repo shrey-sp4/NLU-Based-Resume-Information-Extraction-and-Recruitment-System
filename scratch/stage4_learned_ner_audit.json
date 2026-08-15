@@ -1,0 +1,40 @@
+{
+  "category_c_stats": {
+    "NAME": {
+      "train_examples": 220,
+      "unique_docs": 220,
+      "avg_token_length": 2.2,
+      "multi_token_percentage": 100.0
+    },
+    "UNIV": {
+      "train_examples": 132,
+      "unique_docs": 132,
+      "avg_token_length": 3.0,
+      "multi_token_percentage": 100.0
+    },
+    "TITLE": {
+      "train_examples": 132,
+      "unique_docs": 132,
+      "avg_token_length": 2.0,
+      "multi_token_percentage": 66.7
+    },
+    "COMPANY": {
+      "train_examples": 44,
+      "unique_docs": 44,
+      "avg_token_length": 3.0,
+      "multi_token_percentage": 100.0
+    },
+    "PROJ": {
+      "train_examples": 0,
+      "unique_docs": 0,
+      "avg_token_length": 0.0,
+      "multi_token_percentage": 0.0
+    },
+    "PUB": {
+      "train_examples": 0,
+      "unique_docs": 0,
+      "avg_token_length": 0.0,
+      "multi_token_percentage": 0.0
+    }
+  }
+}

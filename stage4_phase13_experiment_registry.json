@@ -1,0 +1,10 @@
+{
+  "academic_candidate": "Model F \u2014 Context-Aware Academic Hybrid NER Engine",
+  "train_time_sec": 9.56,
+  "total_training_documents": 659,
+  "academic_schema_fields": 25,
+  "total_extracted_entities": 1927,
+  "total_conflicts_resolved": 144,
+  "offset_validity_rate": 1.0,
+  "path_match": true
+}

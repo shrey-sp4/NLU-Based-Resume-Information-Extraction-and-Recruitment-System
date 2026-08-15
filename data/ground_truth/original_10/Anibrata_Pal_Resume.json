@@ -1,0 +1,337 @@
+{"personal_details": {
+    "name": "Anibrata Pal",
+    "email": "palanibrata@gmail.com, 2081041@kiit.ac.in",
+    "phone": "(+91) 8617042611",
+    "address": "Ambient Height 7, Subodh Park. Bansdroni Kolkata-700070",
+    "linkedin": "",
+    "website": "https://vidwan.inflibnet.ac.in/profile/406087",
+    "orcid": "",
+    "google_scholar": "https://scholar.google.com/citations?view_op=new_articles&hl=en&imq=ANIBRATA%2BPAL",
+    "researchgate": ""
+  },
+
+  "summary": [],
+
+  "education": [
+    {
+    "degree":"PhD",
+    "field":"Department of Civil Engineering",
+    "institution":"Kalinga Institute of Industrial Technology, Bhubaneswar",
+    "duration":"January 2021 - Present",
+    "grade":"",
+    "thesis":"",
+    "advisor":""
+},
+{
+      "degree": "M.Tech",
+      "field": "Department of Civil Engineering",
+      "institution": "Kalinga Institute of Industrial Technology, Bhubaneswar",
+      "duration": "2016",
+      "grade": "84.30%",
+      "thesis": "",
+      "advisor": ""
+    },
+{
+      "degree": "B.Tech",
+      "field": "Department of Civil Engineering",
+      "institution": "Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata",
+      "duration": "2014",
+      "grade": "70.00%",
+      "thesis": "",
+      "advisor": ""
+    },
+{
+      "degree": "10+2th",
+      "field": "",
+      "institution": "Krishnath College School, Berhampore",
+      "duration": "2010",
+      "grade": "70.00 %",
+      "thesis": "",
+      "advisor": ""
+    },
+{
+      "degree": "10th",
+      "field": "",
+      "institution": "Krishnath College School, Berhampore",
+      "duration": "2008",
+      "grade": "78.00 %",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+
+  "experience": [
+{
+      "position": "Assistant Professor",
+      "organization": "Siliguri Institute of Technology, Techno India Group",
+      "department": "Civil Engineering",
+      "location": "",
+      "duration": "17th August 2023 - Present",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "Regent Education of Research Foundation, MAKAUT University",
+      "department": "Civil Engineering",
+      "location": "Kolkata",
+      "duration": "9th February 2022 – 16th August 2023",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "College of Engineering Bhubaneswar, BPUT University",
+      "department": "Civil Engineering",
+      "location": "Bhubaneswar",
+      "duration": "March 2021 – January 2022",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "Bengal College of Engineering & Technology Durgapur, MAKAUT University",
+      "department": "Civil Engineering",
+      "location": "West Bengal",
+      "duration": "April 2017 – March 2021",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "Bharti College of Engineering & Technology Durg, CSVT University",
+      "department": "Civil Engineering",
+      "location": "Chattisgarh",
+      "duration": "January 2017 – April 2017",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "GD Rungta College of Engineering & Technology, Durg, CSVT University",
+      "department": "Civil Engineering",
+      "location": "Chattisgarh",
+      "duration": "June 2016 - January 2017",
+      "description": ""
+    }
+],
+
+  "research_interests": [
+    "Functionally graded concrete",
+    "Earthquake-proof building by using dampers.",
+    "Seismic hazard assessment.",
+    "Base isolation for earthquake-resistant design.",
+    "Vibration Control. Performance-based seismic Design.",
+    "Ground Motion characterization.",
+    "Application of intelligent materials and structures in Civil Engineering.",
+    "Non-destructive testing in Civil Engineering."
+  ],
+
+  "skills": [
+      "Origin 2024 B",
+      "Stadd Pro (Ver-VIII)",
+      "MS Office (Word, Excel, PowerPoint)",
+      "SAP 90",
+      "Programming Languages",
+      "Mat-Lab 2013 α",
+      "Excellent critical thinking skills to identify alternative approaches and solutions to complex problems. Strong ability to manage material resources to determine appropriate use of facilities and equipment.",
+      "Skilled in coordinating projects and keeping all parties on the same path to stay on schedule. Good negotiation skills when coordinating between clients and management. Strong communication ability by listening, asking the right questions, and writing effective reports.",
+      "Experience with analytical and scientific software, such as Minitab and MathWorks MATLAB. Ability to identify system performance indicators and the appropriate actions necessary to correct performance to keep project goals on track."
+    ],
+
+  "projects": [],
+
+  "publications": {
+    "journal_articles": [
+    {
+        "title": "Innovative vibration control devices used in buildings",
+        "authors": [],
+        "journal": "International Journal of Civil Engineering (IJCE)",
+        "conference": "",
+        "publisher": "",
+        "year": "2016",
+        "volume": "5",
+        "issue": "1",
+        "pages": "83-98",
+        "doi": ""
+    },
+    {
+        "title": "Dynamic Analysis of a G+3 Building Using Indian Standard Code Method and Time History Method",
+        "authors": [],
+        "journal": "IMPACT: IJRET Journal",
+        "conference": "",
+        "publisher": "",
+        "year": "2016",
+        "volume": "4",
+        "issue": "12",
+        "pages": "",
+        "doi": ""
+    }
+    ],
+
+    "conference_papers": [
+        {
+        "title": "Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete",
+        "authors": [],
+        "journal": "",
+        "conference": "SMET-2024 International Conference",
+        "publisher": "",
+        "year": "2024",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+    {
+        "title": "Strength parameters of graded concrete made in combination with traditional and blended concrete of different grades in different layers",
+        "authors": [],
+        "journal": "",
+        "conference": "ICMSMT-2024 Sixth International Conference",
+        "publisher": "",
+        "year": "2024",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+      "title": "Assessment of Functionally Graded Concrete with Graded Beam",
+      "authors": [],
+      "journal": "",
+      "conference": "ICRDSI-2022",
+      "publisher": "Springer",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    }
+    ],
+    "conference_proceedings": [],
+    "communications": [],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": [
+      {
+        "title": "Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete",
+        "authors": [],
+        "journal": "Construction Building Materials Journal (Springer)",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder",
+        "authors": [],
+        "journal": "Structure Journal (Springer)",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Strength, Elasticity and Water Absorption of Functionally Graded Concrete",
+        "authors": [],
+        "journal": "Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement",
+        "authors": [],
+        "journal": "Materials and Structure (Springer)",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "A critical review on the advancement of Layered concrete",
+        "authors": [],
+        "journal": "Indian Concrete Journal (Springer)",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      }
+    ]
+  },
+
+  "patents": [],
+
+  "grants": [],
+
+  "awards": [
+  {
+  "title": "Best Paper Certificate",
+  "organization": "",
+  "year": ""
+  },
+  {
+  "title": "Employee of the Year",
+  "organization": "BCET, Durgapur",
+  "year": "2018"
+  }
+],
+
+  "certifications": [],
+
+  "memberships": ["Research Committee Member at COEB in the Department of Civil Engineering."],
+
+  "professional_services": [],
+
+  "responsibilities": [],
+
+  "teaching_experience": [],
+  "students_supervised": [
+{
+"level": "M.Tech",
+"title": "Vibration Control Analysis",
+"year": "2016",
+"description": "M.Tech thesis guided."
+},
+{
+"level": "B.Tech",
+"title": "Different optimization control technique in layered concrete",
+"year": "2024",
+"description": "B.Tech project guided."
+},
+{
+"level": "B.Tech",
+"title": "Devices used to control earthquake hazards",
+"year": "2022",
+"description": "B.Tech project guided."
+}
+],
+
+"references": [],
+
+"other_sections": [
+  {
+      "section": "Experience in Research",
+      "details": "Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021."
+    },
+    {
+      "section": "Achievement",
+      "details": [
+        "Attended Ten numbers FDP program in offline as well as online mode.",
+        "Attended a high-end workshop at VNIT NAGPUR in 2022 on “Design of experiments: A statistical tool for systematic data collection, analysis, and optimization",
+        "Organised Five Seminars and Two workshops at different levels."
+      ]
+    }
+]
+}

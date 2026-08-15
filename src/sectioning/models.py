@@ -6,20 +6,27 @@ from typing import Any, Dict, List, Optional
 
 
 CANONICAL_SECTION_LABELS = (
+    "contact",
+    "summary",
+    "objective",
     "education",
     "experience",
-    "skills",
+    "research_experience",
     "projects",
-    "publications",
+    "skills",
     "certifications",
+    "publications",
+    "patents",
     "research_interests",
+    "awards",
     "achievements",
-    "personal_details",
-    "summary",
+    "volunteering",
+    "leadership",
+    "coursework",
     "references",
+    "personal_details",
     "responsibilities",
     "memberships",
-    "patents",
     "declaration",
     "other",
 )
@@ -34,8 +41,10 @@ def normalize_section_label(label: Optional[str]) -> str:
         return "other"
 
     normalized = str(label).strip().lower().replace(" ", "_")
-    if normalized == "unmapped":
+    if normalized in ("unmapped", "none", ""):
         return "other"
+    if normalized == "personal_details":
+        return "contact"
     return normalized if normalized in CANONICAL_SECTION_LABELS else "other"
 
 
@@ -66,6 +75,8 @@ class RawLineRecord:
     page_status: str = ""
     page_type_guess: str = ""
     final_method: str = ""
+    is_repeated_page_header: bool = False
+    is_repeated_page_footer: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
         return json_safe(asdict(self))
@@ -126,6 +137,8 @@ class LineRecord:
     heading_confidence: float = 0.0
     heading_method: str = ""
     review_required: bool = False
+    is_repeated_page_header: bool = False
+    is_repeated_page_footer: bool = False
 
     def to_dict(self) -> Dict[str, Any]:
         return json_safe(asdict(self))
@@ -139,6 +152,17 @@ class SectionSpan:
     confidence: float
     method: str
     review_required: bool
+    section_id: str = "section_001"
+    original_heading: str = ""
+    normalized_heading: str = "other"
+    level: int = 1
+    section_type: str = "canonical"
+    parent_section_id: Optional[str] = None
+    start_line: int = 1
+    end_line: int = 1
+    start_page: int = 1
+    end_page: int = 1
+    detection_metadata: Dict[str, Any] = field(default_factory=dict)
     pages: List[int] = field(default_factory=list)
     lines: List[LineRecord] = field(default_factory=list)
 
@@ -146,16 +170,41 @@ class SectionSpan:
         self.lines.append(line)
         if line.page_number not in self.pages:
             self.pages.append(line.page_number)
+        if self.lines:
+            self.start_line = self.lines[0].line_index
+            self.end_line = self.lines[-1].line_index
+            self.start_page = self.lines[0].page_number
+            self.end_page = self.lines[-1].page_number
 
     @property
     def text(self) -> str:
         return "\n".join(line.text for line in self.lines if line.text.strip()).strip()
 
     def to_dict(self) -> Dict[str, Any]:
-        payload = asdict(self)
-        payload["text"] = self.text
-        payload["lines"] = [line.to_dict() for line in self.lines]
+        payload = {
+            "section_id": self.section_id,
+            "resume_id": self.resume_id,
+            "section": self.section,
+            "original_heading": self.original_heading or self.raw_heading,
+            "normalized_heading": self.normalized_heading or self.section,
+            "level": self.level,
+            "section_type": self.section_type,
+            "parent_section_id": self.parent_section_id,
+            "start_line": self.start_line,
+            "end_line": self.end_line,
+            "start_page": self.start_page,
+            "end_page": self.end_page,
+            "confidence": round(self.confidence, 4),
+            "method": self.method,
+            "review_required": self.review_required,
+            "detection_metadata": self.detection_metadata,
+            "pages": list(self.pages),
+            "text": self.text,
+            "lines": [line.to_dict() for line in self.lines],
+        }
         return json_safe(payload)
+
+
 
 
 @dataclass(slots=True)

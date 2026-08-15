@@ -1,0 +1,338 @@
+{"personal_details": {
+    "name": "Dr. Afzal Beg",
+    "email": "afzalbeg09@gmail.com",
+    "phone": "+91 9098248646, 7415952569",
+    "address": "",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+
+  "summary": [
+    "11 years of teaching & project working experience working as an Assistant Professor in reputed college. Completing PhD in Computer Science. I have experience at examination controller. I have work at Alumni coordinator, Festive & Sports events etc. Experienced in use of Internet and Educational software. Plan and instruct each subject area using wide variety of teaching aids, motivational and implementation strategies to engage student in active learning. Implementing technologies approaches to subject material. Research educational resources on the internet. Assist with informational retrievals."
+  ],
+
+  "education": [
+    {
+    "degree":"PH.D.",
+    "field":"Computer Science",
+    "institution":"Sarveapalli RadhaKrishnan University, Bhopal, M.P.",
+    "duration":"2024",
+    "grade":"",
+    "thesis":"",
+    "advisor":""
+},
+{
+      "degree": "M.Sc.",
+      "field": "Computer Science",
+      "institution": "MakhanLal Chaturvedi Rastriya Patrakarita Avam Sanchar Vishwavidhyalay (MCURPV), Bhopal",
+      "duration": "2014",
+      "grade": "70%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Master of Social Work (MSW)",
+      "field": "Social Work",
+      "institution": "Maharishi Mahesh Yogi Vedic Vishwavidhyalay, Jabalpur",
+      "duration": "2020",
+      "grade": "70%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Bachelor of computer application (BCA)",
+      "field": "Computer Applications",
+      "institution": "Awadhesh Pratap Singh University (APSU), Rewa, M.P.",
+      "duration": "2010",
+      "grade": "58%",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+  "degree": "12th (10+2)",
+  "field": "",
+  "institution": "BSEMP Bhopal (MP Board)",
+  "duration": "2007",
+  "grade": "74%",
+  "thesis": "",
+  "advisor": ""
+},
+{
+  "degree": "Metric (10th)",
+  "field": "",
+  "institution": "BSEMP Bhopal (MP Board)",
+  "duration": "2005",
+  "grade": "72%",
+  "thesis": "",
+  "advisor": ""
+}
+  ],
+
+  "experience": [
+    {
+      "position": "Assistant Professor",
+      "organization": "Rai University",
+      "department": "",
+      "location": "Ahmadabad, Gujarat",
+      "duration": "July 2024 – Current",
+      "description": ""
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Vindhya Institute of Technology and Science",
+      "department": "",
+      "location": "Satna, M.P.",
+      "duration": "March 2023 – Dec 2023",
+      "description": ""
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Shri Rama Krishna College of Commerce & Science",
+      "department": "",
+      "location": "Satna, M.P.",
+      "duration": "July 2016 – March 2023",
+      "description": ""
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "SSICAIT College",
+      "department": "",
+      "location": "Maihar, Distt-Satna, M.P.",
+      "duration": "July 2012 – Dec 2015",
+      "description": ""
+    }],
+
+  "research_interests": [],
+
+  "skills": ["Tally ERP 9",
+    "English Typing",
+    "Application Package: MS Office",
+    "Website of company",
+    "Documents Manage",
+    "Cloud Computing",
+    "C",
+    "C++",
+    "Software Engineering",
+    "DBMS",
+    "HTML",
+    "AWS",
+    "Proven ability to work collaboratively and independently.",
+    "Commitment to increasing efficiencies, troubleshooting and enabling positive working relationships between internal and external stakeholders.",
+    "Excellent communication skills developed through dealing with a wide range of people via phone, email and in person."],
+
+  "projects": [],
+  
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Comparative study on NLP Processing for Strategic Marketing",
+        "authors": [],
+        "journal": "Design Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "",
+        "issue": "08",
+        "pages": "9634-9639",
+        "doi": ""
+      },
+      {
+        "title": "Research on the using Natural Language Processing for Marketing Enhancement in E-Commerce",
+        "authors": [],
+        "journal": "Design Engineering",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "",
+        "issue": "08",
+        "pages": "6081-6288",
+        "doi": ""
+      },
+      {
+        "title": "Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP",
+        "authors": [],
+        "journal": "International Journal of Advanced Technology in Engineering and Science",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "09",
+        "issue": "12",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce’s Online Review with Support NLP",
+        "authors": [],
+        "journal": "International Journal of Advanced Technology in Engineering and Science",
+        "conference": "",
+        "publisher": "",
+        "year": "2021",
+        "volume": "09",
+        "issue": "12",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Digital Marketing with Natural Language Processing",
+        "authors": [],
+        "journal": "Parishodh Journal",
+        "conference": "",
+        "publisher": "",
+        "year": "2020",
+        "volume": "IX",
+        "issue": "III",
+        "pages": "",
+        "doi": ""
+      }
+    ],
+
+    "conference_papers": [
+      {
+        "title": "Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP",
+        "authors": [],
+        "journal": "",
+        "conference": "International Conference on Wireless, Mobile Network and Applications",
+        "publisher": "Tirumala Engineering College, Jonnalagadda, Narasaraopet, Andhra Pradesh",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce’s Online Review with Support NLP",
+        "authors": [],
+        "journal": "",
+        "conference": "National Conference on New Horizons in Science, Management and Humanities",
+        "publisher": "IIMT College of Engineering, Greater Noida, U.P.",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+            }
+    ],
+
+    "conference_proceedings": [],
+    "communications": [],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": []
+  },
+
+  "patents": [],
+
+  "grants": [],
+
+  "awards": [],
+
+  "certifications": [
+      {
+        "title": "AWS Course for Beginners Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      },
+      {
+        "title": "AWS Computer Services Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      },
+      {
+        "title": "AWS Elastic Stack Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      },
+      {
+        "title": "AWS S3 Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      },
+      {
+        "title": "AWS Domain Services Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      },
+      {
+        "title": "AWS Lambda Online Certificate completion",
+        "issuer": "Great Learning Academy",
+        "year": ""
+      }
+    ],
+  "memberships": [],
+
+  "professional_services": [],
+
+  "responsibilities": [
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Handled classes dealing with basic computer, keyboard and internet etc."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Planned a program of study to meet the individual’s needs, interests and abilities."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Tutored the basics of using design applications, computer-aided drafting etc."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Assigned project for the students to deal with real-worlds constraints."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Encourage students to unravel problems using trials and error approach."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Assessed the accomplishments on a regular basis and provided progress reports."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Managed to supervise student’s laboratories work and guided them."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Maintained students attendance records, grades and other required records."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "Strive to maintain and improve professional competence."
+    },
+    {
+      "title": "",
+      "organization": "",
+      "duration": "",
+      "description": "I have done different college project to many software languages like vb.net, c language etc."
+    }
+  ],
+  "teaching_experience": [],
+
+  "students_supervised": [],
+
+  "references": [],
+  "other_sections": []
+
+}

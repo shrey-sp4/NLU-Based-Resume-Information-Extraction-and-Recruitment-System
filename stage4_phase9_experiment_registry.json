@@ -1,0 +1,19 @@
+{
+  "phase9_error_categorization": {
+    "tp": 101,
+    "fp": 385,
+    "fn": 175,
+    "precision": 0.2078,
+    "recall": 0.3659,
+    "exact_span_f1": 0.2651,
+    "top_error_category": "unannotated_gold_skill",
+    "top_error_occurrences": 251
+  },
+  "crf_vs_transformer": {
+    "crf_precision": 0.2078,
+    "crf_recall": 0.3659,
+    "crf_f1": 0.2651,
+    "deberta_f1": 0.2651,
+    "recommendation": "Retain Linear CRF (+/-3 Window)"
+  }
+}

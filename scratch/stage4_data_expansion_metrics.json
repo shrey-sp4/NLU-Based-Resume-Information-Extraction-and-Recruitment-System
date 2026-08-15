@@ -1,0 +1,30 @@
+{
+  "Config A (Gold Data Only)": {
+    "train_time_sec": 1.97,
+    "total_extracted_entities": 893,
+    "total_conflicts_resolved": 19,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Config B (External Data Only)": {
+    "train_time_sec": 0.02,
+    "total_extracted_entities": 44432,
+    "total_conflicts_resolved": 2974,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Config C (Gold + External Data)": {
+    "train_time_sec": 15.04,
+    "total_extracted_entities": 1217,
+    "total_conflicts_resolved": 71,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Config D (Gold + External + Silver Pre-Training)": {
+    "train_time_sec": 16.61,
+    "total_extracted_entities": 894,
+    "total_conflicts_resolved": 19,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  }
+}

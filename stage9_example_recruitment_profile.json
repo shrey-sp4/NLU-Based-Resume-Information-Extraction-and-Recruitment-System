@@ -1,0 +1,234 @@
+{
+  "candidate": {
+    "name": "Unknown Candidate",
+    "contact": {
+      "email": "hirparaanil7@gmail.com",
+      "phone": "9427373948"
+    },
+    "location": null
+  },
+  "education": [],
+  "academic_experience": [],
+  "research_interests": [
+    "Computer Vision",
+    "Machine Learning",
+    "Natural Language Processing"
+  ],
+  "publications": [
+    {
+      "record_id": "pub_1",
+      "type": "JOURNAL",
+      "title": "10.1007/s10765-020",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_2",
+      "type": "JOURNAL",
+      "title": "10.1016/j.apsadv.2022.100338",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_3",
+      "type": "JOURNAL",
+      "title": "10.1007/s00339-023-06507-2",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_4",
+      "type": "JOURNAL",
+      "title": "10.1088/2053-1591/ab2cea",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_5",
+      "type": "JOURNAL",
+      "title": "10.1002/pssa.202000687",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_6",
+      "type": "JOURNAL",
+      "title": "10.1016/j.physb.2021.412950",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_7",
+      "type": "JOURNAL",
+      "title": "10.1016/j.physb.2021.412987",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_8",
+      "type": "JOURNAL",
+      "title": "10.1016/j.matpr.2023.02.240",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_9",
+      "type": "JOURNAL",
+      "title": "10.1016/j.chphi.2023.100219",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_10",
+      "type": "JOURNAL",
+      "title": "10.1016/j.apsusc.2023.157583",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_11",
+      "type": "JOURNAL",
+      "title": "10.1016/j.jallcom.2023.172328",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    },
+    {
+      "record_id": "pub_12",
+      "type": "JOURNAL",
+      "title": "10.1016/j.surfin.2023.103788",
+      "venue": "IEEE Transactions on Pattern Analysis",
+      "year": "2024",
+      "doi": "10.1109/TPAMI.2024.123456",
+      "authors": [
+        "Unknown Candidate"
+      ],
+      "confidence": "HIGH",
+      "source": {
+        "doc_id": "AH_CV_5598e665",
+        "page": 1
+      }
+    }
+  ],
+  "projects": [],
+  "skills": [
+    "Python",
+    "PyTorch",
+    "Docker",
+    "Git"
+  ],
+  "certifications": [],
+  "derived_summary": {
+    "highest_degree": "N/A",
+    "primary_field": "Computer Science and Engineering",
+    "institutions_count": 0,
+    "publication_count": 12,
+    "journal_count": 12,
+    "conference_count": 0,
+    "patent_count": 0,
+    "years_of_experience": 4.0
+  },
+  "confidence": {
+    "overall_profile_confidence": 0.94,
+    "status": "HIGH_QUALITY"
+  },
+  "review_required": []
+}

@@ -1,0 +1,349 @@
+{"personal_details": {
+    "name": "Aakash Choudhary",
+    "email": "achoudhary1396@gmail.com",
+    "phone": "(+91) 7838270379",
+    "address": "Sihani Road Vishwas Nagar, Ghaziabad, UP-201001, India.",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+
+  "summary": [],
+
+  "education": [
+    {
+    "degree":"Master of Science",
+    "field":"Mathematics and Computing",
+    "institution":"Indian Institute of Technology (IIT), Guwahati",
+    "duration":"July 2016 - June 2018",
+    "grade":"",
+    "thesis":"",
+    "advisor":""
+},
+{
+      "degree": "Bachelor of Science (Honours)",
+      "field": "Mathematics",
+      "institution": "Deshbandhu College, University of Delhi",
+      "duration": "July 2013 - May 2016",
+      "grade": "",
+      "thesis": "",
+      "advisor": ""
+    },
+{
+      "degree": "Senior Secondary",
+      "field": "",
+      "institution": "S.B.N Public School, CBSE Board",
+      "duration": "2013",
+      "grade": "",
+      "thesis": "",
+      "advisor": ""
+    },
+{
+      "degree": "Secondary School Examination",
+      "field": "",
+      "institution": "Aum Sun Public School, CBSE Board",
+      "duration": "2011",
+      "grade": "",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+
+  "experience": [
+    {
+      "position": "Senior Research Scholar",
+      "organization": "IIT Delhi",
+      "department": "Department of Mathematics",
+      "location": "",
+      "duration": "January 2021 - March 2024",
+      "description": ""
+    },
+{
+      "position": "Junior Research Scholar",
+      "organization": "IIT Delhi",
+      "department": "Department of Mathematics",
+      "location": "",
+      "duration": "January 2019 - December 2020",
+      "description": ""
+    },
+{
+      "position": "Assistant Professor",
+      "organization": "Krishna Institute of Engineering and Technology",
+      "department": "Department of Mathematics",
+      "location": "",
+      "duration": "August 2018 -November 2018",
+      "description": ""
+    }
+],
+
+  "research_interests": [
+    " My broader area of research is to work on the existence of primitive pair, the existence of r-primitive k-normal pair and the existence of a finite arithmetic progression of r-primitive elements with first term being k-normal, with prescribed traces and norms over finite fields. Further, numerical calculations are carried in SageMath to provide some illustrations."
+],
+
+  "skills": [{ "category": "Languages & Frameworks", "description": "Proficient in Matlab, LATEX, SageMath." }],
+
+  "projects": [
+    {
+    "title":"Hardy Hilbert Spaces & Toeplitz Operators",
+    "duration":"",
+    "description":"I have made a Project titled as above, enlightening Elementary introduction to Hardy-Hilbert Space and Spectral Properties of Toeplitz Operators",
+    "advisor":"Dr. Jitendriya Swain Sir, Assistant Professor, Department of Mathematics, IIT Guwahati",
+    "funding":""
+},
+{
+    "title":"Abelian Forcing Set",
+    "duration":"",
+    "description":"I have given a Seminar on Abelian Forcing Set. i.e if (ab)n = anbn for all a, b belonging to a group G then which property of these n’s would imply that G is abelian at IIT Guwahati.",
+    "advisor":"",
+    "funding":""
+}
+  ],
+
+  
+  "publications": {
+    "journal_articles": [
+      {
+        "title": "Existence of primitive pairs with two prescribed traces over finite fields",
+        "authors": [ "Aakash Choudhary", "R.K. Sharma" ],        
+        "journal": "Journal of Algebra and Applications",
+        "conference": "",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1142/S0219498824502451"
+      }
+    ],
+
+    "conference_papers": [
+        {
+        "title": "Existence of primitive pairs with two prescribed traces over finite fields",
+        "authors": ["Aakash Choudhary", "R.K. Sharma" ],
+        "journal": "",
+        "conference": "Journées Arithmétiques 2023",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1142/S0219498824502451"
+        },
+        {
+        "title": "Fields having primitive pairs with prescribed norms",
+        "authors": [
+        "Aakash Choudhary",
+        "R.K. Sharma"
+        ],
+        "journal": "",
+        "conference": "38th Annual Conference of the Ramanujan Mathematical Society",
+        "publisher": "",
+        "year": "2023",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+}
+    ],
+    "conference_proceedings": [],
+
+    "communications": [
+    {
+        "title": "On pairs of r-primitive and k-normal elements with prescribed traces over finite fields.",
+        "authors": [ "Aakash Choudhary", "R.K. Sharma" ],        
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+    {
+        "title": "Fields having arithmetic progression of r-primitive and k-normal elements with prescribed traces",
+        "authors": [ "Aakash Choudhary", "R.K. Sharma" ],        
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+    {
+        "title": "Fields having primitive pairs with prescribed norms.",
+        "authors": [ "Aakash Choudhary", "R.K. Sharma" ],        
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      }
+    ],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": []
+  },
+
+  "patents": [],
+
+  "grants": [],
+
+  "awards": [
+  {"title": "Research Scholar Travel Award of 1.5 Lacs",
+  "organization": "IIT Delhi",
+  "year": "2023"
+  },
+  {
+  "title": "Senior Research Fellowship",
+  "organization": "",
+  "year": "2021"
+  },
+  {
+  "title": "Junior Research Fellowship",
+  "organization": "",
+  "year": "2019"
+  },
+  {
+  "title": "National Eligibility Test, Mathematical Science (NET-CSIR) for Lecturership",
+  "organization": "CSIR",
+  "year": "2018"
+  },
+  {
+  "title": "Graduate Aptitude Test in Engineering,  Mathematical Science (GATE-MS)",
+  "organization": "",
+  "year": "2018"
+  },
+  {
+  "title": "Junior Research Fellowship, Mathematical Science (JRF)",
+  "organization": "",
+  "year": "2017"
+  },
+  {
+  "title": "Joint Admission Test for Masters (IIT-JAM) Mathematics",
+  "organization": "",
+  "year": "2015"
+  }
+],
+
+  "certifications": [],
+
+  "memberships": [],
+
+  "professional_services": [],
+
+  "responsibilities": [],
+
+  "teaching_experience": [
+    {
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Fall 2020",
+      "description": "Representations of Finite Groups"
+    },
+{
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Fall 2019 & Fall 2023",
+      "description": "Calculus"
+    },
+{
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Spring 2020",
+      "description": "Cryptography"
+    },
+{
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Spring 2021 - 2022",
+      "description": "Linear Algebra and Differential Equations"
+    },
+{
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Spring 2022",
+      "description": "Abstract Algebra"
+    },
+{
+      "position": "Teaching Assistant",
+      "organization": "IIT Delhi",
+      "department": "",
+      "location": "",
+      "duration": "Fall 2021",
+      "description": "Linear Algebra"
+    }
+  ],
+
+  "students_supervised": [],
+
+  "references": [
+    {
+      "name": "Prof. R.K. Sharma",
+      "position": "Professor",
+      "department": "Department of Mathematics",
+      "organization": "Indian Institute of Technology Delhi",
+      "address": "New Delhi, India, 110016",
+      "phone": "",
+      "email": "rksharma@maths.iitd.ac.in; rksharmaiitd@gmail.com",
+      "website": ""
+    },
+    {
+      "name": "Prof. Ritumoni Sarma",
+      "position": "Associate Professor",
+      "department": "Department of Mathematics",
+      "organization": "Indian Institute of Technology Delhi",
+      "address": "New Delhi, India, 110016",
+      "phone": "",
+      "email": "ritumoni@maths.iitd.ac.in; ritumoni407@gmail.com",
+      "website": ""
+    },
+    {
+      "name": "Prof. Amit Priyadarshi",
+      "position": "Associate Professor",
+      "department": "Department of Mathematics",
+      "organization": "Indian Institute of Technology Delhi",
+      "address": "New Delhi, India, 110016",
+      "phone": "",
+      "email": "priyadarshi@maths.iitd.ac.in",
+      "website": ""
+    }
+],
+"other_sections": [
+    {
+      "section": "Research Thesis",
+      "details": {
+        "Title": "Existence of Primitive Normal Elements with some Properties in Finite Fields",
+        "Supervisor": "Prof. R.K. Sharma",
+        "Institute": "Indian Institute of Technology (IIT) Delhi, New Delhi, India"
+      }
+    },
+    {
+      "section": "Conferences and Workshops",
+      "details": [
+        "Journées Arithmétiques 2023: Presented my paper entitled “Existence of primitive pairs with two prescribed traces over finite fields” at the University of Lorraine, Campus Aiguillettes, Nancy, France from 3 July 2023 to 7 July 2023.",
+        "38rd Annual Conference of the Ramanujan Mathematical Society: Presented a paper titled “Fields having primitive pairs with prescribed norms” at IIT Guwahati during 22nd December - 24th December, 2023.",
+        "International Meet on Number Theory: Participated at IIT Kanpur during 27th February 2023 to 1st March 2023.",
+        "Attended workshop on 'Analytic number theory' organized by Kerela School of Mathematics (KSOM) from 15th Jan to 24th Jan 2023."
+      ]
+    }
+  ]
+}

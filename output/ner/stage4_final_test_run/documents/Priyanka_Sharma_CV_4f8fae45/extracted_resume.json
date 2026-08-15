@@ -1,0 +1,184 @@
+{
+  "resume_id": "Priyanka_Sharma_CV_4f8fae45",
+  "document_id": "Priyanka_Sharma_CV_4f8fae45",
+  "run_id": "ner_run_20260811T100030Z",
+  "profile": {
+    "resume_id": "Priyanka_Sharma_CV_4f8fae45",
+    "document_id": "Priyanka_Sharma_CV_4f8fae45",
+    "source_run_id": "ner_run_20260811T100030Z",
+    "personal_details": {
+      "name": null,
+      "email": {
+        "value": "sharmaps94@yahoo.in",
+        "entity_type": "email",
+        "confidence": 1.0,
+        "source_section_id": "section_001",
+        "source_section_type": "preamble",
+        "page_number": 1,
+        "line_number": 6,
+        "line_index": 10576,
+        "start_char": 7,
+        "end_char": 26,
+        "raw_line_text": "Email: sharmaps94@yahoo.in, ps3668047@gmail.com",
+        "raw_value": "sharmaps94@yahoo.in",
+        "extractor_name": "deterministic_regex"
+      },
+      "phone": {
+        "value": "+91-7814440618",
+        "entity_type": "phone",
+        "confidence": 1.0,
+        "source_section_id": "section_001",
+        "source_section_type": "preamble",
+        "page_number": 1,
+        "line_number": 5,
+        "line_index": 10575,
+        "start_char": 12,
+        "end_char": 26,
+        "raw_line_text": "Mobile No.: +91-7814440618",
+        "raw_value": "+91-7814440618",
+        "extractor_name": "deterministic_regex"
+      },
+      "location": null
+    },
+    "education_entries": [
+      {
+        "degree": {
+          "value": "PhD",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_004",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 31,
+          "line_index": 10601,
+          "start_char": 0,
+          "end_char": 3,
+          "raw_line_text": "PhD (Physics and Jaypee University of April 2024 96.0% First",
+          "raw_value": "PhD",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_004"
+      },
+      {
+        "degree": {
+          "value": "M.Sc",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_004",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 34,
+          "line_index": 10604,
+          "start_char": 0,
+          "end_char": 4,
+          "raw_line_text": "M.Sc. (Physics) Guru Nanak Girls college, May 2018 78.9% First",
+          "raw_value": "M.Sc",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_004"
+      },
+      {
+        "degree": {
+          "value": "B.Sc",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_004",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 37,
+          "line_index": 10607,
+          "start_char": 0,
+          "end_char": 4,
+          "raw_line_text": "B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First",
+          "raw_value": "B.Sc",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_004"
+      }
+    ],
+    "experience_entries": [],
+    "skills": [
+      {
+        "value": "MATLAB",
+        "entity_type": "skill",
+        "confidence": 0.95,
+        "source_section_id": "section_003",
+        "source_section_type": "skills",
+        "page_number": 1,
+        "line_number": 22,
+        "line_index": 10592,
+        "start_char": 43,
+        "end_char": 49,
+        "raw_line_text": "• Hands on software’s like MS Office, FPS, MATLAB, VESTA, Image j and Origin.",
+        "raw_value": "MATLAB",
+        "extractor_name": "gazetteer_matcher"
+      },
+      {
+        "value": "C",
+        "entity_type": "skill",
+        "confidence": 0.95,
+        "source_section_id": "section_010",
+        "source_section_type": "publications",
+        "page_number": 2,
+        "line_number": 24,
+        "line_index": 10641,
+        "start_char": 55,
+        "end_char": 56,
+        "raw_line_text": "Nanostructures. In: Jain, S., Marriwala, N., Tripathi, C.C., Kumar, D. (eds) Emergent Converging",
+        "raw_value": "C",
+        "extractor_name": "gazetteer_matcher"
+      },
+      {
+        "value": "C",
+        "entity_type": "skill",
+        "confidence": 0.95,
+        "source_section_id": "section_010",
+        "source_section_type": "publications",
+        "page_number": 2,
+        "line_number": 24,
+        "line_index": 10641,
+        "start_char": 57,
+        "end_char": 58,
+        "raw_line_text": "Nanostructures. In: Jain, S., Marriwala, N., Tripathi, C.C., Kumar, D. (eds) Emergent Converging",
+        "raw_value": "C",
+        "extractor_name": "gazetteer_matcher"
+      }
+    ],
+    "projects": [],
+    "publications": [
+      {
+        "value": "10.1016/j.jlumin.2022.119231",
+        "entity_type": "doi",
+        "confidence": 1.0,
+        "source_section_id": "section_010",
+        "source_section_type": "publications",
+        "page_number": 2,
+        "line_number": 22,
+        "line_index": 10639,
+        "start_char": 16,
+        "end_char": 44,
+        "raw_line_text": "https://doi.org/10.1016/j.jlumin.2022.119231.” (If- 4.171, SCI).",
+        "raw_value": "10.1016/j.jlumin.2022.119231",
+        "extractor_name": "deterministic_regex"
+      }
+    ],
+    "certifications": [],
+    "research_interests": [],
+    "awards": [],
+    "languages": []
+  },
+  "total_entities": 28,
+  "conflict_count": 2
+}

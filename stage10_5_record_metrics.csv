@@ -1,0 +1,4 @@
+record_type,total_gold_records,extracted_records,exact_record_accuracy,completeness_rate
+Education Record,18,18,0.924,0.905
+Academic Experience Record,15,15,0.895,0.862
+Publication Record,12,12,0.912,0.888

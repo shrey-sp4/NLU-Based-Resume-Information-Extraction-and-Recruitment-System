@@ -1,0 +1,14 @@
+{
+  "phase": "Stage 10.6 Original Human Ground-Truth Evaluation",
+  "verdict": "B \u2014 Moderate performance",
+  "measured_metrics": {
+    "total_gold_entities": 79,
+    "total_predicted_entities": 57,
+    "tp": 26,
+    "fp": 31,
+    "fn": 53,
+    "precision": 0.4561,
+    "recall": 0.3291,
+    "exact_match_f1": 0.3824
+  }
+}

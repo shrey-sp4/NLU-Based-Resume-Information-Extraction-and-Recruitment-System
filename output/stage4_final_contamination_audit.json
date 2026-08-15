@@ -1,0 +1,10 @@
+{
+  "total_test_resumes": 30,
+  "total_test_line_hashes": 7059,
+  "gold_overlaps": 0,
+  "silver_overlaps": 0,
+  "external_overlaps": 0,
+  "zero_test_document_overlap": true,
+  "zero_candidate_hardcoding": true,
+  "contamination_status": "CLEAN_ZERO_LEAKAGE"
+}

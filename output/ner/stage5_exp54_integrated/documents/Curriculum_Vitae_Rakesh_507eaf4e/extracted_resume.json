@@ -1,0 +1,191 @@
+{
+  "resume_id": "Curriculum_Vitae_Rakesh_507eaf4e",
+  "document_id": "Curriculum_Vitae_Rakesh_507eaf4e",
+  "run_id": "ner_run_20260811T100030Z",
+  "profile": {
+    "resume_id": "Curriculum_Vitae_Rakesh_507eaf4e",
+    "document_id": "Curriculum_Vitae_Rakesh_507eaf4e",
+    "source_run_id": "ner_run_20260811T100030Z",
+    "personal_details": {
+      "name": null,
+      "email": {
+        "value": "rakeshranjan2911@gmail.com",
+        "entity_type": "email",
+        "confidence": 1.0,
+        "source_section_id": "section_001",
+        "source_section_type": "preamble",
+        "page_number": 1,
+        "line_number": 6,
+        "line_index": 1368,
+        "start_char": 19,
+        "end_char": 45,
+        "raw_line_text": "I +91-8287526006 # rakeshranjan2911@gmail.com ï LinkedIn",
+        "raw_value": "rakeshranjan2911@gmail.com",
+        "extractor_name": "deterministic_regex"
+      },
+      "phone": {
+        "value": "+91-8287526006 ",
+        "entity_type": "phone",
+        "confidence": 1.0,
+        "source_section_id": "section_001",
+        "source_section_type": "preamble",
+        "page_number": 1,
+        "line_number": 6,
+        "line_index": 1368,
+        "start_char": 2,
+        "end_char": 17,
+        "raw_line_text": "I +91-8287526006 # rakeshranjan2911@gmail.com ï LinkedIn",
+        "raw_value": "+91-8287526006 ",
+        "extractor_name": "deterministic_regex"
+      },
+      "location": null
+    },
+    "education_entries": [
+      {
+        "degree": {
+          "value": "Doctor of Philosophy",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_002",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 11,
+          "line_index": 1373,
+          "start_char": 14,
+          "end_char": 34,
+          "raw_line_text": "2019 – 2024 ] Doctor of Philosophy (Ph.D) in Communication and Signal Processing",
+          "raw_value": "Doctor of Philosophy",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_002"
+      },
+      {
+        "degree": {
+          "value": "M.Tech",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_002",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 23,
+          "line_index": 1385,
+          "start_char": 36,
+          "end_char": 42,
+          "raw_line_text": "2017 – 2019 ] Master of Technology (M.Tech.) in Communication and Signal Processing.",
+          "raw_value": "M.Tech",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_002"
+      },
+      {
+        "degree": {
+          "value": "Master of Technology",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_002",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 23,
+          "line_index": 1385,
+          "start_char": 14,
+          "end_char": 34,
+          "raw_line_text": "2017 – 2019 ] Master of Technology (M.Tech.) in Communication and Signal Processing.",
+          "raw_value": "Master of Technology",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_002"
+      },
+      {
+        "degree": {
+          "value": "Bachelor of Technology",
+          "entity_type": "degree",
+          "confidence": 0.95,
+          "source_section_id": "section_002",
+          "source_section_type": "education",
+          "page_number": 1,
+          "line_number": 27,
+          "line_index": 1389,
+          "start_char": 14,
+          "end_char": 36,
+          "raw_line_text": "2009 – 2013 ] Bachelor of Technology in Electronics and Communication Engineering.",
+          "raw_value": "Bachelor of Technology",
+          "extractor_name": "gazetteer_matcher"
+        },
+        "major": null,
+        "university": null,
+        "graduation_year": null,
+        "cgpa": null,
+        "source_section_id": "section_002"
+      }
+    ],
+    "experience_entries": [],
+    "skills": [
+      {
+        "value": "Matlab",
+        "entity_type": "skill",
+        "confidence": 0.95,
+        "source_section_id": "section_005",
+        "source_section_type": "skills",
+        "page_number": 2,
+        "line_number": 4,
+        "line_index": 1415,
+        "start_char": 12,
+        "end_char": 18,
+        "raw_line_text": "Softwares ] Matlab/SIMULINK®, LATEX, Microsoft Oﬃce.",
+        "raw_value": "Matlab",
+        "extractor_name": "gazetteer_matcher"
+      }
+    ],
+    "projects": [],
+    "publications": [
+      {
+        "value": "10.1109/LCOMM.2023.3289865",
+        "entity_type": "doi",
+        "confidence": 1.0,
+        "source_section_id": "section_007",
+        "source_section_type": "publications",
+        "page_number": 2,
+        "line_number": 29,
+        "line_index": 1440,
+        "start_char": 76,
+        "end_char": 102,
+        "raw_line_text": "IEEE Communications Letters, vol. 27, no. 8, pp. 2083-2087, Aug. 2023, doi: 10.1109/LCOMM.2023.3289865.",
+        "raw_value": "10.1109/LCOMM.2023.3289865",
+        "extractor_name": "deterministic_regex"
+      },
+      {
+        "value": "10.1109/NCC60321.2024.10485931",
+        "entity_type": "doi",
+        "confidence": 1.0,
+        "source_section_id": "section_007",
+        "source_section_type": "publications",
+        "page_number": 2,
+        "line_number": 33,
+        "line_index": 1444,
+        "start_char": 66,
+        "end_char": 96,
+        "raw_line_text": "munications (NCC) 2024, IIT-Madras, Chennai, India, pp. 1-6, doi: 10.1109/NCC60321.2024.10485931.",
+        "raw_value": "10.1109/NCC60321.2024.10485931",
+        "extractor_name": "deterministic_regex"
+      }
+    ],
+    "certifications": [],
+    "research_interests": [],
+    "awards": [],
+    "languages": []
+  },
+  "total_entities": 24,
+  "conflict_count": 0
+}

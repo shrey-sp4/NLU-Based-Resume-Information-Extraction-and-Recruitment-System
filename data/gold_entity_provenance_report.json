@@ -1,0 +1,45 @@
+{
+  "audit_timestamp": "2026-08-14T21:04:04Z",
+  "dataset_file": "data/entity_annotations/entity_annotations_dev22.jsonl",
+  "total_gold_documents": 22,
+  "total_annotated_spans": 416,
+  "provenance_summary": {
+    "manually_annotated_by_human": 0,
+    "automatically_generated_by_regex_script": 416,
+    "circular_rule_leakage_flag": true,
+    "generation_script": "scratch/build_stage4_dev22_entity_annotations.py"
+  },
+  "provenance_details": {
+    "email_spans": {
+      "count": 22,
+      "source_generator": "EMAIL_REGEX (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    },
+    "phone_spans": {
+      "count": 22,
+      "source_generator": "PHONE_REGEX (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    },
+    "degree_spans": {
+      "count": 68,
+      "source_generator": "DEGREE_KEYWORDS (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    },
+    "grade_spans": {
+      "count": 42,
+      "source_generator": "GRADE_REGEX (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    },
+    "title_spans": {
+      "count": 84,
+      "source_generator": "ROLE_KEYWORDS (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    },
+    "doi_spans": {
+      "count": 156,
+      "source_generator": "DOI_REGEX (build_stage4_dev22_entity_annotations.py)",
+      "independence_status": "CIRCULAR_RULE_LEAKAGE"
+    }
+  },
+  "audit_conclusion": "The current entity annotations are silver heuristic labels produced by automated regex scripts. Evaluating candidate regex extractors against regex-generated gold data creates rule-to-rule circular leakage."
+}

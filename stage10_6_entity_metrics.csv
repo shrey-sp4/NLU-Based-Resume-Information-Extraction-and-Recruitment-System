@@ -1,0 +1,6 @@
+entity_field,tp,fp,fn,precision,recall,exact_match_f1
+DEGREE,14,1,35,0.9333,0.2857,0.4375
+EMAIL,6,0,4,1.0,0.6,0.75
+NAME,0,0,10,0.0,0.0,0.0
+PHONE,6,0,4,1.0,0.6,0.75
+PUBLICATIONS,0,30,0,0.0,0.0,0.0

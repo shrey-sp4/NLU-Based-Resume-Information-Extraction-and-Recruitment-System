@@ -1,96 +1,46 @@
 from __future__ import annotations
 
-import math
-from collections import Counter, defaultdict
+import re
 from dataclasses import dataclass, field
-from typing import Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
+from typing import Dict, List, Optional, Sequence, Tuple
 
 from .candidates import CandidateLine, score_heading_likeness, suggest_canonical_label
-from .features import SparseTfidfVectorizer, merge_feature_dicts
-from .models import HeadingPrediction, RawLineRecord
-from .normalization import SectionNormalizer
+from .models import RawLineRecord
+from .normalization import NormalizationResult, SectionNormalizer
 
 
-def softmax(scores: Mapping[str, float]) -> Dict[str, float]:
-    if not scores:
-        return {}
-    max_score = max(scores.values())
-    exp_scores = {label: math.exp(score - max_score) for label, score in scores.items()}
-    total = sum(exp_scores.values()) or 1.0
-    return {label: value / total for label, value in exp_scores.items()}
-
-
-class SparseLinearOVRClassifier:
-    def __init__(
-        self,
-        learning_rate: float = 0.08,
-        epochs: int = 20,
-        l2: float = 0.0005,
-        class_weight: Optional[str] = None,
-    ) -> None:
-        self.learning_rate = learning_rate
-        self.epochs = epochs
-        self.l2 = l2
-        self.class_weight = class_weight
-        self.classes_: List[str] = []
-        self.weights: Dict[str, Dict[str, float]] = {}
-        self.bias: Dict[str, float] = {}
-        self.fitted = False
-
-    def fit(self, X: Sequence[Mapping[str, float]], y: Sequence[str]) -> "SparseLinearOVRClassifier":
-        self.classes_ = sorted(set(y))
-        self.weights = {label: defaultdict(float) for label in self.classes_}
-        self.bias = {label: 0.0 for label in self.classes_}
-
-        sample_weights = {label: 1.0 for label in self.classes_}
-        if self.class_weight == "balanced" and y:
-            total_n = len(y)
-            counts = Counter(y)
-            num_classes = len(self.classes_)
-            sample_weights = {
-                cls: total_n / (num_classes * count) if count > 0 else 1.0
-                for cls, count in counts.items()
-            }
-
-        for _ in range(self.epochs):
-            for features, target in zip(X, y):
-                for label in self.classes_:
-                    score = self._score(label, features)
-                    prob = 1.0 / (1.0 + math.exp(-max(min(score, 20.0), -20.0)))
-                    desired = 1.0 if label == target else 0.0
-                    error = desired - prob
-                    sw = sample_weights.get(label, 1.0)
-                    self.bias[label] += self.learning_rate * (error * sw)
-                    weights = self.weights[label]
-                    for feature, value in features.items():
-                        if feature == "bias":
-                            continue
-                        update = self.learning_rate * (error * value * sw - self.l2 * weights.get(feature, 0.0))
-                        weights[feature] = weights.get(feature, 0.0) + update
-
-        self.fitted = True
-        return self
-
-
-    def _score(self, label: str, features: Mapping[str, float]) -> float:
-        score = self.bias.get(label, 0.0)
-        weights = self.weights.get(label, {})
-        for feature, value in features.items():
-            score += weights.get(feature, 0.0) * value
-        return score
-
-    def decision_function(self, features: Mapping[str, float]) -> Dict[str, float]:
-        return {label: self._score(label, features) for label in self.classes_}
-
-    def predict_proba(self, features: Mapping[str, float]) -> Dict[str, float]:
-        return softmax(self.decision_function(features))
-
-    def predict(self, features: Mapping[str, float]) -> Tuple[str, float]:
-        probs = self.predict_proba(features)
-        if not probs:
-            return "other", 0.0
-        label = max(probs, key=probs.get)
-        return label, probs[label]
+def is_body_sentence(text: str) -> bool:
+    cleaned = (text or "").strip()
+    if not cleaned:
+        return True
+    # If ends with period, comma, or semicolon -> body sentence (not a heading)
+    if cleaned.endswith((".", ",", ";")):
+        return True
+    # If starts with bullet marker followed by action verbs
+    if re.match(
+        r"^\s*(?:[-•*➢]|\d+[\.\)])\s*(?:Developed|Implemented|Created|Designed|Worked|Responsible|Led|Managed|Built|Engineered|Utilized|Applied|Assisted|Participated|Studied|Gained|Handled|Achieved|Maintained)\b",
+        cleaned,
+        re.IGNORECASE,
+    ):
+        return True
+    # Negative Contact Content Filter
+    if re.match(r"^\s*(?:contact|contact\s+no|address|e-mail|email|mobile|tel|date\s+of\s+birth|dob)\b", cleaned, re.IGNORECASE):
+        if re.search(r"[\d@,]", cleaned) or len(cleaned) > 15:
+            return True
+    # Negative Publication Metadata Filter
+    if re.search(r"\b(?:ISBN|DOI|ISSN|http://|https://|www\.|Digital\s+library\s+URL)\b", cleaned, re.IGNORECASE):
+        return True
+    # Negative Marksheet / Table Line Filter
+    if re.match(r"^\s*(?:CGPA|Percentage|Roll\s+No|Year\s+of\s+passing|Marks\s+Obtained|Board/University|Course\s+Board)\b", cleaned, re.IGNORECASE):
+        return True
+    # Contains contact elements like email or URL
+    if "@" in cleaned or "http" in cleaned or "www." in cleaned:
+        return True
+    # Long sentences with > 8 words are body text unless strictly heading-like
+    words = cleaned.split()
+    if len(words) > 8:
+        return True
+    return False
 
 
 @dataclass(slots=True)
@@ -119,157 +69,192 @@ class SectionBoundaryDecision:
         }
 
 
+CLASSIFIER_BIAS: float = -3.1127
+CLASSIFIER_WEIGHTS: Dict[str, float] = {
+    "word_count_le_3": 0.5966,
+    "word_count_le_5": -0.0256,
+    "word_count_le_8": -0.1112,
+    "word_count_gt_8": -0.2462,
+    "is_all_caps": 0.6639,
+    "is_title_case": 0.2484,
+    "ends_with_colon": 0.6668,
+    "ends_with_period_or_comma": -0.8992,
+    "has_bullet_marker": -0.3731,
+    "has_digits_or_email": -1.4254,
+    "has_metadata_keyword": -0.2698,
+    "has_table_entry_keyword": 0.0,
+    "has_contact_prefix": -0.2288,
+    "exact_alias_match": 1.1830,
+    "substring_alias_match": 0.7400,
+    "alias_confidence": 1.4679,
+    "previous_blank": 1.1767,
+    "next_blank": 0.3075,
+    "is_top_of_page": 0.1467,
+    "is_repeated_page_header": -2.0,
+}
+
+
 class SectionBoundaryDetector:
     def __init__(
         self,
         *,
+        normalizer: Optional[SectionNormalizer] = None,
         heading_threshold: float = 0.55,
         review_threshold: float = 0.65,
     ) -> None:
+        self.normalizer = normalizer or SectionNormalizer()
         self.heading_threshold = heading_threshold
         self.review_threshold = review_threshold
-        self.vectorizer = SparseTfidfVectorizer()
-        self.binary_model = SparseLinearOVRClassifier()
-        self.section_model = SparseLinearOVRClassifier()
-        self.normalizer = SectionNormalizer()
-        self.fitted = False
 
-    def _build_candidate(
+    def compute_multi_signal_probability(
+        self,
+        text: str,
+        norm: NormalizationResult,
+        previous_blank: bool,
+        next_blank: bool,
+        line: RawLineRecord,
+    ) -> Tuple[float, List[str]]:
+        words = text.split()
+        w_count = len(words)
+        reasons: List[str] = []
+
+        is_all_caps = 1.0 if (text.isupper() and any(c.isalpha() for c in text)) else 0.0
+        is_title_case = 1.0 if ((text.istitle() or all(w[0].isupper() for w in words if w and w[0].isalpha())) and w_count <= 8) else 0.0
+        ends_with_colon = 1.0 if text.endswith(":") else 0.0
+        ends_with_period = 1.0 if text.endswith((".", ",", ";")) else 0.0
+        has_bullet = 1.0 if text.startswith(("-", "•", "*", "➢")) else 0.0
+        has_digits_email = 1.0 if ("@" in text or any(c.isdigit() for c in text)) else 0.0
+        has_metadata = 1.0 if any(k in text.upper() for k in ["ISBN", "DOI", "ISSN", "HTTP", "WWW."]) else 0.0
+        has_table = 1.0 if any(text.upper().startswith(k) for k in ["CGPA", "PERCENTAGE", "ROLL NO", "MARKS OBTAINED"]) else 0.0
+        has_contact = 1.0 if any(text.upper().startswith(k) for k in ["CONTACT", "ADDRESS", "EMAIL", "MOBILE", "TEL", "DOB"]) else 0.0
+
+        exact_alias = 1.0 if norm.method == "exact_alias_match" else 0.0
+        sub_alias = 1.0 if (norm.method == "substring_alias_match" and norm.confidence >= 0.75) else 0.0
+        alias_conf = norm.confidence
+
+        prev_b = 1.0 if previous_blank else 0.0
+        next_b = 1.0 if next_blank else 0.0
+        is_top = 1.0 if line.line_number <= 2 else 0.0
+        is_rep_hdr = 1.0 if getattr(line, "is_repeated_page_header", False) else 0.0
+
+        feats = {
+            "word_count_le_3": 1.0 if w_count <= 3 else 0.0,
+            "word_count_le_5": 1.0 if 3 < w_count <= 5 else 0.0,
+            "word_count_le_8": 1.0 if 5 < w_count <= 8 else 0.0,
+            "word_count_gt_8": 1.0 if w_count > 8 else 0.0,
+            "is_all_caps": is_all_caps,
+            "is_title_case": is_title_case,
+            "ends_with_colon": ends_with_colon,
+            "ends_with_period_or_comma": ends_with_period,
+            "has_bullet_marker": has_bullet,
+            "has_digits_or_email": has_digits_email,
+            "has_metadata_keyword": has_metadata,
+            "has_table_entry_keyword": has_table,
+            "has_contact_prefix": has_contact,
+            "exact_alias_match": exact_alias,
+            "substring_alias_match": sub_alias,
+            "alias_confidence": alias_conf,
+            "previous_blank": prev_b,
+            "next_blank": next_b,
+            "is_top_of_page": is_top,
+            "is_repeated_page_header": is_rep_hdr,
+        }
+
+        logit = CLASSIFIER_BIAS
+        for k, v in feats.items():
+            if v > 0:
+                w = CLASSIFIER_WEIGHTS.get(k, 0.0)
+                logit += w * v
+                reasons.append(f"{k}:{v:.2f}")
+
+        import math
+        prob = 1.0 / (1.0 + math.exp(-logit)) if logit >= 0 else math.exp(logit) / (1.0 + math.exp(logit))
+        return prob, reasons
+
+    def predict_line(
         self,
         line: RawLineRecord,
-        *,
         previous_blank: bool = False,
         next_blank: bool = False,
-    ) -> CandidateLine:
-        heading_likeness = score_heading_likeness(
-            line,
-            previous_blank=previous_blank,
-            next_blank=next_blank,
-        )
-        structural_score = float(heading_likeness["structural_score"])
-        prototype_label, prototype_similarity = suggest_canonical_label(line.text)
-        heading_score = min(1.0, structural_score + (prototype_similarity * 0.35))
-        confidence = max(structural_score, prototype_similarity)
-        reasons = list(heading_likeness["reasons"])
-        if prototype_label != "other" and prototype_similarity > 0:
-            reasons.append(f"prototype:{prototype_label}")
-        return CandidateLine(
-            line=line,
-            structural_score=structural_score,
-            prototype_similarity=prototype_similarity,
-            heading_score=heading_score,
-            suggested_label=prototype_label,
-            confidence=confidence,
-            reasons=reasons,
-        )
+    ) -> SectionBoundaryDecision:
+        text = (line.text or "").strip()
 
-    def fit(self, records: Sequence[Mapping[str, object]]) -> "SectionBoundaryDetector":
-        texts: List[str] = []
-        heading_examples: List[Mapping[str, float]] = []
-        heading_labels: List[str] = []
-        section_examples: List[Mapping[str, float]] = []
-        section_labels: List[str] = []
-
-        for record in records:
-            text = str(record.get("text", ""))
-            texts.append(text)
-
-        self.vectorizer.fit(texts)
-
-        for record in records:
-            text = str(record.get("text", ""))
-            is_heading = bool(record.get("is_heading", False))
-            label = str(record.get("section_label") or "other")
-            raw_line = RawLineRecord(
-                resume_id=str(record.get("resume_id", "")),
-                document_id=str(record.get("document_id", "")),
-                source_file=str(record.get("source_file", "")),
-                source_run_id=str(record.get("source_run_id", "")),
-                page_number=int(record.get("page_number", 0)),
-                line_number=int(record.get("line_number", 0)),
-                line_index=int(record.get("line_index", 0)),
-                text=text,
-                preceded_by_blank=bool(record.get("preceded_by_blank", False)),
-                followed_by_blank=bool(record.get("followed_by_blank", False)),
+        if line.is_repeated_page_header:
+            return SectionBoundaryDecision(
+                line=line,
+                is_heading=False,
+                heading_probability=0.0,
+                canonical_section="other",
+                confidence=0.0,
+                method="page_header_artifact_rule",
+                review_required=False,
+                reasons=["repeated_page_header_artifact"],
             )
-            candidate = self._build_candidate(
-                raw_line,
-                previous_blank=bool(record.get("preceded_by_blank", False)),
-                next_blank=bool(record.get("followed_by_blank", False)),
+
+        if not text or is_body_sentence(text):
+            return SectionBoundaryDecision(
+                line=line,
+                is_heading=False,
+                heading_probability=0.0,
+                canonical_section="other",
+                confidence=0.0,
+                method="body_text_rule",
+                review_required=False,
+                reasons=["empty_or_body_sentence"],
             )
-            feature_map = merge_feature_dicts(
-                self.vectorizer.transform_one(text),
-                {
-                    "bias": 1.0,
-                    "line_length": float(len(text.strip())),
-                    "word_count": float(len(text.split())),
-                    "heading_candidate_score": candidate.heading_score,
-                    "prototype_similarity": candidate.prototype_similarity,
-                    "structural_score": candidate.structural_score,
-                },
-            )
-            heading_examples.append(feature_map)
-            heading_labels.append("heading" if is_heading else "content")
-            if is_heading:
-                section_examples.append(feature_map)
-                section_labels.append(label)
 
-        if heading_examples:
-            self.binary_model.fit(heading_examples, heading_labels)
-        if section_examples:
-            self.section_model.fit(section_examples, section_labels)
-        self.normalizer.fit(texts)
-        self.fitted = True
-        return self
+        # Normalize line against canonical taxonomy
+        norm: NormalizationResult = self.normalizer.normalize(text)
+        words = text.split()
+        word_count = len(words)
+        is_all_caps = text.isupper() and any(c.isalpha() for c in text)
+        is_title_case = (text.istitle() or all(w[0].isupper() for w in words if w and w[0].isalpha())) and word_count <= 8
+        ends_with_colon = text.endswith(":")
 
-    def predict_line(self, line: RawLineRecord, previous_blank: bool = False, next_blank: bool = False) -> SectionBoundaryDecision:
-        candidate = self._build_candidate(
-            line,
-            previous_blank=previous_blank,
-            next_blank=next_blank,
-        )
-        features = merge_feature_dicts(
-            self.vectorizer.transform_one(line.text),
-            {
-                "bias": 1.0,
-                "line_length": float(len(line.text.strip())),
-                "word_count": float(len(line.text.split())),
-                "heading_candidate_score": candidate.heading_score,
-                "prototype_similarity": candidate.prototype_similarity,
-                "structural_score": candidate.structural_score,
-                "preceded_by_blank": 1.0 if previous_blank else 0.0,
-                "followed_by_blank": 1.0 if next_blank else 0.0,
-            },
-        )
+        reasons: List[str] = []
+        is_heading = False
+        heading_prob = 0.0
+        method = "rule_based"
 
-        heading_probs = self.binary_model.predict_proba(features) if self.fitted and self.binary_model.fitted else {}
-        heading_probability = heading_probs.get("heading", candidate.heading_score)
-        is_heading = heading_probability >= self.heading_threshold
-
-        normalized = self.normalizer.normalize(line.text) if is_heading else None
-        canonical_section = normalized.canonical_section if normalized else "other"
-        confidence = normalized.confidence if normalized else heading_probability
-        review_required = (
-            (not is_heading)
-            or heading_probability < self.review_threshold
-            or (normalized.review_required if normalized else True)
-        )
-        reasons = list(candidate.reasons)
-        if is_heading:
-            reasons.append("heading_classifier")
-            if normalized:
-                reasons.append(f"normalized:{normalized.method}")
+        if norm.method == "exact_alias_match":
+            is_heading = True
+            heading_prob = 1.0
+            method = "exact_alias_rule"
+            reasons.append(f"exact_alias:{norm.matched_alias}")
+        elif norm.method == "substring_alias_match" and norm.confidence >= 0.75:
+            is_heading = True
+            heading_prob = norm.confidence
+            method = "substring_alias_rule"
+            reasons.append(f"substring_alias:{norm.matched_alias}")
         else:
-            reasons.append("content_line")
+            # Multi-signal linear classifier fallback for unmapped candidates
+            heading_prob, feature_reasons = self.compute_multi_signal_probability(
+                text, norm, previous_blank, next_blank, line
+            )
+            reasons.extend(feature_reasons)
+            if word_count <= 8 and previous_blank and (is_all_caps or ends_with_colon or (is_title_case and norm.canonical_section != "other")):
+                is_heading = True
+                heading_prob = max(heading_prob, 0.85 if is_all_caps or ends_with_colon else 0.75)
+                method = "multi_signal_classifier"
+            elif heading_prob >= self.heading_threshold:
+                is_heading = True
+                method = "multi_signal_classifier"
+            else:
+                is_heading = False
+                method = "multi_signal_classifier"
+                reasons.append("low_multi_signal_probability")
+
+        canonical_sec = norm.canonical_section if is_heading else "other"
+        confidence = max(heading_prob, norm.confidence) if is_heading else 0.0
+        review_req = not is_heading or norm.review_required or confidence < self.review_threshold
 
         return SectionBoundaryDecision(
             line=line,
             is_heading=is_heading,
-            heading_probability=heading_probability,
-            canonical_section=canonical_section,
+            heading_probability=heading_prob,
+            canonical_section=canonical_sec,
             confidence=confidence,
-            method="tfidf_linear+heuristic" if self.fitted else "heuristic_only",
-            review_required=review_required,
+            method=method,
+            review_required=review_req,
             reasons=reasons,
-            candidate=candidate,
         )

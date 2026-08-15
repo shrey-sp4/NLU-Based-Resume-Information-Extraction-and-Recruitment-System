@@ -1,0 +1,809 @@
+{"personal_details": {
+    "name": "Dr. Miteshkumar Solanki",
+    "email": "Mitesh4physics@gmail.com, miteshsolanki_ta@iiitvadodara.ac.in",
+    "phone": "(M) +91 8000 11 7505",
+    "address": "",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "",
+    "researchgate": ""
+  },
+
+  "summary": [],
+
+  "education": [
+    {
+      "degree": "Doctor of Philosophy (PhD)",
+      "field": "Single Crystal Growth and DFT",
+      "institution": "Pandit Deendayal Energy University Gandhinagar, INDIA",
+      "duration": "2013-2021",
+      "grade":"",
+      "thesis": "Experimental and Theoretical Study of Nonlinear Optical Material Single Crystals",
+      "advisor": ["Prof. Bharat B. Parekh", "Dr Satyam Shinde"]
+    },
+    {
+      "degree": "Master of Science (M. Sc.)",
+      "field": "Physics",
+      "institution": "Saurashtra University Rajkot, INDIA",
+      "duration": "2010-2012",
+      "grade": "First Class (62.00 %)",
+      "thesis": "",
+      "advisor": ""
+    },
+    {
+      "degree": "Bachelor of Science (B. Sc.)",
+      "field": "Physics",
+      "institution": "Saurashtra University Rajkot, INDIA",
+      "duration": "2003-2006",
+      "grade": "First Class (60.85 %)",
+      "thesis": "",
+      "advisor": ""
+    }
+  ],
+  "experience": [
+    {
+      "position": "Assistant Professor",
+      "organization": "Parul Institute of Applied Sciences Parul University",
+      "department": "Physics",
+      "location": "Vadodara, INDIA",
+      "duration": "July. 2023 – till date",
+      "description":""
+    },
+    {
+      "position": "Post-doctoral Fellow",
+      "organization": "Ahmedabad University",
+      "department":"School of Engineering and Applied Sciences",
+      "location": "Ahmedabad, INDIA",
+      "duration": "Jan. 2021 - Oct. 2021",
+      "description":""
+    },
+    {
+      "position": "Visiting Assistant Professor",
+      "organization": "Pandit Deendayal Energy University",
+      "department":"Physics",
+      "location": "Gandhinagar, INDIA",
+      "duration": "July. 2022 – Jan. 2023",
+      "description":""
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Khyati Institute of Science",
+      "department":"Physics",
+      "location": "Ahmedabad, INDIA",
+      "duration": "Feb. 2020 – Jan. 2022",
+      "description":""
+    },
+    {
+      "position": "Visiting Assistant Professor",
+      "organization": "Indian Institute of Information Technology",
+      "department":"Physics",
+      "location":"Vadodara (Gandhinagar-Campus), INDIA",
+      "duration": "Sept. 2022 – March. 2023",
+      "description":""
+    },
+    {
+      "position": "",
+      "organization": "Step-Up Jewels (CVD-Dimond Growth)",
+      "department":"",
+      "location": "Khatodara Road Udhana Darwaja, Surat, INDIA",
+      "duration": "Aug. 2021 – Dec. 2021",
+      "description":""
+    },
+    {
+      "position": "Visiting Assistant Professor",
+      "organization": "Pandit Deendayal Energy University",
+      "department":"Physics",
+      "location": "Gandhinagar, INDIA",
+      "duration": "Feb. 2019 – Aug. 2019",
+      "description":""
+    },
+    {
+      "position": "Assistant Professor",
+      "organization": "Kadi Sarva Vishwavidyalaya University",
+      "department":"Physics",
+      "location": "Gandhinagar, INDIA",
+      "duration": "June. 2017 – April. 2019",
+      "description":""
+    }
+  ],
+
+  "research_interests": [
+    "Nonlinear Optical Single Crystals, nanomaterials and thin film",
+    "Density functional theory: electron Phonon coupling, Phonon Dynamics, Electric Transport device simulation, Thermoelectric and thermodynamic calculation etc.",
+    "Transport and magneto transport of spin-orbit coupled oxide heterostructures and interfaces",
+    "Multifunctional and Multiferroic Systems: Thin Films and Polycrystalline Bulk",
+    "Magnetic and magnetocaloric properties of shape memory Heusler alloys",
+    "Neutron diffraction studies on magnetic oxides (Transition metal and rare-earth oxides)",
+    "Electronic structure studies using XAS, XPS and RPES measurements",
+    "Physical properties of materials at low temperature and high magnetic fields",
+    "THz electrodynamics of correlated transition metal oxides"
+  ],
+
+  "skills": [
+  {
+    "category": "Synthesis of materials",
+    "description": "Single crystal growth via indigenous development Bridgman and Czerski technique, Single Crystal Growth Via Flux Growth, temperature lowering, slow evaporation and Hydrothermal single crystals, Solid state reaction route, Sol-gel technique, high energy planetary ball milling technique, arc-meting method for alloy preparation."
+  },
+  {
+    "category": "Fabrication of Thin films and Nano Devices",
+    "description": ["Spin coating, and direct sputtering (DC-sputtering), RHEED assisted - Pulsed Laser Deposition (PLD) technique, Chemical Solution Deposition, (CSD) technique and RF- sputtering."
+    ]},
+  {
+    "category": "Sample Characterizations and Instruments handled",
+    "description": ["X-ray Diffractometer: Single Crystals as well as Bulk and thin film attachments, Transport Measurements: Resistivity and magnetoresistance using closed-cycle refrigerator and PPMS, Thermoelectric Properties: Thermoelectric properties measurement via lakeshore instrument, Magnetization: DC-Magnetization under high magnetic field and low temperature using VSM, SQUID and PPMS, AC-susceptibility: Frequency, temperature and magnetic field dependent ac-susceptibility using PPMS, Heat capacity: Temperature and magnetic field-dependent heat capacity using PPMS, Dielectric measurements: Frequency, temperature and magnetic field-dependent dielectric measurements, THz Time-Domain Spectroscopy: THz spectroscopic studies at low temperature and high magnetic field."
+    ]}
+],
+  "projects": [
+    {
+      "title": "GUJCOST",
+      "duration": "",
+      "description": "Single Crystal Growth, and First principle calculation of alkali metal (Li, Na, K and Rb) doped ß-Barium Borate (BBO) Crystals for LASER Applications",
+      "advisor": "",
+      "funding": "Upto 40 lakhs Indian-Rupee"
+    },
+    {
+      "title": "DRDO",
+      "duration": "",
+      "description": "Experimental and theoretical Study of XAsS2 (x = Li, Na, K, Rb, and Cs) direct bandgap semiconductor and Large Nonlinear optical response single crystals",
+      "advisor": "",
+      "funding": "Upto 2 crore Indian-Rupee"
+    },
+    {
+      "title": "BARC (Bhabha Atomic Research Centre)",
+      "duration": "",
+      "description": "Experimental and theoretical investigation of Halide Perovskite single crystal for radiation detection. Review Completed",
+      "advisor": "",
+      "funding": "55 lakhs Indian-Rupee"
+    }],
+
+  "publications": {
+  "journal_articles": [
+    {
+      "title": "Direct vapour transport grown Cu 2 SnS 3 crystals: exploring structural, elastic, optical, and electronic properties",
+      "authors": ["J. B. Raval", "S. H. Chaki", "S. R. Patel", "R. Kr. Giri", "M. B. Solanki", "M. P. Deshpande"],
+      "journal": "RSC Adv",
+      "conference":"",
+      "publisher":"",
+      "year": 2024,
+      "volume": 14,
+      "issue": 39,
+      "pages": "28401–28414",
+      "doi": "10.1039/D4RA04344H"
+    },
+    {
+      "title": "Unravelling NbSe2 single crystal: First principle insights, optical properties, synthesis and X-ray diffraction profile investigation",
+      "authors": ["M. S. Dave", "R. Kr. Giri", "R. D. Vaidya", "K. R. Patel", "S. R. Bharucha", "M. B. Solanki"],
+      "journal": "Next Materials",
+      "conference": "",
+      "publisher": "",
+      "year": 2025,
+      "volume": 7,
+      "issue": "",
+      "page": 100361,
+      "doi": "10.1016/j.nxmate.2024.100361"
+    },
+    {
+      "title": "Exploring Structural, Electronic, Vibrational, and Thermophysical Properties of Fe–Pt, Fe3–Pt, and Fe–Pt3 Alloys: A Density Functional Theory Study",
+      "authors": ["B. Thacker, M. B. Solanki, R. Kharatmol, Y. D. Kale, and T. Akhani"],
+      "journal": "Phys Status Solidi B Basic Res",
+      "conference": "",
+      "publisher": "",
+      "year": 2024,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1002/pssb.202400160"
+    },
+    {
+      "title": "Comparative study of alkali (Li, Rb and Cs) halide doped KDP single crystals",
+      "authors": ["M. B. Solanki", "S. Shinde", "T. Akhani", "B. B. Parekh"],
+      "journal": "Journal of Materials Science: Materials in Electronics",
+      "conference": "",
+      "publisher": "",
+      "year": 2024,
+      "volume": 35,
+      "issue": 8,
+      "pages": "",
+      "doi": "10.1007/s10854-024-12333-w"
+      },
+    {
+      "title": "An influence of neodymium (Nd3+) doping on physicochemical properties of monoclinic lanthanum arsenate (LaAsO4) nanomaterials",
+      "authors": ["M. Sharma", "T. Mustafa", "S. Thakur", "M. Solanki", "B. Parekh", "K. K. Bamzai"],
+      "journal": "Applied Physics A",
+      "conference": "",
+      "publisher": "",
+      "year": 2024,
+      "volume": 130,
+      "issue": 3,
+      "pages": 180,
+      "doi": "10.1007/s00339-024-07308-x"    
+    },
+    {
+      "title": "Microwave Facilitated Discovery of Substituted 1,2,4-triazaspiro[4.5]dec-2-en-3-amines: Biological and Computational Investigations",
+      "authors": ["P. P. Patel", "N. B. Patel", "M. S. Tople", "V. M. Patel", "M. B. Solanki"],
+      "journal": "Current Microwave Chemistry",
+      "conference": "",
+      "publisher": "",
+      "year": 2023,
+      "volume": 10,
+      "issue":"",
+      "pages": "",
+      "doi": "10.2174/2213335610666230818092826"
+    },
+    {
+      "title": "Hybrid nanofillers loaded epoxy resin; Synthesis, characterisations, and dielectric spectroscopy",
+      "authors": ["P. Sharma"],
+      "journal": "J Cryst Growth",
+      "conference": "",
+      "publisher": "",
+      "year": 2024,
+      "volume": 628,
+      "issue": "",
+      "pages": 127551,
+      "doi": "10.1016/j.jcrysgro.2023.127551"
+    },
+    {
+      "title": "Impact of rare earth (La3+) doping on structural, morphological, optical and dielectric properties of NdVO4 nanoparticles",
+      "authors": ["M. Sharma", "B. Raina", "M. Solanki", "B. Parekh", "K. K. Bamzai"],
+      "journal": "Indian Journal of Physics",
+      "conference": "",
+      "publisher": "",
+      "year": 2023,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1007/s12648-023-03009-y"
+      },
+    {
+      "title": "X-ray diffractometer, FTIR and theoretical approach of topological analysis of covellite single crystal",
+      "authors": ["M. B. Solanki"],
+      "journal": "Proceedings of the Institution of Mechanical Engineers, Part E: Journal of Process Mechanical Engineering",
+      "conference": "",
+      "publisher": "",
+      "year": 2023,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1177/09544089231206124"
+      },
+    {
+      "title": "A Greener Biocatalyst promoted Synthesis of Novel pyridine-based Schiff base: Synthesis of their metal complex; In silico molecular docking and In-vitro biological studies and its Photocatalytic dye degradation",
+      "authors": ["P. Unjiya"],
+      "journal": "",
+      "conference": "",
+      "publisher": "",
+      "year": 2023,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.21203/rs.3.rs-3432633/v1"
+    },
+    {
+      "title": "The impact of Ni and Zn doping on the thermal durability and thermoelectric variables of pristine CuSe nanoparticles",
+      "authors": ["Sefali R. Patel", "Sunil H. Chaki", "Mitesh B. Solanki", "Rohitkumar M. Kannaujiya", "Zubin R. Parekh", "Ankur Kumar J. Khimani", "Milind P. Deshpande"],
+      "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1039/d3ma00454f"
+    },
+    {
+        "title": "Materials Advances investigations of the electronic and optical",
+        "authors": [
+          "R. K. Giri",
+          "M. B. Solanki",
+          "S. H. Chaki",
+          "M. S. Dave",
+          "S. R. Bharucha"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": 2023,
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1039/d3ma00166k"
+      },
+      {
+        "title": "XRD, FTIR, and Theoretical Approach of Topological analysis of Covellite (CuS) Single Crystal",
+        "authors": [
+          "Mitesh B. Solanki",
+          "Margi Jani",
+          "Sandip M. Vyas",
+          "Bharat B. Parekh",
+          "Ankit D. Oza",
+          "Chander Prakash"
+        ],
+        "journal": "J. Process Mech. Eng. XRD",
+        "conference": "",
+        "publisher": "",
+        "year": 2023,
+        "volume": 3,
+        "issue": 115,
+        "pages": "2 of 28",
+        "doi": ""
+      },
+      {
+        "title": "Applied Sciences 2D Personality of Multifunctional Carbon Nitrides towards Enhanced Catalytic Performance in Energy Storage and Remediation",
+        "authors": [
+          "M. B. Solanki",
+          "G. K. Inwati"
+        ],
+        "journal": "Appl. Sci.",
+        "conference": "",
+        "publisher": "",
+        "year": 2022,
+        "volume": 12,
+        "issue": "",
+        "pages": "3753",
+        "doi": "10.3390/app12083753"
+      },
+      {
+        "title": "Materials Today: Proceedings First-principles calculation of the electronic structure, elastic and optical properties of LiSn 2 N 3 nitrogen base stable perovskite semiconductor material",
+        "authors": [
+          "M. B. Solanki",
+          "S. Shinde",
+          "B. B. Parekh"
+        ],
+        "journal": "Mater. Today, Proc.",
+        "conference": "",
+        "publisher": "",
+        "year": 2022,
+        "volume": 67,
+        "issue": "",
+        "pages": "943–947",
+        "doi": "10.1016/j.matpr.2022.08.213"
+      },
+      {
+        "title": "Applied Sciences 2D Personality of Multifunctional Carbon Nitrides towards Enhanced Catalytic Performance in Energy Storage and Remediation",
+        "authors": [
+          "G. K. Inwati",
+          "M. B. Solanki"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": 2022,
+        "volume": "",
+        "issue": "",
+        "pages": "1–16",
+        "doi": "10.3390/app12083753"
+      },
+      {
+        "title": "Water Promoted One-Pot Synthesis of Sesamol Derivatives as Potent Antioxidants: DFT, Molecular Docking, SAR and Single Crystal Studies",
+        "authors": [
+          "M. B. Solanki",
+          "J. N. Lalpara"
+        ],
+        "journal": "Polycycl. Aromat. Compd.",
+        "conference": "",
+        "publisher": "",
+        "year": 2022,
+        "volume": 0,
+        "issue": 0,
+        "pages": "1–14",
+        "doi": "10.1080/10406638.2022.2083194"
+      },
+      {
+        "title": "Growth and characterisation of lithium chloride doped KDP crystals: a DFT and experimental approach",
+        "authors": [
+          "M. B. Solanki",
+          "P. Patel",
+          "S. Shinde",
+          "B. B. Parekh",
+          "M. Joshi"
+        ],
+        "journal": "Ferroelectrics",
+        "conference": "",
+        "publisher": "",
+        "year": 2021,
+        "volume": 571,
+        "issue": 1,
+        "pages": "1–25",
+        "doi": "10.1080/00150193.2020.1853734"
+      },
+      {
+        "title": "Experimental and Computational Approaches for the Structural Study of Novel Ca-Rich Zeolites from Incense Stick Ash and Their Application for Wastewater Treatment",
+        "authors": [
+          "M. B. Solanki",
+          "V. K. Yadav"
+        ],
+        "journal": "Adsorpt. Sci. Technol.",
+        "conference": "",
+        "publisher": "",
+        "year": 2021,
+        "volume": 2021,
+        "issue": "",
+        "pages": "",
+        "doi": "10.1155/2021/6066906"
+      },
+      {
+        "title": "A First Principle calculation of CaMoN3 perovskites material",
+        "authors": [
+          "H. Dave",
+          "M. Solanki",
+          "A. Vora"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": 2021,
+        "volume": 8,
+        "issue": 6,
+        "pages": "421–426",
+        "doi": ""
+      },
+      {
+        "title": "Enriched catalytic activity of TiO2 nanoparticles supported by activated carbon for noxious pollutant elimination",
+        "authors": [
+          "S. Rajendran",
+          "M. B. Solanki"
+        ],
+        "journal": "Nanomaterials",
+        "conference": "",
+        "publisher": "",
+        "year": 2021,
+        "volume": 11,
+        "issue": 11,
+        "pages": "",
+        "doi": "10.3390/nano11112808"
+      },
+      {
+        "title": "Structural, FTIR and Dielectric Study of Lithium Doped KDP Crystals",
+        "authors": [
+          "M. B. Solanki",
+          "J. H. Joshi",
+          "P. M. Vyas",
+          "M. J. Joshi",
+          "B. B. Parekh"
+        ],
+        "journal": "Invertis J. Sci. & Technol.",
+        "conference": "",
+        "publisher": "",
+        "year": 2017,
+        "volume": 10,
+        "issue": 2,
+        "pages": "98",
+        "doi": "10.5958/2454-762x.2017.00015.4"
+      },
+      {
+        "title": "Crystal Structure, Dielectric Response and Thermal analysis of Ammonium Pentaborane (APB)",
+        "authors": [
+          "H. Raval",
+          "M. B. Solanki"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": 2017,
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.2412/mmse.49.16.644"
+      },
+      {
+        "title": "Crystal growth and mechanical hardness of In2Se2.7Sb0.3 single crystal",
+        "authors": [
+          "P. Patel",
+          "M. B. Solanki",
+          "S. M. Vyas",
+          "V. Patel",
+          "H. Pavagadhi",
+          "M. Solanki",
+          "M. P. Jani"
+        ],
+        "journal": "AIP Conf. Proc.",
+        "conference": "",
+        "publisher": "",
+        "year": 2015,
+        "volume": 1675,
+        "issue": "",
+        "pages": "3–8",
+        "doi": "10.1063/1.4929246"
+      }
+],
+    "conference_papers": [],
+    "conference_proceedings": [
+      {
+        "title": "The DFT study of thermoelectric properties of CuInS 2: A first principle approach",
+        "authors": [
+          "R. Kr. Giri",
+          "M. B. Solanki",
+          "S. H. Chaki",
+          "M. P. Deshpande"
+        ],
+        "journal": "IOP Conf Ser Mater Sci Eng",
+        "conference": "",
+        "publisher": "",
+        "year": 2023,
+        "volume": 1291,
+        "issue": 1,
+        "pages": "012009",
+        "doi": "10.1088/1757-899x/1291/1/012009"
+      },
+      {
+        "title": "Materials Today : Proceedings First-principles calculation of the electronic structure, elastic and optical properties of LiSn2N3 nitrogen base stable perovskite semiconductor material",
+        "authors": [
+          "M. B. Solanki",
+          "S. Shinde",
+          "B. B. Parekh"
+        ],
+        "journal": "Mater. Today, Proc.",
+        "conference": "",
+        "publisher": "",
+        "year": 2022,
+        "volume": 67,
+        "issue": "",
+        "pages": "943–947",
+        "doi": "10.1016/j.matpr.2022.08.213"
+      },
+      {
+        "title": "Crystal growth and mechanical hardness of In2Se2.7Sb0.3 single crystal",
+        "authors": [
+          "P. Patel",
+          "S. M. Vyas",
+          "V. Patel",
+          "H. Pavagadhi",
+          "M. Solanki",
+          "M. P. Jani"
+        ],
+        "journal": "AIP Conf. Proc.",
+        "conference": "",
+        "publisher": "",
+        "year": 2015,
+        "volume": 1675,
+        "issue": "",
+        "pages": "3–8",
+        "doi": "10.1063/1.4929246"
+      }
+    ],
+    "communications": [
+      {
+        "title": "Investigation of Favipiravir and Hydroxychloroquine inclusion complexes with Cucurbit Theoretical [7] uril for Covid-19 treatment: A DFT and Molecular Docking study",
+        "authors": [
+          "J. B. Pandya",
+          "M. Solanki",
+          "S. M. Shinde",
+          "P. K. Jha"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "A Firs Principle calculation of tin telluride ( SnTe ) Topological Single crystals Via Thermodynamics Application",
+        "authors": [
+          "R. M. Kannaujiya",
+          "M. B. Solanki",
+          "S. H. Chaki",
+          "A. B. Hirpara"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "XRD, FTIR Approach of Topological analysis of Covellite (CuS) Single Crystal",
+        "authors": [
+          "M. B. Solanki",
+          "B. B. Parekh"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": 2019,
+        "volume": 2,
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Experimental and First principle study of InSbSe 3",
+        "authors": [
+          "S. M. Vyas",
+          "Dharmesh Varade",
+          "Mitesh B. Solanki",
+          "Piyush J. Patel"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium Dihydrogen Phosphate Single Crystals",
+        "authors": [
+          "M. B. Solanki",
+          "P. C. Jha",
+          "S. H. Mir",
+          "S. Shinde",
+          "B. B. Parekh"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Influence of Cesium Chloride on Growth and Properties of Potassium Dihydrogen Phosphate Single Crystal: The DFT and Experimental Studies",
+        "authors": [
+          "M. B. Solanki",
+          "S. Shinde",
+          "M. Joshi",
+          "B. B. Parekh"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "Electronic structure, PDOS, optical properties, and Elastics Constant calculation of Alkali (Li, Rb, and Cs) Doped KDP Single Crystals",
+        "authors": [
+          "S. Shinde",
+          "B. B. Parekh"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": 4,
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      },
+      {
+        "title": "A First Principle calculation of ZnSnN 2 perovskites material",
+        "authors": [
+          "M. B. Solanki",
+          "B. B. Parekh",
+          "P. J. Patel",
+          "S. Vyas"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "",
+        "year": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      }
+    ],
+    "book_chapters": [],
+    "books": [],
+    "technical_reports": [],
+    "preprints": []
+  },
+  "patents": [],
+  "grants": [],
+  "awards": [],
+  "certifications": [],
+  "memberships": [],
+  "professional_services": [
+    "Journal of Physics: Condensed Matter.",
+    "Applied Physics Letter.",
+    "Indian Journal of Physics.",
+    "Materials Physics and Chemistry of Solids.",
+    "AIP Proceedings for DAE-SSPS Symposiums for 2019-21"
+  ],
+  "responsibilities": [
+    {
+      "title": "Organizer",
+      "organization": "Saurashtra University, Rajkot",
+      "duration": "March 1719, 2010",
+      "description": "Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Xray Diffraction Techniques and Applications."
+    },
+    {
+      "title": "Organizer",
+      "organization": "Saurashtra University, Rajkot",
+      "duration": "March 0103, 2012",
+      "description": "Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Functional Oxides, Nanomaterials and Devices 2012."
+    }
+  ],
+  "teaching_experience": [],
+  "students_supervised": [],
+  "references": [
+  {
+    "name": "Prof. Bharat Parekh",
+    "position": "PhD Supervisor",
+    "department": "",
+    "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar",
+    "address": "",
+    "phone": "+91-755-269-1235",
+    "email": "bharat.parekh@spt.pdpu.ac.in",
+    "website": ""
+  },
+  {
+    "name": "Prof. Satyam Shinde",
+    "position": "PhD Co-Supervisor",
+    "department": "",
+    "organization": "Department of Physics, Pandit Deendayal Energy University, Gandhinagar",
+    "address": "",
+    "phone": "+91-9427220804",
+    "email": "dr.smshinde@gmail.com",
+    "website": ""
+  },
+  {
+    "name": "Prof. Dharmesh Varade",
+    "position": "Post-doc supervisor",
+    "department": "",
+    "organization": "Department of Chemistry, Ahmedabad University, Ahmedabad",
+    "address": "",
+    "phone": "+91-9106739266",
+    "email": "dharmesh.varade@gmail.com",
+    "website": ""
+  },
+  {
+    "name": "Prof. Mihir Joshi",
+    "position": "Collaborator",
+    "department": "",
+    "organization": "Department of Physics, Saurashtra University Rajkot",
+    "address": "",
+    "phone": "+91-90999 39431",
+    "email": "Msshilp@rediffmail.com",
+    "website": ""
+  }
+  ],
+  "other_sections": [
+    {
+      "title": "Beamtime Experience",
+      "content": [
+        {
+          "duration": "January 2014",
+          "description": "Neutron Powder Diffraction Measurement Beam Time Project on Evolution of Nonlinear structure in KX2PO4 (X = H and D): A Neutron Diffraction Study at Raja Ramana Institute of Advance Research Indor. (Role: Principal Investigator)"
+        },
+        {
+          "duration": "January 2015",
+          "description": "X-ray Photoemission Spectroscopy and Resonant Photoemission Spectroscopy measurements to study electronic structure modifications in CuS, CuSe and CuTe Topological superconductor using angle-integrated photoemission spectroscopy (AIPES) beamline on the INDUS-1 synchrotron radiation source. Indor"
+        },
+        {
+          "duration": "June 2016",
+          "description": "High energy Swift heavy ion irradiation using Material Science (Topological Insulator) beamline at IUAC, New Delhi."
+        },
+        {
+          "duration": "September 2023 (Slot Book)",
+          "description": "High energy Swift heavy ion irradiation using Experimental and Theoretical Comparatively study of alkali metal doped Nonlinear Optical single crystals Material with Swifting heavy ion irradiation using charge particle beamline at IUAC, New Delhi."
+        }
+      ]
+    },
+    {
+      "title": "Invited Talks / Oral presentations / Discussions Delivered",
+      "content": [
+        "Invited Talk (Online)on \"Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium Dihydrogen Phosphate Single Crystals\" – Oral Presentation at International Conference on Advanced Material in Innovative Technology (AMITY-2022), April. 2022.",
+        "Invited Talk on A first-principles study of the electronic structure and optical properties of ZnSnN2 nitrogen base stable perovskite semi-conducting material. International Materials Science Conference – 2021 (IMSC-2021), organized by the School of Physical Sciences, KBCNMU, Jalgaon, India on the digital platform from 18-20th March 2021.",
+        "Invited Talk on \"Experimental and Theoretical Study of Non-linear Optical Material Crystals\" – Oral Presentation at PhD Review Symposium at Pandit Deendayal Energy University Gandhinagar held on 18th June",
+        "Invited Talk on \"First Principle Calculation on KDP Single Crystals\" – Oral Presentation at International Science Symposium 26th to 27th 2017at Christ College Rajkot",
+        "Experimental Lab Sessions on Instrumental Method of Chemical Analysis a Skill development for chemical and Pharmaceuticals held in May 2017 at Pandit Deendayal Energy University, Gandhinagar",
+        "Experimental Lab Sessions for Refresher Course for Science College Teachers on Nano and Applied Sciences, Dec. 10, 2013, Academic Staff College, Saurashtra University, Rajkot."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "phase": "Stage 4.5 Phase 11 Generalization Stress Testing",
+  "candidate_model": "Exp M \u2014 Unified Multi-Layer Hybrid Extraction Engine",
+  "strict_eval": {
+    "tp": 101,
+    "fp": 385,
+    "fn": 175,
+    "precision": 0.2078,
+    "recall": 0.3659,
+    "exact_span_f1": 0.2651
+  },
+  "provenance_validity_rate": 1.0,
+  "path_a_equals_path_b": true,
+  "stress_results": {
+    "Academic CVs": {
+      "documents": 14,
+      "tp": 68,
+      "fp": 262,
+      "fn": 132,
+      "precision": 0.2061,
+      "recall": 0.34,
+      "exact_span_f1": 0.2566
+    },
+    "Industry Resumes": {
+      "documents": 8,
+      "tp": 33,
+      "fp": 123,
+      "fn": 43,
+      "precision": 0.2115,
+      "recall": 0.4342,
+      "exact_span_f1": 0.2845
+    },
+    "One-Column Resumes": {
+      "documents": 14,
+      "tp": 61,
+      "fp": 242,
+      "fn": 109,
+      "precision": 0.2013,
+      "recall": 0.3588,
+      "exact_span_f1": 0.2579
+    },
+    "Multi-Column / Complex": {
+      "documents": 8,
+      "tp": 40,
+      "fp": 143,
+      "fn": 66,
+      "precision": 0.2186,
+      "recall": 0.3774,
+      "exact_span_f1": 0.2768
+    }
+  }
+}

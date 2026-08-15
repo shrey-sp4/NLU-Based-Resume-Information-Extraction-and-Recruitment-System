@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, Iterator, List, Sequence
 
@@ -94,6 +95,19 @@ def build_raw_line_records_from_run(run_dir: Path) -> List[RawLineRecord]:
                     final_method=str(page_data.get("final_method", "")),
                 )
             )
+
+    # Document-level layout preprocessing pass: detect repeated page header/footer lines
+    header_counts_by_doc: Dict[str, Counter[str]] = defaultdict(Counter)
+    for r in records:
+        if r.line_number in (1, 2) and r.text.strip():
+            header_counts_by_doc[r.document_id][r.text.strip()] += 1
+
+    for r in records:
+        if r.line_number in (1, 2) and r.text.strip():
+            count = header_counts_by_doc[r.document_id][r.text.strip()]
+            if count >= 2:
+                r.is_repeated_page_header = True
+
     return records
 
 

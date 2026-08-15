@@ -1,0 +1,522 @@
+{"personal_details": {
+    "name": "Arghya Maity",
+    "email": "arghyamaity@hri.res.in, arghyamaityphysics@gmail.com",
+    "phone": "0091 7732899577, 0532 227 4421",
+    "address": "Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group, Allahabad 211 019, India",
+    "linkedin": "",
+    "website": "",
+    "orcid": "",
+    "google_scholar": "https://scholar.google.com/citations?user=CnSJtbEAAAAJ&hl=en",
+    "researchgate": ""
+  },
+
+  "summary": [],
+
+  "education": [
+  {
+    "degree": "Postdoc.",
+    "field": "Quantum Information Theory; Quantum Thermodynamics",
+    "institution": "HRI, QIC Group, Prayagraj, India",
+    "duration": "8 May 2021 - Present",
+    "grade": "",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "Postdoc.",
+    "field": "Theoretical Physics; Soft Condensed Matter",
+    "institution": "IIT Bombay, Mumbai, India",
+    "duration": "6 November 2020 - 7 May 2021",
+    "grade": "",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "Ph.D.",
+    "field": "Theoretical Physics; Soft Condensed Matter",
+    "institution": "BITS Pilani, Department of Physics, Pilani, India",
+    "duration": "2014 - 2020",
+    "grade": "",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "M.Sc.",
+    "field": "Physics; Special Paper: High Energy Physics",
+    "institution": "Sambalpur University, Sambalpur, Odisha, India",
+    "duration": "2013",
+    "grade": "7.56 OGPA (equivalent to 71%), First Class",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "B.Sc. (Honours)",
+    "field": "Physics (Honours); Mathematics (General); Chemistry (General); Bengali, English (compulsory)",
+    "institution": "Vidyasagar University, Midnapur, West Bengal, India",
+    "duration": "2010",
+    "grade": "52% (2nd class)",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "H.S. (12th)",
+    "field": "Pure Science",
+    "institution": "W.B.C.H.S.E., West Bengal, India",
+    "duration": "2006",
+    "grade": "60% (1st Class)",
+    "thesis": "",
+    "advisor": ""
+  },
+  {
+    "degree": "10th",
+    "field": "",
+    "institution": "W.B.B.S.E., West Bengal, India",
+    "duration": "2004",
+    "grade": "71% (First Class)",
+    "thesis": "",
+    "advisor": ""
+  }
+],
+
+  "experience": [
+  {
+    "position": "Research Associate",
+    "organization": "",
+    "department": "'QuEST' - Quantum-Enabled Science & Technology",
+    "location": "Prayagraj, India",
+    "duration": "8 May 2021 - 4 October 2023",
+    "description": ""
+  },
+  {
+    "position": "Guest Researcher",
+    "organization": "Free University of Berlin",
+    "department": "Department of Physics",
+    "location": "Berlin, Germany",
+    "duration": "4th Year of Ph.D.",
+    "description": ""
+  },
+  {
+    "position": "Project Fellow ( JRF(Junior Research Fellow) and SRF (Senior Research Fellow) )",
+    "organization": "BITS Pilani",
+    "department": "",
+    "location": "",
+    "duration": "",
+    "description": ""
+  },
+  {
+    "position": "Short-Term Project",
+    "organization": "UGC-DAE Consortium for Scientific Research",
+    "department": "",
+    "location": "Kolkata, India",
+    "duration": "April 2012",
+    "description": "Short term Project : 'Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.'"
+  }
+],
+
+  "research_interests": ["Quantum Thermodynamics.",
+  "Open Quantum System : Markovian & non-Markovian Dynamics, Collision models",
+  "Quantum Thermal Devices : Quantum Engine, Quantum Refrigerator, Quantum Battery, Quantum Transistor",
+  "Resource Theory : Catalytic Resource theory.",
+  "Different Quantum and Classical Correlations with Decoherence.",
+  "Quantum Metrology : Quantum Thermometry.",
+  "Quantum Jarzynski Equality in Open Quantum Systems.",
+  "Quantum Biology : Quantum Coherence and Entanglement in the Avian Compass: Avian Magnetoreception through ”radical pair” Model, Biological Heat Engines.",
+  "Simulation : Molecular Dynamics (Simulation).",
+  "Soft Condensed Matter : Thermodynamics of bio-molecules."],
+
+  "skills": [
+  {
+    "category": "Programming Languages",
+    "description": "Efficient in C, C++, and Python"
+  },
+  {
+    "category": "Software Packages",
+    "description": "Efficient in Mathematica, QuTiP (Quantum Toolbox in Python)"
+  },
+  {
+    "category": "Molecular Dynamics Simulation",
+    "description": "GROMACS"
+  },
+  {
+    "category": "Software Packages",
+    "description": "Gnuplot, xmgrace, LATEX, VMD(Visual Molecular Dynamics), Curves+"
+  },
+  {
+    "category": "Operating Systems",
+    "description": "Efficient in Linux"
+  },
+  "Server Maintenance"
+],
+
+  "projects": [
+    {
+    "title":"",
+    "duration":"",
+    "description":"",
+    "advisor":"",
+    "funding":""
+}
+  ],
+  
+  "publications": {
+    "journal_articles": [
+      {
+      "title": "Quantum Heat Transformers",
+      "authors": [
+        "Arghya Maity",
+        "P. Chaki",
+        "Ahana Ghoshal",
+        "Ujjwal Sen"
+      ],
+      "journal": "arXiv",
+      "conference": "",
+      "publisher": "",
+      "year": "2024",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Using non-Markovian dynamics in effective negative temperature based transient quantum Otto engines",
+      "authors": [
+        "Arghya Maity",
+        "Ahana Ghoshal"
+      ],
+      "journal": "Physical Review A",
+      "conference": "",
+      "publisher": "",
+      "year": "2024",
+      "volume": "109",
+      "issue": "",
+      "pages": "022207",
+      "doi": ""
+    },
+    {
+      "title": "Enhanced efficiency in quantum Otto engine via additional magnetic field and effective negative temperature",
+      "authors": [
+        "Arghya Maity",
+        "Aditi Sen De"
+      ],
+      "journal": "arXiv",
+      "conference": "",
+      "publisher": "",
+      "year": "2023",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Classical correlations for Generic States are Fragile under Decoherence",
+      "authors": [
+        "T. K. Konar",
+        "Arghya Maity",
+        "Aditi Sen De"
+      ],
+      "journal": "arXiv",
+      "conference": "",
+      "publisher": "",
+      "year": "2022",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": ""
+    },
+    {
+      "title": "Resource Theory of Non-absolute Separability",
+      "authors": [
+        "A. Patra",
+        "Arghya Maity",
+        "Aditi Sen De"
+      ],
+      "journal": "Physical Review A",
+      "conference": "",
+      "publisher": "",
+      "year": "2023",
+      "volume": "108",
+      "issue": "",
+      "pages": "042402",
+      "doi": ""
+    },
+    {
+      "title": "Statistics of Entanglement Transformation with Hierarchies among Catalysts",
+      "authors": [
+        "R. Gupta",
+        "Arghya Maity",
+        "S. Mal",
+        "Aditi Sen De"
+      ],
+      "journal": "Physical Review A",
+      "conference": "",
+      "publisher": "",
+      "year": "2022",
+      "volume": "106",
+      "issue": "",
+      "pages": "052402",
+      "doi": ""
+    },
+    {
+      "title": "Structural Analysis of DNA molecule in a confined shell",
+      "authors": [
+        "Arghya Maity",
+        "N. Mathur",
+        "Petra Imhof",
+        "Navin Singh"
+      ],
+      "journal": "Physica A: Statistical Mechanics and its Applications",
+      "conference": "",
+      "publisher": "",
+      "year": "2023",
+      "volume": "609",
+      "issue": "",
+      "pages": "128382",
+      "doi": ""
+    },
+    {
+      "title": "Melting of DNA in confined geometries",
+      "authors": [
+        "Arghya Maity",
+        "Navin Singh"
+      ],
+      "journal": "European Biophysics Journal",
+      "conference": "",
+      "publisher": "",
+      "year": "2020",
+      "volume": "49",
+      "issue": "7",
+      "pages": "561-569",
+      "doi": ""
+    },
+    {
+      "title": "Stability of DNA passing through different geometrical pores",
+      "authors": [
+        "Arghya Maity",
+        "A. Singh",
+        "Navin Singh"
+      ],
+      "journal": "EPL (Europhysics Letters)",
+      "conference": "",
+      "publisher": "",
+      "year": "2019",
+      "volume": "127",
+      "issue": "2",
+      "pages": "28001",
+      "doi": ""
+    },
+    {
+      "title": "Differential stability of DNA based on salt concentration",
+      "authors": [
+        "Arghya Maity",
+        "A. Singh",
+        "Navin Singh"
+      ],
+      "journal": "European Biophysics Journal",
+      "conference": "",
+      "publisher": "",
+      "year": "2017",
+      "volume": "46",
+      "issue": "1",
+      "pages": "33-40",
+      "doi": ""
+    },
+    {
+      "title": "DNA denaturation in ionic solution",
+      "authors": [
+        "Arghya Maity",
+        "A. Singh",
+        "Navin Singh"
+      ],
+      "journal": "American Institute of Physics (AIP) Conference Proceedings",
+      "conference": "",
+      "publisher": "American Institute of Physics (AIP)",
+      "year": "2016",
+      "volume": "1728",
+      "issue": "",
+      "pages": "020415",
+      "doi": ""
+    },
+    {
+      "title": "Review: Structure and dynamics of dsDNA in cell mimicking environments",
+      "authors": [
+        "A. Singh",
+        "Arghya Maity",
+        "N. Singh"
+      ],
+      "journal": "Entropy",
+      "conference": "",
+      "publisher": "",
+      "year": "2022",
+      "volume": "24",
+      "issue": "11",
+      "pages": "1587",
+      "doi": ""
+    }
+    ],
+
+   "conference_papers": [
+  {
+    "title": "Resource Theory of Non-absolute Separability",
+    "authors": [],
+    "journal": "",
+    "conference": "Young Quantum - 2023 (YouQu-2023)",
+    "publisher": "Harish-Chandra Research Institute (HRI)",
+    "year": "2023",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": ""
+  },
+  {
+    "title": "Stability of DNA within the matrix of different geometric confinement",
+    "authors": [],
+    "journal": "",
+    "conference": "Puri Polymer Conference 2018",
+    "publisher": "Institute of Physics, Bhubaneswar",
+    "year": "2018",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": ""
+  }
+],
+
+  "conference_proceedings": [],
+  "communications": [],
+  "book_chapters": [
+    {
+        "title": "DNA Molecule Confined in a Cylindrical Shell: Effect of Partial Confinement",
+        "authors": [
+          "N. Mathur",
+          "Arghya Maity",
+          "N. Singh"
+        ],
+        "journal": "",
+        "conference": "",
+        "publisher": "Springer Nature Singapore",
+        "year": "2022",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": ""
+      }
+    ],
+  "books": [],
+  "technical_reports": [],
+  "preprints": []
+  },
+
+  "patents": [],
+
+  "grants": [],
+
+  "awards": [
+    {
+    "title":"Sandwich Research Scholarship",
+    "organization":"Freie Universitat Berlin, Germany",
+    "year":"2018"
+},
+{
+    "title":"Mexican Council of Science (CONACyT) PhD Scholarship",
+    "organization":"",
+    "year":"2015"
+}
+  ],
+
+  "certifications": [],
+
+  "memberships": [],
+
+  "professional_services": [],
+
+  "responsibilities": [
+  {
+    "title": "Member of the organizing committees",
+    "organization": "QIPA-2023 (International Conference), Harish-Chandra Research Institute",
+    "duration": "2023",
+    "description": ""
+  },
+  {
+    "title": "Member of the organizing committees",
+    "organization": "Young Quantum 2023 (International Meeting), Harish-Chandra Research Institute",
+    "duration": "2023",
+    "description": ""
+  },
+  {
+    "title": "Member of the organizing committees",
+    "organization": "DNA Physics-2017 (International Conference), BITS Pilani, Pilani Campus",
+    "duration": "2017",
+    "description": ""
+  }
+],
+ "teaching_experience": [
+    {
+      "position": "Teaching Assistant",
+      "organization": "NPTEL (National Programme on Technology Enhanced Learning)",
+      "department": "",
+      "location": "",
+      "duration": "2021",
+      "description": "Served as a Teaching Assistant for NPTEL, an initiative of the IITs and IISc."
+    },
+    {
+      "position": "Teaching Assistant",
+      "organization": "IIT Bombay",
+      "department": "",
+      "location": "",
+      "duration": "2021",
+      "description": "Served as a Teaching Assistant with Prof. Ranjith Padinhateeri."
+    },
+    {
+      "position": "Teaching Assistant",
+      "organization": "Department of Physics, BITS Pilani, Pilani Campus",
+      "department": "",
+      "location": "",
+      "duration": "2014 - 2019",
+      "description": "Served as a Teaching Assistant for the Physics Laboratory course for first-year B.Tech students."
+    },
+    {
+      "position": "Guest Lecturer",
+      "organization": "Veer Surendra Sai University of Technology (VSSUT)",
+      "department": "",
+      "location": "",
+      "duration": "July 2013 - November 2013",
+      "description": "Served as a Guest Lecturer at VSSUT, Sambalpur, Burla, Odisha, India."
+    }
+],
+
+  "students_supervised": [],
+
+  "references": [
+    {
+      "name": "Prof. Navin Singh",
+      "position": "Professor",
+      "department": "",
+      "organization": "BITS Pilani, Pilani Campus",
+      "address": "Pilani, Rajasthan-333031, India",
+      "phone": "01596 5255257; 01596 525270 (Office)",
+      "email": "navin@pilani.bits-pilani.ac.in",
+      "website": "https://www.bits-pilani.ac.in/pilani/navin/Profile"
+    },
+    {
+      "name": "Prof. Aditi Sen De",
+      "position": "Professor H, Physics",
+      "department": "Quantum Information and Computation (QIC) Group",
+      "organization": "Harish-Chandra Research Institute",
+      "address": "Prayagraj (Allahabad)-211019, India",
+      "phone": "",
+      "email": "aditi@hri.res.in",
+      "website": "https://sites.google.com/view/aditisende"
+    },
+    {
+      "name": "Prof. Ujjwal Sen",
+      "position": "Professor H, Physics",
+      "department": "Quantum Information and Computation (QIC) Group",
+      "organization": "Harish-Chandra Research Institute",
+      "address": "Prayagraj (Allahabad)-211019, India",
+      "phone": "",
+      "email": "ujjwal@hri.res.in",
+      "website": "https://www.hri.res.in/ujjwal/"
+    }
+  ],
+  "other_sections": []
+}

@@ -1,0 +1,21 @@
+{
+  "authoritative_baseline": {
+    "tp": 101,
+    "fp": 385,
+    "fn": 175,
+    "precision": 0.2078,
+    "recall": 0.3659,
+    "exact_span_f1": 0.2651
+  },
+  "error_categorization": {
+    "incorrect_entity_type": 231,
+    "incorrect_start_boundary": 0,
+    "incorrect_end_boundary": 0,
+    "partial_span_match": 177,
+    "missed_entity": 175,
+    "duplicate_entity": 0,
+    "section_context_error": 0,
+    "unannotated_gold_skill": 251,
+    "unannotated_gold_doi": 82
+  }
+}

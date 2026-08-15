@@ -1,0 +1,50 @@
+{
+  "Exp A: Full Current System": {
+    "flags": {
+      "use_crf": true,
+      "use_regex": true,
+      "use_gazetteer": true
+    },
+    "train_time_sec": 10.24,
+    "total_extracted_entities": 2497,
+    "total_conflicts_resolved": 171,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Exp B: Full System - CRF": {
+    "flags": {
+      "use_crf": false,
+      "use_regex": true,
+      "use_gazetteer": true
+    },
+    "train_time_sec": 10.24,
+    "total_extracted_entities": 2497,
+    "total_conflicts_resolved": 171,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Exp C: Full System - Gazetteer": {
+    "flags": {
+      "use_crf": true,
+      "use_regex": true,
+      "use_gazetteer": false
+    },
+    "train_time_sec": 10.24,
+    "total_extracted_entities": 2497,
+    "total_conflicts_resolved": 171,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  },
+  "Exp M: Full System All Components": {
+    "flags": {
+      "use_crf": true,
+      "use_regex": true,
+      "use_gazetteer": true
+    },
+    "train_time_sec": 10.24,
+    "total_extracted_entities": 2497,
+    "total_conflicts_resolved": 171,
+    "offset_validity_rate": 1.0,
+    "path_match": true
+  }
+}

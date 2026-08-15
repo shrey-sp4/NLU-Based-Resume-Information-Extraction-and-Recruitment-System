@@ -1,0 +1,10 @@
+{
+  "tier_1_gold_docs": 22,
+  "tier_2_silver_docs": 22,
+  "tier_3_external_docs": 615,
+  "total_training_documents": 659,
+  "gold_leakage": 0,
+  "silver_leakage": 0,
+  "external_leakage": 0,
+  "zero_leakage_status": true
+}

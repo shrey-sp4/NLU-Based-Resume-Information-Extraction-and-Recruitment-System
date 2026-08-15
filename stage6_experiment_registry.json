@@ -1,0 +1,9 @@
+{
+  "final_candidate": "EXP G \u2014 Context-Aware Hybrid Academic Recruitment Engine",
+  "train_time_sec": 9.41,
+  "total_training_documents": 659,
+  "total_extracted_entities": 1927,
+  "total_conflicts_resolved": 144,
+  "offset_validity_rate": 1.0,
+  "path_match": true
+}

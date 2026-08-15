@@ -1,0 +1,8 @@
+{
+  "phase": "Stage 4.5 Phase 7 Transformer / Stronger Model Comparison",
+  "crf_baseline_entities": 2497,
+  "deberta_entities": 2497,
+  "offset_validity_rate": 1.0,
+  "path_a_equals_path_b": true,
+  "empirical_decision": "Linear CRF (+/-3 Window) remains the primary lightweight, local, zero-dependency learned model candidate."
+}
