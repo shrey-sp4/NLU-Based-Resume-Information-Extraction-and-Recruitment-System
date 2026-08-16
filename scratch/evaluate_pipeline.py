@@ -21,6 +21,7 @@ GT_PDF_MAP = [
     ("Afzal_Beg_Resume.json", "Afzal_Beg_Resume_sections.json", "Afzal_Beg_Resume_fa289535"),
     ("Anibrata_Pal_Resume.json", "Anibrata_Pal_Resume_sections.json", "Anibrata_Pal_Resume_c35c7b6c"),
     ("CV-Anurag_Choudhary.json", "CV-Anurag_Choudhary_sections.json", "CV_Anurag_Choudhary_15b316ad"),
+    ("cv_aakash_daiict.json", "cv_aakash_daiict_sections.json", "cv_aakash_daiict_15b316ad"),
     ("CV_Arghya_Maity.json", "CV_Arghya_Maity_sections.json", "CV_Arghya_Maity_3f200851"),
     ("CV_Chandan.json", "CV_Chandan_sections.json", "CV_Chandan_f5f89208"),
     ("Dr_Akash_Thakkar_CV.json", "Dr_Akash_Thakkar_CV_sections.json", "Dr_Akash_Thakkar_CV_df681585"),
@@ -33,7 +34,6 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.extract_structured_information import process_resume, extract_all_phones, phone_matches, normalize_phone_for_compare
 
-# Regex engines for parsing fine-grained subfields from extracted sections
 DEGREE_REGEX = re.compile(r"\b(Ph\.?D\.?|Doctor of Philosophy|M\.?Tech\.?|B\.?Tech\.?|M\.?Sc\.?|B\.?Sc\.?|B\.?E\.?|M\.?E\.?|Bachelor|Master|Diploma)\b", re.IGNORECASE)
 YEAR_REGEX = re.compile(r"\b(19|20)\d{2}\b")
 GRADE_REGEX = re.compile(r"\b\d+\.\d+\s*%?\b|\b\d+%\b", re.IGNORECASE)
@@ -137,7 +137,10 @@ def run_consolidated_evaluation():
         p_deg = [str(e.get("degree")) for e in pred_edu if isinstance(e, dict) and e.get("degree")]
         res_metrics.append(("education_degree", *score_entity_set_match(g_deg, p_deg)))
 
-        g_inst = [str(e.get("institution")) for e in gt_edu if isinstance(e, dict) and e.get("institution")]
+        g_inst = [
+            str(e.get("institution") or e.get("university") or e.get("school") or e.get("college") or e.get("organization"))
+            for e in gt_edu if isinstance(e, dict) and (e.get("institution") or e.get("university") or e.get("school") or e.get("college") or e.get("organization"))
+        ]
         p_inst = [str(e.get("institution")) for e in pred_edu if isinstance(e, dict) and e.get("institution")]
         res_metrics.append(("education_institution", *score_entity_set_match(g_inst, p_inst)))
 
@@ -157,7 +160,10 @@ def run_consolidated_evaluation():
         p_t = [str(e.get("job_title") or e.get("title")) for e in pred_exp if isinstance(e, dict) and (e.get("job_title") or e.get("title"))]
         res_metrics.append(("experience_title", *score_entity_set_match(g_t, p_t)))
 
-        g_org = [str(e.get("organization") or e.get("institution") or e.get("company")) for e in gt_exp if isinstance(e, dict) and (e.get("organization") or e.get("institution") or e.get("company"))]
+        g_org = [
+            str(e.get("organization") or e.get("institution") or e.get("company") or e.get("university") or e.get("workplace"))
+            for e in gt_exp if isinstance(e, dict) and (e.get("organization") or e.get("institution") or e.get("company") or e.get("university") or e.get("workplace"))
+        ]
         p_org = [str(e.get("institution")) for e in pred_exp if isinstance(e, dict) and e.get("institution")]
         res_metrics.append(("experience_institution", *score_entity_set_match(g_org, p_org)))
 

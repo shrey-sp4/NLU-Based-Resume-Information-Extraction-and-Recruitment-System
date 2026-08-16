@@ -48,36 +48,36 @@ flowchart LR
 
 ## 📊 Final 25-Field Pipeline Accuracy Metrics
 
-The extraction pipeline is evaluated end-to-end against 10 ground-truth academic resumes across 25 fields. Below is the full strict accuracy metrics table produced by `scratch/evaluate_pipeline.py`:
+The extraction pipeline is evaluated end-to-end against all 10 ground-truth academic resumes across 25 fields. Below is the full strict accuracy metrics table produced by `scratch/evaluate_pipeline.py`:
 
 | FIELD NAME | PRECISION | RECALL | F1 SCORE |
 | :--- | :---: | :---: | :---: |
-| `certifications` | 58.24% | 64.00% | **59.10%** |
-| `education_cgpa` | 70.37% | 59.44% | **63.89%** |
-| `education_degree` | 91.67% | 63.39% | **72.48%** |
-| `education_graduation_year` | 97.78% | 78.57% | **85.52%** |
-| `education_institution` | 51.06% | 50.58% | **50.10%** |
-| `experience_dates` | 66.01% | 57.41% | **57.60%** |
-| `experience_institution` | 74.45% | 55.09% | **58.13%** |
-| `experience_title` | 93.33% | 69.44% | **75.20%** |
+| `certifications` | 52.41% | 57.60% | **53.19%** |
+| `education_cgpa` | 73.33% | 63.50% | **67.50%** |
+| `education_degree` | 92.50% | 59.55% | **69.23%** |
+| `education_graduation_year` | 98.00% | 73.21% | **80.97%** |
+| `education_institution` | 55.95% | 50.52% | **51.76%** |
+| `experience_dates` | 69.40% | 55.00% | **56.84%** |
+| `experience_institution` | 78.25% | 54.17% | **58.56%** |
+| `experience_title` | 84.00% | 62.50% | **67.68%** |
 | `personal_email` | 100.00% | 100.00% | **100.00%** |
-| `personal_name` | 77.78% | 77.78% | **77.78%** |
-| `personal_phone` | 88.89% | 83.33% | **85.19%** |
-| `projects` | 55.56% | 50.07% | **52.41%** |
-| `publications_book_chapters` | 74.69% | 70.79% | **72.12%** |
-| `publications_books` | 77.78% | 77.78% | **77.78%** |
-| `publications_communications` | 88.89% | 88.89% | **88.89%** |
-| `publications_conference_papers` | 49.85% | 49.17% | **49.45%** |
-| `publications_conference_proceedings` | 86.64% | 87.95% | **87.15%** |
-| `publications_journal_articles` | 52.81% | 64.65% | **52.59%** |
-| `publications_preprints` | 63.43% | 61.28% | **62.18%** |
-| `publications_technical_reports` | 88.89% | 88.89% | **88.89%** |
-| `references` | 63.16% | 50.29% | **54.77%** |
-| `research_interests` | 74.75% | 84.31% | **76.42%** |
-| `responsibilities` | 83.22% | 84.77% | **83.51%** |
-| `skills` | 79.59% | 86.68% | **81.27%** |
-| `summary` | 52.47% | 55.56% | **53.76%** |
-| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **70.65%** |
+| `personal_name` | 80.00% | 80.00% | **80.00%** |
+| `personal_phone` | 90.00% | 85.00% | **86.67%** |
+| `projects` | 57.14% | 54.43% | **55.28%** |
+| `publications_book_chapters` | 77.22% | 73.71% | **74.91%** |
+| `publications_books` | 80.00% | 80.00% | **80.00%** |
+| `publications_communications` | 80.00% | 80.00% | **80.00%** |
+| `publications_conference_papers` | 44.86% | 44.26% | **44.50%** |
+| `publications_conference_proceedings` | 87.98% | 89.15% | **88.43%** |
+| `publications_journal_articles` | 54.88% | 65.76% | **54.80%** |
+| `publications_preprints` | 67.08% | 65.15% | **65.96%** |
+| `publications_technical_reports` | 90.00% | 90.00% | **90.00%** |
+| `references` | 66.20% | 53.32% | **57.95%** |
+| `research_interests` | 77.27% | 85.88% | **78.78%** |
+| `responsibilities` | 84.90% | 86.29% | **85.16%** |
+| `skills` | 81.63% | 85.79% | **81.89%** |
+| `summary` | 57.22% | 60.00% | **58.39%** |
+| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **70.74%** |
 
 ---
 
