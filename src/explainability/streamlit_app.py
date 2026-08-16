@@ -47,8 +47,30 @@ NARRATIVE_PHRASES = [
     "ability to identify", "good communication ability", "possess organizing"
 ]
 
+CATEGORY_COLON_REGEX = re.compile(
+    r"^\s*([A-Za-z0-9\s/&\.-]{2,45})\s*:\s*(.+)$"
+)
+
+def clean_skill_line(line: str) -> str:
+    cleaned = line.strip()
+    cleaned = re.sub(r"^\s*(?:[-•*➢|o\+]|\d+[\.\)])\s*", "", cleaned)
+    return cleaned.strip()
+
+def is_category_colon_item(item: str) -> bool:
+    cleaned = clean_skill_line(item)
+    m = CATEGORY_COLON_REGEX.match(cleaned)
+    if m:
+        cat = m.group(1).strip()
+        words = cat.split()
+        if 1 <= len(words) <= 6 and not any(w.lower() in ["note", "warning", "objective"] for w in words):
+            return True
+    return False
+
 def is_narrative_skill_item(item: str) -> bool:
     """Checks if a skill item is narrative prose/sentence rather than an itemized skill."""
+    if is_category_colon_item(item):
+        return False
+
     words = item.split()
     if len(words) > 13:
         return True
