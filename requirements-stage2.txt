@@ -1,5 +1,0 @@
-PyMuPDF
-pypdf
-pdfplumber
-pytesseract
-Pillow

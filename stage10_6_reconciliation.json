@@ -1,8 +1,0 @@
-{
-  "reconciliation_checks": {
-    "tp_fp_reconciled": true,
-    "tp_fn_reconciled": true
-  },
-  "verdict": "B \u2014 Moderate performance",
-  "overall_status": "ALL CHECKS PASSED"
-}

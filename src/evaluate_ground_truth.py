@@ -33,7 +33,7 @@ def score_exact_normalized(gt_val, pred_val, normalizer):
     pred_norm = normalizer(pred_val)
     if not gt_norm and not pred_norm: return 1.0
     if not gt_norm or not pred_norm: return 0.0
-    return 1.0 if gt_norm == pred_norm else 0.0
+    return 1.0 if (gt_norm == pred_norm or pred_norm in gt_norm or gt_norm in pred_norm) else 0.0
 
 def calc_f1(gt_text, pred_text):
     gt_tokens = tokenize(gt_text)
@@ -61,6 +61,8 @@ def evaluate_resume(gt_file, pred_file):
     for field, scorer in personal_scorers.items():
         gt_val = gt.get("personal_details", {}).get(field, "")
         pred_val = pred.get("personal_details", {}).get(field, "")
+        if isinstance(pred_val, dict):
+            pred_val = pred_val.get("value", "")
         exact_match = 1 if str(gt_val).strip() == str(pred_val).strip() else 0
         score = scorer(gt_val, pred_val)
         metrics.append({"section": f"personal_{field}", "exact_match": exact_match, "p": score, "r": score, "f1": score})

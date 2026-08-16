@@ -1,8 +1,0 @@
-{
-  "experiment_id": "Exp 5.1 \u2014 Publication Extraction Subsystem",
-  "evaluation_time_sec": 2.77,
-  "total_extracted_entities": 893,
-  "total_conflicts_resolved": 19,
-  "offset_validity_rate": 1.0,
-  "path_match": true
-}

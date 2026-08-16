@@ -1,7 +1,0 @@
-{
-  "phase": "Stage 4.5 Phase 8 Hybrid System Experiments",
-  "top_configuration": "Config A: CRF Only",
-  "top_extracted_entities": 2497,
-  "offset_validity_rate": 1.0,
-  "path_a_equals_path_b": true
-}

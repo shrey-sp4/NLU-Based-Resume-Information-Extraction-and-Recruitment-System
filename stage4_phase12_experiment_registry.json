@@ -1,9 +1,0 @@
-{
-  "final_candidate": "Exp M \u2014 Unified Multi-Layer Hybrid Extraction Engine",
-  "train_time_sec": 9.35,
-  "total_training_documents": 659,
-  "total_extracted_entities": 1927,
-  "total_conflicts_resolved": 144,
-  "offset_validity_rate": 1.0,
-  "path_match": true
-}

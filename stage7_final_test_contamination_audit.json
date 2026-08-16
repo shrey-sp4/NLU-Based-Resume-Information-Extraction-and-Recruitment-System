@@ -1,8 +1,0 @@
-{
-  "test_resumes_evaluated": 30,
-  "test_line_hashes_filtered": 7059,
-  "training_test_text_overlap_count": 0,
-  "gazetteer_test_text_overlap_count": 0,
-  "candidate_hardcoding_count": 0,
-  "contamination_status": "100% LEAKAGE FREE — ZERO CONTAMINATION DETECTED"
-}

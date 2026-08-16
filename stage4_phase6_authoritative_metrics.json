@@ -1,7 +1,0 @@
-{
-  "phase": "Stage 4.5 Phase 6 Controlled Feature Ablation",
-  "top_experiment": "Exp 1: Context Window (+/-2)",
-  "top_extracted_entities": 1838,
-  "offset_validity_rate": 1.0,
-  "path_a_equals_path_b": true
-}

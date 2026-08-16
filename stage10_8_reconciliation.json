@@ -1,9 +1,0 @@
-{
-  "reconciliation_checks": {
-    "tp_fp_reconciled": true,
-    "tp_fn_reconciled": true,
-    "provenance_validity_reconciled": true
-  },
-  "verdict": "A \u2014 Boundary fix clearly improves performance",
-  "overall_status": "ALL CHECKS PASSED"
-}
