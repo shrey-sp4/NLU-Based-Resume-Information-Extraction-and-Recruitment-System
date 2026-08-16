@@ -1,13 +1,9 @@
 {
     "personal_details": {
         "name": "Arghya Maity",
-        "email": "arghyamaity@hri.res.in",
-        "phone": "7732899577",
-        "phones": [
-            "7732899577",
-            "9033342022",
-            "6133402017"
-        ],
+        "email": "",
+        "phone": "",
+        "phones": [],
         "address": ""
     },
     "summary": [],
@@ -17,7 +13,7 @@
             "job_title": "",
             "dates": "",
             "institution": "Harish-Chandra Research Institute",
-            "raw_text": "Address: Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group,"
+            "raw_text": "Address: Harish-Chandra Research Institute (HRI), Quantum Information and Computation (QIC) Group, Allahabad 211 019, India Telephone (Mobile): 0091 7732899577 / Office : 0532 227 4421 Email: arghyamaity@hri.res.in / arghyamaityphysics@gmail.com"
         },
         {
             "job_title": "Research Associate",
@@ -91,7 +87,14 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\",",
+            "Arghya Maity, Ahana Ghoshal; \"Using non-Markovian dynamics in effective negative temperature based transient quantum Otto engines\", Physical Review A 109, 022207 (2024), (Editors’ Suggestion), Link",
+            "A. Patra, Arghya Maity, Aditi Sen De; \"Resource Theory of Non-absolute Separability\", Physical Review A 108, 042402 (2023), Link",
+            "R. Gupta, Arghya Maity, S. Mal, Aditi Sen De ;\"Statistics of Entanglement Transformation with Hierarchies among Catalysts\", Physical Review A 106, 052402 (2022), Link",
+            "Arghya Maity, N. Mathur, Petra Imhof, Navin Singh ; \"Structural Analysis of DNA molecule in a confined shell\", Physica A: Statistical Mechanics and its Applications 609(128382), 0378-4371 (2023) Link",
+            "Arghya Maity, Navin Singh, \"Melting of DNA in confined geometries\", European Bio- physics Journal, 49 (7) 561-569 (2020) , Link",
+            "Arghya Maity, A. Singh, Navin Singh, \"Stability of DNA passing through different geometrical pores\", EPL(Europhysics Letters), 127 (2) 28001 (2019) , Link",
+            "Arghya Maity, A Singh, Navin Singh, \"Differential stability of DNA based on salt concentration\", European Biophysics Journal; 46 (1) 33-40 (2017) , Link",
+            "Arghya Maity, A Singh, Navin Singh, \"DNA denaturation in ionic solution\", American Institute of Physics (AIP) Conference Proceedings; 1728, 020415 (2016), Link",
             "Young Quantum - 2023 (YouQu-2023), organized by the Quantum Information and Compu- tation group(QIP) of Harish-Chandra Research Institute (HRI), Prayagraj (Allahabad), 15-18 Feb, 2023. Presented a talk on “Resource Theory of Non-absolute Separability” (in person).",
             "Puri Polymer Conference 2018, organized by the Institute of Physics, Bhubaneswar, 12-14 Dec, 2018. Presented a talk on “Stability of DNA within the matrix of different geometric confinement” (in person)."
         ],
@@ -103,7 +106,11 @@
         "book_chapters": [],
         "books": [],
         "technical_reports": [],
-        "preprints": []
+        "preprints": [
+            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\", arXiv:2404.00584 (2024), Link",
+            "Arghya Maity, Aditi Sen De; \"Enhanced efficiency in quantum Otto engine via additional magnetic field and effective negative temperature\", arXiv:2304.10420 (2023), Link",
+            "T. K. Konar, Arghya Maity, Aditi Sen De; \"Classical correlations for Generic States are Fragile under Decoherence\", arXiv:2209.03334 (2022), Link"
+        ]
     },
     "certifications": [],
     "awards": [
@@ -126,6 +133,6 @@
     ],
     "responsibilities": [],
     "references": [
-        "1. Prof. Navin Singh"
+        "1. Prof. Navin Singh Professor BITS-Pilani, Pilani Campus, Pilani Rajasthan-333031, India Phone: 01596 5255257, 01596 525270 (Office) Email: navin@pilani.bits-pilani.ac.in"
     ]
 }

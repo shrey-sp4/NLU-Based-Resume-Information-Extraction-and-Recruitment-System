@@ -2,8 +2,10 @@
     "personal_details": {
         "name": "Snehamoy Pramanik Ph.D.",
         "email": "snehamoy.pramanik@gmail.com",
-        "phone": "",
-        "phones": [],
+        "phone": "9262339404",
+        "phones": [
+            "9262339404"
+        ],
         "address": ""
     },
     "summary": [],

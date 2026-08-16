@@ -112,6 +112,16 @@ INLINE_HEADING_ALIASES = {
     "declaration": "declaration",
 }
 
+JOB_TITLE_WORDS = re.compile(
+    r"\b(?:Professor|Scientist|Scholar|Engineer|Manager|Director|Postdoctoral|Lecturer|Researcher|Fellow|Experienced|Graduate|Student|Assistant|Associate|Executive|Consultant|Developer|Analyst|Lead|Head|Officer|Member)\b",
+    re.IGNORECASE
+)
+
+ADDRESS_WORDS = re.compile(
+    r"\b(?:Road|Street|Avenue|Boulevard|Lane|Drive|Kolkata|Hyderabad|Delhi|Mumbai|Chennai|Bangalore|Gujarat|India|Campus|Building|Floor|Suite|Block|Sector|Apartment|Society|Pincode|School)\b",
+    re.IGNORECASE
+)
+
 
 def clean_line(line: str) -> str:
     line = line.strip()
@@ -160,9 +170,9 @@ def is_structural_heading(line: str, line_number: int = 10) -> bool:
     """
     Checks if a line has structural attributes of a standalone heading.
     Enforces section boundary closure even for headings not in normalization map.
-    Excludes top 3 lines of document to avoid matching candidate name header.
+    Excludes top 6 lines of document to avoid matching preamble header lines.
     """
-    if line_number <= 3:
+    if line_number <= 6:
         return False
 
     cleaned = clean_line(line)
@@ -173,6 +183,12 @@ def is_structural_heading(line: str, line_number: int = 10) -> bool:
     if re.match(r"^\s*(?:[-•*➢|o\+]|\d+[\.\)])", line):
         return False
     if "@" in cleaned or "http" in cleaned or "www." in cleaned:
+        return False
+    if re.search(r"\d{3,}", cleaned):
+        return False
+    if JOB_TITLE_WORDS.search(cleaned):
+        return False
+    if ADDRESS_WORDS.search(cleaned):
         return False
     if re.match(r"^\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}", cleaned, re.IGNORECASE):
         return False

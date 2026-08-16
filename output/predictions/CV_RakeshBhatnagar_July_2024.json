@@ -1,11 +1,13 @@
 {
     "personal_details": {
         "name": "Dr. Rakesh Bhatnagar",
-        "email": "harsharolkar@gmail.com",
-        "phone": "9898240919",
+        "email": "",
+        "phone": "8320965296",
         "phones": [
-            "9898240919",
-            "9723619183"
+            "8320965296",
+            "9898198203",
+            "8176601799",
+            "8176601721"
         ],
         "address": ""
     },
@@ -28,7 +30,9 @@
     "publications": {
         "journal_articles": [],
         "conference_papers": [
-            "❖ Attended the International Conference – PICOM 2024, International Conference on Changing Business Paradigms: Trends in Innovation, Development and Sustainability, Feb 23-24, 2024, Indore, Madhya ❖ Attended National Symposium held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Aug 8-9, 2009. ❖ Attended National Conference held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Jan 5-6, 2009. ❖ Attended National Conference held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Dec 1-2, 2006 & Dec 1-2, 2007. ❖ Attended National Conference held at Rajkot University, Rajkot from Oct 1-2, 2006."
+            "❖ Attended the International Conference – PICOM 2024, International Conference on Changing Business Paradigms: Trends in Innovation, Development and Sustainability, Feb 23-24, 2024, Indore, Madhya Pradesh, India ❖ Attended the Springer Conference – IoT4TD 2017, International Conference on Internet of Things for Technological Development, April 1-2, 2017, Kadi Sarva Vishwavidyalaya, Gandhinagar, Gujarat, India ❖ Attended the IEEE Conference – 6ICCCNT 2015, International Conference on Computing, Communication & Networking Technologies, July 13-15, 2015, Denton, TX, USA ❖ Attended the IEEE Conference – ICCCA 2015, International Conference",
+            "n Computing, Communication & Automation, May 15-16, 2015, Galgotias University, Greater Noida, India ❖ Attended the International Conference INCONCYSE 2015 (International Conference on Cyber Security), Mar13-14, 2015, Gujarat Forensic Sciences University, Gandhinagar, Gujarat, India ❖ Attended the IEEE Conference – ICPC 2015, International Conference",
+            "n Pervasive Computing – Advanced Communication Technology and Application for Society, Jan 9-10, 2015, Sinhgad College of Engineering, Pune, Maharashtra, India ❖ Attended the 11th IEEE India Conference – INDICON 2014, Emerging Trends and Innovation in Technology, Dec 11-13, 2014, Yashada, Pune, Maharashtra, India ❖ Attended the International Conference on Security and Identity Management, May 11-12, 2009, IIM, Ahmedabad, Gujarat, India ❖ Attended the International Conference held at Pioneer Institute, October 13 - 14, 2006, Indore, Madhya Pradesh, India (PIJMRISSN 0974-6080) ❖ Attended National Symposium held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Aug 8-9, 2009. ❖ Attended National Conference held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Jan 5-6, 2009. ❖ Attended National Conference held at S. K. Patel Institute of Management & Computer Studies, Gandhinagar from Dec 1-2, 2006 & Dec 1-2, 2007. ❖ Attended National Conference held at Rajkot University, Rajkot from Oct 1-2, 2006."
         ],
         "conference_proceedings": [],
         "communications": [],
@@ -38,20 +42,31 @@
         "preprints": []
     },
     "certifications": [],
-    "awards": [],
-    "achievements": [],
+    "awards": [
+        "AS A STUDENT",
+        "Secured 89 % marks in ALL INDIA GENERAL KNOWLEDGE TEST conducted in 1995.",
+        "Received Gold Medal on Securing First position in B.Sc. in the college.",
+        "Secured Fifth position in the University in Electronics stream in Graduation."
+    ],
+    "achievements": [
+        "AS A STUDENT",
+        "Secured 89 % marks in ALL INDIA GENERAL KNOWLEDGE TEST conducted in 1995.",
+        "Received Gold Medal on Securing First position in B.Sc. in the college.",
+        "Secured Fifth position in the University in Electronics stream in Graduation."
+    ],
     "memberships": [],
     "societies": [],
     "responsibilities": [
         " Coordination of Exams (Internal and External)  Teaching subjects like Artificial Intelligence, Cloud Infrastructure & Services & Wireless Sensor Networks to students",
-        "Duration : July 12, 2008 to Dec 31, 2020  Coordination of the MCA Department  Facilitator to the students  Teaching subjects like Cloud Infrastructure & Services, Wireless Sensor Networks, etc. to students  Organized and managed Youth Festival of KSV University (two times).  Organized and managed state level annual event (Five times).  Coordination of the PGDCA Department  Taught various Subjects to PGDCA students.",
-        "Duration : January 1, 2006 to July 12, 2008  Taught various Subjects to MCA students.  As a Project Co-coordinator, coordinated software project of 5th and 6th semester students of MCA and guided them.  As Cultural Activity In-charge, organized and managed state level annual event.",
-        "Duration : September 17, 2003 to December 31, 2005  Taught various Subjects to MCA students.  As a Project Co-coordinator, coordinated the software project of MCA students and as Placement Coordinator, coordinated the placement of final year students.",
+        "Duration : July 12, 2008 to Dec 31, 2020 Designation : Assistant Professor & Coordinator Institute : S. K. Patel Institute of Computer Studies, Gandhinagar  Coordination of the MCA Department  Facilitator to the students  Teaching subjects like Cloud Infrastructure & Services, Wireless Sensor Networks, etc. to students  Organized and managed Youth Festival of KSV University (two times).  Organized and managed state level annual event (Five times).  Coordination of the PGDCA Department  Taught various Subjects to PGDCA students.",
+        "Duration : January 1, 2006 to July 12, 2008 Designation : Lecturer Institute : S. K. Patel Institute of Management and Computer  Taught various Subjects to MCA students.  As a Project Co-coordinator, coordinated software project of 5th and 6th semester students of MCA and guided them.  As Cultural Activity In-charge, organized and managed state level annual event.",
+        "Duration : September 17, 2003 to December 31, 2005 Designation : Lecturer Institute : Shree Swaminarayan Institute of Technology, Gnagar  Taught various Subjects to MCA students.  As a Project Co-coordinator, coordinated the software project of MCA students and as Placement Coordinator, coordinated the placement of final year students.",
         "Duration : April 1, 2003 to September 15, 2003 Designation : System Administrator cum Computer Faculty  Teaching Computer Subjects and Computerization of Academic activities and Office activities.  Development of Software for Recruitment of staff to achieve ease in data entry and report generation.",
         "Duration : October 21, 2002 to March 31, 2003  Administering and managing Database consisting of more than 40 Lac Records."
     ],
     "references": [
         "1. Dr. Sanjay M. Shah, Director, Narsinhbhai Institute of Computer Studies, Kadi Address: S. V. Campus, Behind Railway Station, Kadi (Gujarat - India) – 382715 M: 9427377077, Email: prof_smshah@yahoo.co.in",
-        "Dr. Harshal Arolkar, HoD MScIT, GLS University, Ahmedabad Address: GLS Campus, above Auditorium, opp. Law Garden, Ellisbridge,"
+        "Dr. Harshal Arolkar, HoD MScIT, GLS University, Ahmedabad Address: GLS Campus, above Auditorium, opp. Law Garden, Ellisbridge, Ahmedabad, Gujarat 380006 M: 9898240919, E: harsharolkar@gmail.com",
+        "Dr. Digvijaysinh Rathod, Associate Professor and Head, CoE Cyber Security, Address: School of Cyber Security and Digital Forensics at National Forensic Sciences University, Sector 9, Gandhinagar, Gujarat 382007 M: 9723619183, E: digvijay.rathod@nfsu.ac.in DATE: July 28, 2024 Dr. RAKESH BHATNAGAR"
     ]
 }

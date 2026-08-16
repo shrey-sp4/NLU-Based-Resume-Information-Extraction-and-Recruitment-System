@@ -2,8 +2,12 @@
     "personal_details": {
         "name": "Anil Hirpara",
         "email": "hirparaanil7@gmail.com",
-        "phone": "",
-        "phones": [],
+        "phone": "9427373948",
+        "phones": [
+            "9427373948",
+            "9426468647",
+            "9427597979"
+        ],
         "address": ""
     },
     "summary": [],

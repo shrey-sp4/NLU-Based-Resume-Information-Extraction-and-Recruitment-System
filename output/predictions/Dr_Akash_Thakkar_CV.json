@@ -1,10 +1,11 @@
 {
     "personal_details": {
-        "name": "Date of Birth",
+        "name": "M.Sc. Mathematics",
         "email": "akashthakkar.61098@gmail.com",
         "phone": "8511389202",
         "phones": [
-            "8511389202"
+            "8511389202",
+            "9825323243"
         ],
         "address": ""
     },
@@ -33,25 +34,29 @@
             "raw_text": "A quick learner with 'Can Do' attitude. Assistant Professor April 2024 - Present Good in designing a session by Silver Oak College of Computer Application, which learner can grasp the"
         }
     ],
-    "research_interests": [],
+    "research_interests": [
+        "Gujarat University, Ahmedabad Applied Mathematics Subject taught in the domain of AI&ML, Data Science and"
+    ],
     "skills": [],
     "projects": [
         "Study on Donchian Channel and RSI indicators Using these indicators with Fundamental factors determine appropriate stocks with their buying and selling signals."
     ],
     "publications": {
         "journal_articles": [],
-        "conference_papers": [],
+        "conference_papers": [
+            "1 October 2022 “Cryptographic methods: Some Algorithms and Transformations” presented in International Conference on Research Trends in Mathematical Sciences, 10-11 February 2023 “Cryptographic method using RSA algorithm and Sumudu Transform” presented in National Conference on Applied Mathematical Sciences - ARYA, 25-26 March 2023"
+        ],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
         "books": [
-            "Thakkar A. and Gor R. (2021), “A Review paper on Cryptographic Algorithms and Mathematical Transformations”, Proceeding of International Conference on Mathematical Modelling and Simulation in Physical Sciences (MMSPS-2021), Excellent Publishers, ISBN: 978-81-928100-1- 0, pp. 324-331. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance the Data Security using RSA algorithm and Kamal Transform”, IOSR Journal of Computer Engineering (IOSR-JCE), 24(3), pp. 01-07. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance the Data Security using ElGamal algorithm and Kamal Transform”, IOSR Journal of Computer Engineering (IOSR-JCE), 24(3), pp. 08-14. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance Data Security using ElGamal algorithm and Mellin Transform”, IOSR Journal of Mathematics (IOSR-JM), 18(6), pp. 12-18. Thakkar A. and Gor R. (2023), “Cryptographic method to enhance Data Security Using RSA algorithm and Mellin Transform”, International Journal of Engineering Science Technologies (IJOEST), 7(2), pp. 63-72. Thakkar A. and Gor R. (2023), “Cryptographic method to enhance the Data Security using RSA algorithm and Sumudu Transform”, Quest Journal of Research in Applied Mathematics, 9(4), pp. 48-54. Thakkar A. and Gor R. (2023), “Cryptographic Method to Enhance the Data Security using ElGamal Algorithm and Sumudu Transform”, International Journal for Research in Applied Science and Engineering Technology (IJRASET), 11(7), pp. 853-861. \"Mathematics behind Donchian Channel\" presented in National Conference on Mathematical"
+            "Thakkar A. and Gor R. (2021), “A Review paper on Cryptographic Algorithms and Mathematical Transformations”, Proceeding of International Conference on Mathematical Modelling and Simulation in Physical Sciences (MMSPS-2021), Excellent Publishers, ISBN: 978-81-928100-1- 0, pp. 324-331. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance the Data Security using RSA algorithm and Kamal Transform”, IOSR Journal of Computer Engineering (IOSR-JCE), 24(3), pp. 01-07. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance the Data Security using ElGamal algorithm and Kamal Transform”, IOSR Journal of Computer Engineering (IOSR-JCE), 24(3), pp. 08-14. Thakkar A. and Gor R. (2022), “Cryptographic method to enhance Data Security using ElGamal algorithm and Mellin Transform”, IOSR Journal of Mathematics (IOSR-JM), 18(6), pp. 12-18. Thakkar A. and Gor R. (2023), “Cryptographic method to enhance Data Security Using RSA algorithm and Mellin Transform”, International Journal of Engineering Science Technologies (IJOEST), 7(2), pp. 63-72. Thakkar A. and Gor R. (2023), “Cryptographic method to enhance the Data Security using RSA algorithm and Sumudu Transform”, Quest Journal of Research in Applied Mathematics, 9(4), pp. 48-54. Thakkar A. and Gor R. (2023), “Cryptographic Method to Enhance the Data Security using ElGamal Algorithm and Sumudu Transform”, International Journal for Research in Applied Science and Engineering Technology (IJRASET), 11(7), pp. 853-861. \"Mathematics behind Donchian Channel\" presented in National Conference on Mathematical Sciences, 28-29 December 2019 \"A Study on Technical Analysis by Donchian Channel - Relative Strength Index Indicators\" presented in 34th Gujarat Science Congress, 8-9 February 2020 \"Valuation of stock using Fundamental and Technical Analysis\" presented in Mathematics Excellence, 15 February 2020 \"A Review paper on Cryptographic Algorithms and Mathematical Transformations\" presented in International Conference on Mathematical Modelling and Simulation in Physical Sciences, 17-18 April 2021 \"Cryptographic method using ElGamal algorithm and Kamal Transform\" presented in Virtual International Conference on Emerging Trends in Applied Sciences, 28-29 October 2021 \"A new method for cryptography using RSA algorithm and Kamal Transform\" presented in National Conference on Mathematical And Statistical Techniques in Engineering Research, 8-9 November 2021 “Cryptographic method using RSA algorithm and Mellin Transform” presented in 9th International Conference and 25th Annual Conference of Gwalior Academy of Mathematical Sciences, 29 September"
         ],
         "technical_reports": [],
         "preprints": []
     },
     "certifications": [
-        "Programming for everybody (Getting Started with Python) Online course - University of Michigan | 2020 R Programming and LATEX Typesetting | 2021 Hands-on Workshop on Machine Learning Methods for Image and Video Processing | 2021 One Week STTP ON EMERGING trends in DATA analysis IN MS EXCEL | 2021"
+        "Programming for everybody (Getting Started with Python) Online course - University of Michigan | 2020 R Programming and LATEX Typesetting | 2021 Hands-on Workshop on Machine Learning Methods for Image and Video Processing | 2021 One Week STTP ON EMERGING trends in DATA analysis IN MS EXCEL | 2021 Basic Cryptography | 2021 Steganography - An Art of Hidden Communication | 2021 Mathematical Modeling and Analysis | 2021 Supply Chain Management & Systems | 2022 Mathematical Methods in Science and Engineering | 2022 Machine Learning & Deep Learning | 2022 Data Analysis in R using STATCRAFT | 2022 A Journey from Linear Algebra to Machine Learning | 2022 Industry Applications of Machine Learning and Challenges | 2022 Online Research FDP on SPPS-Discriminant Analysis | 2022 Online Research FDP on SPSS-Cluster Analysis | 2022 One Week STTP on Emerging Trends in Research Methodology | 2022 From Mathmania to Cryptomania: How math is helping secure our digital future | 2023"
     ],
     "awards": [],
     "achievements": [],

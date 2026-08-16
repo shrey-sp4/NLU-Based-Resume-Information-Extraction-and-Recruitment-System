@@ -2,13 +2,14 @@
     "personal_details": {
         "name": "Dr. Amit K Parikh",
         "email": "principal.mubiob@ganpatuniversity.ac.in",
-        "phone": "6146061002",
+        "phone": "9723253971",
         "phones": [
+            "9723253971",
             "6146061002",
             "7146061002",
             "7146061001",
-            "6374637724",
-            "9825261816"
+            "9811599538",
+            "8195047505"
         ],
         "address": ""
     },
@@ -31,15 +32,18 @@
         "journal_articles": [
             "1. Parikh A.K., Mehta M.N., Pradhan V.H., The atmospheric pressure in dry region and velocity of infiltered water in ground water infiltration phenomenon., Int. J. of. Appl. Math and Mech, 7(13): 77 – 90, (2011). ISSN 0973-0184.",
             "Parikh A.K., Mehta M.N., Pradhan V.H., Transcendental solution of Fokker-Planck equation of vertical ground water recharge in unsaturated homogeneous porous media, Journal of IJERA, 1(4):1904-1911, (2011). ISSN 2248-9622 (Online)",
-            "Parikh A.K., Mehta M.N., Pradhan V.H., A Numerical Solution of the flow of two immiscible fluids through porous media with mean pressure, Bio-IT(IJACM), 3(2):237-244,",
+            "Parikh A.K., Mehta M.N., Pradhan V.H., A Numerical Solution of the flow of two immiscible fluids through porous media with mean pressure, Bio-IT(IJACM), 3(2):237-244, (2012).[IFV: 2.95], ISSN 2230–9624",
+            "Parikh A.K., Mehta M.N., Pradhan V.H., Generalised separable solution of double phase flow through homogeneous porous medium in vertical downward direction due to difference in viscosity, Applications and ApplEVIied Mathematics: An International Journal,8(1): 305- 317, (2013). ISSN 1932-9466",
+            "Parikh A.K., Mehta M.N., Pradhan V.H., Mathematical model and analysis of counter- current imbibition in vertical downward homogeneous porous media, British Journal of Mathematics & Computer Science,3(4): 478-489, (2013), ISSN 2231-0851",
+            "Parikh A.K., Mehta M.N., Pradhan V.H., Generalised separable solution of counter-current imbibition phenomenon in homogeneous porous medium in horizontal direction, The International Journal of Engineering and Science, 2(1):220-226, (2013), ISSN 2319– 1813",
+            "Parikh A.K., Mehta M.N., Pradhan V.H., Generalized separable solution of double phase flow through homogeneous porous medium in horizontal direction due to difference in viscosity, J. Environ. Res. Develop,8(1): 109-114, (2013) [IF 1.613], ISSN 0973-6921",
             "Solution of Boussinesq’s equation in ground water infiltration phenomenon by perturbation technique, ISTAM: An International meet, NIT Hamirpur, during 18/12/10 to 21/12/10.",
             "A Numerical Solution of the Flow of two immiscible fluids through Porous Media with mean pressure, 16th Annual cum 2nd International Conference of Gwalior Academy of Mathematical Sciences (GAMS), during 22/09/11 to 24/09/11.",
             "Transcendental Solution of Vertical Ground water recharge in Unsaturated Porous Media, ISTAM: An International meet, SVNIT, Surat during 19/12/11 to 21/12/11.",
             "Generalised separable solution of double phase flow through homogeneous porous medium in horizontal direction due to difference in viscosity,5th International Congress of Environmental Research (ICER-12) at UMT, Terengganu (Malaysia)during 22/11/12 to 24/11/12.",
             "Generalized separable solution of counter-current imbibition phenomenon in homogeneous porous medium in horizontal direction, International Conference in Mathematical Sciences (ICMS-2013) at Government degree college, Haripur (Manali), during 8-9 March 2013.",
             "Mathematical Modeling and Analysis of Fingero-Imbibition phenomenon in vertical downward cylindrical homogeneous porous matrix, International Conference: NUiCONE at Nirma University, Ahmedabad, during 28th - 30th November, 2013.",
-            "Generalised separable method to solve nonlinear partial differential equation, TEQIP-II sponsored STTP on ‘Advanced Analytical & Numerical Techniques for Engineers and Scientists’ during 3-7, March 2014 organized by SVNIT Surat.",
-            "Title: Introduction to Fluid flow through Porous media"
+            "Generalised separable method to solve nonlinear partial differential equation, TEQIP-II sponsored STTP on ‘Advanced Analytical & Numerical Techniques for Engineers and Scientists’ during 3-7, March 2014 organized by SVNIT Surat."
         ],
         "conference_papers": [
             "Generalised separable solution of instability phenomenon in homogeneous porous medium, National Conference on Recent Trends in Mathematical Sciences and their Applications: NCRTMSA, Mody Institute of Technology and Science (MITS), Lakshmangarh, Rajasthan, during 5/11/12 to 6/11/12."
@@ -47,7 +51,10 @@
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
-        "books": [],
+        "books": [
+            "Title: Introduction to Fluid flow through Porous media ISBN: 978-3-659-61845-1 Publisher: Lambert Academic Publishing. Released on: 21st October 2014",
+            "Title: Solution of one dimensional Groundwater flow problems ISBN: 978-3-659-68619-1 Publisher: Lambert Academic Publishing. Released on: 3rd February 2015"
+        ],
         "technical_reports": [],
         "preprints": []
     },
@@ -85,7 +92,10 @@
         "Life Member of Indian Society of Theoretical and Applied Mechanics (ISTAM) [L 676]",
         "Life Member of Gujarat Ganit Mandal, Ahmedabad.",
         "Life member of GAMS (Gwalior Academy of Mathematical Sciences)",
-        "Life Member of FATER (Forum for advanced training education and research academy of"
+        "Life Member of FATER (Forum for advanced training education and research academy of India)",
+        "Editorial Board member of International Journals IJIRMF & IJRCS run by \"RESEARCH CULTURE SOCIETY\".",
+        "Associate fellow member and Executive Council Member of “Gujarat Science Academy”",
+        "General Associate Member of The Mathematics Consortium Experience: 25 years (Teaching, Research & Administration)"
     ],
     "societies": [
         "1. Executive Committee member of Gujarat Ganit Mandal",
@@ -95,10 +105,14 @@
         "Life Member of Indian Society of Theoretical and Applied Mechanics (ISTAM) [L 676]",
         "Life Member of Gujarat Ganit Mandal, Ahmedabad.",
         "Life member of GAMS (Gwalior Academy of Mathematical Sciences)",
-        "Life Member of FATER (Forum for advanced training education and research academy of"
+        "Life Member of FATER (Forum for advanced training education and research academy of India)",
+        "Editorial Board member of International Journals IJIRMF & IJRCS run by \"RESEARCH CULTURE SOCIETY\".",
+        "Associate fellow member and Executive Council Member of “Gujarat Science Academy”",
+        "General Associate Member of The Mathematics Consortium Experience: 25 years (Teaching, Research & Administration)"
     ],
     "responsibilities": [],
     "references": [
-        "1. Prof. Nita H.Shah 2. Prof. B.K.Jain Professor and Head, Principal, Department of Mathematics M.G.Science College, School of Science, Gujarat Ahmedabad."
+        "1. Prof. Nita H.Shah 2. Prof. B.K.Jain Professor and Head, Principal, Department of Mathematics M.G.Science College, School of Science, Gujarat Ahmedabad. University, Ahmedabad. Ph: +91 9426024656 Ph: +91 9825261816 Email: bkjain_mgsc@yahoo.com Email: nitahshah@gmail.com",
+        "Prof. M.N.Mehta 4. Dr.V.P.Saxena Professor and Head, Former Vice Chancellor, Jiwaji University, Applied Mathematics and Gwalior Huminities department, SVNIT, Ph: +91-9425109044 (M) Surat. Email: vinodpsaxena@gmail.com Ph: +91 9825478307"
     ]
 }

@@ -44,8 +44,9 @@ def get_section_text(sections, section_name):
 
 
 # ---------- 1. PHONE FIX ----------
+# Enforce horizontal whitespace [ \t] to prevent matching across line breaks (\n)
 PHONE_CANDIDATE_REGEX = re.compile(
-    r"(?:\(?\+?91\)?|0091|0)?[\s\-\(\)]*(?:[6-9][\s\-\(\)\.]*){1}(?:\d[\s\-\(\)\.]*){9,11}"
+    r"(?:\(?\+?91\)?|0091|0)?[ \t\-\(\)]*(?:[6-9][ \t\-\(\)\.]*){1}(?:\d[ \t\-\(\)\.]*){9,11}"
 )
 
 def extract_all_phones(text):

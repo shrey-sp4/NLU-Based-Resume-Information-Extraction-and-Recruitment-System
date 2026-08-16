@@ -2,14 +2,19 @@
     "personal_details": {
         "name": "Dr. Keyur Patel",
         "email": "pkeyur.436@gmail.com",
-        "phone": "7720052009",
+        "phone": "9998768219",
         "phones": [
-            "7720052009",
-            "9898199295"
+            "9998768219",
+            "9904733304",
+            "9898199295",
+            "9825552265",
+            "9099936289"
         ],
         "address": ""
     },
-    "summary": [],
+    "summary": [
+        "(cid:136)\nEight years of experience in the field of teaching, reseach, and Industry.\n(cid:136)\nCurrently Working as Head of Research with School of Information Technol-\nogy, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Rak-\nsha University, Ministry of Home Affairs, An Institute of National Impor-\ntance, Government of India, Gandhinagar, Gujarat.\n(cid:136)\nWorked with the Department of Computer Engineering, Unitedworld School of Com-\nputational Intelligence, Karnavati University, Gandhinagar, from July 2022 to Sep\n2023.\n(cid:136)\nWorked with Department of Computer Science and Engineering, Institute of Adavnced\nResearch, Gandhinagar, from June-2020 to July 2022.\n(cid:136)\nBoard of Studies (BOS) member for the curriculum design of B.Tech Computer\nScience specialisation in (AI, Machine Learning, Cyber Security, Software Engineering)\nM.Tech (IT) and BCA programmes at IAR university.\n(cid:136)\nDeveloped state of the art Centre Of Excellence (COE) code unnati lab on\nemerging technology (AI, ML, IoT) with the support of SAP india pvt. Ltd at\nComputer science department, Karnavati University.\n(cid:136)\nWorked as Main school coordinator for ISRO-IIRS Outreach Programme for the"
+    ],
     "education": [
         {
             "degree": "Doctor of Philosophy",
@@ -37,15 +42,23 @@
         {
             "job_title": "Assistant Professor",
             "dates": "Sep 2023- Till Date",
-            "institution": "",
-            "raw_text": "Assistant Professor (22th Sep 2023- Till Date):"
+            "institution": "School of Information Technology",
+            "raw_text": "Assistant Professor (22th Sep 2023- Till Date): (cid:136) Working with School of Information Technology, Artificial Intelligence and Cy- ber Security (SITAICS), Rashtriya Raksha University(RRU), Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar, Gujarat (cid:136)"
         }
     ],
-    "research_interests": [],
-    "skills": [],
-    "projects": [],
+    "research_interests": [
+        "(cid:136) Robotics and AI (cid:136)"
+    ],
+    "skills": [
+        "(cid:136) ComputerSkills&ProgrammingLanguages:-C, Matlab and Simulink, Embedded C, Ardunio (ATMega series- C Programming), ARM CORTEX-M series (C-Programming), Labview, Python, VHDL, Ladder Logic, LATEX. (cid:136) AssemblyLanguages: -8085(Microprocessor),Microcontroller(8bit/16bit/32bit),ARM7, ARM cortex-M series. (cid:136) Software tools:- Xilinx ISE 9.2, Quartus-II, keil Vision4, Spice(TI), pSpice (Ana- log circuits design), Proteus professional(Virtual Hardware design), Google colab, Jupyter notebook(Python Programming). (cid:136) Operating Systems: - Windows 98, 2000, XP, Vista, Windows 8, Windows 10, Linux."
+    ],
+    "projects": [
+        "(cid:136) RFID authentication-based smart parking guidance using IoT: An implementa- tion point of view -(KU/2022/SMS/004) (cid:136) AI-enabled automated detection of Alzheimer’s disease (cid:136) AI-assisted Leader-following consensus of multiple heterogeneous robotic sys- tems: A real-time multiapplication perspective (cid:136) Visual Inspection in Manufacturing Industry Using AI (cid:136) (cid:136) Guided PG student on the project titled “Classification of the Sesmic Events through Machine Learning” jointly with Institute of Seismological Research, Department of Sci- ence and Technology, Gandhinagar (cid:136) Design and mathematical modeling for quadcopter (Unmanned aerial vehilce). (cid:136) Microcontroller based Manual Landrover robot triggering and relay circuitry."
+    ],
     "publications": {
-        "journal_articles": [],
+        "journal_articles": [
+            "(cid:136)"
+        ],
         "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
@@ -54,11 +67,26 @@
         "technical_reports": [],
         "preprints": []
     },
-    "certifications": [],
-    "awards": [],
-    "achievements": [],
-    "memberships": [],
-    "societies": [],
-    "responsibilities": [],
+    "certifications": [
+        "(cid:136) Participated three days short term training programme on High Performance Com- puting and Deep Learning held at DAIICT, Gandhinagar during 26 − 28th May",
+        "(cid:136) Participated and contributed as main student coordinator in short term Training Program on “Design and Implementation of Advanced Controllers” held at IITRAM during 21st- 25th January, 2019. (cid:136) Participatedandcontributedasstudent coordinatorinshorttermTrainingProgram",
+        "n “Advanced Control Techniques and Their Applications” held at IITRAM during 27th Nov. - 1st Dec., 2017. (cid:136) Participated in the course on “Advanced sliding mode control and estimation for real complex systems of the 21st century”heldatIIT-Roorkeeduring24st-27th October, 2017. (cid:136) Participated in the short course on “Data Analytics: Applications in Modelling, Control and Signal Processing” held at IIT Gandhinagar on 25st-26th October,",
+        "(cid:136) Attendedthe3rd NirmaUniversityInternationalConferenceonEngineering,NUiCONE- 2012organizedbyInstituteofTechnology,NirmaUniversity,Ahmedabadinassociation with IEEE and science direct. (cid:136) Participated a Design Engineering faculty development programme at GTU, L.D col- lege of engineering-Ahmedabad during 4 august 2015 to 7 august-2015. (cid:136) Participated a National Seminar on “Wireless Technology in Automation: Current and Future Trends” on 20th April,2013 conducted by Instrumentation and Control Engi- neering branch, Electrical Engineering Department, Institute of Technology, Nirma University, Ahmedabad. (cid:136) I had been undergone training of lab view basic like OPC function, data socket trou- bleshooting, mod bus function. (cid:136) The field work assistance gave practical exposure to the field devices and controlling techniques and understands the process of particular control system. (cid:136) Practically learned how to configure variable in a network and transmit through net- works. OPC server assignment learned how to convert communication protocol into OPC Protocol. Modbus assignment gave some brief idea about MODBUS protocol."
+    ],
+    "awards": [
+        "(cid:136)"
+    ],
+    "achievements": [
+        "(cid:136)"
+    ],
+    "memberships": [
+        "(cid:136) Professional Member, Institute of Electrical and Electronics Engineers(IEEE)"
+    ],
+    "societies": [
+        "(cid:136) Professional Member, Institute of Electrical and Electronics Engineers(IEEE)"
+    ],
+    "responsibilities": [
+        "(cid:136) Served as PhD Coordinator(Head of Research) for the School of Information Tech- nology, Artificial Intelligence, and Cyber Security (SITAICS) at Rashtriya Raksha University (RRU), overseeing the academic and administrative aspects of the PhD program. (cid:136) Facilitated effective communication between doctoral candidates, faculty, and admin- istration, ensuring smooth progress and resolution of academic issues. (cid:136) Organized RAC for all aspects of PhD candidates. (cid:136) Assisted in the development and implementation of program policies, ensuring compli- ance with university standards and academic regulations. (cid:136) Provided guidance and support to PhD students throughout their research journey, from admission to thesis submission and defense. Coordinator AI Tech Shaksham Program for all pre-final Year Students: (cid:136) (cid:136) Course Coordinator of B.Tech Electronics(VLSI Design and Technology) Program in the School of Applied Sciences, Engineering and Technology"
+    ],
     "references": []
 }

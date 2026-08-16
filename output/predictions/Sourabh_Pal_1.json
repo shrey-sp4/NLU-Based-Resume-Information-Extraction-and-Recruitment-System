@@ -7,7 +7,15 @@
         "address": ""
     },
     "summary": [],
-    "education": [],
+    "education": [
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Academic College",
+            "raw_text": "Academic College/School University/Board Yearof Percentage"
+        }
+    ],
     "experience": [],
     "research_interests": [
         "➢ Database ManagementSystem",

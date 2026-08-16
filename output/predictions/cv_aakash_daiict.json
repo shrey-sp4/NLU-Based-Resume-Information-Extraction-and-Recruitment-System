@@ -2,8 +2,10 @@
     "personal_details": {
         "name": "Aakash Choudhary",
         "email": "achoudhary1396@gmail.com",
-        "phone": "",
-        "phones": [],
+        "phone": "7838270379",
+        "phones": [
+            "7838270379"
+        ],
         "address": ""
     },
     "summary": [],
@@ -20,7 +22,7 @@
             "graduation_year": "2016",
             "cgpa": "",
             "institution": "Deshbandhu College",
-            "raw_text": "Master of Science, Mathematics and Computing. July 2016 - June 2018 Deshbandhu College, University of Delhi New Delhi, India Bachelor of Science (Honours), Mathematics. July 2013 - May 2016 S.B.N Public School, CBSE Board Ghaziabad, India"
+            "raw_text": "Master of Science, Mathematics and Computing. July 2016 - June 2018 Deshbandhu College, University of Delhi New Delhi, India Bachelor of Science (Honours), Mathematics. July 2013 - May 2016 S.B.N Public School, CBSE Board Ghaziabad, India Senior Secondary 2013 Aum Sun Public School, CBSE Board Ghaziabad, India Secondary School Examination 2011"
         }
     ],
     "experience": [
@@ -88,6 +90,6 @@
     "societies": [],
     "responsibilities": [],
     "references": [
-        "• Prof. R.K. Sharma"
+        "• Prof. R.K. Sharma Professor"
     ]
 }

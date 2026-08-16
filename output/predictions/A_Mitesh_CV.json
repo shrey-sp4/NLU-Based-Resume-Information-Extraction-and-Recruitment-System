@@ -2,10 +2,13 @@
     "personal_details": {
         "name": "DR. MITESHKUMAR SOLANKI",
         "email": "Mitesh4physics@gmail.com",
-        "phone": "7552691235",
+        "phone": "8000117505",
         "phones": [
+            "8000117505",
             "7552691235",
-            "9427220804"
+            "9427220804",
+            "9106739266",
+            "9099939431"
         ],
         "address": ""
     },
@@ -15,8 +18,8 @@
             "degree": "Doctor of Philosophy",
             "graduation_year": "2013-2021",
             "cgpa": "",
-            "institution": "",
-            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT"
+            "institution": "DFT Pandit Deendayal Energy University",
+            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT Pandit Deendayal Energy University Gandhinagar, INDIA Thesis title: Experimental and Theoretical Study of Nonlinear Optical Material Single"
         }
     ],
     "experience": [

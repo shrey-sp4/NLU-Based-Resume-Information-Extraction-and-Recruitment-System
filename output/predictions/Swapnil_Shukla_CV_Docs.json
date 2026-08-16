@@ -2,8 +2,10 @@
     "personal_details": {
         "name": "Dr. Swapnil Shukla",
         "email": "swapnilshukla025@gmail.com",
-        "phone": "",
-        "phones": [],
+        "phone": "9999044865",
+        "phones": [
+            "9999044865"
+        ],
         "address": ""
     },
     "summary": [],
@@ -19,7 +21,7 @@
             "job_title": "Teaching Assistant",
             "dates": "",
             "institution": "Central University of Gujarat",
-            "raw_text": "of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University,"
+            "raw_text": "of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 08/12 – 06/14 Teaching Assistant, Dept. of Chemistry, Shiv Nadar University 09/23 – till now Project Scientist II under the sponsored Project Centre for Policy Research – Dept. of Science and Technology (CPR-DST) New Delhi funded project at Central University of Gujarat, Gandhinagar. 05/17-10/18 Research Scientist, Polymer R&D, Reliance Industries Ltd.; Elastomer division involving synthesis and modification of PBR and HIIR with requisite characterization and analysis techniques. 10/16 – 03/17 Research Associate, Dept. of Chemistry, Shiv Nadar University; Biobased Polybenzoxazine synthesis, characterization and applications. 05/08 – 07/08 Summer Training at School of Life Sciences, Jawahar Lal Nehru University, New Delhi, India 08/07 - 02/08 Add-on course in Nanotechnology conducted at Sri Venkateswara College campus in collaboration with Appin Knowledge Solutions, New Delhi 09/08 - 12/08 “Certificate Program in Bioinformatics and Computational Biology” conducted at Sri Venkateswara College, University of Delhi"
         }
     ],
     "research_interests": [],
@@ -30,7 +32,15 @@
     "publications": {
         "journal_articles": [
             "1. Naveen Kumar, Nisha Yadav, Nagarjuna Amarnath, Vijeta Sharma, Swapnil Shukla, Akriti Srivastava, Peeyush Prasad, Anil Kumar, Swati Garg, Shailja Singh, Seema Sehrawat and Bimlesh Lochab, Integrative natural medicine inspired graphene nanovehicle-benzoxazine derivatives as potent therapy for cancer, Mol. Cell. Biochem., 2018, 1-16. (Impact Factor: 3.84)",
-            "Nagarjuna Amarnath, Swapnil Shukla and Bimlesh Lochab, Harvesting the benefits of inherent reactive functionalities in fully bio-sourced isomeric benzoxazines, ACS Sus. Chem. Eng., 2018,"
+            "Nagarjuna Amarnath, Swapnil Shukla and Bimlesh Lochab, Harvesting the benefits of inherent reactive functionalities in fully bio-sourced isomeric benzoxazines, ACS Sus. Chem. Eng., 2018, 11, 15151-15161. (Impact Factor: 9.22)",
+            "Vijeta Sharma, Nagarjuna Amarnath, Swapnil Shukla, R. Ayana, Naveen Kumar, Nisha Yadav, Deepika Kannan, Seema Sehrawat, Soumya Pati, Bimlesh Lochab and Shailja Singh, Benzoxazine derivatives of phytophenols show anti-plasmodial activity via sodium homeostasis disruption, Bioorg. Med. Chem. Lett., 2018, 28, 1629-1637. (Impact Factor: 2.94)",
+            "Arnab Ghosh#, Swapnil Shukla#, Monisha, Ajit Kumar, Bimlesh Lochab and Sagar Mitra, Sulfur Copolymer: A New Cathode Structure for Room-Temperature Sodium–Sulfur Batteries, ACS Ener. Lett., 2017, 2, 2478-2485. (Impact Factor: 23.99) (#equal contribution)",
+            "Monisha, Swapnil Shukla and Bimlesh Lochab, Nanoparticles as curing and adhesive aid for biobased and petrobased benzoxazines, Green mater., 2017, 5, 94-102. (Impact Factor: 4.07)",
+            "Nisha Yadav, Amrita Dubey, Swapnil Shukla, Chetan Prakash Saini, Govind Gupta, Richa Priyadarshini and Bimlesh Lochab, Graphene Oxide-Coated Surface: Inhibition of Bacterial Biofilm Formation due to Specific Surface–Interface Interactions, ACS Omega, 2017, 2, 3070-",
+            "(Impact Factor: 4.13)",
+            "Swapnil Shukla and Bimlesh Lochab, Role of higher aromatic content in modulating properties of cardanol based benzoxazines, Polymer, 2016, 99, 684-694. (Impact Factor: 4.43)",
+            "Swapnil Shukla, Arnab Ghosh, Prasun Kumar Roy, Sagar Mitra and Bimlesh Lochab, Cardanol benzoxazines-A sustainable linker for elemental sulphur based copolymers via inverse vulcanisation, Polymer, 2016, 99, 349-357. (Impact Factor: 4.43)",
+            "Arnab Ghosh#, Swapnil Shukla#, Gaganpreet Singh Khosla, Bimlesh Lochab and Sagar Mitra, Sustainable Sulfur-rich Copolymer/Graphene Composite as Lithium-Sulfur Battery Cathode with Excellent Electrochemical Performance, Sci. Rep., 2016, 6, 25207. (Impact Factor: 4.6) (#equal"
         ],
         "conference_papers": [],
         "conference_proceedings": [],

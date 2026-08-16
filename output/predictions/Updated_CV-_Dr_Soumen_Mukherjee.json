@@ -1,9 +1,12 @@
 {
     "personal_details": {
-        "name": "",
+        "name": "DR. SOUMEN MUKHERJEE",
         "email": "",
-        "phone": "",
-        "phones": [],
+        "phone": "7224409475",
+        "phones": [
+            "7224409475",
+            "8172737252"
+        ],
         "address": ""
     },
     "summary": [],
@@ -12,8 +15,8 @@
             "degree": "",
             "graduation_year": "2012",
             "cgpa": "",
-            "institution": "",
-            "raw_text": " Ph. D in Indian English Literature May 2012, Dept. of English & Modern European Languages,"
+            "institution": "Banaras Hindu University",
+            "raw_text": " Ph. D in Indian English Literature May 2012, Dept. of English & Modern European Languages, Universityof Lucknow, Lucknow (U.P),India Dissertation Title- Socio-Cultural Representations: A Study of the Marginal in select Indian English novels. Supervisor: Prof (Dr.) Madhu Mehrotra, Retd. Professor & Head, Dept. of English & Modern EuropeanLanguages, UniversityofLucknow, Lucknow(U.P), India  Scored Band 0.7 out of a total Band of 0.9 in the IELTS Exams held on 3rd Dec. 2005, conductedbyBritishCouncil, NewDelhi.  Master of Arts in English Literature May 2000, Dept. of English & Linguistics, Banaras Hindu University, Varanasi (U.P),India; Result: IstDivision  Bachelor of Arts in English Literature (Hons.) June 1998, Vidyasagar University, Midnapore (W.B) India;Result: IInd Division"
         }
     ],
     "experience": [
@@ -21,7 +24,7 @@
             "job_title": "Associate Professor",
             "dates": "2017",
             "institution": "School of Social Sciences",
-            "raw_text": "Teaching experience of more than Nineteen years ranging from undergraduate, postgraduate to researchlevels asunder:  May, 2017-till present- Associate Professor, Department of English, School of Social Sciences"
+            "raw_text": "Teaching experience of more than Nineteen years ranging from undergraduate, postgraduate to researchlevels asunder:  May, 2017-till present- Associate Professor, Department of English, School of Social Sciences &Languages, VITUniversity, Vellore -632 014, Tamilnadu  July, 2015- May,2017- Associate Professor & Instructor-in-Charge, Presidency University, Bangalore-560064,Karnataka  July, 2013- June, 2015- Associate Professor, Alliance University, Bangalore-562106,"
         }
     ],
     "research_interests": [
@@ -58,7 +61,7 @@
         "i Athens Institute of Education & Research (ATINER), Athens, Greece, Academic Member w.e.f. 22nd Jan.,2015 onwards…. ii BritishCouncil Library, Chennai, Institutional Member. FOREIGNCOUNTRIESVISITED (Mostly forAcademic/Professionalpurposebut also forfamily"
     ],
     "responsibilities": [
-        " Instructor-in-charge, English Division, Presidency University, Bengaluru, August, 2015-May,"
+        " Instructor-in-charge, English Division, Presidency University, Bengaluru, August, 2015-May, 2017  Area Chairperson, Business Communication & PPSP, Institute of Management Studies, Ghaziabad, August, 2011-Oct.,2012"
     ],
     "references": []
 }

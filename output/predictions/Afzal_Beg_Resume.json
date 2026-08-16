@@ -2,8 +2,11 @@
     "personal_details": {
         "name": "Dr. AFZAL BEG",
         "email": "afzalbeg09@gmail.com",
-        "phone": "",
-        "phones": [],
+        "phone": "9098248646",
+        "phones": [
+            "9098248646",
+            "7415952569"
+        ],
         "address": ""
     },
     "summary": [
@@ -57,8 +60,26 @@
         {
             "job_title": "Assistant Professor",
             "dates": "July 2024 – Current",
+            "institution": "Current Rai University",
+            "raw_text": "➢ Assistant Professor July 2024 – Current Rai University, Ahmadabad Gujarat"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "March 2023 – Dec 2023",
+            "institution": "Vindhya Institute of Technology and Science",
+            "raw_text": "➢ Assistant Professor March 2023 – Dec 2023 Vindhya Institute of Technology and Science, Satna (M.P.)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "July 2016 – March 2023",
+            "institution": "Shri Rama Krishna College of Commerce & Science",
+            "raw_text": "➢ Assistant Professor July 2016 – March 2023 Shri Rama Krishna College of Commerce & Science, Satna (M.P.)"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "July 2012– Dec 2015",
             "institution": "",
-            "raw_text": "➢ Assistant Professor July 2024 – Current"
+            "raw_text": "➢ Assistant Professor July 2012– Dec 2015"
         }
     ],
     "research_interests": [],
@@ -80,13 +101,14 @@
             "Paper Published at International Journal of Advanced Technology in Engineering and Science Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce’s Online Review with Support NLP ISSN 2348-7550| Vol. No. 09, Issue No. 12, December 2021",
             "Digital Marketing with Natural Language Processing ISSN No. 2347-6648 Volume IX, Issue III, March/2020 Parishodh Journal UGC Care Group Ian ISO 7021 -2008"
         ],
-        "conference_papers": [
-            "Presented Paper in International Conference on Wireless, Mobile Network and Applications Tirumala Engineering College Jonnalagadda, Narasaraopet, Andhra Pradesh Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP"
-        ],
+        "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
-        "books": [],
+        "books": [
+            "Presented Paper in International Conference on Wireless, Mobile Network and Applications Tirumala Engineering College Jonnalagadda, Narasaraopet, Andhra Pradesh Study of Real-Time Circulation Activity Using Twitter Tweet Analytics Support NLP ISBN: 978-93-91535-02-5",
+            "Presented Paper in National Conference on New Horizons in Science, Management and Humanities IIMT College of Engineering Greater Noida (UP) Emotional Analysis Using Fast Text and RNN Variants for Amazon and Other E-Commerce’s Online Review with Support NLP ISBN: 978-93-91535-14-8"
+        ],
         "technical_reports": [],
         "preprints": []
     },

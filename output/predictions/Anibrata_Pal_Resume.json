@@ -31,10 +31,24 @@
         },
         {
             "degree": "M.Tech",
-            "graduation_year": "",
-            "cgpa": "",
+            "graduation_year": "2016",
+            "cgpa": "84.30%",
             "institution": "Kalinga Institute of Industrial Technology",
-            "raw_text": "M.Tech Department of Civil Engineering, Kalinga Institute of Industrial Technology,"
+            "raw_text": "M.Tech Department of Civil Engineering, Kalinga Institute of Industrial Technology, Bhubaneswar, 2016. (Structural Engineering, 84.30%)"
+        },
+        {
+            "degree": "B.Tech",
+            "graduation_year": "2014",
+            "cgpa": "70.00%",
+            "institution": "Camellia School of Engineering Technology",
+            "raw_text": "B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%) 10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board."
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2008",
+            "cgpa": "78.00 %",
+            "institution": "Krishnath College School",
+            "raw_text": "10th Krishnath College School, Berhampore, 2008, 78.00 %, WBBSE Board."
         }
     ],
     "experience": [
@@ -48,7 +62,7 @@
             "job_title": "Assistant Professor",
             "dates": "2022",
             "institution": "MAKAUT University",
-            "raw_text": "• Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021."
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021. Member of Professional / Technical Committees Research Committee Member at COEB in the Department of Civil Engineering."
         }
     ],
     "research_interests": [

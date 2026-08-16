@@ -2,8 +2,11 @@
     "personal_details": {
         "name": "Dr. Priyanka Sharma",
         "email": "sharmaps94@yahoo.in",
-        "phone": "",
-        "phones": [],
+        "phone": "7814440618",
+        "phones": [
+            "7814440618",
+            "9816852533"
+        ],
         "address": ""
     },
     "summary": [
@@ -69,6 +72,6 @@
     "societies": [],
     "responsibilities": [],
     "references": [
-        "Prof. Partha Bir Barman Dr. Sanjiv Kumar Tiwari Department of Physics and Material Science Department of Physics and Material Science Jaypee University of Information Technology, Jaypee University of Information Technology, Waknaghat, Solan, Himachal Pradesh–173234 Waknaghat, Solan, Himachal Pradesh–173234"
+        "Prof. Partha Bir Barman Dr. Sanjiv Kumar Tiwari Department of Physics and Material Science Department of Physics and Material Science Jaypee University of Information Technology, Jaypee University of Information Technology, Waknaghat, Solan, Himachal Pradesh–173234 Waknaghat, Solan, Himachal Pradesh–173234 Mobile No.: +91-9418228268 Mobile No.: +91-9805465189 Email: pb.barman@juit.ac.in Email: sanjivkumar.tiwari@juit.ac.in"
     ]
 }

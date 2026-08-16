@@ -36,6 +36,29 @@ from src.segment_resumes_into_sections import (
 INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center)"
 INSTITUTION_REGEX = re.compile(INSTITUTION_KEYWORDS, re.IGNORECASE)
 
+GERUND_PATTERNS = re.compile(
+    r"^\s*(?:Conducting|Designing|Preparing|Crafting|Executing|Managing|Developing|Leading|Coordinating|Creating|Implementing|Formulating|Providing|Handling|Organizing)\b",
+    re.IGNORECASE
+)
+
+NARRATIVE_PHRASES = [
+    "years of exposure", "skills and ethics", "critical thinking skills to",
+    "strong ability to", "skilled in coordinating", "experience with analytical",
+    "ability to identify", "good communication ability", "possess organizing"
+]
+
+def is_narrative_skill_item(item: str) -> bool:
+    """Checks if a skill item is narrative prose/sentence rather than an itemized skill."""
+    words = item.split()
+    if len(words) > 13:
+        return True
+    if GERUND_PATTERNS.search(item):
+        return True
+    item_lower = item.lower()
+    if any(phrase in item_lower for phrase in NARRATIVE_PHRASES):
+        return True
+    return False
+
 def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> Tuple[str, int]:
     """Extracts raw text from PDF bytes using pypdf."""
     reader = pypdf.PdfReader(io.BytesIO(pdf_bytes))
@@ -54,12 +77,12 @@ def live_section_text(raw_text: str) -> Dict[str, str]:
     sections_store: Dict[str, List[str]] = {}
     current_section = "preamble"
 
-    for line in lines:
+    for line_idx, line in enumerate(lines, start=1):
         raw_line = line.rstrip("\n")
         cleaned = clean_line(raw_line)
         if not cleaned or is_page_marker(raw_line):
             continue
-        heading_info = detect_heading(raw_line, heading_lookup)
+        heading_info = detect_heading(raw_line, heading_lookup, line_idx)
         if heading_info is not None:
             canonical = heading_info["canonical_section"]
             if canonical != "ignore":
@@ -119,7 +142,6 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
     sections = live_section_text(raw_text) if raw_text else {}
     sections_detected = list(sections.keys())
     
-    # Core required sections: education (contact info is verified via extracted name & email)
     expected_canonical = ["education"]
     sections_expected_but_missing = []
     if "education" not in sections_detected:
@@ -238,6 +260,15 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
             "dates": {"value": entry.get("dates", "") or "[Not Found]"}
         })
 
+    # Skills Narrative Quality Flag Check
+    skills_list = prediction.get("skills", [])
+    if any(is_narrative_skill_item(item) for item in skills_list):
+        flags.append({
+            "field": "skills",
+            "flag": "possible_narrative_skills_not_itemized",
+            "description": "Skills section content is written as narrative paragraphs/sentences rather than itemized bullet points; found skills content but could not reliably itemize individual skills."
+        })
+
     stage3_status = {
         "status": "success" if (prediction.get("education") or prediction.get("experience") or prediction.get("skills")) else "partial",
         "prediction": prediction,
@@ -305,7 +336,7 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
             first_stage_loss = {
                 "stage": f"Stage 3: Entity Extraction (Flag '{first_flag['flag']}')",
                 "reason": f"Entity extraction quality rule flag raised for [{first_flag['field']}]: {first_flag['description']}",
-                "raw_text_snippet": sections.get("education", "")[:300] or raw_text[:300]
+                "raw_text_snippet": sections.get("skills", "")[:300] or sections.get("education", "")[:300] or raw_text[:300]
             }
         elif section_failures:
             fully_parsed = False
@@ -356,7 +387,6 @@ def main_ui():
         with st.spinner("Executing live 3-stage extraction pipeline..."):
             result = run_live_pipeline(target_bytes, target_name)
 
-        # Header Status Banner
         if result["fully_parsed"]:
             st.success("✅ **FULLY PARSED**: All text extracted cleanly, sectioned, and every detected section produced structured entity entries!")
         else:
@@ -367,7 +397,6 @@ def main_ui():
                 with st.expander("🔍 Inspect Raw Source Text at Loss Point"):
                     st.code(loss["raw_text_snippet"], language="text")
 
-        # Stage Status Tabs
         tab1, tab2, tab3 = st.tabs(["1️⃣ Text Extraction", "2️⃣ Section Detection", "3️⃣ Entity Extraction & Explanations"])
 
         with tab1:
@@ -396,9 +425,9 @@ def main_ui():
             s3 = result["entity_extraction"]
             
             if s3["flags"]:
-                st.markdown("#### ⚠️ Categorical Rule Flags")
+                st.markdown("#### ⚠️ Categorical Quality Rule Flags")
                 for f in s3["flags"]:
-                    st.warning(f"**[{f['field']}] {f['flag']}**: {f['description']}")
+                    st.warning(f"**[{f['field']}] `{f['flag']}`**: {f['description']}")
 
             col1, col2 = st.columns(2)
             with col1:
