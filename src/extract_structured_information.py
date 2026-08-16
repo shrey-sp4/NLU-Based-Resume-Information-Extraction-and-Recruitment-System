@@ -104,16 +104,19 @@ def extract_personal_details(sections):
     summary = get_section_text(sections, "summary")
     other = get_section_text(sections, "other_sections")
     
-    text_blocks = [b for b in [preamble, details, summary, other] if b]
-    text = "\n".join(text_blocks).strip()
+    primary_text = "\n".join([b for b in [preamble, details, summary] if b]).strip()
     full_doc_text = "\n".join(str(v) for v in sections.values() if isinstance(v, str))
 
-    search_text = text if (text and len(text) > 20) else full_doc_text
+    search_text = primary_text if (primary_text and len(primary_text) > 10) else (other or full_doc_text)
 
     emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", search_text)
+    if not emails:
+        emails = re.findall(r"[\w\.-]+@[\w\.-]+\.\w+", full_doc_text)
     email = emails[0].strip() if emails else ""
 
     phones = extract_all_phones(search_text)
+    if not phones:
+        phones = extract_all_phones(full_doc_text)
     phone = phones[0] if phones else ""
 
     raw_lines = [l.strip() for l in search_text.splitlines() if len(l.strip()) > 1]
