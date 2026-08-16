@@ -14,7 +14,7 @@
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
+            "institution": "Degree University Month &Year Percentage",
             "raw_text": "Degree University Month &Year Percentage"
         },
         {
@@ -35,7 +35,7 @@
             "degree": "Ph.D",
             "graduation_year": "2014",
             "cgpa": "",
-            "institution": "",
+            "institution": "NIT",
             "raw_text": "Ph.D. SVNIT, Surat April, 2014"
         }
     ],

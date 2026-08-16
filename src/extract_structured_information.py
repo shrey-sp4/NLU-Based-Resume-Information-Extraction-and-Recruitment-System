@@ -1,6 +1,13 @@
 import json
 import re
 from pathlib import Path
+import spacy
+
+# Load spaCy model for statistical NER fallback
+try:
+    nlp = spacy.load("en_core_web_sm")
+except Exception:
+    nlp = None
 
 # Paths
 SECTIONS_DIR = Path("output/sections")
@@ -43,8 +50,7 @@ def get_section_text(sections, section_name):
     return section.strip()
 
 
-# ---------- 1. PHONE FIX ----------
-# Enforce horizontal whitespace [ \t] to prevent matching across line breaks (\n)
+# ---------- 1. PHONE EXTRACTION ----------
 PHONE_CANDIDATE_REGEX = re.compile(
     r"(?:\(?\+?91\)?|0091|0)?[ \t\-\(\)]*(?:[6-9][ \t\-\(\)\.]*){1}(?:\d[ \t\-\(\)\.]*){9,11}"
 )
@@ -69,20 +75,18 @@ def extract_phone(text):
     return phones[0] if phones else ""
 
 def phone_matches(pred, gt_raw):
-    """Evaluator-side fix: normalize GT's raw labeled string the same way before comparing."""
     pred_digits = re.sub(r"\D", "", pred or "")
     gt_digits_all = extract_all_phones(gt_raw or "")
     return pred_digits in gt_digits_all if pred_digits and gt_digits_all else (pred == gt_raw)
 
 def normalize_phone_for_compare(p):
-    """Use this on BOTH prediction and ground truth before comparing in the evaluator."""
     digits = re.sub(r"\D", "", p or "")
     if len(digits) == 12 and digits.startswith("91"):
         digits = digits[2:]
     return digits
 
 
-# ---------- 2. REDESIGNED PERSONAL DETAILS EXTRACTION ----------
+# ---------- 2. PERSONAL DETAILS EXTRACTION ----------
 JOB_TITLE_WORDS = re.compile(
     r"\b(?:Professor|Scientist|Scholar|Engineer|Manager|Director|Postdoctoral|Lecturer|Researcher|Fellow|Experienced|Graduate|Student|Assistant|Associate|Executive|Consultant|Developer|Analyst|Lead|Head|Officer|Member)\b",
     re.IGNORECASE
@@ -122,14 +126,12 @@ def extract_personal_details(sections):
     raw_lines = [l.strip() for l in search_text.splitlines() if len(l.strip()) > 1]
     name = ""
 
-    # 1. First check if top 2 lines are single-word parts of a name (e.g. "Doyel" \n "Mukherjee")
     if len(raw_lines) >= 2:
         l1, l2 = raw_lines[0], raw_lines[1]
         if (len(l1.split()) == 1 and len(l2.split()) == 1 and 
             re.match(r"^[A-Z][a-z]+$", l1) and re.match(r"^[A-Z][a-z]+$", l2)):
             name = f"{l1} {l2}"
 
-    # 2. Check candidate lines from top of document
     if not name:
         for raw_l in raw_lines[:12]:
             if "@" in raw_l or "http" in raw_l or "www." in raw_l:
@@ -170,7 +172,7 @@ def split_into_list(text):
     return [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
 
 
-# ---------- 3. ENTRY-LEVEL SPLITTING & SUB-FIELD EXTRACTION ----------
+# ---------- 3. HYBRID INSTITUTION EXTRACTION & SUB-FIELD PATTERNS ----------
 DATE_LINE_START_REGEX = re.compile(
     r"^\s*(?:"
     r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|July|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}"
@@ -237,8 +239,8 @@ DEGREE_REGEX = re.compile("|".join(f"(?:{p})" for p in DEGREE_PATTERNS), re.IGNO
 YEAR_RANGE_REGEX = re.compile(r"\b(19|20)\d{2}\s*[-–]\s*(19|20)\d{2}\b|\b(19|20)\d{2}\b")
 
 CGPA_REGEX = re.compile(
-    r"\b\d{1,2}\.\d{1,2}\s*/\s*10(?:\.0)?\b"       # 8.5/10
-    r"|\b\d{1,2}(?:\.\d{1,2})?\s*%"                 # 84.30%
+    r"\b\d{1,2}\.\d{1,2}\s*/\s*10(?:\.0)?\b"
+    r"|\b\d{1,2}(?:\.\d{1,2})?\s*%"
     r"|First Class(?:\s*\(\s*\d{1,2}(?:\.\d{1,2})?\s*%\s*\))?"
     r"|Second Class(?:\s*\(\s*\d{1,2}(?:\.\d{1,2})?\s*%\s*\))?"
     r"|Distinction",
@@ -250,9 +252,21 @@ INSTITUTION_REGEX = re.compile(
     r"((?:[A-Z][\w&\.\-]*\s+){0,6}" + INSTITUTION_KEYWORDS + r"(?:\s+(?:of|for|and|&)\s+[A-Z][\w&\.\-]*(?:\s+[A-Z][\w&\.\-]*){0,5})*)",
 )
 
-HEADER_NOISE = {"degree university", "board/university", "school examination",
-                "degree", "university", "board", "passed all india secondary school",
-                "passed all india senior secondary school"}
+HEADER_NOISE = {
+    "degree university", "board/university", "school examination",
+    "degree", "university", "board", "passed all india secondary school",
+    "passed all india senior secondary school", "completed 10th education"
+}
+
+NOISE_WORDS = re.compile(
+    r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December|"
+    r"Ph\.?D\.?|M\.?Sc\.?|B\.?Tech\.?|B\.?Sc\.?|M\.?Tech\.?|Completed|Passed|First Class|Second Class|Distinction)\b",
+    re.IGNORECASE
+)
+
+PREPOSITION_ORG_REGEX = re.compile(
+    r"\b(?:at|from|in|joined)\s+([A-Z][a-zA-Z0-9&\.\-\s]{3,40}(?:\([A-Za-z0-9\.\-\s]+\))?)",
+)
 
 PREFIX_NOISE = re.compile(
     r"^(?:working as|appeared from|passed(?: with)?|from|at|in year|since|present|"
@@ -261,20 +275,48 @@ PREFIX_NOISE = re.compile(
     re.IGNORECASE
 )
 
-def clean_institution_span(raw_match):
+def clean_institution_span(raw_match: str) -> str | None:
     text = raw_match.strip(" ,.-–")
     if text.lower() in HEADER_NOISE:
         return None
-    if len(text) < 4:
+    if len(text) < 3:
+        return None
+    if NOISE_WORDS.search(text) and not any(k in text.lower() for k in ["university", "institute", "college", "school", "board"]):
         return None
     return text
 
-def extract_institution(line):
+def extract_institution(line: str) -> str:
+    """
+    Hybrid Institution Extractor:
+    1. Primary Method: Fast Keyword Regex (University, Institute, College, School, IIT, NIT, IIIT, IIM, etc.)
+    2. Secondary Fallback: Lightweight Statistical NER (spaCy en_core_web_sm ORG entities + preposition context)
+    """
+    # 1. Primary Method: Keyword Regex Match
     matches = INSTITUTION_REGEX.findall(line)
     for m in matches:
         cleaned = clean_institution_span(m)
         if cleaned:
             return cleaned
+
+    # 2. Secondary Fallback: spaCy Statistical NER + Preposition Context
+    org_candidates = []
+    if nlp is not None:
+        doc = nlp(line)
+        for ent in doc.ents:
+            if ent.label_ in ("ORG", "FAC"):
+                cleaned = clean_institution_span(ent.text)
+                if cleaned and cleaned.lower() not in HEADER_NOISE:
+                    org_candidates.append(cleaned)
+
+    prep_m = PREPOSITION_ORG_REGEX.search(line)
+    if prep_m:
+        prep_span = clean_institution_span(prep_m.group(1))
+        if prep_span and len(prep_span) >= 4:
+            org_candidates.append(prep_span)
+
+    if org_candidates:
+        return max(org_candidates, key=len)
+
     return ""
 
 def extract_education_entries(section_text, split_fn=None):
@@ -296,7 +338,7 @@ def extract_education_entries(section_text, split_fn=None):
     return entries
 
 
-# ---------- 4. ENTRY-LEVEL EXPERIENCE SUB-FIELD EXTRACTION ----------
+# ---------- 4. EXPERIENCE SUB-FIELD EXTRACTION ----------
 TITLE_PATTERNS = [
     r"Assistant Professor", r"Associate Professor", r"Professor",
     r"Visiting Assistant Professor", r"Post-?doctoral Fellow",

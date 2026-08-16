@@ -28,7 +28,8 @@ flowchart LR
     subgraph Stage 3: Entity Extraction
     D1[Personal Details Parser]
     D2[Education & Experience Entry Splitter]
-    D3[Publication Classifier & Sub-field Extraction]
+    D3[Hybrid Keyword + Statistical NER Institution Extractor]
+    D4[Publication Classifier & Sub-field Extraction]
     end
 
     subgraph Stage 4: Explainability & Diagnostics
@@ -40,7 +41,7 @@ flowchart LR
 
 1. **Stage 1: Text Extraction**: Extracts raw text lines from PDF bytes using `pypdf`, preserving original spacing and layout structures while stripping page markers.
 2. **Stage 2: Section Detection**: Normalizes raw heading variants into canonical section keys (`education`, `experience`, `skills`, `publications`, etc.) using a JSON lookup map and enforces non-aggressive structural boundary closure for unmapped headings.
-3. **Stage 3: Entity Extraction**: Splits dense section blocks into discrete entry records and extracts granular sub-fields (job titles, dates, degrees, institutions, CGPA, graduation years) using deterministic NLU rules.
+3. **Stage 3: Entity Extraction**: Splits dense section blocks into discrete entry records and extracts granular sub-fields (job titles, dates, degrees, institutions, CGPA, graduation years) using deterministic NLU rules. Institution extraction employs a **hybrid Keyword + Statistical NER Fallback** architecture: keyword matching acts as the primary high-precision extractor, while a lightweight statistical NER model (`spacy en_core_web_sm`) extracts `ORG` entities when keywords are absent.
 4. **Stage 4: Explainability & Diagnostic Layer**: A local web interface (Streamlit) that displays live stage-by-stage status, source line attribution, reason-for-missing mappings, and quality rule flags.
 
 ---
@@ -55,9 +56,9 @@ The extraction pipeline is evaluated end-to-end against 10 ground-truth academic
 | `education_cgpa` | 70.37% | 59.44% | **63.89%** |
 | `education_degree` | 91.67% | 63.39% | **72.48%** |
 | `education_graduation_year` | 97.78% | 78.57% | **85.52%** |
-| `education_institution` | 60.19% | 37.25% | **45.62%** |
+| `education_institution` | 51.06% | 50.58% | **50.10%** |
 | `experience_dates` | 66.01% | 57.41% | **57.60%** |
-| `experience_institution` | 89.42% | 66.20% | **71.74%** |
+| `experience_institution` | 74.45% | 55.09% | **58.13%** |
 | `experience_title` | 93.33% | 69.44% | **75.20%** |
 | `personal_email` | 100.00% | 100.00% | **100.00%** |
 | `personal_name` | 77.78% | 77.78% | **77.78%** |
@@ -76,13 +77,13 @@ The extraction pipeline is evaluated end-to-end against 10 ground-truth academic
 | `responsibilities` | 83.22% | 84.77% | **83.51%** |
 | `skills` | 79.59% | 86.68% | **81.27%** |
 | `summary` | 52.47% | 55.56% | **53.76%** |
-| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **71.01%** |
+| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **70.65%** |
 
 ---
 
 ## 🔍 Known Pipeline Limitations
 
-1. **Institution Extraction Ceiling**: The keyword-driven approach (`University`, `Institute`, `College`, `IIT`, `NIT`, `IIIT`, `IIM`) extracts standard academic institutions reliably, but cannot extract non-standard corporate names (e.g. startup companies or private laboratories) that lack explicit organizational keywords.
+1. **Hybrid Institution Extraction Ceiling**: Pure keyword matching (`University`, `Institute`, `College`, `School`, `IIT`, `NIT`) has a proven ceiling on non-standard organization names (such as company names like `"Step-Up Jewels"` or school boards like `"BSEMP Bhopal"`). Rather than expanding keyword lists indefinitely, a lightweight statistical NER model (`spacy en_core_web_sm`) is integrated as a fallback to extract `ORG` entities when keywords are absent.
 2. **Narrative / Prose-Style Skills Sections**: When a candidate writes their skills section as narrative paragraphs rather than itemized bullet points, list-splitting cannot reliably separate individual skills. Rather than returning false bullet points, the pipeline raises an explicit quality flag (`possible_narrative_skills_not_itemized`).
 3. **Complex Multi-Column Headers**: Resumes with dense multi-column headers merged by PDF text extractors can occasionally obscure candidate name boundaries. The pipeline uses multi-space splitting and title-word filtering to mitigate this.
 

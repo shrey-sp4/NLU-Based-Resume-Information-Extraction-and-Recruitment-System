@@ -16,14 +16,14 @@
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
+            "institution": "Institution Board/University Percentage Passing",
             "raw_text": "Course Year of Institution Board/University Percentage Passing"
         },
         {
             "degree": "PhD",
             "graduation_year": "2015-2018",
             "cgpa": "94%",
-            "institution": "Shree Institute of RGTU",
+            "institution": "NIT",
             "raw_text": "PhD-CSE(P) Reg- VNIT,NAGPUR VNIT,NAGPUR Pursuing M.E 2015-2018 IET,DAVV,INDORE DAVV, INDORE 94%(CGPA 9.4) (Software Engineering) Bachelor of 2006-2010 Shree Institute of RGTU, Bhopal 76.12%(HON.) Engineering(CSE) science & technology, Bhopal"
         },
         {
@@ -38,7 +38,7 @@
         {
             "job_title": "Assistant professor",
             "dates": "",
-            "institution": "",
+            "institution": "MIST (MALWA)",
             "raw_text": " 10.8 YEAR regular experience in MIST (MALWA), Indore as a Asst.Prof. in CSE Dept.  Presently working(2.4 Yr) as a Assistant professor Dept. of CSE in GHRCE,"
         }
     ],

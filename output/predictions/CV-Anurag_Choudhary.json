@@ -21,7 +21,7 @@
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
+            "institution": "Fault Diagnostic Strategies for Electric Vehicle Motor",
             "raw_text": "Objective: Development of Fault Diagnostic Strategies for Electric Vehicle Motor. Description: This thesis explores the electrification of conventional vehicles to electric vehicles, examines various sensor modalities for fault diagnosis of traction motors such as induction, PMSM,SRM and BLDC motors, transfers diagnosis knowledge from the laboratory environment to electric two-wheeler and four-wheeler vehicles, and builds the GUI- based on an on-board fault diagnosis system for real-time detection of motor faults in electric vehicles."
         },
         {
@@ -35,14 +35,14 @@
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
+            "institution": "CGPA",
             "raw_text": "7.4 CGPA"
         },
         {
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
+            "institution": "Induction Motor using Thermal Imaging",
             "raw_text": "Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging."
         }
     ],
