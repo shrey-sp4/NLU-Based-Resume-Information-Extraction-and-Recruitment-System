@@ -258,9 +258,8 @@ HEADER_NOISE = {
     "passed all india senior secondary school", "completed 10th education"
 }
 
-NOISE_WORDS = re.compile(
-    r"\b(?:January|February|March|April|May|June|July|August|September|October|November|December|"
-    r"Ph\.?D\.?|M\.?Sc\.?|B\.?Tech\.?|B\.?Sc\.?|M\.?Tech\.?|Completed|Passed|First Class|Second Class|Distinction)\b",
+HEADER_NOISE_WORDS = re.compile(
+    r"\b(?:Telephone|Mobile|Office|Email|Contact|Address|Fax|Page|CV|Resume|Curriculum|Vitae|Publication|Journal|Conference|Section|Faculty Development)\b",
     re.IGNORECASE
 )
 
@@ -281,7 +280,7 @@ def clean_institution_span(raw_match: str) -> str | None:
         return None
     if len(text) < 3:
         return None
-    if NOISE_WORDS.search(text) and not any(k in text.lower() for k in ["university", "institute", "college", "school", "board"]):
+    if HEADER_NOISE_WORDS.search(text) and not any(k in text.lower() for k in ["university", "institute", "college", "school"]):
         return None
     return text
 
@@ -305,7 +304,7 @@ def extract_institution(line: str) -> str:
         for ent in doc.ents:
             if ent.label_ in ("ORG", "FAC"):
                 cleaned = clean_institution_span(ent.text)
-                if cleaned and cleaned.lower() not in HEADER_NOISE:
+                if cleaned:
                     org_candidates.append(cleaned)
 
     prep_m = PREPOSITION_ORG_REGEX.search(line)
@@ -349,8 +348,8 @@ TITLE_PATTERNS = [
 TITLE_REGEX = re.compile("|".join(f"(?:{p})" for p in TITLE_PATTERNS), re.IGNORECASE)
 
 DATE_RANGE_REGEX = re.compile(
-    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\s*[-–—]\s*"
-    r"(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}|"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\s*[-–—]\s*"
+    r"(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}|"
     r"Present|Current|till date)"
     r"|" + YEAR_RANGE_REGEX.pattern,
     re.IGNORECASE

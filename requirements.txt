@@ -1,0 +1,19 @@
+# NLU-Based Resume Information Extraction and Recruitment System
+# Project Dependencies
+
+# Core Extraction & Processing
+spacy>=3.8.0
+pypdf>=4.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Evaluation & Machine Learning
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+requests>=2.28.0
+
+# Explainability & Diagnostic UI
+streamlit>=1.25.0
+
+# Note: After running 'pip install -r requirements.txt', you MUST download the spaCy statistical model via:
+# python -m spacy download en_core_web_sm
