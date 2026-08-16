@@ -1,11 +1,10 @@
 {
     "personal_details": {
-        "name": "M.Sc. Mathematics",
+        "name": "Department of Mathematics",
         "email": "akashthakkar.61098@gmail.com",
         "phone": "8511389202",
         "phones": [
-            "8511389202",
-            "9825323243"
+            "8511389202"
         ],
         "address": ""
     },
@@ -22,8 +21,15 @@
             "degree": "Ph.D",
             "graduation_year": "",
             "cgpa": "",
+            "institution": "Analytics School of Emerging Science and Technology Gujarat University",
+            "raw_text": "Ph.D. Thesis Title: “A study on Cryptographic Algorithms and Mathematical Transformations to improve security of communication” Department of Applied Mathematical Science, Actuarial Science and Analytics School of Emerging Science and Technology Gujarat University"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2018-2020",
+            "cgpa": "",
             "institution": "",
-            "raw_text": "Ph.D. Thesis Title: “A study on Cryptographic Algorithms and Mathematical Transformations to improve security of communication” Department of Applied Mathematical Science, Actuarial Science and"
+            "raw_text": "M.Sc. (Mathematics) 8.23 CGPA | 2018-2020"
         }
     ],
     "experience": [
@@ -31,11 +37,11 @@
             "job_title": "Assistant Professor",
             "dates": "April 2024 - Present",
             "institution": "Silver Oak College of Computer Application",
-            "raw_text": "A quick learner with 'Can Do' attitude. Assistant Professor April 2024 - Present Good in designing a session by Silver Oak College of Computer Application, which learner can grasp the"
+            "raw_text": "A quick learner with 'Can Do' attitude. Assistant Professor April 2024 - Present Good in designing a session by Silver Oak College of Computer Application, which learner can grasp the Silver Oak University, Ahmedabad topic easily. Excellent understanding of Visiting Faculty Jan 2020 - March 2024 programming languages. School of Emerging Science and Technology,"
         }
     ],
     "research_interests": [
-        "Gujarat University, Ahmedabad Applied Mathematics Subject taught in the domain of AI&ML, Data Science and"
+        "Gujarat University, Ahmedabad Applied Mathematics Subject taught in the domain of AI&ML, Data Science and Cryptography"
     ],
     "skills": [],
     "projects": [
@@ -56,7 +62,7 @@
         "preprints": []
     },
     "certifications": [
-        "Programming for everybody (Getting Started with Python) Online course - University of Michigan | 2020 R Programming and LATEX Typesetting | 2021 Hands-on Workshop on Machine Learning Methods for Image and Video Processing | 2021 One Week STTP ON EMERGING trends in DATA analysis IN MS EXCEL | 2021 Basic Cryptography | 2021 Steganography - An Art of Hidden Communication | 2021 Mathematical Modeling and Analysis | 2021 Supply Chain Management & Systems | 2022 Mathematical Methods in Science and Engineering | 2022 Machine Learning & Deep Learning | 2022 Data Analysis in R using STATCRAFT | 2022 A Journey from Linear Algebra to Machine Learning | 2022 Industry Applications of Machine Learning and Challenges | 2022 Online Research FDP on SPPS-Discriminant Analysis | 2022 Online Research FDP on SPSS-Cluster Analysis | 2022 One Week STTP on Emerging Trends in Research Methodology | 2022 From Mathmania to Cryptomania: How math is helping secure our digital future | 2023"
+        "Programming for everybody (Getting Started with Python) Online course - University of Michigan | 2020 Introduction to Data Science in Python Online course - University of Michigan | 2020 R Programming and LATEX Typesetting | 2021 Hands-on Workshop on Machine Learning Methods for Image and Video Processing | 2021 One Week STTP ON EMERGING trends in DATA analysis IN MS EXCEL | 2021 Basic Cryptography | 2021 Steganography - An Art of Hidden Communication | 2021 Mathematical Modeling and Analysis | 2021 Supply Chain Management & Systems | 2022 Mathematical Methods in Science and Engineering | 2022 Machine Learning & Deep Learning | 2022 Data Analysis in R using STATCRAFT | 2022 A Journey from Linear Algebra to Machine Learning | 2022 Industry Applications of Machine Learning and Challenges | 2022 Online Research FDP on SPPS-Discriminant Analysis | 2022 Online Research FDP on SPSS-Cluster Analysis | 2022 One Week STTP on Emerging Trends in Research Methodology | 2022 From Mathmania to Cryptomania: How math is helping secure our digital future | 2023 REFERENCE Prof. (Dr.) Ravi M. Gor Professor and Head, Department of Mathematics, Gujarat University E-mail: ravigor@hotmail.com Mobile No.: 9825323243"
     ],
     "awards": [],
     "achievements": [],

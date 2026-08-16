@@ -4,11 +4,7 @@
         "email": "Mitesh4physics@gmail.com",
         "phone": "8000117505",
         "phones": [
-            "8000117505",
-            "7552691235",
-            "9427220804",
-            "9106739266",
-            "9099939431"
+            "8000117505"
         ],
         "address": ""
     },
@@ -19,7 +15,28 @@
             "graduation_year": "2013-2021",
             "cgpa": "",
             "institution": "DFT Pandit Deendayal Energy University",
-            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT Pandit Deendayal Energy University Gandhinagar, INDIA Thesis title: Experimental and Theoretical Study of Nonlinear Optical Material Single"
+            "raw_text": "2013-2021 Doctor of Philosophy (PhD) in Single Crystal Growth and DFT Pandit Deendayal Energy University Gandhinagar, INDIA Thesis title: Experimental and Theoretical Study of Nonlinear Optical Material Single Crystals"
+        },
+        {
+            "degree": "PhD",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "PhD. Advisor: Prof. Bharat B. Parekh and Co-Advisor, Dr Satyam Shinde"
+        },
+        {
+            "degree": "Master of Science",
+            "graduation_year": "2010-2012",
+            "cgpa": "First Class (62.00 %)",
+            "institution": "Physics Saurashtra University",
+            "raw_text": "2010-2012 Master of Science (M. Sc.) in Physics Saurashtra University Rajkot, INDIA Passed with First Class (62.00 %)"
+        },
+        {
+            "degree": "Bachelor of Science",
+            "graduation_year": "2003-2006",
+            "cgpa": "First Class (60.85 %)",
+            "institution": "Physics Saurashtra University",
+            "raw_text": "2003-2006 Bachelor of Science (B. Sc.) in Physics Saurashtra University Rajkot, INDIA. Passed with First Class (60.85 %)"
         }
     ],
     "experience": [
@@ -76,9 +93,11 @@
         "– Nonlinear Optical Single Crystals, nanomaterials and thin film – Density functional theory: electron Phonon coupling, Phonon Dynamics, Electric Transport device simulation, Thermoelectric and thermodynamic calculation etc. – Transport and magneto transport of spin-orbit coupled oxide heterostructures and interfaces – Multifunctional and Multiferroic Systems: Thin Films and Polycrystalline Bulk – Magnetic and magnetocaloric properties of shape memory Heusler alloys – Neutron diffraction studies on magnetic oxides (Transition metal and rare-earth oxides) – Electronic structure studies using XAS, XPS and RPES measurements – Physical properties of materials at low temperature and high magnetic fields – THz electrodynamics of correlated transition metal oxides"
     ],
     "skills": [
-        "Synthesis of materials: Single crystal growth via indigenous development Bridgman and Czerski technique Single Crystal Growth Via Flux Growth, temperature lowering, slow evaporation and Hydrothermal single crystals Solid state reaction route, Sol-gel technique, high energy planetary ball milling technique, arc-meting method for alloy preparation. Fabrication of Thin films and Nano Devices: Spin coating, and direct sputtering (DC-sputtering) RHEED assisted - Pulsed Laser Deposition (PLD) technique, Chemical Solution Deposition (CSD) technique and RF- sputtering."
+        "Synthesis of materials: Single crystal growth via indigenous development Bridgman and Czerski technique Single Crystal Growth Via Flux Growth, temperature lowering, slow evaporation and Hydrothermal single crystals Solid state reaction route, Sol-gel technique, high energy planetary ball milling technique, arc-meting method for alloy preparation. Fabrication of Thin films and Nano Devices: Spin coating, and direct sputtering (DC-sputtering) RHEED assisted - Pulsed Laser Deposition (PLD) technique, Chemical Solution Deposition (CSD) technique and RF- sputtering. 2 Sample Characterizations and Instruments handled: X-ray Diffractometer: Single Crystals as well as Bulk and thin film attachments Transport Measurements: Resistivity and magnetoresistance using closed-cycle refrigerator and PPMS Thermoelectric Properties: Thermoelectric properties measurement via lakeshore instrument Magnetization: DC-Magnetization under high magnetic field and low temperature using VSM, SQUID and PPMS AC-susceptibility: Frequency, temperature and magnetic field dependent ac- susceptibility using PPMS. Heat capacity: Temperature and magnetic field-dependent heat capacity using PPMS. Dielectric measurements: Frequency, temperature and magnetic field-dependent dielectric measurements. THz Time-Domain Spectroscopy: THz spectroscopic studies at low temperature and high magnetic field."
     ],
-    "projects": [],
+    "projects": [
+        "GUJCOST Single Crystal Growth, and First principle calculation of alkali metal (Li, Na, K and Rb) doped ß-Barium Borate (BBO) Crystals for LASER Applications (Upto 40 lakhs Indian-Rupee) DRDO Experimental and theoretical Study of XAsS2 (x = Li, Na, K, Rb, and Cs) direct bandgap semiconductor and Large Nonlinear optical response single crystals (Upto 2 crore Indian-Rupee)"
+    ],
     "publications": {
         "journal_articles": [
             "First/Corresponding/Co-corresponding author publications:",
@@ -86,13 +105,16 @@
             "R. M. Kannaujiya, M. B. Solanki, S. H. Chaki, and A. B. Hirpara, “A Firs Principle calculation of tin telluride ( SnTe ) Topological Single crystals Via Thermodynamics Application .”",
             "M. B. Solanki, B. B. Parekh, and A. Science, “XRD , FTIR Approach of Topological analysis of Covellite ( CuS ) Single Crystal .”and vol. 2, no. December 2019.",
             "3S M Vyas. 1Dharmesh Varade. 1Mitesh B. Solanki*, 2Piyush J Patel and 1School, “Experimental and First principle study of InSbSe 3.”",
-            "M. B. Solanki, P. C. Jha, S. H. Mir, S. Shinde, and B. B. Parekh, “Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium",
+            "M. B. Solanki, P. C. Jha, S. H. Mir, S. Shinde, and B. B. Parekh, “Experimental Measurements and Theoretical Investigation of Physical Properties of Pure and Rubidium Chloride doped Potassium Dihydrogen Phosphate Single Crystals.”",
+            "M. B. Solanki, S. Shinde, M. Joshi, and B. B. Parekh, “Influence of Cesium Chloride on Growth and Properties of Potassium Dihydrogen Phosphate Single Crystal : The DFT and Experimental Studies.” 7",
+            "S. Shinde and B. B. Parekh, “Electronic structure , PDOS , optical properties , and Elastics Constant calculation of Alkali ( Li , Rb , and CS ) Doped KDP Single Crystals . Abstract :,” vol. 4.",
+            "M. B. Solanki, B. B. Parekh, P. J. Patel, and S. Vyas, “A First Principle calculation of ZnSnN 2 perovskites material.”",
             "R. Kr. Giri, M. B. Solanki, S. H. Chaki, and M. P. Deshpande, “ The DFT study of thermoelectric properties of CuInS 2 : A first principle approach ,” IOP Conf Ser Mater Sci Eng, vol. 1291, no. 1, p. 012009, Sep. 2023, doi: 10.1088/1757-899x/1291/1/012009.",
             "M. B. Solanki, S. Shinde, and B. B. Parekh, “Materials Today : Proceedings First-principles calculation of the electronic structure , elastic and optical properties of LiSn 2 N 3 nitrogen base stable perovskite semiconductor material,” Mater. Today Proc., vol. 67, pp. 943–947, 2022, doi: 10.1016/j.matpr.2022.08.213."
         ],
         "conference_papers": [],
         "conference_proceedings": [
-            "P. Patel, S. M. Vyas, V. Patel, H. Pavagadhi, M. Solanki, and M. P. Jani, “Crystal growth and mechanical hardness of In2Se2.7Sb0.3 single crystal,” AIP Conf. Proc., vol. 1675, no. December, pp. 3–8, 2015, doi: 10.1063/1.4929246. References Prof. Bharat Parekh, - (PhD Supervisor) Department of Physics,"
+            "P. Patel, S. M. Vyas, V. Patel, H. Pavagadhi, M. Solanki, and M. P. Jani, “Crystal growth and mechanical hardness of In2Se2.7Sb0.3 single crystal,” AIP Conf. Proc., vol. 1675, no. December, pp. 3–8, 2015, doi: 10.1063/1.4929246. References Prof. Bharat Parekh, - (PhD Supervisor) Department of Physics, Pandit Deendayal Energy University, Gandhinagar E-mail: bharat.parekh@spt.pdpu.ac.in Mobile: +91-755-269-1235. Prof. Satyam Shinde, (PhD Co-Supervisor) Department of Physics, Pandit Deendayal Energy University, Gandhinagar E-mail: dr.smshinde@gmail.com Mobile: +91-9427220804. Prof. Dharmesh Varade, (Post-doc supervisor) Department of Chemistry, Ahmedabad University, Ahmedabad E-mail: dharmesh.varade@gmail.com Mobile: +91-9106739266 Prof. Mihir Joshi, (Collaborator) Professor (Ret.) Department of Physics, Saurashtra University Rajkot. E-mail: Msshilp@rediffmail.com Telephone: +91-90999 39431 8"
         ],
         "communications": [],
         "book_chapters": [],
@@ -105,6 +127,8 @@
     "achievements": [],
     "memberships": [],
     "societies": [],
-    "responsibilities": [],
+    "responsibilities": [
+        "Conferences/Workshops Organized: – Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Xray Diffraction Techniques and Applications, March 1719, 2010, Saurashtra University, Rajkot. – Organizer (with Prof. D.G. Kuberkar) for the National Workshop on Functional Oxides, Nanomaterials and Devices 2012, March 0103, 2012, Saurashtra University, Rajkot. Journals Refereed – Journal of Physics: Condensed Matter. – Applied Physics Letter. – Indian Journal of Physics. – Materials Physics and Chemistry of Solids. – AIP Proceedings for DAE-SSPS Symposiums for 2019-21,"
+    ],
     "references": []
 }

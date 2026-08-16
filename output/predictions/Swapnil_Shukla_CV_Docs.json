@@ -9,7 +9,15 @@
         "address": ""
     },
     "summary": [],
-    "education": [],
+    "education": [
+        {
+            "degree": "Ph.D",
+            "graduation_year": "",
+            "cgpa": "68.9%",
+            "institution": "Chemistry Shiv Nadar University",
+            "raw_text": "08/12 - 12/16 Ph.D. in Chemistry Shiv Nadar University, Uttar Pradesh, India Sustainable Benzoxazines – Sources, Synthesis and Applications Supervisor: Dr. Bimlesh Lochab 07/09 - 05/11 1st Class M. Sc. in Chemistry, 68.9% Hindu college, University of Delhi, Delhi, India Importance of Kinases as potential drug targets 07/06 - 05/09 1st Class B. Sc. (Hons.) in Chemistry, 81.2% Sri Venkateswara College, University of Delhi, Delhi, India 04/05 - 05/06 12th Class (Equivalent to A levels), 82% Central Board of Senior Secondary Education, Delhi, India 04/03 - 05/04 10th Class, 88.6% Central Board of Senior Secondary Education, Delhi, India"
+        }
+    ],
     "experience": [
         {
             "job_title": "",
@@ -40,7 +48,11 @@
             "(Impact Factor: 4.13)",
             "Swapnil Shukla and Bimlesh Lochab, Role of higher aromatic content in modulating properties of cardanol based benzoxazines, Polymer, 2016, 99, 684-694. (Impact Factor: 4.43)",
             "Swapnil Shukla, Arnab Ghosh, Prasun Kumar Roy, Sagar Mitra and Bimlesh Lochab, Cardanol benzoxazines-A sustainable linker for elemental sulphur based copolymers via inverse vulcanisation, Polymer, 2016, 99, 349-357. (Impact Factor: 4.43)",
-            "Arnab Ghosh#, Swapnil Shukla#, Gaganpreet Singh Khosla, Bimlesh Lochab and Sagar Mitra, Sustainable Sulfur-rich Copolymer/Graphene Composite as Lithium-Sulfur Battery Cathode with Excellent Electrochemical Performance, Sci. Rep., 2016, 6, 25207. (Impact Factor: 4.6) (#equal"
+            "Arnab Ghosh#, Swapnil Shukla#, Gaganpreet Singh Khosla, Bimlesh Lochab and Sagar Mitra, Sustainable Sulfur-rich Copolymer/Graphene Composite as Lithium-Sulfur Battery Cathode with Excellent Electrochemical Performance, Sci. Rep., 2016, 6, 25207. (Impact Factor: 4.6) (#equal contribution)",
+            "Swapnil Shukla, Manorama Tripathi, Arup Mahata, Biswarup Pathak and Bimlesh Lochab, Kinetics behind a New Strategy for Modulation of Sustainable Benzoxazines: Experimental Study and its Theoretical Verification, Macromol. Chem. Phys., 2016, 217, 1342-1353. (Impact Factor:",
+            "99) (Highlighted as the cover page of Macromolecular Chemistry and Physics)",
+            "Swapnil Shukla#, Arnab Ghosh#, Apoorv Shaligram, Uttam Kumar Sen, Prasun Kumar Roy, Sagar Mitra and Bimlesh Lochab, Cardanol benzoxazine-Sulfur Copolymers for Li-S batteries: Symbiosis",
+            "f Sustainability and Performance, ChemistrySelect, 2016, 1, 594-600. (Impact Factor: 2.30)"
         ],
         "conference_papers": [],
         "conference_proceedings": [],

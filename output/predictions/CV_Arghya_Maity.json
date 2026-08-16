@@ -1,13 +1,61 @@
 {
     "personal_details": {
         "name": "Arghya Maity",
-        "email": "",
-        "phone": "",
-        "phones": [],
+        "email": "arghyamaity@hri.res.in",
+        "phone": "7732899577",
+        "phones": [
+            "7732899577",
+            "9033342022",
+            "7843712023",
+            "6133402017"
+        ],
         "address": ""
     },
     "summary": [],
-    "education": [],
+    "education": [
+        {
+            "degree": "",
+            "graduation_year": "2021",
+            "cgpa": "",
+            "institution": "Quantum Thermodynamics IIT",
+            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics Postdoc. Mumbai, India to Soft Condensed Matter 7th May,2021 BITS-Pilani, 2014 Theoretical Physics"
+        },
+        {
+            "degree": "Ph.D",
+            "graduation_year": "2020",
+            "cgpa": "",
+            "institution": "Sambalpur University",
+            "raw_text": "Ph.D. Department of Physics, to Soft Condensed Matter Pilani, India 2020 Sambalpur University, 2013 Physics"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "",
+            "cgpa": "71%",
+            "institution": "",
+            "raw_text": "M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics"
+        },
+        {
+            "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Vidyasagar University",
+            "raw_text": "Odisha, India 1st class Vidyasagar University, Physics (Hons.)"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2010",
+            "cgpa": "52 %",
+            "institution": "",
+            "raw_text": "B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal, India 52 % (2nd class) Bengali, English (compulsory) H.S. W.B.C.H.S.E. 2006 Pure Science, (12th) West Bengal, India 60 % (1st class) Bengali, English (compulsory)"
+        },
+        {
+            "degree": "10th",
+            "graduation_year": "2004",
+            "cgpa": "71 %",
+            "institution": "",
+            "raw_text": "10th W.B.B.S.E. 2004 Bengali-I,Bengali-II, English, West Bengal, India 71 % (1st class) Math, PSC, LSC, History, Geo List of Publications/Preprints: Webpage: Google Scholar Not listing the papers in preparation. All papers are not available in arXiv."
+        }
+    ],
     "experience": [
         {
             "job_title": "",

@@ -4,10 +4,7 @@
         "email": "rakeshranjan2911@gmail.com",
         "phone": "8287526006",
         "phones": [
-            "8287526006",
-            "8765951227",
-            "7044004253",
-            "9472457665"
+            "8287526006"
         ],
         "address": ""
     },
@@ -17,8 +14,22 @@
             "degree": "Ph.D",
             "graduation_year": "2019–2024",
             "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. CurrentStatus:ThesisSubmittedon1stOctober2024. ResearchArea:Beyond5G/6GWirelessCommunicationTechnologysuchasIntelligentRe- flectingSurface(IRS)-aidedCommunicationSystems,IntegratedSensingandCommunication (ISAC). ThesisTitle:EfficientPhaseShiftOptimizationFrameworkforIntelligentReflectingSurface (IRS)-AidedWirelessSystems. Supervisor:Dr.HimanshuBhusanMishra,AssociateProfessor. Co-supervisor:Dr.SamratMukhopadhyay,AssistantProfessor."
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2017–2019",
+            "cgpa": "",
+            "institution": "Institute",
+            "raw_text": "2017–2019 ] MasterofTechnology(M.Tech.)inCommunicationandSignalProcessing. ElectronicsEngineeringDepartment IndianInstituteofTechnology(IIT),Dhanbad,India,826004. ThesisTitle: AdaptiveWidebandBeamformingWithSensorsDelayLines."
+        },
+        {
+            "degree": "",
+            "graduation_year": "2009–2013",
+            "cgpa": "",
             "institution": "",
-            "raw_text": "2019–2024 ] DoctorofPhilosophy(Ph.D)inCommunicationandSignalProcessing"
+            "raw_text": "2009–2013 ] BachelorofTechnologyinElectronicsandCommunicationEngineering. TheUniversityofBurdwan-Burdwan,WestBengal,India,713104."
         }
     ],
     "experience": [],
@@ -30,7 +41,11 @@
     ],
     "projects": [],
     "publications": {
-        "journal_articles": [],
+        "journal_articles": [
+            "Journals/Conferences",
+            "Rakesh. Ranjan,A.Bhattacharya,H.B.MishraandS.Mukhopadhyay,“AGradientAscentBasedLow Complexity Rate Maximization Algorithm for Intelligent Reflecting Surface-Aided OFDM Systems” IEEECommunicationsLetters,vol.27,no.8,pp.2083-2087,Aug.2023,doi:10.1109/LCOMM.2023.3289865.",
+            "Rakesh.Ranjan,A.Bhattacharya,H.B.MishraandS.Mukhopadhyay,\"ALow-ComplexityPhaseShift"
+        ],
         "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
@@ -51,5 +66,7 @@
     "memberships": [],
     "societies": [],
     "responsibilities": [],
-    "references": []
+    "references": [
+        "1 Dr.HimanshuBhusanMishra AssociateProfessor,DepartmentofElectronicsEngineering IndianInstituteofTechnology(IIT),Dhanbad,Jharkhand-826004,India. I +91-8765951227 # himanshu@iitism.ac.in 2 Dr.SamratMukhopadhyay AssistantProfessor,DepartmentofElectronicsEngineering IndianInstituteofTechnology(IIT),Dhanbad,Jharkhand-826004,India. I +91-7044004253 # samrat@iitism.ac.in 3 Dr.SurajSuman AssistantProfessor,DepartmentofElectricalEngineering IndianInstituteofTechnology(IIT),Patna,Bihar-801103,India I +91-9472457665 # ssu@iitp.ac.in"
+    ]
 }

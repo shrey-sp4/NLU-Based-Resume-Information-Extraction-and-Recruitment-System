@@ -22,7 +22,7 @@ flowchart LR
 
     subgraph Stage 2: Section Detection
     C1[Alias Normalization Map]
-    C2[Structural Heading Boundary Detection]
+    C2[Tuned Structural Boundary Closure]
     end
 
     subgraph Stage 3: Entity Extraction
@@ -39,7 +39,7 @@ flowchart LR
 ```
 
 1. **Stage 1: Text Extraction**: Extracts raw text lines from PDF bytes using `pypdf`, preserving original spacing and layout structures while stripping page markers.
-2. **Stage 2: Section Detection**: Normalizes raw heading variants into canonical section keys (`education`, `experience`, `skills`, `publications`, etc.) using a JSON lookup map and enforces structural boundary closure for unmapped headings.
+2. **Stage 2: Section Detection**: Normalizes raw heading variants into canonical section keys (`education`, `experience`, `skills`, `publications`, etc.) using a JSON lookup map and enforces non-aggressive structural boundary closure for unmapped headings.
 3. **Stage 3: Entity Extraction**: Splits dense section blocks into discrete entry records and extracts granular sub-fields (job titles, dates, degrees, institutions, CGPA, graduation years) using deterministic NLU rules.
 4. **Stage 4: Explainability & Diagnostic Layer**: A local web interface (Streamlit) that displays live stage-by-stage status, source line attribution, reason-for-missing mappings, and quality rule flags.
 
@@ -51,32 +51,32 @@ The extraction pipeline is evaluated end-to-end against 10 ground-truth academic
 
 | FIELD NAME | PRECISION | RECALL | F1 SCORE |
 | :--- | :---: | :---: | :---: |
-| `certifications` | 58.23% | 61.53% | **58.83%** |
-| `education_cgpa` | 44.44% | 38.89% | **41.27%** |
-| `education_degree` | 81.48% | 42.96% | **53.42%** |
-| `education_graduation_year` | 86.67% | 55.93% | **63.06%** |
-| `education_institution` | 52.78% | 29.63% | **36.54%** |
-| `experience_dates` | 67.59% | 50.00% | **52.90%** |
-| `experience_institution` | 91.01% | 56.02% | **65.45%** |
-| `experience_title` | 93.33% | 62.04% | **69.65%** |
-| `personal_email` | 88.89% | 88.89% | **88.89%** |
+| `certifications` | 58.24% | 64.00% | **59.10%** |
+| `education_cgpa` | 70.37% | 59.44% | **63.89%** |
+| `education_degree` | 91.67% | 63.39% | **72.48%** |
+| `education_graduation_year` | 97.78% | 78.57% | **85.52%** |
+| `education_institution` | 60.19% | 37.25% | **45.62%** |
+| `experience_dates` | 66.01% | 57.41% | **57.60%** |
+| `experience_institution` | 89.42% | 66.20% | **71.74%** |
+| `experience_title` | 93.33% | 69.44% | **75.20%** |
+| `personal_email` | 100.00% | 100.00% | **100.00%** |
 | `personal_name` | 77.78% | 77.78% | **77.78%** |
-| `personal_phone` | 77.78% | 72.22% | **74.07%** |
-| `projects` | 44.44% | 42.13% | **43.15%** |
+| `personal_phone` | 88.89% | 83.33% | **85.19%** |
+| `projects` | 55.56% | 50.07% | **52.41%** |
 | `publications_book_chapters` | 74.69% | 70.79% | **72.12%** |
 | `publications_books` | 77.78% | 77.78% | **77.78%** |
 | `publications_communications` | 88.89% | 88.89% | **88.89%** |
-| `publications_conference_papers` | 60.96% | 60.29% | **60.56%** |
-| `publications_conference_proceedings` | 90.68% | 86.77% | **88.27%** |
-| `publications_journal_articles` | 57.54% | 51.34% | **46.05%** |
+| `publications_conference_papers` | 49.85% | 49.17% | **49.45%** |
+| `publications_conference_proceedings` | 86.64% | 87.95% | **87.15%** |
+| `publications_journal_articles` | 52.81% | 64.65% | **52.59%** |
 | `publications_preprints` | 63.43% | 61.28% | **62.18%** |
 | `publications_technical_reports` | 88.89% | 88.89% | **88.89%** |
-| `references` | 53.73% | 42.88% | **46.48%** |
-| `research_interests` | 74.25% | 82.09% | **75.62%** |
-| `responsibilities` | 77.12% | 75.04% | **76.01%** |
-| `skills` | 79.81% | 81.52% | **78.02%** |
+| `references` | 63.16% | 50.29% | **54.77%** |
+| `research_interests` | 74.75% | 84.31% | **76.42%** |
+| `responsibilities` | 83.22% | 84.77% | **83.51%** |
+| `skills` | 79.59% | 86.68% | **81.27%** |
 | `summary` | 52.47% | 55.56% | **53.76%** |
-| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **65.59%** |
+| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **71.01%** |
 
 ---
 

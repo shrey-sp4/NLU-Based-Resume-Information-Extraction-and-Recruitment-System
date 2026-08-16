@@ -15,15 +15,29 @@
             "graduation_year": "2018",
             "cgpa": "",
             "institution": "University of Delhi Delhi",
-            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018"
+            "raw_text": "Ph.D. in Chemistry, University of Delhi Delhi, IN Nov. 2018 Advisor: Prof. Satish Kumar Thesis Title: Synthesis and applications of photoactive multifunctional materials Grade: A"
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2013",
+            "cgpa": "",
+            "institution": "University of Delhi Delhi",
+            "raw_text": "M.Sc. in Organic Chemistry, University of Delhi Delhi, IN May. 2013 Thesis Title: Current perspectives of conducting polymers and organic light emitting diodes Grade: 1st Class"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2011",
+            "cgpa": "",
+            "institution": "Utkal University",
+            "raw_text": "B.Sc. in Chemistry (Honors), Utkal University Bhubaneswar, IN May. 2011 Grade: 1st Class"
         }
     ],
     "experience": [
         {
-            "job_title": "",
+            "job_title": "Postdoctoral Fellow",
             "dates": "Dec. 2021-Present",
-            "institution": "",
-            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present"
+            "institution": "Tohoku University",
+            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
         }
     ],
     "research_interests": [],
@@ -38,9 +52,19 @@
             "Morrow J., Raymond J.J., Chowdhury M.S.I., Sahoo P.R. Redox-Responsive MRI Probes Based on First-Row Transition-Metal Complexes. Inorg. Chem. 61, 37, 14487–14499 (2022).",
             "Prieux-Klotz C., Chedotal H., Zoumpoulaki M., Chouzenoux S., Chêne C., Lopez-Sanchez A., Thomas M., Sahoo P.R., Policar C., Batteux F., Bertrand H. C., Nicco C., Coriat R. A New Manganese Superoxide Dismutase Mimetic Improves Oxaliplatin-Induced Neuropathy and Global Tolerance in Mice. Int. J. Mol. Sci. 23 (21), 12938, (2022).",
             "Sahoo, P. R.; Chédotal, H.; Zoumpoulaki, M.; Nicco, C.; Coriat, R.; Policar, C.; Bertrand, H.C. Development",
-            "f Pt(IV)-SOD mimic conjugates for enhanced anticancer activity with reduced neurotoxicity. FrenchBIC annual meeting held at Obernai, Strasbourg, France 10-13 Oct 2021. (Poster)"
+            "f Pt(IV)-SOD mimic conjugates for enhanced anticancer activity with reduced neurotoxicity. FrenchBIC annual meeting held at Obernai, Strasbourg, France 10-13 Oct 2021. (Poster) 4 Priya Ranjan Sahoo Curriculum Vitae",
+            "Sahoo, P.R.; Mizukami, S. Super-resolution imaging of Mg2+ dynamics in organelles by multifunctional fluorescent probes, TBRF annual meeting, Tokyo 1st March 2019 (Oral)",
+            "Sahoo, P.R.; Neelam, Kumar, A.; Kumar, S. Development of Cu2+ selective photoreversible chelator. Light in Chemistry, Materials and Biology (LCMB-2014), an international Conference held at IIT Kharagpur, India 24-25 Feb 2014. (Poster)",
+            "Sahoo, P.R.; Mathew, K. M.; Kumar, S. Photoreversible Chromene derivative for sensing Cu2+ ions. (ACP-",
+            "8th Asian Photochemistry Conference held at IISER, Trivandrum, Kerala, India 10-13 Nov 2014. (Poster)",
+            "rganized by Dept. of chemistry, Aligarh Muslim University, Aligarh, India. (Poster)"
         ],
-        "conference_papers": [],
+        "conference_papers": [
+            "Sahoo, P.R.; Prakash, K; Kumar, S. Colorimetric detection of Cu2+ ion using Naphthopyran Scaffold. 10th Mid-Year CRSI Symposium in chemistry held at NIT, Trichy, Tamilnadu, India 23-25 July 2015. (Poster)",
+            "Sahoo, P.R.; Prakash, K; and Kumar, S. Spirooxazine as highly selective probe for optical detection of Fe3+ in aqueous solution. “DU-JAIST Indo-Japan Symposium on Chemistry of Functional Molecules/ Materials” February 26-27, 2016 organized by Department of Chemistry, University of Delhi, Delhi110007, India. (Poster)",
+            "Sahoo, P.R.; Prakash, K; and Kumar, S. A ‘’Turn-On’’ Optical sensor for selective detection of Fe3+ in aqueous media. International conference on Recent advances in chemical sciences March 29-30, 2016",
+            "Sahoo, P.R.; Prakash, K; and Kumar, S. A turn-on optical receptor for Fe3+. 19th CRSI National Symposium in chemistry held at University of North Bengal, West Bengal, India 14-16 July 2016. (Poster)"
+        ],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
@@ -50,15 +74,15 @@
     },
     "certifications": [],
     "awards": [
-        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006"
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
     ],
     "achievements": [
-        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006"
+        "Postdoctoral Fellowship, University at Buffalo New York, US 2021-Present Fondation de la maison de la chimie, CNRS Fellowship Paris, FR 2021 Featured by C&EN, American Chemical Society (Chemistry in Pictures) US 2020 Tokyo Biochemical Research Foundation (TBRF) Fellowship Tokyo, JP 2018 2020 SPOT ON award, Jubilant Generics Limited Noida, IN 2017, 2018 Shortlisted for SciFinder Future Leaders in Chemistry Columbus, US 2014, 2015 Merit scholarship Odisha, IN 2007 Meritorious prize Odisha, IN 2006 1 Priya Ranjan Sahoo Curriculum Vitae"
     ],
     "memberships": [],
     "societies": [],
     "responsibilities": [],
     "references": [
-        "Prof. Satish Kumar Prof. Hélène C. Bertrand Prof. Rachana Sahney Associate Professor Associate Professor Associate professor Department of Chemistry (Sorbonne Université) Amity Institute of St. Stephen’s College Laboratoire des Biomolécules Biotechnology, University of Delhi, UMR7203, Département Chimie de l’ENS Amity University, Delhi, India, 110007 24 rue Lhomond, 75231 Paris Cedex 05 Uttarpradesh, India"
+        "Prof. Satish Kumar Prof. Hélène C. Bertrand Prof. Rachana Sahney Associate Professor Associate Professor Associate professor Department of Chemistry (Sorbonne Université) Amity Institute of St. Stephen’s College Laboratoire des Biomolécules Biotechnology, University of Delhi, UMR7203, Département Chimie de l’ENS Amity University, Delhi, India, 110007 24 rue Lhomond, 75231 Paris Cedex 05 Uttarpradesh, India Email ID: Email ID: Email ID: satish@ststephens.edu helene.bertrand@ens.psl.eu rsahney@amity.edu 5"
     ]
 }

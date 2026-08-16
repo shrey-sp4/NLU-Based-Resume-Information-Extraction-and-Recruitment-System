@@ -1,7 +1,7 @@
 {
     "personal_details": {
         "name": "Sourabh Pal",
-        "email": "",
+        "email": "sourabhpal1998@gmail.com",
         "phone": "",
         "phones": [],
         "address": ""
@@ -13,7 +13,21 @@
             "graduation_year": "",
             "cgpa": "",
             "institution": "Academic College",
-            "raw_text": "Academic College/School University/Board Yearof Percentage"
+            "raw_text": "Academic College/School University/Board Yearof Percentage Passing"
+        },
+        {
+            "degree": "M.Tech",
+            "graduation_year": "2024",
+            "cgpa": "76%",
+            "institution": "M.Tech Galgotias University",
+            "raw_text": "M.Tech Galgotias University Galgotias 2024 76% (CSE) University"
+        },
+        {
+            "degree": "B.Tech",
+            "graduation_year": "2022",
+            "cgpa": "67%",
+            "institution": "B.Tech Bhagwati Institute",
+            "raw_text": "B.Tech Bhagwati Institute A.K.T.U 2022 67%"
         }
     ],
     "experience": [],
@@ -33,7 +47,7 @@
     ],
     "publications": {
         "journal_articles": [
-            "❖ AcceptanceReceivedfrom 1stIEEE ICAC2N-2024& RegistrationPaper Id -196@ ITS ❖ AcknowledgementReceived fromInternational Journalof AdvancedTechnology and Engineering Exploration PaperId -IJATEE.2024.111100853."
+            "❖ AcceptanceReceivedfrom 1stIEEE ICAC2N-2024& RegistrationPaper Id -196@ ITS Engineering College, Greater Noida Title :EvolvingTowards OptimalCloud ResourceAllocationandCost. ❖ AcknowledgementReceived fromInternational Journalof AdvancedTechnology and Engineering Exploration PaperId -IJATEE.2024.111100853. Title :Human Emotion Deciphering: SentimentAnalysisusingCNN's FacialExpression Recognition"
         ],
         "conference_papers": [],
         "conference_proceedings": [],
@@ -46,7 +60,10 @@
     "certifications": [
         "➢ Core JavaCertification fromUdemy.",
         "CISCOOnlineCertificatewithCloud Securityin 2023.",
-        "CISCOOnlineCertificatewithInternetof Things(IOT)in2023."
+        "CISCOOnlineCertificatewithInternetof Things(IOT)in2023. INTERESTS -",
+        "Cycling",
+        "Movies",
+        "Wandering SOURABHPAL ."
     ],
     "awards": [],
     "achievements": [],

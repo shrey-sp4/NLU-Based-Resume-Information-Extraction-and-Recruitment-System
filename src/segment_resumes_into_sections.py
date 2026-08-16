@@ -112,8 +112,13 @@ INLINE_HEADING_ALIASES = {
     "declaration": "declaration",
 }
 
-JOB_TITLE_WORDS = re.compile(
-    r"\b(?:Professor|Scientist|Scholar|Engineer|Manager|Director|Postdoctoral|Lecturer|Researcher|Fellow|Experienced|Graduate|Student|Assistant|Associate|Executive|Consultant|Developer|Analyst|Lead|Head|Officer|Member)\b",
+REJECT_STRUCTURAL_KEYWORDS = re.compile(
+    r"\b(?:"
+    r"Advisor|Supervisor|Collaborator|Refereed|Organized|Submitted|Published|Pvt|Ltd|"
+    r"University|Institute|College|School|IIT|NIT|IIIT|IIM|Department|Faculty|Center|Centre|Academy|"
+    r"Professor|Scientist|Scholar|Engineer|Manager|Director|Postdoctoral|Lecturer|Researcher|Fellow|Executive|"
+    r"Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec"
+    r")\b",
     re.IGNORECASE
 )
 
@@ -168,9 +173,8 @@ def load_heading_lookup() -> Dict[str, str]:
 
 def is_structural_heading(line: str, line_number: int = 10) -> bool:
     """
-    Checks if a line has structural attributes of a standalone heading.
-    Enforces section boundary closure even for headings not in normalization map.
-    Excludes top 6 lines of document to avoid matching preamble header lines.
+    Checks if a line has strong structural attributes of an unmapped section heading.
+    Prevents false positive section breaks on page numbers, acronyms, and sub-entry lines.
     """
     if line_number <= 6:
         return False
@@ -178,32 +182,39 @@ def is_structural_heading(line: str, line_number: int = 10) -> bool:
     cleaned = clean_line(line)
     if not cleaned:
         return False
-    if cleaned.endswith((".", ",", ";")):
+    
+    # Reject lines ending with period, comma, semicolon, or quotes
+    if cleaned.endswith((".", ",", ";", '"', '”', '“', "'")):
         return False
+    
+    # Reject list markers, bullets, or single digits/page numbers
     if re.match(r"^\s*(?:[-•*➢|o\+]|\d+[\.\)])", line):
         return False
+    
+    # Reject lines containing digits or page numbers
+    if re.search(r"\d", cleaned):
+        return False
+    
+    # Reject email or URLs
     if "@" in cleaned or "http" in cleaned or "www." in cleaned:
         return False
-    if re.search(r"\d{3,}", cleaned):
-        return False
-    if JOB_TITLE_WORDS.search(cleaned):
+    
+    # Reject institution names, job titles, or supervisor references
+    if REJECT_STRUCTURAL_KEYWORDS.search(cleaned):
         return False
     if ADDRESS_WORDS.search(cleaned):
         return False
-    if re.match(r"^\s*(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}", cleaned, re.IGNORECASE):
-        return False
-    if re.match(r"^\s*(?:19|20)\d{2}\s*[-–—]", cleaned):
-        return False
-    
+
     words = cleaned.split()
-    if len(words) > 6:
+    # A structural section heading must be 2 to 4 words (reject single-token acronyms or page numbers)
+    if len(words) < 2 or len(words) > 4:
         return False
     
     is_caps = cleaned.isupper()
     is_title = cleaned.istitle() or all(w[0].isupper() for w in words if len(w) > 2 and w.isalpha())
     ends_colon = cleaned.endswith(":")
 
-    return is_caps or is_title or ends_colon
+    return (is_caps or is_title or ends_colon)
 
 
 def detect_standalone_heading(
