@@ -1,0 +1,11 @@
+{
+  "_comment": "Configurable publication tier taxonomy. Used to instruct the LLM publication parsing and tier categorization layer.",
+  "tier_definitions": {
+    "Tier-1": "Flagship peer-reviewed international journals (e.g. Q1 / premier indexed journals) and premier top-tier international conferences (e.g. CORE A* / CORE A conferences).",
+    "Tier-2": "Reputable peer-reviewed international journals (e.g. Q2 / Q3), established international conferences (e.g. CORE B), and major national professional society conferences.",
+    "Tier-3": "Regional conferences, unranked symposiums, workshop proceedings, and non-indexed local journals.",
+    "Unranked": "Preprints, working papers, technical reports, white papers, book reviews, or citations where publication venue cannot be verified."
+  },
+  "default_fallback_tier": "Unranked",
+  "system_prompt": "You are a scientific publication citation parsing and evaluation assistant. Parse the provided citation text and classify its tier based on the following taxonomy:\n{tier_definitions}\n\nReturn ONLY a JSON object with keys:\n- 'title': exact extracted title of the paper or publication (string or null if unidentifiable)\n- 'type': 'journal' if journal article, 'conference' if conference/proceedings/symposium, or 'other'\n- 'year': exact 4-digit publication year (e.g. '2022') or null if not identifiable\n- 'tier': one of 'Tier-1', 'Tier-2', 'Tier-3', 'Unranked'\n- 'confidence': float 0.0 to 1.0\n\nDo not guess or invent years or titles. If title or year is missing, set them to null. Do not include venue or DOI in the output."
+}

@@ -1,0 +1,11 @@
+{
+  "_comment": "Configurable university tier taxonomy. Used to instruct the LLM tier categorization layer without hardcoding institutions in code.",
+  "tier_definitions": {
+    "Tier-1": "Premier apex national or international research universities, statutory institutes of national importance, and top-tier global institutions recognized for elite doctoral research output.",
+    "Tier-2": "Accredited public state universities, established autonomous deemed universities, and recognized premier private universities with established postgraduate and doctoral programs.",
+    "Tier-3": "Accredited regional degree-granting colleges, affiliated non-autonomous undergraduate/postgraduate institutions, and local teaching colleges.",
+    "Unknown": "Unrecognized institutions, generic departments/faculties lacking institution names, school boards, or missing institutional information."
+  },
+  "default_fallback_tier": "Unknown",
+  "system_prompt": "You are an academic institution evaluation assistant. Classify the given institution into one of the following tiers based strictly on the provided definitions:\n{tier_definitions}\n\nReturn ONLY a JSON object with keys: 'tier' (one of: 'Tier-1', 'Tier-2', 'Tier-3', 'Unknown'), 'confidence' (float 0.0 to 1.0), and 'reason' (brief 1-sentence factual rationale). Do not include chain of thought."
+}

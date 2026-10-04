@@ -1,0 +1,51 @@
+{
+  "_comment": "CONFIGURABLE DEFAULTS DISCLAIMER: The weights, tier score values, component balances, and cutoffs below are INITIAL CONFIGURABLE DEFAULTS provided for system demonstration and customization. They are NOT empirically validated or universally correct recruitment weights. All values can be adjusted via this configuration file or dynamically through the recruiter UI.",
+  "is_default_configuration": true,
+  "component_weights": {
+    "education": 0.35,
+    "experience": 0.35,
+    "publications": 0.30
+  },
+  "tier_score_mapping": {
+    "university": {
+      "Tier-1": 100.0,
+      "Tier-2": 70.0,
+      "Tier-3": 40.0,
+      "Unknown": 10.0
+    },
+    "publication": {
+      "Tier-1": 100.0,
+      "Tier-2": 70.0,
+      "Tier-3": 40.0,
+      "Unranked": 10.0
+    }
+  },
+  "education_scoring": {
+    "degree_fulfillment_weight": 0.50,
+    "tier_quality_weight": 0.50,
+    "default_aggregation_method": "highest_degree",
+    "degree_weights_for_aggregation": {
+      "phd": 0.50,
+      "masters": 0.30,
+      "bachelors": 0.20
+    }
+  },
+  "experience_scoring": {
+    "duration_fulfillment_weight": 0.60,
+    "role_relevance_weight": 0.40
+  },
+  "publication_scoring": {
+    "total_volume_weight": 0.25,
+    "journal_fulfillment_weight": 0.30,
+    "conference_fulfillment_weight": 0.15,
+    "tier_quality_weight": 0.20,
+    "recency_weight": 0.10,
+    "journal_tier_weight": 0.60,
+    "conference_tier_weight": 0.40,
+    "fallback_tier_weight": 1.00
+  },
+  "decision_thresholds": {
+    "shortlist_cutoff": 75.0,
+    "review_cutoff": 60.0
+  }
+}
