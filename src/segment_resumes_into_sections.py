@@ -225,7 +225,18 @@ def detect_standalone_heading(
     cleaned = clean_line(line)
     if not cleaned:
         return None
-
+    
+    # A year sub-heading such as "2023 Publication" continues the publications list
+    # (it must not start a new section or be discarded).
+    if re.fullmatch(r"(?:19|20)\d{2}\s+publications?\s*:?", cleaned.strip(), re.IGNORECASE):
+        return {
+            "type": "standalone",
+            "raw_heading": line.strip(),
+            "clean_heading": cleaned,
+            "canonical_section": "publications",
+            "remaining_text": "",
+        }
+    
     normalized_raw = cleaned.lower()
     normalized_soft = normalize_for_match(cleaned)
 
