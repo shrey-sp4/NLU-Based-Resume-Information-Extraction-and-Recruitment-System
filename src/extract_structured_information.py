@@ -284,15 +284,28 @@ PREFIX_NOISE = re.compile(
     re.IGNORECASE
 )
 
+# Field-of-study words that sometimes get captured in front of an institution name,
+# e.g. "Physics Saurashtra University". Extend this list if new junk words appear.
+FIELD_WORDS = {
+    "physics", "chemistry", "mathematics", "maths", "philosophy", "economics",
+    "engineering", "computing", "analytics", "control", "biology", "biotechnology",
+    "mechanics", "statistics", "dft", "informatics",
+}
+
+def strip_leading_field_words(text: str) -> str:
+    tokens = text.split()
+    # drop field words from the front, but always keep at least 2 words
+    while len(tokens) > 2 and tokens[0].strip(",.-").lower() in FIELD_WORDS:
+        tokens.pop(0)
+    return " ".join(tokens)
+
 def clean_institution_span(raw_match: str) -> str | None:
     text = raw_match.strip(" ,.-–")
     if text.lower() in HEADER_NOISE:
         return None
     if len(text) < 3:
         return None
-    if HEADER_NOISE_WORDS.search(text) and not any(k in text.lower() for k in ["university", "institute", "college", "school"]):
-        return None
-    return text
+    return strip_leading_field_words(text)
 
 def extract_institution(line: str) -> str:
     """
