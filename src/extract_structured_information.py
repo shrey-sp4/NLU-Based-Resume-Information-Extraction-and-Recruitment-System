@@ -233,6 +233,16 @@ DEGREE_PATTERNS = [
     r"\bBachelor of (?:Computer Application|Engineering)s?\b", r"\bBCA\b", r"\bB\.E\.\b", r"\bB\.E\b", r"\bB\.Eng\.?\b",
     r"\bHigher Secondary(?:\s*\(10\+2\))?\b", r"\b12th(?:\s*\(10\+2\))?\b",
     r"\bMetric(?:\s*\(10th\))?\b", r"\b10th\b",
+    r"\bHigher Secondary(?:\s*\(10\+2\))?\b", r"\b12th(?:\s*\(10\+2\))?\b",
+    r"\bMetric(?:\s*\(10th\))?\b", r"\b10th\b",
+    # --- added: Arts degrees ---
+    r"\bMaster (?:of|in) Arts(?:\s*\([^)]{1,30}\))?", r"\bM\.\s?A\.(?!\w)",
+    r"\bBachelor (?:of|in) Arts(?:\s*\([^)]{1,30}\))?", r"\bB\.\s?A\.(?!\w)",
+    r"(?-i:\bBA)\s*\((?:H|Hons?\.?)\)",
+    # --- added: school-level forms seen in your resumes ---
+    r"\bHSC\b", r"\bSSC\b", r"\bH\.\s?S\.(?:\s*\(12th\))?",
+    r"\bSenior Secondary\b", r"\bSecondary(?:\s*School)?\s*Examination\b", r"\bSecondary\s*\(10\)",
+    r"\bMadhyamik(?:\s*Examination)?\b", r"\b10\s?\+\s?2(?:th)?\b",
 ]
 DEGREE_REGEX = re.compile("|".join(f"(?:{p})" for p in DEGREE_PATTERNS), re.IGNORECASE)
 
