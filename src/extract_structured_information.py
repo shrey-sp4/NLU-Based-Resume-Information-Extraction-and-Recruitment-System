@@ -168,7 +168,7 @@ def extract_personal_details(sections):
 
 def split_into_list(text):
     if not text: return []
-    items = re.split(r'\n\s*(?:[-•*➢|o\+]|\d+[\.\)])\s*|\n{2,}', text)
+    items = re.split(r'\n\s*(?:[-•*➢|\+]|o(?=[ \t])|\d{1,3}[\.\)](?!\d))\s*|\n{2,}', text)
     return [re.sub(r'\s+', ' ', item).strip() for item in items if len(item.strip()) > 5]
 
 
@@ -422,13 +422,48 @@ def classify_publication(entry_text):
             return bucket
     return "journal_articles"
 
+_NUM_CAND = re.compile(r'(?:(?<=\s)|^)(\d{1,3})\s+(?=[A-Z])')
+_AUTHOR_YEAR = re.compile(
+    r"(?<=[\.\]\)])\s+(?=[A-Z][A-Za-z'’\-]+(?:\s+[A-Z]\.?){1,3}"
+    r"(?:\s*(?:,|and|&)\s*[A-Z][A-Za-z'’\-]+(?:\s+[A-Z]\.?){1,3})*\s*\((?:19|20)\d{2}\))")
+
+def _split_numbered_chain(text):
+    """Split at 'n Capital...' only when the numbers run n, n+1, n+2... (a real list)."""
+    cands = [(m.start(), m.end(), int(m.group(1))) for m in _NUM_CAND.finditer(text)]
+    best = []
+    for i in range(len(cands)):
+        chain = [cands[i]]
+        for c in cands[i + 1:]:
+            if c[2] == chain[-1][2] + 1 and c[0] > chain[-1][1]:
+                chain.append(c)
+        if len(chain) > len(best):
+            best = chain
+    if len(best) < 3:
+        return [text]
+    parts, prev = [], 0
+    for start, end, _ in best:
+        if start > prev:
+            parts.append(text[prev:start])
+        prev = end
+    parts.append(text[prev:])
+    return parts
+
+def split_publication_entries(text):
+    entries = []
+    for item in split_into_list(text):
+        for part in _split_numbered_chain(item):
+            for piece in _AUTHOR_YEAR.split(part):
+                if len(piece.strip()) > 5:
+                    entries.append(piece.strip())
+    return entries
+
 def split_publications_by_type(text):
     buckets = {
         "journal_articles": [], "conference_papers": [], "conference_proceedings": [],
         "communications": [], "book_chapters": [], "books": [],
         "technical_reports": [], "preprints": [],
     }
-    for entry in split_into_list(text):
+    for entry in split_publication_entries(text):
         buckets[classify_publication(entry)].append(entry)
     return buckets
 
