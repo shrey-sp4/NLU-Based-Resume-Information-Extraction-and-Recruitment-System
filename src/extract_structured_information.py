@@ -361,20 +361,31 @@ def extract_education_entries(section_text, split_fn=None):
 
 
 # ---------- 4. EXPERIENCE SUB-FIELD EXTRACTION ----------
-TITLE_PATTERNS = [
+TITLE_PATTERNS = TITLE_PATTERNS = [
     r"Assistant Professor", r"Associate Professor", r"Professor",
     r"Visiting Assistant Professor", r"Post-?doctoral Fellow",
     r"Senior Research Scholar", r"Research Associate", r"Research Scholar",
     r"Project Associate", r"Visiting Researcher", r"Senior Survey Scientist",
-    r"Teaching Assistant", r"Research Assistant", r"Senior \w+",
+    r"Teaching Assistant", r"Research Assistant",
+    # --- added ---
+    r"Junior Research Fellow", r"Senior Research Fellow", r"Research Fellow", r"Project Fellow",
+    r"Project Assistant(?:\s+(?:I{1,3}|IV|\d))?", r"Project Scientist", r"Research Scientist",
+    r"Guest Lecturer", r"Guest Faculty", r"Visiting Faculty", r"Guest Researcher",
+    r"Lecturer", r"Principal Investigator", r"Scientist",
+    r"Senior \w+",
 ]
 TITLE_REGEX = re.compile("|".join(f"(?:{p})" for p in TITLE_PATTERNS), re.IGNORECASE)
 
+_MONTH = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?"
+_DAY = r"(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?"
+_POINT = _DAY + _MONTH + r"\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})"
+_END = r"(?:" + _POINT + r"|Present|Current|till\s*date|Now|ongoing)"
+
 DATE_RANGE_REGEX = re.compile(
-    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}\s*[-–—]\s*"
-    r"(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}|"
-    r"Present|Current|till date)"
-    r"|" + YEAR_RANGE_REGEX.pattern,
+    _POINT + r"\s*(?:[-–—]|to)\s*" + _END          # Sep’24- Present, 8th May, 2021 to 4th Oct, 2023
+    + r"|[Ss]ince\s+" + _POINT                       # since 5th July 2022
+    + r"|(?:19|20)\d{2}\s*[-–—]\s*(?:Present|Current|till\s*date|Now)"   # 2024 – present
+    + r"|" + YEAR_RANGE_REGEX.pattern,               # old fallback: 2018 - 2019, or a lone year
     re.IGNORECASE
 )
 
