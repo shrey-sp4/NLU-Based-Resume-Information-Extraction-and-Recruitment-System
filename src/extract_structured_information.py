@@ -175,8 +175,9 @@ def split_into_list(text):
 # ---------- 3. HYBRID INSTITUTION EXTRACTION & SUB-FIELD PATTERNS ----------
 DATE_LINE_START_REGEX = re.compile(
     r"^\s*(?:"
-    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|July|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*\d{4}"
-    r"|\b(?:19|20)\d{2}\s*[-–—]"
+    r"[^\w\s]{0,2}\s*(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?"
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})"
+    r"|[^\w\s]{0,2}\s*\b(?:19|20)\d{2}\s*[-–—]"
     r"|[-•*➢|o\+]|\d+[\.\)]"
     r")",
     re.IGNORECASE
