@@ -11,28 +11,28 @@
     "summary": [],
     "education": [
         {
-            "degree": "",
+            "degree": "Secondary School Examination",
             "graduation_year": "",
             "cgpa": "61.4%",
             "institution": "Patna Central School",
             "raw_text": "• Passed All India Secondary School Examination from Patna Central School with 61.4% marks in"
         },
         {
-            "degree": "",
+            "degree": "Senior Secondary",
             "graduation_year": "2002",
             "cgpa": "61.6%",
             "institution": "Patna Central School",
             "raw_text": "• Passed All India Senior Secondary School Examination from Patna Central School with 61.6% marks in 2002."
         },
         {
-            "degree": "",
+            "degree": "BA(H)",
             "graduation_year": "2005",
             "cgpa": "61.3%",
             "institution": "University of Delhi",
             "raw_text": "• Passed BA(H) Examination from University of Delhi with 61.3% marks in 2005."
         },
         {
-            "degree": "",
+            "degree": "Master in Arts (Social Work)",
             "graduation_year": "2008",
             "cgpa": "63.3%",
             "institution": "Kurukshetra University",
@@ -63,49 +63,49 @@
     "experience": [
         {
             "job_title": "Senior Survey Scientist",
-            "dates": "2024",
+            "dates": "Since 1st January, 2024",
             "institution": "Misra Centre for Financial Market and Economy",
             "raw_text": "• Working as Senior Survey Scientist in Misra Centre for Financial Market and Economy, IIM Ahmedabad, Since 1st January, 2024."
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2022",
+            "dates": "since 5th July 2022",
             "institution": "Jaipur National University",
             "raw_text": "• Worked as Assistant Professor in Department of Social Sciences, Jaipur National University, Jaipur since 5th July 2022 and working as Program Officer, NSS since 15th July, 2023."
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2021",
+            "dates": "1st January, 2021-31st May, 2022",
             "institution": "Bhopal School of Social Sciences Bhopal",
             "raw_text": "• Served as Assistant Professor in Department of Social Work, Bhopal School of Social Sciences Bhopal -462024 from 1st January, 2021-31st May, 2022."
         },
         {
             "job_title": "Research Assistant",
-            "dates": "2017",
+            "dates": "4th December, 2017-10th July, 2018",
             "institution": "Rekhi Centre of Excellence",
             "raw_text": "• Served as Research Assistant in Rekhi Centre of Excellence for the Science of Happiness from 4th December, 2017-10th July, 2018."
         },
         {
-            "job_title": "",
-            "dates": "2013",
+            "job_title": "Guest faculty",
+            "dates": "19th September, 2013-20th December, 2014",
             "institution": "Hemwati Nandan Bahuguna Garhwal Central University",
             "raw_text": "• Worked as Guest faculty in Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand from 19th September, 2013-20th December, 2014."
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2010",
+            "dates": "22nd November, 2010-11th July, 2013",
             "institution": "Model Public Education College",
             "raw_text": "• Worked as Assistant Professor in Department of Social Work, Model Public Education College, Chandausi, Moradabad, UP from 22nd November, 2010-11th July, 2013."
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2009",
+            "dates": "4th August, 2009- 11th September, 2010",
             "institution": "Social Work Jain Vishwa Bharti University",
             "raw_text": "• Worked as Assistant Professor in Department of Social Work Jain Vishwa Bharti University Ladnun Rajasthan-341306 from 4th August, 2009- 11th September, 2010."
         },
         {
             "job_title": "",
-            "dates": "2008",
+            "dates": "1st July, 2008 – 27th July, 2009",
             "institution": "Vardman Textiles Ltd. from 1st July",
             "raw_text": "• Working experience as Labour Welfare Trainee at Vardman Textiles Ltd. from 1st July, 2008 – 27th July, 2009. Responsible and accountable for work related to IR and HR practices as Labour Welfare Officer."
         }
@@ -114,7 +114,15 @@
     "skills": [
         "Have 15 years of exposure of theories and practices, skills and ethics related to professional social work. Good Research, communication and documentation skills. Possess organizing and leadership skills and can take challenges and assume responsibilities. Good analytical and observation skill."
     ],
-    "projects": [],
+    "projects": [
+        "1) Running one project of Rs.200000/- from Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand named “Public Health Challenges in Mining Areas of Jharkhand” Since 4th November 2023- 3rd August, 2024.",
+        "Successfully completed as Co-PI in “Social Impact Assessment study at Brahmdiha Coal Mines” funded by Andhra Pradesh Mineral Development Corporation from 9th September, 2022- 22nd November, 2022.",
+        "Worked as Research Assistant in Rekhi Centre of Excellence for the Science of Happiness, Indian Institute of Technology, Kharagpur, from 5th December, 2017 to 9th July, 2018.",
+        "Worked in Development of Happiness Index for Newtown in Kolkata.",
+        "Worked in Development of Happiness Index for Madhya Pradesh funded by Rajya Anand Sansthan, M.P.",
+        "Worked in Ministry of Human Resource Development (Government of India) funded mega project “Sustainable Food Security”.",
+        "Worked in Ministry of Human Resource Development (Government of India) funded project Sandhi “End of life care”."
+    ],
     "publications": {
         "journal_articles": [
             "1) Kumar, A. (2010). Nrega: Opportunities and Challenges. New direction of rural community. Discovery publishing house, New Delhi.",
@@ -122,18 +130,7 @@
             "Kumar, A., Suar, D., & Sahoo, B. K. (2018). What attributes characterizes the beneficiary households after three years of implementation of National Food Security Act?. Journal of Public Affairs 22(S1), e2718-1-8 . Willey, UK. DOI: https://doi.org/10.1002/pa.2718",
             "Kumar, A., Suar, D., & Sahoo, B. K. (2023). Moving from food insecurity to food security Implementing NFSA in Bihar and Haryana. Economic and Political Weekly 58(36), 39.45. Sameeksha Trust, Mumbai. DOI: https://www.epw.in/journal/2023/36/special-articles/moving- food-insecurity-food-security.html",
             "Kumar, A., Suar, D., & Sahoo, B. K. (2023). Why has Food Insecurity Occurred During the COVID-19, and is There a Way Out? National Academy Science Letters. Springer. DOI: https://doi.org/10.1007/s40009-023-01274-310.1007/s40009-023-01274-3 Working paper:",
-            "Influence of Food Security Status on Mental Health and Cognitive Abilities of Adolescents by Kumar, A., Suar, D., & Sahoo, B. K.(2023). Paper taught:",
-            "Human Resource Management in B.Com.(H) at Bhopal School of Social Sciences, Bhopal.",
-            "Organizational Theory and Behavior in B.Com(Eco.) at Bhopal School of Social Sciences, Bhopal.",
-            "Different Paper of Social Work at Bachelor and Master level at Bhopal School",
-            "f Social Sciences, Bhopal and Jaipur National University, Jaipur. Projects experience",
-            "Running one project of Rs.200000/- from Dr. Ramdayal Munda Tribal Welfare Research Institute, Government of Jharkhand named “Public Health Challenges in Mining Areas of Jharkhand” Since 4th November 2023- 3rd August, 2024.",
-            "Successfully completed as Co-PI in “Social Impact Assessment study at Brahmdiha Coal Mines” funded by Andhra Pradesh Mineral Development Corporation from 9th September, 2022- 22nd November, 2022.",
-            "Worked as Research Assistant in Rekhi Centre of Excellence for the Science of Happiness, Indian Institute of Technology, Kharagpur, from 5th December, 2017 to 9th July, 2018.",
-            "Worked in Development of Happiness Index for Newtown in Kolkata.",
-            "Worked in Development of Happiness Index for Madhya Pradesh funded by Rajya Anand Sansthan, M.P.",
-            "Worked in Ministry of Human Resource Development (Government of India) funded mega project “Sustainable Food Security”.",
-            "Worked in Ministry of Human Resource Development (Government of India) funded project Sandhi “End of life care”."
+            "Influence of Food Security Status on Mental Health and Cognitive Abilities of Adolescents by Kumar, A., Suar, D., & Sahoo, B. K.(2023)."
         ],
         "conference_papers": [],
         "conference_proceedings": [],
@@ -152,7 +149,6 @@
     "references": [
         "1) Prof. Damodar Suar Ex-HOD, Department of HSS, IIT Kharagpur, West Bengal. Ph.8617584554. Email: damodar1411954@gmail.com",
         "Prof. Suchita Chopra Chatterjee Professor, Department of HSS, IIT Kharagpur, West Bengal. Ph. 9933076150. Email: schoprachatterjee@gmail.com",
-        "Dr. Bimal Kishore Sahoo Associate Professor, Department of HSS, IIT Kharagpur, West Bengal. Ph",
-        "Email: bks@hss.iitkgp.ac.in"
+        "Dr. Bimal Kishore Sahoo Associate Professor, Department of HSS, IIT Kharagpur, West Bengal. Ph 9002496073. Email: bks@hss.iitkgp.ac.in"
     ]
 }
