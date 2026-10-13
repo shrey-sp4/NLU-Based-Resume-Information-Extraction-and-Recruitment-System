@@ -185,8 +185,34 @@ DATE_LINE_START_REGEX = re.compile(
 
 DEGREE_LINE_START_REGEX = re.compile(
     r"^\s*(?:"
-    r"Doctor of Philosophy|Ph\.?D\.?|Master of Science|M\.?Sc\.?|Master of Technology|M\.?Tech\.?|"
-    r"Master of Engineering|M\.E\.|B\.?Tech\.?|B\.?Sc\.?|Higher Secondary|12th|10th"
+    r"[-•*➢|o\+]|\d+[\.\)]\s*)?"  # optional bullet/number
+    r"(?:"
+    r"Doctor of Philosophy|Ph\.?D\.?|PhD|"
+    r"Master of Science|M\.?Sc\.?|MSc|"
+    r"Master of Technology|M\.?Tech\.?|MTech|"
+    r"Master of Engineering|M\.E\.|"
+    r"Master of Computer|MCA|MSW|Master of Social Work|"
+    r"Master of Philosophy|M\.?Phil\.?|"
+    r"Bachelor of Science|B\.?Sc\.?|BSc|"
+    r"Bachelor of Technology|B\.?Tech\.?|BTech|"
+    r"Bachelor of Engineering|B\.E\.|"
+    r"Bachelor of Computer|BCA|Bachelor of computer application|"
+    r"Higher Secondary|12th|10th|"
+    r"Senior Secondary|"
+    r"Secondary(?:\s*School)?\s*Examination|"
+    r"HSC|SSC|Madhyamik|"
+    r"Metric\s*\(10th\)|"
+    r"10\s*\+\s*2(?:th)?|"
+    r"Postdoc\.?(?:toral)?|Post\s*Doctoral|"
+    r"H\.?S\.?\s*\(?12th\)?|"
+    r"Ph\.?D\.?\s*\([^)]*\)|"
+    r"M\.?Sc\.?\s*\([^)]*\)|"
+    r"B\.?Sc\.?\s*\([^)]*\)|"
+    r"B\.?Tech\.?\s*\([^)]*\)|"
+    r"M\.?Tech\.?\s*\([^)]*\)|"
+    r"BA\s*\(H\)|"
+    r"Master\s+(?:of|in)\s+Arts|"
+    r"Bachelor\s+of\s+Science\s*\(Honou?rs?\)"
     r")",
     re.IGNORECASE
 )
@@ -202,7 +228,12 @@ def split_section_into_entries(text: str, is_education: bool = False) -> list[st
         if re.match(r"^(?:page\s+\d+|\d+)$", line, re.IGNORECASE):
             continue
 
+        # Check if line starts with a date pattern (but NOT if it's just a year in parentheses)
         is_new_entry_start = bool(DATE_LINE_START_REGEX.search(line))
+        # Don't split on lines that are just a year in parentheses like "2023)" or "(2023)"
+        if is_new_entry_start and re.match(r"^\s*\(?(?:19|20)\d{2}\)?\s*$", line.strip()):
+            is_new_entry_start = False
+        
         if is_education and DEGREE_LINE_START_REGEX.search(line):
             is_new_entry_start = True
 
@@ -223,27 +254,76 @@ def split_section_into_entries(text: str, is_education: bool = False) -> list[st
 
 
 DEGREE_PATTERNS = [
-    r"\bDoctor of Philosophy(?:\s*\(PhD\))?\b", r"\bPh\.?D\.?\b",
-    r"\bMaster of Science(?:\s*\(M\.?\s?Sc\.?\))?\b", r"\bM\.?\s?Sc\.?\b",
-    r"\bMaster of Technology(?:\s*\(M\.?\s?Tech\.?\))?\b", r"\bM\.?\s?Tech\.?\b",
-    r"\bMaster of Engineering(?:\s*\(M\.?\s?E\.?\))?\b", r"\bM\.E\.\b", r"\bM\.E\b", r"\bM\.Eng\.?\b",
-    r"\bMaster of Philosophy(?:\s*\(M\.?\s?Phil\.?\))?\b", r"\bM\.?\s?Phil\.?\b",
-    r"\bMaster of Computer (?:Science|Application)s?\b", r"\bMCA\b", r"\bMSW\b",
-    r"\bBachelor of Science(?:\s*\(B\.?\s?Sc\.?\))?\b", r"\bB\.?\s?Sc\.?\b",
-    r"\bBachelor of Technology(?:\s*\(B\.?\s?Tech\.?\))?\b", r"\bB\.?\s?Tech\.?\b",
-    r"\bBachelor of (?:Computer Application|Engineering)s?\b", r"\bBCA\b", r"\bB\.E\.\b", r"\bB\.E\b", r"\bB\.Eng\.?\b",
-    r"\bHigher Secondary(?:\s*\(10\+2\))?\b", r"\b12th(?:\s*\(10\+2\))?\b",
-    r"\bMetric(?:\s*\(10th\))?\b", r"\b10th\b",
-    r"\bHigher Secondary(?:\s*\(10\+2\))?\b", r"\b12th(?:\s*\(10\+2\))?\b",
-    r"\bMetric(?:\s*\(10th\))?\b", r"\b10th\b",
-    # --- added: Arts degrees ---
-    r"\bMaster (?:of|in) Arts(?:\s*\([^)]{1,30}\))?", r"\bM\.\s?A\.(?!\w)",
-    r"\bBachelor (?:of|in) Arts(?:\s*\([^)]{1,30}\))?", r"\bB\.\s?A\.(?!\w)",
+    # PhD variants
+    r"\bDoctor of Philosophy(?:\s*\(PhD\))?\b",
+    r"\bPh\.?D\.?\b",
+    r"\bPhD\b",
+    
+    # Master variants - with parentheses like (M. Sc.)
+    r"\bMaster of Science(?:\s*\(M\.?\s?Sc\.?\))?\b",
+    r"\bMaster of Science\b",
+    r"\bM\.?\s?Sc\.?\b",
+    r"\bMSc\b",
+    
+    r"\bMaster of Technology(?:\s*\(M\.?\s?Tech\.?\))?\b",
+    r"\bMaster of Technology\b",
+    r"\bM\.?\s?Tech\.?\b",
+    r"\bMTech\b",
+    
+    r"\bMaster of Engineering(?:\s*\(M\.?\s?E\.?\))?\b",
+    r"\bMaster of Engineering\b",
+    r"\bM\.E\.\b", r"\bM\.E\b", r"\bM\.Eng\.?\b",
+    
+    r"\bMaster of Computer (?:Science|Application)s?\b",
+    r"\bMCA\b",
+    r"\bMSW\b",
+    r"\bMaster of Social Work\b",
+    
+    r"\bMaster of Philosophy(?:\s*\(M\.?\s?Phil\.?\))?\b",
+    r"\bM\.?\s?Phil\.?\b",
+    
+    # Bachelor variants - with parentheses like (B. Sc.)
+    r"\bBachelor of Science(?:\s*\(B\.?\s?Sc\.?\))?\b",
+    r"\bBachelor of Science\b",
+    r"\bB\.?\s?Sc\.?\b",
+    r"\bBSc\b",
+    
+    r"\bBachelor of Technology(?:\s*\(B\.?\s?Tech\.?\))?\b",
+    r"\bBachelor of Technology\b",
+    r"\bB\.?\s?Tech\.?\b",
+    r"\bBTech\b",
+    
+    r"\bBachelor of (?:Computer Application|Engineering)s?\b",
+    r"\bBCA\b",
+    r"\bB\.E\.\b", r"\bB\.E\b", r"\bB\.Eng\.?\b",
+    r"\bBachelor of computer application\b",
+    
+    # School/Secondary variants
+    r"\bHigher Secondary(?:\s*\(10\+2\))?\b",
+    r"\b12th(?:\s*\(10\+2\))?\b",
+    r"\bMetric(?:\s*\(10th\))?\b",
+    r"\b10th\b",
+    r"\bSenior Secondary\b",
+    r"\bSecondary(?:\s*School)?\s*Examination\b",
+    r"\bSecondary\s*\(10\)\b",
+    r"\bMadhyamik(?:\s*Examination)?\b",
+    r"\b10\s?\+\s?2(?:th)?\b",
+    r"\bHSC\b",
+    r"\bSSC\b",
+    r"\bH\.?S\.?\s*\(?12th\)?\b",
+    
+    # Arts degrees
+    r"\bMaster (?:of|in) Arts(?:\s*\([^)]{1,30}\))?",
+    r"\bM\.\s?A\.(?!\w)",
+    r"\bBachelor (?:of|in) Arts(?:\s*\([^)]{1,30}\))?",
+    r"\bB\.\s?A\.(?!\w)",
     r"(?-i:\bBA)\s*\((?:H|Hons?\.?)\)",
-    # --- added: school-level forms seen in your resumes ---
-    r"\bHSC\b", r"\bSSC\b", r"\bH\.\s?S\.(?:\s*\(12th\))?",
-    r"\bSenior Secondary\b", r"\bSecondary(?:\s*School)?\s*Examination\b", r"\bSecondary\s*\(10\)",
-    r"\bMadhyamik(?:\s*Examination)?\b", r"\b10\s?\+\s?2(?:th)?\b",
+    r"\bBA\s*\(H\)\b",
+    
+    # Postdoc variants
+    r"\bPostdoc\.?(?:toral)?\b",
+    r"\bPost\s*Doctoral\s+Research\s+Associate\b",
+    r"\bPost\s*Doctoral\s+Fellow\b",
 ]
 DEGREE_REGEX = re.compile("|".join(f"(?:{p})" for p in DEGREE_PATTERNS), re.IGNORECASE)
 
@@ -258,7 +338,7 @@ CGPA_REGEX = re.compile(
     re.IGNORECASE
 )
 
-INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center)"
+INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center|Board|Education|Department|Technology|Technical|Polytechnic)"
 INSTITUTION_REGEX = re.compile(
     r"((?:[A-Z][\w&\.\-]*\s+){0,6}" + INSTITUTION_KEYWORDS + r"(?:\s+(?:of|for|and|&)\s+[A-Z][\w&\.\-]*(?:\s+[A-Z][\w&\.\-]*){0,5})*)",
 )
@@ -275,13 +355,11 @@ HEADER_NOISE_WORDS = re.compile(
 )
 
 PREPOSITION_ORG_REGEX = re.compile(
-    r"\b(?:at|from|in|joined)\s+([A-Z][a-zA-Z0-9&\.\-\s]{3,40}(?:\([A-Za-z0-9\.\-\s]+\))?)",
+    r"\b(?:at\s+|from\s+|in\s+|joined\s+)([A-Z][a-zA-Z0-9&\.\-\s]{3,60}|[A-Z]{2,10}(?:\s+[A-Z]{2,10})+)(?:\([A-Za-z0-9\.\-\s]+\))?(?:\s*,\s*[A-Z][a-zA-Z0-9&\.\-\s]{3,40})*",
 )
 
 PREFIX_NOISE = re.compile(
-    r"^(?:working as|appeared from|passed(?: with)?|from|at|in year|since|present|"
-    r"doctor of philosophy|master of \w+|bachelor of \w+|ph\.?d\.?|m\.?tech\.?|"
-    r"b\.?tech\.?|m\.?sc\.?|b\.?sc\.?)\s*",
+    r"^(?:working as|appeared from|passed(?: with)?|from|at|in year|since|present)\s*",
     re.IGNORECASE
 )
 
@@ -313,6 +391,7 @@ def extract_institution(line: str) -> str:
     Hybrid Institution Extractor:
     1. Primary Method: Fast Keyword Regex (University, Institute, College, School, IIT, NIT, IIIT, IIM, etc.)
     2. Secondary Fallback: Lightweight Statistical NER (spaCy en_core_web_sm ORG entities + preposition context)
+    3. Tertiary Fallback: Comma-separated patterns (e.g., "IIT Bombay, Mumbai, India")
     """
     # 1. Primary Method: Keyword Regex Match
     matches = INSTITUTION_REGEX.findall(line)
@@ -336,6 +415,45 @@ def extract_institution(line: str) -> str:
         prep_span = clean_institution_span(prep_m.group(1))
         if prep_span and len(prep_span) >= 4:
             org_candidates.append(prep_span)
+
+    # 3. Tertiary Fallback: Comma-separated institution patterns (e.g., "IIT Bombay, Mumbai, India")
+        # 3. Tertiary Fallback: Comma-separated institution patterns
+    if not org_candidates:
+        comma_parts = [p.strip() for p in line.split(',') if p.strip()]
+        if len(comma_parts) >= 2:
+            # Try first part: "IIT Bombay" from "IIT Bombay, Mumbai, India"
+            first_part = comma_parts[0]
+            if re.search(r"[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,}", first_part):
+                cleaned = clean_institution_span(first_part)
+                if cleaned and len(cleaned) > 3:
+                    org_candidates.append(cleaned)
+            
+            # Try first TWO parts: "HRI, QIC Group" from "HRI, QIC Group, Prayagraj, India"
+            if len(comma_parts) >= 3:
+                two_parts = comma_parts[0] + ", " + comma_parts[1]
+                if re.search(r"[A-Z][a-z]+(?:\s+[A-Z][a-z]+){1,}", two_parts):
+                    cleaned = clean_institution_span(two_parts)
+                    if cleaned and len(cleaned) > 3:
+                        org_candidates.append(cleaned)
+            
+            # Handle abbreviated boards: "W.B.C.H.S.E., West Bengal, India"
+            for i, part in enumerate(comma_parts):
+                if re.match(r"^[A-Z]\.(?:[A-Z]\.){2,}", part):  # W.B.C.H.S.E.
+                    if i + 1 < len(comma_parts):
+                        combined = part + ", " + comma_parts[i + 1]
+                        cleaned = clean_institution_span(combined)
+                        if cleaned and len(cleaned) > 5:
+                            org_candidates.append(cleaned)
+                    break
+            
+            # Handle "Department of X, University" pattern
+            for i, part in enumerate(comma_parts):
+                if part.lower().startswith("department of") and i + 1 < len(comma_parts):
+                    combined = part + ", " + comma_parts[i + 1]
+                    cleaned = clean_institution_span(combined)
+                    if cleaned and len(cleaned) > 5:
+                        org_candidates.append(cleaned)
+                    break
 
     if org_candidates:
         return max(org_candidates, key=len)
@@ -368,31 +486,79 @@ TITLE_PATTERNS = TITLE_PATTERNS = [
     r"Senior Research Scholar", r"Research Associate", r"Research Scholar",
     r"Project Associate", r"Visiting Researcher", r"Senior Survey Scientist",
     r"Teaching Assistant", r"Research Assistant",
-    # --- added ---
     r"Junior Research Fellow", r"Senior Research Fellow", r"Research Fellow", r"Project Fellow",
     r"Project Assistant(?:\s+(?:I{1,3}|IV|\d))?", r"Project Scientist", r"Research Scientist",
     r"Guest Lecturer", r"Guest Faculty", r"Visiting Faculty", r"Guest Researcher",
     r"Lecturer", r"Principal Investigator", r"Scientist",
     r"Senior \w+",
+    r"Senior\s+Research\s+Scholar",
+    r"Junior\s+Research\s+Scholar",
+    r"Visiting\s+Faculty",
+    r"Guest\s+Faculty",
+    r"Guest\s+Researcher",
+    r"Labour\s+Welfare\s+Trainee",
+    r"Research\s+Fellow",
+    r"Project\s+Fellow",
+    r"Senior\s+Research\s+Scholar",
+    r"Junior\s+Research\s+Scholar",
+    r"Visiting\s+Faculty",
+    r"Guest\s+Faculty",
+    r"Short-Term\s+Project",
+    r"Labour\s+Welfare\s+Trainee",
+    r"Research\s+Scholar",  # generic fallback
 ]
 TITLE_REGEX = re.compile("|".join(f"(?:{p})" for p in TITLE_PATTERNS), re.IGNORECASE)
 
+# ===== COMPREHENSIVE DATE PATTERNS =====
+# Handle both ASCII and Unicode dashes, quotes, apostrophes
 _MONTH = r"(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?"
-_DAY = r"(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?"
-_POINT = _DAY + _MONTH + r"\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})"
+_DAY_ORDINAL = r"(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?"
+_YEAR = r"(?:19|20)\d{2}"
+_YEAR_SHORT = r"[\u2019']\d{2}"  # handles both ' and '
+_DASH = r"(?:--|[\-\u2013\u2014])"  # hyphen, en-dash, em-dash
+
+# Point: 17th August 2023, 8 May 2021, Sep'24, 4th December, 2017, 1st January, 2024
+_POINT = _DAY_ORDINAL + _MONTH + r"\s*,?\s*(?:" + _YEAR + r"|" + _YEAR_SHORT + r")"
 _END = r"(?:" + _POINT + r"|Present|Current|till\s*date|Now|ongoing)"
 
-DATE_RANGE_REGEX = re.compile(
-    _POINT + r"\s*(?:[-–—]|to)\s*" + _END          # Sep’24- Present, 8th May, 2021 to 4th Oct, 2023
-    + r"|[Ss]ince\s+" + _POINT                       # since 5th July 2022
-    + r"|(?:19|20)\d{2}\s*[-–—]\s*(?:Present|Current|till\s*date|Now)"   # 2024 – present
-    + r"|" + YEAR_RANGE_REGEX.pattern,               # old fallback: 2018 - 2019, or a lone year
-    re.IGNORECASE
-)
+_DATE_PATTERNS = [
+    # 1. Point - dash - End: 17th August 2023 - Present, 8 May 2021 - 4 Oct 2023
+    _POINT + r"\s*" + _DASH + r"\s*" + _END,
+    _POINT + r"\s*to\s*" + _END,
+    
+    # 2. Month Year - Month Year: June 2016 - January 2017, Jan 2020 - March 2024
+    _MONTH + r"\s+" + _YEAR + r"\s*" + _DASH + r"\s*" + _MONTH + r"\s+" + _YEAR,
+    
+    # 3. Apostrophe years: Sep'24- Present, March'21- Dec'22, Sep'18- Feb'20
+    _MONTH + _YEAR_SHORT + r"\s*" + _DASH + r"\s*(?:Present|Current|till\s*date|Now)",
+    _MONTH + _YEAR_SHORT + r"\s*" + _DASH + r"\s*" + _MONTH + _YEAR_SHORT,
+    
+    # 4. Ordinal with commas: 4th December, 2017-10th July, 2018
+    r"\d{1,2}(?:st|nd|rd|th)?\s+" + _MONTH + r",\s*" + _YEAR + r"\s*" + _DASH + r"\s*\d{1,2}(?:st|nd|rd|th)?\s+" + _MONTH + r",\s*" + _YEAR,
+    
+    # 5. Since/since: Since 1st January, 2024 / since 5th July 2022
+    r"[Ss]ince\s+" + _DAY_ORDINAL + _MONTH + r",?\s*" + _YEAR,
+    
+    # 6. Single month year: April 2012
+    _MONTH + r"\s+" + _YEAR,
+    
+    # 7. Non-standard: 4th Year of Ph.D.
+    r"\d{1,2}(?:st|nd|rd|th)?\s+(?:Year\s+of\s+)?Ph\.?D\.?",
+    
+    # 8. Year range: 2018 - 2019
+    _YEAR + r"\s*" + _DASH + r"\s*" + _YEAR,
+]
+
+DATE_RANGE_REGEX = re.compile("|".join(_DATE_PATTERNS), re.IGNORECASE)
 
 def extract_experience_entries(section_text, split_fn=None):
     entries = []
     blocks = split_section_into_entries(section_text, is_education=False)
+    # ===== DEBUG: Print actual entry texts =====
+    print(f"\n=== EXPERIENCE ENTRIES FOR: {section_text[:50]}... ===")
+    for i, block in enumerate(blocks):
+        print(f"  Entry {i+1}: {repr(block[:200])}")
+    # ===== END DEBUG =====
     for entry_text in blocks:
         title_m = TITLE_REGEX.search(entry_text)
         date_m = DATE_RANGE_REGEX.search(entry_text)
@@ -407,12 +573,13 @@ def extract_experience_entries(section_text, split_fn=None):
 
 
 PUBLICATION_TYPE_RULES = [
+    ("journal_articles", [r"\bjournal\b", r"\bvol\.\s+\d+", r"\bno\.\s*\d+", r"\bdoi\b", r"\bpages\s+\d+", r"\bpp\.\s*\d+"]),
     ("preprints", [r"\barxiv\b", r"\bpreprint\b", r"\bbiorxiv\b", r"\bssrn\b"]),
     ("technical_reports", [r"\btech(?:nical)?\.?\s*report\b", r"\bwhite\s*paper\b", r"\btr[-\s]?\d{2,}\b"]),
     ("book_chapters", [r"\bbook\s*chapter\b", r"\bchapter\s+\d+\b", r"\(eds?\.\)", r"\bedited\s+by\b", r"\bin\s+[A-Z][\w&,\.\s]{3,60}\(eds?\.?\)"]),
     ("books", [r"\bisbn\b", r"\bmonograph\b"]),
     ("conference_proceedings", [r"\bproceedings\s+of\b", r"\bconf\.?\s*proc\b", r"\bproc\.\s"]),
-    ("conference_papers", [r"\bconference\s+on\b", r"\bsymposium\b", r"\bworkshop\b", r"\bicc?\w{0,3}\s*\d{4}\b"]),
+    ("conference_papers", [r"\bconference\s+on\b", r"\bsymposium\b", r"\bworkshop\b", r"\bicc?\w{0,3}\s*\d{4}\b", r"\bproc\.\s*\d{4}\b"]),
     ("communications", [r"\brapid\s+communications?\b", r"\bshort\s+communications?\b"]),
 ]
 
