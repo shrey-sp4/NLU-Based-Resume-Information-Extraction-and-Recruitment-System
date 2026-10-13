@@ -83,7 +83,7 @@
     "research and teaching interests"
   ],
   "projects": [
-    "projects",
+    "projects", "projects experience", "project experience",
     "project submitted",
     "project undertaken",
     "project title description",
@@ -286,7 +286,7 @@
     "declaration"
   ],
   "ignore": [
-    "ph.d awarded,",
+    "ph.d awarded,","paper taught", "papers taught", "courses taught",
     "trophysics research journal",
     "harish-chandra research institute",
     "conference/ journal ieee-sceecs-2023(manit,bhopal)",
