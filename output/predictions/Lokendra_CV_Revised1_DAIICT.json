@@ -30,7 +30,14 @@
             "graduation_year": "2015",
             "cgpa": "76%",
             "institution": "Graduation Medicaps Institute of Technology and Management",
-            "raw_text": "Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India. Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008)"
+            "raw_text": "Master of Engineering, Electronics and Communication Engineering Specialization: Digital Communication Advisor: Prof. P D Ashok Thesis Title: Performance Analysis of Heterogeneous Wireless Networks. Grade: 76% (2015) Graduation Medicaps Institute of Technology and Management (RGTU, Bhopal), Indore, India."
+        },
+        {
+            "degree": "Bachelor of Engineering",
+            "graduation_year": "2008",
+            "cgpa": "68.09%",
+            "institution": "Bachelor of Engineering, Electronics and Communication Engineering Grade",
+            "raw_text": "Bachelor of Engineering, Electronics and Communication Engineering Grade: 68.09% (2008)"
         },
         {
             "degree": "12th",

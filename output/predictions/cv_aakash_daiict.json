@@ -22,13 +22,34 @@
             "graduation_year": "2016",
             "cgpa": "",
             "institution": "Deshbandhu College",
-            "raw_text": "Master of Science, Mathematics and Computing. July 2016 - June 2018 Deshbandhu College, University of Delhi New Delhi, India Bachelor of Science (Honours), Mathematics. July 2013 - May 2016 S.B.N Public School, CBSE Board Ghaziabad, India Senior Secondary 2013 Aum Sun Public School, CBSE Board Ghaziabad, India Secondary School Examination 2011"
+            "raw_text": "Master of Science, Mathematics and Computing. July 2016 - June 2018 Deshbandhu College, University of Delhi New Delhi, India"
+        },
+        {
+            "degree": "Bachelor of Science",
+            "graduation_year": "2013",
+            "cgpa": "",
+            "institution": "S.B.N Public School",
+            "raw_text": "Bachelor of Science (Honours), Mathematics. July 2013 - May 2016 S.B.N Public School, CBSE Board Ghaziabad, India"
+        },
+        {
+            "degree": "Senior Secondary",
+            "graduation_year": "2013",
+            "cgpa": "",
+            "institution": "Aum Sun Public School",
+            "raw_text": "Senior Secondary 2013 Aum Sun Public School, CBSE Board Ghaziabad, India"
+        },
+        {
+            "degree": "Secondary School Examination",
+            "graduation_year": "2011",
+            "cgpa": "",
+            "institution": "Secondary School",
+            "raw_text": "Secondary School Examination 2011"
         }
     ],
     "experience": [
         {
             "job_title": "",
-            "dates": "2020",
+            "dates": "2021 - 2022",
             "institution": "IIT",
             "raw_text": "◦ Representations of Finite Groups: Fall 2020, IIT Delhi. ◦ Calculus: Fall 2019 & Fall 2023, IIT Delhi. ◦ Cryptography: Spring 2020, IIT Delhi. ◦ Linear Algebra and Differential Equations: Spring 2021 - 2022, IIT Delhi. ◦ Abstract Algebra: Spring 2022, IIT Delhi. ◦ Linear Algebra: Fall 2021, IIT Delhi."
         }

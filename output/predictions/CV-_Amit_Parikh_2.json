@@ -21,15 +21,22 @@
             "degree": "B.Sc",
             "graduation_year": "1992",
             "cgpa": "",
-            "institution": "",
+            "institution": "B.Sc. (Mathematics) GujaratUniversity May",
             "raw_text": "B.Sc. (Mathematics) GujaratUniversity May, 1992 78"
         },
         {
             "degree": "M.Sc",
             "graduation_year": "1994",
             "cgpa": "",
-            "institution": "",
-            "raw_text": "M.Sc. (Mathematics) GujaratUniversity May, 1994 68 M.Phil. (Mathematics) GujaratUniversity July, 1998 77"
+            "institution": "M.Sc. (Mathematics) GujaratUniversity May",
+            "raw_text": "M.Sc. (Mathematics) GujaratUniversity May, 1994 68"
+        },
+        {
+            "degree": "M.Phil",
+            "graduation_year": "1998",
+            "cgpa": "",
+            "institution": "M.Phil. (Mathematics) GujaratUniversity July",
+            "raw_text": "M.Phil. (Mathematics) GujaratUniversity July, 1998 77"
         },
         {
             "degree": "Ph.D",

@@ -15,10 +15,31 @@
     "education": [
         {
             "degree": "",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Degree University Year & Results Subjects HRI",
+            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory"
+        },
+        {
+            "degree": "Postdoc",
             "graduation_year": "2021",
             "cgpa": "",
             "institution": "Quantum Thermodynamics IIT",
-            "raw_text": "Degree University Year & Results Subjects HRI, QIC Group Since, Quantum Information Theory Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics Postdoc. Mumbai, India to Soft Condensed Matter 7th May,2021 BITS-Pilani, 2014 Theoretical Physics"
+            "raw_text": "Postdoc. Prayagraj, India 8th May,2021 Quantum Thermodynamics IIT-Bombay 6th Nov,2020 Theoretical Physics"
+        },
+        {
+            "degree": "Postdoc",
+            "graduation_year": "",
+            "cgpa": "",
+            "institution": "Postdoc",
+            "raw_text": "Postdoc. Mumbai, India to Soft Condensed Matter"
+        },
+        {
+            "degree": "",
+            "graduation_year": "2021",
+            "cgpa": "",
+            "institution": "",
+            "raw_text": "7th May,2021 BITS-Pilani, 2014 Theoretical Physics"
         },
         {
             "degree": "Ph.D",
@@ -45,7 +66,7 @@
             "degree": "B.Sc",
             "graduation_year": "2010",
             "cgpa": "52 %",
-            "institution": "",
+            "institution": "B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal",
             "raw_text": "B.Sc. Midnapur 2010 Mathematics (General), Chemistry (General) (Honours) West Bengal, India 52 % (2nd class) Bengali, English (compulsory) H.S. W.B.C.H.S.E. 2006 Pure Science, (12th) West Bengal, India 60 % (1st class) Bengali, English (compulsory)"
         },
         {
@@ -77,7 +98,7 @@
         },
         {
             "job_title": "Guest Researcher",
-            "dates": "",
+            "dates": "4th Year of Ph.D.",
             "institution": "Free University of Berlin",
             "raw_text": "2. Guest Researcher in Department of Physics at Free University of Berlin, Berlin, Germany,(4th Year of Ph.D.)."
         },
@@ -89,26 +110,26 @@
         },
         {
             "job_title": "",
-            "dates": "2012",
-            "institution": "UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEA",
+            "dates": "April 2012",
+            "institution": "UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH",
             "raw_text": "4. Short term Project : “Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.” at UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH,Kolkata, INDIA (M.Sc Project- April 2012)."
         },
         {
             "job_title": "Teaching Assistant",
-            "dates": "2021",
+            "dates": "",
             "institution": "IIT",
             "raw_text": "• Teaching Assistant(TA): NPTEL(National Programme on Technology Enhanced Learning) (Initiated by IITs and IISC), (2021)."
         },
         {
             "job_title": "Teaching Assistant",
-            "dates": "2021",
+            "dates": "",
             "institution": "IIT",
             "raw_text": "• Teaching Assistant(TA) with Prof.Ranjith Padinhateeri at IIT-Bombay,(2021)."
         },
         {
             "job_title": "Teaching Assistant",
             "dates": "2014-2019",
-            "institution": "Lab Course for 1st year B.Tech St",
+            "institution": "Lab Course for 1st year B.Tech Student at BITS-Pilani",
             "raw_text": "• Teaching Assistant (TA) in Physics Lab Course for 1st year B.Tech Student at BITS-Pilani, Pilani Campus, Department of Physics, (2014-2019, 5 years)."
         },
         {
@@ -181,6 +202,8 @@
     ],
     "responsibilities": [],
     "references": [
-        "1. Prof. Navin Singh Professor BITS-Pilani, Pilani Campus, Pilani Rajasthan-333031, India Phone: 01596 5255257, 01596 525270 (Office) Email: navin@pilani.bits-pilani.ac.in"
+        "1. Prof. Navin Singh Professor BITS-Pilani, Pilani Campus, Pilani Rajasthan-333031, India Phone: 01596 5255257, 01596 525270 (Office) Email: navin@pilani.bits-pilani.ac.in",
+        "Prof. Aditi Sen De Professor H, Physics Quantum Information and Computation (QIC) Group Harish-Chandra Research Institute Prayagraj(Allahabad)-211019, India Email: aditi@hri.res.in Home: https://sites.google.com/view/aditisende",
+        "Prof. Ujjwal Sen Professor H, Physics Quantum Information and Computation (QIC) Group Harish-Chandra Research Institute Prayagraj(Allahabad)-211019, India Email: ujjwal@hri.res.in Home: https://www.hri.res.in/ ujjwal/"
     ]
 }

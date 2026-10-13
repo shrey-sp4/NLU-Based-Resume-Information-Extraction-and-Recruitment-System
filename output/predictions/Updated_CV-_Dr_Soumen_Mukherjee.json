@@ -20,10 +20,46 @@
     ],
     "experience": [
         {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Teaching experience of more than Nineteen years ranging from undergraduate, postgraduate to researchlevels asunder:"
+        },
+        {
             "job_title": "Associate Professor",
-            "dates": "2017",
+            "dates": "",
             "institution": "School of Social Sciences",
-            "raw_text": "Teaching experience of more than Nineteen years ranging from undergraduate, postgraduate to researchlevels asunder:  May, 2017-till present- Associate Professor, Department of English, School of Social Sciences &Languages, VITUniversity, Vellore -632 014, Tamilnadu  July, 2015- May,2017- Associate Professor & Instructor-in-Charge, Presidency University, Bangalore-560064,Karnataka  July, 2013- June, 2015- Associate Professor, Alliance University, Bangalore-562106, Karnataka  Nov., 2012- May, 2013- Associate Professor, NIET, Mahamaya Technical University, Greater Noida-201306, UttarPradesh  Jan.,2008-Oct.,2012-Assistant Professor and Area Chairperson-Institute of Management Studies, Ghaziabad-201009,UttarPradesh  *Nov.,2002- Aug., 2006 – Lecturer, Uttar Pradesh Technical University, Ghaziabad-201009, UttarPradesh# #Nov.,2004- Nov., 2005- Oneyear & one-monthsabbatical forpursuingResearch"
+            "raw_text": " May, 2017-till present- Associate Professor, Department of English, School of Social Sciences &Languages, VITUniversity, Vellore -632 014, Tamilnadu"
+        },
+        {
+            "job_title": "Associate Professor",
+            "dates": "July, 2015- May,2017",
+            "institution": "Presidency University",
+            "raw_text": " July, 2015- May,2017- Associate Professor & Instructor-in-Charge, Presidency University, Bangalore-560064,Karnataka"
+        },
+        {
+            "job_title": "Associate Professor",
+            "dates": "July, 2013- June, 2015",
+            "institution": "Alliance University",
+            "raw_text": " July, 2013- June, 2015- Associate Professor, Alliance University, Bangalore-562106, Karnataka"
+        },
+        {
+            "job_title": "Associate Professor",
+            "dates": "Nov., 2012- May, 2013",
+            "institution": "Mahamaya Technical University",
+            "raw_text": " Nov., 2012- May, 2013- Associate Professor, NIET, Mahamaya Technical University, Greater Noida-201306, UttarPradesh"
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "Jan.,2008-Oct.,2012",
+            "institution": "Institute of Management Studies",
+            "raw_text": " Jan.,2008-Oct.,2012-Assistant Professor and Area Chairperson-Institute of Management Studies, Ghaziabad-201009,UttarPradesh  *Nov.,2002- Aug., 2006 – Lecturer, Uttar Pradesh Technical University, Ghaziabad-201009, UttarPradesh#"
+        },
+        {
+            "job_title": "",
+            "dates": "Nov.,2004- Nov., 2005",
+            "institution": "Oneyear &",
+            "raw_text": "#Nov.,2004- Nov., 2005- Oneyear & one-monthsabbatical forpursuingResearch"
         }
     ],
     "research_interests": [

@@ -49,9 +49,75 @@
     "experience": [
         {
             "job_title": "Post-doctoral Fellow",
-            "dates": "Jun’15-Jul’16",
+            "dates": "",
             "institution": "University of Hong Kong",
-            "raw_text": "Sep’24- Post-doctoral Fellow, Present Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India Sep’18- Project Assistant III, Department of Computational Instrumentation Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India Jun’15-Jul’16 Lecturer, Department of Electrical Engineering College of Engineering Roorkee (COER), Roorkee, India R&D Experience During Ph.D. March’21- IIT Delhi-Adani Green Energy Limited Project Collaboration Dec’22 This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine . March’24- IIT Delhi-Tata Steel Project Collaboration Nov,2024 This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors . March’22- IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration March’2023 Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles ."
+            "raw_text": "Sep’24- Post-doctoral Fellow, Present Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong"
+        },
+        {
+            "job_title": "Junior Research Fellow",
+            "dates": "",
+            "institution": "Centre for Automotive Research and Tribology",
+            "raw_text": "Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "Indian Institute of Technology Delhi",
+            "raw_text": "Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India"
+        },
+        {
+            "job_title": "Project Assistant III",
+            "dates": "",
+            "institution": "Department of Computational Instrumentation",
+            "raw_text": "Sep’18- Project Assistant III, Department of Computational Instrumentation"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "CSIR-Central Scientific Instruments Organisation",
+            "raw_text": "Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India"
+        },
+        {
+            "job_title": "Lecturer",
+            "dates": "Jun’15-Jul’16",
+            "institution": "Electrical Engineering College of Engineering Roorkee",
+            "raw_text": "Jun’15-Jul’16 Lecturer, Department of Electrical Engineering College of Engineering Roorkee (COER), Roorkee, India R&D Experience During Ph.D."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "IIT",
+            "raw_text": "March’21- IIT Delhi-Adani Green Energy Limited Project Collaboration"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "heights &",
+            "raw_text": "Dec’22 This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine ."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "IIT",
+            "raw_text": "March’24- IIT Delhi-Tata Steel Project Collaboration"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "Nov,2024 This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors ."
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "IIT",
+            "raw_text": "March’22- IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "the Tadpole Projects",
+            "raw_text": "March’2023 Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles ."
         }
     ],
     "research_interests": [

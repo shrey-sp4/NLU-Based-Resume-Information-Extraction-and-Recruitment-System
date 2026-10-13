@@ -38,7 +38,14 @@
             "graduation_year": "2016",
             "cgpa": "77.3%",
             "institution": "Govt. College for Girls",
-            "raw_text": "B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana"
+            "raw_text": "B.Sc. (Physics, Govt. College for Girls, April 2016 77.3% First Chemistry, Ludhiana, Mathematics) Punjab University, Chandigarh"
+        },
+        {
+            "degree": "Senior Secondary",
+            "graduation_year": "2013",
+            "cgpa": "91.1%",
+            "institution": "Indian Public Sen. Sec. School",
+            "raw_text": "Senior Secondary (12th) Indian Public Sen. Sec. School, March 2013 91.1% First Ludhiana Punjab School Education"
         }
     ],
     "experience": [

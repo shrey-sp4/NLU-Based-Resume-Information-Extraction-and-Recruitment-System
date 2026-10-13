@@ -81,15 +81,27 @@
         },
         {
             "job_title": "Research Assistant",
-            "dates": "4th December, 2017-10th July, 2018",
+            "dates": "",
             "institution": "Rekhi Centre of Excellence",
-            "raw_text": "• Served as Research Assistant in Rekhi Centre of Excellence for the Science of Happiness from 4th December, 2017-10th July, 2018."
+            "raw_text": "• Served as Research Assistant in Rekhi Centre of Excellence for the Science of Happiness from 4th"
+        },
+        {
+            "job_title": "",
+            "dates": "December, 2017-10th July, 2018",
+            "institution": "",
+            "raw_text": "December, 2017-10th July, 2018."
         },
         {
             "job_title": "Guest faculty",
-            "dates": "19th September, 2013-20th December, 2014",
+            "dates": "",
             "institution": "Hemwati Nandan Bahuguna Garhwal Central University",
-            "raw_text": "• Worked as Guest faculty in Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand from 19th September, 2013-20th December, 2014."
+            "raw_text": "• Worked as Guest faculty in Department of sociology and social work, Hemwati Nandan Bahuguna Garhwal Central University, Srinagar, Uttarkhand from 19th September, 2013-20th"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "",
+            "raw_text": "December, 2014."
         },
         {
             "job_title": "Assistant Professor",
@@ -104,10 +116,16 @@
             "raw_text": "• Worked as Assistant Professor in Department of Social Work Jain Vishwa Bharti University Ladnun Rajasthan-341306 from 4th August, 2009- 11th September, 2010."
         },
         {
-            "job_title": "",
-            "dates": "1st July, 2008 – 27th July, 2009",
+            "job_title": "Labour Welfare Trainee",
+            "dates": "",
             "institution": "Vardman Textiles Ltd. from 1st July",
-            "raw_text": "• Working experience as Labour Welfare Trainee at Vardman Textiles Ltd. from 1st July, 2008 – 27th July, 2009. Responsible and accountable for work related to IR and HR practices as Labour Welfare Officer."
+            "raw_text": "• Working experience as Labour Welfare Trainee at Vardman Textiles Ltd. from 1st July, 2008 –"
+        },
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "Labour Welfare Officer",
+            "raw_text": "27th July, 2009. Responsible and accountable for work related to IR and HR practices as Labour Welfare Officer."
         }
     ],
     "research_interests": [],
@@ -130,7 +148,10 @@
             "Kumar, A., Suar, D., & Sahoo, B. K. (2018). What attributes characterizes the beneficiary households after three years of implementation of National Food Security Act?. Journal of Public Affairs 22(S1), e2718-1-8 . Willey, UK. DOI: https://doi.org/10.1002/pa.2718",
             "Kumar, A., Suar, D., & Sahoo, B. K. (2023). Moving from food insecurity to food security Implementing NFSA in Bihar and Haryana. Economic and Political Weekly 58(36), 39.45. Sameeksha Trust, Mumbai. DOI: https://www.epw.in/journal/2023/36/special-articles/moving- food-insecurity-food-security.html",
             "Kumar, A., Suar, D., & Sahoo, B. K. (2023). Why has Food Insecurity Occurred During the COVID-19, and is There a Way Out? National Academy Science Letters. Springer. DOI: https://doi.org/10.1007/s40009-023-01274-310.1007/s40009-023-01274-3 Working paper:",
-            "Influence of Food Security Status on Mental Health and Cognitive Abilities of Adolescents by Kumar, A., Suar, D., & Sahoo, B. K.(2023)."
+            "Influence of Food Security Status on Mental Health and Cognitive Abilities of Adolescents by Kumar, A., Suar, D., & Sahoo, B. K.(2023). Paper taught:",
+            "Human Resource Management in B.Com.(H) at Bhopal School of Social Sciences, Bhopal.",
+            "Organizational Theory and Behavior in B.Com(Eco.) at Bhopal School of Social Sciences, Bhopal.",
+            "Different Paper of Social Work at Bachelor and Master level at Bhopal School of Social Sciences, Bhopal and Jaipur National University, Jaipur."
         ],
         "conference_papers": [],
         "conference_proceedings": [],

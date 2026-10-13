@@ -228,9 +228,8 @@ def split_section_into_entries(text: str, is_education: bool = False) -> list[st
         if re.match(r"^(?:page\s+\d+|\d+)$", line, re.IGNORECASE):
             continue
 
-        # Check if line starts with a date pattern (but NOT if it's just a year in parentheses)
         is_new_entry_start = bool(DATE_LINE_START_REGEX.search(line))
-        # Don't split on lines that are just a year in parentheses like "2023)" or "(2023)"
+        # Don't split on standalone years in parentheses: (2023) or 2023)
         if is_new_entry_start and re.match(r"^\s*\(?(?:19|20)\d{2}\)?\s*$", line.strip()):
             is_new_entry_start = False
         
@@ -338,7 +337,7 @@ CGPA_REGEX = re.compile(
     re.IGNORECASE
 )
 
-INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center|Board|Education|Department|Technology|Technical|Polytechnic)"
+INSTITUTION_KEYWORDS = r"(?:University|Institute|College|School|IIT|NIT|IIIT|IIM|Vishwavidhyalay|Vidyalaya|Academy|Centre|Center)"
 INSTITUTION_REGEX = re.compile(
     r"((?:[A-Z][\w&\.\-]*\s+){0,6}" + INSTITUTION_KEYWORDS + r"(?:\s+(?:of|for|and|&)\s+[A-Z][\w&\.\-]*(?:\s+[A-Z][\w&\.\-]*){0,5})*)",
 )
@@ -480,7 +479,7 @@ def extract_education_entries(section_text, split_fn=None):
 
 
 # ---------- 4. EXPERIENCE SUB-FIELD EXTRACTION ----------
-TITLE_PATTERNS = TITLE_PATTERNS = [
+TITLE_PATTERNS = [
     r"Assistant Professor", r"Associate Professor", r"Professor",
     r"Visiting Assistant Professor", r"Post-?doctoral Fellow",
     r"Senior Research Scholar", r"Research Associate", r"Research Scholar",
@@ -503,8 +502,6 @@ TITLE_PATTERNS = TITLE_PATTERNS = [
     r"Junior\s+Research\s+Scholar",
     r"Visiting\s+Faculty",
     r"Guest\s+Faculty",
-    r"Short-Term\s+Project",
-    r"Labour\s+Welfare\s+Trainee",
     r"Research\s+Scholar",  # generic fallback
 ]
 TITLE_REGEX = re.compile("|".join(f"(?:{p})" for p in TITLE_PATTERNS), re.IGNORECASE)
@@ -554,11 +551,6 @@ DATE_RANGE_REGEX = re.compile("|".join(_DATE_PATTERNS), re.IGNORECASE)
 def extract_experience_entries(section_text, split_fn=None):
     entries = []
     blocks = split_section_into_entries(section_text, is_education=False)
-    # ===== DEBUG: Print actual entry texts =====
-    print(f"\n=== EXPERIENCE ENTRIES FOR: {section_text[:50]}... ===")
-    for i, block in enumerate(blocks):
-        print(f"  Entry {i+1}: {repr(block[:200])}")
-    # ===== END DEBUG =====
     for entry_text in blocks:
         title_m = TITLE_REGEX.search(entry_text)
         date_m = DATE_RANGE_REGEX.search(entry_text)
@@ -573,14 +565,14 @@ def extract_experience_entries(section_text, split_fn=None):
 
 
 PUBLICATION_TYPE_RULES = [
-    ("journal_articles", [r"\bjournal\b", r"\bvol\.\s+\d+", r"\bno\.\s*\d+", r"\bdoi\b", r"\bpages\s+\d+", r"\bpp\.\s*\d+"]),
     ("preprints", [r"\barxiv\b", r"\bpreprint\b", r"\bbiorxiv\b", r"\bssrn\b"]),
     ("technical_reports", [r"\btech(?:nical)?\.?\s*report\b", r"\bwhite\s*paper\b", r"\btr[-\s]?\d{2,}\b"]),
     ("book_chapters", [r"\bbook\s*chapter\b", r"\bchapter\s+\d+\b", r"\(eds?\.\)", r"\bedited\s+by\b", r"\bin\s+[A-Z][\w&,\.\s]{3,60}\(eds?\.?\)"]),
     ("books", [r"\bisbn\b", r"\bmonograph\b"]),
     ("conference_proceedings", [r"\bproceedings\s+of\b", r"\bconf\.?\s*proc\b", r"\bproc\.\s"]),
-    ("conference_papers", [r"\bconference\s+on\b", r"\bsymposium\b", r"\bworkshop\b", r"\bicc?\w{0,3}\s*\d{4}\b", r"\bproc\.\s*\d{4}\b"]),
+    ("conference_papers", [r"\bconference\s+on\b", r"\bsymposium\b", r"\bworkshop\b", r"\bicc?\w{0,3}\s*\d{4}\b"]),
     ("communications", [r"\brapid\s+communications?\b", r"\bshort\s+communications?\b"]),
+    # journal_articles is DEFAULT fallback - NO explicit rule
 ]
 
 def classify_publication(entry_text):

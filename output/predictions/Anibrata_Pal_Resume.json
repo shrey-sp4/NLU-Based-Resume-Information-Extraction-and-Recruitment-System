@@ -41,7 +41,14 @@
             "graduation_year": "2014",
             "cgpa": "70.00%",
             "institution": "Camellia School of Engineering Technology",
-            "raw_text": "B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%) 10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board."
+            "raw_text": "B.Tech Department of Civil Engineering, Camellia School of Engineering Technology, West Bengal University of Technology, Kolkata, 2014. (70.00%)"
+        },
+        {
+            "degree": "10+2",
+            "graduation_year": "2010",
+            "cgpa": "70.00 %",
+            "institution": "Krishnath College School",
+            "raw_text": "10+2 th Krishnath College School, Berhampore, 2010, 70.00 %, WBCHSE Board."
         },
         {
             "degree": "10th",
@@ -54,15 +61,15 @@
     "experience": [
         {
             "job_title": "Assistant Professor",
-            "dates": "2023",
+            "dates": "17th August 2023 -- Present",
             "institution": "Siliguri Institute of Technology",
             "raw_text": "• Assistant Professor, Department of Civil Engineering, Siliguri Institute of Technology, Techno India Group. (17th August 2023 -- Present)"
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2022",
+            "dates": "9th February 2022 – 16th August 2023",
             "institution": "MAKAUT University",
-            "raw_text": "• Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August"
+            "raw_text": "• Assistant Professor, Department of Civil Engineering, Regent Education of Research Foundation, MAKAUT University. Kolkata-700121 (9th February 2022 – 16th August 2023)"
         },
         {
             "job_title": "Assistant Professor",
@@ -84,13 +91,13 @@
         },
         {
             "job_title": "Assistant Professor",
-            "dates": "2016",
+            "dates": "June 2016",
             "institution": "GD Rungta College of Engineering & Technology",
             "raw_text": "• Assistant Professor, Department of Civil Engineering, GD Rungta College of Engineering & Technology, Durg, CSVT University, Chattishgarh (June 2016 –"
         },
         {
             "job_title": "",
-            "dates": "2017",
+            "dates": "January 2017",
             "institution": "School of Civil Engineering",
             "raw_text": "January 2017) Research in Different layered functionally graded Concrete in the School of Civil Engineering at KIIT University, Bhubaneswar,2021. Member of Professional / Technical Committees Research Committee Member at COEB in the Department of Civil Engineering."
         }
@@ -116,7 +123,11 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "1. “Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete” _",
+            "1. “Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete” _ Construction Building Materials Journal (Springer)",
+            "“Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder” _ Structure Journal (Springer)",
+            "‘‘Strength, Elasticity and Water Absorption of Functionally Graded Concrete’’_ Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+            "\"Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement\"_ Materials and Structure (Springer)",
+            "“A critical review on the advancement of Layered concrete” _ Indian Concrete Journal (Springer)",
             "SMET-2024 Scopus Publication, “Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete”. International Conference.",
             "ICMSMT-2024 Scopus Publication “Strength parameters of graded concrete made in combination with traditional and blended concrete of different grades in different layers”. Sixth International Conference.",
             "ICRDSI-2022 Springer Publication, “Assessment of Functionally Graded Concrete with Graded Beam”.",

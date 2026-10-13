@@ -17,7 +17,14 @@
             "graduation_year": "2020",
             "cgpa": "",
             "institution": "PhD Gujarat University",
-            "raw_text": "PhD Gujarat University, Department of Computer Science April 2020 Title: “An Innovative Framework for Remote Database Experimentation” MCA IGNOU (Indira Gandhi National Open University), Computer Science May 2007"
+            "raw_text": "PhD Gujarat University, Department of Computer Science April 2020 Title: “An Innovative Framework for Remote Database Experimentation”"
+        },
+        {
+            "degree": "MCA",
+            "graduation_year": "2007",
+            "cgpa": "",
+            "institution": "Indira Gandhi National Open University",
+            "raw_text": "MCA IGNOU (Indira Gandhi National Open University), Computer Science May 2007"
         }
     ],
     "experience": [
@@ -65,7 +72,7 @@
         },
         {
             "job_title": "",
-            "dates": "2020",
+            "dates": "",
             "institution": "NEP 2020",
             "raw_text": "o Designed the new syllabus as per the new education policy (NEP 2020)"
         },
@@ -155,7 +162,7 @@
         },
         {
             "job_title": "",
-            "dates": "2021",
+            "dates": "February 2022",
             "institution": "NIT",
             "raw_text": "o Provided mentorship and guidance to project students, supporting them in their dissertations and project work.  Developed GU_DB, a Database system Prototype, integrated with Virtual laboratory as a front end. Published a paper in the International Journal of Advanced Computer Research.  Integrated GU_DB with Automated Assessment of SQL Queries and published the work in FICTA-2021, NIT Mizoram.  Conducted research on Image processing for training image pixels, resulting in the publication of the work on ImageGPT with Super resolution in February 2022.  Extensive work on Query Optimization in various contexts.  Created an Innovative Framework for Remote Database Experimentation, integrating it with Learning Management Systems hosted at IIT-B portal. Bhumika Shah - 2  Proposed efficient retrieval in Multi-lingual systems for E-Governance resources, published in IEEE, ICTBIG'16.  Developed an innovative approach for sub-query optimization, published in a Springer Conference, UK,"
         }

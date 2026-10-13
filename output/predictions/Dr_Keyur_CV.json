@@ -44,7 +44,7 @@
             "degree": "Higher Secondary",
             "graduation_year": "2004 - 2005",
             "cgpa": "83.11%",
-            "institution": "Science (GSHEB)",
+            "institution": "Science",
             "raw_text": "2004 - 2005 Higher Secondary in Science (GSHEB); 83.11%, Kisan Mad- haymik Vidhyalaya, Lunawada, Gujarat"
         },
         {
@@ -65,7 +65,7 @@
             "degree": "",
             "graduation_year": "2021",
             "cgpa": "",
-            "institution": "",
+            "institution": "April 2021. doi:10.1177/01423312211004778. (cid:136) Keyurkumar Patel and A. Mehta, Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System",
             "raw_text": "April 2021. doi:10.1177/01423312211004778. (cid:136) Keyurkumar Patel and A. Mehta ,Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System, IECON 2018 - 44th Annual Conference"
         },
         {
@@ -91,7 +91,7 @@
         "(cid:136) ComputerSkills&ProgrammingLanguages:-C, Matlab and Simulink, Embedded C, Ardunio (ATMega series- C Programming), ARM CORTEX-M series (C-Programming), Labview, Python, VHDL, Ladder Logic, LATEX. (cid:136) AssemblyLanguages: -8085(Microprocessor),Microcontroller(8bit/16bit/32bit),ARM7, ARM cortex-M series. (cid:136) Software tools:- Xilinx ISE 9.2, Quartus-II, keil Vision4, Spice(TI), pSpice (Ana- log circuits design), Proteus professional(Virtual Hardware design), Google colab, Jupyter notebook(Python Programming). (cid:136) Operating Systems: - Windows 98, 2000, XP, Vista, Windows 8, Windows 10, Linux."
     ],
     "projects": [
-        "(cid:136) RFID authentication-based smart parking guidance using IoT: An implementa- tion point of view -(KU/2022/SMS/004) Funded by : Karnavati University, Gandhinagar (cid:136) AI-enabled automated detection of Alzheimer’s disease (cid:136) AI-assisted Leader-following consensus of multiple heterogeneous robotic sys- tems: A real-time multiapplication perspective (cid:136) Visual Inspection in Manufacturing Industry Using AI (cid:136) (cid:136) Guided PG student on the project titled “Classification of the Sesmic Events through Machine Learning” jointly with Institute of Seismological Research, Department of Sci- ence and Technology, Gandhinagar (cid:136) Design and mathematical modeling for quadcopter (Unmanned aerial vehilce). (cid:136) Microcontroller based Manual Landrover robot triggering and relay circuitry."
+        "(cid:136) RFID authentication-based smart parking guidance using IoT: An implementa- tion point of view -(KU/2022/SMS/004) Funded by : Karnavati University, Gandhinagar Budget(Seed money grant) : 1,01,001/- (cid:136) AI-enabled automated detection of Alzheimer’s disease (cid:136) AI-assisted Leader-following consensus of multiple heterogeneous robotic sys- tems: A real-time multiapplication perspective (cid:136) Visual Inspection in Manufacturing Industry Using AI (cid:136) (cid:136) Guided PG student on the project titled “Classification of the Sesmic Events through Machine Learning” jointly with Institute of Seismological Research, Department of Sci- ence and Technology, Gandhinagar (cid:136) Design and mathematical modeling for quadcopter (Unmanned aerial vehilce). (cid:136) Microcontroller based Manual Landrover robot triggering and relay circuitry."
     ],
     "publications": {
         "journal_articles": [
