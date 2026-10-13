@@ -357,6 +357,10 @@ def append_line(section_store: Dict[str, List[str]], section_name: str, line: st
         section_store[section_name] = []
     section_store[section_name].append(line)
 
+# Headings whose content we really want to discard.
+DISCARD_HEADINGS = {"hobbies", "hobbies & interests", "personal hobbies"}
+# Contact/link lines that are not useful text (phone, email, profile links).
+NOISE_LINE = re.compile(r"@|https?://|www\.|researchgate|orcid|\d{10}", re.IGNORECASE)
 
 def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[str, Any]:
     text = txt_path.read_text(encoding="utf-8", errors="ignore")
@@ -390,7 +394,10 @@ def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[s
                     "clean_heading": heading_info["clean_heading"],
                     "previous_active_section": current_section,
                 })
-                current_section = "ignore"
+                if heading_info["clean_heading"].lower().strip(" :") in DISCARD_HEADINGS:
+                    current_section = "ignore"          # real discard section (hobbies...): drop what follows
+                elif not NOISE_LINE.search(raw_line):
+                    append_line(sections, current_section, raw_line)   # false heading: keep as normal text
                 continue
 
             current_section = canonical
