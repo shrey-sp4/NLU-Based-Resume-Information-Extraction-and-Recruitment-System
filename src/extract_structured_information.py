@@ -178,7 +178,7 @@ DATE_LINE_START_REGEX = re.compile(
     r"[^\w\s]{0,2}\s*(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?"
     r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})"
     r"|[^\w\s]{0,2}\s*\b(?:19|20)\d{2}\s*[-–—]"
-    r"|[-•*➢|o\+]|\d+[\.\)]"
+    r"|[-•*➢|\+]|o(?=\s)|\d+[\.\)](?!\d)"
     r")",
     re.IGNORECASE
 )
@@ -459,6 +459,77 @@ def extract_institution(line: str) -> str:
 
     return ""
 
+_MONTH_POINT = re.compile(
+    r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})", re.IGNORECASE)
+_YEAR_RANGE = re.compile(r"\b(?:19|20)\d{2}\s*[-–—]\s*(?:(?:19|20)\d{2}|Present|Current)", re.IGNORECASE)
+_BULLET_LINE = re.compile(r"^\s*(?:[-•*➢|\+◦▪●■➤\uf0b7\uf0d8\uf0a7\u207b]|o(?=\s)|\d{1,3}[\.\)](?!\d))")
+_DATE_ONLY_LINE = re.compile(
+    r"^[\s\(\[\-–—]*(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?(?:[A-Za-z]{3,9}\.?,?\s*)?(?:(?:19|20)\d{2}|[’']\s?\d{2})"
+    r"(?:\s*(?:[-–—]|to)\s*(?:[^\n]{0,30}))?[\s\)\]]*$", re.IGNORECASE)
+_OPEN_RANGE_AT_END = re.compile(
+    r"(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2})|\b(?:19|20)\d{2})"
+    r"\s*[-–—]\s*(?P<tail>[^\d]{0,100})$", re.IGNORECASE)
+_DANGLING_END = re.compile(r"(?:[-–—,]|\bto|\bfrom|\d(?:st|nd|rd|th)|\bof)\s*$", re.IGNORECASE)
+_ORG_WORD = re.compile(r"\b(?:University|Institute|College|School|Hospital|Centre|Center|Laborator(?:y|ies)|Pvt|Ltd|Inc|Company|Academy)\b", re.IGNORECASE)
+
+def _has_date(text):
+    return bool(_MONTH_POINT.search(text) or _YEAR_RANGE.search(text) or DATE_RANGE_REGEX.search(text))
+
+def split_experience_entries(text):
+    if not text:
+        return []
+    text = re.sub(r"(\w)-\n\s*([a-z])", r"\1\2", text)      # rejoin words broken at line end
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    entries, current = [], []
+    for line in lines:
+        if re.match(r"^(?:page\s+\d+|\d+)$", line, re.IGNORECASE):
+            continue
+        cur_text = " ".join(current)
+        starts_with_date = bool(DATE_LINE_START_REGEX.search(line)) and not _BULLET_LINE.match(line)
+        starts_with_date = starts_with_date or bool(re.match(r"^\s*[^\w\s]{0,2}\s*(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?(?:%s)" % _MONTH_POINT.pattern, line, re.IGNORECASE))
+        if starts_with_date and re.match(r"^\s*\(?(?:19|20)\d{2}\)?\s*$", line):
+            starts_with_date = False
+        new_entry = False
+        if current:
+            if starts_with_date:
+                new_entry = True
+                open_range = _OPEN_RANGE_AT_END.search(cur_text)
+                if open_range and not re.search(r"present|current|till|now|ongoing", open_range.group("tail"), re.IGNORECASE):
+                    new_entry = False          # this line is the END date of the job above
+                elif _DANGLING_END.search(current[-1]):
+                    new_entry = False          # range wrapped over two lines
+                elif _DATE_ONLY_LINE.match(line) and not _has_date(cur_text):
+                    new_entry = False          # bare date line belongs to the heading above
+            elif _BULLET_LINE.match(line):
+                job_like = bool(TITLE_REGEX.search(line) or _MONTH_POINT.search(line) or _YEAR_RANGE.search(line))
+                header_like = bool(_ORG_WORD.search(line)) and _has_date(cur_text) and len(line) < 140
+                new_entry = job_like or header_like      # a plain description bullet is NOT a new job
+            elif TITLE_REGEX.match(line) and _has_date(cur_text) and len(line) < 220:
+                new_entry = True
+        if new_entry:
+            entries.append(" ".join(current)); current = [line]
+        else:
+            current.append(line)
+    if current:
+        entries.append(" ".join(current))
+    return [e for e in entries if len(e) > 5]
+
+_POINT_ANY = r"(?:(?:\d{1,2}(?:st|nd|rd|th)?,?\s+)?(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?\s*,?\s*(?:(?:19|20)\d{2}|[’']\s?\d{2}))"
+SEPARATED_RANGE_REGEX = re.compile(
+    r"(?P<start>" + _POINT_ANY + r")\s*[-–—]\s*(?P<gap>[^\d]{0,140}?)(?P<end>" + _POINT_ANY + r"|Present|Current|till\s*date|Now)", re.IGNORECASE)
+
+def find_experience_dates(entry_text):
+    m = DATE_RANGE_REGEX.search(entry_text)
+    if m and re.search(r"[-–—]|\bto\b|present|current|till|since", m.group(0), re.IGNORECASE):
+        return m.group(0).strip()
+    sep = SEPARATED_RANGE_REGEX.search(entry_text)
+    if sep:
+        return f"{sep.group('start').strip()} - {sep.group('end').strip()}"
+    yr = _YEAR_RANGE.search(entry_text)          # e.g. "2015 - Present"
+    if yr:
+        return yr.group(0).strip()
+    return m.group(0).strip() if m else ""
+
 def extract_education_entries(section_text, split_fn=None):
     entries = []
     blocks = split_section_into_entries(section_text, is_education=True)
@@ -550,14 +621,13 @@ DATE_RANGE_REGEX = re.compile("|".join(_DATE_PATTERNS), re.IGNORECASE)
 
 def extract_experience_entries(section_text, split_fn=None):
     entries = []
-    blocks = split_section_into_entries(section_text, is_education=False)
+    blocks = split_experience_entries(section_text)
     for entry_text in blocks:
         title_m = TITLE_REGEX.search(entry_text)
-        date_m = DATE_RANGE_REGEX.search(entry_text)
         institution = extract_institution(entry_text)
         entries.append({
             "job_title": title_m.group(0).strip() if title_m else "",
-            "dates": date_m.group(0).strip() if date_m else "",
+            "dates": find_experience_dates(entry_text),
             "institution": institution,
             "raw_text": entry_text,
         })
