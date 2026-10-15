@@ -1,4 +1,4 @@
-# real resumes and anything derived from their text (personal data)
+﻿# real resumes and anything derived from their text (personal data)
 data/real_resumes/original/
 data/real_resumes/extracted_text/
 data/real_resumes/metadata/
@@ -6,5 +6,9 @@ output/sections/
 output/extraction/
 output/evaluation/error_report.txt
 __pycache__/
-venv/backup/
+venv/
+backup/
 full_repo_readable.txt
+
+scratch/eval_*.txt
+scratch/errors_*.txt
