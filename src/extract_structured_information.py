@@ -687,13 +687,35 @@ def split_publication_entries(text):
                     entries.append(piece.strip())
     return entries
 
+_START_AUTH = re.compile(
+    r"\s+(?=(?:[A-Z][A-Za-z'’\-]+,\s*(?:[A-Z]\.\s*){1,3}"
+    r"|(?:[A-Z]\.\s*){1,3}[A-Z][A-Za-z'’\-]{2,}))")
+_REF_END = re.compile(r"(?:\b(?:19|20)\d{2}\b|\bpp?\.\s*\d|\d+\s*[-–]\s*\d+|\bdoi\b|\bvol\.?\s*\d)", re.IGNORECASE)
+
+def split_glued_references(text, min_len=350, min_piece=60):
+    if len(text) < min_len or len(set(re.findall(r"\b(?:19|20)\d{2}\b", text))) < 2:
+        return [text]
+    cuts, last = [], 0
+    for m in _START_AUTH.finditer(text):
+        pos = m.start()
+        before = text[last:pos]
+        if len(before) < min_piece or text[pos - 1] not in ".)]0123456789" or not _REF_END.search(before[-80:]):
+            continue
+        cuts.append(pos); last = pos
+    parts, prev = [], 0
+    for c in cuts + [len(text)]:
+        piece = text[prev:c].strip()
+        if piece: parts.append(piece)
+        prev = c
+    return parts or [text]
+
 def split_publications_by_type(text):
     buckets = {
         "journal_articles": [], "conference_papers": [], "conference_proceedings": [],
         "communications": [], "book_chapters": [], "books": [],
         "technical_reports": [], "preprints": [],
     }
-    for entry in split_publication_entries(text):
+    for entry in [q for e in split_publication_entries(text) for q in split_glued_references(e)]:
         buckets[classify_publication(entry)].append(entry)
     return buckets
 
