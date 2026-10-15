@@ -27,7 +27,7 @@
         },
         {
             "job_title": "Associate Professor",
-            "dates": "",
+            "dates": "May, 2017 - present",
             "institution": "School of Social Sciences",
             "raw_text": " May, 2017-till present- Associate Professor, Department of English, School of Social Sciences &Languages, VITUniversity, Vellore -632 014, Tamilnadu"
         },
@@ -53,7 +53,13 @@
             "job_title": "Assistant Professor",
             "dates": "Jan.,2008-Oct.,2012",
             "institution": "Institute of Management Studies",
-            "raw_text": " Jan.,2008-Oct.,2012-Assistant Professor and Area Chairperson-Institute of Management Studies, Ghaziabad-201009,UttarPradesh  *Nov.,2002- Aug., 2006 – Lecturer, Uttar Pradesh Technical University, Ghaziabad-201009, UttarPradesh#"
+            "raw_text": " Jan.,2008-Oct.,2012-Assistant Professor and Area Chairperson-Institute of Management Studies, Ghaziabad-201009,UttarPradesh"
+        },
+        {
+            "job_title": "Lecturer",
+            "dates": "Nov.,2002- Aug., 2006",
+            "institution": "Uttar Pradesh Technical University",
+            "raw_text": " *Nov.,2002- Aug., 2006 – Lecturer, Uttar Pradesh Technical University, Ghaziabad-201009, UttarPradesh#"
         },
         {
             "job_title": "",

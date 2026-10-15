@@ -34,10 +34,28 @@
     ],
     "experience": [
         {
-            "job_title": "Postdoctoral Fellow",
+            "job_title": "",
             "dates": "Dec. 2021-Present",
+            "institution": "Postdoctoral Associate, University at Buffalo New York",
+            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow"
+        },
+        {
+            "job_title": "Postdoctoral Fellow",
+            "dates": "Feb. 2021",
+            "institution": "Postdoctoral Fellow",
+            "raw_text": "Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand"
+        },
+        {
+            "job_title": "Postdoctoral Fellow",
+            "dates": "Jul. 2018",
             "institution": "Tohoku University",
-            "raw_text": "Postdoctoral Associate, University at Buffalo New York, US Dec. 2021-Present Advisor: Prof. Janet R. Morrow Postdoctoral Fellow, Sorbonne Université Paris, FR Feb. 2021 Nov. 2021 Advisor: Prof. Hélène C. Bertrand Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
+            "raw_text": "Postdoctoral Fellow, Tohoku University Sendai, JP Jul. 2018 Nov. 2020 Advisor: Prof. Shin Mizukami"
+        },
+        {
+            "job_title": "Research Scientist",
+            "dates": "Apr. 2017",
+            "institution": "Jubilant Generics Limited Noida",
+            "raw_text": "Research Scientist, Jubilant Generics Limited Noida, IN Apr. 2017 Jul. 2018 Research Internship, CSIR-IMMT Bhubaneswar, IN May. 2012 Jul. 2012"
         }
     ],
     "research_interests": [],

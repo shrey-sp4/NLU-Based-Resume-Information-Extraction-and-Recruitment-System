@@ -16,15 +16,8 @@
             "degree": "Doctor of Philosophy",
             "graduation_year": "2016 - 2020",
             "cgpa": "",
-            "institution": "Department",
-            "raw_text": "2016 - 2020 Doctor of Philosophy (PhD) From the Department"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
             "institution": "Institute of Infras",
-            "raw_text": "of Electrical and Computer Science, Institute of Infras- tructure Technology Research and Management (IITRAM) (Established by Gov.of Gujarat) and Mentored by IIT- Gandhinagar, Ahmedabad (Course work CPI 8.83)"
+            "raw_text": "2016 - 2020 Doctor of Philosophy (PhD) From the Department of Electrical and Computer Science, Institute of Infras- tructure Technology Research and Management (IITRAM) (Established by Gov.of Gujarat) and Mentored by IIT- Gandhinagar, Ahmedabad (Course work CPI 8.83)"
         },
         {
             "degree": "Master of Technology",
@@ -65,15 +58,8 @@
             "degree": "",
             "graduation_year": "2021",
             "cgpa": "",
-            "institution": "April 2021. doi:10.1177/01423312211004778. (cid:136) Keyurkumar Patel and A. Mehta, Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System",
-            "raw_text": "April 2021. doi:10.1177/01423312211004778. (cid:136) Keyurkumar Patel and A. Mehta ,Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System, IECON 2018 - 44th Annual Conference"
-        },
-        {
-            "degree": "",
-            "graduation_year": "2018",
-            "cgpa": "",
             "institution": "NIT",
-            "raw_text": "oftheIEEE Industrial Electronics Society, Washington, DC,2018, pp. 2288-2292. (cid:136) Keyurkumar Patel and A. Mehta Discrete Higher Order Sliding Mode Protocol for Leader-Following Consensus of Heterogeneous Discrete Multi-Agent System, In: Mehta A., Rawat A., Chauhan P. (eds) Advances in Control Systems and its Infrastructure. Lecture Notes in Electrical Engineering, vol 604. Springer, Singapore. (cid:136) Jatinsavliya, Keyurkumar Patel, A.Mehta, Distributed event-triggered sliding mode control for voltage synchronization of DC microgrid using leader-follower consensus protocol, In: Mehta A., Rawat A., Chauhan P. (eds) Advances in Control Systems and its Infrastructure. Lecture Notes in Electrical Engineering, vol 604. Springer, Singapore. (cid:136) Keyur Patel and A. Mehta, Second Order Sliding Mode Control of Active Suspension System with Super-Twisting Algorithm and Disturbance Observer, 43th annual con- ference of the IEEE Industrial Electronics Society, pp.6526-6531, October-2017, Beijing-China. (cid:136) Sandeep Sharma, Dhananjay Srivastava, A. Mehta and Keyur Patel, Design and Implementation of Second Order Sliding Mode Controller for 2-DOF Flexible Robotic Link, 2nd International Conference on Power, Energy and Environment: To- wards Smart Technology (ICEPE), NIT-Meghalaya, Shillong, India, 2018, pp. 1-6. (cid:136) Dhananjay Srivastava, Sandeep Sharma, Keyur Patel and A. Mehta, Second Order SMC Controller Design for Rotary Inverted Pendulum: An Under Actuated System, 2018 2nd International Conference on Power, Energy and Environment: To- wards Smart Technology (ICEPE), Shillong, India, 2018, pp. 1-6. (cid:136) Keyur Patel and Jayesh Barve, Modeling, Simulation and Control Study for Quad- Copter UAV, IEEE International conference on industrial and information system, vol.9, pp.1-6, Dec-2014 , IIITM-Gwalior. (cid:136) Jayesh Barve, Keyur Patel, Modelling, Simulation and Altitude-Range-Analysis of Quad-copter UAV, IFAC Proceedings Volumes, Volume 47, Issue 1, 2014, Pages 1126-1130, ISSN 1474-6670, ISBN 9783902823601, https://doi.org/10.3182/20140313- 3-IN-3024.00209. Book (cid:136) Keyurkumar Patel and A. Mehta, Discrete-Time Sliding Mode Protocols for Dis- crete Multi-Agent System, Springer Singapore, ISBN - 978-981-15-6310-2, August-"
+            "raw_text": "April 2021. doi:10.1177/01423312211004778. (cid:136) Keyurkumar Patel and A. Mehta ,Discrete-time Sliding Mode Control for Leader Following Discrete-time Multi-Agent System, IECON 2018 - 44th Annual Conference oftheIEEE Industrial Electronics Society, Washington, DC,2018, pp. 2288-2292. (cid:136) Keyurkumar Patel and A. Mehta Discrete Higher Order Sliding Mode Protocol for Leader-Following Consensus of Heterogeneous Discrete Multi-Agent System, In: Mehta A., Rawat A., Chauhan P. (eds) Advances in Control Systems and its Infrastructure. Lecture Notes in Electrical Engineering, vol 604. Springer, Singapore. (cid:136) Jatinsavliya, Keyurkumar Patel, A.Mehta, Distributed event-triggered sliding mode control for voltage synchronization of DC microgrid using leader-follower consensus protocol, In: Mehta A., Rawat A., Chauhan P. (eds) Advances in Control Systems and its Infrastructure. Lecture Notes in Electrical Engineering, vol 604. Springer, Singapore. (cid:136) Keyur Patel and A. Mehta, Second Order Sliding Mode Control of Active Suspension System with Super-Twisting Algorithm and Disturbance Observer, 43th annual con- ference of the IEEE Industrial Electronics Society, pp.6526-6531, October-2017, Beijing-China. (cid:136) Sandeep Sharma, Dhananjay Srivastava, A. Mehta and Keyur Patel, Design and Implementation of Second Order Sliding Mode Controller for 2-DOF Flexible Robotic Link, 2nd International Conference on Power, Energy and Environment: To- wards Smart Technology (ICEPE), NIT-Meghalaya, Shillong, India, 2018, pp. 1-6. (cid:136) Dhananjay Srivastava, Sandeep Sharma, Keyur Patel and A. Mehta, Second Order SMC Controller Design for Rotary Inverted Pendulum: An Under Actuated System, 2018 2nd International Conference on Power, Energy and Environment: To- wards Smart Technology (ICEPE), Shillong, India, 2018, pp. 1-6. (cid:136) Keyur Patel and Jayesh Barve, Modeling, Simulation and Control Study for Quad- Copter UAV, IEEE International conference on industrial and information system, vol.9, pp.1-6, Dec-2014 , IIITM-Gwalior. (cid:136) Jayesh Barve, Keyur Patel, Modelling, Simulation and Altitude-Range-Analysis of Quad-copter UAV, IFAC Proceedings Volumes, Volume 47, Issue 1, 2014, Pages 1126-1130, ISSN 1474-6670, ISBN 9783902823601, https://doi.org/10.3182/20140313- 3-IN-3024.00209. Book (cid:136) Keyurkumar Patel and A. Mehta, Discrete-Time Sliding Mode Protocols for Dis- crete Multi-Agent System, Springer Singapore, ISBN - 978-981-15-6310-2, August-"
         }
     ],
     "experience": [
@@ -81,7 +67,7 @@
             "job_title": "Assistant Professor",
             "dates": "22th Sep 2023- Till Date",
             "institution": "School of Information Technology",
-            "raw_text": "Assistant Professor (22th Sep 2023- Till Date): (cid:136) Working with School of Information Technology, Artificial Intelligence and Cy- ber Security (SITAICS), Rashtriya Raksha University(RRU), Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar, Gujarat (cid:136)"
+            "raw_text": "Assistant Professor (22th Sep 2023- Till Date): (cid:136) Working with School of Information Technology, Artificial Intelligence and Cyber Security (SITAICS), Rashtriya Raksha University(RRU), Ministry of Home Affairs, An Institute of National Importance, Government of India, Gandhinagar, Gujarat (cid:136)"
         }
     ],
     "research_interests": [

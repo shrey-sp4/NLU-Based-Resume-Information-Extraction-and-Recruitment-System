@@ -66,13 +66,19 @@
             "job_title": "Assistant Professor",
             "dates": "November 2022-Present",
             "institution": "Indian Institute of Information Technology",
-            "raw_text": "Assistant Professor, Indian Institute of Information Technology, Sri City, AP. Key Subjects: Signals and systems, Information Theory and Coding, EMTL, Digital Electronics, Wireless communication systems lab etc. (November 2022-Present) Postdoctoral Research Fellow, King Abdullah University of Science and Technol-"
+            "raw_text": "Assistant Professor, Indian Institute of Information Technology, Sri City, AP. Key Subjects: Signals and systems, Information Theory and Coding, EMTL, Digital Electronics, Wireless communication systems lab etc. (November 2022-Present) Postdoctoral Research Fellow, King Abdullah University of Science and Technology, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communications. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022)"
         },
         {
             "job_title": "Senior Research Fellow",
-            "dates": "July 2021-November 2022",
+            "dates": "September 2020 - June 2021",
             "institution": "Indian Institute of Technology",
-            "raw_text": "ogy, Thuwal, KSA, Govt. of KSA. Project Title: Diffusive Molecular Communication and Tera-Hertz Wireless Communi- cations. Mentor: Prof. Mohammad Slim Alouini. (July 2021-November 2022) Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021) Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur."
+            "raw_text": "Senior Research Fellow, Indian Institute of Technology, Indore, CSIR Govt. of India. Project Title: Performance Analysis of Diffusive Molecular Communication with Active Receiver. Mentor: Prof. Prabhat K Upadhyay. (September 2020 - June 2021)"
+        },
+        {
+            "job_title": "Teaching Assistant",
+            "dates": "",
+            "institution": "Visvesvaraya National Institute of Technology",
+            "raw_text": "Teaching Assistant, Visvesvaraya National Institute of Technology, Nagpur."
         }
     ],
     "research_interests": [

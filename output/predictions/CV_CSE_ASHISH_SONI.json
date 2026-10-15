@@ -36,10 +36,16 @@
     ],
     "experience": [
         {
-            "job_title": "Assistant professor",
+            "job_title": "",
             "dates": "",
             "institution": "CSE Dept",
-            "raw_text": " 10.8 YEAR regular experience in MIST (MALWA), Indore as a Asst.Prof. in CSE Dept.  Presently working(2.4 Yr) as a Assistant professor Dept. of CSE in GHRCE,"
+            "raw_text": " 10.8 YEAR regular experience in MIST (MALWA), Indore as a Asst.Prof. in CSE Dept."
+        },
+        {
+            "job_title": "Assistant professor",
+            "dates": "",
+            "institution": "GHRCE",
+            "raw_text": " Presently working(2.4 Yr) as a Assistant professor Dept. of CSE in GHRCE,"
         }
     ],
     "research_interests": [],

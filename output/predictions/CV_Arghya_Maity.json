@@ -52,15 +52,8 @@
             "degree": "M.Sc",
             "graduation_year": "",
             "cgpa": "71%",
-            "institution": "",
-            "raw_text": "M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
             "institution": "Vidyasagar University",
-            "raw_text": "Odisha, India 1st class Vidyasagar University, Physics (Hons.)"
+            "raw_text": "M.Sc. Sambalpur 7.56(OGPA)≡ 71% Special paper: High Energy Physics Odisha, India 1st class Vidyasagar University, Physics (Hons.)"
         },
         {
             "degree": "B.Sc",
@@ -86,15 +79,9 @@
         },
         {
             "job_title": "Research Associate",
-            "dates": "",
-            "institution": "",
-            "raw_text": "1. Working as Research Associate in ”QuEST” - Quantum-Enabled Science & Technol-"
-        },
-        {
-            "job_title": "",
             "dates": "8th May, 2021 to 4th Oct, 2023",
             "institution": "The Department of Science & Technology",
-            "raw_text": "ogy, project, (8th May, 2021 to 4th Oct, 2023), sponsored by “The Department of Science & Technology (DST)”, INDIA."
+            "raw_text": "1. Working as Research Associate in ”QuEST” - Quantum-Enabled Science & Technology, project, (8th May, 2021 to 4th Oct, 2023), sponsored by “The Department of Science & Technology (DST)”, INDIA."
         },
         {
             "job_title": "Guest Researcher",
@@ -104,15 +91,9 @@
         },
         {
             "job_title": "Project Fellow",
-            "dates": "",
-            "institution": "The Department of Science & Technology",
-            "raw_text": "3. Project Fellow ( JRF(Junior Research Fellow) and SRF (Senior Research Fellow) ) of “The Department of Science & Technology (DST)”, INDIA, at BITS-Pilani."
-        },
-        {
-            "job_title": "",
             "dates": "April 2012",
-            "institution": "UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH",
-            "raw_text": "4. Short term Project : “Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.” at UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH,Kolkata, INDIA (M.Sc Project- April 2012)."
+            "institution": "The Department of Science & Technology",
+            "raw_text": "3. Project Fellow ( JRF(Junior Research Fellow) and SRF (Senior Research Fellow) ) of “The Department of Science & Technology (DST)”, INDIA, at BITS-Pilani. 4. Short term Project : “Thin Film Processing Techniques and application of α-spectroscopy to measure the thickness of the Film.” at UGC-DAE CONSORTIUM FOR SCIENTIFIC RE- SEARCH,Kolkata, INDIA (M.Sc Project- April 2012)."
         },
         {
             "job_title": "Teaching Assistant",
@@ -136,7 +117,7 @@
             "job_title": "Guest Lecturer",
             "dates": "July 2013 - Nov 2013",
             "institution": "Government Engineering College",
-            "raw_text": "• Guest Lecturer for a Government Engineering College ,“VSSUT (Veer Surendra Sai Uni- versity of Technology)”, Sambalpur, Burla, Odisha, INDIA,(July 2013 - Nov 2013)."
+            "raw_text": "• Guest Lecturer for a Government Engineering College ,“VSSUT (Veer Surendra Sai University of Technology)”, Sambalpur, Burla, Odisha, INDIA,(July 2013 - Nov 2013)."
         }
     ],
     "research_interests": [

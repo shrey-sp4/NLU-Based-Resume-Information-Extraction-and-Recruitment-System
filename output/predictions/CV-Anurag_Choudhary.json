@@ -15,67 +15,34 @@
             "graduation_year": "2020–2024",
             "cgpa": "",
             "institution": "Indian Institute of Technology Delhi",
-            "raw_text": "2020–2024 Doctor of Philosophy Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India."
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "Fault Diagnostic Strategies for Electric Vehicle Motor",
-            "raw_text": "Objective: Development of Fault Diagnostic Strategies for Electric Vehicle Motor. Description: This thesis explores the electrification of conventional vehicles to electric vehicles, examines various sensor modalities for fault diagnosis of traction motors such as induction, PMSM,SRM and BLDC motors, transfers diagnosis knowledge from the laboratory environment to electric two-wheeler and four-wheeler vehicles, and builds the GUI- based on an on-board fault diagnosis system for real-time detection of motor faults in electric vehicles."
+            "raw_text": "2020–2024 Doctor of Philosophy Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India. Objective: Development of Fault Diagnostic Strategies for Electric Vehicle Motor. Description: This thesis explores the electrification of conventional vehicles to electric vehicles, examines various sensor modalities for fault diagnosis of traction motors such as induction, PMSM,SRM and BLDC motors, transfers diagnosis knowledge from the laboratory environment to electric two-wheeler and four-wheeler vehicles, and builds the GUI- based on an on-board fault diagnosis system for real-time detection of motor faults in electric vehicles."
         },
         {
             "degree": "Master of Engineering",
             "graduation_year": "2016–2018",
             "cgpa": "",
             "institution": "National Institute of Technical Teachers Training and Research",
-            "raw_text": "2016–2018 Master of Engineering in Instrumentation and Control National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "CGPA",
-            "raw_text": "7.4 CGPA"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "Induction Motor using Thermal Imaging",
-            "raw_text": "Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging."
+            "raw_text": "2016–2018 Master of Engineering in Instrumentation and Control National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India 7.4 CGPA Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging."
         }
     ],
     "experience": [
         {
             "job_title": "Post-doctoral Fellow",
-            "dates": "",
+            "dates": "Sep’24 - Present",
             "institution": "University of Hong Kong",
             "raw_text": "Sep’24- Post-doctoral Fellow, Present Department of Data and Systems Engineering at the University of Hong Kong, Hong Kong"
         },
         {
             "job_title": "Junior Research Fellow",
-            "dates": "",
-            "institution": "Centre for Automotive Research and Tribology",
-            "raw_text": "Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology"
-        },
-        {
-            "job_title": "",
-            "dates": "",
-            "institution": "Indian Institute of Technology Delhi",
-            "raw_text": "Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India"
+            "dates": "Feb’20 - Aug’20",
+            "institution": "Centre for Automotive Research and Tribology Aug",
+            "raw_text": "Feb’20- Junior Research Fellow, Centre for Automotive Research and Tribology Aug’20 Indian Institute of Technology Delhi, Hauz Khas, New Delhi, India"
         },
         {
             "job_title": "Project Assistant III",
-            "dates": "",
-            "institution": "Department of Computational Instrumentation",
-            "raw_text": "Sep’18- Project Assistant III, Department of Computational Instrumentation"
-        },
-        {
-            "job_title": "",
-            "dates": "",
-            "institution": "CSIR-Central Scientific Instruments Organisation",
-            "raw_text": "Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India"
+            "dates": "Sep’18 - Feb’20",
+            "institution": "Department of Computational Instrumentation Feb’20 CSIR-Central Scientific Instruments Organisation",
+            "raw_text": "Sep’18- Project Assistant III, Department of Computational Instrumentation Feb’20 CSIR-Central Scientific Instruments Organisation, Chandigarh, India"
         },
         {
             "job_title": "Lecturer",
@@ -85,39 +52,21 @@
         },
         {
             "job_title": "",
-            "dates": "",
+            "dates": "March’21 - Dec’22",
             "institution": "IIT",
-            "raw_text": "March’21- IIT Delhi-Adani Green Energy Limited Project Collaboration"
+            "raw_text": "March’21- IIT Delhi-Adani Green Energy Limited Project Collaboration Dec’22 This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine ."
         },
         {
             "job_title": "",
-            "dates": "",
-            "institution": "heights &",
-            "raw_text": "Dec’22 This project explores preliminary study of the drivetrain system, and work at heights & manual handling. Development of an intelligent condition monitoring system for wind turbine ."
-        },
-        {
-            "job_title": "",
-            "dates": "",
+            "dates": "March’24 - Nov,2024",
             "institution": "IIT",
-            "raw_text": "March’24- IIT Delhi-Tata Steel Project Collaboration"
+            "raw_text": "March’24- IIT Delhi-Tata Steel Project Collaboration Nov,2024 This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors ."
         },
         {
             "job_title": "",
-            "dates": "",
-            "institution": "",
-            "raw_text": "Nov,2024 This project explores condition monitoring and fault diagnosis solutions for the HT and LV induction motors ."
-        },
-        {
-            "job_title": "",
-            "dates": "",
+            "dates": "March’22 - March’20",
             "institution": "IIT",
-            "raw_text": "March’22- IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration"
-        },
-        {
-            "job_title": "",
-            "dates": "",
-            "institution": "the Tadpole Projects",
-            "raw_text": "March’2023 Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles ."
+            "raw_text": "March’22- IIT Delhi-Tadpole Projects Pvt.Ltd Collaboration March’2023 Provide technical support to the Tadpole Projects for the electrification of conventional vehicles to electric vehicles ."
         }
     ],
     "research_interests": [

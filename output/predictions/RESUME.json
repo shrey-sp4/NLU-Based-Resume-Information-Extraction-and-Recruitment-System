@@ -16,14 +16,7 @@
             "graduation_year": "2016",
             "cgpa": "",
             "institution": "IIT",
-            "raw_text": "M.A. (English; 2016), M.Phil. (English; 2019), Ph.D (IIT Kharagpur; Awarded in 2022)"
-        },
-        {
-            "degree": "",
-            "graduation_year": "2017",
-            "cgpa": "",
-            "institution": "UGC NET",
-            "raw_text": "2.1. NET/SET: UGC NET (2017), WBSET (2018)"
+            "raw_text": "M.A. (English; 2016), M.Phil. (English; 2019), Ph.D (IIT Kharagpur; Awarded in 2022) 2.1. NET/SET: UGC NET (2017), WBSET (2018)"
         },
         {
             "degree": "",
@@ -36,71 +29,8 @@
             "degree": "",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
-            "raw_text": "4. Publication Details: 50 plus; 3 (Under Review)"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
             "institution": "International Journals (Indexed by SCOPUS/WEB OF SCIENCE/SCI",
-            "raw_text": "4.1 International Journals (Indexed by SCOPUS/WEB OF SCIENCE/SCI): 9"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "4.2 International Journals (UGC Approved/Peer-reviewed): 14"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "4.3 National Journal",
-            "raw_text": "4.3 National Journal (UGC Approved/Peer-reviewed/Departmental): 9"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "4.4 International Publishers (Book Chapters): 4"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "4.5 National Publishers (Book Chapters",
-            "raw_text": "4.5 National Publishers (Book Chapters): 3"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "4.6 Book Reviews (International/National): 2"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "4.7 Book (International Publisher): 1"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "Seminars and Conferences 5",
-            "raw_text": "4.8 Papers Presentations in Seminars and Conferences 5"
-        },
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "",
-            "raw_text": "4.9 Seminar/Course/ Workshop Attended 5 Name of the Year of Passing Marks Total Marks Percentage/Grade"
+            "raw_text": "4. Publication Details: 50 plus; 3 (Under Review) 4.1 International Journals (Indexed by SCOPUS/WEB OF SCIENCE/SCI): 9 4.2 International Journals (UGC Approved/Peer-reviewed): 14 4.3 National Journal (UGC Approved/Peer-reviewed/Departmental): 9 4.4 International Publishers (Book Chapters): 4 4.5 National Publishers (Book Chapters): 3 4.6 Book Reviews (International/National): 2 4.7 Book (International Publisher): 1 4.8 Papers Presentations in Seminars and Conferences 5 4.9 Seminar/Course/ Workshop Attended 5 Name of the Year of Passing Marks Total Marks Percentage/Grade"
         }
     ],
     "experience": [
@@ -114,13 +44,7 @@
             "job_title": "Assistant Professor",
             "dates": "",
             "institution": "OP Jindal Global University",
-            "raw_text": "2. Assistant Professor (Regular and Full Time) at OP Jindal Global University. 4 Months"
-        },
-        {
-            "job_title": "",
-            "dates": "",
-            "institution": "IIT",
-            "raw_text": "4.10 Present Employment: Faculty, IIT (ISM), Dhanbad, Jharkhand"
+            "raw_text": "2. Assistant Professor (Regular and Full Time) at OP Jindal Global University. 4 Months 4.10 Present Employment: Faculty, IIT (ISM), Dhanbad, Jharkhand"
         }
     ],
     "research_interests": [],
