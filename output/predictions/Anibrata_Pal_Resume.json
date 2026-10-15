@@ -117,12 +117,7 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "1. “Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete” _ Construction Building Materials Journal (Springer)",
-            "“Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder” _ Structure Journal (Springer)",
-            "‘‘Strength, Elasticity and Water Absorption of Functionally Graded Concrete’’_ Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
-            "\"Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement\"_ Materials and Structure (Springer)",
-            "“A critical review on the advancement of Layered concrete” _ Indian Concrete Journal (Springer)",
-            "SMET-2024 Scopus Publication, “Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete”. International Conference.",
+            "1. SMET-2024 Scopus Publication, “Effect of ground slag and lime as replacement material of fly ash-based cement on mechanical properties of functionally graded concrete”. International Conference.",
             "ICMSMT-2024 Scopus Publication “Strength parameters of graded concrete made in combination with traditional and blended concrete of different grades in different layers”. Sixth International Conference.",
             "ICRDSI-2022 Springer Publication, “Assessment of Functionally Graded Concrete with Graded Beam”.",
             "“Innovative vibration control devices used in buildings”, International Journal of Civil Engineering (IJCE). ISSN(P): 2278-9987; ISSN(E): 2278-9995Vol. 5, Issue 1, Dec - Jan 2016, 83-98.",
@@ -134,7 +129,13 @@
         "book_chapters": [],
         "books": [],
         "technical_reports": [],
-        "preprints": []
+        "preprints": [
+            "1. “Synergistic effects of spatial variation and high-volume fly ash supplementation on engineering, economic and environmental performance of graded concrete” _ Construction Building Materials Journal (Springer)",
+            "“Performance enhancement and evaluation of concrete member made through the combined application of layered technology and supplementation of alternative binder” _ Structure Journal (Springer)",
+            "‘‘Strength, Elasticity and Water Absorption of Functionally Graded Concrete’’_ Journal of Mechanics of Continua and Mathematical Sciences (Scopus)",
+            "\"Interfacial bond strength, abrasion and sorption resistance, carbon footprint, energy efficiency and economic performance of tiered concrete incorporating various grades of normal concrete with blended cement\"_ Materials and Structure (Springer)",
+            "“A critical review on the advancement of Layered concrete” _ Indian Concrete Journal (Springer)"
+        ]
     },
     "certifications": [],
     "awards": [

@@ -52,6 +52,8 @@
     "projects": [],
     "publications": {
         "journal_articles": [
+            "Total Paper Published in International / National Journal : 65",
+            "B. Kumari, M. K. Singh et al., Emission Characteristics of the Slowest Target Protons Produced in the Interaction of 84Kr nucleiwithEmulsionnucleiat1AGeV,J.KoreanPhys. Soc., Accepted, (2024).",
             "P. Kumar, M. Verma, B. Kumari, Kajal, M. K. Singh EmissionFeatureoftheHeavilyIonizedChargedParticlesReleasedfromtheInteraction of84Kr+Emat1AGeV,J.ElectronicMaterials,OnlinePublished,https://doi.org/10.1007/s11664- 024-11080-2, (2024)",
             "M. Verma, P. Kumar, B. Kumari, M. K. Singh Application of Particle Physics Detector in Medical Science, J. Electronic Materials, Online Published, https://doi.org/10.1007/s11664-024-11062-4, (2024) U, Rawat, M.",
             "K. Singh et al., Study the Emission Feature of the Projectile and Target Fragments using Coulomb Modified Glauber Model and Azimuthal correlation, Iran. J. Sci., Online Published, https://doi.org/10.1007/s40995-024-01615-x, (2024).",
@@ -115,8 +117,8 @@
             "A. K. Soma, M. K. Singh et al., (TEXONO Collaboration) Low-energy neutrino and dark matter physics with sub-keV germanium detectors, Pra- mana J. Phys., 79(5) (2012).",
             "M. K. Singh et al., Two source emission behaviour of Projectile fragments alpha in 84Kr interactions at 36 around 1GeV per nucleon, Indian J. Phys. 85(10), 1523 (2011).",
             "M. K. Singh et al., Two Source Emission Behavior of Helium Projectile Fragments in 84Kr Interactions 36 at around 1 GeV per nucleon, Physics International 1(2), 109 (2010).",
-            "M. K. Singh et al., Characteristics of alpha projectile fragments emission in interactions of nuclei with emulsion, Indian J. Phys. 84 (9), 1257 (2010). Conference Paper Published in SCOPUS Journal: 16 Babita Kumari, M.",
-            "K. Singh et al., Projectile Fragmentation Characteristics of the Events Produced from 84Kr + Emul- sion Interaction at 1 A GeV, Mat. Sci. Res. India, 20, 27 (2023).",
+            "M. K. Singh et al., Characteristics of alpha projectile fragments emission in interactions of nuclei with emulsion, Indian J. Phys. 84 (9), 1257 (2010).",
+            "Babita Kumari, M. K. Singh et al., Projectile Fragmentation Characteristics of the Events Produced from 84Kr + Emul- sion Interaction at 1 A GeV, Mat. Sci. Res. India, 20, 27 (2023).",
             "M. K. Singh et al., Study of charged particles produced in the 84Kr + nuclear emulsion interactions at 1 GeV per nucleon, Materials Today Proc., 81, 1125 (2023).",
             "M. K. Singh et al., Grey particle characteristics produced in the interaction of 84Kr Emulsion at 1 A GeV, Materials Today Proc., 81, 1114 (2023).",
             "S. Kumar,M. K. Singh et al., Study the characteristics of shower particles at relativistic energy, Materials Today Proc., 81, 962 (2023).",
@@ -126,21 +128,20 @@
             "S. Karmakar M. K. Singh et al., Identification of bulk and surface event in point contact germanium detector at sub-keV energy region, Springer Conference Proceeding, 278, 169, 2022.",
             "S. Karmakar M. K. Singh et al., Characteristics of the high purity germanium detectors in dark matter and neutrino sector, Springer Conference Proceeding, 278, 185, 2022.",
             "V. Singh M. K. Singh et al., Neutrinospropertiesanditsdetection,SpringerConferenceProceeding,278,145,2022.",
-            "S. Karmakar, M. K. Singh et al., Current status of different detector technology in the searches of dark matter events, J. Phys.: Conf. Ser. 1947, 012009, (2021)."
-        ],
-        "conference_papers": [
-            "Organized International/National Conference and Workshop : 7 Total Paper Published in International / National Journal : 65 B. Kumari, M. K. Singh et al., Emission Characteristics of the Slowest Target Protons Produced in the Interaction of 84Kr nucleiwithEmulsionnucleiat1AGeV,J.KoreanPhys. Soc., Accepted, (2024)."
-        ],
-        "conference_proceedings": [
+            "S. Karmakar, M. K. Singh et al., Current status of different detector technology in the searches of dark matter events, J. Phys.: Conf. Ser. 1947, 012009, (2021).",
+            "M. K. Singh et al., P Type Point Contact Germanium Detector for Dark Matter Search, Chapter 68, Springer Proceedings in Physics, 174, 447-452 (2016).",
             "V. Singh, M. K. Singh et al., Prospects of dark matter direct search under deep sea water in India, AIP Conf. Proc. 1524, 216, (2013).",
             "M. K. Singh et al., Charge spectra of projectile fragmentation at relativistic energy, AIP Conf. Proc. 1524, 256 (2013).",
             "V. Singh,M. K. Singh et al., Measurement of e - e scattering cross section with CsI(Tl) detector array and the Beyond Standard Model constraints, AIP Conf. Proc. 1405, 331 (2011).",
-            "A. K. Soma, M. K. Singh et al., Low Energy Neutrino and Dark Matter Physics with sub-keV Germanium detector, AIP Conf. Proc. 1382, 259 (2011). Conference Paper Published in Conference Proceeding Book: 59"
+            "A. K. Soma, M. K. Singh et al., Low Energy Neutrino and Dark Matter Physics with sub-keV Germanium detector, AIP Conf. Proc. 1382, 259 (2011)."
         ],
+        "conference_papers": [
+            "Conference Paper Published in SCOPUS Journal: 16",
+            "Conference Paper Published in Conference Proceeding Book: 59"
+        ],
+        "conference_proceedings": [],
         "communications": [],
-        "book_chapters": [
-            "M. K. Singh et al., P Type Point Contact Germanium Detector for Dark Matter Search, Chapter 68, Springer Proceedings in Physics, 174, 447-452 (2016)."
-        ],
+        "book_chapters": [],
         "books": [],
         "technical_reports": [],
         "preprints": []

@@ -54,15 +54,18 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "Book Shah Bhumika, Pareek Jyoti, “Automated Evaluation of SQL Queries: Eval_SQL” , Evolution in Computational Intelligence, 2022, pp. 89-104, Springer. a. Shah Bhumika, Pareek Jyoti, “GU_DB: a database management system prototype for academia,” International Journal of Advanced Computer Research, vol. 11, Issue 55, 2021, pp. 67. b. Shah Bhumika, Pareek Jyoti, Patel Vivek and Patel Sandip, “Database Virtual Laboratory for Guided Learning” International Journal of Recent Technology and Engineering (IJRTE) “ vol. 8, Issue 2, 2019, pp. 5418-5425 (Peer-Reviewed)",
-            "Shah Bhumika et al, “Smart Laboratories : Learning Data Structures through Games”, T4E 2023, IIT Bombay"
+            "Book Shah Bhumika, Pareek Jyoti, “Automated Evaluation of SQL Queries: Eval_SQL” , Evolution in Computational Intelligence, 2022, pp. 89-104, Springer.",
+            "a. Shah Bhumika, Pareek Jyoti, “GU_DB: a database management system prototype for academia,” International Journal of Advanced Computer Research, vol. 11, Issue 55, 2021, pp. 67. b. Shah Bhumika, Pareek Jyoti, Patel Vivek and Patel Sandip, “Database Virtual Laboratory for Guided Learning” International Journal of Recent Technology and Engineering (IJRTE) “ vol. 8, Issue 2, 2019, pp. 5418-5425"
         ],
-        "conference_papers": [],
-        "conference_proceedings": [
+        "conference_papers": [
+            "(Peer-Reviewed)",
+            "Shah Bhumika et al, “Smart Laboratories : Learning Data Structures through Games”, T4E 2023, IIT Bombay",
             "Shah Bhumika, Sinha Ankita, Saxena Prashant, “Image GPT with Super Resolution” , Intelligent Data Engineering and Analytics: Proceedings of the 9th International Conference on Frontiers in Intelligent Computing: Theory and Applications (FICTA 2021) 28/02/2022, pp. 99-107, Springer Nature Singapore",
             "Shah Bhumika, Pareek Jyoti and Kanziya Darshit, “A Novel Approach to Optimize Subqueries for Open Source Databases” , Smart Trends in Systems, Security and Sustainability: Proceedings of WS4 2017, 2018, pp. 331-346, Springer Singapore",
-            "Shah Bhumika and Pareek Jyoti, “Query Optimization for Information Retrieval in Multilingual Environment for e-Governance Resources” Proceedings of International Conference on ICT in Business Industry & Government (ICTBIG), 18/11/2016, IEEE, pp. 1-4 PRESENTATIONS AND INVITED LECTURES & REVIEWER Keynote Address, “Teaching Challenge Winner for “Query Optimization” ACM- Compute - 2021, Keynote Address, “Teaching Challenge Winner for : Teaching Database Design ” ACM- Compute - 2022, Manipal University, Jaipur. PC Member for ACM Compute, 2023 PC Member for SIGCSE TS , 2024 to be held in March in Portland, Oregon PC Member for ITiCSE 2024 to be held in July in Milan, Italy"
+            "Shah Bhumika and Pareek Jyoti, “Query Optimization for Information Retrieval in Multilingual Environment for e-Governance Resources” Proceedings of International Conference on ICT in Business Industry & Government (ICTBIG), 18/11/2016, IEEE, pp. 1-4",
+            "Keynote Address, “Teaching Challenge Winner for “Query Optimization” ACM- Compute - 2021, Keynote Address, “Teaching Challenge Winner for : Teaching Database Design ” ACM- Compute - 2022, Manipal University, Jaipur. PC Member for ACM Compute, 2023 PC Member for SIGCSE TS , 2024 to be held in March in Portland, Oregon PC Member for ITiCSE 2024 to be held in July in Milan, Italy"
         ],
+        "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
         "books": [],

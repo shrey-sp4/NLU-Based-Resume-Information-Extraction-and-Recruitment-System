@@ -137,18 +137,21 @@
     "projects": [],
     "publications": {
         "journal_articles": [
+            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\", arXiv:2404.00584 (2024), Link",
             "Arghya Maity, Ahana Ghoshal; \"Using non-Markovian dynamics in effective negative temperature based transient quantum Otto engines\", Physical Review A 109, 022207 (2024), (Editors’ Suggestion), Link",
+            "Arghya Maity, Aditi Sen De; \"Enhanced efficiency in quantum Otto engine via additional magnetic field and effective negative temperature\", arXiv:2304.10420 (2023), Link",
+            "T. K. Konar, Arghya Maity, Aditi Sen De; \"Classical correlations for Generic States are Fragile under Decoherence\", arXiv:2209.03334 (2022), Link",
             "A. Patra, Arghya Maity, Aditi Sen De; \"Resource Theory of Non-absolute Separability\", Physical Review A 108, 042402 (2023), Link",
             "R. Gupta, Arghya Maity, S. Mal, Aditi Sen De ;\"Statistics of Entanglement Transformation with Hierarchies among Catalysts\", Physical Review A 106, 052402 (2022), Link",
             "Arghya Maity, N. Mathur, Petra Imhof, Navin Singh ; \"Structural Analysis of DNA molecule in a confined shell\", Physica A: Statistical Mechanics and its Applications 609(128382), 0378-4371 (2023) Link",
             "Arghya Maity, Navin Singh, \"Melting of DNA in confined geometries\", European Bio- physics Journal, 49 (7) 561-569 (2020) , Link",
             "Arghya Maity, A. Singh, Navin Singh, \"Stability of DNA passing through different geometrical pores\", EPL(Europhysics Letters), 127 (2) 28001 (2019) , Link",
             "Arghya Maity, A Singh, Navin Singh, \"Differential stability of DNA based on salt concentration\", European Biophysics Journal; 46 (1) 33-40 (2017) , Link",
-            "Arghya Maity, A Singh, Navin Singh, \"DNA denaturation in ionic solution\", American Institute of Physics (AIP) Conference Proceedings; 1728, 020415 (2016), Link",
-            "Young Quantum - 2023 (YouQu-2023), organized by the Quantum Information and Compu- tation group(QIP) of Harish-Chandra Research Institute (HRI), Prayagraj (Allahabad), 15-18 Feb, 2023. Presented a talk on “Resource Theory of Non-absolute Separability” (in person).",
-            "Puri Polymer Conference 2018, organized by the Institute of Physics, Bhubaneswar, 12-14 Dec, 2018. Presented a talk on “Stability of DNA within the matrix of different geometric confinement” (in person)."
+            "Arghya Maity, A Singh, Navin Singh, \"DNA denaturation in ionic solution\", American Institute of Physics (AIP) Conference Proceedings; 1728, 020415 (2016), Link"
         ],
         "conference_papers": [
+            "1. Young Quantum - 2023 (YouQu-2023), organized by the Quantum Information and Compu- tation group(QIP) of Harish-Chandra Research Institute (HRI), Prayagraj (Allahabad), 15-18 Feb, 2023. Presented a talk on “Resource Theory of Non-absolute Separability” (in person).",
+            "Puri Polymer Conference 2018, organized by the Institute of Physics, Bhubaneswar, 12-14 Dec, 2018. Presented a talk on “Stability of DNA within the matrix of different geometric confinement” (in person).",
             "American Institute of Physics (AIP) Conference Proceedings,International Conference on Con- densed Matter & Applied Physics(ICC), October 2015. Presented a poster on “DNA Denatu- ration in Ionic Solution” (in person)."
         ],
         "conference_proceedings": [],
@@ -156,11 +159,7 @@
         "book_chapters": [],
         "books": [],
         "technical_reports": [],
-        "preprints": [
-            "13. Arghya Maity, P. Chaki, Ahana Ghoshal, Ujjwal Sen; \"Quantum Heat Transformers\", arXiv:2404.00584 (2024), Link",
-            "Arghya Maity, Aditi Sen De; \"Enhanced efficiency in quantum Otto engine via additional magnetic field and effective negative temperature\", arXiv:2304.10420 (2023), Link",
-            "T. K. Konar, Arghya Maity, Aditi Sen De; \"Classical correlations for Generic States are Fragile under Decoherence\", arXiv:2209.03334 (2022), Link"
-        ]
+        "preprints": []
     },
     "certifications": [],
     "awards": [

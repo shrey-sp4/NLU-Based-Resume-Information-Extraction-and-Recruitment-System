@@ -105,18 +105,22 @@
             "Lokendra Chouhan, Prabhat Kumar Upadhyay, “Effect of Time-Dependent Drift and Diffusion in Molecular Communication Systems ”, IEEE Communications Letters, doi: 10.1109/LCOMM.2022.3142753, January 2022 .",
             "Lokendra Chouhan, Prabhat Kumar Upadhyay, “Time-Scaled Brownian Mo- tion of Transmitter and Receiver in Anomalous-Diffusive Molecular Communi- cation Channel”, IEEE Transactions on Molecular Biology and Multi-scale Communications Systems, vol 8, issue 3, June 2022,pp-207-211, doi: 10.1109/TMBMC.2022.3181506.",
             "Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Impact of Evanescence Process on Three-Dimensional Sub-Diffusion based Molecular Communication Channel”, in IEEE Transactions on NanoBioscience, March 2023, doi: 10.1109/TNB.2023.3260107 .",
-            "Lokendra Chouhan, “Impact of Anomalous Diffusion Phenomenon on Molecu- lar Information Delivery in Bounded Environment”, in IEEE Transactions on NanoBioscience, 2024, doi: 10.1109/TNB.2024.3467695 ."
+            "Lokendra Chouhan, “Impact of Anomalous Diffusion Phenomenon on Molecu- lar Information Delivery in Bounded Environment”, in IEEE Transactions on NanoBioscience, 2024, doi: 10.1109/TNB.2024.3467695 .",
+            "Preprint: Lokendra Chouhan, “Molecular Communication in Bounded Spherical Region with Anomalous Diffusion Phenomenon”, submitted in IEEE Transactions on Molecular Biology and Multi-scale Communications, 2024 . Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 3/7",
+            "Preprint: Lokendra Chouhan, “Localization of Nanomachines in Anomalous Dif- fusion Based Molecular Communication”, a major revision submitted in IEEE Communications Letters, 2024 ."
         ],
-        "conference_papers": [],
+        "conference_papers": [
+            "Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Mobile Sub-diffusion Molecular Communication Channel”, In Proceedings of the 10th ACM International Conference on Nanoscale Computing and Com- munication (NANOCOM ’23). Association for Computing Machinery, New York, NY, USA, Article 152-153. https://dl.acm.org/doi/pdf/10.1145/3576781.3608743, Published.",
+            "Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Evanescence reaction in subdiffusion molecular communication channel”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published.",
+            "Lokendra Chouhan and Mohamed-Slim Alouini, , “On the transport of molecular information in sub-diffusion media with reflecting boundary”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published.",
+            "Prabhat Kumar Sharma, Lokendra Chouhan, “Performance Analysis of Diffusive Molecular Communication in Three Dimensional Channel”, Asia Pacific Radio Science Conference, URSI, New Delhi, India, March 2019. doi: https://www.ursi.org/proceedings/procAP19/papers2019/URSILoke.pdf, Published ."
+        ],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
         "books": [],
         "technical_reports": [],
-        "preprints": [
-            "Preprint: Lokendra Chouhan, “Molecular Communication in Bounded Spherical Region with Anomalous Diffusion Phenomenon”, submitted in IEEE Transactions on Molecular Biology and Multi-scale Communications, 2024 . Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 3/7",
-            "Preprint: Lokendra Chouhan, “Localization of Nanomachines in Anomalous Dif- fusion Based Molecular Communication”, a major revision submitted in IEEE Communications Letters, 2024 . 1 Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Mobile Sub-diffusion Molecular Communication Channel”, In Proceedings of the 10th ACM International Conference on Nanoscale Computing and Com- munication (NANOCOM ’23). Association for Computing Machinery, New York, NY, USA, Article 152-153. https://dl.acm.org/doi/pdf/10.1145/3576781.3608743, Published. 2 Nadezhda Briantceva, Lokendra Chouhan, Matteo Parsani, and Mohamed-Slim Alouini, “Evanescence reaction in subdiffusion molecular communication channel”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published. 3 Lokendra Chouhan and Mohamed-Slim Alouini, , “On the transport of molecular information in sub-diffusion media with reflecting boundary”, In Proceedings of the 9th ACM International Conference on Nanoscale Computing and Communication (NANOCOM ’22). Association for Computing Machinery, New York, NY, USA, Article 28, 1–2. https://doi.org/10.1145/3558583.3558868, Published. 4 Prabhat Kumar Sharma, Lokendra Chouhan, “Performance Analysis of Diffusive Molecular Communication in Three Dimensional Channel”, Asia Pacific Radio Science Conference, URSI, New Delhi, India, March 2019. doi: https://www.ursi.org/proceedings/procAP19/papers2019/URSILoke.pdf, Published ."
-        ]
+        "preprints": []
     },
     "certifications": [],
     "awards": [

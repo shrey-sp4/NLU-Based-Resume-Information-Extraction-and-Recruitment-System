@@ -54,29 +54,28 @@
     "projects": [],
     "publications": {
         "journal_articles": [
-            "Sahoo, Sujit Sangram, Mahesh Mohan Hosmane, and Vijay Kumar Chaurasiya. \"A secure payment channel rebalancing model for layer-2 blockchain.\" Internet of Things 22 (2023): 100822.",
+            "• Sahoo, Sujit Sangram, Mahesh Mohan Hosmane, and Vijay Kumar Chaurasiya. \"A secure payment channel rebalancing model for layer-2 blockchain.\" Internet of Things 22 (2023): 100822.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"EASB: ECC based aggregate signature without bilinear pairing for blockchain.\" Multimedia Tools and Applications (2023): 1-20.",
             "Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay Kumar Chaurasiya. \"Blockchain Based n-party Virtual Payment Model with Concurrent Execution.\" Arabian Journal for Science and Engineering (2023): 1-28.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"VIBE: blockchain-based virtual payment in IoT ecosystem: a secure decentralized marketplace.\" Multimedia Tools and Applications (2023): 1-26.",
             "Sahoo, Sujit Sangram, and Vijay Kumar Chaurasiya. \"Proof of location-based delivery system using multi- party virtual state channel: a blockchain model.\" The Journal of Supercomputing (2023): 1-31.",
-            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \" Deterministic Nonce Generation to Prevent Key Exfiltration Attack.\" In Wireless Personal Communication. (Under Review)",
-            "Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay K. Chaurasiya. \"Secure Blockchain Model for Vehicles Toll Collection by GPS tracking: A case study of India.\" In 2022 IEEE India Council International Subsections Conference (INDISCON), pp. 1-6. IEEE, 2022.",
-            "Sahoo, Sujit Sangram, Mahesh M Hosmane, Aravind R. Menon, and Vijay K. Chaurasiya. \" Ethereum Compatible Faster Atomic Payment Splitting Network.\" In 2022 IEEE India Council International Subsections Conference (INDICON). IEEE, 2022."
+            "Sahoo, Sujit Sangram, and Vijay K. Chaurasiya. \" Deterministic Nonce Generation to Prevent Key Exfiltration Attack.\" In Wireless Personal Communication. (Under Review)"
         ],
         "conference_papers": [
+            "• Sahoo, Sujit Sangram, Aravind R. Menon, and Vijay K. Chaurasiya. \"Secure Blockchain Model for Vehicles Toll Collection by GPS tracking: A case study of India.\" In 2022 IEEE India Council International Subsections Conference (INDISCON), pp. 1-6. IEEE, 2022.",
+            "Sahoo, Sujit Sangram, Mahesh M Hosmane, Aravind R. Menon, and Vijay K. Chaurasiya. \" Ethereum Compatible Faster Atomic Payment Splitting Network.\" In 2022 IEEE India Council International Subsections Conference (INDICON). IEEE, 2022.",
             "Sahoo, Sujit Sangram, Mahesh M Hosmane and Vijay K. Chaurasiya. \" Blockchain based Marketplace for Farmers using PERUN Payment System.\" In 2022 International Conference on Emerging Global Trends in Engineering and Technology, 2022.",
-            "Mohanty, Sujata, Sujit Sangram Sahoo, and Banshidhar Majhi. \"Certificateless nominative signature scheme based upon DLP.\" In 2016 International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT), pp. 1241-1245. IEEE, 2016."
-        ],
-        "conference_proceedings": [
+            "Mohanty, Sujata, Sujit Sangram Sahoo, and Banshidhar Majhi. \"Certificateless nominative signature scheme based upon DLP.\" In 2016 International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT), pp. 1241-1245. IEEE, 2016.",
             "Aditia, Mayank and Sujit S. Sahoo et.al. \"Optimized CL-PKE with lightweight encryption for resource constrained devices.\" In Proceedings of the 20th International Conference on Distributed Computing and Networking, pp. 427-432. 2019. DATE:"
         ],
+        "conference_proceedings": [],
         "communications": [],
-        "book_chapters": [
-            "IEEE/ACM TRANSACTION: Under Review (2) SCI / SCIE Journal (Unpaid) Papers: Published (5), Under Review (1) BOOK CHAPTER: 1 (Published)"
-        ],
+        "book_chapters": [],
         "books": [],
         "technical_reports": [],
-        "preprints": []
+        "preprints": [
+            "SCI / SCIE Journal (Unpaid) Papers: Published (5), Under Review (1) BOOK CHAPTER: 1 (Published)"
+        ]
     },
     "certifications": [
         "• IEEE Young Professional Member Since 2020.",
