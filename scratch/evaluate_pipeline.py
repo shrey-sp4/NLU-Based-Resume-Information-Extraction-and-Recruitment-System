@@ -55,6 +55,12 @@ def calc_f1(gt_text: str, pred_text: str) -> Tuple[float, float, float]:
     f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
     return precision, recall, f1
 
+def normalize_date_text(value) -> str:
+    """Compare dates ignoring whitespace and dash style (labels spell the same range inconsistently)."""
+    s = str(value or "").lower().replace("\u2013", "-").replace("\u2014", "-").replace("--", "-")
+    s = re.sub(r"\s*-\s*", "-", s)
+    return re.sub(r"\s+", " ", s).strip()
+
 def score_entity_set_match(gt_vals: List[str], pred_vals: List[str]) -> Tuple[float, float, float]:
     if not gt_vals and not pred_vals: return 1.0, 1.0, 1.0
     if not gt_vals or not pred_vals: return 0.0, 0.0, 0.0
@@ -167,8 +173,8 @@ def run_consolidated_evaluation():
         p_org = [str(e.get("institution")) for e in pred_exp if isinstance(e, dict) and e.get("institution")]
         res_metrics.append(("experience_institution", *score_entity_set_match(g_org, p_org)))
 
-        g_d = [str(e.get("duration") or e.get("dates")) for e in gt_exp if isinstance(e, dict) and (e.get("duration") or e.get("dates"))]
-        p_d = [str(e.get("dates")) for e in pred_exp if isinstance(e, dict) and e.get("dates")]
+        g_d = [normalize_date_text(e.get("duration") or e.get("dates")) for e in gt_exp if isinstance(e, dict) and (e.get("duration") or e.get("dates"))]
+        p_d = [normalize_date_text(e.get("dates")) for e in pred_exp if isinstance(e, dict) and e.get("dates")]
         res_metrics.append(("experience_dates", *score_entity_set_match(g_d, p_d)))
 
         # --- Text Sections ---

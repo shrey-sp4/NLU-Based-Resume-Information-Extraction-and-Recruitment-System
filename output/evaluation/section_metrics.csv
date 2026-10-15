@@ -33,7 +33,7 @@ Afzal_Beg_Resume.json,education_graduation_year,1.0,1.0,1.0
 Afzal_Beg_Resume.json,education_cgpa,1.0,1.0,1.0
 Afzal_Beg_Resume.json,experience_title,1.0,1.0,1.0
 Afzal_Beg_Resume.json,experience_institution,1.0,1.0,1.0
-Afzal_Beg_Resume.json,experience_dates,0.75,0.75,0.75
+Afzal_Beg_Resume.json,experience_dates,1.0,1.0,1.0
 Afzal_Beg_Resume.json,summary,0.7222,1.0,0.8387
 Afzal_Beg_Resume.json,projects,1.0,1.0,1.0
 Afzal_Beg_Resume.json,certifications,0.0,0.0,0.0
@@ -58,7 +58,7 @@ Anibrata_Pal_Resume.json,education_graduation_year,0.8333,1.0,0.9091
 Anibrata_Pal_Resume.json,education_cgpa,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,experience_title,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,experience_institution,1.0,1.0,1.0
-Anibrata_Pal_Resume.json,experience_dates,0.6667,0.6667,0.6667
+Anibrata_Pal_Resume.json,experience_dates,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,summary,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,projects,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,certifications,1.0,1.0,1.0
@@ -83,7 +83,7 @@ CV-Anurag_Choudhary.json,education_graduation_year,1.0,0.6667,0.8
 CV-Anurag_Choudhary.json,education_cgpa,0.0,0.0,0.0
 CV-Anurag_Choudhary.json,experience_title,1.0,1.0,1.0
 CV-Anurag_Choudhary.json,experience_institution,0.2857,0.5,0.3636
-CV-Anurag_Choudhary.json,experience_dates,0.1429,0.25,0.1818
+CV-Anurag_Choudhary.json,experience_dates,0.5714,1.0,0.7273
 CV-Anurag_Choudhary.json,summary,0.0,0.0,0.0
 CV-Anurag_Choudhary.json,projects,0.0,0.0,0.0
 CV-Anurag_Choudhary.json,certifications,1.0,0.8929,0.9434
@@ -233,7 +233,7 @@ Resume_final_Amit_CMA_IIM_A.json,education_graduation_year,1.0,0.8333,0.9091
 Resume_final_Amit_CMA_IIM_A.json,education_cgpa,1.0,1.0,1.0
 Resume_final_Amit_CMA_IIM_A.json,experience_title,1.0,1.0,1.0
 Resume_final_Amit_CMA_IIM_A.json,experience_institution,1.0,1.0,1.0
-Resume_final_Amit_CMA_IIM_A.json,experience_dates,0.875,0.875,0.875
+Resume_final_Amit_CMA_IIM_A.json,experience_dates,1.0,1.0,1.0
 Resume_final_Amit_CMA_IIM_A.json,summary,0.0,0.0,0.0
 Resume_final_Amit_CMA_IIM_A.json,projects,0.9149,0.9451,0.9297
 Resume_final_Amit_CMA_IIM_A.json,certifications,1.0,1.0,1.0
