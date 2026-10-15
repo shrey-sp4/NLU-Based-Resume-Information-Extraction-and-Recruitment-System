@@ -6,4 +6,5 @@ output/sections/
 output/extraction/
 output/evaluation/error_report.txt
 __pycache__/
-venv/
+venv/backup/
+full_repo_readable.txt
