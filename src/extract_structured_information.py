@@ -759,17 +759,30 @@ _HEADING_TYPE_RULES = [
 _HEAD_CONF = r"conference|symposi|\bworkshops?\b|\bseminars?\b|\bpresentations?\b"
 _HEAD_JOURNAL = r"journal(?!ism)|\bresearch\s+articles?\b|\bpapers\s+published\b|\bpublished\s*/\s*accepted\b|\btransactions\b"
 _YEAR_HEADING = re.compile(r"^\s*(?:19|20)\d{2}\s+publications?\s*$", re.IGNORECASE)
+_SKIP = "__skip__"
+_SKIP_BLOCK_LINE = re.compile(r"reviewer|reviewing|referee|\btaught\b|courses?\s+(?:taught|handled)", re.IGNORECASE)
 _NON_PUB_LINE = re.compile(r"reviewer|taught|attended|organi[sz]ed|invited|lectures?|\btalks?\b|awarded|\bcover\b|highlight", re.IGNORECASE)
 _COMMUNICATED_MARK = re.compile(r"\(\s*communicated\s*\)|\bcommunicated\.?\s*$", re.IGNORECASE)
 # activity lines (workshops attended, talks given, sessions chaired) are not publications
 _ACTIVITY_ENTRY = re.compile(
     r"^\s*(?:[\[\(]?\d{1,3}[\.\)\]]\s*)?(?:participated|attended|delivered|co-?chaired|chaired|organi[sz]ed|conducted|"
-    r"co-?ordinated|moderated|served|acted|completed|undergone|invited\s+(?:talk|lecture)|expert\s+talk|resource\s+person|guest\s+lecture)\b",
+    r"co-?ordinated|moderated|served|acted|completed|undergone|keynote|plenary|panel(?:ist)?|invited\s+(?:talk|lecture)|expert\s+talk|resource\s+person|guest\s+lecture)\b",
     re.IGNORECASE)
 _CITATION_MARK = re.compile(r"\bpp?\.?\s*\d|\bvol\.?\s*\d|\bdoi\b|\bissn\b|\d+\s*\(\d+\)\s*,?\s*\d+\s*[-–]\s*\d+", re.IGNORECASE)
 
 def _is_activity_entry(entry):
     return bool(_ACTIVITY_ENTRY.match(entry)) and not _CITATION_MARK.search(entry)
+
+_METRICS_LINE = re.compile(r"\bh-?\s?index\b|\bi-?10\s?-?index\b|citations?\s+per\s+paper|total\s+citations?|total\s+publications?", re.IGNORECASE)
+
+def _is_non_citation_entry(entry):
+    """PDF glyph junk, citation-metric lines and short label lines such as 'International(abroad):' are not publications."""
+    e = entry.strip()
+    if re.fullmatch(r"(?:\(cid:\d+\)\s*)+", e):
+        return True
+    if len(e) <= 250 and _METRICS_LINE.search(e[:40]) and not _CITATION_MARK.search(e):
+        return True
+    return len(e) <= 100 and e.endswith(":")
 # inline sub-headings are only trusted for the rare types; journal/conference context comes from Stage-2 headings
 _INLINE_TYPES = {"preprints", "communications", "book_chapters", "technical_reports"}
 
@@ -798,6 +811,8 @@ def _inline_subheading(line):
         return None
     if re.search(r"\d", t) or t.endswith((",", ".")):
         return None
+    if _SKIP_BLOCK_LINE.search(t):
+        return ("skip", None)                                # the list under this heading is not publications
     if _NON_PUB_LINE.search(t):
         return ("reset", None)
     bucket = _heading_type(t)
@@ -820,13 +835,13 @@ def _typed_segments(text, groups):
         for line in (g.get("text") or "").splitlines():
             sub = _inline_subheading(line)
             if sub is not None:
-                if buf:
+                if buf and ctx != _SKIP:
                     segments.append((ctx, "\n".join(buf)))
-                    buf = []
-                ctx = sub[1] if sub[0] == "type" else hint
+                buf = []
+                ctx = sub[1] if sub[0] == "type" else (_SKIP if sub[0] == "skip" else hint)
                 continue                                     # a heading line is not a publication
             buf.append(line)
-        if buf:
+        if buf and ctx != _SKIP:
             segments.append((ctx, "\n".join(buf)))
     return segments
 
@@ -838,8 +853,8 @@ def split_publications_by_type(text, groups=None):
     }
     for hint, chunk in _typed_segments(text, groups):
         for entry in [q for e in split_publication_entries(chunk) for q in split_glued_references(e)]:
-            if _is_activity_entry(entry):
-                continue                                     # talks, workshops attended, sessions chaired: not publications
+            if _is_activity_entry(entry) or _is_non_citation_entry(entry):
+                continue                                     # talks, workshops attended, labels, metrics, glyph junk: not publications
             if _COMMUNICATED_MARK.search(entry):
                 bucket = "communications"                    # explicit "(Communicated)" marker on this entry
             else:
