@@ -760,6 +760,7 @@ _HEAD_CONF = r"conference|symposi|\bworkshops?\b|\bseminars?\b|\bpresentations?\
 _HEAD_JOURNAL = r"journal(?!ism)|\bresearch\s+articles?\b|\bpapers\s+published\b|\bpublished\s*/\s*accepted\b|\btransactions\b"
 _YEAR_HEADING = re.compile(r"^\s*(?:19|20)\d{2}\s+publications?\s*$", re.IGNORECASE)
 _SKIP = "__skip__"
+_STATUS_SUFFIX = re.compile(r"\(\s*(?:communicated|accepted|submitted|published|in\s+press|under\s+review|to\s+appear)\s*\)\s*\.?\s*$", re.IGNORECASE)
 _SKIP_BLOCK_LINE = re.compile(r"reviewer|reviewing|referee|\btaught\b|courses?\s+(?:taught|handled)", re.IGNORECASE)
 _NON_PUB_LINE = re.compile(r"reviewer|taught|attended|organi[sz]ed|invited|lectures?|\btalks?\b|awarded|\bcover\b|highlight", re.IGNORECASE)
 _COMMUNICATED_MARK = re.compile(r"\(\s*communicated\s*\)|\bcommunicated\.?\s*$", re.IGNORECASE)
@@ -803,8 +804,8 @@ def _heading_type(text):
 
 def _inline_subheading(line):
     """('type', bucket) for a rare-type sub-heading line, ('reset', None) for a non-publication heading, else None."""
-    if re.fullmatch(r"\(.*\)", line.strip()):
-        return None                                          # "(Communicated)" is a suffix of the entry above, not a heading
+    if re.fullmatch(r"\(.*\)", line.strip()) or _STATUS_SUFFIX.search(line.strip()):
+        return None                                          # "(Communicated)" or "... title. (Communicated)" ends an entry; it is not a heading
     t = line.strip().strip(":-–—|•●■□*➢+ ").strip()
     t = re.sub(r"\s*[:\(]\s*\d+\s*\)?\s*$", "", t).strip()        # trailing count, e.g. "Book chapters: 3"
     if not t or len(t.split()) > 7 or len(t) > 60:
