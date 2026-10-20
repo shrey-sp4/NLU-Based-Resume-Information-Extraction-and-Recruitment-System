@@ -1,6 +1,6 @@
 {
     "personal_details": {
-        "name": "",
+        "name": "Isha Sharma",
         "email": "ishasharmaphy@iitkgp.ac.in",
         "phone": "8130349452",
         "phones": [
@@ -14,71 +14,75 @@
             "degree": "PhD",
             "graduation_year": "2018-2024",
             "cgpa": "",
-            "institution": "Institute",
-            "raw_text": "• 2018-2024: PhD,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India."
+            "institution": "Indian Institute of Technology Kharagpur",
+            "raw_text": "• 2018-2024 : PhD, Physics, Indian Institute of Technology Kharagpur, West Bengal, India."
         },
         {
             "degree": "",
             "graduation_year": "2016-2018",
             "cgpa": "",
-            "institution": "Institute",
-            "raw_text": "• 2016-2018: MastersofScience,Physics,IndianInstituteofTechnologyKharagpur,WestBengal,India. CGPA:7.89."
+            "institution": "Indian Institute of Technology Kharagpur",
+            "raw_text": "• 2016-2018 : Masters of Science, Physics, Indian Institute of Technology Kharagpur, West Bengal, India. CGPA: 7.89."
         },
         {
-            "degree": "",
+            "degree": "Bachelor of Science",
             "graduation_year": "2013-2016",
             "cgpa": "",
-            "institution": "BachelorofScience,Physics",
-            "raw_text": "• 2013-2016: BachelorofScience,Physics,MirandaHouse,DelhiUniversity,Delhi,India. CGPA:8.96"
+            "institution": "Delhi University",
+            "raw_text": "• 2013-2016 : Bachelor of Science, Physics, Miranda House, Delhi University, Delhi, India. CGPA: 8.96"
         },
         {
             "degree": "",
             "graduation_year": "2013",
             "cgpa": "92%",
-            "institution": "School",
-            "raw_text": "• 2013: Class12,D.A.V.PublicSchool,Mahendragarh,Haryana,India. Percentage: 92%"
+            "institution": "D.A.V. Public School",
+            "raw_text": "• 2013 : Class 12, D.A.V. Public School, Mahendragarh, Haryana, India. Percentage: 92%"
         },
         {
             "degree": "",
             "graduation_year": "2011",
             "cgpa": "",
-            "institution": "School",
-            "raw_text": "• 2011: Class10,D.A.V.PublicSchool,Mahendragarh,Haryana,India. CGPA:10 THESIS"
+            "institution": "D.A.V. Public School",
+            "raw_text": "• 2011 : Class 10, D.A.V. Public School, Mahendragarh, Haryana, India. CGPA: 10 THESIS"
         },
         {
-            "degree": "",
+            "degree": "Ph.D",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
-            "raw_text": "• Ph.Dthesis: TechnologyandModellingofFiber-OpticCantileverDeflectionDeviceforElectricFieldSens- ingandModeSwitchingApplications"
+            "institution": "Fiber-Optic Cantilever Deflection Device for",
+            "raw_text": "• Ph.D thesis : Technology and Modelling of Fiber-Optic Cantilever Deflection Device for Electric Field Sens- ing and Mode Switching Applications"
         },
         {
             "degree": "M.Sc",
             "graduation_year": "",
             "cgpa": "",
-            "institution": "",
-            "raw_text": "• M.Sc. project: Protein-ProteinInteractionthroughLightScatteringTechnique ThemoleculardimensionoftheproteinisdeterminedintermsofStokesradiususinglightscatteringtech- niques."
+            "institution": "Protein-Protein Interaction",
+            "raw_text": "• M.Sc. project : Protein-Protein Interaction through Light Scattering Technique The molecular dimension of the protein is determined in terms of Stokes radius using light scattering tech- niques."
         }
     ],
-    "experience": [],
+    "experience": [
+        {
+            "job_title": "",
+            "dates": "",
+            "institution": "Optoelectronics • Quantum Mechanics • Physics",
+            "raw_text": "• Electromagnetism • Mathematical Physics • Physics of Semiconductor • Fiber optics and Optoelectronics • Quantum Mechanics • Physics of Waves • Btech Ist year Lab"
+        }
+    ],
     "research_interests": [
-        "• Fiberandintegratedoptics,photonics,andopticalfibersensorsanddevices.",
-        "Designing,fabricating,andoptimizingopticalsetups,withaspecificemphasisonopticalfiberdevices.",
-        "Multiferroicmaterialsforthedevelopmentofall-fiberelectricandmagneticfieldsensors. LISTOFPUBLICATIONS(7)",
-        "I. Sharma, P. Roy Chaudhuri, \"Demonstration of Mode-Switching in a Few-Mode Fiber using Electric FieldControlledDynamicOff-SetCoupling,\"JournalofLightwaveTechnology,doi: 10.1109/JLT.2024.3370846 (2024).",
-        "I.Sharma,P.RoyChaudhuri,\"Electricfieldsensingandpolarisationmeasurementusingadvancedmulti- pass interrogation type fiber-optic beam deflection probe,\" Optical Fiber Technology, vol. 81, p. 103484, doi:10.1016/j.yofte.2023.103484(2023).",
-        "I. Sharma , P. Roy Chaudhuri , \"A new approach to sensing low electric field using optical fibers beam- deflectionconfigurationwithBiFe Co O nanoparticlesasprobeanddeterminationofpolarisation,\", 0.9 0.1 3 OpticalFiberTechnology,vol. 62,pp. 1-8,doi:10.1016/j.yofte.2021.102472(2021).",
-        "P. Roy Chaudhuri , I. Sharma , \"Determination of polarization properties of piezoelectric nanocomposite particlesBiFe Co O usingfiber-opticcantileverbeamdeflectionapproach,\"JournalofOptics,vol.50(4), 0.9 0.1 3 pp. 611-620,doi:10.1007/s12596-021-00741-8(2021).",
-        "I. Sharma , P. Roy Chaudhuri , \"Design, experimental demonstration and modeling fiber ring resonator device with fiber cantilever-deflection probe for sensing surrounding electric field,\" A. Journal of Physics, vol. 31(3-6),pp.A27-A32,doi: 10.54955/AJP.31.3-6.2022.A27-A32(2022). MANUSCRIPTFORSUBMISSION",
-        "Acomprehensivereviewoffiber-opticcantileverbeamdeflectiondevicesforelectricandmagneticsensing applications. CONFERENCESPROCEEDINGS/BOOKCHAPTERS(10)",
-        "I.Sharma,P.RoyChaudhuri,\"Demonstrationofprecisemodeswitchinginfourmodefiberusingelectric field induced launching offset control\" In Frontiers in Optics, Optica Publishing Group, pp. JTu4A-66, doi: 10.1364/FIO.2023.JTu4A.66(2023).",
-        "I.Sharma,P.RoyChaudhuri,\"ExperimentalDemonstrationofAll-FiberElectricFieldSensingDevice\"In- ternationalSymposiumonDevices,CircuitsandSystems(ISDCS),vol. 1,pp. 1-3,IEEE(2023).",
-        "I. Sharma, P. Roy Chaudhuri, \"Experimental Demonstration of Electric Field Sensing Using Sagnac Loop BasedFiberCantileverConfiguration\"5thInternationalSymposiumonDevices,CircuitsandSystems(IS- DCS).IEEE,doi: 10.1007/978-981-99-0055-826(2022)."
+        "• Fiber and integrated optics, photonics, and optical fiber sensors and devices.",
+        "Designing, fabricating, and optimizing optical setups, with a specific emphasis on optical fiber devices.",
+        "Multiferroic materials for the development of all-fiber electric and magnetic field sensors."
     ],
     "skills": [],
     "projects": [],
     "publications": {
-        "journal_articles": [],
+        "journal_articles": [
+            "I. Sharma, P. Roy Chaudhuri, \"Demonstration of Mode-Switching in a Few-Mode Fiber using Electric Field Controlled Dynamic Off-Set Coupling,\" Journal of Lightwave Technology, doi: 10.1109/JLT.2024.3370846 (2024).",
+            "I. Sharma, P. Roy Chaudhuri, \"Electric field sensing and polarisation measurement using advanced multi- pass interrogation type fiber-optic beam deflection probe,\" Optical Fiber Technology, vol. 81, p. 103484, doi:10.1016/j.yofte.2023.103484 (2023).",
+            "I. Sharma , P. Roy Chaudhuri , \"A new approach to sensing low electric field using optical fibers beam- deflection configuration with BiFe Co O nanoparticles as probe and determination of polarisation,\" , 0.9 0.1 3 Optical Fiber Technology, vol. 62, pp. 1-8, doi:10.1016/j.yofte.2021.102472 (2021).",
+            "P. Roy Chaudhuri , I. Sharma , \"Determination of polarization properties of piezoelectric nanocomposite particles BiFe Co O using fiber-optic cantilever beam deflection approach,\" Journal of Optics, vol. 50(4), 0.9 0.1 3 pp. 611-620, doi:10.1007/s12596-021-00741-8 (2021).",
+            "I. Sharma , P. Roy Chaudhuri , \"Design, experimental demonstration and modeling fiber ring resonator device with fiber cantilever-deflection probe for sensing surrounding electric field,\" A. Journal of Physics, vol. 31(3-6), pp.A27-A32, doi: 10.54955/AJP.31.3-6.2022.A27-A32 (2022)."
+        ],
         "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
@@ -88,44 +92,8 @@
         "preprints": []
     },
     "certifications": [],
-    "awards": [
-        "• NationalEligibilityTest-JuniorResearchFellow(NET-JRF)(CSIR)-June2018",
-        "GraduateAptitudeTestinEngineering(GATE)inPhysics-2018",
-        "IndianInstituteofTechnology-JointAdmissionTest(IIT-JAM)inPhysics-2016",
-        "Awarded’CSSSScholarship’offeredbyMHRD,Govt. ofIndia2013-2018",
-        "ClearedOlympiadsinMathematics(ClassXI)organisedbyScienceOlympiadFoundation-2012",
-        "SelectedasGuestfacultyatShivajiCollege,DelhiUniversity COMPUTERANALYSISANDSIMULATION",
-        "C++,Matlab,COMSOLMultiphysics. TEACHINGEXPERIENCE",
-        "Electromagnetism",
-        "MathematicalPhysics",
-        "PhysicsofSemiconductor",
-        "FiberopticsandOptoelectronics",
-        "QuantumMechanics",
-        "PhysicsofWaves",
-        "BtechIstyearLab DETAILSOFREFEREES",
-        "Prof. ParthaRoyChaudhuri DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: roycp@phy.iitkgp.ac.in",
-        "Prof. MaruthiManojBrundavanam DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: bmmanoj@phy.iitkgp.ac.in",
-        "Prof. AbhaDevHabib DepartmentofPhysics MirandaHouse,UniveristyofDelhi NewDelhi,India-1100007 Email: abhadev.habib@mirandahouse.ac.in"
-    ],
-    "achievements": [
-        "• NationalEligibilityTest-JuniorResearchFellow(NET-JRF)(CSIR)-June2018",
-        "GraduateAptitudeTestinEngineering(GATE)inPhysics-2018",
-        "IndianInstituteofTechnology-JointAdmissionTest(IIT-JAM)inPhysics-2016",
-        "Awarded’CSSSScholarship’offeredbyMHRD,Govt. ofIndia2013-2018",
-        "ClearedOlympiadsinMathematics(ClassXI)organisedbyScienceOlympiadFoundation-2012",
-        "SelectedasGuestfacultyatShivajiCollege,DelhiUniversity COMPUTERANALYSISANDSIMULATION",
-        "C++,Matlab,COMSOLMultiphysics. TEACHINGEXPERIENCE",
-        "Electromagnetism",
-        "MathematicalPhysics",
-        "PhysicsofSemiconductor",
-        "FiberopticsandOptoelectronics",
-        "QuantumMechanics",
-        "PhysicsofWaves",
-        "BtechIstyearLab DETAILSOFREFEREES",
-        "Prof. ParthaRoyChaudhuri DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: roycp@phy.iitkgp.ac.in",
-        "Prof. MaruthiManojBrundavanam DepartmentofPhysics IndianInstituteofTechnology,Kharagpur Kharagpur,WestBengal,India-721302 Email: bmmanoj@phy.iitkgp.ac.in",
-        "Prof. AbhaDevHabib DepartmentofPhysics MirandaHouse,UniveristyofDelhi NewDelhi,India-1100007 Email: abhadev.habib@mirandahouse.ac.in"
-    ],
+    "awards": [],
+    "achievements": [],
     "memberships": [],
     "societies": [],
     "responsibilities": [],

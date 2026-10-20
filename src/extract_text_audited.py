@@ -90,6 +90,23 @@ def safe_filename(file_path: Path) -> str:
     return stem.strip("_")
 
 
+GLUED_WORD_REGEX = re.compile(r"[A-Za-z]{22,}")
+TIGHT_X_TOLERANCE = 1.5
+
+
+def extract_page_text(page) -> str:
+    """Default extraction; if the page shows glued words (missing spaces), retry
+    with a tighter x_tolerance and keep the retry only if it has fewer glued words."""
+    text = page.extract_text() or ""
+    glued_before = len(GLUED_WORD_REGEX.findall(text))
+    if glued_before == 0:
+        return text
+    retry = page.extract_text(x_tolerance=TIGHT_X_TOLERANCE) or ""
+    if len(GLUED_WORD_REGEX.findall(retry)) < glued_before:
+        return retry
+    return text
+
+
 def extract_pdf_with_pdfplumber(pdf_path: Path) -> Dict[str, Any]:
     """
     Extract text page-wise using pdfplumber.
@@ -104,7 +121,7 @@ def extract_pdf_with_pdfplumber(pdf_path: Path) -> Dict[str, Any]:
         page_count = len(pdf.pages)
 
         for page_index, page in enumerate(pdf.pages, start=1):
-            raw_text = page.extract_text() or ""
+            raw_text = extract_page_text(page)
             cleaned_page_text = clean_text(raw_text)
 
             char_count = len(cleaned_page_text)

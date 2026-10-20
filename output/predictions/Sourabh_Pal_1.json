@@ -7,51 +7,26 @@
         "address": ""
     },
     "summary": [],
-    "education": [
-        {
-            "degree": "",
-            "graduation_year": "",
-            "cgpa": "",
-            "institution": "Academic College",
-            "raw_text": "Academic College/School University/Board Yearof Percentage Passing"
-        },
-        {
-            "degree": "M.Tech",
-            "graduation_year": "2024",
-            "cgpa": "76%",
-            "institution": "M.Tech Galgotias University",
-            "raw_text": "M.Tech Galgotias University Galgotias 2024 76% (CSE) University"
-        },
-        {
-            "degree": "B.Tech",
-            "graduation_year": "2022",
-            "cgpa": "67%",
-            "institution": "B.Tech Bhagwati Institute",
-            "raw_text": "B.Tech Bhagwati Institute A.K.T.U 2022 67%"
-        }
-    ],
+    "education": [],
     "experience": [],
     "research_interests": [
-        "➢ Database ManagementSystem",
+        "➢ Database Management System",
         "Cloud Computing"
     ],
     "skills": [
-        "➢ Team Player.",
+        "FRONT END DEVELOPMENT | HTML, CSS & TAILWIND BACK END DEVELOPMENT | Java Spring MISCELLANEOUS | My-Sql & Bootstrap",
+        "Team Player.",
         "Deliver Results.",
-        "Excellent ProblemSolving.",
+        "Excellent Problem Solving.",
         "Work Management.",
-        "Ability tolearn newthings."
+        "Ability to learn new things."
     ],
     "projects": [
-        "❖ Movie Project: It’samovie based website,thereareseparatesectionslike Homepage, Popular MovieSection,TopRated &UpcomingMovie. Note :API Fetchfromthird parties. Tools: ReactJs&Tailwind CSS. ❖ CRUDOperation : It’sabackend based projectwhere wecanperform crud functions like CreateData,Update Data,Delete& Find. Tools: Spring Boot&Mysql."
+        "❖ Movie Project : It’s a movie based website, there are separate sections like Home page, Popular Movie Section, Top Rated & Upcoming Movie. Note : API Fetch from third parties. Tools : ReactJs & Tailwind CSS. ❖ CRUD Operation : It’s a backend based project where we can perform crud functions like Create Data, Update Data, Delete & Find. Tools : Spring Boot & Mysql."
     ],
     "publications": {
-        "journal_articles": [
-            "❖ AcknowledgementReceived fromInternational Journalof AdvancedTechnology and Engineering Exploration PaperId -IJATEE.2024.111100853. Title :Human Emotion Deciphering: SentimentAnalysisusingCNN's FacialExpression Recognition"
-        ],
-        "conference_papers": [
-            "❖ AcceptanceReceivedfrom 1stIEEE ICAC2N-2024& RegistrationPaper Id -196@ ITS Engineering College, Greater Noida Title :EvolvingTowards OptimalCloud ResourceAllocationandCost."
-        ],
+        "journal_articles": [],
+        "conference_papers": [],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
@@ -60,12 +35,12 @@
         "preprints": []
     },
     "certifications": [
-        "➢ Core JavaCertification fromUdemy.",
-        "CISCOOnlineCertificatewithCloud Securityin 2023.",
-        "CISCOOnlineCertificatewithInternetof Things(IOT)in2023. INTERESTS -",
+        "➢ Core Java Certification from Udemy.",
+        "CISCO Online Certificate with Cloud Security in 2023.",
+        "CISCO Online Certificate with Internet of Things(IOT) in 2023. INTERESTS -",
         "Cycling",
         "Movies",
-        "Wandering SOURABHPAL ."
+        "Wandering"
     ],
     "awards": [],
     "achievements": [],

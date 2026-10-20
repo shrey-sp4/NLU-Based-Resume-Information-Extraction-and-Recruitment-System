@@ -362,6 +362,12 @@ DISCARD_HEADINGS = {"hobbies", "hobbies & interests", "personal hobbies"}
 # Contact/link lines that are not useful text (phone, email, profile links).
 NOISE_LINE = re.compile(r"@|https?://|www\.|researchgate|orcid|\d{10}", re.IGNORECASE)
 
+# Sub-headings inside a publications list that must not end the publications section.
+PUB_SUBHEADING_REGEX = re.compile(
+    r"journal|conference|proceeding|paper|publication|article|book|chapter|report|preprint|"
+    r"communicat|working|review|presented|international|national", re.IGNORECASE)
+
+
 def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[str, Any]:
     text = txt_path.read_text(encoding="utf-8", errors="ignore")
     lines = text.splitlines()
@@ -371,6 +377,11 @@ def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[s
     ignored_headings: List[Dict[str, Any]] = []
 
     current_section = "preamble"
+    line_counts: Dict[str, int] = {}
+    for _l in lines:
+        _k = clean_line(_l).lower()
+        line_counts[_k] = line_counts.get(_k, 0) + 1
+    publication_groups: List[Dict[str, Any]] = []   # heading + its lines, for every publications heading
 
     for line_number, line in enumerate(lines, start=1):
         raw_line = line.rstrip("\n")
@@ -398,7 +409,20 @@ def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[s
                     current_section = "ignore"          # real discard section (hobbies...): drop what follows
                 elif not NOISE_LINE.search(raw_line):
                     append_line(sections, current_section, raw_line)   # false heading: keep as normal text
+                    if current_section == "publications" and publication_groups:
+                        publication_groups[-1]["lines"].append(raw_line)
                 continue
+
+            if canonical == "other_sections":
+                heading_key = clean_line(raw_line).lower()
+                if len(heading_key) <= 60 and line_counts.get(heading_key, 0) >= 3:
+                    continue                            # running page header: noise, not a section
+                if current_section == "publications" and PUB_SUBHEADING_REGEX.search(heading_info["clean_heading"]):
+                    if not NOISE_LINE.search(raw_line):
+                        append_line(sections, current_section, raw_line)   # sub-heading inside the list: keep as text
+                        if publication_groups:
+                            publication_groups[-1]["lines"].append(raw_line)
+                    continue
 
             current_section = canonical
             boundaries.append({
@@ -408,11 +432,18 @@ def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[s
                 "canonical_section": canonical,
             })
 
+            if canonical == "publications":
+                publication_groups.append({"heading": heading_info["clean_heading"], "lines": []})
+
             remaining = heading_info.get("remaining_text", "").strip()
             if remaining:
                 append_line(sections, current_section, remaining)
+                if canonical == "publications":
+                    publication_groups[-1]["lines"].append(remaining)
         else:
             append_line(sections, current_section, raw_line)
+            if current_section == "publications" and publication_groups:
+                publication_groups[-1]["lines"].append(raw_line)
 
     sections_dict = {
         sec: "\n".join(sec_lines).strip()
@@ -425,6 +456,10 @@ def segment_one_resume(txt_path: Path, heading_lookup: Dict[str, str]) -> Dict[s
         "sections": sections_dict,
         "boundaries": boundaries,
         "ignored_headings": ignored_headings,
+        "publication_groups": [
+            {"heading": g["heading"], "text": "\n".join(g["lines"]).strip()}
+            for g in publication_groups if "\n".join(g["lines"]).strip()
+        ],
     }
 
 

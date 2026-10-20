@@ -12,3 +12,5 @@ full_repo_readable.txt
 
 scratch/eval_*.txt
 scratch/errors_*.txt
+scratch/pub_*.txt
+scratch/pubtype_*.txt

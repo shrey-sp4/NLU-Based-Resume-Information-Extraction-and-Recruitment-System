@@ -22,7 +22,14 @@
             "graduation_year": "2016–2018",
             "cgpa": "",
             "institution": "National Institute of Technical Teachers Training and Research",
-            "raw_text": "2016–2018 Master of Engineering in Instrumentation and Control National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India 7.4 CGPA Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging."
+            "raw_text": "2016–2018 Master of Engineering in Instrumentation and Control National Institute of Technical Teachers Training and Research (NITTTR), Chandigarh, India 7.4 CGPA Objective: Condition Monitoring of Rolling Element Bearing in Induction Motor using Thermal Imaging. Description: This thesis developed an emergent infrared thermography for intelligent condition monitoring and fault diagnosis system for induction motors."
+        },
+        {
+            "degree": "Bachelor of Technology",
+            "graduation_year": "2012–2015",
+            "cgpa": "66.67%",
+            "institution": "Electronics Engineering Uttarakhand Technical University",
+            "raw_text": "2012–2015 Bachelor of Technology in Electrical and Electronics Engineering Uttarakhand Technical University (UTU), Dehradun, India 66.67% Objective: Impedance and Mho Relay Characteristics for Transmission Line Protection using PACSD. Description: This project deals with the simulation of underreach in distance relay using PSCAD software. Impedance, Mho characteristics and Bergeron model type transmission line are modelled and simulated."
         }
     ],
     "experience": [
@@ -108,13 +115,13 @@
             "Mian, T., Choudhary, A., & Fatima, S. Fault Diagnosis of Ball Bearing Using Low-Cost Edge Device and Deep. Recent Advances in Machines, Mechanisms, Materials and Design: Select Proceedings of iNaCoMM 2023, 435.",
             "Anurag Choudhary, T. Mian, S. Fatima, and B. K. Panigrahi,” Thermography-based Fault Identification in Induction Motor across Dynamic Speed Conditions,” 2023 IEEE 49th Annual Conference of the IEEE Industrial Electronics Society (IES), 2023.",
             "R. K. Mishra, Anurag Choudhary, A. R. Mohanty, S. Fatima, and B. K. Panigrahi,” Realistic Condition-based Anomaly Detection of Multi-faults in Rotating Machines,” 2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT), 2024",
-            "Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Multi Sensor based Bearing FaultDiagnosisofSwitchedReluctanceMotorforElectricVehicle”in6thInternationalConference on Electronics, Communications and Control Engineering (ICECC 2023), Fukuoka, Japan.",
+            "Anurag Choudhary, Tauheed Mian, S. Fatima and B. K. Panigrahi,” Multi Sensor based Bearing Fault Diagnosis of Switched Reluctance Motor for Electric Vehicle” in 6th International Conference on Electronics, Communications and Control Engineering (ICECC 2023), Fukuoka, Japan.",
             "Tauheed Mian, Anurag Choudhary, S. Fatima and B. K. Panigrahi,” Mel-spectrogram Based Approach for Fault Detection in Ball Bearing using Convolutional Neural Network” in The 6th International Conference on Electronics, Communications and Control Engineering (ICECC 2023), Fukuoka, Japan.",
             "A. Choudhary, T. Mian, S. Fatima and B. K. Panigrahi,” Deep Transfer Learning Based Fault Diagnosis of Electric Vehicle Motor,” 2022 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES), Jaipur, India, 2022, pp. 1-6, doi: 10.1109/PEDES56012.2022.10080274.",
             "Anurag Choudhary, S. Fatima and B. K. Panigrahi,” Passive Thermal Imaging-based Fault Detection in Induction Motor Under Varying Speed Conditions,” 2022 IEEE 2nd International Conference on Sustainable Energy and Future Electric Transportation (SeFeT), 2022, pp. 1-6, doi: 10.1109/SeFeT55524.2022.9909221.",
             "T. Mian, Anurag Choudhary, S. Fatima, Sound Signal Based Gear Fault Diagnosis Under Varying Working Conditions, 28th International Congress on Sound and Vibration (ICSV28), Singapore, 24-28, July 2022.",
             "R. K. Mishra, Anurag Choudhary, A. R. Mohanty and S. Fatima, A Comparative Study of Time-Frequency Analysis for The Application of Fault Diagnosis System, 28th International Congress on Sound and Vibration (ICSV28), Singapore, 24-28, July 2022.",
-            "Anurag Choudhary, R.K. Mishra, S. Fatima, and B.K. Panigrahi, “Fault Diagnosis of Induction MotorUnderVaryingOperatingConditionforElectricVehicle”in2022IEEEIASGlobalConference on Emerging Technologies (GlobConET), Arad, Romania, 2022.",
+            "Anurag Choudhary, R.K. Mishra, S. Fatima, and B.K. Panigrahi, “Fault Diagnosis of Induction Motor Under Varying Operating Condition for Electric Vehicle” in 2022 IEEE IAS Global Conference on Emerging Technologies (GlobConET), Arad, Romania, 2022.",
             "R.K. Mishra, Anurag Choudhary, A.R. Mohanty and S. Fatima,” Performance Evaluation of Support Vector Machine for System Level Multi-fault Diagnosis”, in 2022 Prognostics and Health Management Conference (PHM-2022), London, UK, pp. 113-118, 2022.",
             "Tauheed Mian, Anurag Choudhary, and S. Fatima, Multi-Sensor Fault Diagnosis for Misalignment and Unbalance Detection Using Machine Learning in IEEE International Conference on Power Electronics, Smart Grid, and Renewable Energy (PESGRE22), Trivandrum, Kerala, pp. 1-6, 2022.",
             "R.K. Mishra, Anurag Choudhary, A.R. Mohanty and S. Fatima,” Multi-domain Bearing Fault Diagnosis using Support Vector Machine”, in IEEE 4th International Conference on Computing, Power and Communication Technologies (GUCON), Kuala Lumpur, Malaysia, pp 1-6, 2021.",

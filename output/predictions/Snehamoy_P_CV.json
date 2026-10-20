@@ -11,81 +11,87 @@
     "summary": [],
     "education": [
         {
-            "degree": "PostDoctoral",
-            "graduation_year": "2020–2021",
+            "degree": "",
+            "graduation_year": "2020 – 2021",
             "cgpa": "",
-            "institution": "PostDoctoral",
-            "raw_text": "2020–2021 ] PostDoctoral.,TuftsUniversity,Medford,MA,USA. Task involved: Develop guided nonlinear ultrasound techniques to characterize cladding- substratebondquality."
+            "institution": "Tufts University",
+            "raw_text": "2020 – 2021 ] Post Doctoral., Tufts University, Medford, MA,USA. Task involved: Develop guided nonlinear ultrasound techniques to characterize cladding- substrate bond quality."
         },
         {
             "degree": "Ph.D",
-            "graduation_year": "2015–2023",
+            "graduation_year": "2015 – 2023",
             "cgpa": "",
-            "institution": "Institute",
-            "raw_text": "2015–2023 ] Ph.D.,IndianInstituteofTechnology(IndianSchoolofMines),Dhanbad."
+            "institution": "Indian Institute of Technology",
+            "raw_text": "2015 – 2023 ] Ph.D., Indian Institute of Technology (Indian School of Mines), Dhanbad. Thesis title: Analysis of Shear and G-type Waves Under Influence of Point Sources and Reg- ulated Material Interfaces."
+        },
+        {
+            "degree": "M.Sc",
+            "graduation_year": "2013 – 2015",
+            "cgpa": "",
+            "institution": "Indian Institute of Technology",
+            "raw_text": "2013 – 2015 ] M.Sc., Mathematics and Computing, Indian Institute of Technology (Indian School of Mines), Dhanbad . Dissertation title: Study of Love propagation in a multilayered structure. Marks obtained: 88.84 (O.G.P.A- 8.89 out of 10)"
+        },
+        {
+            "degree": "B.Sc",
+            "graduation_year": "2010 – 2013",
+            "cgpa": "",
+            "institution": "West Bengal State University",
+            "raw_text": "2010 – 2013 ] B.Sc., Mathematics, West Bengal State University . Subjects: Mathematics (Hons.), Chemistry (Pass) and Physics (Pass). Marks obtained: 57.57 (467 out of 800)"
+        },
+        {
+            "degree": "HSC",
+            "graduation_year": "2008 – 2010",
+            "cgpa": "",
+            "institution": "Chemistry, Biology",
+            "raw_text": "2008 – 2010 ] HSC (10+2)., West Bengal Council of Higher Secondary Education (W.B.C.H.S.E) Subjects: Mathematics, Physics, Chemistry, Biology (optional), English and Bengali. Marks obtained: 77.60 (388 out of 500)"
+        },
+        {
+            "degree": "SSC",
+            "graduation_year": "2008",
+            "cgpa": "",
+            "institution": "West Bengal Board of Secondary Education",
+            "raw_text": "2008- ] SSC (10), West Bengal Board of Secondary Education (W.B.B.S.E) . Subjects: Mathematics, Physical science, Life science, History, Geography, English and Ben- gali. Marks obtained: 78.87 (631 out of 800)"
         }
     ],
     "experience": [
         {
-            "job_title": "Professor",
+            "job_title": "Assistant Professor",
             "dates": "",
-            "institution": "AwardsandAchievements",
-            "raw_text": "2022– ] AssistantProfessor.,DepartmentofMathematics,CHRIST(Deemedtobeuniversity),Bangalore,India. AwardsandAchievements"
-        },
-        {
-            "job_title": "Senior Research Fellow",
-            "dates": "2017-2020",
-            "institution": "Indian Institute of Technology",
-            "raw_text": "2017-2020 ] Senior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad."
-        },
-        {
-            "job_title": "Junior Research Fellow",
-            "dates": "2015-2017",
-            "institution": "Indian Institute of Technology",
-            "raw_text": "2015-2017 ] Junior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad."
-        },
-        {
-            "job_title": "",
-            "dates": "2013-2015",
-            "institution": "Institute",
-            "raw_text": "2013-2015 ] MeritCumMeansScholarship,IndianInstituteofTechnology(IndianSchoolofMines), Dhanbad."
-        },
-        {
-            "job_title": "",
-            "dates": "2010-2013",
-            "institution": "",
-            "raw_text": "2010-2013 ] MeritCumMeansScholarship,WestBengalstateUniversity,WestBengal."
+            "institution": "Department of Mathematics",
+            "raw_text": "2022 – ] Assistant Professor., Department of Mathematics, CHRIST (Deemed to be university), Bangalore, India."
         }
     ],
     "research_interests": [],
     "skills": [
-        "Languages ] Strongreading,writingandspeakingcompetenciesforEnglish,Hindi,Bengali. Coding ] Java,php,C,C++,Python,MATLAB,Mathematica.,R,sql,xml/xsl,LATEX,... Databases ] Mysql,Postgresql,hsql,sqlite,LotusNotes. WebDev ] Html,css,JavaScript,ApacheWebServer,TomcatWebServer."
+        "Languages ] Strong reading, writing and speaking competencies for English, Hindi, Bengali. Coding ] Java, php, C, C++, Python, MATLAB, Mathematica., R, sql, xml/xsl, LATEX, ... Databases ] Mysql, Postgresql, hsql, sqlite, LotusNotes. Web Dev ] Html, css, JavaScript, Apache Web Server, Tomcat Web Server. Misc. ] Academic research, teaching, training, consultation, LATEX typesetting and publish- ing. Research interests ] Wave propagation and wave reflection in material medium, including Nano mate- rial(Carbon nanotubes), and Nonshells."
     ],
     "projects": [],
     "publications": {
         "journal_articles": [
-            "N.Pradhan,S.Saha,S.K.Samal,andPramanik,Snehamoy,“Nonlocalanalysisofrayleigh-typewave propagatinginagradientlayeredstructure,”TheEuropeanPhysicalJournalPlus,vol.138,no.5,pp.1–19, 2023.",
-            "S.Saha,Pramanik,Snehamoy,andN.Pradhan,“Analysisofthreedimensionalrayleigh-typewaves inalayeredstructure,”2023.",
-            "S.Gupta,S.K.Das,andPramanik,Snehamoy,“Reflectionandtransmissionphenomenaofshwaves influidsaturatedporousmediumwithcorrugatedinterface,”MechanicsofAdvancedMaterialsand Structures,vol.29,no.26,pp.5122–5141,2022.",
-            "S.Gupta,S.K.Das,andPramanik,Snehamoy,“Impactofirregularity,initialstress,porosity,and corrugationonthepropagationofshwave,”InternationalJournalofGeomechanics,vol.21,no.2, p.04020245,2021.",
-            "S.Gupta,R.Dwivedi,Smita,andPramanik,Snehamoy,“Propagationofg-typewaveinaviscoelastic mediumlyingoveraheterogeneousfibrereinforcedhalfspace,”MechanicsofSolids,vol.56, pp.600–612,2021.",
-            "S.Gupta,Pramanik,Snehamoy,S.K.Das,S.Saha,etal.,“Dynamicanalysisofwavepropagationand bucklingphenomenaincarbonnanotubes(cnts),”WaveMotion,vol.104,p.102730,2021.",
-            "S.Gupta,Pramanik,Snehamoy,andSmita,“Exemplificationinexactandapproximatesecular equationofsurfacewavealongdistinctinterfaceswithslidingcontact,”MechanicsofSolids,vol.56, pp.819–837,2021.",
-            "S.Gupta,Smita,Pramanik,Snehamoy,andA.K.Verma,“Secularequationofrayleighsurfacewave inadrysandyhalf-spacecoatedbyathinself-reinforcedlayer,”ArabianJournalofGeosciences,vol.14, pp.1–8,2021.",
-            "S.Gupta,Smita,andA.Pramanik,SnehamoyandPramanik,“Scatteringofplane-wavethroughfluid mediumoffinitewidthbetweenself-reinforcedandtriclinichalfspaces,”WavesinRandomand ComplexMedia,vol.31,no.6,pp.1258–1286,2021.",
-            "S.Gupta,Pramanik,Snehamoy,Smita,andA.K.Verma,“Reflectionandrefractionphenomenaof shearhorizontalwavesattheinterfacesofsandwichedanisotropicmagnetoelasticmediumwith corrugatedboundaries,”TheEuropeanPhysicalJournalPlus,vol.135,pp.1–41,2020.",
-            "S.Gupta,Pramanik,Snehamoy,A.Pramanik,etal.,“Analyticapproachforlovewavedispersioninan inhomogeneouslayerlyingoveranirregularporoushalf-space,”TWMSJournalofAppliedand EngineeringMathematics,vol.9,no.3,pp.626–638,2019.",
-            "S.Gupta,Smita,Pramanik,Snehamoy,andA.Pramanik,“Acomparativeanalysis(real-timedataand theoreticalresults)forpropagationofshwavesinaviscoelasticmodelinfluencedbyapointsource,” MathematicsandMechanicsofSolids,vol.24,no.8,pp.2458–2477,2019.",
-            "S.Gupta,Pramanik,S,A.Pramanik,etal.,“Inquisitiveanalysisofthepointsourceeffecton propagationofshwavethroughanorthotropiccrustallayer,”JournalofSolidMechanics,vol.10,no.4, pp.831–844,2018.",
-            "S.Gupta,A.Pramanik,Smita,andPramanik,Snehamoy,“Scatteringofthree-dimensionalplane wavesinaself-reinforcedhalf-spacelyingoveratriclinichalf-space,”JournalofGeophysicsand Engineering,vol.15,no.3,pp.759–774,2018.",
-            "S.Gupta,Smita,andPramanik,Snehamoy,“Behaviorofrayleighsurfacewavesinananisotropic medialyingoveraprestressedorthotropichalf-space,”MechanicsofAdvancedMaterialsandStructures, vol.25,no.12,pp.1058–1067,2018.",
-            "S.Gupta,Smita,Pramanik,Snehamoy,andA.Pramanik,“Effectofdrysandinessparameterand initialstressonthescatteringofplaneshwave,”ArabianJournalofGeosciences,vol.11,pp.1–17,2018.",
-            "S.Gupta,Pramanik,Snehamoy,etal.,“Influenceofrigidboundaryonpropagationofg-typewavein selfreinforcedmedia,”Procediaengineering,vol.173,pp.1983–1991,2017.",
-            "S.Gupta,Pramanik,Snehamoy,etal.,“Refelctionandrefractionofsh-wavesinanorthotropiclayer sandwichedbetweentwodistinctdrysandyhalfspace,”Procediaengineering,vol.173,pp.1146–1153,2017.",
-            "S.Gupta,Smita,andPramanik,Snehamoy,“Sh-waveinamultilayeredorthotropiccrustunder initialstress:Afinitedifferenceapproach,”CogentMathematics,vol.4,no.1,p.1284294,2017. Invited Talks/Presentation at National and International Conferences 2016 ] 11th International Symposium on Plasticity and Impact Mechanics; Department of Mechanical Engineering,IndianInstituteofTechnologyDelhi,INDIA. Invited Talks/Presentation at National and International Conferences (continued) 2017 ] InternationalConferenceOnVibrationProblems;DepartmentofCivilEngineering,IndianIn- stituteofTechnologyGuwahatiandISIKUniversity,Istanbul. ] InternationalConferenceonRecentAdvancesinPDEs:Theory,ComputationsandApplications; DepartmentofAppliedMathematics,IndianInstituteofTechnologyBombay,INDIA.",
-            "2015 ] WaveMechanicsandVibrationsWMVC-2015;IndianInstituteofTechnology(IndianSchoolof Mines),Dhanbad,INDIA."
+            "Journal Articles",
+            "N. Pradhan, S. Saha, S. K. Samal, and Pramanik, Snehamoy, “Nonlocal analysis of rayleigh-type wave propagating in a gradient layered structure,” The European Physical Journal Plus, vol. 138, no. 5, pp. 1–19, 2023.",
+            "S. Saha, Pramanik, Snehamoy, and N. Pradhan, “Analysis of three dimensional rayleigh-type waves in a layered structure,” 2023.",
+            "S. Gupta, S. K. Das, and Pramanik, Snehamoy, “Reflection and transmission phenomena of sh waves in fluid saturated porous medium with corrugated interface,” Mechanics of Advanced Materials and Structures, vol. 29, no. 26, pp. 5122–5141, 2022.",
+            "S. Gupta, S. K. Das, and Pramanik, Snehamoy, “Impact of irregularity, initial stress, porosity, and corrugation on the propagation of sh wave,” International Journal of Geomechanics, vol. 21, no. 2, p. 04 020 245, 2021.",
+            "S. Gupta, R. Dwivedi, Smita, and Pramanik, Snehamoy, “Propagation of g-type wave in a viscoelastic medium lying over a heterogeneous fibre reinforced half space,” Mechanics of Solids, vol. 56, pp. 600–612, 2021.",
+            "S. Gupta, Pramanik, Snehamoy, S. K. Das, S. Saha, et al., “Dynamic analysis of wave propagation and buckling phenomena in carbon nanotubes (cnts),” Wave Motion, vol. 104, p. 102 730, 2021.",
+            "S. Gupta, Pramanik, Snehamoy, and Smita, “Exemplification in exact and approximate secular equation of surface wave along distinct interfaces with sliding contact,” Mechanics of Solids, vol. 56, pp. 819–837, 2021.",
+            "S. Gupta, Smita, Pramanik, Snehamoy, and A. K. Verma, “Secular equation of rayleigh surface wave in a dry sandy half-space coated by a thin self-reinforced layer,” Arabian Journal of Geosciences, vol. 14, pp. 1–8, 2021.",
+            "S. Gupta, Smita, and A. Pramanik, Snehamoy and Pramanik, “Scattering of plane-wave through fluid medium of finite width between self-reinforced and triclinic half spaces,” Waves in Random and Complex Media, vol. 31, no. 6, pp. 1258–1286, 2021.",
+            "S. Gupta, Pramanik, Snehamoy, Smita, and A. K. Verma, “Reflection and refraction phenomena of shear horizontal waves at the interfaces of sandwiched anisotropic magnetoelastic medium with corrugated boundaries,” The European Physical Journal Plus, vol. 135, pp. 1–41, 2020.",
+            "S. Gupta, Pramanik, Snehamoy, A. Pramanik, et al., “Analytic approach for love wave dispersion in an inhomogeneous layer lying over an irregular porous half-space,” TWMS Journal of Applied and Engineering Mathematics, vol. 9, no. 3, pp. 626–638, 2019.",
+            "S. Gupta, Smita, Pramanik, Snehamoy, and A. Pramanik, “A comparative analysis (real-time data and theoretical results) for propagation of sh waves in a viscoelastic model influenced by a point source,” Mathematics and Mechanics of Solids, vol. 24, no. 8, pp. 2458–2477, 2019.",
+            "S. Gupta, Pramanik, S, A. Pramanik, et al., “Inquisitive analysis of the point source effect on propagation of sh wave through an orthotropic crustal layer,” Journal of Solid Mechanics, vol. 10, no. 4, pp. 831–844, 2018.",
+            "S. Gupta, A. Pramanik, Smita, and Pramanik, Snehamoy, “Scattering of three-dimensional plane waves in a self-reinforced half-space lying over a triclinic half-space,” Journal of Geophysics and Engineering, vol. 15, no. 3, pp. 759–774, 2018.",
+            "S. Gupta, Smita, and Pramanik, Snehamoy, “Behavior of rayleigh surface waves in an anisotropic media lying over a prestressed orthotropic half-space,” Mechanics of Advanced Materials and Structures, vol. 25, no. 12, pp. 1058–1067, 2018.",
+            "S. Gupta, Smita, Pramanik, Snehamoy, and A. Pramanik, “Effect of dry sandiness parameter and initial stress on the scattering of plane sh wave,” Arabian Journal of Geosciences, vol. 11, pp. 1–17, 2018.",
+            "S. Gupta, Pramanik, Snehamoy, et al., “Influence of rigid boundary on propagation of g-type wave in self reinforced media,” Procedia engineering, vol. 173, pp. 1983–1991, 2017.",
+            "S. Gupta, Pramanik, Snehamoy, et al., “Refelction and refraction of sh-waves in an orthotropic layer sandwiched between two distinct dry sandy half space,” Procedia engineering, vol. 173, pp. 1146–1153, 2017.",
+            "2015 ] Wave Mechanics and Vibrations WMVC - 2015; Indian Institute of Technology (Indian School of Mines), Dhanbad, INDIA. ] FTPMA (Fluid Flow Through Porous Media And Its Application; Indian Institute of Technology (Indian School of Mines), Dhanbad, INDIA. 2018 ] Multiscale Modeling of Heterogeneous Structures; Department of Construction Technology and Management , Sri Jayachamarajendra College of Engineering Mysuru, INDIA."
         ],
-        "conference_papers": [],
+        "conference_papers": [
+            "S. Gupta, Smita, and Pramanik, Snehamoy, “Sh-wave in a multilayered orthotropic crust under initial stress: A finite difference approach,” Cogent Mathematics, vol. 4, no. 1, p. 1 284 294, 2017. Invited Talks/Presentation at National and International Conferences 2016 ] 11th International Symposium on Plasticity and Impact Mechanics; Department of Mechanical Engineering, Indian Institute of Technology Delhi, INDIA. Invited Talks/Presentation at National and International Conferences (continued) 2017 ] International Conference On Vibration Problems; Department of Civil Engineering, Indian In- stitute of Technology Guwahati and ISIK University, Istanbul. ] International Conference on Recent Advances in PDEs: Theory, Computations and Applications; Department of Applied Mathematics, Indian Institute of Technology Bombay, INDIA."
+        ],
         "conference_proceedings": [],
         "communications": [],
         "book_chapters": [],
@@ -94,12 +100,14 @@
         "preprints": []
     },
     "certifications": [],
-    "awards": [],
-    "achievements": [],
+    "awards": [
+        "2017-2020 ] Senior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2015-2017 ] Junior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2013-2015 ] Merit Cum Means Scholarship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2010-2013 ] Merit Cum Means Scholarship, West Bengal state University, West Bengal."
+    ],
+    "achievements": [
+        "2017-2020 ] Senior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2015-2017 ] Junior Research Fellowship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2013-2015 ] Merit Cum Means Scholarship, Indian Institute of Technology (Indian School of Mines), Dhanbad. 2010-2013 ] Merit Cum Means Scholarship, West Bengal state University, West Bengal."
+    ],
     "memberships": [],
     "societies": [],
     "responsibilities": [],
-    "references": [
-        "Prof.ShishirGupta DepartmentofMathematics&Computing IndianInstituteofTechnology(IndianSchoolofMines),Dhanbad Jharkhand-826004,INDIA Email:shishir_ism@yahoo.com Prof.ArunKumarVerma DepartmentofMathematics HamptonUniversity Hampton,USA Email:mathchair@hamptonu.edu Dr.BadamSinghKushvah,AssociateProfessor DepartmentofMathematics&Computing IndianInstituteofTechnology(IndianSchoolofMines),Dhanbad Jharkhand-826004,INDIA Email:bskush@iitism.ac.in"
-    ]
+    "references": []
 }

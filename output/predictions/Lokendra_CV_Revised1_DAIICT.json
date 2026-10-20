@@ -85,7 +85,7 @@
         "(cid:123) 5G/6G wireless communications. (cid:123) Semantic Communications (cid:123) Molecular communication (cid:123) Nano-scale communications/nano-networking (cid:123) Internet of bio-nano things (IoBNT) and body-area-networks (BAN) for communi- cations. (cid:123) Synaptic and neuro-spike communications. (cid:123) Tera-Hertz communications. Silicon City – Indore, India 452012 (cid:72) +91 8889 345 941, +91 7987 967 977 4/7"
     ],
     "skills": [
-        "OS Unix, Linux, Windows (10 years). Languages C (10 years), C++ (8 years). Tools MATLAB (8 years), Mathematica (5 years), LATEX (6 years) etc."
+        "OS Unix, Linux, Windows (10 years). Languages C (10 years), C++ (8 years). Tools MATLAB (8 years), Mathematica (5 years), LATEX (6 years) etc. Platforms Hands-on experience in NI USRP platform, WiCOMM-T universal communication platform, GSM/GPRS based communication platform, Scientech SDR platform."
     ],
     "projects": [
         "1. Sunil Kumar (2019-20) 1. Himanshu Dhasmana.",
@@ -117,7 +117,9 @@
         ],
         "conference_proceedings": [],
         "communications": [],
-        "book_chapters": [],
+        "book_chapters": [
+            "1 Abhinav, Lokendra Chouhan, P. Sharma, “Range Expansion in Neuro-spike Synap- tic Communication: Error Performance Analysis”, Bio-inspired Information and Communications Technologies. BICT 2023, Okinawa, Japan, Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering, vol 512. Springer. Published."
+        ],
         "books": [],
         "technical_reports": [],
         "preprints": []
