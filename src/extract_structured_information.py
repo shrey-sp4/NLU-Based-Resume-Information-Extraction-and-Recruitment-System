@@ -737,7 +737,7 @@ def split_glued_references(text, min_len=350, min_piece=60):
     for m in _START_AUTH.finditer(text):
         pos = m.start()
         before = text[last:pos]
-        if len(before) < min_piece or text[pos - 1] not in ".)]0123456789" or not _REF_END.search(before[-80:]):
+        if len(before) < min_piece or text[pos - 1] not in ".)]0123456789" or not _REF_END.search(before[-80:]) or re.search(r",\s*[A-Z]\.$", before.rstrip()):
             continue
         cuts.append(pos); last = pos
     parts, prev = [], 0
@@ -752,7 +752,7 @@ def split_glued_references(text, min_len=350, min_piece=60):
 _HEADING_TYPE_RULES = [
     ("preprints", r"\bin\s+progress\b|\bworking\s+papers?\b|\bunder\s+(?:review|submission)\b|\bsubmitted\b|\bpre-?prints?\b|\barxiv\b"),
     ("communications", r"\bcommunicated\b|\b(?:in|under)\s+communication\b"),
-    ("book_chapters", r"\bbook\s+chapters?\b|\bchapters?\s+in\b"),
+    ("book_chapters", r"\bbook\s+chapters?\b|\bchapters?\s*in\b"),
     ("technical_reports", r"\btechnical\s+reports?\b|\breports?\s+and\s+resource\b|\bwhite\s+papers?\b"),
     ("conference_proceedings", r"proceedings?"),
 ]
@@ -776,6 +776,18 @@ def _is_activity_entry(entry):
 
 _METRICS_LINE = re.compile(r"\bh-?\s?index\b|\bi-?10\s?-?index\b|citations?\s+per\s+paper|total\s+citations?|total\s+publications?", re.IGNORECASE)
 
+_COUNT_LABEL = re.compile(r"^\s*[A-Za-z/&() \-]{6,90}:\s*\d{1,3}\b(?:\s+[A-Z][A-Z&/-]+(?=\s|$)){0,6}")
+_BARE_LABEL = re.compile(
+    r"[\W_]*(?:(?:journals?|conferences?|papers?|articles?|publications?|proceedings?|international|national|"
+    r"refereed|peer|reviewed|and|in|of|the)[\W_]*)+", re.IGNORECASE)
+
+def _strip_count_label(entry):
+    """'Conference Paper Published in X: 59 PAPER IN PROCEEDING BOOK S. Karmakar, ...' -> 'S. Karmakar, ...'"""
+    m = _COUNT_LABEL.match(entry)
+    if m and re.search(r"paper|article|journal|conference|publication|total", m.group(0), re.IGNORECASE):
+        return entry[m.end():].strip()
+    return entry
+
 def _is_non_citation_entry(entry):
     """PDF glyph junk, citation-metric lines and short label lines such as 'International(abroad):' are not publications."""
     e = entry.strip()
@@ -783,6 +795,10 @@ def _is_non_citation_entry(entry):
         return True
     if len(e) <= 250 and _METRICS_LINE.search(e[:40]) and not _CITATION_MARK.search(e):
         return True
+    if re.match(r"\s*(?:a\s+)?total\b", e, re.IGNORECASE) and len(e) <= 400 and not _CITATION_MARK.search(e):
+        return True                                          # the author's own count line, e.g. "A total of 43 publications [...]"
+    if len(e) <= 60 and not re.search(r"\d|,", e) and _BARE_LABEL.fullmatch(e):
+        return True                                          # bare sub-heading such as "Journal Articles"
     return len(e) <= 100 and e.endswith(":")
 # inline sub-headings are only trusted for the rare types; journal/conference context comes from Stage-2 headings
 _INLINE_TYPES = {"preprints", "communications", "book_chapters", "technical_reports"}
@@ -821,6 +837,14 @@ def _inline_subheading(line):
         return ("type", bucket)
     return None
 
+def _plain_heading_bucket(line):
+    """Bucket named by a short heading-like line (any type), or None if the line is not heading-shaped."""
+    t = line.strip().strip(":-\u2013\u2014|\u2022\u25cf\u25a0\u25a1*\u27a2+ ").strip()
+    t = re.sub(r"\s*[:\(]\s*\d+\s*\)?\s*$", "", t).strip()
+    if not t or len(t.split()) > 8 or len(t) > 70 or re.search(r"\d", t) or t.endswith((",", ".")):
+        return None
+    return _heading_type(t)
+
 def _typed_segments(text, groups):
     """List of (type_hint_or_None, chunk_text), using Stage-2 publication groups when available."""
     if not groups:
@@ -835,6 +859,10 @@ def _typed_segments(text, groups):
         ctx, buf = hint, []
         for line in (g.get("text") or "").splitlines():
             sub = _inline_subheading(line)
+            if sub is None and ctx is not None and ctx != hint and ctx != _SKIP:
+                other = _plain_heading_bucket(line)
+                if other is not None and other != ctx:
+                    sub = ("type", other)                 # leaving a rare-type block via an explicit journal/conference heading
             if sub is not None:
                 if buf and ctx != _SKIP:
                     segments.append((ctx, "\n".join(buf)))
@@ -854,6 +882,9 @@ def split_publications_by_type(text, groups=None):
     }
     for hint, chunk in _typed_segments(text, groups):
         for entry in [q for e in split_publication_entries(chunk) for q in split_glued_references(e)]:
+            entry = _strip_count_label(entry)
+            if not entry:
+                continue
             if _is_activity_entry(entry) or _is_non_citation_entry(entry):
                 continue                                     # talks, workshops attended, labels, metrics, glyph junk: not publications
             if _COMMUNICATED_MARK.search(entry):
