@@ -63,11 +63,11 @@ The pipeline is scored against the 10 hand-labelled academic resumes in `ground_
 | `education_degree` | 90.83% | 83.90% | **86.36%** |
 | `education_graduation_year` | 98.33% | 87.48% | **91.12%** |
 | `education_institution` | 67.40% | 74.19% | **70.32%** |
-| `experience_dates` | 69.71% | 76.67% | **72.27%** |
-| `experience_institution` | 72.86% | 73.75% | **72.20%** |
-| `experience_title` | 84.29% | 87.50% | **85.46%** |
+| `experience_dates` | 77.21% | 86.67% | **80.84%** |
+| `experience_institution` | 70.36% | 77.08% | **72.78%** |
+| `experience_title` | 94.29% | 97.50% | **95.46%** |
 | `personal_email` | 100.00% | 100.00% | **100.00%** |
-| `personal_name` | 80.00% | 80.00% | **80.00%** |
+| `personal_name` | 90.00% | 90.00% | **90.00%** |
 | `personal_phone` | 90.00% | 85.00% | **86.67%** |
 | `projects` | 66.29% | 65.95% | **65.83%** |
 | `publications_book_chapters` | 83.01% | 81.05% | **81.38%** |
@@ -83,7 +83,7 @@ The pipeline is scored against the 10 hand-labelled academic resumes in `ground_
 | `responsibilities` | 84.90% | 86.29% | **85.16%** |
 | `skills` | 81.63% | 85.79% | **81.89%** |
 | `summary` | 57.22% | 60.00% | **58.39%** |
-| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **80.43%** |
+| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **81.59%** |
 
 ---
 

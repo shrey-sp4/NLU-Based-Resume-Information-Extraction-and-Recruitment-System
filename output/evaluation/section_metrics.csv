@@ -74,7 +74,7 @@ Anibrata_Pal_Resume.json,publications_book_chapters,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,publications_books,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,publications_technical_reports,1.0,1.0,1.0
 Anibrata_Pal_Resume.json,publications_preprints,0.9714,0.8947,0.9315
-CV-Anurag_Choudhary.json,personal_name,0.0,0.0,0.0
+CV-Anurag_Choudhary.json,personal_name,1.0,1.0,1.0
 CV-Anurag_Choudhary.json,personal_email,1.0,1.0,1.0
 CV-Anurag_Choudhary.json,personal_phone,1.0,1.0,1.0
 CV-Anurag_Choudhary.json,education_degree,1.0,1.0,1.0
@@ -106,9 +106,9 @@ cv_aakash_daiict.json,education_degree,1.0,1.0,1.0
 cv_aakash_daiict.json,education_institution,0.8,1.0,0.8889
 cv_aakash_daiict.json,education_graduation_year,1.0,1.0,1.0
 cv_aakash_daiict.json,education_cgpa,1.0,1.0,1.0
-cv_aakash_daiict.json,experience_title,0.0,0.0,0.0
-cv_aakash_daiict.json,experience_institution,1.0,0.6667,0.8
-cv_aakash_daiict.json,experience_dates,0.0,0.0,0.0
+cv_aakash_daiict.json,experience_title,1.0,1.0,1.0
+cv_aakash_daiict.json,experience_institution,0.75,1.0,0.8571
+cv_aakash_daiict.json,experience_dates,0.75,1.0,0.8571
 cv_aakash_daiict.json,summary,1.0,1.0,1.0
 cv_aakash_daiict.json,projects,0.7143,0.9375,0.8108
 cv_aakash_daiict.json,certifications,0.0,0.0,0.0

@@ -141,6 +141,23 @@ def _pick_name(candidates, email):
             return c
     return shaped[0] if shaped else ""
 
+def _name_from_email_context(text, email):
+    """Name-shaped line anywhere in the text whose words (at least two) appear in the email address; else empty."""
+    if not email:
+        return ""
+    local = re.sub(r"[^a-z]", "", email.split("@")[0].lower())
+    lines = [l.strip() for l in text.splitlines()]
+    for l in lines:
+        if "@" in l or "http" in l:
+            continue
+        cand = re.sub(r"[^\w\s\.\-']", " ", re.split(r"\d", l)[0])
+        cand = re.sub(r"\s+", " ", cand).strip()
+        if 2 <= len(cand.split()) <= 5 and re.match(r"^[A-Za-z\.\s\-']+$", cand) and _name_shape_ok(cand):
+            words = [w for w in re.findall(r"[a-z]+", cand.lower()) if len(w) >= 3 and w not in _NAME_TITLES and w not in _NAME_SUFFIXES]
+            if sum(w in local for w in words) >= 2:
+                return cand
+    return ""
+
 def extract_personal_details(sections):
     preamble = get_section_text(sections, "preamble")
     details = get_section_text(sections, "personal_details")
@@ -182,6 +199,9 @@ def extract_personal_details(sections):
             sub_lines = re.split(r"\s{3,}", raw_l)
             for line in sub_lines:
                 line = line.strip()
+                cut = re.split(r"\s+[*|\u2022]\s+|\s+\+?\d{2,}", line)[0].strip()
+                if len(cut.split()) >= 2:
+                    line = cut                          # drop a phone/contact tail so it cannot veto the name
                 if not line or "@" in line or "http" in line:
                     continue
                 if PREAMBLE_HEADER_NOISE.search(line):
@@ -201,6 +221,9 @@ def extract_personal_details(sections):
                 if 2 <= len(words) <= 5 and re.match(r"^[A-Za-z\.\s\-']+$", clean_line):
                     name_candidates.append(clean_line)
         name = _pick_name(name_candidates, email)
+
+    if not name:
+        name = _name_from_email_context(full_doc_text, email)
 
     return {"name": name, "email": email, "phone": phone, "phones": phones, "address": ""}
 
@@ -663,6 +686,8 @@ def extract_experience_entries(section_text, split_fn=None):
     for entry_text in blocks:
         title_m = TITLE_REGEX.search(entry_text)
         institution = extract_institution(entry_text)
+        if not title_m and not institution:
+            continue                                    # stub (e.g. a course line with a year range): not a usable job
         entries.append({
             "job_title": title_m.group(0).strip() if title_m else "",
             "dates": find_experience_dates(entry_text),

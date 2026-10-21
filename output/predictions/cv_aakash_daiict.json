@@ -48,10 +48,22 @@
     ],
     "experience": [
         {
-            "job_title": "",
-            "dates": "",
+            "job_title": "Research Scholar",
+            "dates": "January 2021 - March 2024",
             "institution": "IIT",
-            "raw_text": "◦ Representations of Finite Groups: Fall 2020, IIT Delhi. ◦ Calculus: Fall 2019 & Fall 2023, IIT Delhi. ◦ Cryptography: Spring 2020, IIT Delhi."
+            "raw_text": "Research Scholar (January 2021 - March 2024) : Senior Research Scholar, Department of Mathematics, IIT Delhi."
+        },
+        {
+            "job_title": "Research Scholar",
+            "dates": "January 2019 - December 2020",
+            "institution": "IIT",
+            "raw_text": "• Research Scholar (January 2019 - December 2020) : Junior Research Scholar, Department of Mathematics, IIT Delhi."
+        },
+        {
+            "job_title": "Assistant Professor",
+            "dates": "August 2018 -November 2018",
+            "institution": "Krishna Institute of Engineering and Technology",
+            "raw_text": "• Assistant Professor (August 2018 -November 2018): Department of Mathematics, Krishna Institute of Engineering and Technology. ◦ Representations of Finite Groups: Fall 2020, IIT Delhi. ◦ Calculus: Fall 2019 & Fall 2023, IIT Delhi. ◦ Cryptography: Spring 2020, IIT Delhi."
         },
         {
             "job_title": "",
