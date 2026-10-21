@@ -919,9 +919,8 @@ def split_publications_by_type(text, groups=None):
             buckets[bucket].append(entry)
     return buckets
 
-def process_resume(section_file):
-    with open(section_file, "r", encoding="utf-8") as f: data = json.load(f)
-    file_name = data.get("file_name", section_file.name)
+def build_prediction(data):
+    """Full Stage 3 for one resume: data = {"sections": {...}, "publication_groups": [...]}."""
     sections = data.get("sections", {})
     prediction = get_empty_gt_schema()
     
@@ -949,6 +948,12 @@ def process_resume(section_file):
     pub_text = get_section_text(sections, "publications")
     if pub_text:
         prediction["publications"] = split_publications_by_type(pub_text, data.get("publication_groups"))
+    return prediction
+
+
+def process_resume(section_file):
+    with open(section_file, "r", encoding="utf-8") as f: data = json.load(f)
+    prediction = build_prediction(data)
 
     norm_name = section_file.name.replace("_sections.json", ".json")
     output_file = PREDICTIONS_DIR / norm_name

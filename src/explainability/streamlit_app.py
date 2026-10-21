@@ -6,16 +6,23 @@ import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-import pypdf
+import sys
+import tempfile
+
 import streamlit as st
 
-PROJECT_ROOT = Path(r"c:\Users\Shrey\Desktop\TUF_F15_Data\Shrey_academics\MINOR\Attempt_2\synthetic-supervised-parser")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 GT_DIR = PROJECT_ROOT / "ground_truth"
 SECTIONS_DIR = PROJECT_ROOT / "output" / "sections"
 PREDICTIONS_DIR = PROJECT_ROOT / "output" / "predictions"
 NORMALIZATION_MAP_PATH = PROJECT_ROOT / "config" / "section_normalization_map.json"
 
+from src.extract_text_audited import extract_pdf_with_pdfplumber
+from src.segment_resumes_into_sections import segment_one_resume
 from src.extract_structured_information import (
+    build_prediction,
     extract_personal_details,
     extract_education_entries,
     extract_experience_entries,
@@ -82,14 +89,11 @@ def is_narrative_skill_item(item: str) -> bool:
     return False
 
 def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> Tuple[str, int]:
-    """Extracts raw text from PDF bytes using pypdf."""
-    reader = pypdf.PdfReader(io.BytesIO(pdf_bytes))
-    full_text = []
-    for page in reader.pages:
-        txt = page.extract_text()
-        if txt:
-            full_text.append(txt)
-    text = "\n".join(full_text).strip()
+    """Stage 1 exactly as the pipeline runs it (pdfplumber, glued-word retry, page markers)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        pdf_path = Path(tmp) / "upload.pdf"
+        pdf_path.write_bytes(pdf_bytes)
+        text = extract_pdf_with_pdfplumber(pdf_path)["full_text"].strip()
     return text, len(text)
 
 def live_section_text(raw_text: str) -> Dict[str, str]:
@@ -161,7 +165,13 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
         }
 
     # --- STAGE 2: Section Detection ---
-    sections = live_section_text(raw_text) if raw_text else {}
+    sections, publication_groups = {}, []
+    if raw_text:
+        with tempfile.TemporaryDirectory() as tmp:
+            txt_path = Path(tmp) / (base_name + ".txt")
+            txt_path.write_text(raw_text, encoding="utf-8")
+            seg = segment_one_resume(txt_path, load_heading_lookup())
+        sections, publication_groups = seg["sections"], seg.get("publication_groups", [])
     sections_detected = list(sections.keys())
     
     expected_canonical = ["education"]
@@ -185,23 +195,7 @@ def run_live_pipeline(file_bytes: bytes, file_name: str) -> Dict[str, Any]:
         }
 
     # --- STAGE 3: Entity Extraction ---
-    prediction = get_empty_gt_schema()
-    prediction["personal_details"] = extract_personal_details(sections)
-    
-    edu_text = sections.get("education", "")
-    prediction["education"] = extract_education_entries(edu_text, split_into_list) if edu_text else []
-    
-    exp_text = sections.get("experience", "") + sections.get("academic_experience", "")
-    prediction["experience"] = extract_experience_entries(exp_text, split_into_list) if exp_text else []
-
-    list_fields = ["research_interests", "skills", "projects", "certifications", "responsibilities", "references"]
-    for field in list_fields:
-        sec_content = sections.get(field, "")
-        prediction[field] = split_into_list(sec_content) if sec_content else []
-
-    pub_text = sections.get("publications", "")
-    if pub_text:
-        prediction["publications"] = split_publications_by_type(pub_text)
+    prediction = build_prediction({"sections": sections, "publication_groups": publication_groups})
 
     # Build Field Explanations using report_builder logic
     gt_file = GT_DIR / f"{base_name}.json"
