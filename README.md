@@ -1,12 +1,25 @@
 # NLU-Based Resume Information Extraction and Recruitment System
 
-An NLU-driven end-to-end resume information extraction, sectioning, structured entity parsing, explainability diagnostic UI, and recruitment recommendation pipeline.
+A rule-based (non-LLM) pipeline that turns academic CV PDFs into structured records: text extraction, section detection, entity parsing, and an explainability UI. Its education, experience and publication outputs are consumed by a separate shortlisting system (branch `shortlisting`).
+
+## 📌 Project Status (branch `experiment/robust-extraction-pipeline`)
+
+| Item | State |
+| :--- | :--- |
+| Corpus | 40 academic CV PDFs; 10 hand-labelled in `ground_truth/` (the **dev set**), 30 unlabelled |
+| Pipeline | Stage 1 (text) → Stage 2 (sections) → Stage 3 (entities) all working; predictions for all 40 in `output/predictions/` |
+| Headline metric | 25-field macro F1 **81.59%** on the dev set (80.16% at `6f10a86`). Tuned on these 10 resumes, so optimistic |
+| Paper-level publications | 125 of 129 labelled papers found (96.9%); type correct for 112 of 125 (89.6%) |
+| Shortlister inputs (dev set) | names 9/10; experience within 0.5 y on 8/10 and within 1 y on 9/10; publication totals exact on 5/10 (within ±10% on 6/10); PhD gate and degree level 10/10 (a weak test, 9 of the 10 are PhDs) |
+| Generalisation | Label-free check on the other 30 resumes: the latest shortlisting fixes changed experience on 1 resume and no names. The gain is mostly specific to the labelled set, so it should not be claimed to generalise |
+| UI | Streamlit app now calls the real pipeline functions, so it shows exactly what the batch run produces |
+| Next | Fix education/skills/experience/projects errors found on a real CV through the UI; widen quality flags; blind audit of ~10 unlabelled resumes |
 
 ---
 
 ## 🏗️ Pipeline Architecture
 
-The system processes raw PDF and text resumes through a modular 4-stage pipeline:
+The system processes PDF resumes through a modular 4-stage pipeline (Stages 1 to 3 are batch scripts in `src/`; Stage 4 is the UI):
 
 ```mermaid
 flowchart LR
@@ -16,13 +29,15 @@ flowchart LR
     D --> E[Stage 4: Explainability & Diagnostics]
 
     subgraph Stage 1: Text Extraction
-    B1[pypdf Raw Reader]
-    B2[Page Marker Stripping]
+    B1[pdfplumber Reader]
+    B2[Glued-Word Per-Page Retry]
+    B3[Page Marker Stripping]
     end
 
     subgraph Stage 2: Section Detection
     C1[Alias Normalization Map]
     C2[Tuned Structural Boundary Closure]
+    C3[Publication Sub-heading and Page-header Handling]
     end
 
     subgraph Stage 3: Entity Extraction
@@ -30,6 +45,7 @@ flowchart LR
     D2[Education & Experience Entry Splitter]
     D3[Hybrid Keyword + Statistical NER Institution Extractor]
     D4[Publication Classifier & Sub-field Extraction]
+    D5[Name Fallbacks and Stub Filtering]
     end
 
     subgraph Stage 4: Explainability & Diagnostics
@@ -43,6 +59,21 @@ flowchart LR
 2. **Stage 2: Section Detection**: Normalizes raw heading variants into canonical section keys (`education`, `experience`, `skills`, `publications`, etc.) using a JSON lookup map. Sub-headings inside a publications list ("Journal Articles") and repeated running page headers do not end the section. For every publications heading it also records the heading and its text (`publication_groups`) so Stage 3 can use the author's own headings.
 3. **Stage 3: Entity Extraction**: Splits dense section blocks into discrete entry records and extracts granular sub-fields (job titles, dates, degrees, institutions, CGPA, graduation years) using deterministic NLU rules. Institution extraction employs a **hybrid Keyword + Statistical NER Fallback** architecture: keyword matching acts as the primary high-precision extractor, while a lightweight statistical NER model (`spacy en_core_web_sm`) extracts `ORG` entities when keywords are absent. **Publication typing** uses, in order: the author's own heading ("Communicated", "Working paper", "Book chapters"...), an explicit per-entry marker such as "(Communicated)", and finally text rules, defaulting to journal article. Activity lines (talks, workshops attended), count lines ("Total papers: 65") and metric lines are filtered out.
 4. **Stage 4: Explainability & Diagnostic Layer**: A local web interface (Streamlit) that displays live stage-by-stage status, source line attribution, reason-for-missing mappings, and quality rule flags.
+
+
+### Scripts and outputs
+
+| Stage | Script | Writes |
+| :--- | :--- | :--- |
+| 1 | `src/extract_text_audited.py` | `data/real_resumes/extracted_text/` (not in repo) |
+| 2 | `src/segment_resumes_into_sections.py` + `config/section_normalization_map.json` | `output/sections/` (not in repo) |
+| 3 | `src/extract_structured_information.py` | `output/predictions/*.json` |
+| Eval | `scratch/evaluate_pipeline.py` | `output/evaluation/*.csv` |
+| UI | `src/explainability/streamlit_app.py` | none (display only) |
+
+The UI shares `build_prediction(data)` with Stage 3, so batch and UI output are identical.
+
+---
 
 ---
 
@@ -96,15 +127,68 @@ The pipeline is scored against the 10 hand-labelled academic resumes in `ground_
 5. **Wrapped citations**: a citation whose line wraps in the PDF can still be split into two entries, which inflates publication counts on some long lists.
 6. **Publication categories follow the author's headings**: where an author uses one generic "Publications" heading, journal versus conference is decided by text rules and is less reliable.
 
+
+## 🚧 Open Issues
+
+**Extraction (dev set)**
+
+- `personal_name`: Akash Thakkar still empty (name sits inside the education block; email is on a later line).
+- `experience`: Arghya 7.8 y vs 2.4 y labelled (labelling-scope question on a teaching-assistant role); Chandan 1.0 y vs 0 (a course line is given an "institution" and survives the stub filter).
+- `publications`: Anurag 15 conference papers predicted vs 4 labelled (labels probably incomplete); Anibrata 3 conference papers typed as journal; Aakash 2 missing and 2 merged; Chandan 9 of 12 found; wrapped continuation lines still become separate entries in some CVs.
+- Book chapters for Soumen: 16 predicted vs 4 stated by the author.
+- Section routing misses on a few education blocks (Anurag, Chandan, Akash) and one leaked entry after a "Conferences and Workshops attended" heading are not yet re-verified.
+
+**Found by running a real CV through the UI (causes not yet diagnosed)**
+
+- Education entries look shifted by one (degree and institution mismatched; "College" taken as an institution).
+- Experience institution can capture bullet text; skills can come back empty; project titles stick to the previous bullet with `(cid:N)` / `§` icon glyphs.
+- Quality flags are too narrow: they miss missing degree, generic-word institutions, empty skills and institutions containing verbs.
+- UI: a source line starting with `#` renders as a Markdown heading.
+
+**Evaluation**
+
+- Experience dates are compared ignoring whitespace and dash style, and publication fields are scored as a bag of words, so some real errors are invisible to the macro F1.
+- All labelled numbers are dev-set numbers; a blind audit of unlabelled resumes is still to be done.
+- `data/entity_annotations/external/*` and its manifest are to be relabelled or removed.
+
+---
+
+## 🧾 Recent Changes
+
+| Commit | Change |
+| :--- | :--- |
+| `e667d22` | Stage 1 per-page glued-word retry (affected files 11/40 → 2); Stage 2 keeps publication sub-headings, drops repeated page headers; `publication_groups` committed for reproducibility |
+| `a20e416` | Stage 3 publication cleanup (count lines, label prefixes, bare sub-headings, glued "Chaptersin Books", block ends at explicit headings); README regenerated from measured metrics |
+| `afeac56` | "Work/Employment History" headings; name-line contact-tail cut; name-from-email fallback; title-less/institution-less experience stubs dropped |
+| `9cb443a` | UI calls the real pipeline functions; shared `build_prediction`; fixed `ModuleNotFoundError: src` |
+
+Macro F1 trail (dev set): 80.16 → 80.43 (publication cleanup) → 81.59 (shortlisting fixes: experience_title 85.45 → 95.46, experience_dates 72.27 → 80.84, personal_name 80 → 90).
+
+---
 ---
 
 ## 🛠️ How to Run & Local Web UI
 
+### 0. Setup
+
+```bash
+python -m pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
 ### 1. Launch the Live Streamlit Explainability App locally
-To upload resumes and view live stage-by-stage diagnostics:
+Run from the project root to upload resumes and view live stage-by-stage diagnostics:
 
 ```bash
 streamlit run src/explainability/streamlit_app.py
+```
+
+### 1b. Run the batch pipeline
+
+```bash
+python src/extract_text_audited.py
+python src/segment_resumes_into_sections.py
+python src/extract_structured_information.py
 ```
 
 ### 2. Run Automated Regression & Evaluation Scripts
@@ -123,3 +207,23 @@ streamlit run src/explainability/streamlit_app.py
   ```bash
   python scratch/evaluate_coverage_routing.py
   ```
+
+- **Compare two evaluation runs / see which fields changed**:
+  ```bash
+  python scratch/compare_runs.py before.txt after.txt
+  python scratch/bucket_diff.py
+  python scratch/unlabelled_delta.py
+  ```
+
+- **Paper-level publication check and shortlister-input check**:
+  ```bash
+  python scratch/pub_paper_level.py
+  python scratch/shortlist_inputs_check.py
+  ```
+
+- **Regenerate the metrics table in this README**:
+  ```bash
+  python scratch/update_readme.py
+  ```
+
+> `output/sections/`, `data/real_resumes/extracted_text/` and the source PDFs are not tracked in the repo. Set `git config gc.auto 0` if OneDrive locks the `.git` folder.
