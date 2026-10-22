@@ -363,6 +363,8 @@ class EducationNormalizer:
 
             degree = normalize_degree_name(degree)
             institution = clean_institution(institution)
+            if SECONDARY_EDUCATION_REGEX.search(institution):
+                institution = ""
 
             # If institution is empty but clearly present in single-degree raw_t
             if not institution and len(valid_degs) == 1:

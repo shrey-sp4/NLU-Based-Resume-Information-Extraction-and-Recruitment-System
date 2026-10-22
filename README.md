@@ -78,27 +78,43 @@ flowchart TD
 The upstream extraction pipeline operates independently under `src/` and serves as the ground-truth information extractor.
 
 ### Strict 25-Field Evaluation Metrics
-Evaluated against ground-truth academic resumes across 25 fields:
+Evaluated against the 10 hand-labelled academic resumes in `ground_truth/` across 25 fields (via `scratch/evaluate_pipeline.py`):
+
+> **Evaluation Methodology & Provenance Notes**:
+> - **Upstream Extraction vs. Shortlisting**: The 81.59% macro F1 score strictly measures *upstream information extraction performance* across 25 fields on the 10 ground-truth resumes. It does not represent downstream shortlisting accuracy (which evaluates candidate ranking, hard-gate decisions, and criteria scoring).
+> - **Branch Provenance**: The baseline extraction pipeline committed on the `shortlisting` branch achieved **70.74%** macro F1 (`output/evaluation/overall_metrics.csv`). The improved extraction pipeline developed on `experiment/robust-extraction-pipeline` achieved **81.59%** macro F1 across the same 10 ground-truth resumes.
+> - These metrics represent development-set extraction performance on the 10 labelled resumes; rules were tuned against this set and provide an optimistic benchmark for unseen CVs.
+> - `experience_dates` are evaluated ignoring whitespace and dash formatting (`2015 - Present` equals `2015-Present`).
+> - Publications are evaluated as a bag of words per publication category; paper-level and title-level matching are independently audited.
 
 | Field Name | Precision | Recall | Macro F1 Score |
 | :--- | :---: | :---: | :---: |
-| `personal_name` | 80.00% | 80.00% | **80.00%** |
+| `personal_name` | 90.00% | 90.00% | **90.00%** |
 | `personal_email` | 100.00% | 100.00% | **100.00%** |
 | `personal_phone` | 90.00% | 85.00% | **86.67%** |
-| `education_degree` | 92.50% | 59.55% | **69.23%** |
-| `education_institution` | 55.95% | 50.52% | **51.76%** |
-| `education_graduation_year` | 98.00% | 73.21% | **80.97%** |
-| `education_cgpa` | 73.33% | 63.50% | **67.50%** |
-| `experience_title` | 84.00% | 62.50% | **67.68%** |
-| `experience_institution` | 78.25% | 54.17% | **58.56%** |
-| `experience_dates` | 69.40% | 55.00% | **56.84%** |
-| `publications_journal_articles` | 54.88% | 65.76% | **54.80%** |
-| `publications_conference_proceedings` | 87.98% | 89.15% | **88.43%** |
-| `publications_books` | 80.00% | 80.00% | **80.00%** |
-| `publications_book_chapters` | 77.22% | 73.71% | **74.91%** |
+| `education_degree` | 90.83% | 83.90% | **86.36%** |
+| `education_institution` | 67.40% | 74.19% | **70.32%** |
+| `education_graduation_year` | 98.33% | 87.48% | **91.12%** |
+| `education_cgpa` | 83.33% | 71.00% | **75.59%** |
+| `experience_title` | 94.29% | 97.50% | **95.45%** |
+| `experience_institution` | 70.36% | 77.08% | **72.78%** |
+| `experience_dates` | 77.21% | 86.67% | **80.84%** |
+| `publications_journal_articles` | 78.19% | 89.98% | **82.49%** |
+| `publications_conference_proceedings` | 94.60% | 98.59% | **96.28%** |
+| `publications_conference_papers` | 54.39% | 60.89% | **56.45%** |
+| `publications_books` | 100.00% | 100.00% | **100.00%** |
+| `publications_book_chapters` | 83.01% | 81.05% | **81.38%** |
+| `publications_preprints` | 96.74% | 92.58% | **94.43%** |
+| `publications_technical_reports` | 96.86% | 97.78% | **97.29%** |
+| `publications_communications` | 98.57% | 95.71% | **96.92%** |
 | `skills` | 81.63% | 85.79% | **81.89%** |
 | `responsibilities` | 84.90% | 86.29% | **85.16%** |
-| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **70.74%** |
+| `certifications` | 52.41% | 57.61% | **53.19%** |
+| `projects` | 66.29% | 65.95% | **65.83%** |
+| `references` | 66.33% | 58.85% | **62.21%** |
+| `research_interests` | 77.25% | 85.88% | **78.75%** |
+| `summary` | 57.22% | 60.00% | **58.39%** |
+| **AVERAGE MACRO FIELD F1 (25 FIELDS)** | | | **81.59%** |
 
 ---
 
@@ -222,28 +238,33 @@ Run the full test suite covering education normalization, publication normalizat
 PYTHONPATH=. ./venv/bin/python -m unittest discover -s tests -v
 ```
 
-**Results: 26 passed out of 26 tests (0.12 seconds)**
-- `test_education_normalizer.py`: 8 tests verifying degree-institution associations, multi-degree raw-text blocks, orphan institution rejection, and audit test cases (`cv_aakash_daiict`, `CV_Chandan`, `Snehamoy_P_CV`, `Updated_CV-_Dr_Soumen_Mukherjee`, etc.).
+**Results: 30 passed out of 30 tests (0.12 seconds)**
+- `test_candidate_normalizer.py`: 4 tests verifying heading rejection (`Work Experience`, `Experience`, `Education`), document prefix stripping (`CV-`, `Resume-`), credential/title cleaning, and non-person phrase rejection.
+- `test_education_normalizer.py`: 8 tests verifying degree-institution associations, multi-degree raw-text blocks, orphan institution rejection, and audit test cases across prediction formats.
 - `test_publication_normalizer.py`: 10 tests verifying embedded citation splitting, preamble stripping, attendance filtering, semicolon titles, deduplication, and schema leak prevention.
 - `test_llm_tier_services.py`: 8 tests verifying offline mode, Gemini code fence JSON parsing, HTTP 429 rate limit fallback, socket timeouts, prompt independence from candidate degrees, and environment variable configuration.
 
 ### Downstream Pipeline Execution Across All 40 Resumes
-Executing the downstream pipeline across all 40 prediction files in `output/predictions/*.json` in offline mode yields:
-- **Total Resumes Processed**: 40
-- **Decisions Distribution**:
+
+> **Decision Distribution Note**: The 27/10/3 and 28/8/4 distributions are *candidate decision counts* produced by applying downstream shortlisting criteria under default recruiter requirements to the respective prediction sets. They represent candidate outcome distributions, not model accuracy measurements.
+
+#### 1. Baseline Predictions (Current `shortlisting` branch):
+- **Total Resumes Evaluated**: 40
+- **Decision Counts**:
   - **SHORTLISTED**: 27 candidates (67.5%)
   - **REVIEW**: 10 candidates (25.0%)
   - **REJECTED**: 3 candidates (7.5%)
-- **Top Scoring Candidates**:
-  - `CV-Anurag_Choudhary`: Overall Score 94.60 (SHORTLISTED)
-  - `Snehamoy Pramanik`: Overall Score 94.60 (SHORTLISTED)
-  - `SUJIT SANGRAM SAHOO`: Overall Score 94.60 (SHORTLISTED)
-  - `Amit kumar`: Overall Score 92.80 (SHORTLISTED)
-  - `MITESHKUMAR SOLANKI`: Overall Score 89.35 (SHORTLISTED)
-- **Bottom Scoring / Rejected Candidates**:
-  - `Dr_CVR_Latest_CV_with_scholars_status_261224`: Overall Score 41.35 (REJECTED)
-  - `Dharmendra Pathak`: Overall Score 41.35 (REJECTED)
-  - `RESUME`: Overall Score 57.10 (REJECTED)
+
+#### 2. Latest Predictions (from `origin/experiment/robust-extraction-pipeline`):
+- **Total Resumes Evaluated**: 40
+- **Decision Counts**:
+  - **SHORTLISTED**: 28 candidates (70.0%)
+  - **REVIEW**: 8 candidates (20.0%)
+  - **REJECTED**: 4 candidates (10.0%)
+- **Key Downstream Changes under New Predictions**:
+  - `AH_CV.json`: Moved from `REVIEW` $\rightarrow$ `SHORTLISTED` (Score 70.10 $\rightarrow$ 84.10, +14.00 pts) as the improved upstream pipeline successfully recovered 3 higher-education degrees previously missed.
+  - `Sourabh_Pal_1.json`: Moved from `REVIEW` $\rightarrow$ `REJECTED` (Score 70.05 $\rightarrow$ 41.35) due to an upstream text-segmentation miss resulting in an empty education list (`education: []`), correctly triggering the mandatory degree hard-gate rejection under zero-fabrication constraints.
+  - Candidate name identification improved: `CV-Anurag_Choudhary` cleanly resolves to `"Anurag Choudhary"` (previously empty), `CV_DAIICT` resolves to `"Isha Sharma"` (previously empty), and `"Work Experience"` is safely rejected to empty string rather than being misattributed as a candidate name.
 
 ---
 

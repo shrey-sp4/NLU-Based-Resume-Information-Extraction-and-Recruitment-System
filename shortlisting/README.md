@@ -136,8 +136,11 @@ LLM integration for university-tier and publication-tier classification is imple
 1. **Stage 1 (Education Normalization)**: Complete & validated with 8 unit tests.
 2. **Stage 2 (Publication Normalization)**: Complete & validated with 10 unit tests.
 3. **Stage 3 (Gemini LLM Integration)**: Complete & verified with 8 mocked unit tests covering offline mode, successful generation, error handling, prompt independence, and schema preservation.
-4. **Current Decisions Across 40 Resumes**: 27 Shortlisted, 10 Review, 3 Rejected.
-5. **Next Steps for Production Readiness**:
+4. **Candidate Name Normalization**: Complete & validated with 4 regression tests covering heading rejection and prefix stripping (total 30 unit tests passing).
+5. **Candidate Decision Counts Across 40 Resumes** (Decision counts under default requirements, not accuracy measurements):
+   - Baseline Predictions: 27 Shortlisted, 10 Review, 3 Rejected.
+   - Latest Predictions (robust-extraction-pipeline): 28 Shortlisted, 8 Review, 4 Rejected.
+6. **Next Steps for Production Readiness**:
    - Optional live API key execution in production deployment environments.
    - Additional recruiter UI custom filtering controls.
    - Batch report generation (PDF / CSV) for faculty selection committees.

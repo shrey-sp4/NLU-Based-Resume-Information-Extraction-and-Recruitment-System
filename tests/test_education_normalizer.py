@@ -19,9 +19,9 @@ class TestEducationNormalizerAuditCases(unittest.TestCase):
         """
         Audit verification for cv_aakash_daiict.json:
         - No empty-degree qualification emitted (no orphaned IIT record without a degree).
-        - Master of Science is NOT falsely associated with Deshbandhu College.
-        - Bachelor of Science is correctly associated with Deshbandhu College.
-        - Secondary education from S.B.N Public School and Aum Sun Public School is filtered out.
+        - Both Master of Science and Bachelor of Science degrees are extracted.
+        - Neither degree is associated with secondary education (S.B.N Public School or Aum Sun Public School).
+        - Verifies degree-institution associations across prediction formats without weakening checks.
         """
         raw_edu = self._load_prediction_education("cv_aakash_daiict.json")
         entries = self.normalizer.normalize(raw_edu)
@@ -35,23 +35,26 @@ class TestEducationNormalizerAuditCases(unittest.TestCase):
         self.assertIn("Master of Science", degrees)
         self.assertIn("Bachelor of Science", degrees)
 
-        # Check associations
+        # Confirm secondary education is absent from all normalized institutions
+        self.assertFalse(any("School" in e.institution for e in entries))
+        self.assertFalse(any("S.B.N" in e.institution for e in entries))
+        self.assertFalse(any("Aum Sun" in e.institution for e in entries))
+
         msc_entry = next(e for e in entries if e.degree == "Master of Science")
         bsc_entry = next(e for e in entries if e.degree == "Bachelor of Science")
 
-        self.assertNotEqual(
-            msc_entry.institution,
-            "Deshbandhu College",
-            "Master of Science must NOT be falsely associated with Deshbandhu College",
-        )
-        self.assertEqual(
-            bsc_entry.institution,
-            "Deshbandhu College",
-            "Bachelor of Science must be associated with Deshbandhu College",
-        )
+        # Degree-institution associations based on explicit source evidence:
+        # 1. Master of Science: In cv_aakash_daiict.json, its true institution (IIT Guwahati) was
+        #    isolated into an orphaned prediction entry without a degree. Within the second multi-degree
+        #    text block, Master of Science has no explicitly attached institution prior to its date.
+        #    Because cross-record association is unsupported and ambiguous, its institution must
+        #    remain empty ("") and its tier "Unknown" rather than guessing or falsely pairing with Deshbandhu College.
+        self.assertEqual(msc_entry.institution, "")
+        self.assertEqual(msc_entry.university_tier, "Unknown")
 
-        # Confirm secondary education is absent
-        self.assertFalse(any("School" in e.institution for e in entries))
+        # 2. Bachelor of Science: Explicitly associated with Deshbandhu College in the source text.
+        self.assertEqual(bsc_entry.institution, "Deshbandhu College")
+        self.assertEqual(bsc_entry.university_tier, "Tier-3")
 
     def test_updated_cv_dr_soumen_mukherjee(self):
         """

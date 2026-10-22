@@ -12,6 +12,11 @@ from shortlisting.normalization.publication_normalizer import PublicationNormali
 
 import re
 
+CV_PREFIX_REGEX = re.compile(
+    r"^(?:(?:CV|Curriculum\s+Vitae|Resume)\s*[-_.:\s]+)+",
+    re.IGNORECASE,
+)
+
 TITLE_PREFIX_REGEX = re.compile(
     r"^(?:(?:Dr|Prof|Mr|Mrs|Ms)\.?\s+)+",
     re.IGNORECASE,
@@ -29,7 +34,11 @@ REJECT_NAME_PATTERNS = [
     r"\bbengali\b", r"\bhindi\b", r"\benglish\b", r"\bgujarati\b",
     r"\bcurriculum\b", r"\bvitae\b", r"\bresume\b", r"\bbiodata\b",
     r"\bobjective\b", r"\bsummary\b", r"\bopportunities\b", r"\bseeking\b", r"\blooking for\b",
-    r"\bdedicated\b", r"\bpossessing\b", r"\bcontribute\b", r"\bexperienced\b"
+    r"\bdedicated\b", r"\bpossessing\b", r"\bcontribute\b", r"\bexperienced\b",
+    # Section headings erroneously parsed as name candidates
+    r"\bwork experience\b", r"\bexperience\b", r"\bwork history\b", r"\bemployment history\b",
+    r"\bprofessional experience\b", r"\bacademic experience\b", r"\beducation\b",
+    r"\bpublications?\b", r"\bqualifications?\b", r"\bpersonal details\b", r"\bcontact details\b",
 ]
 REJECT_NAME_REGEX = re.compile("|".join(REJECT_NAME_PATTERNS), re.IGNORECASE)
 
@@ -54,22 +63,24 @@ class CandidateNormalizer:
     @staticmethod
     def clean_candidate_name(raw_name: str) -> str:
         """
-        Cleans candidate name by removing attached title prefixes (Dr., Prof.)
-        and credentials/affiliations (SMIEEE, Ph.D., etc.), while strictly
-        rejecting non-person text (departments, skills, headers, languages).
+        Cleans candidate name by removing attached title prefixes (Dr., Prof.),
+        document labels (CV-, Resume-), and credentials/affiliations (SMIEEE, Ph.D.),
+        while strictly rejecting non-person text (departments, skills, headers, languages).
         Returns empty string if name is invalid or unidentifiable.
         """
         if not raw_name:
             return ""
         name = raw_name.strip()
 
-        # 1. Strip credential suffixes (e.g. SMIEEE, Ph.D., M.Tech)
+        # 1. Strip document label prefixes (e.g. CV-, CV_, Curriculum Vitae -)
+        name = CV_PREFIX_REGEX.sub("", name).strip()
+        # 2. Strip credential suffixes (e.g. SMIEEE, Ph.D., M.Tech)
         name = CREDENTIALS_SUFFIX_REGEX.sub("", name).strip()
-        # 2. Strip title prefixes (e.g. Dr., Prof., Mr., Ms., Mrs.)
+        # 3. Strip title prefixes (e.g. Dr., Prof., Mr., Ms., Mrs.)
         name = TITLE_PREFIX_REGEX.sub("", name).strip()
         name = name.strip(" ,;:-–—.")
 
-        # 3. Reject non-person text patterns
+        # 4. Reject non-person text patterns and section headings
         if REJECT_NAME_REGEX.search(name):
             return ""
 
