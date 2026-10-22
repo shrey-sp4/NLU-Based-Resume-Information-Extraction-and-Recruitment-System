@@ -3,6 +3,10 @@ from __future__ import annotations
 import json
 import os
 import re
+import socket
+import urllib.error
+import urllib.parse
+import urllib.request
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
 
@@ -18,8 +22,9 @@ class LLMClient(ABC):
 
 class ConfigurableLLMClient(LLMClient):
     """
-    Provider-agnostic LLM client with local caching, robust JSON decoding,
-    and automatic offline heuristic fallback when API credentials are absent.
+    Provider-configurable LLM client supporting Google Gemini (primary),
+    OpenAI, and deterministic offline heuristic mode.
+    Uses standard library urllib for network transport without external dependencies.
     """
 
     def __init__(
@@ -27,10 +32,48 @@ class ConfigurableLLMClient(LLMClient):
         provider: Optional[str] = None,
         model_name: Optional[str] = None,
         api_key: Optional[str] = None,
+        api_base: Optional[str] = None,
+        timeout: float = 15.0,
     ):
-        self.provider = provider or os.getenv("LLM_PROVIDER", "heuristic").lower()
-        self.model_name = model_name or os.getenv("LLM_MODEL_NAME", "gemini-1.5-flash")
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY", "")
+        # Determine provider: default to 'gemini' if GEMINI_API_KEY is present, else 'heuristic'
+        env_provider = os.getenv("LLM_PROVIDER")
+        if provider:
+            self.provider = provider.lower()
+        elif env_provider:
+            self.provider = env_provider.lower()
+        elif os.getenv("GEMINI_API_KEY"):
+            self.provider = "gemini"
+        elif os.getenv("OPENAI_API_KEY"):
+            self.provider = "openai"
+        else:
+            self.provider = "heuristic"
+
+        # Determine model name
+        if model_name:
+            self.model_name = model_name
+        else:
+            env_model = os.getenv("LLM_MODEL_NAME")
+            if env_model:
+                self.model_name = env_model
+            elif self.provider == "gemini":
+                self.model_name = "gemini-1.5-flash"
+            elif self.provider == "openai":
+                self.model_name = "gpt-4o-mini"
+            else:
+                self.model_name = "heuristic-deterministic"
+
+        # Determine API key
+        self.api_key = (
+            api_key
+            or os.getenv("GEMINI_API_KEY")
+            or os.getenv("OPENAI_API_KEY")
+            or os.getenv("LLM_API_KEY")
+            or ""
+        )
+
+        # Base URL for custom endpoints / proxies
+        self.api_base = (api_base or os.getenv("LLM_API_BASE", "")).rstrip("/")
+        self.timeout = timeout
         self._cache: Dict[str, Dict[str, Any]] = {}
 
     def _extract_json_block(self, text: str) -> Dict[str, Any]:
@@ -52,7 +95,7 @@ class ConfigurableLLMClient(LLMClient):
     def generate_json(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
         cache_key = f"{self.provider}:{hash(system_prompt)}:{hash(user_prompt)}"
         if cache_key in self._cache:
-            return self._cache[cache_key]
+            return dict(self._cache[cache_key])
 
         if self.provider == "gemini" and self.api_key:
             result = self._call_gemini(system_prompt, user_prompt)
@@ -62,30 +105,85 @@ class ConfigurableLLMClient(LLMClient):
             result = self._fallback_heuristic(system_prompt, user_prompt)
 
         self._cache[cache_key] = result
-        return result
+        return dict(result)
 
     def _call_gemini(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
-        import requests
+        """Makes a structured JSON generation call to Google Gemini API using urllib."""
+        if self.api_base:
+            url = f"{self.api_base}/v1beta/models/{self.model_name}:generateContent"
+        else:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent"
 
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/{self.model_name}:generateContent?key={self.api_key}"
+        full_url = f"{url}?key={urllib.parse.quote(self.api_key)}"
         payload = {
-            "contents": [{"parts": [{"text": f"{system_prompt}\n\nUser request:\n{user_prompt}"}]}],
-            "generationConfig": {"temperature": 0.0, "responseMimeType": "application/json"},
+            "contents": [
+                {
+                    "parts": [
+                        {"text": f"{system_prompt}\n\nTask Input:\n{user_prompt}"}
+                    ]
+                }
+            ],
+            "generationConfig": {
+                "temperature": 0.0,
+                "responseMimeType": "application/json",
+            },
         }
+        req_data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            full_url,
+            data=req_data,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+
         try:
-            resp = requests.post(url, json=payload, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-            raw_text = data["candidates"][0]["content"]["parts"][0]["text"]
-            return self._extract_json_block(raw_text)
-        except Exception:
-            return self._fallback_heuristic(system_prompt, user_prompt)
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                resp_bytes = resp.read()
+                data = json.loads(resp_bytes.decode("utf-8"))
+                candidates = data.get("candidates", [])
+                if not candidates:
+                    return self._build_error_fallback(
+                        system_prompt, user_prompt, "Gemini returned zero candidates"
+                    )
+                raw_text = candidates[0].get("content", {}).get("parts", [{}])[0].get("text", "")
+                parsed = self._extract_json_block(raw_text)
+                if not isinstance(parsed, dict):
+                    return self._build_error_fallback(
+                        system_prompt, user_prompt, "Gemini output did not parse into JSON object"
+                    )
+                parsed["_source"] = "gemini"
+                parsed["_is_fallback"] = False
+                return parsed
+
+        except urllib.error.HTTPError as exc:
+            err_body = ""
+            try:
+                err_body = exc.read().decode("utf-8")
+            except Exception:
+                pass
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"Gemini HTTP {exc.code} {exc.reason}: {err_body[:200]}"
+            )
+        except (urllib.error.URLError, socket.timeout, TimeoutError) as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"Gemini connection/timeout error: {exc}"
+            )
+        except (json.JSONDecodeError, KeyError, IndexError, ValueError) as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"Gemini response parsing error: {exc}"
+            )
+        except Exception as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"Gemini unexpected error: {exc}"
+            )
 
     def _call_openai(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
-        import requests
+        """Makes a structured JSON completion call to OpenAI API using urllib."""
+        if self.api_base:
+            url = f"{self.api_base}/chat/completions"
+        else:
+            url = "https://api.openai.com/v1/chat/completions"
 
-        url = "https://api.openai.com/v1/chat/completions"
-        headers = {"Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"}
         payload = {
             "model": self.model_name or "gpt-4o-mini",
             "messages": [
@@ -95,14 +193,103 @@ class ConfigurableLLMClient(LLMClient):
             "temperature": 0.0,
             "response_format": {"type": "json_object"},
         }
+        req_data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            url,
+            data=req_data,
+            headers={
+                "Authorization": f"Bearer {self.api_key}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+
         try:
-            resp = requests.post(url, headers=headers, json=payload, timeout=15)
-            resp.raise_for_status()
-            data = resp.json()
-            raw_text = data["choices"][0]["message"]["content"]
-            return self._extract_json_block(raw_text)
-        except Exception:
-            return self._fallback_heuristic(system_prompt, user_prompt)
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                resp_bytes = resp.read()
+                data = json.loads(resp_bytes.decode("utf-8"))
+                choices = data.get("choices", [])
+                if not choices:
+                    return self._build_error_fallback(
+                        system_prompt, user_prompt, "OpenAI returned zero choices"
+                    )
+                raw_text = choices[0].get("message", {}).get("content", "")
+                parsed = self._extract_json_block(raw_text)
+                if not isinstance(parsed, dict):
+                    return self._build_error_fallback(
+                        system_prompt, user_prompt, "OpenAI output did not parse into JSON object"
+                    )
+                parsed["_source"] = "openai"
+                parsed["_is_fallback"] = False
+                return parsed
+
+        except urllib.error.HTTPError as exc:
+            err_body = ""
+            try:
+                err_body = exc.read().decode("utf-8")
+            except Exception:
+                pass
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"OpenAI HTTP {exc.code} {exc.reason}: {err_body[:200]}"
+            )
+        except (urllib.error.URLError, socket.timeout, TimeoutError) as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"OpenAI connection/timeout error: {exc}"
+            )
+        except (json.JSONDecodeError, KeyError, IndexError, ValueError) as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"OpenAI response parsing error: {exc}"
+            )
+        except Exception as exc:
+            return self._build_error_fallback(
+                system_prompt, user_prompt, f"OpenAI unexpected error: {exc}"
+            )
+
+    def _build_error_fallback(
+        self, system_prompt: str, user_prompt: str, error_msg: str
+    ) -> Dict[str, Any]:
+        """
+        Builds safe fallback result upon API error or network failure.
+        Never pretends the result came from an LLM; explicitly marks _is_fallback=True,
+        assigns tier Unknown/Unranked with zero confidence, and logs failure rationale.
+        """
+        user_lower = user_prompt.lower()
+        if "institution:" in user_lower:
+            return {
+                "tier": "Unknown",
+                "confidence": 0.0,
+                "reason": f"API error fallback ({error_msg})",
+                "_source": "api_error_fallback",
+                "_is_fallback": True,
+            }
+
+        # Publication query
+        from shortlisting.normalization.publication_normalizer import PublicationNormalizer
+
+        cit_text = user_prompt
+        hint = ""
+        if "Citation:" in cit_text:
+            cit_text = cit_text.split("Citation:", 1)[1]
+        if "Extracted Category Hint:" in cit_text:
+            parts = cit_text.split("Extracted Category Hint:", 1)
+            cit_text = parts[0]
+            hint = parts[1].strip()
+        cit_text = cit_text.strip()
+
+        title = PublicationNormalizer._extract_title(cit_text)
+        year = PublicationNormalizer._extract_year(cit_text)
+        pub_type = PublicationNormalizer._determine_type(hint, cit_text)
+
+        return {
+            "title": title,
+            "type": pub_type,
+            "year": year,
+            "tier": "Unranked",
+            "confidence": 0.0,
+            "reason": f"API error fallback ({error_msg})",
+            "_source": "api_error_fallback",
+            "_is_fallback": True,
+        }
 
     def _fallback_heuristic(self, system_prompt: str, user_prompt: str) -> Dict[str, Any]:
         """
@@ -116,135 +303,96 @@ class ConfigurableLLMClient(LLMClient):
         if "institution:" in user_lower:
             # Reject table headers and non-entities
             if re.search(r"\b(?:degree\s+university|board/university|university/board|percentage|passing|examination|council|secondary|cgpa)\b", user_lower):
-                return {"tier": "Unknown", "confidence": 0.0, "reason": "Not an educational institution."}
+                return {
+                    "tier": "Unknown",
+                    "confidence": 0.0,
+                    "reason": "Not an educational institution.",
+                    "_source": "offline_fallback",
+                    "_is_fallback": True,
+                }
 
             if any(k in user_lower for k in ["national importance", "institute of technology", "central university", "premier", "iit", "nit", "iim", "iisc"]):
-                return {"tier": "Tier-1", "confidence": 0.85, "reason": "Institution recognized as apex / national research importance."}
+                return {
+                    "tier": "Tier-1",
+                    "confidence": 0.85,
+                    "reason": "Institution recognized as apex / national research importance.",
+                    "_source": "offline_fallback",
+                    "_is_fallback": True,
+                }
             elif any(k in user_lower for k in ["state university", "deemed university", "university", "autonomous", "vishwavidyalaya"]):
-                return {"tier": "Tier-2", "confidence": 0.75, "reason": "Recognized state or autonomous university entity."}
+                return {
+                    "tier": "Tier-2",
+                    "confidence": 0.75,
+                    "reason": "Recognized state or autonomous university entity.",
+                    "_source": "offline_fallback",
+                    "_is_fallback": True,
+                }
             elif any(k in user_lower for k in ["college", "school", "vidyalaya", "institute"]):
-                return {"tier": "Tier-3", "confidence": 0.65, "reason": "Affiliated college or local educational institute."}
+                return {
+                    "tier": "Tier-3",
+                    "confidence": 0.65,
+                    "reason": "Affiliated college or local educational institute.",
+                    "_source": "offline_fallback",
+                    "_is_fallback": True,
+                }
             else:
-                return {"tier": "Unknown", "confidence": 0.30, "reason": "Institutional information ambiguous or unrecognized."}
+                return {
+                    "tier": "Unknown",
+                    "confidence": 0.30,
+                    "reason": "Institutional information ambiguous or unrecognized.",
+                    "_source": "offline_fallback",
+                    "_is_fallback": True,
+                }
 
         # Case 2: Publication Citation Query
-        # 1. Guard against non-publication records (headings, talks, attendances, fragments)
-        non_pub_regex = re.compile(
-            r"(?:citation:\s*)?(?:first/corresponding|co-corresponding|author\s+publications|publications\s*:|papers?\s+presented\s*:)|"
-            r"\b(?:delivered\s+(?:an?\s+)?(?:expert|scholarly|invited|keynote|guest)?\s*(?:talk|address|lecture|speech))\b|"
-            r"\b(?:invited\s+talks?|invited\s+presentations?|presentations?\s+at|talks?\s+at)\b|"
-            r"\b(?:participated\s+in(?:\s+the)?\s+(?:national|international|two\s+days?|one\s+week)?\s*(?:workshop|sttp|training))\b|"
-            r"\b(?:participated\s+in|attended\s+(?:an?\s+)?(?:online\s+)?(?:workshop|seminar|conference|training))\b|"
-            r"\b(?:organized\s+(?:international|national)?\s*(?:conference|workshop))\b|"
-            r"\b(?:total\s+paper\s+published|total\s+publications?)\b|"
-            r"\b(?:international\s+workshop\s+on\b)|"
-            r"\b(?:training\s+program\s+in|hands-on\s+workshop)\b|"
-            r"page\s+\d+\s+of\s+\d+|^\s*\d+\s*\|\s*p\s*age|^\s*\d{4,}/[a-z0-9\.\-_/]+",
-            re.IGNORECASE,
-        )
-        if non_pub_regex.search(user_prompt):
+        from shortlisting.normalization.publication_normalizer import PublicationNormalizer
+
+        # Isolate citation text from hint and prompt wrappers
+        cit_text = user_prompt
+        hint = ""
+        if "Citation:" in cit_text:
+            cit_text = cit_text.split("Citation:", 1)[1]
+        if "Extracted Category Hint:" in cit_text:
+            parts = cit_text.split("Extracted Category Hint:", 1)
+            cit_text = parts[0]
+            hint = parts[1].strip()
+        cit_text = cit_text.strip()
+
+        if PublicationNormalizer._is_invalid_citation(cit_text):
             return {
                 "title": None,
                 "type": "other",
                 "year": None,
                 "tier": "Unranked",
                 "confidence": 0.0,
+                "_source": "offline_fallback",
+                "_is_fallback": True,
             }
 
-        # Extract 4-digit year if present
-        year_m = re.search(r"\b(19|20)\d{2}\b", user_prompt)
-        year = year_m.group(0) if year_m else None
-
-        # Determine type
-        if any(w in user_lower for w in ["journal", "transactions", "letters", "issn", "vol.", "vol ", "issue"]):
-            pub_type = "journal"
-        elif any(w in user_lower for w in ["conference", "proceedings", "symposium", "workshop", "proc.", "ieee"]):
-            pub_type = "conference"
-        else:
-            pub_type = "other"
-
-        # Isolate citation text from hint and prompt wrappers
-        cit_text = user_prompt
-        if "Citation:" in cit_text:
-            cit_text = cit_text.split("Citation:", 1)[1]
-        if "Extracted Category Hint:" in cit_text:
-            cit_text = cit_text.split("Extracted Category Hint:", 1)[0]
-        cit_text = cit_text.strip()
-
-        # Multi-stage title extraction
-        title = None
-        # A. Quoted title
-        qm = re.search(r'[\"“]([^\”\"\r\n]{8,300})[\"”]', cit_text)
-        if qm:
-            cand_t = qm.group(1).strip()
-            if len(cand_t.split()) >= 3 and not non_pub_regex.search(cand_t):
-                title = cand_t
-
-        # B. Year delimiter (YYYY). Title...
-        if not title:
-            ym = re.search(
-                r"\((?:19|20)\d{2}[a-z]?\)\s*[\.:,-]?\s*([A-Z][^\.\n]{8,250})(?:\.|\bISSN|\bVol|\bpp|\bin\b|\bdoi\b)",
-                cit_text,
-                re.IGNORECASE,
-            )
-            if ym:
-                cand_t = ym.group(1).strip()
-                if len(cand_t.split()) >= 3 and not non_pub_regex.search(cand_t):
-                    title = cand_t
-
-        # C. Bullet / heading prefix pattern
-        if not title:
-            bm = re.search(
-                r"^[➢\-\*•\d\.\s]*\s*([A-Z][^\:\n]{10,250}?)(?:\s+(?:Design Engineering|International Journal|Journal|IEEE|ACM|Springer|Elsevier|Conference|ISSN|Vol|\(\d{4}\)))",
-                cit_text,
-            )
-            if bm:
-                cand_t = bm.group(1).strip()
-                if len(cand_t.split()) >= 3 and not non_pub_regex.search(cand_t):
-                    title = cand_t
-
-        # D. Split parts
-        if not title:
-            parts = re.split(r"[\.\,\;]\s+", cit_text)
-            for p in parts:
-                clean_p = p.strip(' \t"\'“”-–—•*➢')
-                words = clean_p.split()
-                if 4 <= len(words) <= 30:
-                    if not re.search(
-                        r"\b(?:pp|vol|isbn|issn|page|pages|editions?|proceedings|university|department|paper presented|presented in|et\s+al\.?|and\s+[A-Z][a-z]?)\b",
-                        clean_p,
-                        re.IGNORECASE,
-                    ):
-                        if any(w[0].isupper() for w in words if w.isalpha()) and not non_pub_regex.search(clean_p):
-                            title = clean_p
-                            break
-
-        # If title is unidentifiable, never assign valid tier
-        if not title or len(title.split()) < 3:
+        title = PublicationNormalizer._extract_title(cit_text)
+        if not title or (len(title.split()) < 3 and len(title) < 20) or PublicationNormalizer._is_invalid_citation(title):
             return {
                 "title": None,
                 "type": "other",
-                "year": year,
+                "year": None,
                 "tier": "Unranked",
                 "confidence": 0.0,
+                "_source": "offline_fallback",
+                "_is_fallback": True,
             }
 
-        # Determine tier strictly when title is valid
-        if any(w in user_lower for w in ["nature", "acm", "ieee trans", "scs", "q1", "flagship"]):
-            tier = "Tier-1"
-        elif any(w in user_lower for w in ["springer", "elsevier", "iosr", "inderscience", "international journal", "international conference"]):
-            tier = "Tier-2"
-        elif any(w in user_lower for w in ["national conference", "symposium", "workshop", "colloquium"]):
-            tier = "Tier-3"
-        elif any(w in user_lower for w in ["arxiv", "preprint", "biorxiv", "ssrn"]):
-            tier = "Unranked"
-        else:
-            tier = "Tier-2" if pub_type in ("journal", "conference") else "Unranked"
+        year = PublicationNormalizer._extract_year(cit_text)
+        pub_type = PublicationNormalizer._determine_type(hint, cit_text)
 
+        # Do not invent tiers in offline heuristic fallback; return Unranked
         return {
             "title": title,
             "type": pub_type,
             "year": year,
-            "tier": tier,
-            "confidence": 0.80,
+            "tier": "Unranked",
+            "confidence": 0.0,
+            "_source": "offline_fallback",
+            "_is_fallback": True,
         }
+
+

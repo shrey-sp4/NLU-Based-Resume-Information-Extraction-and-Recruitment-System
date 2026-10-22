@@ -67,6 +67,10 @@ class PublicationService:
             if tier not in self.tier_definitions:
                 tier = self.default_fallback_tier
 
+            # If fallback was used or evidence was insufficient, tier must be Unranked
+            if res.get("_is_fallback", False):
+                tier = "Unranked"
+
             pub_type = str(res.get("type", "other")).lower().strip()
             if pub_type not in ("journal", "conference", "other"):
                 pub_type = "other"

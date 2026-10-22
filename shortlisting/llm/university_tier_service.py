@@ -67,7 +67,9 @@ class UniversityTierService:
     def categorize_institution(self, institution: str, degree: str = "") -> Dict[str, Any]:
         """
         Categorizes an educational institution into a configured tier.
-        Returns: {'tier': str, 'confidence': float, 'reason': str}
+        Evaluates strictly the institution entity itself; candidate degree, name, or
+        experience are never used to classify institution tier.
+        Returns: {'tier': str, 'confidence': float, 'reason': str, 'source': str}
         """
         inst_clean = (institution or "").strip()
         if not inst_clean:
@@ -75,6 +77,7 @@ class UniversityTierService:
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": "Institution name is empty or missing.",
+                "source": "rule_filter",
             }
 
         # Guard against table column headers
@@ -83,6 +86,7 @@ class UniversityTierService:
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": "Input is a table column header, not an educational institution.",
+                "source": "rule_filter",
             }
 
         # Guard against school examination boards
@@ -91,6 +95,7 @@ class UniversityTierService:
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": "Input is a secondary school examination board, not a higher-ed institution.",
+                "source": "rule_filter",
             }
 
         # Guard against thesis topics / coursework / metrics
@@ -99,6 +104,7 @@ class UniversityTierService:
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": "Input is a topic or non-institutional phrase.",
+                "source": "rule_filter",
             }
 
         # Check for presence of legitimate institutional evidence
@@ -107,22 +113,30 @@ class UniversityTierService:
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": "Insufficient institutional evidence to classify tier.",
+                "source": "rule_filter",
             }
 
-        user_prompt = f"Institution: {inst_clean}\nDegree: {degree.strip()}"
+        # Strictly classify based on the institution entity alone
+        user_prompt = f"Institution: {inst_clean}"
         try:
             res = self.llm_client.generate_json(self.system_prompt, user_prompt)
             tier = res.get("tier", self.default_fallback_tier)
             if tier not in self.tier_definitions:
                 tier = self.default_fallback_tier
+
+            source = res.get("_source", "llm" if not res.get("_is_fallback", False) else "offline_fallback")
+            conf = float(res.get("confidence", 0.0 if tier == "Unknown" else 0.5))
+
             return {
                 "tier": tier,
-                "confidence": float(res.get("confidence", 0.5)),
+                "confidence": conf,
                 "reason": str(res.get("reason", "")),
+                "source": source,
             }
         except Exception as exc:
             return {
                 "tier": self.default_fallback_tier,
                 "confidence": 0.0,
                 "reason": f"Categorization fallback due to: {exc}",
+                "source": "exception_fallback",
             }

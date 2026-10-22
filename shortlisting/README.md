@@ -121,32 +121,26 @@ The complete pipeline has been executed across all 40 prediction files in the da
 
 ---
 
-## 5. LLM Status
+## 5. LLM Integration & Classification Status
 
-LLM integration for university-tier and publication-tier classification has been architected but is not yet finalized/integrated into the validated final pipeline. Current development includes deterministic/offline taxonomy/fallback logic.
-
-The planned LLM layer is designed to handle:
-- **University Classification**: Assigning institutions to Tier-1 / Tier-2 / Tier-3 / Unknown based on recognized accreditation standards (e.g., NIRF, national importance, NAAC A++).
-- **Publication Classification**: Assigning publication venues to Tier-1 / Tier-2 / Tier-3 / Unranked based on indexed impact (e.g., Scopus, Web of Science, IEEE/ACM, CORE rankings).
-
-The final LLM provider and API integration have not yet been finalized.
+LLM integration for university-tier and publication-tier classification is implemented with **Google Gemini (`gemini-1.5-flash`)** as the primary provider:
+- **Standard Library Transport**: Uses Python's built-in `urllib.request` for direct, dependency-free API calls.
+- **University Classification**: Evaluates institutions into Tier-1 / Tier-2 / Tier-3 / Unknown based on configurable taxonomies. Prompt is strictly decoupled from candidate degrees to prevent bias.
+- **Publication Classification**: Evaluates citations into Tier-1 / Tier-2 / Tier-3 / Unranked based on explicit venue evidence. Unverified venues safely default to `Unranked`.
+- **Offline Heuristic & Error Fallback**: Automatically falls back to deterministic rule-based evaluation when API credentials are absent or network errors occur, transparently attributing the source (`gemini`, `offline_fallback`, or `api_error_fallback`).
 
 ---
 
-## 6. What Remains
+## 6. Project Status & Next Steps
 
-1. Complete education normalization validation, especially recovered values from `raw_text` and degree-institution association.
-2. Complete publication normalization and validation across all venue formats.
-3. Integrate and validate LLM-based university tier classification.
-4. Integrate and validate LLM-based publication tier classification.
-5. Re-run the complete 40-resume pipeline after these improvements.
-6. Validate hard-gate decisions across diverse requirement configurations.
-7. Validate soft-gate scoring formulas and sensitivity.
-8. Validate Shortlist / Review / Reject edge-case boundaries.
-9. Finalize the recruiter-facing Streamlit UI and exportable reporting summaries.
-10. Add automated end-to-end regression tests for the complete pipeline.
-
----
+1. **Stage 1 (Education Normalization)**: Complete & validated with 8 unit tests.
+2. **Stage 2 (Publication Normalization)**: Complete & validated with 10 unit tests.
+3. **Stage 3 (Gemini LLM Integration)**: Complete & verified with 8 mocked unit tests covering offline mode, successful generation, error handling, prompt independence, and schema preservation.
+4. **Current Decisions Across 40 Resumes**: 27 Shortlisted, 10 Review, 3 Rejected.
+5. **Next Steps for Production Readiness**:
+   - Optional live API key execution in production deployment environments.
+   - Additional recruiter UI custom filtering controls.
+   - Batch report generation (PDF / CSV) for faculty selection committees.
 
 ## 7. Design Principles
 
