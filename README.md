@@ -120,7 +120,7 @@ The pipeline is scored against the 10 hand-labelled academic resumes in `ground_
 
 ## 🔍 Known Pipeline Limitations
 
-1. **Hybrid Institution Extraction Ceiling**: Pure keyword matching (`University`, `Institute`, `College`, `School`, `IIT`, `NIT`) has a proven ceiling on non-standard organization names (such as company names like `"Step-Up Jewels"` or school boards like `"BSEMP Bhopal"`). Rather than expanding keyword lists indefinitely, a lightweight statistical NER model (`spacy en_core_web_sm`) is integrated as a fallback to extract `ORG` entities when keywords are absent.
+1. **Hybrid Institution Extraction Ceiling**: Pure keyword matching (`University`, `Institute`, `College`, `School`, `IIT`, `NIT`) has a proven ceiling on non-standard organization names (such as small company names or regional school boards). Rather than expanding keyword lists indefinitely, a lightweight statistical NER model (`spacy en_core_web_sm`) is integrated as a fallback to extract `ORG` entities when keywords are absent.
 2. **Narrative / Prose-Style Skills Sections**: When a candidate writes their skills section as narrative paragraphs rather than itemized bullet points, list-splitting cannot reliably separate individual skills. Rather than returning false bullet points, the pipeline raises an explicit quality flag (`possible_narrative_skills_not_itemized`).
 3. **Complex Multi-Column Headers**: Resumes with dense multi-column headers merged by PDF text extractors can occasionally obscure candidate name boundaries. The pipeline uses multi-space splitting and title-word filtering to mitigate this.
 4. **Small labelled set**: only 10 resumes are hand-labelled, so every accuracy figure is a development-set figure with wide uncertainty; it is not a held-out estimate.
@@ -130,13 +130,13 @@ The pipeline is scored against the 10 hand-labelled academic resumes in `ground_
 
 ## 🚧 Open Issues
 
-**Extraction (dev set)**
+**Extraction (dev set; individual resumes are deliberately not named)**
 
-- `personal_name`: Akash Thakkar still empty (name sits inside the education block; email is on a later line).
-- `experience`: Arghya 7.8 y vs 2.4 y labelled (labelling-scope question on a teaching-assistant role); Chandan 1.0 y vs 0 (a course line is given an "institution" and survives the stub filter).
-- `publications`: Anurag 15 conference papers predicted vs 4 labelled (labels probably incomplete); Anibrata 3 conference papers typed as journal; Aakash 2 missing and 2 merged; Chandan 9 of 12 found; wrapped continuation lines still become separate entries in some CVs.
-- Book chapters for Soumen: 16 predicted vs 4 stated by the author.
-- Section routing misses on a few education blocks (Anurag, Chandan, Akash) and one leaked entry after a "Conferences and Workshops attended" heading are not yet re-verified.
+- `personal_name`: one resume still returns an empty name (the name sits inside the education block and the email appears on a later line).
+- `experience`: one resume is over-counted (7.8 y vs 2.4 y labelled; a labelling-scope question about a teaching-assistant role) and one has a phantom entry (1.0 y vs 0) because a course line is given an "institution" and survives the stub filter.
+- `publications`: one resume predicts 15 conference papers vs 4 labelled (labels probably incomplete); one has 3 conference papers typed as journal; one has 2 missing and 2 merged entries; one finds 9 of 12; wrapped continuation lines still become separate entries in some CVs.
+- Book chapters on one long publication list: 16 predicted vs 4 stated by the author.
+- Section routing misses on three education blocks, and one leaked entry after a "Conferences and Workshops attended" heading, are not yet re-verified.
 
 **Found by running a real CV through the UI (causes not yet diagnosed)**
 
