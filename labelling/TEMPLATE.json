@@ -1,0 +1,15 @@
+{
+  "resume_file": "name_of_the_pdf.pdf",
+  "candidate_name": "",
+  "education": [
+    {"degree": "", "degree_level": "doctorate", "stream": "", "institution": ""}
+  ],
+  "experience": [
+    {"job_title": "", "institution": "", "dates": "", "experience_type": "academic"}
+  ],
+  "publications": [
+    {"title": "", "type": "journal", "year": "", "venue": ""}
+  ],
+  "stated_totals": {"journal": null, "conference": null, "total": null},
+  "notes": ""
+}
